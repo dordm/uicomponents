@@ -12,10 +12,7 @@
     "storybook": "start-storybook -p 9001 -c .storybook"
   },
   "peerDependencies": {
-    "react": "^16.x",
-    "react-dom": "^16.6.0",
-    "babel-core": "^6.26.3",
-    "babel-loader": "^7.0.4"
+    "react": "^16.x"
   },
   "eslintConfig": {
     "extends": "react-app"

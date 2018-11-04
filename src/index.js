@@ -1,12 +1,5 @@
 import React from 'react';
-import './index.css';
+import MyButton from './Components/MyButton'
 
-const Button = ({title, onClick}) => (
-    <button className='Button' onClick={onClick}>
-        {title}
-    </button>
-)
-
-export {Button}
-
+export {MyButton}
 
