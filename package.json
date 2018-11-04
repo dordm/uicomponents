@@ -1,6 +1,6 @@
 {
   "name": "@dordm/uicomponents",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
   "main": "dist/index.js",
   "scripts": {
@@ -33,7 +33,6 @@
     "react": "^16.6.0",
     "react-dom": "^16.6.0"
   },
-
   "repository": "https://bitbucket.org/tiidan/uicomponents#readme",
   "keywords": [],
   "author": "dordm",
