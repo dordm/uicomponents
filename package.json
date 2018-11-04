@@ -1,6 +1,6 @@
 {
   "name": "@dordm/uicomponents",
-  "version": "0.1.0",
+  "version": "0.0.2",
   "scripts": {
     "start": "react-scripts start",
     "clean-dist": "rm -rf ./dist",
@@ -8,9 +8,6 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "storybook": "start-storybook -p 9001 -c .storybook"
-  },
-  "dependencies": {
-    "react-scripts": "^1.1.5"
   },
   "peerDependencies": {
     "react": "^16.x",
