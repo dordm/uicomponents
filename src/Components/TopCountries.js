@@ -1,0 +1,339 @@
+import React, { Component } from "react";
+import { withStyles } from "@material-ui/core/styles/index";
+import PropTypes from "prop-types";
+import Typography from "@material-ui/core/Typography";
+import List from "@material-ui/core/List";
+import ListItem from "@material-ui/core/ListItem";
+import styled from "styled-components";
+import ListItemSecondaryAction from "@material-ui/core/ListItemSecondaryAction";
+import ListItemText from "@material-ui/core/ListItemText";
+import Avatar from "@material-ui/core/Avatar";
+import Utils from "./js/Utils";
+import classNames from "classnames";
+import ReactTooltip from "react-tooltip";
+import Dialog from "@material-ui/core/Dialog";
+import DialogContent from "@material-ui/core/DialogContent";
+import DialogTitle from "@material-ui/core/DialogTitle";
+import {
+  BigBoxLayout,
+  StyledTitle,
+  StyledCloseIcon
+} from "./LowLevelComponents/StyledComponents";
+import NoDataImg from "./LowLevelComponents/NoDataImg";
+
+const PercentBar = styled.div`
+  color: #ffffff;
+  padding: 8px 5px 5px 5px !important;
+  border-bottom: 5px solid #2fd565;
+  position: relative;
+  margin-bottom: 10px;
+  margin-right: 20px;
+  :before {
+    content: "";
+    position: absolute;
+    height: 6px;
+    width: ${props => props.percent}% !important;
+    bottom: -5px;
+    left: ${props => 100 - props.percent + 0.3}% !important;
+    background-color: #e4e8ed;
+  }
+`;
+
+const StyledListItemAll = styled(ListItemText)`
+  padding: ${props => (props.width > 600 ? "" : "0 8px")};
+  width: ${props => (props.width > 600 ? "300px" : "90px")};
+  max-width: ${props => (props.width > 600 ? "300px" : "90px")};
+`;
+
+const styles = {
+  countryImg: {
+    height: 24,
+    width: 26,
+    border: "1px solid #E4E8ED"
+  },
+  listDiv: {
+    width: "100%"
+  },
+  divPercent: {
+    position: "absolute",
+    marginLeft: -38,
+    marginTop: 6
+  },
+  select: {
+    width: 90,
+    marginTop: 12,
+    border: "1px solid #E4E8ED",
+    boxSizing: "border-box",
+    borderRadius: 2,
+    height: 32,
+    background: "#ffffff"
+  },
+  topIcon: {
+    marginTop: -2,
+    marginLeft: 6
+  }
+};
+
+class TopCountries extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      report: this.props.report,
+      selectMonths: 12,
+      otherCountries: 0,
+      viewAllOpen: false
+    };
+  }
+
+  componentDidMount() {
+    this.calcOtherCountries();
+  }
+
+  calcOtherCountries() {
+    let sum = 0,
+      other = 0;
+    let data = [];
+    if (this.props.type === "import") {
+      if (this.state.report.import !== undefined)
+        data =
+          this.state.selectMonths == 12
+            ? this.state.report.import.shipmentByCountry.lastYear
+            : this.state.report.import.shipmentByCountry.lastQuarter;
+    } else
+      data =
+        this.state.selectMonths == 12
+          ? this.state.report.shipmentByCountry.lastYear
+          : this.state.report.shipmentByCountry.lastQuarter;
+
+    for (let i = 0; i < data.length; i++) {
+      let item = data[i];
+      if (i > 3) other += item.value_of_goods;
+
+      sum += item.value_of_goods;
+    }
+    this.setState({
+      otherCountries: Math.round(100 * (other / sum))
+    });
+  }
+
+  componentDidUpdate(prevProps, prevState) {
+    if (this.state.selectMonths !== prevState.selectMonths) {
+      this.calcOtherCountries();
+    }
+  }
+
+  getCountries(getAll) {
+    let countries = [];
+    let sum = 0;
+    let data = [];
+    if (this.props.type === "import") {
+      if (this.state.report.import !== undefined)
+        data =
+          this.state.selectMonths == 12
+            ? this.state.report.import.shipmentByCountry.lastYear
+            : this.state.report.import.shipmentByCountry.lastQuarter;
+    } else
+      data =
+        this.state.selectMonths == 12
+          ? this.state.report.shipmentByCountry.lastYear
+          : this.state.report.shipmentByCountry.lastQuarter;
+
+    for (let i = 0; i < data.length; i++) {
+      let item = data[i];
+      if (i <= 3 || getAll)
+        countries.push({ name: item.country, percent: item.value_of_goods });
+      sum += item.value_of_goods;
+    }
+    countries.forEach(
+      country => (country.percent = Math.round(100 * (country.percent / sum)))
+    );
+    return countries.filter(country => country.percent > 0);
+  }
+
+  render() {
+    const { classes } = this.props;
+    return (
+      <BigBoxLayout container={true} justify={"flex-start"}>
+        <StyledTitle
+          width={this.props.width}
+          mobileWidth={"60%"}
+          otherWidth={"70%"}
+        >
+          <Typography className={classNames("fontStyle1")}>
+            {this.props.type === "import"
+              ? "Top Import Countries"
+              : "Top Export Countries"}
+          </Typography>
+          <div data-tip data-for={"tipCountries"}>
+            <img
+              alt="info"
+              src={Utils.getIcon("info")}
+              className={classes.topIcon}
+            />
+          </div>
+          <ReactTooltip
+            className={classNames("tooltip", "fontStyle14")}
+            id={"tipCountries"}
+            place="right"
+            effect="solid"
+          >
+            <span>
+              {this.props.type === "import"
+                ? "Top countries that the supply is imported from, with data based on governmental custom sources as declared by the supplier (defined in the Bill of lading)."
+                : "Top countries that the supply is exported to, with data based on governmental custom sources as declared by the supplier (defined in the Bill of lading)."}
+            </span>
+          </ReactTooltip>
+        </StyledTitle>
+        <select
+          onChange={e => this.setState({ selectMonths: e.target.value })}
+          className={classNames(classes.select, "fontStyle16")}
+          defaultValue={this.state.selectMonths}
+        >
+          <option value={4}>Last quarter</option>
+          <option value={12}>Last year</option>
+        </select>
+        {this.getCountries(false).length > 0 ? (
+          <div className={classes.listDiv}>
+            <List>
+              {this.getCountries().map(country => {
+                return (
+                  <ListItem
+                    style={{ paddingTop: 10, paddingBottom: 10 }}
+                    key={country.name}
+                  >
+                    <Avatar
+                      className={classes.countryImg}
+                      src={Utils.getCountry(country.name)}
+                    />
+                    <ListItemText
+                      primary={
+                        <Typography className={"fontStyle7"}>
+                          {country.name}
+                        </Typography>
+                      }
+                    />
+
+                    <ListItemSecondaryAction
+                      style={{
+                        width: this.props.width > 600 ? "40%" : "30%"
+                      }}
+                    >
+                      <div
+                        className={classNames(classes.divPercent, "fontStyle5")}
+                      >
+                        {country.percent}%
+                      </div>
+                      <PercentBar percent={100 - country.percent} />
+                    </ListItemSecondaryAction>
+                  </ListItem>
+                );
+              })}
+              {this.state.otherCountries !== 0 ? (
+                <ListItem
+                  style={{ paddingTop: 10, paddingBottom: 10 }}
+                  key={"other"}
+                >
+                  <Avatar
+                    className={classes.countryImg}
+                    src={Utils.getCountry("Other")}
+                  />
+                  <ListItemText
+                    primary={
+                      <div
+                        className={"fontStyle6"}
+                        style={{ cursor: "pointer" }}
+                        onClick={() => this.setState({ viewAllOpen: true })}
+                      >
+                        Other
+                        <img
+                          alt="other"
+                          src={require("./images/Back.png")}
+                          style={{ position: "absolute" }}
+                        />
+                      </div>
+                    }
+                  />
+                  <ListItemSecondaryAction
+                    style={{ width: this.props.width > 600 ? "40%" : "30%" }}
+                  >
+                    <div
+                      className={classNames(classes.divPercent, "fontStyle5")}
+                    >
+                      {this.state.otherCountries}%
+                    </div>
+                    <PercentBar percent={100 - this.state.otherCountries} />
+                  </ListItemSecondaryAction>
+                </ListItem>
+              ) : (
+                ""
+              )}
+            </List>
+          </div>
+        ) : (
+          <NoDataImg />
+        )}
+        <Dialog
+          open={this.state.viewAllOpen}
+          onClose={() => this.setState({ viewAllOpen: false })}
+          aria-labelledby="scroll-dialog-title"
+        >
+          <StyledCloseIcon
+            onClick={() => this.setState({ viewAllOpen: false })}
+          >
+            <img alt="Close" src={require("./images/Close.png")} />
+          </StyledCloseIcon>
+          <DialogTitle className={"fontStyle3"} style={{ textAlign: "center" }}>
+            All Countries
+          </DialogTitle>
+          <DialogContent
+            style={{
+              padding: "0 0 0",
+              width: this.props.width > 600 ? "" : 250
+            }}
+          >
+            <List>
+              {this.getCountries(true).map(country => {
+                return (
+                  <ListItem key={country.name}>
+                    <Avatar
+                      className={classes.countryImg}
+                      src={Utils.getCountry(country.name)}
+                    />
+                    <StyledListItemAll
+                      width={this.props.width}
+                      primary={
+                        <Typography className={"fontStyle7"}>
+                          {country.name}
+                        </Typography>
+                      }
+                    />
+
+                    <ListItemSecondaryAction
+                      style={{
+                        width: this.props.width > 600 ? "40%" : "30%"
+                      }}
+                    >
+                      <div
+                        style={{ marginLeft: -30 }}
+                        className={classNames(classes.divPercent, "fontStyle5")}
+                      >
+                        {country.percent}%
+                      </div>
+                      <PercentBar percent={100 - country.percent} />
+                    </ListItemSecondaryAction>
+                  </ListItem>
+                );
+              })}
+            </List>
+          </DialogContent>
+        </Dialog>
+      </BigBoxLayout>
+    );
+  }
+}
+
+TopCountries.propTypes = {
+  classes: PropTypes.object.isRequired
+};
+
+export default withStyles(styles)(TopCountries);

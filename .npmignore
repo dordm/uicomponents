@@ -2,3 +2,6 @@
 .storybook/
 __test__/
 stories/
+storybook-static/
+src/
+public/
