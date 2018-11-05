@@ -64,6 +64,14 @@ class InfoCard extends Component {
     };
   }
 
+    componentDidUpdate(prevProps, prevState) {
+        if (prevProps.content !== this.props.content) {
+            this.setState({
+                content: Utils.fixNumber(this.props.content)
+            });
+        }
+    }
+
   render() {
     const { classes } = this.props;
     return this.state.content !== "" &&

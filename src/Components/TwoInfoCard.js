@@ -175,6 +175,19 @@ class TwoInfoCard extends Component {
     };
   }
 
+    componentDidUpdate(prevProps, prevState) {
+        if (prevProps.content1 !== this.props.content1) {
+            this.setState({
+                content1: Utils.fixNumber(this.props.content1)
+            });
+        }
+        if (prevProps.content2 !== this.props.content2) {
+            this.setState({
+                content2: Utils.fixNumber(this.props.content2)
+            });
+        }
+    }
+
   render() {
     const { classes } = this.props;
     return (this.state.content1 !== "" &&
