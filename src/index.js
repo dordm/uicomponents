@@ -13,6 +13,7 @@ import MyTooltip from './Components/LowLevelComponents/MyTooltip';
 import NoDataImg from './Components/LowLevelComponents/NoDataImg';
 import PieChart from './Components/LowLevelComponents/PieChart';
 import ScoreAvatar from './Components/LowLevelComponents/ScoreAvatar';
+import NumberFormatCustom from './Components/LowLevelComponents/NumberFormatCustom'
 import {StyledCloseIcon, SearchInputWrapper, StyledButton, MyButton, StyledTitle, ReportLayout, PackagesLayout,
     DefaultLayout, BigBoxLayout, SmallBoxLayout, StyledDivSearch, StyledSearchIcon} from './Components/LowLevelComponents/StyledComponents';
 
@@ -40,5 +41,5 @@ export {CompanyScore, Utils, MySuppliersUtils, SourcingUtils, IPUtils, Customize
     SearchInputWrapper, StyledButton, MyButton, StyledTitle, ReportLayout, PackagesLayout,
     DefaultLayout, BigBoxLayout, SmallBoxLayout, StyledDivSearch, StyledSearchIcon, AreaTwoCharts, Certifications, Industry, InfoCard,
     LineTwoCharts, Media, PieChartWrapper, PublicFinancialRatio, PublicFinancial, RecommendCredit, RegistrationDetails,
-    SocialMedia, TwoInfoCard, TotalExports, TopProducts, TopInsights, TopCountries}
+    SocialMedia, TwoInfoCard, TotalExports, TopProducts, TopInsights, TopCountries, NumberFormatCustom}
 
