@@ -55,12 +55,7 @@ class InfoCard extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      name: this.props.name,
-      infoText: this.props.infoText,
-      date: this.props.date,
-      content: Utils.fixNumber(this.props.content),
-      bottomIcon: this.props.bottomIcon,
-      bottomMsg: this.props.bottomMsg
+      content: Utils.fixNumber(this.props.content)
     };
   }
 
@@ -89,13 +84,13 @@ class InfoCard extends Component {
             otherWidth={""}
           >
             <StyledDivTitle
-              style={{ width: this.state.date === "" ? "100%" : "" }}
+              style={{ width: this.props.date === "" ? "100%" : "" }}
               width={this.props.width}
             >
               <Typography className={classNames("fontStyle1")}>
-                {this.state.name}
+                {this.props.name}
               </Typography>
-              <div data-tip data-for={"tip" + this.state.name}>
+              <div data-tip data-for={"tip" + this.props.name}>
                 <img
                   alt="info"
                   src={Utils.getIcon("info")}
@@ -104,16 +99,16 @@ class InfoCard extends Component {
               </div>
               <ReactTooltip
                 className={classNames("tooltip", "fontStyle14")}
-                id={"tip" + this.state.name}
+                id={"tip" + this.props.name}
                 place="right"
                 effect="solid"
               >
-                <span>{this.state.infoText}</span>
+                <span>{this.props.infoText}</span>
               </ReactTooltip>
             </StyledDivTitle>
-            {this.state.date !== "" ? (
+            {this.props.date !== "" ? (
               <Typography className={classNames(classes.date, "fontStyle12")}>
-                {this.state.date}
+                {this.props.date}
               </Typography>
             ) : (
               ""
@@ -126,27 +121,27 @@ class InfoCard extends Component {
               {this.state.content}
             </Typography>
           </div>
-          {this.state.bottomMsg !== "" &&
-          this.state.bottomMsg !== null &&
-          this.state.bottomMsg !== undefined ? (
+          {this.props.bottomMsg !== "" &&
+          this.props.bottomMsg !== null &&
+          this.props.bottomMsg !== undefined ? (
             <Typography
               className={classNames(classes.bottomContent, "fontStyle11")}
             >
-              {this.state.bottomIcon != null ? (
+              {this.props.bottomIcon != null ? (
                 <img
                   height={24}
                   width={24}
                   alt="bottomIcon"
                   className={classes.bottomIcon}
-                  src={this.state.bottomIcon}
+                  src={this.props.bottomIcon}
                 />
               ) : (
                 ""
               )}
               <label
-                style={{ marginLeft: this.state.bottomIcon != null ? 25 : 0 }}
+                style={{ marginLeft: this.props.bottomIcon != null ? 25 : 0 }}
               >
-                {this.state.bottomMsg}
+                {this.props.bottomMsg}
               </label>
             </Typography>
           ) : (
@@ -163,7 +158,7 @@ class InfoCard extends Component {
           otherWidth={""}
           className={"fontStyle1"}
         >
-          {this.state.name}
+          {this.props.name}
         </StyledTitle>
         <NoDataImg width={this.props.width} smallBox={true} />
       </SmallBoxLayout>
