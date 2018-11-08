@@ -35,17 +35,6 @@ const styles = {
 };
 
 class PieChartWrapper extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      data: this.props.data,
-      bottomMsg: this.props.bottomMsg,
-      bottomIcon: this.props.bottomIcon,
-      title: this.props.title,
-      dataKey: this.props.dataKey,
-      infoText: this.props.infoText
-    };
-  }
 
   render() {
     const { classes } = this.props;
@@ -57,9 +46,9 @@ class PieChartWrapper extends Component {
       >
         <StyledTitle width={this.props.width} mobileWidth={""} otherWidth={""}>
           <Typography className={classNames("fontStyle1")}>
-            {this.state.title}
+            {this.props.title}
           </Typography>
-          <div data-tip data-for={"tip" + this.state.title}>
+          <div data-tip data-for={"tip" + this.props.title}>
             <img
               alt="info"
               src={Utils.getIcon("info")}
@@ -68,40 +57,40 @@ class PieChartWrapper extends Component {
           </div>
           <ReactTooltip
             className={classNames("tooltip", "fontStyle14")}
-            id={"tip" + this.state.title}
+            id={"tip" + this.props.title}
             place="right"
             effect="solid"
           >
-            <span>{this.state.infoText}</span>
+            <span>{this.props.infoText}</span>
           </ReactTooltip>
         </StyledTitle>
-        {this.state.data !== undefined && this.state.data.length > 0 ? (
+        {this.props.data !== undefined && this.props.data.length > 0 ? (
           <PieChart
             width={this.props.width}
             height={"80%"}
-            data={this.state.data}
+            data={this.props.data}
             unit={"%"}
-            dataKey={this.state.dataKey}
+            dataKey={this.props.dataKey}
             cx={this.props.width > 600 ? 110 : 90}
             cy={100}
             innerRadius={this.props.width > 600 ? 70 : 55}
             outerRadius={this.props.width > 600 ? 85 : 70}
-            title={this.state.title}
+            title={this.props.title}
           />
         ) : (
           <NoDataImg />
         )}
         <Typography className={classNames(classes.bottomMsg, "fontStyle11")}>
-          {this.state.bottomMsg !== "" && this.state.bottomMsg !== null ? (
+          {this.props.bottomMsg !== "" && this.props.bottomMsg !== null ? (
             <img
               alt="bottomIcon"
               className={classes.bottomIcon}
-              src={Utils.getIconByNumber(this.state.bottomIcon)}
+              src={Utils.getIconByNumber(this.props.bottomIcon)}
             />
           ) : (
             ""
           )}
-          <label style={{ marginLeft: 25 }}>{this.state.bottomMsg}</label>
+          <label style={{ marginLeft: 25 }}>{this.props.bottomMsg}</label>
         </Typography>
       </BigBoxLayout>
     );
