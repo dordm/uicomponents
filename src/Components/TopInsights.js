@@ -93,14 +93,14 @@ class TopInsights extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      data: this.props.data,
+      // data: this.props.data,
       allInsightsOpen: false,
       category: this.props.category
     };
   }
 
   getFilteredInsights(withTop) {
-    return this.state.data.filter(
+    return this.props.data.filter(
       insight =>
         insight.text !== "" &&
         insight.text !== null &&
@@ -185,9 +185,9 @@ class TopInsights extends Component {
           </DialogTitle>
           <DialogContent>
             <List>
-              {this.getFilteredInsights(false).map(insight => {
+              {this.getFilteredInsights(false).map((insight,idx) => {
                 return (
-                  <div key={this.state.data.indexOf(insight)}>
+                  <div key={idx}>
                     <ListItem>
                       <img
                         height={24}
