@@ -49,6 +49,41 @@ class Utils {
     }
   }
 
+  static getProfitabilityMsg(val){
+      switch (val) {
+          case "0 to 10%":
+          case "0 to 10%.":
+          case "10% to 50%":
+          case "10% to 50%.":
+              return "Net profit margin";
+          case "-10% to 0":
+          case "-10% to 0.":
+          case "-50% to -10%":
+          case "-50% to -10%.":
+              return "Net loss margin";
+          default:
+            return "";
+      }
+  }
+
+    static getProfitabilityType(val){
+        let profitabilityType, profitabilityMsg;
+        switch (val) {
+            case "0 to 10%":
+            case "0 to 10%.":
+            case "10% to 50%":
+            case "10% to 50%.":
+                return 2;
+            case "-10% to 0":
+            case "-10% to 0.":
+            case "-50% to -10%":
+            case "-50% to -10%.":
+                return 3;
+            default:
+                return "";
+        }
+    }
+
   static getEmployeeMsg(val) {
     let minVal;
     let newVal = val

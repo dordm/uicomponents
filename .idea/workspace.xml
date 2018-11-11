@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="deedca82-8ad4-4e62-ac9a-df5681d3be65" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/TopInsights.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/TopInsights.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/js/Utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/js/Utils.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -75,8 +74,8 @@
       <file leaf-file-name="Utils.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Components/js/Utils.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="9537">
-              <caret line="561" column="5" selection-start-line="561" selection-start-column="5" selection-end-line="561" selection-end-column="5" />
+            <state relative-caret-position="118">
+              <caret line="78" column="32" lean-forward="true" selection-start-line="78" selection-start-column="32" selection-end-line="78" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -149,6 +148,7 @@
       <find>CustomLabel</find>
       <find>this.state.</find>
       <find>this.state.data</find>
+      <find>getE</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -180,12 +180,12 @@
         <option value="$PROJECT_DIR$/src/Components/SocialMedia.js" />
         <option value="$PROJECT_DIR$/src/Components/TopCountries.js" />
         <option value="$PROJECT_DIR$/src/Components/js/ImagesUtils.js" />
-        <option value="$PROJECT_DIR$/src/Components/js/Utils.js" />
         <option value="$PROJECT_DIR$/src/index.js" />
         <option value="$PROJECT_DIR$/src/Components/InfoCard.js" />
         <option value="$PROJECT_DIR$/src/Components/TwoInfoCard.js" />
         <option value="$PROJECT_DIR$/src/Components/PieChartWrapper.js" />
         <option value="$PROJECT_DIR$/src/Components/TopInsights.js" />
+        <option value="$PROJECT_DIR$/src/Components/js/Utils.js" />
         <option value="$PROJECT_DIR$/package.json" />
       </list>
     </option>
@@ -261,7 +261,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../backendApp" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../app" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -308,15 +308,16 @@
       <workItem from="1541603939511" duration="751000" />
       <workItem from="1541688557291" duration="790000" />
       <workItem from="1541693144999" duration="738000" />
-      <workItem from="1541922848569" duration="2306000" />
+      <workItem from="1541922848569" duration="3650000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34686000" />
+    <option name="totallyTimeSpent" value="36030000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27449948" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -551,13 +552,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/js/Utils.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="9537">
-          <caret line="561" column="5" selection-start-line="561" selection-start-column="5" selection-end-line="561" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/Industry.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1717">
@@ -629,6 +623,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="458">
           <caret line="185" column="25" selection-start-line="185" selection-start-column="25" selection-end-line="185" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/js/Utils.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="118">
+          <caret line="78" column="32" lean-forward="true" selection-start-line="78" selection-start-column="32" selection-end-line="78" selection-end-column="32" />
         </state>
       </provider>
     </entry>
