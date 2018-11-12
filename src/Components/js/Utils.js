@@ -67,7 +67,6 @@ class Utils {
   }
 
     static getProfitabilityType(val){
-        let profitabilityType, profitabilityMsg;
         switch (val) {
             case "0 to 10%":
             case "0 to 10%.":
