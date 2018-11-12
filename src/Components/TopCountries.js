@@ -78,7 +78,6 @@ class TopCountries extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      report: this.props.report,
       selectMonths: 12,
       otherCountries: 0,
       viewAllOpen: false
@@ -94,16 +93,16 @@ class TopCountries extends Component {
       other = 0;
     let data = [];
     if (this.props.type === "import") {
-      if (this.state.report.import !== undefined)
+      if (this.props.report.import !== undefined)
         data =
           this.state.selectMonths == 12
-            ? this.state.report.import.shipmentByCountry.lastYear
-            : this.state.report.import.shipmentByCountry.lastQuarter;
+            ? this.props.report.import.shipmentByCountry.lastYear
+            : this.props.report.import.shipmentByCountry.lastQuarter;
     } else
       data =
         this.state.selectMonths == 12
-          ? this.state.report.shipmentByCountry.lastYear
-          : this.state.report.shipmentByCountry.lastQuarter;
+          ? this.props.report.shipmentByCountry.lastYear
+          : this.props.report.shipmentByCountry.lastQuarter;
 
     for (let i = 0; i < data.length; i++) {
       let item = data[i];
@@ -127,16 +126,16 @@ class TopCountries extends Component {
     let sum = 0;
     let data = [];
     if (this.props.type === "import") {
-      if (this.state.report.import !== undefined)
+      if (this.props.report.import !== undefined)
         data =
           this.state.selectMonths == 12
-            ? this.state.report.import.shipmentByCountry.lastYear
-            : this.state.report.import.shipmentByCountry.lastQuarter;
+            ? this.props.report.import.shipmentByCountry.lastYear
+            : this.props.report.import.shipmentByCountry.lastQuarter;
     } else
       data =
         this.state.selectMonths == 12
-          ? this.state.report.shipmentByCountry.lastYear
-          : this.state.report.shipmentByCountry.lastQuarter;
+          ? this.props.report.shipmentByCountry.lastYear
+          : this.props.report.shipmentByCountry.lastQuarter;
 
     for (let i = 0; i < data.length; i++) {
       let item = data[i];
