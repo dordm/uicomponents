@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="deedca82-8ad4-4e62-ac9a-df5681d3be65" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/js/Utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/js/Utils.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -38,11 +37,29 @@
       <file leaf-file-name="TopProducts.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Components/TopProducts.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1275">
-              <caret line="87" column="18" selection-start-line="87" selection-start-column="18" selection-end-line="87" selection-end-column="18" />
+            <state relative-caret-position="160">
+              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TotalExports.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Components/TotalExports.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="50" column="61" selection-start-line="50" selection-start-column="44" selection-end-line="50" selection-end-column="61" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TopCountries.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Components/TopCountries.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="276">
+              <caret line="137" column="47" selection-start-line="137" selection-start-column="30" selection-end-line="137" selection-end-column="47" />
             </state>
           </provider>
         </entry>
@@ -63,40 +80,16 @@
         <entry file="file://$PROJECT_DIR$/src/Components/js/Utils.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="254">
-              <caret line="77" column="30" selection-start-line="77" selection-start-column="18" selection-end-line="77" selection-end-column="30" />
+              <caret line="77" column="32" lean-forward="true" selection-start-line="77" selection-start-column="32" selection-end-line="77" selection-end-column="32" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="fonts.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="fonts.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Components/css/fonts.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="85">
               <caret line="176" column="12" selection-start-line="176" selection-start-column="1" selection-end-line="176" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TwoInfoCard.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Components/TwoInfoCard.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2431">
-              <caret line="164" selection-start-line="164" selection-end-line="164" />
-              <folding>
-                <element signature="e#0#41#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="InfoCard.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Components/InfoCard.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="765">
-              <caret line="57" column="50" selection-start-line="57" selection-start-column="50" selection-end-line="57" selection-end-column="50" />
-              <folding>
-                <element signature="e#0#41#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -265,7 +258,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../manage" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../api-server" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -313,12 +306,12 @@
       <workItem from="1541688557291" duration="790000" />
       <workItem from="1541693144999" duration="738000" />
       <workItem from="1541922848569" duration="4325000" />
-      <workItem from="1542009552482" duration="2286000" />
+      <workItem from="1542009552482" duration="5195000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38991000" />
+    <option name="totallyTimeSpent" value="41900000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
@@ -502,20 +495,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/TopCountries.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="282" column="51" selection-start-line="282" selection-start-column="45" selection-end-line="282" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/TotalExports.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="18" column="32" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/js/MySuppliersUtils.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -581,16 +560,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/TopProducts.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1275">
-          <caret line="87" column="18" selection-start-line="87" selection-start-column="18" selection-end-line="87" selection-end-column="18" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/PieChartWrapper.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="901">
@@ -632,17 +601,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/js/Utils.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
-          <caret line="77" column="30" selection-start-line="77" selection-start-column="18" selection-end-line="77" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/css/fonts.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="176" column="12" selection-start-line="176" selection-start-column="1" selection-end-line="176" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/js/Utils.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="254">
+          <caret line="77" column="32" lean-forward="true" selection-start-line="77" selection-start-column="32" selection-end-line="77" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/TopProducts.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/TotalExports.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="50" column="61" selection-start-line="50" selection-start-column="44" selection-end-line="50" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/TopCountries.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="137" column="47" selection-start-line="137" selection-start-column="30" selection-end-line="137" selection-end-column="47" />
         </state>
       </provider>
     </entry>

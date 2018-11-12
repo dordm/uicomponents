@@ -117,7 +117,7 @@ class TopCountries extends Component {
   }
 
   componentDidUpdate(prevProps, prevState) {
-    if (this.state.selectMonths !== prevState.selectMonths) {
+    if (this.state.selectMonths !== prevState.selectMonths || this.props.report !== prevProps.report) {
       this.calcOtherCountries();
     }
   }
