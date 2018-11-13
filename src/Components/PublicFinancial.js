@@ -56,7 +56,6 @@ class PublicFinancial extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      data: this.props.data,
       date: this.props.date
     };
   }
@@ -89,7 +88,7 @@ class PublicFinancial extends Component {
               </span>
             </ReactTooltip>
           </StyledTitle>
-          {this.state.date !== "" && this.state.data != null ? (
+          {this.state.date !== "" && this.props.data != null ? (
             <Typography className={classNames(classes.date, "fontStyle12")}>
               {this.state.date}
             </Typography>
@@ -97,7 +96,7 @@ class PublicFinancial extends Component {
             ""
           )}
         </div>
-        {this.state.data != null ? (
+        {this.props.data != null ? (
           <div className={classes.listDiv}>
             <List>
               <ListItem>
@@ -117,7 +116,7 @@ class PublicFinancial extends Component {
                   )}
                 >
                   {"$" +
-                    new Intl.NumberFormat("en").format(this.state.data.revenue)}
+                    new Intl.NumberFormat("en").format(this.props.data.revenue)}
                 </ListItemSecondaryAction>
               </ListItem>
               <ListItem>
@@ -141,7 +140,7 @@ class PublicFinancial extends Component {
                 >
                   {"$" +
                     new Intl.NumberFormat("en").format(
-                      this.state.data.netProfit
+                      this.props.data.netProfit
                     )}
                 </ListItemSecondaryAction>
               </ListItem>
@@ -168,7 +167,7 @@ class PublicFinancial extends Component {
                 >
                   {"$" +
                     new Intl.NumberFormat("en").format(
-                      this.state.data.totalAssets
+                      this.props.data.totalAssets
                     )}
                 </ListItemSecondaryAction>
               </ListItem>
@@ -195,12 +194,12 @@ class PublicFinancial extends Component {
                 >
                   {"$" +
                     new Intl.NumberFormat("en").format(
-                      this.state.data.totalLiabilities
+                      this.props.data.totalLiabilities
                     )}
                 </ListItemSecondaryAction>
               </ListItem>
               <ListItem>
-                {this.state.data.icon !== undefined ? (
+                {this.props.data.icon !== undefined ? (
                   <ListItemIcon className={classes.icon}>
                     <img alt="msg" src={Utils.getIcon("")} />
                   </ListItemIcon>

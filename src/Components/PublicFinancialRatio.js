@@ -60,7 +60,6 @@ class PublicFinancialRatio extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      data: this.props.data,
       date: this.props.date
     };
   }
@@ -92,7 +91,7 @@ class PublicFinancialRatio extends Component {
               </span>
             </ReactTooltip>
           </StyledTitle>
-          {this.state.date !== "" && this.state.data != null ? (
+          {this.state.date !== "" && this.props.data != null ? (
             <Typography className={classNames(classes.date, "fontStyle12")}>
               {this.state.date}
             </Typography>
@@ -100,7 +99,7 @@ class PublicFinancialRatio extends Component {
             ""
           )}
         </div>
-        {this.state.data != null ? (
+        {this.props.data != null ? (
           <div className={classes.listDiv}>
             <List>
               <ListItem>
@@ -121,7 +120,7 @@ class PublicFinancialRatio extends Component {
                     "fontStyle10"
                   )}
                 >
-                  {this.state.data.currentRatio.toFixed(2)}
+                  {this.props.data.currentRatio.toFixed(2)}
                 </ListItemSecondaryAction>
               </ListItem>
               <ListItem>
@@ -145,7 +144,7 @@ class PublicFinancialRatio extends Component {
                     "fontStyle10"
                   )}
                 >
-                  {(this.state.data.totalLiabilities * 100).toFixed(0) + "%"}
+                  {(this.props.data.totalLiabilities * 100).toFixed(0) + "%"}
                 </ListItemSecondaryAction>
               </ListItem>
               <ListItem>
@@ -169,11 +168,11 @@ class PublicFinancialRatio extends Component {
                     "fontStyle10"
                   )}
                 >
-                  {this.state.data.turnoverRatio.toFixed(2)}
+                  {this.props.data.turnoverRatio.toFixed(2)}
                 </ListItemSecondaryAction>
               </ListItem>
               <ListItem>
-                {this.state.data.icon !== undefined ? (
+                {this.props.data.icon !== undefined ? (
                   <ListItemIcon className={classes.icon}>
                     <img alt="msg" src={Utils.getIcon("")} />
                   </ListItemIcon>
