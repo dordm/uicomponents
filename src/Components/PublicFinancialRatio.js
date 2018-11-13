@@ -120,7 +120,7 @@ class PublicFinancialRatio extends Component {
                     "fontStyle10"
                   )}
                 >
-                  {this.props.data.currentRatio.toFixed(2)}
+                  {this.props.data.currentRatio !== undefined ? this.props.data.currentRatio.toFixed(2) : ''}
                 </ListItemSecondaryAction>
               </ListItem>
               <ListItem>
@@ -144,7 +144,7 @@ class PublicFinancialRatio extends Component {
                     "fontStyle10"
                   )}
                 >
-                  {(this.props.data.totalLiabilities * 100).toFixed(0) + "%"}
+                  {this.props.data.totalLiabilities !== undefined ? (this.props.data.totalLiabilities * 100).toFixed(0) + "%" : ''}
                 </ListItemSecondaryAction>
               </ListItem>
               <ListItem>
@@ -168,7 +168,7 @@ class PublicFinancialRatio extends Component {
                     "fontStyle10"
                   )}
                 >
-                  {this.props.data.turnoverRatio.toFixed(2)}
+                  {this.props.data.turnoverRatio !== undefined ? this.props.data.turnoverRatio.toFixed(2) : ''}
                 </ListItemSecondaryAction>
               </ListItem>
               <ListItem>
