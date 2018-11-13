@@ -122,7 +122,7 @@ class Certifications extends Component {
           <div className={classes.listDiv}>
             <div className={classes.listDiv}>
               <List disablePadding={true} dense={true}>
-                {this.state.report.certificates.slice(0, 5).map(certificate => {
+                {this.state.report.certificates.filter(certificate => certificate.name !== '').slice(0, 5).map(certificate => {
                   return (
                     <ListItem key={certificate.name}>
                       <ListItemIcon className={classes.icon}>
@@ -208,7 +208,7 @@ class Certifications extends Component {
           </DialogTitle>
           <DialogContent style={{ padding: "0 0 0" }}>
             <List>
-              {this.state.report.certificates.map(certificate => {
+              {this.state.report.certificates.filter(certificate => certificate.name !== '').map(certificate => {
                 return (
                   <div key={certificate.name}>
                     <ListItem
