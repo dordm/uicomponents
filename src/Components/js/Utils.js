@@ -599,7 +599,7 @@ class Utils {
   static roundDivision(val1, val2) {
     try {
       const res = Math.round(val1 / val2);
-      return isNaN(res) ? "" : res;
+      return isNaN(res) || res === Infinity ? "" : res;
     } catch (e) {
       return "";
     }
