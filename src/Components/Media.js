@@ -116,9 +116,9 @@ class Media extends Component {
         {this.state.report.medias !== undefined &&
         this.state.report.medias.length > 0 ? (
           <div className={classes.divMedia}>
-            {this.state.report.medias.slice(0, 4).map(media => {
+            {this.state.report.medias.slice(0, 4).map((media, idx) => {
               return (
-                <div key={media.id}>
+                <div key={idx}>
                   <div className={classes.innerDivMedia}>
                     <img
                       height={24}
@@ -161,9 +161,9 @@ class Media extends Component {
             <List>
               {this.state.report.medias !== undefined &&
               this.state.report.medias.length > 0
-                ? this.state.report.medias.map(media => {
+                ? this.state.report.medias.map((media, idx) => {
                     return (
-                      <div key={media.id}>
+                      <div key={idx}>
                         <ListItem>
                           <img
                             height={24}
