@@ -11,6 +11,8 @@ import {
   StyledTitle
 } from "./LowLevelComponents/StyledComponents";
 
+window.__MUI_USE_NEXT_TYPOGRAPHY_VARIANTS__ = true;
+
 let isIE = /*@cc_on!@*/ false || !!document.documentMode;
 
 const RiskLbl = styled.label`

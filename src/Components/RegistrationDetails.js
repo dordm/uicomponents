@@ -12,6 +12,8 @@ import Utils from "./js/Utils";
 import ReactTooltip from "react-tooltip";
 import { BigBoxLayout } from "./LowLevelComponents/StyledComponents";
 
+window.__MUI_USE_NEXT_TYPOGRAPHY_VARIANTS__ = true;
+
 const styles = {
   title: {
     marginTop: 19,

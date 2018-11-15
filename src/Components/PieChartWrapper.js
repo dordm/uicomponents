@@ -12,6 +12,8 @@ import {
 } from "./LowLevelComponents/StyledComponents";
 import NoDataImg from "./LowLevelComponents/NoDataImg";
 
+window.__MUI_USE_NEXT_TYPOGRAPHY_VARIANTS__ = true;
+
 const styles = {
   bottomMsg: {
     marginTop: -20,

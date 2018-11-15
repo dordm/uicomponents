@@ -17,6 +17,8 @@ import {
   StyledCloseIcon
 } from "./LowLevelComponents/StyledComponents";
 
+window.__MUI_USE_NEXT_TYPOGRAPHY_VARIANTS__ = true;
+
 const styles = {
   itemText: {
     lineHeight: "32px"

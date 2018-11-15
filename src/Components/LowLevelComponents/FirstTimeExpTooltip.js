@@ -4,6 +4,8 @@ import { withStyles } from "@material-ui/core/styles";
 import Tooltip from "@material-ui/core/Tooltip";
 import classNames from "classnames";
 
+window.__MUI_USE_NEXT_TYPOGRAPHY_VARIANTS__ = true;
+
 const styles = {
   blueTooltip: {
     background: "#182D5A",

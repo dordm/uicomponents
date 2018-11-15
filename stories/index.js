@@ -7,6 +7,8 @@ import RecommendCredit from '../src/Components/RecommendCredit'
 import reportData from './MockData/reportData'
 import '../src/Components/css/fonts.css'
 
+window.__MUI_USE_NEXT_TYPOGRAPHY_VARIANTS__ = true;
+
 
 storiesOf('Components', module)
     .add('Company Score', () => (

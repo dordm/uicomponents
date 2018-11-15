@@ -14,6 +14,8 @@ import styled from "styled-components";
 import { BigBoxLayout } from "./LowLevelComponents/StyledComponents";
 import NoDataImg from "./LowLevelComponents/NoDataImg";
 
+window.__MUI_USE_NEXT_TYPOGRAPHY_VARIANTS__ = true;
+
 const StyledTitle = styled.div`
   display: flex;
   width: ${props => (props.width > 600 ? "70%" : "60%")};
@@ -31,7 +33,8 @@ const styles = {
   icon: {
     height: 16,
     width: 16,
-    marginTop: -2
+    marginTop: -2,
+      display:'block'
   },
   listDiv: {
     width: "100%"
@@ -104,7 +107,7 @@ class PublicFinancialRatio extends Component {
             <List>
               <ListItem>
                 <ListItemIcon className={classes.icon}>
-                  <img alt="ratio" src={require("./images/ratio.svg")} />
+                  <img height={16} width={16} alt="ratio" src={require("./images/ratio.svg")} />
                 </ListItemIcon>
                 <ListItemText
                   style={{ marginLeft: -25 }}
@@ -126,6 +129,7 @@ class PublicFinancialRatio extends Component {
               <ListItem>
                 <ListItemIcon className={classes.icon}>
                   <img
+                      height={16} width={16}
                     alt="liabilities"
                     src={require("./images/liabilities.svg")}
                   />
@@ -150,6 +154,7 @@ class PublicFinancialRatio extends Component {
               <ListItem>
                 <ListItemIcon className={classes.icon}>
                   <img
+                      height={16} width={16}
                     alt="turnover ratio"
                     src={require("./images/turnover.svg")}
                   />
