@@ -125,10 +125,13 @@ class SocialMedia extends Component {
               />
               <ListItemSecondaryAction
                 className={classNames(classes.listItemSecondary, "fontStyle10")}
+                onClick={() => this.state.report.linkedin !== null && this.state.report.linkedin !== '' ? this.openWebsite(this.state.report.linkedin) : '' }
               >
-                {this.state.report.linkedin !== undefined
-                  ? this.state.report.linkedin
-                  : ""}
+                  <StyledLblWebsite link={this.state.report.linkedin !== null && this.state.report.linkedin !== ''}>
+                      {this.state.report.linkedin !== undefined
+                          ? this.state.report.linkedin
+                          : ""}
+                  </StyledLblWebsite>
               </ListItemSecondaryAction>
             </ListItem>
             <ListItem>
@@ -143,10 +146,13 @@ class SocialMedia extends Component {
               />
               <ListItemSecondaryAction
                 className={classNames(classes.listItemSecondary, "fontStyle10")}
+                onClick={() => this.state.report.weibo !== null && this.state.report.weibo !== '' ? this.openWebsite(this.state.report.weibo) : '' }
               >
-                {this.state.report.weibo !== undefined
-                  ? this.state.report.weibo
-                  : ""}
+                  <StyledLblWebsite link={this.state.report.weibo !== null && this.state.report.weibo !== ''}>
+                      {this.state.report.weibo !== undefined
+                          ? this.state.report.weibo
+                          : ""}
+                  </StyledLblWebsite>
               </ListItemSecondaryAction>
             </ListItem>
 
@@ -162,10 +168,13 @@ class SocialMedia extends Component {
               />
               <ListItemSecondaryAction
                 className={classNames(classes.listItemSecondary, "fontStyle10")}
+                onClick={() => this.state.report.wechat !== null && this.state.report.wechat !== '' ? this.openWebsite(this.state.report.wechat) : '' }
               >
-                {this.state.report.wechat !== undefined
-                  ? this.state.report.wechat
-                  : ""}
+                  <StyledLblWebsite link={this.state.report.wechat !== null && this.state.report.wechat !== ''}>
+                      {this.state.report.wechat !== undefined
+                          ? this.state.report.wechat
+                          : ""}
+                  </StyledLblWebsite>
               </ListItemSecondaryAction>
             </ListItem>
 

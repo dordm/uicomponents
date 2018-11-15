@@ -23,26 +23,26 @@ const RiskLbl = styled.label`
 const StyledCreditLine = styled.div`
   color: #ffffff;
   padding-top: 12px !important;
-  padding-bottom: 5px !important;
-  border-bottom: 5px solid #ff3b77;
+  padding-bottom: 6px !important;
+  border-bottom: 6px solid #ff3b77;
   position: relative;
   margin-bottom: ${props =>
     props.width < 500 ? "5px" : props.isIE == "true" ? "6px" : "10px"};
   &:before {
     content: "";
     position: absolute;
-    height: 5px;
+    height: 6px;
     width: 7.5%;
-    bottom: -5px;
+    bottom: -6px;
     left: 2.5%;
     background-color: #f97413;
   }
   &:after {
     content: "";
     position: absolute;
-    height: 5px;
+    height: 6px;
     width: 7.5%;
-    bottom: -5px;
+    bottom: -6px;
     left: 2.5%;
     background-color: #f97413;
     left: 10%;

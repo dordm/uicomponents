@@ -9,10 +9,11 @@ const reportData = {
     message:
         "BlueCarbon increast his shipments to United stated, over 20% in the last quarter (Q1 2018)",
     messageIcon: "good",
-    score: 8.5,
+    score: 80,
     registration: "April 2007",
     website: "www.blue-carbon.com",
     facebook: "Active",
+    recommendCredit:15000,
     linkedin: "Active",
     twitter: "Active",
     status: "In Industry",
