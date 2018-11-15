@@ -28,7 +28,8 @@ const styles = {
   },
   icon: {
     height: 24,
-    width: 24
+    width: 24,
+    display:'block'
   },
   listDiv: {
     width: "100%"
