@@ -14,8 +14,6 @@ import NoDataImg from "./LowLevelComponents/NoDataImg";
 
 let isIE = /*@cc_on!@*/ false || !!document.documentMode;
 
-window.__MUI_USE_NEXT_TYPOGRAPHY_VARIANTS__ = true;
-
 const RiskLbl = styled.label`
   fontSize:14px
   color: ${props => props.color} !important;

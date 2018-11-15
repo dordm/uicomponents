@@ -14,8 +14,6 @@ import styled from "styled-components";
 import { BigBoxLayout } from "./LowLevelComponents/StyledComponents";
 import NoDataImg from "./LowLevelComponents/NoDataImg";
 
-window.__MUI_USE_NEXT_TYPOGRAPHY_VARIANTS__ = true;
-
 const StyledTitle = styled.div`
   display: flex;
   width: ${props => (props.width > 600 ? "70%" : "60%")};

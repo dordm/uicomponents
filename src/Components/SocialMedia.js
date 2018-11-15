@@ -13,8 +13,6 @@ import ReactTooltip from "react-tooltip";
 import { BigBoxLayout } from "./LowLevelComponents/StyledComponents";
 import styled from "styled-components";
 
-window.__MUI_USE_NEXT_TYPOGRAPHY_VARIANTS__ = true;
-
 const StyledLblWebsite = styled.label`
   cursor: ${props => (props.link ? "pointer" : "")};
   color: ${props => (props.link ? "#4C84FF" : "#172b51")} !important;

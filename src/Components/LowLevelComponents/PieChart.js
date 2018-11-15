@@ -15,8 +15,6 @@ import { withStyles } from "@material-ui/core/styles/index";
 import PropTypes from "prop-types";
 import styled from "styled-components";
 
-window.__MUI_USE_NEXT_TYPOGRAPHY_VARIANTS__ = true;
-
 const StyledUlLegend = styled.ul`
   margin-top: 0px;
   width: ${props =>

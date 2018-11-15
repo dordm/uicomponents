@@ -10,8 +10,6 @@ import {
   ResponsiveContainer
 } from "recharts";
 
-window.__MUI_USE_NEXT_TYPOGRAPHY_VARIANTS__ = true;
-
 class LineTwoCharts extends Component {
   constructor(props) {
     super(props);
