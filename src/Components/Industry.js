@@ -115,7 +115,7 @@ class Industry extends Component {
             />
           </div>
         </div>
-        <div className={classes.divIndustries}>
+        <div style={{maxWidth:this.props.maxIndustriesWidth !== undefined ? this.props.maxIndustriesWidth : ''}} className={classes.divIndustries}>
           {this.state.report.industry
             .split(/,|;|\./)
             .filter(function(item) {
