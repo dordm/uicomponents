@@ -77,9 +77,8 @@ function GetInsights(props) {
               />
               <Typography
                 className={classNames(props.classes.typo, "fontStyle5")}
-              >
-                {insight.text}
-              </Typography>
+                dangerouslySetInnerHTML={{ __html: insight.text }}
+              />
             </div>
             <Divider />
           </div>
@@ -200,10 +199,8 @@ class TopInsights extends Component {
                           classes.typoAllInsights,
                           "fontStyle5"
                         )}
-                      >
-                        {insight.text}
-                        {"\n"}
-                      </Typography>
+                        dangerouslySetInnerHTML={{ __html: insight.text }}
+                      />
                     </ListItem>
                     <Divider />
                   </div>

@@ -209,241 +209,73 @@ const reportData = {
     insights: [
         {
             type: "good",
-            msg: "Fushan Lighting Co ltd (your supplier) increast his shipments to",
+            text: "Fushan Lighting Co ltd <a href=/SupplierDetails?id=949810112847247556>Guangdong Huangma Holdings Co.</a> (your supplier) increast his shipments to",
             key: 1,
-            top: true,
+            isTop: true,
             category: "Overview"
         },
         {
             type: "good",
-            msg: "Fushan Lighting Co ltd (your supplier) increast his shipments to",
+            text: "Fushan Lighting Co ltd (your supplier) increast his shipments to",
             key: 2,
-            top: true,
+            isTop: true,
             category: "Overview"
         },
         {
             type: "bad",
-            msg: "Fushan Lighting Co ltd (your supplier) increast his shipments to",
+            text: "Fushan Lighting Co ltd (your supplier) increast his shipments to",
             key: 3,
-            top: true,
+            isTop: true,
             category: "Overview"
         },
         {
             type: "insight",
-            msg: "Fushan Lighting Co ltd (your supplier) increast his shipments to",
+            text: "Fushan Lighting Co ltd (your supplier) increast his shipments to",
             key: 4,
-            top: true,
+            isTop: true,
             category: "Overview"
         },
         {
             type: "insight",
-            msg: "Fushan Lighting Co ltd (your supplier) increast his shipments to",
+            text: "Fushan Lighting Co ltd (your supplier) increast his shipments to",
             key: 5,
-            top: true,
+            isTop: true,
             category: "Trade"
         },
         {
             type: "insight",
-            msg: "Fushan Lighting Co ltd (your supplier) increast his shipments to",
+            text: "Fushan Lighting Co ltd (your supplier) increast his shipments to",
             key: 6,
-            top: true,
+            isTop: true,
             category: "Trade"
         },
         {
             type: "good",
-            msg: "Fushan Lighting Co ltd (your supplier) increast his shipments to",
+            text: "Fushan Lighting Co ltd (your supplier) increast his shipments to",
             key: 7,
-            top: false,
+            isTop: false,
             category: "Overview"
         },
         {
             type: "good",
-            msg: "Fushan Lighting Co ltd (your supplier) increast his shipments to",
+            text: "Fushan Lighting Co ltd (your supplier) increast his shipments to",
             key: 8,
-            top: false,
+            isTop: false,
             category: "Trade"
         },
         {
             type: "bad",
-            msg: "Fushan Lighting Co ltd (your supplier) increast his shipments to",
+            text: "Fushan Lighting Co ltd (your supplier) increast his shipments to",
             key: 9,
-            top: false,
+            isTop: false,
             category: "Trade"
         },
         {
             type: "insight",
-            msg: "Fushan Lighting Co ltd (your supplier) increast his shipments to",
+            text: "Fushan Lighting Co ltd (your supplier) increast his shipments to",
             key: 10,
-            top: false,
+            isTop: false,
             category: "Overview"
-        },
-        {
-            type: "insight",
-            msg: "Fushan Lighting Co ltd (your supplier) increast his shipments to",
-            key: 13,
-            top: false,
-            category: "Overview"
-        },
-        {
-            type: "insight",
-            msg: "Fushan Lighting Co ltd (your supplier) increast his shipments to",
-            key: 14,
-            top: false,
-            category: "Overview"
-        },
-        {
-            type: "insight",
-            msg: "Fushan Lighting Co ltd (your supplier) increast his shipments to",
-            key: 15,
-            top: false,
-            category: "Overview"
-        },
-        {
-            type: "insight",
-            msg: "Fushan Lighting Co ltd (your supplier) increast his shipments to",
-            key: 11,
-            top: false,
-            category: "Trade"
-        },
-        {
-            type: "insight",
-            msg: "Fushan Lighting Co ltd (your supplier) increast his shipments to",
-            key: 12,
-            top: false,
-            category: "Overview"
-        },
-        {
-            type: "insight",
-            msg: "Fushan Lighting Co ltd (your supplier) increast his shipments to",
-            key: 25,
-            top: true,
-            category: "Trade"
-        },
-        {
-            type: "good",
-            msg: "Fushan Lighting Co ltd (your supplier) increast his shipments to",
-            key: 7,
-            top: true,
-            category: "Legal"
-        },
-        {
-            type: "good",
-            msg: "Fushan Lighting Co ltd (your supplier) increast his shipments to",
-            key: 8,
-            top: true,
-            category: "Legal"
-        },
-        {
-            type: "bad",
-            msg: "Fushan Lighting Co ltd (your supplier) increast his shipments to",
-            key: 9,
-            top: true,
-            category: "Legal"
-        },
-        {
-            type: "insight",
-            msg: "Fushan Lighting Co ltd (your supplier) increast his shipments to",
-            key: 10,
-            top: false,
-            category: "Legal"
-        },
-        {
-            type: "insight",
-            msg: "Fushan Lighting Co ltd (your supplier) increast his shipments to",
-            key: 11,
-            top: false,
-            category: "Legal"
-        },
-        {
-            type: "insight",
-            msg: "Fushan Lighting Co ltd (your supplier) increast his shipments to",
-            key: 12,
-            top: false,
-            category: "Legal"
-        },
-        {
-            type: "good",
-            msg: "Fushan Lighting Co ltd (your supplier) increast his shipments to",
-            key: 7,
-            top: true,
-            category: "Financial"
-        },
-        {
-            type: "good",
-            msg: "Fushan Lighting Co ltd (your supplier) increast his shipments to",
-            key: 8,
-            top: true,
-            category: "Financial"
-        },
-        {
-            type: "bad",
-            msg: "Fushan Lighting Co ltd (your supplier) increast his shipments to",
-            key: 9,
-            top: true,
-            category: "Financial"
-        },
-        {
-            type: "insight",
-            msg: "Fushan Lighting Co ltd (your supplier) increast his shipments to",
-            key: 10,
-            top: false,
-            category: "Financial"
-        },
-        {
-            type: "insight",
-            msg: "Fushan Lighting Co ltd (your supplier) increast his shipments to",
-            key: 11,
-            top: false,
-            category: "Financial"
-        },
-        {
-            type: "insight",
-            msg: "Fushan Lighting Co ltd (your supplier) increast his shipments to",
-            key: 12,
-            top: false,
-            category: "Financial"
-        },
-        {
-            type: "good",
-            msg: "Fushan Lighting Co ltd (your supplier) increast his shipments to",
-            key: 7,
-            top: true,
-            category: "IntellectualProperty"
-        },
-        {
-            type: "good",
-            msg: "Fushan Lighting Co ltd (your supplier) increast his shipments to",
-            key: 8,
-            top: true,
-            category: "IntellectualProperty"
-        },
-        {
-            type: "bad",
-            msg: "Fushan Lighting Co ltd (your supplier) increast his shipments to",
-            key: 9,
-            top: true,
-            category: "IntellectualProperty"
-        },
-        {
-            type: "insight",
-            msg: "Fushan Lighting Co ltd (your supplier) increast his shipments to",
-            key: 10,
-            top: false,
-            category: "IntellectualProperty"
-        },
-        {
-            type: "insight",
-            msg: "Fushan Lighting Co ltd (your supplier) increast his shipments to",
-            key: 11,
-            top: false,
-            category: "IntellectualProperty"
-        },
-        {
-            type: "insight",
-            msg: "Fushan Lighting Co ltd (your supplier) increast his shipments to",
-            key: 12,
-            top: false,
-            category: "IntellectualProperty"
         }
     ],
     totalExport: {
