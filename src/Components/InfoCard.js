@@ -124,6 +124,7 @@ class InfoCard extends Component {
           {this.props.bottomMsg !== "" &&
           this.props.bottomMsg !== null &&
           this.props.bottomMsg !== undefined ? (
+           <div data-tip data-for={"tipBtmMsg" + this.props.name} style={{overflow:'hidden'}}>
             <Typography
               className={classNames(classes.bottomContent, "fontStyle11")}
             >
@@ -144,9 +145,18 @@ class InfoCard extends Component {
                 {this.props.bottomMsg}
               </label>
             </Typography>
+           </div>
           ) : (
             ""
           )}
+            <ReactTooltip
+                className={classNames("tooltip", "fontStyle14")}
+                id={"tipBtmMsg" + this.props.name}
+                place="bottom"
+                effect="solid"
+            >
+                <span>{this.props.bottomMsg}</span>
+            </ReactTooltip>
         </div>
       </SmallBoxLayout>
     ) : (

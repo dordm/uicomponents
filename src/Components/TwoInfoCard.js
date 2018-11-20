@@ -290,6 +290,7 @@ class TwoInfoCard extends Component {
           {this.props.bottomMsg !== "" &&
           this.props.bottomMsg !== undefined &&
           this.props.bottomMsg !== null ? (
+           <div data-tip data-for={"tipBtmMsg" + this.props.name} style={{overflow:'hidden'}}>
             <Typography
               className={classNames(classes.bottomContent, "fontStyle11")}
               style={{ marginTop: this.props.content1Lbl === "" ? 25 : 10 }}
@@ -311,9 +312,18 @@ class TwoInfoCard extends Component {
                 {this.props.bottomMsg}
               </label>
             </Typography>
+           </div>
           ) : (
             ""
           )}
+            <ReactTooltip
+                className={classNames("tooltip", "fontStyle14")}
+                id={"tipBtmMsg" + this.props.name}
+                place="bottom"
+                effect="solid"
+            >
+                <span>{this.props.bottomMsg}</span>
+            </ReactTooltip>
         </div>
         {this.props.moreBtn ? (
           <Dialog
