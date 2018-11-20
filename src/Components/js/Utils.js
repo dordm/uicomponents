@@ -610,6 +610,48 @@ class Utils {
       return "";
     }
   }
+
+  static calcTaxRating(report){
+      const lastYear = new Date().getFullYear() - 1;
+      let taxRating = "Not Eligible";
+      let taxRatingBottomMsg = "Past eligible years: ";
+      if (
+          report != null &&
+          report.taxRatingList !== undefined &&
+          report.taxRatingList != null
+      ) {
+          for (let i = 0; i < report.taxRatingList.length; i++) {
+              if (report.taxRatingList[i].year !== lastYear)
+                  taxRatingBottomMsg += report.taxRatingList[i].year + ", ";
+              else taxRating = report.taxRatingList[i].rating;
+          }
+          if (taxRatingBottomMsg.length > 22)
+              taxRatingBottomMsg = taxRatingBottomMsg.substr(
+                  0,
+                  taxRatingBottomMsg.length - 2
+              );
+          else
+              taxRatingBottomMsg = "Not eligible for tax rating A";
+      } else taxRatingBottomMsg = "Not eligible for tax rating A";
+      if(taxRating === "A"){
+        let sinceYear = lastYear;
+          for (let j=lastYear - 1; j > 2012; j--) {
+            let found = false;
+            for(let i = 0; !found && i < report.taxRatingList.length; i++)
+              if (report.taxRatingList[i].year === j)
+                found = true;
+            if(!found){
+                sinceYear = j + 1;
+              break;
+            }
+          }
+        if(sinceYear === lastYear)
+          taxRatingBottomMsg = "Good Rating";
+        else
+          taxRatingBottomMsg = "Tax Rating A since " + sinceYear;
+      }
+      return {taxRating, taxRatingBottomMsg};
+  }
 }
 
 export default Utils;
