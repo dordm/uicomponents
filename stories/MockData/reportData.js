@@ -430,9 +430,9 @@ const reportData = {
     ],
     shareholders: {
         holders: [
-            { name: "Ma Haihua", shares: 30, key: 1 },
-            { name: "Wang Zhaoting", shares: 20, key: 2 },
-            { name: "Wang Haihua", shares: 50, key: 3 }
+            { name: "Ma Haihua", percent: 30, associate: 1 },
+            { name: "Wang Zhaoting", percent: 20, key: 2 },
+            { name: "Wang Haihua", percent: 50, key: 3 }
         ],
         msg: "Above industry avarage",
         icon: "upArrow"

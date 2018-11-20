@@ -14,7 +14,7 @@ import NoDataImg from "./LowLevelComponents/NoDataImg";
 
 const styles = {
   bottomMsg: {
-    marginTop: -20,
+    marginTop: -5,
     marginLeft: 22,
     marginRight: 10,
     textAlign: "left",
@@ -67,7 +67,7 @@ class PieChartWrapper extends Component {
         {this.props.data !== undefined && this.props.data.length > 0 ? (
           <PieChart
             width={this.props.width}
-            height={"80%"}
+            height={"75%"}
             data={this.props.data}
             unit={"%"}
             dataKey={this.props.dataKey}
@@ -80,18 +80,30 @@ class PieChartWrapper extends Component {
         ) : (
           <NoDataImg />
         )}
-        <Typography className={classNames(classes.bottomMsg, "fontStyle11")}>
-          {this.props.bottomMsg !== "" && this.props.bottomMsg !== null ? (
-            <img
-              alt="bottomIcon"
-              className={classes.bottomIcon}
-              src={Utils.getIconByNumber(this.props.bottomIcon)}
-            />
-          ) : (
-            ""
-          )}
-          <label style={{ marginLeft: 25 }}>{this.props.bottomMsg}</label>
-        </Typography>
+        {this.props.data !== undefined && this.props.data.length > 0 ? (
+        <div data-tip data-for={"tipBtmMsg" + this.props.title}>
+          <Typography className={classNames(classes.bottomMsg, "fontStyle11")}>
+            {this.props.bottomMsg !== "" && this.props.bottomMsg !== null ? (
+              <img
+                alt="bottomIcon"
+                className={classes.bottomIcon}
+                src={Utils.getIconByNumber(this.props.bottomIcon)}
+              />
+            ) : (
+              ""
+            )}
+            <label style={{ marginLeft: 25 }}>{this.props.bottomMsg}</label>
+          </Typography>
+        </div>
+        ) : '' }
+          <ReactTooltip
+              className={classNames("tooltip", "fontStyle14")}
+              id={"tipBtmMsg" + this.props.title}
+              place="bottom"
+              effect="solid"
+          >
+              <span>{this.props.bottomMsg}</span>
+          </ReactTooltip>
       </BigBoxLayout>
     );
   }
