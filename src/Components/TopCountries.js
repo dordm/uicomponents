@@ -52,7 +52,8 @@ const styles = {
     border: "1px solid #E4E8ED"
   },
   listDiv: {
-    width: "100%"
+    width: "100%",
+    height:230
   },
   divPercent: {
     position: "absolute",

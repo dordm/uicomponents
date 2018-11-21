@@ -28,7 +28,9 @@ const styles = {
   divMedia: {
     marginLeft: 28,
     marginRight: 28,
-    width: "100%"
+    width: "100%",
+    height:230,
+    marginTop:15
   },
   innerDivMedia: {
     textAlign: "left",

@@ -29,7 +29,9 @@ const styles = {
   divInsights: {
     marginLeft: 28,
     marginRight: 28,
-    width: "100%"
+    width: "100%",
+    marginTop:15,
+    height:230
   },
   divInsight: {
     textAlign: "left",
