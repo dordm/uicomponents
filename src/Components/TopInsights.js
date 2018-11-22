@@ -191,6 +191,7 @@ class TopInsights extends Component {
                   <div key={idx}>
                     <ListItem>
                       <img
+                        // style={{height:24, width:24}}
                         height={24}
                         width={24}
                         alt={insight.type}
