@@ -586,6 +586,12 @@ class Utils {
           return require("../images/countries/BG.svg");
       case "Puerto Rico":
           return require("../images/countries/PR.svg");
+      case "Bahrian":
+          return require("../images/countries/BH.svg");
+      case "Algeria":
+          return require("../images/countries/DZ.svg");
+      case "Dominican Republic":
+          return require("../images/countries/DO.svg");
       default:
         return null;
     }
