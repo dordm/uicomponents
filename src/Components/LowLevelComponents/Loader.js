@@ -10,7 +10,7 @@ import {MyButton} from './StyledComponents'
 const StyledDivDialog = styled.div`
   display: flex;
   justify-content: center;
-  width: 230px;
+  width: 300px;
   text-align: center;
 `;
 
