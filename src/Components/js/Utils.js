@@ -416,6 +416,8 @@ class Utils {
         return require("../images/countries/UA.svg");
       case "Colombia":
         return require("../images/countries/CO.svg");
+      case "Columbia":
+          return require("../images/countries/CO.svg");
       case "Finland":
         return require("../images/countries/FI.svg");
       case "Iran":

@@ -39,7 +39,10 @@ const styles = {
   },
   bottomContent: {
     textAlign: "left",
-    marginLeft: 20
+    marginLeft: 20,
+    whiteSpace: "nowrap",
+    overflow: "hidden",
+    textOverflow: "ellipsis"
   },
   bottomIcon: {
     position: "absolute",
