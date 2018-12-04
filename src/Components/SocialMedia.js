@@ -179,28 +179,28 @@ class SocialMedia extends Component {
               </ListItemSecondaryAction>
             </ListItem>
 
-            <ListItem>
-              {this.state.report.socialIcon !== undefined ? (
-                <ListItemIcon className={classes.icon}>
-                  <img
-                    alt="msg"
-                    src={Utils.getIcon(this.state.report.socialIcon)}
-                  />
-                </ListItemIcon>
-              ) : (
-                ""
-              )}
-              <ListItemText
-                style={{ marginLeft: -15 }}
-                primary={
-                  <Typography className={"fontStyle11"}>
-                    {this.state.report.socialMsg !== undefined
-                      ? this.state.report.socialMsg
-                      : ""}
-                  </Typography>
-                }
-              />
-            </ListItem>
+            {/*<ListItem>*/}
+              {/*{this.state.report.socialIcon !== undefined ? (*/}
+                {/*<ListItemIcon className={classes.icon}>*/}
+                  {/*<img*/}
+                    {/*alt="msg"*/}
+                    {/*src={Utils.getIcon(this.state.report.socialIcon)}*/}
+                  {/*/>*/}
+                {/*</ListItemIcon>*/}
+              {/*) : (*/}
+                {/*""*/}
+              {/*)}*/}
+              {/*<ListItemText*/}
+                {/*style={{ marginLeft: -15 }}*/}
+                {/*primary={*/}
+                  {/*<Typography className={"fontStyle11"}>*/}
+                    {/*{this.state.report.socialMsg !== undefined*/}
+                      {/*? this.state.report.socialMsg*/}
+                      {/*: ""}*/}
+                  {/*</Typography>*/}
+                {/*}*/}
+              {/*/>*/}
+            {/*</ListItem>*/}
           </List>
         </div>
       </BigBoxLayout>

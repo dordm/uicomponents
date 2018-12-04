@@ -256,7 +256,7 @@ class RecommendCredit extends Component {
           {this.state.report.recommendCredit !== undefined &&
           this.state.report.recommendCredit != null &&
           this.state.report.recommendCredit !== "" ? (
-            <div className={classes.divScore}>
+            <div data-cy="divCredit" className={classes.divScore}>
               <label className={classes.scoreLabel}>
                 {this.state.report.recommendCredit >= 1000
                   ? "$" + this.state.report.recommendCredit / 1000 + "K"

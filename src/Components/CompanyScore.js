@@ -248,7 +248,7 @@ class CompanyScore extends Component {
               </span>
             </ReactTooltip>
           </StyledTitle>
-          <div className={classes.divScore}>
+          <div data-cy={"divScore"} className={classes.divScore}>
             <label className={classes.scoreLabel}>
               {(this.state.report.score / 10).toFixed(1)}
             </label>

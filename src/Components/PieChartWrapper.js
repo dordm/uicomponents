@@ -80,7 +80,7 @@ class PieChartWrapper extends Component {
           <NoDataImg />
         )}
         {this.props.data !== undefined && this.props.data.length > 0 ? (
-        <div data-tip data-for={"tipBtmMsg" + this.props.title} style={{overflow:'hidden'}}>
+        <div data-tip data-for={"tipBtmMsg" + this.props.title} data-cy="divBottomMsg" style={{overflow:'hidden'}}>
           <Typography className={classNames(classes.bottomMsg, "fontStyle11")}>
             {this.props.bottomMsg !== "" && this.props.bottomMsg !== null ? (
               <img

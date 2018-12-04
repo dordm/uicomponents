@@ -133,6 +133,7 @@ class MoreDataSplited extends Component {
           fullWidth
         >
           <Tab
+            data-cy={"tab1"}
             className={classes.tab}
             value={this.props.moreSubTitle}
             label={
@@ -142,6 +143,7 @@ class MoreDataSplited extends Component {
             }
           />
           <Tab
+            data-cy={"tab2"}
             className={classes.tab}
             value={this.props.moreSubTitle2}
             label={
@@ -230,7 +232,7 @@ class TwoInfoCard extends Component {
               ""
             )}
           </StyledTitle>
-          <div style={{ display: "inline-flex", width: "100%", marginTop: 20 }}>
+          <div data-cy="divContent" style={{ display: "inline-flex", width: "100%", marginTop: 20 }}>
             {this.state.content1 !== "" && this.state.content1 != null ? (
               <div
                 style={{
@@ -239,6 +241,7 @@ class TwoInfoCard extends Component {
                       ? "50%"
                       : "100%"
                 }}
+                data-cy="divContent1"
               >
                 <Typography
                   className={classNames(classes.content, "fontStyle17")}
@@ -256,7 +259,7 @@ class TwoInfoCard extends Component {
               ""
             )}
             {this.state.content2 !== "" && this.state.content2 != null ? (
-              <div style={{ paddingRight: 10, width: "50%" }}>
+              <div data-cy="divContent2" style={{ paddingRight: 10, width: "50%" }}>
                 <Typography
                   className={classNames(classes.content, "fontStyle18")}
                 >
@@ -279,6 +282,7 @@ class TwoInfoCard extends Component {
             <div
               onClick={() => this.setState({ moreOpen: true })}
               className={classNames(classes.moreBtn, "fontStyle6")}
+              data-cy="divMore"
             >
               More
               <img
@@ -293,7 +297,7 @@ class TwoInfoCard extends Component {
           {this.props.bottomMsg !== "" &&
           this.props.bottomMsg !== undefined &&
           this.props.bottomMsg !== null ? (
-           <div data-tip data-for={"tipBtmMsg" + this.props.name} style={{overflow:'hidden'}}>
+           <div data-tip data-for={"tipBtmMsg" + this.props.name} data-cy="divBottomMsg" style={{overflow:'hidden'}}>
             <Typography
               className={classNames(classes.bottomContent, "fontStyle11")}
               style={{ marginTop: this.props.content1Lbl === "" ? 25 : 10 }}
@@ -334,7 +338,7 @@ class TwoInfoCard extends Component {
             onClose={() => this.setState({ moreOpen: false })}
             aria-labelledby="scroll-dialog-title"
           >
-            <StyledCloseIcon onClick={() => this.setState({ moreOpen: false })}>
+            <StyledCloseIcon data-cy={"btnCloseDialog"} onClick={() => this.setState({ moreOpen: false })}>
               <img alt="Close" src={require("./images/Close.png")} />
             </StyledCloseIcon>
             <DialogTitle

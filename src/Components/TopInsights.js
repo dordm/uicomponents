@@ -65,7 +65,7 @@ const styles = {
 
 function GetInsights(props) {
   return (
-    <div>
+    <div data-cy="divInsights">
       {props.data.slice(0, 4).map(insight => {
         return (
           <div key={props.data.indexOf(insight)}>
@@ -145,6 +145,7 @@ class TopInsights extends Component {
         </StyledTitle>
         {this.getFilteredInsights(false).length > 0 ? (
           <div
+            data-cy="viewAllInsights"
             className={classNames(classes.divViewAll, "fontStyle6")}
             onClick={() => this.setState({ allInsightsOpen: true })}
           >

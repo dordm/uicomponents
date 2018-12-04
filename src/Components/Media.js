@@ -104,6 +104,7 @@ class Media extends Component {
           <div
             className={classNames(classes.divViewAll, "fontStyle6")}
             onClick={() => this.setState({ allMediaOpen: true })}
+            data-cy="divViewAll"
           >
             View All
             <img
@@ -117,7 +118,7 @@ class Media extends Component {
         )}
         {this.state.report.medias !== undefined &&
         this.state.report.medias.length > 0 ? (
-          <div className={classes.divMedia}>
+          <div data-cy="divMedia" className={classes.divMedia}>
             {this.state.report.medias.slice(0, 4).map((media, idx) => {
               return (
                 <div key={idx}>

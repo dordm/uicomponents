@@ -107,6 +107,7 @@ class Certifications extends Component {
           <div
             className={classNames(classes.divViewAll, "fontStyle6")}
             onClick={() => this.setState({ allCertificatesOpen: true })}
+            data-cy="divViewAll"
           >
             View All
             <img

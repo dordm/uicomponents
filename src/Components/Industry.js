@@ -106,6 +106,7 @@ class Industry extends Component {
           <div
             className={classNames(classes.divViewAll, "fontStyle6")}
             onClick={() => this.setState({ viewAllOpen: true })}
+            data-cy="divViewAll"
           >
             View All
             <img
@@ -115,7 +116,7 @@ class Industry extends Component {
             />
           </div>
         </div>
-        <div style={{maxWidth:this.props.maxIndustriesWidth !== undefined ? this.props.maxIndustriesWidth : ''}} className={classes.divIndustries}>
+        <div data-cy="divIndustries" style={{maxWidth:this.props.maxIndustriesWidth !== undefined ? this.props.maxIndustriesWidth : ''}} className={classes.divIndustries}>
           {this.state.report.industry
             .split(/,|;|\./)
             .filter(function(item) {

@@ -114,7 +114,7 @@ class InfoCard extends Component {
               ""
             )}
           </StyledTitle>
-          <div className={classes.divContent}>
+          <div data-cy="divContent" className={classes.divContent}>
             <Typography
               className={classNames("fontStyle17", classes.typoContent)}
             >
@@ -124,7 +124,7 @@ class InfoCard extends Component {
           {this.props.bottomMsg !== "" &&
           this.props.bottomMsg !== null &&
           this.props.bottomMsg !== undefined ? (
-           <div data-tip data-for={"tipBtmMsg" + this.props.name} style={{overflow:'hidden'}}>
+           <div data-tip data-for={"tipBtmMsg" + this.props.name} data-cy="divBottomMsg" style={{overflow:'hidden'}}>
             <Typography
               className={classNames(classes.bottomContent, "fontStyle11")}
             >
