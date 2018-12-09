@@ -11,13 +11,13 @@ import Utils from "./js/Utils";
 import classNames from "classnames";
 import ReactTooltip from "react-tooltip";
 import Dialog from "@material-ui/core/Dialog";
-import DialogContent from "@material-ui/core/DialogContent";
 import DialogTitle from "@material-ui/core/DialogTitle";
 import Divider from "@material-ui/core/Divider";
 import {
   StyledTitle,
   BigBoxLayout,
-  StyledCloseIcon
+  StyledCloseIcon,
+    StyledDialogContent
 } from "./LowLevelComponents/StyledComponents";
 import NoDataImg from "./LowLevelComponents/NoDataImg";
 
@@ -63,7 +63,10 @@ const styles = {
   divViewAll: {
     marginTop: 19,
     cursor: "pointer"
-  }
+  },
+    dialog:{
+    margin:16
+    }
 };
 
 class Certifications extends Component {
@@ -195,6 +198,11 @@ class Certifications extends Component {
           <NoDataImg />
         )}
         <Dialog
+            PaperProps={{
+                classes: {
+                    root: classes.dialog
+                }
+            }}
           open={this.state.allCertificatesOpen}
           onClose={() => this.setState({ allCertificatesOpen: false })}
           aria-labelledby="scroll-dialog-title"
@@ -207,7 +215,7 @@ class Certifications extends Component {
           <DialogTitle className={"fontStyle3"} style={{ textAlign: "center" }}>
             All Certificates
           </DialogTitle>
-          <DialogContent style={{ padding: "0 0 0" }}>
+          <StyledDialogContent>
             <List>
               {this.state.report.certificates.filter(certificate => certificate.name !== '').map(certificate => {
                 return (
@@ -254,7 +262,7 @@ class Certifications extends Component {
                 );
               })}
             </List>
-          </DialogContent>
+          </StyledDialogContent>
         </Dialog>
       </BigBoxLayout>
     );

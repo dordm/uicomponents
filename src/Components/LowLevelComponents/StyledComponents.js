@@ -3,11 +3,24 @@ import Grid from "@material-ui/core/Grid";
 import styled from "styled-components";
 import SearchIcon from "@material-ui/icons/Search";
 import IconButton from "@material-ui/core/IconButton";
+import DialogContent from '@material-ui/core/DialogContent';
 
 export const StyledCloseIcon = styled(IconButton)`
   position: absolute !important;
   right: 20px;
   top: 5px;
+`;
+
+export const StyledDialogContent = styled(DialogContent)`
+    width:550px;
+    @media (max-width: 400px) {
+        width: 270px;
+        padding: 0 8px 8px !important;
+    }
+    @media (min-width: 400px) and (max-width: 650px) {
+        width: 350px;
+        padding: 0 8px 8px !important;
+    }
 `;
 
 export const SearchInputWrapper = styled.div`

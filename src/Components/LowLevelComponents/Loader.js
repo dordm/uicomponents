@@ -12,6 +12,9 @@ const StyledDivDialog = styled.div`
   justify-content: center;
   width: 300px;
   text-align: center;
+  @media (max-width: 600px) {
+        width: 270px;
+    }
 `;
 
 class Loader extends Component {
@@ -55,6 +58,11 @@ class Loader extends Component {
     errorDialog() {
         return (
             <Dialog
+                PaperProps={{
+                    style: {
+                        margin: 16
+                    }
+                }}
                 open={this.state.showErrorModal}
                 onClose={() => this.setState({ showErrorModal: false })}
             >

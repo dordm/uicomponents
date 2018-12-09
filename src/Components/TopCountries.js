@@ -12,12 +12,12 @@ import Utils from "./js/Utils";
 import classNames from "classnames";
 import ReactTooltip from "react-tooltip";
 import Dialog from "@material-ui/core/Dialog";
-import DialogContent from "@material-ui/core/DialogContent";
 import DialogTitle from "@material-ui/core/DialogTitle";
 import {
   BigBoxLayout,
   StyledTitle,
-  StyledCloseIcon
+  StyledCloseIcon,
+    StyledDialogContent
 } from "./LowLevelComponents/StyledComponents";
 import NoDataImg from "./LowLevelComponents/NoDataImg";
 
@@ -50,6 +50,9 @@ const styles = {
     height: 24,
     width: 26,
     border: "1px solid #E4E8ED"
+  },
+  dialog:{
+    margin:16
   },
   listDiv: {
     width: "100%",
@@ -273,6 +276,11 @@ class TopCountries extends Component {
           <NoDataImg />
         )}
         <Dialog
+            PaperProps={{
+                classes: {
+                    root: classes.dialog
+                }
+            }}
           open={this.state.viewAllOpen}
           onClose={() => this.setState({ viewAllOpen: false })}
           aria-labelledby="scroll-dialog-title"
@@ -285,12 +293,7 @@ class TopCountries extends Component {
           <DialogTitle className={"fontStyle3"} style={{ textAlign: "center" }}>
             All Countries
           </DialogTitle>
-          <DialogContent
-            style={{
-              padding: "0 0 0",
-              width: this.props.width > 600 ? "" : 250
-            }}
-          >
+          <StyledDialogContent>
             <List>
               {this.getCountries(true).map(country => {
                 return (
@@ -325,7 +328,7 @@ class TopCountries extends Component {
                 );
               })}
             </List>
-          </DialogContent>
+          </StyledDialogContent>
         </Dialog>
       </BigBoxLayout>
     );

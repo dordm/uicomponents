@@ -9,12 +9,12 @@ import Dialog from "@material-ui/core/Dialog";
 import ListItem from "@material-ui/core/ListItem";
 import List from "@material-ui/core/List";
 import Divider from "@material-ui/core/Divider";
-import DialogContent from "@material-ui/core/DialogContent";
 import DialogTitle from "@material-ui/core/DialogTitle";
 import {
   StyledTitle,
   BigBoxLayout,
-  StyledCloseIcon
+  StyledCloseIcon,
+    StyledDialogContent
 } from "./LowLevelComponents/StyledComponents";
 
 const styles = {
@@ -51,7 +51,10 @@ const styles = {
   typoAllIndustries: {
     textAlign: "left",
     marginLeft: 10
-  }
+  },
+    dialog:{
+    margin:16
+    }
 };
 
 class Industry extends Component {
@@ -149,6 +152,11 @@ class Industry extends Component {
             })}
         </div>
         <Dialog
+            PaperProps={{
+                classes: {
+                    root: classes.dialog
+                }
+            }}
           open={this.state.viewAllOpen}
           onClose={() => this.setState({ viewAllOpen: false })}
           aria-labelledby="scroll-dialog-title"
@@ -161,7 +169,7 @@ class Industry extends Component {
           <DialogTitle className={"fontStyle3"} style={{ textAlign: "center" }}>
             All Industries
           </DialogTitle>
-          <DialogContent>
+          <StyledDialogContent>
             <List>
               {this.state.report.industry
                 .split(/,|;|\./)
@@ -187,7 +195,7 @@ class Industry extends Component {
                   );
                 })}
             </List>
-          </DialogContent>
+          </StyledDialogContent>
         </Dialog>
       </BigBoxLayout>
     );

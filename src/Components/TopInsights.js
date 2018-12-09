@@ -6,7 +6,6 @@ import List from "@material-ui/core/List";
 import ListItem from "@material-ui/core/ListItem";
 import Divider from "@material-ui/core/Divider";
 import Dialog from "@material-ui/core/Dialog";
-import DialogContent from "@material-ui/core/DialogContent";
 import DialogTitle from "@material-ui/core/DialogTitle";
 import Utils from "./js/Utils";
 import classNames from "classnames";
@@ -14,7 +13,7 @@ import ReactTooltip from "react-tooltip";
 import {
   StyledTitle,
   BigBoxLayout,
-  StyledCloseIcon
+  StyledCloseIcon, StyledDialogContent
 } from "./LowLevelComponents/StyledComponents";
 import NoDataImg from "./LowLevelComponents/NoDataImg";
 
@@ -60,7 +59,10 @@ const styles = {
   topIcon: {
     marginTop: -2,
     marginLeft: 6
-  }
+  },
+    dialog:{
+        margin:16
+    },
 };
 
 function GetInsights(props) {
@@ -173,6 +175,11 @@ class TopInsights extends Component {
         )}
 
         <Dialog
+            PaperProps={{
+                classes: {
+                    root: classes.dialog
+                }
+            }}
           open={this.state.allInsightsOpen}
           onClose={() => this.setState({ allInsightsOpen: false })}
           aria-labelledby="scroll-dialog-title"
@@ -185,7 +192,7 @@ class TopInsights extends Component {
           <DialogTitle className={"fontStyle3"} style={{ textAlign: "center" }}>
             All Insights
           </DialogTitle>
-          <DialogContent>
+          <StyledDialogContent>
             <List>
               {this.getFilteredInsights(false).map((insight,idx) => {
                 return (
@@ -211,7 +218,7 @@ class TopInsights extends Component {
                 );
               })}
             </List>
-          </DialogContent>
+          </StyledDialogContent>
         </Dialog>
       </BigBoxLayout>
     );

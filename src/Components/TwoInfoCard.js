@@ -9,7 +9,6 @@ import List from "@material-ui/core/List";
 import ListItem from "@material-ui/core/ListItem";
 import Divider from "@material-ui/core/Divider";
 import Dialog from "@material-ui/core/Dialog";
-import DialogContent from "@material-ui/core/DialogContent";
 import DialogTitle from "@material-ui/core/DialogTitle";
 import Tabs from "@material-ui/core/Tabs";
 import Tab from "@material-ui/core/Tab";
@@ -17,7 +16,8 @@ import styled from "styled-components";
 import {
   SmallBoxLayout,
   StyledTitle,
-  StyledCloseIcon
+  StyledCloseIcon,
+    StyledDialogContent
 } from "./LowLevelComponents/StyledComponents";
 import NoDataImg from "./LowLevelComponents/NoDataImg";
 
@@ -77,7 +77,10 @@ const styles = {
   },
   tabLabel: {
     fontSize: "14px"
-  }
+  },
+    dialog:{
+        margin:16
+    },
 };
 
 function MoreData(props) {
@@ -332,6 +335,11 @@ class TwoInfoCard extends Component {
         </div>
         {this.props.moreBtn ? (
           <Dialog
+              PaperProps={{
+                  classes: {
+                      root: classes.dialog
+                  }
+              }}
             open={this.state.moreOpen}
             onClose={() => this.setState({ moreOpen: false })}
             aria-labelledby="scroll-dialog-title"
@@ -345,7 +353,7 @@ class TwoInfoCard extends Component {
             >
               {this.props.moreTitle}
             </DialogTitle>
-            <DialogContent>
+            <StyledDialogContent>
               {this.props.moreSubTitle !== undefined &&
               this.props.moreSubTitle2 !== undefined ? (
                 <MoreDataSplited
@@ -358,7 +366,7 @@ class TwoInfoCard extends Component {
               ) : (
                 <MoreData classes={classes} moreData={this.props.moreData} />
               )}
-            </DialogContent>
+            </StyledDialogContent>
           </Dialog>
         ) : (
           ""
