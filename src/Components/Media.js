@@ -6,6 +6,7 @@ import List from "@material-ui/core/List";
 import ListItem from "@material-ui/core/ListItem";
 import Divider from "@material-ui/core/Divider";
 import Dialog from "@material-ui/core/Dialog";
+import DialogTitle from "@material-ui/core/DialogTitle"
 import classNames from "classnames";
 import Utils from "./js/Utils";
 import ReactTooltip from "react-tooltip";
