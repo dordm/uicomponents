@@ -23,7 +23,7 @@ import NoDataImg from "./LowLevelComponents/NoDataImg";
 
 const StyledDivTitle = styled.div`
   display: flex;
-  width: ${props => (props.width > 600 ? "60%" : "65%")};
+  width: ${props => (props.width > 600 ? props.date !== '' ? "60%" : "75%" : props.date !== '' ? "65%" : "80%")};
 `;
 
 const styles = {
@@ -54,8 +54,6 @@ const styles = {
   },
   moreBtn: {
     textAlign: "right",
-    marginTop: 10,
-    marginRight: 36,
     cursor: "pointer"
   },
   typoMore: {
@@ -202,7 +200,7 @@ class TwoInfoCard extends Component {
             mobileWidth={""}
           >
             <StyledDivTitle
-              style={{ width: this.props.date === "" ? "100%" : "" }}
+              date={this.props.date}
               width={this.props.width}
             >
               <Typography className={classNames("fontStyle1")}>
@@ -224,6 +222,24 @@ class TwoInfoCard extends Component {
                 <span>{this.props.infoText}</span>
               </ReactTooltip>
             </StyledDivTitle>
+              {this.props.moreBtn &&
+              (this.props.moreData.length > 0 ||
+                  this.props.moreData2.length > 0) ? (
+                  <div
+                      onClick={() => this.setState({ moreOpen: true })}
+                      className={classNames(classes.moreBtn, "fontStyle6")}
+                      data-cy="divMore"
+                  >
+                      More
+                      <img
+                          alt="view all"
+                          src={require("./images/Back.png")}
+                          style={{ marginTop: -4, position: "absolute" }}
+                      />
+                  </div>
+              ) : (
+                  ""
+              )}
             {this.props.date !== "" ? (
               <Typography className={classNames(classes.date, "fontStyle12")}>
                 {this.props.date}
@@ -276,24 +292,6 @@ class TwoInfoCard extends Component {
               ""
             )}
           </div>
-          {this.props.moreBtn &&
-          (this.props.moreData.length > 0 ||
-            this.props.moreData2.length > 0) ? (
-            <div
-              onClick={() => this.setState({ moreOpen: true })}
-              className={classNames(classes.moreBtn, "fontStyle6")}
-              data-cy="divMore"
-            >
-              More
-              <img
-                alt="view all"
-                src={require("./images/Back.png")}
-                style={{ marginTop: -4, position: "absolute" }}
-              />
-            </div>
-          ) : (
-            ""
-          )}
           {this.props.bottomMsg !== "" &&
           this.props.bottomMsg !== undefined &&
           this.props.bottomMsg !== null ? (

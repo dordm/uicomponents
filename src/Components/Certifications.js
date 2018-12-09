@@ -214,7 +214,9 @@ class Certifications extends Component {
                   <div key={certificate.name}>
                     <ListItem
                       style={{
-                        padding: this.props.width > 600 ? "" : "8px 8px"
+                        paddingTop: this.props.width > 600 ? "" : "16px",
+                        paddingBottom: this.props.width > 600 ? "" : "16px",
+                        paddingLeft:this.props.width > 600 ? "" : "8px"
                       }}
                     >
                       <ListItemIcon className={classes.icon}>
