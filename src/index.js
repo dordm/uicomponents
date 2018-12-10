@@ -15,6 +15,7 @@ import PieChart from './Components/LowLevelComponents/PieChart';
 import ScoreAvatar from './Components/LowLevelComponents/ScoreAvatar';
 import NumberFormatCustom from './Components/LowLevelComponents/NumberFormatCustom'
 import GoogleMap from './Components/LowLevelComponents/GoogleMap'
+import MoreDataTwoTabs from './Components/MoreDataTwoTabs'
 import {StyledCloseIcon, SearchInputWrapper, StyledButton, MyButton, StyledTitle, ReportLayout, PackagesLayout,
     DefaultLayout, BigBoxLayout, SmallBoxLayout, StyledDivSearch, StyledSearchIcon, StyledDialogContent} from './Components/LowLevelComponents/StyledComponents';
 
@@ -42,5 +43,5 @@ export {CompanyScore, Utils, MySuppliersUtils, SourcingUtils, IPUtils, Customize
     SearchInputWrapper, StyledButton, MyButton, StyledTitle, ReportLayout, PackagesLayout,
     DefaultLayout, BigBoxLayout, SmallBoxLayout, StyledDivSearch, StyledSearchIcon, AreaTwoCharts, Certifications, Industry, InfoCard,
     LineTwoCharts, Media, PieChartWrapper, PublicFinancialRatio, PublicFinancial, RecommendCredit, RegistrationDetails,
-    SocialMedia, TwoInfoCard, TotalExports, TopProducts, TopInsights, TopCountries, NumberFormatCustom, GoogleMap, StyledDialogContent}
+    SocialMedia, TwoInfoCard, TotalExports, TopProducts, TopInsights, TopCountries, NumberFormatCustom, GoogleMap, StyledDialogContent, MoreDataTwoTabs}
 

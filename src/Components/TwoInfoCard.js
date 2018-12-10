@@ -5,13 +5,13 @@ import PropTypes from "prop-types";
 import classNames from "classnames";
 import Utils from "./js/Utils";
 import ReactTooltip from "react-tooltip";
-import List from "@material-ui/core/List";
-import ListItem from "@material-ui/core/ListItem";
-import Divider from "@material-ui/core/Divider";
+// import List from "@material-ui/core/List";
+// import ListItem from "@material-ui/core/ListItem";
+// import Divider from "@material-ui/core/Divider";
 import Dialog from "@material-ui/core/Dialog";
 import DialogTitle from "@material-ui/core/DialogTitle";
-import Tabs from "@material-ui/core/Tabs";
-import Tab from "@material-ui/core/Tab";
+// import Tabs from "@material-ui/core/Tabs";
+// import Tab from "@material-ui/core/Tab";
 import styled from "styled-components";
 import {
   SmallBoxLayout,
@@ -83,86 +83,86 @@ const styles = {
     },
 };
 
-function MoreData(props) {
-  const classes = props.classes;
-  return (
-    <List>
-      {props.moreData.map(item => {
-        return (
-          <div key={props.moreData.indexOf(item)}>
-            <ListItem>
-              <img
-                height={24}
-                width={24}
-                alt={item.icon}
-                src={Utils.getIcon(item.icon)}
-              />
-              <Typography
-                className={classNames(classes.typoMore, "fontStyle5")}
-              >
-                {item.name}
-                {"\n"}
-              </Typography>
-            </ListItem>
-            <Divider />
-          </div>
-        );
-      })}
-    </List>
-  );
-}
-
-class MoreDataSplited extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      selectedTab: this.props.moreSubTitle
-    };
-  }
-  render() {
-    const { classes } = this.props;
-    return (
-      <div>
-        <Tabs
-          value={this.state.selectedTab}
-          id={"tabs"}
-          classes={{
-            indicator: classes.tabIndicator,
-            root: classes.tabTextColor
-          }}
-          onChange={(event, value) => this.setState({ selectedTab: value })}
-          fullWidth
-        >
-          <Tab
-            data-cy={"tab1"}
-            className={classes.tab}
-            value={this.props.moreSubTitle}
-            label={
-              <span className={classes.tabLabel}>
-                {this.props.moreSubTitle}
-              </span>
-            }
-          />
-          <Tab
-            data-cy={"tab2"}
-            className={classes.tab}
-            value={this.props.moreSubTitle2}
-            label={
-              <span className={classes.tabLabel}>
-                {this.props.moreSubTitle2}
-              </span>
-            }
-          />
-        </Tabs>
-        {this.state.selectedTab === this.props.moreSubTitle ? (
-          <MoreData classes={classes} moreData={this.props.moreData} />
-        ) : (
-          <MoreData classes={classes} moreData={this.props.moreData2} />
-        )}
-      </div>
-    );
-  }
-}
+// function MoreData(props) {
+//   const classes = props.classes;
+//   return (
+//     <List>
+//       {props.moreData.map(item => {
+//         return (
+//           <div key={props.moreData.indexOf(item)}>
+//             <ListItem>
+//               <img
+//                 height={24}
+//                 width={24}
+//                 alt={item.icon}
+//                 src={Utils.getIcon(item.icon)}
+//               />
+//               <Typography
+//                 className={classNames(classes.typoMore, "fontStyle5")}
+//               >
+//                 {item.name}
+//                 {"\n"}
+//               </Typography>
+//             </ListItem>
+//             <Divider />
+//           </div>
+//         );
+//       })}
+//     </List>
+//   );
+// }
+//
+// class MoreDataSplited extends Component {
+//   constructor(props) {
+//     super(props);
+//     this.state = {
+//       selectedTab: this.props.moreSubTitle
+//     };
+//   }
+//   render() {
+//     const { classes } = this.props;
+//     return (
+//       <div>
+//         <Tabs
+//           value={this.state.selectedTab}
+//           id={"tabs"}
+//           classes={{
+//             indicator: classes.tabIndicator,
+//             root: classes.tabTextColor
+//           }}
+//           onChange={(event, value) => this.setState({ selectedTab: value })}
+//           fullWidth
+//         >
+//           <Tab
+//             data-cy={"tab1"}
+//             className={classes.tab}
+//             value={this.props.moreSubTitle}
+//             label={
+//               <span className={classes.tabLabel}>
+//                 {this.props.moreSubTitle}
+//               </span>
+//             }
+//           />
+//           <Tab
+//             data-cy={"tab2"}
+//             className={classes.tab}
+//             value={this.props.moreSubTitle2}
+//             label={
+//               <span className={classes.tabLabel}>
+//                 {this.props.moreSubTitle2}
+//               </span>
+//             }
+//           />
+//         </Tabs>
+//         {this.state.selectedTab === this.props.moreSubTitle ? (
+//           <MoreData classes={classes} moreData={this.props.moreData} />
+//         ) : (
+//           <MoreData classes={classes} moreData={this.props.moreData2} />
+//         )}
+//       </div>
+//     );
+//   }
+// }
 
 class TwoInfoCard extends Component {
   constructor(props) {
@@ -226,8 +226,9 @@ class TwoInfoCard extends Component {
               </ReactTooltip>
             </StyledDivTitle>
               {this.props.moreBtn &&
-              (this.props.moreData.length > 0 ||
-                  this.props.moreData2.length > 0) ? (
+              (this.props.moreData != null ) ? (
+              // (this.props.moreData.length > 0 ||
+              //     this.props.moreData2.length > 0) ? (
                   <div
                       onClick={() => this.setState({ moreOpen: true })}
                       className={classNames(classes.moreBtn, "fontStyle6")}
@@ -354,18 +355,19 @@ class TwoInfoCard extends Component {
               {this.props.moreTitle}
             </DialogTitle>
             <StyledDialogContent>
-              {this.props.moreSubTitle !== undefined &&
-              this.props.moreSubTitle2 !== undefined ? (
-                <MoreDataSplited
-                  classes={classes}
-                  moreData={this.props.moreData}
-                  moreData2={this.props.moreData2}
-                  moreSubTitle={this.props.moreSubTitle}
-                  moreSubTitle2={this.props.moreSubTitle2}
-                />
-              ) : (
-                <MoreData classes={classes} moreData={this.props.moreData} />
-              )}
+                {this.props.moreData}
+              {/*{this.props.moreSubTitle !== undefined &&*/}
+              {/*this.props.moreSubTitle2 !== undefined ? (*/}
+                {/*<MoreDataSplited*/}
+                  {/*classes={classes}*/}
+                  {/*moreData={this.props.moreData}*/}
+                  {/*moreData2={this.props.moreData2}*/}
+                  {/*moreSubTitle={this.props.moreSubTitle}*/}
+                  {/*moreSubTitle2={this.props.moreSubTitle2}*/}
+                {/*/>*/}
+              {/*) : (*/}
+                {/*<MoreData classes={classes} moreData={this.props.moreData} />*/}
+              {/*)}*/}
             </StyledDialogContent>
           </Dialog>
         ) : (
