@@ -73,7 +73,7 @@ class MoreDataTwoTabs extends Component {
     }
     render() {
         const { classes } = this.props;
-        return this.props.moreData.length > 0 && this.props.moreData2 > 0 ? (
+        return this.props.moreData.length > 0 || this.props.moreData2.length > 0 ? (
             <div>
                 <Tabs
                     value={this.state.selectedTab}
