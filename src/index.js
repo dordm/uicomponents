@@ -16,6 +16,7 @@ import ScoreAvatar from './Components/LowLevelComponents/ScoreAvatar';
 import NumberFormatCustom from './Components/LowLevelComponents/NumberFormatCustom'
 import GoogleMap from './Components/LowLevelComponents/GoogleMap'
 import MoreDataTwoTabs from './Components/MoreDataTwoTabs'
+import MoreDataTrademarks from './Components/MoreDataTrademarks'
 import {StyledCloseIcon, SearchInputWrapper, StyledButton, MyButton, StyledTitle, ReportLayout, PackagesLayout,
     DefaultLayout, BigBoxLayout, SmallBoxLayout, StyledDivSearch, StyledSearchIcon, StyledDialogContent} from './Components/LowLevelComponents/StyledComponents';
 
@@ -40,7 +41,7 @@ import TwoInfoCard from './Components/TwoInfoCard';
 
 export {CompanyScore, Utils, MySuppliersUtils, SourcingUtils, IPUtils, CustomizedSnackbar, showSnackbar,
     FirstTimeExpTooltip, LineChart, Loader, MyTooltip, NoDataImg, PieChart, ScoreAvatar, StyledCloseIcon,
-    SearchInputWrapper, StyledButton, MyButton, StyledTitle, ReportLayout, PackagesLayout,
+    SearchInputWrapper, StyledButton, MyButton, StyledTitle, ReportLayout, PackagesLayout,MoreDataTrademarks,
     DefaultLayout, BigBoxLayout, SmallBoxLayout, StyledDivSearch, StyledSearchIcon, AreaTwoCharts, Certifications, Industry, InfoCard,
     LineTwoCharts, Media, PieChartWrapper, PublicFinancialRatio, PublicFinancial, RecommendCredit, RegistrationDetails,
     SocialMedia, TwoInfoCard, TotalExports, TopProducts, TopInsights, TopCountries, NumberFormatCustom, GoogleMap, StyledDialogContent, MoreDataTwoTabs}

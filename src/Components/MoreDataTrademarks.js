@@ -1,0 +1,173 @@
+import List from "@material-ui/core/List";
+import ListItem from "@material-ui/core/ListItem";
+import Divider from "@material-ui/core/Divider";
+import Typography from "@material-ui/core/Typography";
+import Avatar from "@material-ui/core/Avatar";
+import ListItemText from "@material-ui/core/ListItemText";
+import ListItemIcon from "@material-ui/core/ListItemIcon";
+import styled from "styled-components";
+import ExpansionPanel from "@material-ui/core/ExpansionPanel";
+import ExpansionPanelSummary from "@material-ui/core/ExpansionPanelSummary";
+import ExpansionPanelDetails from "@material-ui/core/ExpansionPanelDetails";
+import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
+import { withStyles } from "@material-ui/core/styles/index";
+import PropTypes from "prop-types";
+
+const StyledExpansionPanel = styled(ExpansionPanel)`
+  padding-top: 0px;
+  padding-bottom: 0px;
+  text-align: left;
+  box-shadow: none !important;
+`;
+
+const StyledListItem = styled(ListItem)`
+  padding: 4px 0 4px 0 !important;
+`;
+const StyledAvatar = styled(Avatar)`
+  height: 46px !important;
+  width: 46px !important;
+  @media (max-width: 600px) {
+    height: 30px !important;
+    width: 30px !important;
+  }
+`;
+const StyledListItemText = styled(ListItemText)`
+  margin-left: -25px;
+  padding-top: 13px !important;
+  @media (max-width: 600px) {
+    padding-top: 6px !important;
+  }
+`;
+
+const StyledExpansionSummary = styled(ExpansionPanelSummary)`
+  min-height: 30px !important;
+  padding: 8px !important;
+  @media (max-width: 600px) {
+    padding: 0 !important;
+  }
+`;
+
+const StyledExpansionPanelDetails = styled(ExpansionPanelDetails)`
+  padding-top: 0px !important;
+  padding-bottom: 8px !important;
+  margin: 0px;
+`;
+
+const styles = {
+    expansionSummaryInner: {
+        margin: "0px !important"
+    }
+};
+
+function MoreDataTrademarks(props) {
+    const { classes } = props;
+    return (
+        <List>
+            {props.moreData.map((item, idx) => {
+                return (
+                    <div key={idx}>
+                        <StyledListItem>
+                            <StyledExpansionPanel style={{ width: "100%" }}>
+                                <StyledExpansionSummary
+                                    IconButtonProps={{
+                                        style: {
+                                            padding: 0
+                                        }
+                                    }}
+                                    classes={{
+                                        content: classes.expansionSummaryInner,
+                                        expanded: classes.expansionSummaryInner
+                                    }}
+                                    expandIcon={<ExpandMoreIcon />}
+                                >
+                                    <ListItemIcon>
+                                        <StyledAvatar
+                                            imgProps={{
+                                                style: {
+                                                    objectFit: "contain"
+                                                }
+                                            }}
+                                            src={item.imgUrl}
+                                            alt={"Trademark Image"}
+                                            onError={e => {
+                                                e.target.onerror = null;
+                                                e.target.src =
+                                                    "https://s3-us-west-2.amazonaws.com/tiidan-qichacha-imgs/logos/default.jpgdefault.jpg";
+                                            }}
+                                        />
+                                    </ListItemIcon>
+                                    <StyledListItemText
+                                        primary={
+                                            <Typography className={"fontStyle7"}>
+                                                {item.branType}
+                                            </Typography>
+                                        }
+                                    />
+                                </StyledExpansionSummary>
+                                <StyledExpansionPanelDetails>
+                                    <div>
+                                        <Typography className={"fontStyle7"}>
+                                            {"\u2022"} Registration Number: {item.regNo}
+                                        </Typography>
+                                        <Typography className={"fontStyle7"}>
+                                            {"\u2022"} Date of Application: {item.applicationDate}
+                                        </Typography>
+                                        <Typography className={"fontStyle7"}>
+                                            {"\u2022"} Trademark Status:{" "}
+                                            {item.brandProcess !== ""
+                                                ? item.brandProcess
+                                                : "Approved"}
+                                        </Typography>
+                                        <Typography className={"fontStyle7"}>
+                                            {"\u2022"} Application Name:{" "}
+                                            {item.name !== "" ? item.name : "Unknown"}
+                                        </Typography>
+                                        <Typography className={"fontStyle7"}>
+                                            {"\u2022"} Applicant Name: {item.proposer}
+                                        </Typography>
+                                        <Typography className={"fontStyle7"}>
+                                            {"\u2022"} Applicant Address: {item.proposerAddr}
+                                        </Typography>
+                                        <Typography className={"fontStyle7"}>
+                                            {"\u2022"} Trademark Attorney Name: {item.brandAgent}
+                                        </Typography>
+                                        {item.serviceList !== "();" ? (
+                                            <div>
+                                                <Typography className={"fontStyle7"}>
+                                                    {"\u2022"} Service Items:{" "}
+                                                </Typography>
+                                                <div>
+                                                    {item.serviceList
+                                                        .replace("();", "")
+                                                        .split(";")
+                                                        .map((service, idx) => (
+                                                            <Typography
+                                                                key={idx}
+                                                                style={{ marginLeft: 7 }}
+                                                                className={"fontStyle7"}
+                                                            >
+                                                                {service}
+                                                            </Typography>
+                                                        ))}
+                                                </div>
+                                            </div>
+                                        ) : (
+                                            ""
+                                        )}
+                                    </div>
+                                </StyledExpansionPanelDetails>
+                            </StyledExpansionPanel>
+                        </StyledListItem>
+                        <Divider />
+                    </div>
+                );
+            })}
+        </List>
+    );
+}
+
+MoreDataTrademarks.propTypes = {
+    classes: PropTypes.object.isRequired
+};
+
+export default withStyles(styles)(MoreDataTrademarks);
