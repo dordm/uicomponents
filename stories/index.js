@@ -17,6 +17,7 @@ import TwoInfoCard from '../src/Components/TwoInfoCard'
 import PublicFinancial from '../src/Components/PublicFinancial'
 import PublicFinancialRatio from '../src/Components/PublicFinancialRatio'
 import MoreDataBranchesInvestments from '../src/Components/MoreDataBranchesInvestments'
+import MoreDataEmployees from '../src/Components/MoreDataEmployees'
 import reportData from './MockData/reportData'
 import '../src/Components/css/fonts.css'
 import '../src/Components/css/tooltip.css'
@@ -153,36 +154,32 @@ storiesOf('Components', module)
     .add('Two Info Card with drill down', () => (
         <TwoInfoCard
             width={window.innerWidth}
-            name={"Investments and Branches"}
+            name={"Employees"}
             date={""}
-            infoText={"The company subsidiaries and branches"}
+            infoText={"The company employees"}
             content1={
-                reportData.foreignInvestment !== undefined
-                    ? reportData.foreignInvestment
-                    : ""
+                "100-200"
             }
-            content1Lbl={"No. of Investments"}
+            content1Lbl={"(Web Data)"}
             content2={
-                reportData.numberOfBranches !== undefined
-                    ? reportData.numberOfBranches
-                    : ""
+                ""
             }
-            content2Lbl={"Branches"}
+            content2Lbl={""}
             bottomIcon={null}
             bottomMsg={""}
             moreBtn={true}
-            moreTitle={"Investments and Branches"}
+            moreTitle={"Employees"}
             moreData={
-                investmentsList.length > 0 || branchesList.length > 0 ?
-                <MoreDataBranchesInvestments
+                reportData.employeesList.length > 0 || reportData.jobsList.length > 0 ?
+                <MoreDataEmployees
                     moreData={
-                        investmentsList
+                        reportData.employeesList
                     }
                     moreData2={
-                        branchesList
+                        reportData.jobsList
                     }
-                    moreSubTitle={"Investments"}
-                    moreSubTitle2={"Branches"}
+                    moreSubTitle={"Employees"}
+                    moreSubTitle2={"Job "}
                 /> : null
             }
         />
