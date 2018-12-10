@@ -16,7 +16,7 @@ import ScoreAvatar from './Components/LowLevelComponents/ScoreAvatar';
 import NumberFormatCustom from './Components/LowLevelComponents/NumberFormatCustom'
 import GoogleMap from './Components/LowLevelComponents/GoogleMap'
 import MoreDataBranchesInvestments from './Components/MoreDataBranchesInvestments'
-import MoreDataEmployees from '../src/Components/MoreDataEmployees'
+import MoreDataEmployees from './Components/MoreDataEmployees'
 import MoreDataTrademarks from './Components/MoreDataTrademarks'
 import {StyledCloseIcon, SearchInputWrapper, StyledButton, MyButton, StyledTitle, ReportLayout, PackagesLayout,
     DefaultLayout, BigBoxLayout, SmallBoxLayout, StyledDivSearch, StyledSearchIcon, StyledDialogContent} from './Components/LowLevelComponents/StyledComponents';
