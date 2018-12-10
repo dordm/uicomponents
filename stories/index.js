@@ -16,10 +16,27 @@ import InfoCard from '../src/Components/InfoCard'
 import TwoInfoCard from '../src/Components/TwoInfoCard'
 import PublicFinancial from '../src/Components/PublicFinancial'
 import PublicFinancialRatio from '../src/Components/PublicFinancialRatio'
+import MoreDataTwoTabs from '../src/Components/MoreDataTwoTabs'
 import reportData from './MockData/reportData'
 import '../src/Components/css/fonts.css'
 import '../src/Components/css/tooltip.css'
 import Utils from '../src/Components/js/Utils'
+
+const investmentsList = reportData.foreignInvestmentList != null &&
+reportData.foreignInvestmentList !== undefined
+    ? reportData.foreignInvestmentList.map(investment => ({
+        name: investment.name,
+        icon: "branch"
+    }))
+    : [];
+
+const branchesList = reportData.branchesData != null &&
+reportData.branchesData !== undefined
+    ? reportData.branchesData.branches.map(branch => ({
+        name: branch.name,
+        icon: "branch"
+    }))
+    : [];
 
 
 storiesOf('Components', module)
@@ -155,25 +172,18 @@ storiesOf('Components', module)
             bottomMsg={""}
             moreBtn={true}
             moreTitle={"Investments and Branches"}
-            moreData2={
-                reportData.branchesData != null &&
-                reportData.branchesData !== undefined
-                    ? reportData.branchesData.branches.map(branch => ({
-                        name: branch.name,
-                        icon: "branch"
-                    }))
-                    : []
-            }
-            moreSubTitle={"Investments"}
-            moreSubTitle2={"Branches"}
             moreData={
-                reportData.foreignInvestmentList != null &&
-                reportData.foreignInvestmentList !== undefined
-                    ? reportData.foreignInvestmentList.map(investment => ({
-                        name: investment.name,
-                        icon: "branch"
-                    }))
-                    : []
+                investmentsList.length > 0 || branchesList.length > 0 ?
+                <MoreDataTwoTabs
+                    moreData={
+                        investmentsList
+                    }
+                    moreData2={
+                        branchesList
+                    }
+                    moreSubTitle={"Investments"}
+                    moreSubTitle2={"Branches"}
+                /> : null
             }
         />
     ))
@@ -199,25 +209,19 @@ storiesOf('Components', module)
             bottomMsg={"some text message"}
             moreBtn={true}
             moreTitle={"Investments and Branches"}
-            moreData2={
-                reportData.branchesData != null &&
-                reportData.branchesData !== undefined
-                    ? reportData.branchesData.branches.map(branch => ({
-                        name: branch.name,
-                        icon: "branch"
-                    }))
-                    : []
-            }
-            moreSubTitle={"Investments"}
-            moreSubTitle2={"Branches"}
             moreData={
-                reportData.foreignInvestmentList != null &&
-                reportData.foreignInvestmentList !== undefined
-                    ? reportData.foreignInvestmentList.map(investment => ({
-                        name: investment.name,
-                        icon: "branch"
-                    }))
-                    : []
+                investmentsList.length > 0 || branchesList.length > 0 ?
+                <MoreDataTwoTabs
+                    moreData={
+                        investmentsList
+                    }
+                    moreData2={
+                        branchesList
+                    }
+                    moreSubTitle={"Investments"}
+                    moreSubTitle2={"Branches"}
+                />
+                    : null
             }
         />
     ));
