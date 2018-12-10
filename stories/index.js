@@ -16,7 +16,7 @@ import InfoCard from '../src/Components/InfoCard'
 import TwoInfoCard from '../src/Components/TwoInfoCard'
 import PublicFinancial from '../src/Components/PublicFinancial'
 import PublicFinancialRatio from '../src/Components/PublicFinancialRatio'
-import MoreDataTwoTabs from '../src/Components/MoreDataTwoTabs'
+import MoreDataBranchesInvestments from '../src/Components/MoreDataBranchesInvestments'
 import reportData from './MockData/reportData'
 import '../src/Components/css/fonts.css'
 import '../src/Components/css/tooltip.css'
@@ -174,7 +174,7 @@ storiesOf('Components', module)
             moreTitle={"Investments and Branches"}
             moreData={
                 investmentsList.length > 0 || branchesList.length > 0 ?
-                <MoreDataTwoTabs
+                <MoreDataBranchesInvestments
                     moreData={
                         investmentsList
                     }
@@ -211,7 +211,7 @@ storiesOf('Components', module)
             moreTitle={"Investments and Branches"}
             moreData={
                 investmentsList.length > 0 || branchesList.length > 0 ?
-                <MoreDataTwoTabs
+                <MoreDataBranchesInvestments
                     moreData={
                         investmentsList
                     }
