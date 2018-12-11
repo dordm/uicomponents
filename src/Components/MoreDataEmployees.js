@@ -103,7 +103,7 @@ function MoreData2(props) {
                                         <img
                                             height={24}
                                             width={24}
-                                            alt={item.icon}
+                                            alt={"employee"}
                                             src={Utils.getImage('employee.svg')}
                                         />
                                     </ListItemIcon>
@@ -170,7 +170,7 @@ function MoreData(props) {
                             <img
                                 height={24}
                                 width={24}
-                                alt={item.icon}
+                                alt={"employee"}
                                 src={Utils.getImage('employee.svg')}
                             />
                             <div>
