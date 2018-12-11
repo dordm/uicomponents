@@ -30,10 +30,7 @@ const StyledListItem = styled(ListItem)`
 
 const StyledListItemText = styled(ListItemText)`
   margin-left: -25px;
-  padding-top: 13px !important;
-  @media (max-width: 600px) {
-    padding-top: 6px !important;
-  }
+  padding-top: 2px !important;
 `;
 
 const StyledExpansionSummary = styled(ExpansionPanelSummary)`
