@@ -50,7 +50,7 @@ const styles = {
     }
 };
 
-function MoreDataPatents(props) {
+function MoreDataCourtCases(props) {
     const { classes } = props;
     return (
         <List>
@@ -76,14 +76,14 @@ function MoreDataPatents(props) {
                                             style={{alignSelf:'center'}}
                                             height={24}
                                             width={24}
-                                            alt={"patent"}
-                                            src={Utils.getImage('diploma.svg')}
+                                            alt={"court case"}
+                                            src={Utils.getImage('mace.svg')}
                                         />
                                     </ListItemIcon>
                                     <StyledListItemText
                                         primary={
                                             <Typography className={"fontStyle7"}>
-                                                {item.patentName}
+                                                {item.title}
                                             </Typography>
                                         }
                                     />
@@ -91,43 +91,16 @@ function MoreDataPatents(props) {
                                 <StyledExpansionPanelDetails>
                                     <div>
                                         <Typography className={"fontStyle7"}>
-                                            {"\u2022"} Patent Number: {item.patentNo}
+                                            {"\u2022"} Date: {item.date}
                                         </Typography>
                                         <Typography className={"fontStyle7"}>
-                                            {"\u2022"} Patent Request Date: {item.patentDate}
+                                            {"\u2022"} Case Number: {item.num}
                                         </Typography>
                                         <Typography className={"fontStyle7"}>
-                                            {"\u2022"} Patent Type: {item.patentType}
+                                            {"\u2022"} Judicial Institution: {item.ch}
                                         </Typography>
                                         <Typography className={"fontStyle7"}>
-                                            {"\u2022"} Classification Number: {item.patentClass}
-                                        </Typography>
-                                        <Typography className={"fontStyle7"}>
-                                            {"\u2022"} Patent Status: {item.patentLegalStatus}
-                                        </Typography>
-                                        <Typography className={"fontStyle7"}>
-                                            {"\u2022"} Patent Publish Date: {item.patentOpenDate}
-                                        </Typography>
-                                        <Typography className={"fontStyle7"}>
-                                            {"\u2022"} Patent Address: {item.patentAddr}
-                                        </Typography>
-                                        <Typography className={"fontStyle7"}>
-                                            {"\u2022"} Patent City: {item.patentCity}
-                                        </Typography>
-                                        <Typography className={"fontStyle7"}>
-                                            {"\u2022"} Patent Inventor: {item.patentInventor}
-                                        </Typography>
-                                        <Typography className={"fontStyle7"}>
-                                            {"\u2022"} Patent Applicant: {item.patentApplicant}
-                                        </Typography>
-                                        <Typography className={"fontStyle7"}>
-                                            {"\u2022"} Patent Agency: {item.patentAgency}
-                                        </Typography>
-                                        <Typography className={"fontStyle7"}>
-                                            {"\u2022"} Patent Agent: {item.patentAgent}
-                                        </Typography>
-                                        <Typography className={"fontStyle7"}>
-                                            {"\u2022"} Patent Summary: {item.patentAbstract}
+                                            {"\u2022"} Case Content: {item.content}
                                         </Typography>
                                     </div>
                                 </StyledExpansionPanelDetails>
@@ -141,8 +114,8 @@ function MoreDataPatents(props) {
     );
 }
 
-MoreDataPatents.propTypes = {
+MoreDataCourtCases.propTypes = {
     classes: PropTypes.object.isRequired
 };
 
-export default withStyles(styles)(MoreDataPatents);
+export default withStyles(styles)(MoreDataCourtCases);

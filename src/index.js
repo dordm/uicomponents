@@ -19,6 +19,7 @@ import MoreDataBranchesInvestments from './Components/MoreDataBranchesInvestment
 import MoreDataEmployees from './Components/MoreDataEmployees'
 import MoreDataTrademarks from './Components/MoreDataTrademarks'
 import MoreDataPatents from './Components/MoreDataPatents'
+import MoreDataCourtCases from './Components/MoreDataCourtCases'
 import {StyledCloseIcon, SearchInputWrapper, StyledButton, MyButton, StyledTitle, ReportLayout, PackagesLayout,
     DefaultLayout, BigBoxLayout, SmallBoxLayout, StyledDivSearch, StyledSearchIcon, StyledDialogContent} from './Components/LowLevelComponents/StyledComponents';
 
@@ -42,7 +43,7 @@ import TotalExports from './Components/TotalExports';
 import TwoInfoCard from './Components/TwoInfoCard';
 
 export {CompanyScore, Utils, MySuppliersUtils, SourcingUtils, IPUtils, CustomizedSnackbar, showSnackbar,
-    FirstTimeExpTooltip, LineChart, Loader, MyTooltip, NoDataImg, PieChart, ScoreAvatar, StyledCloseIcon,
+    FirstTimeExpTooltip, LineChart, Loader, MyTooltip, NoDataImg, PieChart, ScoreAvatar, StyledCloseIcon,MoreDataCourtCases,
     SearchInputWrapper, StyledButton, MyButton, StyledTitle, ReportLayout, PackagesLayout,MoreDataTrademarks,MoreDataPatents,
     DefaultLayout, BigBoxLayout, SmallBoxLayout, StyledDivSearch, StyledSearchIcon, AreaTwoCharts, Certifications, Industry, InfoCard,
     LineTwoCharts, Media, PieChartWrapper, PublicFinancialRatio, PublicFinancial, RecommendCredit, RegistrationDetails,MoreDataEmployees,
