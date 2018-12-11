@@ -27,10 +27,7 @@ const StyledListItem = styled(ListItem)`
 
 const StyledListItemText = styled(ListItemText)`
   margin-left: -25px;
-  padding-top: 13px !important;
-  @media (max-width: 600px) {
-    padding-top: 6px !important;
-  }
+  padding-top: 0px !important;
 `;
 
 const StyledExpansionSummary = styled(ExpansionPanelSummary)`
@@ -76,6 +73,7 @@ function MoreDataPatents(props) {
                                 >
                                     <ListItemIcon>
                                         <img
+                                            style={{alignSelf:'center'}}
                                             height={24}
                                             width={24}
                                             alt={"patent"}
