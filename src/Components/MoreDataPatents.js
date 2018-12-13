@@ -114,9 +114,28 @@ function MoreDataPatents(props) {
                                         <Typography className={"fontStyle7"}>
                                             {"\u2022"} Patent City: {item.patentCity}
                                         </Typography>
-                                        <Typography className={"fontStyle7"}>
-                                            {"\u2022"} Patent Inventor: {item.patentInventor}
-                                        </Typography>
+                                        {item.patentInventor !== "" ? (
+                                            <div>
+                                                <Typography className={"fontStyle7"}>
+                                                    {"\u2022"} Patent Inventors:{" "}
+                                                </Typography>
+                                                <div>
+                                                    {item.patentInventor
+                                                        .split(";")
+                                                        .map((inventor, idx) => (
+                                                            <Typography
+                                                                key={idx}
+                                                                style={{ marginLeft: 7 }}
+                                                                className={"fontStyle7"}
+                                                            >
+                                                                {inventor}
+                                                            </Typography>
+                                                        ))}
+                                                </div>
+                                            </div>
+                                        ) : (
+                                            ""
+                                        )}
                                         <Typography className={"fontStyle7"}>
                                             {"\u2022"} Patent Applicant: {item.patentApplicant}
                                         </Typography>
