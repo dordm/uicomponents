@@ -118,7 +118,7 @@ function MoreData2(props) {
                                             {"\u2022"} Publish Date: {item.publicDate !== '' ? item.publicDate : 'Unknown'}
                                         </Typography>
                                         <Typography className={"fontStyle11"}>
-                                            {"\u2022"} Address: {item.address !== "" ? item.address : ''} {item.area !== "" ? ', ' + item.area : ''} {item.city !== "" ? ', ' + item.city : ''}
+                                            {"\u2022"} Address: {item.address !== "" ? item.address : ''}
                                         </Typography>
                                         <Typography className={"fontStyle11"}>
                                             {"\u2022"} Functional Category: {item.type !== '' ? item.type : 'Not Set'}
