@@ -12,13 +12,20 @@ import {
   SmallBoxLayout,
   StyledTitle,
   StyledCloseIcon,
-    StyledDialogContent
+  StyledDialogContent
 } from "./LowLevelComponents/StyledComponents";
 import NoDataImg from "./LowLevelComponents/NoDataImg";
 
 const StyledDivTitle = styled.div`
   display: flex;
-  width: ${props => (props.width > 600 ? props.date !== '' ? "60%" : "75%" : props.date !== '' ? "65%" : "80%")};
+  width: ${props =>
+    props.width > 600
+      ? props.date !== ""
+        ? "60%"
+        : "75%"
+      : props.date !== ""
+      ? "65%"
+      : "80%"};
 `;
 
 const styles = {
@@ -51,9 +58,9 @@ const styles = {
     textAlign: "right",
     cursor: "pointer"
   },
-    dialog:{
-        margin:16
-    },
+  dialog: {
+    margin: 16
+  }
 };
 
 class TwoInfoCard extends Component {
@@ -66,18 +73,18 @@ class TwoInfoCard extends Component {
     };
   }
 
-    componentDidUpdate(prevProps, prevState) {
-        if (prevProps.content1 !== this.props.content1) {
-            this.setState({
-                content1: Utils.fixNumber(this.props.content1)
-            });
-        }
-        if (prevProps.content2 !== this.props.content2) {
-            this.setState({
-                content2: Utils.fixNumber(this.props.content2)
-            });
-        }
+  componentDidUpdate(prevProps, prevState) {
+    if (prevProps.content1 !== this.props.content1) {
+      this.setState({
+        content1: Utils.fixNumber(this.props.content1)
+      });
     }
+    if (prevProps.content2 !== this.props.content2) {
+      this.setState({
+        content2: Utils.fixNumber(this.props.content2)
+      });
+    }
+  }
 
   render() {
     const { classes } = this.props;
@@ -94,10 +101,7 @@ class TwoInfoCard extends Component {
             otherWidth={""}
             mobileWidth={""}
           >
-            <StyledDivTitle
-              date={this.props.date}
-              width={this.props.width}
-            >
+            <StyledDivTitle date={this.props.date} width={this.props.width}>
               <Typography className={classNames("fontStyle1")}>
                 {this.props.name}
               </Typography>
@@ -117,23 +121,22 @@ class TwoInfoCard extends Component {
                 <span>{this.props.infoText}</span>
               </ReactTooltip>
             </StyledDivTitle>
-              {this.props.moreBtn &&
-              this.props.moreData != null ? (
-                  <div
-                      onClick={() => this.setState({ moreOpen: true })}
-                      className={classNames(classes.moreBtn, "fontStyle6")}
-                      data-cy="divMore"
-                  >
-                      More
-                      <img
-                          alt="view all"
-                          src={require("./images/Back.png")}
-                          style={{ marginTop: -4, position: "absolute" }}
-                      />
-                  </div>
-              ) : (
-                  ""
-              )}
+            {this.props.moreBtn && this.props.moreData != null ? (
+              <div
+                onClick={() => this.setState({ moreOpen: true })}
+                className={classNames(classes.moreBtn, "fontStyle6")}
+                data-cy="divMore"
+              >
+                More
+                <img
+                  alt="view all"
+                  src={require("./images/Back.png")}
+                  style={{ marginTop: -4, position: "absolute" }}
+                />
+              </div>
+            ) : (
+              ""
+            )}
             {this.props.date !== "" ? (
               <Typography className={classNames(classes.date, "fontStyle12")}>
                 {this.props.date}
@@ -142,7 +145,10 @@ class TwoInfoCard extends Component {
               ""
             )}
           </StyledTitle>
-          <div data-cy="divContent" style={{ display: "inline-flex", width: "100%", marginTop: 20 }}>
+          <div
+            data-cy="divContent"
+            style={{ display: "inline-flex", width: "100%", marginTop: 20 }}
+          >
             {this.state.content1 !== "" && this.state.content1 != null ? (
               <div
                 style={{
@@ -169,7 +175,10 @@ class TwoInfoCard extends Component {
               ""
             )}
             {this.state.content2 !== "" && this.state.content2 != null ? (
-              <div data-cy="divContent2" style={{ paddingRight: 10, width: "50%" }}>
+              <div
+                data-cy="divContent2"
+                style={{ paddingRight: 10, width: "50%" }}
+              >
                 <Typography
                   className={classNames(classes.content, "fontStyle18")}
                 >
@@ -189,53 +198,61 @@ class TwoInfoCard extends Component {
           {this.props.bottomMsg !== "" &&
           this.props.bottomMsg !== undefined &&
           this.props.bottomMsg !== null ? (
-           <div data-tip data-for={"tipBtmMsg" + this.props.name} data-cy="divBottomMsg" style={{overflow:'hidden'}}>
-            <Typography
-              className={classNames(classes.bottomContent, "fontStyle11")}
-              style={{ marginTop: this.props.content1Lbl === "" ? 25 : 10 }}
+            <div
+              data-tip
+              data-for={"tipBtmMsg" + this.props.name}
+              data-cy="divBottomMsg"
+              style={{ overflow: "hidden" }}
             >
-              {this.props.bottomIcon != null ? (
-                <img
-                  height={24}
-                  width={24}
-                  alt="bottomIcon"
-                  className={classes.bottomIcon}
-                  src={this.props.bottomIcon}
-                />
-              ) : (
-                ""
-              )}
-              <label
-                style={{ marginLeft: this.props.bottomIcon != null ? 25 : 0 }}
+              <Typography
+                className={classNames(classes.bottomContent, "fontStyle11")}
+                style={{ marginTop: this.props.content1Lbl === "" ? 25 : 10 }}
               >
-                {this.props.bottomMsg}
-              </label>
-            </Typography>
-           </div>
+                {this.props.bottomIcon != null ? (
+                  <img
+                    height={24}
+                    width={24}
+                    alt="bottomIcon"
+                    className={classes.bottomIcon}
+                    src={this.props.bottomIcon}
+                  />
+                ) : (
+                  ""
+                )}
+                <label
+                  style={{ marginLeft: this.props.bottomIcon != null ? 25 : 0 }}
+                >
+                  {this.props.bottomMsg}
+                </label>
+              </Typography>
+            </div>
           ) : (
             ""
           )}
-            <ReactTooltip
-                className={classNames("tooltip", "fontStyle14")}
-                id={"tipBtmMsg" + this.props.name}
-                place="bottom"
-                effect="solid"
-            >
-                <span>{this.props.bottomMsg}</span>
-            </ReactTooltip>
+          <ReactTooltip
+            className={classNames("tooltip", "fontStyle14")}
+            id={"tipBtmMsg" + this.props.name}
+            place="bottom"
+            effect="solid"
+          >
+            <span>{this.props.bottomMsg}</span>
+          </ReactTooltip>
         </div>
         {this.props.moreBtn ? (
           <Dialog
-              PaperProps={{
-                  classes: {
-                      root: classes.dialog
-                  }
-              }}
+            PaperProps={{
+              classes: {
+                root: classes.dialog
+              }
+            }}
             open={this.state.moreOpen}
             onClose={() => this.setState({ moreOpen: false })}
             aria-labelledby="scroll-dialog-title"
           >
-            <StyledCloseIcon data-cy={"btnCloseDialog"} onClick={() => this.setState({ moreOpen: false })}>
+            <StyledCloseIcon
+              data-cy={"btnCloseDialog"}
+              onClick={() => this.setState({ moreOpen: false })}
+            >
               <img alt="Close" src={require("./images/Close.png")} />
             </StyledCloseIcon>
             <DialogTitle
@@ -244,9 +261,7 @@ class TwoInfoCard extends Component {
             >
               {this.props.moreTitle}
             </DialogTitle>
-            <StyledDialogContent>
-                {this.props.moreData}
-            </StyledDialogContent>
+            <StyledDialogContent>{this.props.moreData}</StyledDialogContent>
           </Dialog>
         ) : (
           ""

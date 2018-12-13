@@ -13,7 +13,8 @@ import ReactTooltip from "react-tooltip";
 import {
   StyledTitle,
   BigBoxLayout,
-  StyledCloseIcon, StyledDialogContent
+  StyledCloseIcon,
+  StyledDialogContent
 } from "./LowLevelComponents/StyledComponents";
 import NoDataImg from "./LowLevelComponents/NoDataImg";
 
@@ -29,8 +30,8 @@ const styles = {
     marginLeft: 28,
     marginRight: 28,
     width: "100%",
-    marginTop:15,
-    height:230
+    marginTop: 15,
+    height: 230
   },
   divInsight: {
     textAlign: "left",
@@ -60,9 +61,9 @@ const styles = {
     marginTop: -2,
     marginLeft: 6
   },
-    dialog:{
-        margin:16
-    },
+  dialog: {
+    margin: 16
+  }
 };
 
 function GetInsights(props) {
@@ -175,11 +176,11 @@ class TopInsights extends Component {
         )}
 
         <Dialog
-            PaperProps={{
-                classes: {
-                    root: classes.dialog
-                }
-            }}
+          PaperProps={{
+            classes: {
+              root: classes.dialog
+            }
+          }}
           open={this.state.allInsightsOpen}
           onClose={() => this.setState({ allInsightsOpen: false })}
           aria-labelledby="scroll-dialog-title"
@@ -194,7 +195,7 @@ class TopInsights extends Component {
           </DialogTitle>
           <StyledDialogContent>
             <List>
-              {this.getFilteredInsights(false).map((insight,idx) => {
+              {this.getFilteredInsights(false).map((insight, idx) => {
                 return (
                   <div key={idx}>
                     <ListItem>

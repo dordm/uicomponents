@@ -45,77 +45,77 @@ const StyledExpansionPanelDetails = styled(ExpansionPanelDetails)`
 `;
 
 const styles = {
-    expansionSummaryInner: {
-        margin: "0px !important"
-    }
+  expansionSummaryInner: {
+    margin: "0px !important"
+  }
 };
 
 function MoreDataCourtCases(props) {
-    const { classes } = props;
-    return (
-        <List>
-            {props.moreData.map((item, idx) => {
-                return (
-                    <div key={idx}>
-                        <StyledListItem>
-                            <StyledExpansionPanel style={{ width: "100%" }}>
-                                <StyledExpansionSummary
-                                    IconButtonProps={{
-                                        style: {
-                                            padding: 0
-                                        }
-                                    }}
-                                    classes={{
-                                        content: classes.expansionSummaryInner,
-                                        expanded: classes.expansionSummaryInner
-                                    }}
-                                    expandIcon={<ExpandMoreIcon />}
-                                >
-                                    <ListItemIcon>
-                                        <img
-                                            style={{alignSelf:'center'}}
-                                            height={24}
-                                            width={24}
-                                            alt={"court case"}
-                                            src={Utils.getImage('mace.svg')}
-                                        />
-                                    </ListItemIcon>
-                                    <StyledListItemText
-                                        primary={
-                                            <Typography className={"fontStyle7"}>
-                                                {item.title}
-                                            </Typography>
-                                        }
-                                    />
-                                </StyledExpansionSummary>
-                                <StyledExpansionPanelDetails>
-                                    <div>
-                                        <Typography className={"fontStyle7"}>
-                                            {"\u2022"} Date: {item.date}
-                                        </Typography>
-                                        <Typography className={"fontStyle7"}>
-                                            {"\u2022"} Case Number: {item.num}
-                                        </Typography>
-                                        <Typography className={"fontStyle7"}>
-                                            {"\u2022"} Judicial Institution: {item.ch}
-                                        </Typography>
-                                        <Typography className={"fontStyle7"}>
-                                            {"\u2022"} Case Content: {item.content}
-                                        </Typography>
-                                    </div>
-                                </StyledExpansionPanelDetails>
-                            </StyledExpansionPanel>
-                        </StyledListItem>
-                        <Divider />
-                    </div>
-                );
-            })}
-        </List>
-    );
+  const { classes } = props;
+  return (
+    <List>
+      {props.moreData.map((item, idx) => {
+        return (
+          <div key={idx}>
+            <StyledListItem>
+              <StyledExpansionPanel style={{ width: "100%" }}>
+                <StyledExpansionSummary
+                  IconButtonProps={{
+                    style: {
+                      padding: 0
+                    }
+                  }}
+                  classes={{
+                    content: classes.expansionSummaryInner,
+                    expanded: classes.expansionSummaryInner
+                  }}
+                  expandIcon={<ExpandMoreIcon />}
+                >
+                  <ListItemIcon>
+                    <img
+                      style={{ alignSelf: "center" }}
+                      height={24}
+                      width={24}
+                      alt={"court case"}
+                      src={Utils.getImage("mace.svg")}
+                    />
+                  </ListItemIcon>
+                  <StyledListItemText
+                    primary={
+                      <Typography className={"fontStyle7"}>
+                        {item.title}
+                      </Typography>
+                    }
+                  />
+                </StyledExpansionSummary>
+                <StyledExpansionPanelDetails>
+                  <div>
+                    <Typography className={"fontStyle7"}>
+                      {"\u2022"} Date: {item.date}
+                    </Typography>
+                    <Typography className={"fontStyle7"}>
+                      {"\u2022"} Case Number: {item.num}
+                    </Typography>
+                    <Typography className={"fontStyle7"}>
+                      {"\u2022"} Judicial Institution: {item.ch}
+                    </Typography>
+                    <Typography className={"fontStyle7"}>
+                      {"\u2022"} Case Content: {item.content}
+                    </Typography>
+                  </div>
+                </StyledExpansionPanelDetails>
+              </StyledExpansionPanel>
+            </StyledListItem>
+            <Divider />
+          </div>
+        );
+      })}
+    </List>
+  );
 }
 
 MoreDataCourtCases.propTypes = {
-    classes: PropTypes.object.isRequired
+  classes: PropTypes.object.isRequired
 };
 
 export default withStyles(styles)(MoreDataCourtCases);

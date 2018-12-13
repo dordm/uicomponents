@@ -32,7 +32,7 @@ const styles = {
     height: 16,
     width: 16,
     marginTop: -2,
-      display:'block'
+    display: "block"
   },
   listDiv: {
     width: "100%"
@@ -105,7 +105,12 @@ class PublicFinancialRatio extends Component {
             <List>
               <ListItem>
                 <ListItemIcon className={classes.icon}>
-                  <img height={16} width={16} alt="ratio" src={require("./images/ratio.svg")} />
+                  <img
+                    height={16}
+                    width={16}
+                    alt="ratio"
+                    src={require("./images/ratio.svg")}
+                  />
                 </ListItemIcon>
                 <ListItemText
                   style={{ marginLeft: -25 }}
@@ -121,13 +126,16 @@ class PublicFinancialRatio extends Component {
                     "fontStyle10"
                   )}
                 >
-                  {this.props.data.currentRatio !== undefined ? this.props.data.currentRatio.toFixed(2) : ''}
+                  {this.props.data.currentRatio !== undefined
+                    ? this.props.data.currentRatio.toFixed(2)
+                    : ""}
                 </ListItemSecondaryAction>
               </ListItem>
               <ListItem>
                 <ListItemIcon className={classes.icon}>
                   <img
-                      height={16} width={16}
+                    height={16}
+                    width={16}
                     alt="liabilities"
                     src={require("./images/liabilities.svg")}
                   />
@@ -146,13 +154,16 @@ class PublicFinancialRatio extends Component {
                     "fontStyle10"
                   )}
                 >
-                  {this.props.data.totalLiabilities !== undefined ? (this.props.data.totalLiabilities * 100).toFixed(0) + "%" : ''}
+                  {this.props.data.totalLiabilities !== undefined
+                    ? (this.props.data.totalLiabilities * 100).toFixed(0) + "%"
+                    : ""}
                 </ListItemSecondaryAction>
               </ListItem>
               <ListItem>
                 <ListItemIcon className={classes.icon}>
                   <img
-                      height={16} width={16}
+                    height={16}
+                    width={16}
                     alt="turnover ratio"
                     src={require("./images/turnover.svg")}
                   />
@@ -171,21 +182,23 @@ class PublicFinancialRatio extends Component {
                     "fontStyle10"
                   )}
                 >
-                  {this.props.data.turnoverRatio !== undefined ? this.props.data.turnoverRatio.toFixed(2) : ''}
+                  {this.props.data.turnoverRatio !== undefined
+                    ? this.props.data.turnoverRatio.toFixed(2)
+                    : ""}
                 </ListItemSecondaryAction>
               </ListItem>
               {/*<ListItem>*/}
-                {/*{this.props.data.icon !== undefined ? (*/}
-                  {/*<ListItemIcon className={classes.icon}>*/}
-                    {/*<img alt="msg" src={Utils.getIcon("")} />*/}
-                  {/*</ListItemIcon>*/}
-                {/*) : (*/}
-                  {/*""*/}
-                {/*)}*/}
-                {/*<ListItemText*/}
-                  {/*style={{ marginLeft: -35 }}*/}
-                  {/*primary={<Typography className={"fontStyle11"} />}*/}
-                {/*/>*/}
+              {/*{this.props.data.icon !== undefined ? (*/}
+              {/*<ListItemIcon className={classes.icon}>*/}
+              {/*<img alt="msg" src={Utils.getIcon("")} />*/}
+              {/*</ListItemIcon>*/}
+              {/*) : (*/}
+              {/*""*/}
+              {/*)}*/}
+              {/*<ListItemText*/}
+              {/*style={{ marginLeft: -35 }}*/}
+              {/*primary={<Typography className={"fontStyle11"} />}*/}
+              {/*/>*/}
               {/*</ListItem>*/}
             </List>
           </div>

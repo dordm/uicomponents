@@ -17,7 +17,7 @@ import {
   StyledTitle,
   BigBoxLayout,
   StyledCloseIcon,
-    StyledDialogContent
+  StyledDialogContent
 } from "./LowLevelComponents/StyledComponents";
 import NoDataImg from "./LowLevelComponents/NoDataImg";
 
@@ -64,9 +64,9 @@ const styles = {
     marginTop: 19,
     cursor: "pointer"
   },
-    dialog:{
-    margin:16
-    }
+  dialog: {
+    margin: 16
+  }
 };
 
 class Certifications extends Component {
@@ -126,53 +126,56 @@ class Certifications extends Component {
           <div className={classes.listDiv}>
             <div className={classes.listDiv}>
               <List disablePadding={true} dense={true}>
-                {this.state.report.certificates.filter(certificate => certificate.name !== '').slice(0, 5).map(certificate => {
-                  return (
-                    <ListItem key={certificate.name}>
-                      <ListItemIcon className={classes.icon}>
-                        <img
-                          alt="certificate"
-                          src={require("./images/Certification.svg")}
-                        />
-                      </ListItemIcon>
-                      <ListItemText
-                        style={{ marginLeft: -25, maxWidth: "58%" }}
-                        primary={
-                          <div>
-                            <div data-tip data-for={"tip" + certificate.name}>
-                              <Typography
-                                className={classNames(
-                                  "fontStyle7",
-                                  classes.listItem
-                                )}
+                {this.state.report.certificates
+                  .filter(certificate => certificate.name !== "")
+                  .slice(0, 5)
+                  .map(certificate => {
+                    return (
+                      <ListItem key={certificate.name}>
+                        <ListItemIcon className={classes.icon}>
+                          <img
+                            alt="certificate"
+                            src={require("./images/Certification.svg")}
+                          />
+                        </ListItemIcon>
+                        <ListItemText
+                          style={{ marginLeft: -25, maxWidth: "58%" }}
+                          primary={
+                            <div>
+                              <div data-tip data-for={"tip" + certificate.name}>
+                                <Typography
+                                  className={classNames(
+                                    "fontStyle7",
+                                    classes.listItem
+                                  )}
+                                >
+                                  {certificate.name}
+                                </Typography>
+                              </div>
+                              <ReactTooltip
+                                className={classNames("tooltip", "fontStyle14")}
+                                id={"tip" + certificate.name}
+                                place="bottom"
+                                effect="solid"
                               >
-                                {certificate.name}
-                              </Typography>
+                                <span>{certificate.name}</span>
+                              </ReactTooltip>
                             </div>
-                            <ReactTooltip
-                              className={classNames("tooltip", "fontStyle14")}
-                              id={"tip" + certificate.name}
-                              place="bottom"
-                              effect="solid"
-                            >
-                              <span>{certificate.name}</span>
-                            </ReactTooltip>
-                          </div>
-                        }
-                      />
-                      <ListItemSecondaryAction
-                        className={classNames(
-                          classes.listItemSecondary,
-                          "fontStyle10"
-                        )}
-                      >
-                        {certificate.validity === 1
-                          ? "Valid (" + certificate.expiration + ")"
-                          : "Invalid"}
-                      </ListItemSecondaryAction>
-                    </ListItem>
-                  );
-                })}
+                          }
+                        />
+                        <ListItemSecondaryAction
+                          className={classNames(
+                            classes.listItemSecondary,
+                            "fontStyle10"
+                          )}
+                        >
+                          {certificate.validity === 1
+                            ? "Valid (" + certificate.expiration + ")"
+                            : "Invalid"}
+                        </ListItemSecondaryAction>
+                      </ListItem>
+                    );
+                  })}
               </List>
             </div>
             {/*{this.state.report.certificateInsight !== "" ? (*/}
@@ -198,11 +201,11 @@ class Certifications extends Component {
           <NoDataImg />
         )}
         <Dialog
-            PaperProps={{
-                classes: {
-                    root: classes.dialog
-                }
-            }}
+          PaperProps={{
+            classes: {
+              root: classes.dialog
+            }
+          }}
           open={this.state.allCertificatesOpen}
           onClose={() => this.setState({ allCertificatesOpen: false })}
           aria-labelledby="scroll-dialog-title"
@@ -217,50 +220,52 @@ class Certifications extends Component {
           </DialogTitle>
           <StyledDialogContent>
             <List>
-              {this.state.report.certificates.filter(certificate => certificate.name !== '').map(certificate => {
-                return (
-                  <div key={certificate.name}>
-                    <ListItem
-                      style={{
-                        paddingTop: this.props.width > 600 ? "" : "16px",
-                        paddingBottom: this.props.width > 600 ? "" : "16px",
-                        paddingLeft:this.props.width > 600 ? "" : "8px"
-                      }}
-                    >
-                      <ListItemIcon className={classes.icon}>
-                        <img
-                          alt="certificate"
-                          src={require("./images/Certification.svg")}
-                        />
-                      </ListItemIcon>
-                      <ListItemText
-                        style={{ marginLeft: -25, maxWidth: "58%" }}
-                        primary={
-                          <Typography className={"fontStyle7"}>
-                            {certificate.name}
-                          </Typography>
-                        }
-                      />
-                      <ListItemSecondaryAction
-                        className={classNames(
-                          classes.listItemSecondary,
-                          "fontStyle10"
-                        )}
+              {this.state.report.certificates
+                .filter(certificate => certificate.name !== "")
+                .map(certificate => {
+                  return (
+                    <div key={certificate.name}>
+                      <ListItem
+                        style={{
+                          paddingTop: this.props.width > 600 ? "" : "16px",
+                          paddingBottom: this.props.width > 600 ? "" : "16px",
+                          paddingLeft: this.props.width > 600 ? "" : "8px"
+                        }}
                       >
-                        {certificate.validity === 1
-                          ? "Valid Until " + certificate.expiration
-                          : "Invalid"}
-                      </ListItemSecondaryAction>
-                    </ListItem>
-                    {this.state.report.certificates.indexOf(certificate) <
-                    this.state.report.certificates.length - 1 ? (
-                      <Divider />
-                    ) : (
-                      ""
-                    )}
-                  </div>
-                );
-              })}
+                        <ListItemIcon className={classes.icon}>
+                          <img
+                            alt="certificate"
+                            src={require("./images/Certification.svg")}
+                          />
+                        </ListItemIcon>
+                        <ListItemText
+                          style={{ marginLeft: -25, maxWidth: "58%" }}
+                          primary={
+                            <Typography className={"fontStyle7"}>
+                              {certificate.name}
+                            </Typography>
+                          }
+                        />
+                        <ListItemSecondaryAction
+                          className={classNames(
+                            classes.listItemSecondary,
+                            "fontStyle10"
+                          )}
+                        >
+                          {certificate.validity === 1
+                            ? "Valid Until " + certificate.expiration
+                            : "Invalid"}
+                        </ListItemSecondaryAction>
+                      </ListItem>
+                      {this.state.report.certificates.indexOf(certificate) <
+                      this.state.report.certificates.length - 1 ? (
+                        <Divider />
+                      ) : (
+                        ""
+                      )}
+                    </div>
+                  );
+                })}
             </List>
           </StyledDialogContent>
         </Dialog>

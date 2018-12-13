@@ -14,7 +14,7 @@ import {
   StyledTitle,
   BigBoxLayout,
   StyledCloseIcon,
-    StyledDialogContent
+  StyledDialogContent
 } from "./LowLevelComponents/StyledComponents";
 
 const styles = {
@@ -52,9 +52,9 @@ const styles = {
     textAlign: "left",
     marginLeft: 10
   },
-    dialog:{
-    margin:16
-    }
+  dialog: {
+    margin: 16
+  }
 };
 
 class Industry extends Component {
@@ -119,7 +119,16 @@ class Industry extends Component {
             />
           </div>
         </div>
-        <div data-cy="divIndustries" style={{maxWidth:this.props.maxIndustriesWidth !== undefined ? this.props.maxIndustriesWidth : ''}} className={classes.divIndustries}>
+        <div
+          data-cy="divIndustries"
+          style={{
+            maxWidth:
+              this.props.maxIndustriesWidth !== undefined
+                ? this.props.maxIndustriesWidth
+                : ""
+          }}
+          className={classes.divIndustries}
+        >
           {this.state.report.industry
             .split(/,|;|\./)
             .filter(function(item) {
@@ -152,11 +161,11 @@ class Industry extends Component {
             })}
         </div>
         <Dialog
-            PaperProps={{
-                classes: {
-                    root: classes.dialog
-                }
-            }}
+          PaperProps={{
+            classes: {
+              root: classes.dialog
+            }
+          }}
           open={this.state.viewAllOpen}
           onClose={() => this.setState({ viewAllOpen: false })}
           aria-labelledby="scroll-dialog-title"

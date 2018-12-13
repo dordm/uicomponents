@@ -34,7 +34,6 @@ const styles = {
 };
 
 class PieChartWrapper extends Component {
-
   render() {
     const { classes } = this.props;
     return (
@@ -80,29 +79,38 @@ class PieChartWrapper extends Component {
           <NoDataImg />
         )}
         {this.props.data !== undefined && this.props.data.length > 0 ? (
-        <div data-tip data-for={"tipBtmMsg" + this.props.title} data-cy="divBottomMsg" style={{overflow:'hidden'}}>
-          <Typography className={classNames(classes.bottomMsg, "fontStyle11")}>
-            {this.props.bottomMsg !== "" && this.props.bottomMsg !== null ? (
-              <img
-                alt="bottomIcon"
-                className={classes.bottomIcon}
-                src={Utils.getIconByNumber(this.props.bottomIcon)}
-              />
-            ) : (
-              ""
-            )}
-            <label style={{ marginLeft: 25 }}>{this.props.bottomMsg}</label>
-          </Typography>
-        </div>
-        ) : '' }
-          <ReactTooltip
-              className={classNames("tooltip", "fontStyle14")}
-              id={"tipBtmMsg" + this.props.title}
-              place="bottom"
-              effect="solid"
+          <div
+            data-tip
+            data-for={"tipBtmMsg" + this.props.title}
+            data-cy="divBottomMsg"
+            style={{ overflow: "hidden" }}
           >
-              <span>{this.props.bottomMsg}</span>
-          </ReactTooltip>
+            <Typography
+              className={classNames(classes.bottomMsg, "fontStyle11")}
+            >
+              {this.props.bottomMsg !== "" && this.props.bottomMsg !== null ? (
+                <img
+                  alt="bottomIcon"
+                  className={classes.bottomIcon}
+                  src={Utils.getIconByNumber(this.props.bottomIcon)}
+                />
+              ) : (
+                ""
+              )}
+              <label style={{ marginLeft: 25 }}>{this.props.bottomMsg}</label>
+            </Typography>
+          </div>
+        ) : (
+          ""
+        )}
+        <ReactTooltip
+          className={classNames("tooltip", "fontStyle14")}
+          id={"tipBtmMsg" + this.props.title}
+          place="bottom"
+          effect="solid"
+        >
+          <span>{this.props.bottomMsg}</span>
+        </ReactTooltip>
       </BigBoxLayout>
     );
   }

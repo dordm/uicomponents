@@ -6,7 +6,7 @@ import List from "@material-ui/core/List";
 import ListItem from "@material-ui/core/ListItem";
 import Divider from "@material-ui/core/Divider";
 import Dialog from "@material-ui/core/Dialog";
-import DialogTitle from "@material-ui/core/DialogTitle"
+import DialogTitle from "@material-ui/core/DialogTitle";
 import classNames from "classnames";
 import Utils from "./js/Utils";
 import ReactTooltip from "react-tooltip";
@@ -14,7 +14,7 @@ import {
   StyledTitle,
   BigBoxLayout,
   StyledCloseIcon,
-    StyledDialogContent
+  StyledDialogContent
 } from "./LowLevelComponents/StyledComponents";
 import NoDataImg from "./LowLevelComponents/NoDataImg";
 
@@ -29,8 +29,8 @@ const styles = {
     marginLeft: 28,
     marginRight: 28,
     width: "100%",
-    height:230,
-    marginTop:15
+    height: 230,
+    marginTop: 15
   },
   innerDivMedia: {
     textAlign: "left",
@@ -60,9 +60,9 @@ const styles = {
     marginTop: -2,
     marginLeft: 6
   },
-    dialog:{
-    margin:16
-    }
+  dialog: {
+    margin: 16
+  }
 };
 
 class Media extends Component {
@@ -150,11 +150,11 @@ class Media extends Component {
         )}
 
         <Dialog
-            PaperProps={{
-                classes: {
-                    root: classes.dialog
-                }
-            }}
+          PaperProps={{
+            classes: {
+              root: classes.dialog
+            }
+          }}
           open={this.state.allMediaOpen}
           onClose={() => this.setState({ allMediaOpen: false })}
           scroll={this.state.scroll}

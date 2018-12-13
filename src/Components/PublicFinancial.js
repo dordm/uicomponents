@@ -32,7 +32,7 @@ const styles = {
     height: 16,
     width: 16,
     marginTop: -2,
-    display:'block'
+    display: "block"
   },
   listDiv: {
     width: "100%"
@@ -102,7 +102,12 @@ class PublicFinancial extends Component {
             <List>
               <ListItem>
                 <ListItemIcon className={classes.icon}>
-                  <img alt="revenue" height={16} width={16} src={require("./images/revenue.svg")} />
+                  <img
+                    alt="revenue"
+                    height={16}
+                    width={16}
+                    src={require("./images/revenue.svg")}
+                  />
                 </ListItemIcon>
                 <ListItemText
                   style={{ marginLeft: -25 }}
@@ -123,7 +128,8 @@ class PublicFinancial extends Component {
               <ListItem>
                 <ListItemIcon className={classes.icon}>
                   <img
-                      height={16} width={16}
+                    height={16}
+                    width={16}
                     alt="net profit"
                     src={require("./images/netProfit.svg")}
                   />
@@ -149,7 +155,8 @@ class PublicFinancial extends Component {
               <ListItem>
                 <ListItemIcon className={classes.icon}>
                   <img
-                      height={16} width={16}
+                    height={16}
+                    width={16}
                     alt="total assets"
                     src={require("./images/assets.svg")}
                   />
@@ -177,7 +184,8 @@ class PublicFinancial extends Component {
               <ListItem>
                 <ListItemIcon className={classes.icon}>
                   <img
-                      height={16} width={16}
+                    height={16}
+                    width={16}
                     alt="total liabilities"
                     src={require("./images/liabilities.svg")}
                   />
@@ -203,17 +211,17 @@ class PublicFinancial extends Component {
                 </ListItemSecondaryAction>
               </ListItem>
               {/*<ListItem>*/}
-                {/*{this.props.data.icon !== undefined ? (*/}
-                  {/*<ListItemIcon className={classes.icon}>*/}
-                    {/*<img alt="msg" src={Utils.getIcon("")} />*/}
-                  {/*</ListItemIcon>*/}
-                {/*) : (*/}
-                  {/*""*/}
-                {/*)}*/}
-                {/*<ListItemText*/}
-                  {/*style={{ marginLeft: -35 }}*/}
-                  {/*primary={<Typography className={"fontStyle11"} />}*/}
-                {/*/>*/}
+              {/*{this.props.data.icon !== undefined ? (*/}
+              {/*<ListItemIcon className={classes.icon}>*/}
+              {/*<img alt="msg" src={Utils.getIcon("")} />*/}
+              {/*</ListItemIcon>*/}
+              {/*) : (*/}
+              {/*""*/}
+              {/*)}*/}
+              {/*<ListItemText*/}
+              {/*style={{ marginLeft: -35 }}*/}
+              {/*primary={<Typography className={"fontStyle11"} />}*/}
+              {/*/>*/}
               {/*</ListItem>*/}
             </List>
           </div>

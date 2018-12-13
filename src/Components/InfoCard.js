@@ -59,13 +59,13 @@ class InfoCard extends Component {
     };
   }
 
-    componentDidUpdate(prevProps, prevState) {
-        if (prevProps.content !== this.props.content) {
-            this.setState({
-                content: Utils.fixNumber(this.props.content)
-            });
-        }
+  componentDidUpdate(prevProps, prevState) {
+    if (prevProps.content !== this.props.content) {
+      this.setState({
+        content: Utils.fixNumber(this.props.content)
+      });
     }
+  }
 
   render() {
     const { classes } = this.props;
@@ -124,39 +124,44 @@ class InfoCard extends Component {
           {this.props.bottomMsg !== "" &&
           this.props.bottomMsg !== null &&
           this.props.bottomMsg !== undefined ? (
-           <div data-tip data-for={"tipBtmMsg" + this.props.name} data-cy="divBottomMsg" style={{overflow:'hidden'}}>
-            <Typography
-              className={classNames(classes.bottomContent, "fontStyle11")}
+            <div
+              data-tip
+              data-for={"tipBtmMsg" + this.props.name}
+              data-cy="divBottomMsg"
+              style={{ overflow: "hidden" }}
             >
-              {this.props.bottomIcon != null ? (
-                <img
-                  height={24}
-                  width={24}
-                  alt="bottomIcon"
-                  className={classes.bottomIcon}
-                  src={this.props.bottomIcon}
-                />
-              ) : (
-                ""
-              )}
-              <label
-                style={{ marginLeft: this.props.bottomIcon != null ? 25 : 0 }}
+              <Typography
+                className={classNames(classes.bottomContent, "fontStyle11")}
               >
-                {this.props.bottomMsg}
-              </label>
-            </Typography>
-           </div>
+                {this.props.bottomIcon != null ? (
+                  <img
+                    height={24}
+                    width={24}
+                    alt="bottomIcon"
+                    className={classes.bottomIcon}
+                    src={this.props.bottomIcon}
+                  />
+                ) : (
+                  ""
+                )}
+                <label
+                  style={{ marginLeft: this.props.bottomIcon != null ? 25 : 0 }}
+                >
+                  {this.props.bottomMsg}
+                </label>
+              </Typography>
+            </div>
           ) : (
             ""
           )}
-            <ReactTooltip
-                className={classNames("tooltip", "fontStyle14")}
-                id={"tipBtmMsg" + this.props.name}
-                place="bottom"
-                effect="solid"
-            >
-                <span>{this.props.bottomMsg}</span>
-            </ReactTooltip>
+          <ReactTooltip
+            className={classNames("tooltip", "fontStyle14")}
+            id={"tipBtmMsg" + this.props.name}
+            place="bottom"
+            effect="solid"
+          >
+            <span>{this.props.bottomMsg}</span>
+          </ReactTooltip>
         </div>
       </SmallBoxLayout>
     ) : (

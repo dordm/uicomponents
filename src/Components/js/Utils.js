@@ -1,7 +1,7 @@
 class Utils {
-    static getImage(name) {
-        return require('../images/' + name)
-    }
+  static getImage(name) {
+    return require("../images/" + name);
+  }
   static getIcon(iconType) {
     switch (iconType) {
       case "info":
@@ -49,39 +49,39 @@ class Utils {
     }
   }
 
-  static getProfitabilityMsg(val){
-      switch (val) {
-          case "0 to 10%":
-          case "0 to 10%.":
-          case "10% to 50%":
-          case "10% to 50%.":
-              return "Net profit margin";
-          case "-10% to 0":
-          case "-10% to 0.":
-          case "-50% to -10%":
-          case "-50% to -10%.":
-              return "Net loss margin";
-          default:
-            return "";
-      }
+  static getProfitabilityMsg(val) {
+    switch (val) {
+      case "0 to 10%":
+      case "0 to 10%.":
+      case "10% to 50%":
+      case "10% to 50%.":
+        return "Net profit margin";
+      case "-10% to 0":
+      case "-10% to 0.":
+      case "-50% to -10%":
+      case "-50% to -10%.":
+        return "Net loss margin";
+      default:
+        return "";
+    }
   }
 
-    static getProfitabilityType(val){
-        switch (val) {
-            case "0 to 10%":
-            case "0 to 10%.":
-            case "10% to 50%":
-            case "10% to 50%.":
-                return 2;
-            case "-10% to 0":
-            case "-10% to 0.":
-            case "-50% to -10%":
-            case "-50% to -10%.":
-                return 3;
-            default:
-                return "";
-        }
+  static getProfitabilityType(val) {
+    switch (val) {
+      case "0 to 10%":
+      case "0 to 10%.":
+      case "10% to 50%":
+      case "10% to 50%.":
+        return 2;
+      case "-10% to 0":
+      case "-10% to 0.":
+      case "-50% to -10%":
+      case "-50% to -10%.":
+        return 3;
+      default:
+        return "";
     }
+  }
 
   static getEmployeeMsg(val) {
     let minVal;
@@ -417,7 +417,7 @@ class Utils {
       case "Colombia":
         return require("../images/countries/CO.svg");
       case "Columbia":
-          return require("../images/countries/CO.svg");
+        return require("../images/countries/CO.svg");
       case "Finland":
         return require("../images/countries/FI.svg");
       case "Iran":
@@ -581,19 +581,19 @@ class Utils {
       case "Norway":
         return require("../images/countries/NO.svg");
       case "Latvia":
-          return require("../images/countries/LV.svg");
+        return require("../images/countries/LV.svg");
       case "Lebanon":
-          return require("../images/countries/LB.svg");
+        return require("../images/countries/LB.svg");
       case "Bulgaria":
-          return require("../images/countries/BG.svg");
+        return require("../images/countries/BG.svg");
       case "Puerto Rico":
-          return require("../images/countries/PR.svg");
+        return require("../images/countries/PR.svg");
       case "Bahrian":
-          return require("../images/countries/BH.svg");
+        return require("../images/countries/BH.svg");
       case "Algeria":
-          return require("../images/countries/DZ.svg");
+        return require("../images/countries/DZ.svg");
       case "Dominican Republic":
-          return require("../images/countries/DO.svg");
+        return require("../images/countries/DO.svg");
       default:
         return null;
     }
@@ -621,46 +621,42 @@ class Utils {
     }
   }
 
-  static calcTaxRating(report){
-      const lastYear = new Date().getFullYear() - 1;
-      let taxRating = "Not Eligible";
-      let taxRatingBottomMsg = "Past eligible years: ";
-      if (
-          report != null &&
-          report.taxRatingList !== undefined &&
-          report.taxRatingList != null
-      ) {
-          for (let i = 0; i < report.taxRatingList.length; i++) {
-              if (report.taxRatingList[i].year !== lastYear)
-                  taxRatingBottomMsg += report.taxRatingList[i].year + ", ";
-              else taxRating = report.taxRatingList[i].rating;
-          }
-          if (taxRatingBottomMsg.length > 22)
-              taxRatingBottomMsg = taxRatingBottomMsg.substr(
-                  0,
-                  taxRatingBottomMsg.length - 2
-              );
-          else
-              taxRatingBottomMsg = "Not eligible for tax rating A";
-      } else taxRatingBottomMsg = "Not eligible for tax rating A";
-      if(taxRating === "A"){
-        let sinceYear = lastYear;
-          for (let j=lastYear - 1; j > 2012; j--) {
-            let found = false;
-            for(let i = 0; !found && i < report.taxRatingList.length; i++)
-              if (report.taxRatingList[i].year === j)
-                found = true;
-            if(!found){
-                sinceYear = j + 1;
-              break;
-            }
-          }
-        if(sinceYear === lastYear)
-          taxRatingBottomMsg = "Good Rating";
-        else
-          taxRatingBottomMsg = "Tax Rating A since " + sinceYear;
+  static calcTaxRating(report) {
+    const lastYear = new Date().getFullYear() - 1;
+    let taxRating = "Not Eligible";
+    let taxRatingBottomMsg = "Past eligible years: ";
+    if (
+      report != null &&
+      report.taxRatingList !== undefined &&
+      report.taxRatingList != null
+    ) {
+      for (let i = 0; i < report.taxRatingList.length; i++) {
+        if (report.taxRatingList[i].year !== lastYear)
+          taxRatingBottomMsg += report.taxRatingList[i].year + ", ";
+        else taxRating = report.taxRatingList[i].rating;
       }
-      return {taxRating, taxRatingBottomMsg};
+      if (taxRatingBottomMsg.length > 22)
+        taxRatingBottomMsg = taxRatingBottomMsg.substr(
+          0,
+          taxRatingBottomMsg.length - 2
+        );
+      else taxRatingBottomMsg = "Not eligible for tax rating A";
+    } else taxRatingBottomMsg = "Not eligible for tax rating A";
+    if (taxRating === "A") {
+      let sinceYear = lastYear;
+      for (let j = lastYear - 1; j > 2012; j--) {
+        let found = false;
+        for (let i = 0; !found && i < report.taxRatingList.length; i++)
+          if (report.taxRatingList[i].year === j) found = true;
+        if (!found) {
+          sinceYear = j + 1;
+          break;
+        }
+      }
+      if (sinceYear === lastYear) taxRatingBottomMsg = "Good Rating";
+      else taxRatingBottomMsg = "Tax Rating A since " + sinceYear;
+    }
+    return { taxRating, taxRatingBottomMsg };
   }
 }
 

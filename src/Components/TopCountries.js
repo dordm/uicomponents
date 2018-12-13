@@ -17,7 +17,7 @@ import {
   BigBoxLayout,
   StyledTitle,
   StyledCloseIcon,
-    StyledDialogContent
+  StyledDialogContent
 } from "./LowLevelComponents/StyledComponents";
 import NoDataImg from "./LowLevelComponents/NoDataImg";
 
@@ -51,12 +51,12 @@ const styles = {
     width: 26,
     border: "1px solid #E4E8ED"
   },
-  dialog:{
-    margin:16
+  dialog: {
+    margin: 16
   },
   listDiv: {
     width: "100%",
-    height:230
+    height: 230
   },
   divPercent: {
     position: "absolute",
@@ -120,7 +120,10 @@ class TopCountries extends Component {
   }
 
   componentDidUpdate(prevProps, prevState) {
-    if (this.state.selectMonths !== prevState.selectMonths || this.props.report !== prevProps.report) {
+    if (
+      this.state.selectMonths !== prevState.selectMonths ||
+      this.props.report !== prevProps.report
+    ) {
       this.calcOtherCountries();
     }
   }
@@ -276,11 +279,11 @@ class TopCountries extends Component {
           <NoDataImg />
         )}
         <Dialog
-            PaperProps={{
-                classes: {
-                    root: classes.dialog
-                }
-            }}
+          PaperProps={{
+            classes: {
+              root: classes.dialog
+            }
+          }}
           open={this.state.viewAllOpen}
           onClose={() => this.setState({ viewAllOpen: false })}
           aria-labelledby="scroll-dialog-title"

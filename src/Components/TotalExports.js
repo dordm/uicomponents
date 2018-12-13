@@ -59,17 +59,15 @@ class TotalExports extends Component {
         supplier = [];
       }
     } else {
-      industry = this.state.report.shipmentsOverTime.industry.filter(
-        item =>
-          this.state.selectMonths == 24
-            ? item.year >= new Date().getFullYear() - 1
-            : item.year >= new Date().getFullYear() - 2
+      industry = this.state.report.shipmentsOverTime.industry.filter(item =>
+        this.state.selectMonths == 24
+          ? item.year >= new Date().getFullYear() - 1
+          : item.year >= new Date().getFullYear() - 2
       );
-      supplier = this.state.report.shipmentsOverTime.supplier.filter(
-        item =>
-          this.state.selectMonths == 24
-            ? item.year >= new Date().getFullYear() - 1
-            : item.year >= new Date().getFullYear() - 2
+      supplier = this.state.report.shipmentsOverTime.supplier.filter(item =>
+        this.state.selectMonths == 24
+          ? item.year >= new Date().getFullYear() - 1
+          : item.year >= new Date().getFullYear() - 2
       );
     }
 

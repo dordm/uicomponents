@@ -29,7 +29,7 @@ const styles = {
   icon: {
     height: 24,
     width: 24,
-    display:'block'
+    display: "block"
   },
   listDiv: {
     width: "100%"
@@ -126,13 +126,23 @@ class SocialMedia extends Component {
               />
               <ListItemSecondaryAction
                 className={classNames(classes.listItemSecondary, "fontStyle10")}
-                onClick={() => this.state.report.linkedin !== null && this.state.report.linkedin !== '' ? this.openWebsite(this.state.report.linkedin) : '' }
+                onClick={() =>
+                  this.state.report.linkedin !== null &&
+                  this.state.report.linkedin !== ""
+                    ? this.openWebsite(this.state.report.linkedin)
+                    : ""
+                }
               >
-                  <StyledLblWebsite link={this.state.report.linkedin !== null && this.state.report.linkedin !== ''}>
-                      {this.state.report.linkedin !== undefined
-                          ? this.state.report.linkedin
-                          : ""}
-                  </StyledLblWebsite>
+                <StyledLblWebsite
+                  link={
+                    this.state.report.linkedin !== null &&
+                    this.state.report.linkedin !== ""
+                  }
+                >
+                  {this.state.report.linkedin !== undefined
+                    ? this.state.report.linkedin
+                    : ""}
+                </StyledLblWebsite>
               </ListItemSecondaryAction>
             </ListItem>
             <ListItem>
@@ -147,13 +157,23 @@ class SocialMedia extends Component {
               />
               <ListItemSecondaryAction
                 className={classNames(classes.listItemSecondary, "fontStyle10")}
-                onClick={() => this.state.report.weibo !== null && this.state.report.weibo !== '' ? this.openWebsite(this.state.report.weibo) : '' }
+                onClick={() =>
+                  this.state.report.weibo !== null &&
+                  this.state.report.weibo !== ""
+                    ? this.openWebsite(this.state.report.weibo)
+                    : ""
+                }
               >
-                  <StyledLblWebsite link={this.state.report.weibo !== null && this.state.report.weibo !== ''}>
-                      {this.state.report.weibo !== undefined
-                          ? this.state.report.weibo
-                          : ""}
-                  </StyledLblWebsite>
+                <StyledLblWebsite
+                  link={
+                    this.state.report.weibo !== null &&
+                    this.state.report.weibo !== ""
+                  }
+                >
+                  {this.state.report.weibo !== undefined
+                    ? this.state.report.weibo
+                    : ""}
+                </StyledLblWebsite>
               </ListItemSecondaryAction>
             </ListItem>
 
@@ -169,37 +189,47 @@ class SocialMedia extends Component {
               />
               <ListItemSecondaryAction
                 className={classNames(classes.listItemSecondary, "fontStyle10")}
-                onClick={() => this.state.report.wechat !== null && this.state.report.wechat !== '' ? this.openWebsite(this.state.report.wechat) : '' }
+                onClick={() =>
+                  this.state.report.wechat !== null &&
+                  this.state.report.wechat !== ""
+                    ? this.openWebsite(this.state.report.wechat)
+                    : ""
+                }
               >
-                  <StyledLblWebsite link={this.state.report.wechat !== null && this.state.report.wechat !== ''}>
-                      {this.state.report.wechat !== undefined
-                          ? this.state.report.wechat
-                          : ""}
-                  </StyledLblWebsite>
+                <StyledLblWebsite
+                  link={
+                    this.state.report.wechat !== null &&
+                    this.state.report.wechat !== ""
+                  }
+                >
+                  {this.state.report.wechat !== undefined
+                    ? this.state.report.wechat
+                    : ""}
+                </StyledLblWebsite>
               </ListItemSecondaryAction>
             </ListItem>
 
             {/*<ListItem>*/}
-              {/*{this.state.report.socialIcon !== undefined ? (*/}
-                {/*<ListItemIcon className={classes.icon}>*/}
-                  {/*<img*/}
-                    {/*alt="msg"*/}
-                    {/*src={Utils.getIcon(this.state.report.socialIcon)}*/}
-                  {/*/>*/}
-                {/*</ListItemIcon>*/}
-              {/*) : (*/}
-                {/*""*/}
-              {/*)}*/}
-              {/*<ListItemText*/}
-                {/*style={{ marginLeft: -15 }}*/}
-                {/*primary={*/}
-                  {/*<Typography className={"fontStyle11"}>*/}
-                    {/*{this.state.report.socialMsg !== undefined*/}
-                      {/*? this.state.report.socialMsg*/}
-                      {/*: ""}*/}
-                  {/*</Typography>*/}
-                {/*}*/}
-              {/*/>*/}
+            {/*{this.state.report.socialIcon !== undefined ? (*/}
+            {/*<ListItemIcon className={classes.icon}>*/}
+            {/*<img*/}
+            {/*alt="msg"*/}
+            {/*src={Utils.getIcon(this.state.report.socialIcon)}*/}
+            {/*/>*/}
+            {/*</ListItemIcon>*/}
+            {/*) : (*/}
+            {/*""*/}
+            {/*)}*/}
+            {/*<ListItemText*/}
+            {/*style={{ marginLeft: -15 }}*/}
+            {/*primary={*/}
+            {/*<Typography className={"fontStyle11"}>*/}
+            {/*{this.state.report.socialMsg !== undefined*/}
+            {/*? this.state.report.socialMsg*/}
+            {/*: ""}*/}
+            {/*</Typography>*/}
+            {/*}*/}
+            {/*/>*/}
             {/*</ListItem>*/}
           </List>
         </div>
