@@ -3,6 +3,7 @@ import { withStyles } from "@material-ui/core/styles/index";
 import PropTypes from "prop-types";
 import Typography from "@material-ui/core/Typography";
 import LineTwoCharts from "../Components/LineTwoCharts";
+import LineChart from "../Components/LineChart";
 import classNames from "classnames";
 import Utils from "./js/Utils";
 import ReactTooltip from "react-tooltip";
@@ -89,11 +90,24 @@ class TotalExports extends Component {
           });
       } catch (e) {}
     }
+    if (data.length < 2) {
+      for (let i = 0; i < supplier.length; i++) {
+        data.push({
+          name:
+            "Q" +
+            supplier[i].month +
+            "-Y" +
+            supplier[i].year.toString().substr(2),
+          supplier: supplier[i].value_of_goods
+        });
+      }
+    }
     return data;
   }
 
   render() {
     const { classes } = this.props;
+    const exportData = this.getExportData();
     return (
       <BigBoxLayout
         container={true}
@@ -140,18 +154,31 @@ class TotalExports extends Component {
         {/*</select>*/}
         <br />
         <br />
-        {this.getExportData().length > 1 ? (
-          <LineTwoCharts
-            height={"80%"}
-            data={this.getExportData()}
-            keyX={"name"}
-            dataKey1={"supplier"}
-            dataKey2={"industry"}
-            legend={true}
-            unit={true}
-            tooltipUnit={"$"}
-            width={this.props.width}
-          />
+        {exportData.length > 1 ? (
+          exportData[1].industry !== undefined ? (
+            <LineTwoCharts
+              height={"80%"}
+              data={exportData}
+              keyX={"name"}
+              dataKey1={"supplier"}
+              dataKey2={"industry"}
+              legend={true}
+              unit={true}
+              tooltipUnit={"$"}
+              width={this.props.width}
+            />
+          ) : (
+            <LineChart
+              height={"80%"}
+              data={exportData}
+              keyX={"name"}
+              dataKey={"supplier"}
+              legend={true}
+              unit={true}
+              tooltipUnit={"$"}
+              width={this.props.width}
+            />
+          )
         ) : (
           <NoDataImg />
         )}
