@@ -58,13 +58,6 @@ const styles = {
 };
 
 class PublicFinancialRatio extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      date: this.props.date
-    };
-  }
-
   render() {
     const { classes } = this.props;
     return (
@@ -92,9 +85,9 @@ class PublicFinancialRatio extends Component {
               </span>
             </ReactTooltip>
           </StyledTitle>
-          {this.state.date !== "" && this.props.data != null ? (
+          {this.props.date !== "" && this.props.data != null ? (
             <Typography className={classNames(classes.date, "fontStyle12")}>
-              {this.state.date}
+              {this.props.date}
             </Typography>
           ) : (
             ""
