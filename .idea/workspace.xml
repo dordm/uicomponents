@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="deedca82-8ad4-4e62-ac9a-df5681d3be65" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Components/CompanyChanges.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/images/change.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Certifications.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Certifications.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -29,11 +26,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PublicFinancialRatio.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Components/PublicFinancialRatio.js">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="765">
-              <caret line="59" column="46" selection-start-line="59" selection-start-column="46" selection-end-line="59" selection-end-column="46" />
+            <state relative-caret-position="157">
+              <caret line="85" column="16" lean-forward="true" selection-start-line="85" selection-start-column="16" selection-end-line="85" selection-end-column="16" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -92,8 +92,11 @@
       <file leaf-file-name="CompanyChanges.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Components/CompanyChanges.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1802">
-              <caret line="14" column="8" lean-forward="true" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
+            <state relative-caret-position="119">
+              <caret line="127" column="11" lean-forward="true" selection-start-line="127" selection-start-column="11" selection-end-line="127" selection-end-column="11" />
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -203,7 +206,6 @@
         <option value="$PROJECT_DIR$/src/Components/TopCountries.js" />
         <option value="$PROJECT_DIR$/src/Components/TopInsights.js" />
         <option value="$PROJECT_DIR$/src/Components/TwoInfoCard.js" />
-        <option value="$PROJECT_DIR$/src/index.js" />
         <option value="$PROJECT_DIR$/stories/index.js" />
         <option value="$PROJECT_DIR$/src/Components/js/Utils.js" />
         <option value="$PROJECT_DIR$/src/Components/AreaChart.js" />
@@ -215,6 +217,7 @@
         <option value="$PROJECT_DIR$/src/Components/PublicFinancialRatio.js" />
         <option value="$PROJECT_DIR$/src/Components/Certifications.js" />
         <option value="$PROJECT_DIR$/src/Components/CompanyChanges.js" />
+        <option value="$PROJECT_DIR$/src/index.js" />
         <option value="$PROJECT_DIR$/package.json" />
       </list>
     </option>
@@ -400,12 +403,12 @@
       <workItem from="1544973787282" duration="597000" />
       <workItem from="1545038493611" duration="698000" />
       <workItem from="1545040471301" duration="1252000" />
-      <workItem from="1545050975203" duration="4183000" />
+      <workItem from="1545050975203" duration="4811000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="147574000" />
+    <option name="totallyTimeSpent" value="148202000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
@@ -419,7 +422,7 @@
       <window_info id="npm" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32900432" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.2300885" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.22943723" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -665,13 +668,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="42" column="57" selection-start-line="42" selection-start-column="57" selection-end-line="42" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/stories/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3570">
@@ -686,6 +682,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="15" column="18" selection-end-line="105" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -797,10 +796,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="85" column="16" lean-forward="true" selection-start-line="85" selection-start-column="16" selection-end-line="85" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/CompanyChanges.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1802">
-          <caret line="14" column="8" lean-forward="true" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
+        <state relative-caret-position="119">
+          <caret line="127" column="11" lean-forward="true" selection-start-line="127" selection-start-column="11" selection-end-line="127" selection-end-column="11" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

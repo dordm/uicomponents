@@ -22,6 +22,7 @@ import MoreDataEmployees from "./Components/MoreDataEmployees";
 import MoreDataTrademarks from "./Components/MoreDataTrademarks";
 import MoreDataPatents from "./Components/MoreDataPatents";
 import MoreDataCourtCases from "./Components/MoreDataCourtCases";
+import CompanyChanges from "./Components/CompanyChanges";
 import {
   StyledCloseIcon,
   SearchInputWrapper,
@@ -108,5 +109,6 @@ export {
   NumberFormatCustom,
   GoogleMap,
   StyledDialogContent,
-  MoreDataBranchesInvestments
+  MoreDataBranchesInvestments,
+  CompanyChanges
 };
