@@ -89,6 +89,12 @@ const styles = {
   },
   dialog: {
     margin: 16
+  },
+  imgChange: {
+    height: 20,
+    width: 20,
+    top: "25%",
+    position: "absolute"
   }
 };
 
@@ -157,6 +163,7 @@ class CompanyChanges extends Component {
                       <ListItem key={idx}>
                         <ListItemIcon className={classes.icon}>
                           <img
+                            className={classes.imgChange}
                             alt="change"
                             src={require("./images/change.svg")}
                           />
@@ -248,8 +255,8 @@ class CompanyChanges extends Component {
                           >
                             <ListItemIcon>
                               <img
-                                height={24}
-                                width={24}
+                                height={20}
+                                width={20}
                                 alt={"change"}
                                 src={require("./images/change.svg")}
                               />
