@@ -2,7 +2,9 @@ import React from "react";
 import List from "@material-ui/core/List";
 import Divider from "@material-ui/core/Divider";
 import Typography from "@material-ui/core/Typography";
+import Avatar from "@material-ui/core/Avatar";
 import ListItemIcon from "@material-ui/core/ListItemIcon";
+import styled from "styled-components";
 import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
 import { withStyles } from "@material-ui/core/styles/index";
 import PropTypes from "prop-types";
@@ -13,6 +15,15 @@ import {
   StyledExpansionSummary,
   StyledExpansionPanelDetails
 } from "./LowLevelComponents/StyledComponents";
+
+const StyledAvatar = styled(Avatar)`
+  height: 46px !important;
+  width: 46px !important;
+  @media (max-width: 600px) {
+    height: 30px !important;
+    width: 30px !important;
+  }
+`;
 
 const styles = {
   expansionSummaryInner: {

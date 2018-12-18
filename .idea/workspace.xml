@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="deedca82-8ad4-4e62-ac9a-df5681d3be65" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Certifications.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Certifications.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/CompanyChanges.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/CompanyChanges.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/LowLevelComponents/StyledComponents.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/LowLevelComponents/StyledComponents.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/MoreDataCourtCases.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/MoreDataCourtCases.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/MoreDataEmployees.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/MoreDataEmployees.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/MoreDataPatents.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/MoreDataPatents.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/MoreDataTrademarks.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/MoreDataTrademarks.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -90,8 +83,8 @@
       <file leaf-file-name="MoreDataTrademarks.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Components/MoreDataTrademarks.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="22" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="22" />
+            <state relative-caret-position="136">
+              <caret line="8" column="60" lean-forward="true" selection-end-line="145" />
             </state>
           </provider>
         </entry>
@@ -402,12 +395,12 @@
       <workItem from="1545038493611" duration="698000" />
       <workItem from="1545040471301" duration="1252000" />
       <workItem from="1545050975203" duration="5793000" />
-      <workItem from="1545120663830" duration="3755000" />
+      <workItem from="1545120663830" duration="4002000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="152939000" />
+    <option name="totallyTimeSpent" value="153186000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
@@ -795,8 +788,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/MoreDataTrademarks.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="22" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="22" />
+        <state relative-caret-position="136">
+          <caret line="8" column="60" lean-forward="true" selection-end-line="145" />
         </state>
       </provider>
     </entry>
