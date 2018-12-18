@@ -20,8 +20,46 @@ import {
   StyledDialogContent
 } from "./LowLevelComponents/StyledComponents";
 import NoDataImg from "./LowLevelComponents/NoDataImg";
+import styled from "styled-components";
+import ExpansionPanel from "@material-ui/core/ExpansionPanel";
+import ExpansionPanelSummary from "@material-ui/core/ExpansionPanelSummary";
+import ExpansionPanelDetails from "@material-ui/core/ExpansionPanelDetails";
+import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
+
+const StyledExpansionPanel = styled(ExpansionPanel)`
+  padding-top: 0px;
+  padding-bottom: 0px;
+  text-align: left;
+  box-shadow: none !important;
+`;
+
+const StyledListItem = styled(ListItem)`
+  padding: 4px 0 4px 0 !important;
+`;
+
+const StyledListItemText = styled(ListItemText)`
+  margin-left: -25px;
+  padding-top: 2px !important;
+`;
+
+const StyledExpansionSummary = styled(ExpansionPanelSummary)`
+  min-height: 30px !important;
+  padding: 8px !important;
+  @media (max-width: 600px) {
+    padding: 0 !important;
+  }
+`;
+
+const StyledExpansionPanelDetails = styled(ExpansionPanelDetails)`
+  padding-top: 0px !important;
+  padding-bottom: 8px !important;
+  margin: 0px;
+`;
 
 const styles = {
+  expansionSummaryInner: {
+    margin: "0px !important"
+  },
   icon: {
     height: 24,
     width: 24
@@ -205,7 +243,7 @@ class Certifications extends Component {
               {this.state.report.certificates
                 .filter(certificate => certificate.name !== "")
                 .map((certificate, idx) => {
-                  return (
+                  return certificate.certNo === undefined ? (
                     <div key={idx}>
                       <ListItem
                         style={{
@@ -245,6 +283,72 @@ class Certifications extends Component {
                       ) : (
                         ""
                       )}
+                    </div>
+                  ) : (
+                    <div key={idx}>
+                      <StyledListItem>
+                        <StyledExpansionPanel style={{ width: "100%" }}>
+                          <StyledExpansionSummary
+                            IconButtonProps={{
+                              style: {
+                                padding: 0
+                              }
+                            }}
+                            classes={{
+                              content: classes.expansionSummaryInner,
+                              expanded: classes.expansionSummaryInner
+                            }}
+                            expandIcon={<ExpandMoreIcon />}
+                          >
+                            <ListItemIcon>
+                              <img
+                                height={20}
+                                width={20}
+                                alt={"Certification"}
+                                src={require("./images/Certification.svg")}
+                              />
+                            </ListItemIcon>
+                            <StyledListItemText
+                              primary={
+                                <Typography className={"fontStyle5"}>
+                                  {certificate.name}
+                                </Typography>
+                              }
+                            />
+                          </StyledExpansionSummary>
+                          <StyledExpansionPanelDetails>
+                            <div>
+                              <Typography className={"fontStyle11"}>
+                                {"\u2022"} Validity:{" "}
+                                {certificate.validity === 1
+                                  ? "Valid Until " + certificate.expiration
+                                  : "Invalid"}
+                              </Typography>
+                              <Typography className={"fontStyle11"}>
+                                {"\u2022"} Expired Date:{" "}
+                                {certificate.expiredDate}
+                              </Typography>
+                              <Typography className={"fontStyle11"}>
+                                {"\u2022"} Certificate Number:{" "}
+                                {certificate.certNo}
+                              </Typography>
+                              <Typography className={"fontStyle11"}>
+                                {"\u2022"} Certificate Status:{" "}
+                                {certificate.certStatus}
+                              </Typography>
+                              <Typography className={"fontStyle11"}>
+                                {"\u2022"} Organization Name:{" "}
+                                {certificate.organizationName}
+                              </Typography>
+                              <Typography className={"fontStyle11"}>
+                                {"\u2022"} Issued Company Name:{" "}
+                                {certificate.issuedCompanyName}
+                              </Typography>
+                            </div>
+                          </StyledExpansionPanelDetails>
+                        </StyledExpansionPanel>
+                      </StyledListItem>
+                      <Divider />
                     </div>
                   );
                 })}
