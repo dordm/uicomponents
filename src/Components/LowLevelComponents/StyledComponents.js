@@ -4,6 +4,41 @@ import styled from "styled-components";
 import SearchIcon from "@material-ui/icons/Search";
 import IconButton from "@material-ui/core/IconButton";
 import DialogContent from "@material-ui/core/DialogContent";
+import ListItem from "@material-ui/core/ListItem";
+import ExpansionPanel from "@material-ui/core/ExpansionPanel";
+import ExpansionPanelSummary from "@material-ui/core/ExpansionPanelSummary";
+import ExpansionPanelDetails from "@material-ui/core/ExpansionPanelDetails";
+import ListItemText from "@material-ui/core/ListItemText";
+
+export const StyledExpansionPanel = styled(ExpansionPanel)`
+  padding-top: 0px;
+  padding-bottom: 0px;
+  text-align: left;
+  box-shadow: none !important;
+`;
+
+export const StyledListItem = styled(ListItem)`
+  padding: 4px 0 4px 0 !important;
+`;
+
+export const StyledListItemText = styled(ListItemText)`
+  margin-left: -25px;
+  padding-top: 2px !important;
+`;
+
+export const StyledExpansionSummary = styled(ExpansionPanelSummary)`
+  min-height: 30px !important;
+  padding: 8px !important;
+  @media (max-width: 600px) {
+    padding: 0 !important;
+  }
+`;
+
+export const StyledExpansionPanelDetails = styled(ExpansionPanelDetails)`
+  padding-top: 0px !important;
+  padding-bottom: 8px !important;
+  margin: 0px;
+`;
 
 export const StyledCloseIcon = styled(IconButton)`
   position: absolute !important;
