@@ -20,12 +20,17 @@ import {
   StyledDialogContent,
   StyledExpansionPanel,
   StyledListItem,
-  StyledListItemText,
   StyledExpansionSummary,
   StyledExpansionPanelDetails
 } from "./LowLevelComponents/StyledComponents";
 import NoDataImg from "./LowLevelComponents/NoDataImg";
 import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
+import styled from "styled-components";
+
+export const StyledListItemText = styled(ListItemText)`
+  margin-left: -25px;
+  padding-top: 2px !important;
+`;
 
 const styles = {
   expansionSummaryInner: {

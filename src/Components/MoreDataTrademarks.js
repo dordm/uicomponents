@@ -3,18 +3,17 @@ import List from "@material-ui/core/List";
 import Divider from "@material-ui/core/Divider";
 import Typography from "@material-ui/core/Typography";
 import Avatar from "@material-ui/core/Avatar";
+import ListItemText from "@material-ui/core/ListItemText";
 import ListItemIcon from "@material-ui/core/ListItemIcon";
 import styled from "styled-components";
 import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
 import { withStyles } from "@material-ui/core/styles/index";
 import PropTypes from "prop-types";
 import {
-  StyledExpansionPanel,
-  StyledListItem,
-  StyledListItemText,
-  StyledExpansionSummary,
-  StyledExpansionPanelDetails
-} from "./LowLevelComponents/StyledComponents";
+    StyledExpansionPanel,
+    StyledListItem,
+    StyledExpansionSummary,
+    StyledExpansionPanelDetails} from './LowLevelComponents/StyledComponents'
 
 const StyledAvatar = styled(Avatar)`
   height: 46px !important;
@@ -22,6 +21,13 @@ const StyledAvatar = styled(Avatar)`
   @media (max-width: 600px) {
     height: 30px !important;
     width: 30px !important;
+  }
+`;
+const StyledListItemText = styled(ListItemText)`
+  margin-left: -25px;
+  padding-top: 13px !important;
+  @media (max-width: 600px) {
+    padding-top: 6px !important;
   }
 `;
 
