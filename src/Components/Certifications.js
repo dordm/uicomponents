@@ -29,7 +29,6 @@ import styled from "styled-components";
 
 export const StyledListItemText = styled(ListItemText)`
   margin-left: -25px;
-  padding-top: 2px !important;
 `;
 
 const styles = {
