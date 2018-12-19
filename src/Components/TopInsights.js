@@ -97,20 +97,18 @@ class TopInsights extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      // data: this.props.data,
       allInsightsOpen: false,
       category: this.props.category
     };
   }
 
-  getFilteredInsights(withTop) {
+  getFilteredInsights() {
     return this.props.data.filter(
       insight =>
         insight.text !== "" &&
         insight.text !== null &&
         (insight.category === this.state.category ||
-          this.state.category === "Overview") &&
-        (withTop ? insight.isTop : true)
+          this.state.category === "Overview")
     );
   }
 
@@ -146,7 +144,7 @@ class TopInsights extends Component {
             </span>
           </ReactTooltip>
         </StyledTitle>
-        {this.getFilteredInsights(false).length > 0 ? (
+        {this.getFilteredInsights().length > 0 ? (
           <div
             data-cy="viewAllInsights"
             className={classNames(classes.divViewAll, "fontStyle6")}
@@ -163,12 +161,12 @@ class TopInsights extends Component {
           ""
         )}
 
-        {this.getFilteredInsights(true).length > 0 ? (
+        {this.getFilteredInsights().length > 0 ? (
           <div className={classes.divInsights}>
             <GetInsights
               classes={classes}
               category={this.state.category}
-              data={this.getFilteredInsights(true)}
+              data={this.getFilteredInsights()}
             />
           </div>
         ) : (
@@ -195,12 +193,11 @@ class TopInsights extends Component {
           </DialogTitle>
           <StyledDialogContent>
             <List>
-              {this.getFilteredInsights(false).map((insight, idx) => {
+              {this.getFilteredInsights().map((insight, idx) => {
                 return (
                   <div key={idx}>
                     <ListItem>
                       <img
-                        // style={{height:24, width:24}}
                         height={24}
                         width={24}
                         alt={insight.type}
