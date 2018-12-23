@@ -12,6 +12,28 @@ const reportData = {
   industry: "Electric Mechinary; export and import; ",
   foreignInvestment: 2,
   numberOfBranches: 3,
+  changesList: [
+    {
+      date: "2015-01-29",
+      after:
+        "Assembly and sale of solar panels; sale of mechanical and electrical products (excluding automobiles), building materials (excluding hazardous chemicals), pumps, lighting equipment; import and export of ordinary goods (excluding goods operated by national limited companies or prohibited imports and exports). (Projects that are subject to approval by law, can be carried out after approval by relevant departments).",
+      before:
+        "Solar panels assembly and sale; mechanical and electrical products (excluding automobiles), building materials (excluding hazardous chemicals), pumps, lighting equipment sales; general goods import and export, except for goods operated by national limited companies or prohibited imports and exports (the above scope requires permission, with a valid license). (Projects that are subject to approval by law, can be carried out after approval by relevant departments).",
+      changeItem: "Scope of business"
+    },
+    {
+      date: "2015-01-29",
+      after: "F5279",
+      before: "F5279",
+      changeItem: "Industry Code"
+    },
+    {
+      date: "2015-01-29",
+      after: "F",
+      before: "F",
+      changeItem: "Industry Sector"
+    }
+  ],
   branchesData: {
     branches: [{ name: "branch1" }, { name: "branch2" }, { name: "branch3" }]
   },

@@ -160,9 +160,24 @@ class CompanyChanges extends Component {
                                 effect="solid"
                               >
                                 <div>
-                                  <div>Change: {change.changeItem}</div>
-                                  <div>Before Change: {change.before}</div>
-                                  <div>After Change: {change.after}</div>
+                                  <div>
+                                    <span style={{ fontWeight: "bold" }}>
+                                      Change:{" "}
+                                    </span>
+                                    <span>{change.changeItem}</span>
+                                  </div>
+                                  <div>
+                                    <span style={{ fontWeight: "bold" }}>
+                                      Before Change:{" "}
+                                    </span>
+                                    <span>{change.before}</span>
+                                  </div>
+                                  <div>
+                                    <span style={{ fontWeight: "bold" }}>
+                                      After Change:{" "}
+                                    </span>
+                                    <span>{change.after}</span>
+                                  </div>
                                 </div>
                               </ReactTooltip>
                             </div>
