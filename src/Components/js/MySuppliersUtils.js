@@ -15,7 +15,7 @@ class MySuppliersUtils {
     var data = [];
     if (shipments !== null) {
       for (var i = 0; i < shipments.length; i++) {
-        if (shipments[i] !== undefined) {
+        if (shipments[i] !== undefined && shipments[i] !== null) {
           var item = {
             period:
               "Y" +
