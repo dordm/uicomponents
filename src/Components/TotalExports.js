@@ -43,33 +43,37 @@ class TotalExports extends Component {
     let industry, supplier;
     if (this.props.type === "import") {
       try {
-        industry = this.state.report.import.shipmentsOverTime.industry.filter(
-          item =>
-            this.state.selectMonths == 24
-              ? item.year >= new Date().getFullYear() - 1
-              : item.year >= new Date().getFullYear() - 2
-        );
-        supplier = this.state.report.import.shipmentsOverTime.supplier.filter(
-          item =>
-            this.state.selectMonths == 24
-              ? item.year >= new Date().getFullYear() - 1
-              : item.year >= new Date().getFullYear() - 2
-        );
+        industry = this.state.report.import.shipmentsOverTime.industry;
+        //     .filter(
+        //   item =>
+        //     this.state.selectMonths == 24
+        //       ? item.year >= new Date().getFullYear() - 1
+        //       : item.year >= new Date().getFullYear() - 2
+        // );
+        supplier = this.state.report.import.shipmentsOverTime.supplier;
+        //     .filter(
+        //   item =>
+        //     this.state.selectMonths == 24
+        //       ? item.year >= new Date().getFullYear() - 1
+        //       : item.year >= new Date().getFullYear() - 2
+        // );
       } catch (e) {
         industry = [];
         supplier = [];
       }
     } else {
-      industry = this.state.report.shipmentsOverTime.industry.filter(item =>
-        this.state.selectMonths == 24
-          ? item.year >= new Date().getFullYear() - 1
-          : item.year >= new Date().getFullYear() - 2
-      );
-      supplier = this.state.report.shipmentsOverTime.supplier.filter(item =>
-        this.state.selectMonths == 24
-          ? item.year >= new Date().getFullYear() - 1
-          : item.year >= new Date().getFullYear() - 2
-      );
+      industry = this.state.report.shipmentsOverTime.industry;
+      //     .filter(item =>
+      //   this.state.selectMonths == 24
+      //     ? item.year >= new Date().getFullYear() - 1
+      //     : item.year >= new Date().getFullYear() - 2
+      // );
+      supplier = this.state.report.shipmentsOverTime.supplier;
+      //     .filter(item =>
+      //   this.state.selectMonths == 24
+      //     ? item.year >= new Date().getFullYear() - 1
+      //     : item.year >= new Date().getFullYear() - 2
+      // );
     }
 
     for (let i = 0; i < supplier.length; i++) {
