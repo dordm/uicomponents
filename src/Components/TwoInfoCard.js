@@ -257,7 +257,7 @@ class TwoInfoCard extends Component {
             </StyledCloseIcon>
             <DialogTitle
               className={"fontStyle3"}
-              style={{ textAlign: "center" }}
+              style={{ textAlign: "center", marginTop:24 }}
             >
               {this.props.moreTitle}
             </DialogTitle>

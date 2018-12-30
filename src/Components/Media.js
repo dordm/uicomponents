@@ -165,7 +165,7 @@ class Media extends Component {
           >
             <img alt="Close" src={require("./images/Close.png")} />
           </StyledCloseIcon>
-          <DialogTitle className={"fontStyle3"} style={{ textAlign: "center" }}>
+          <DialogTitle className={"fontStyle3"} style={{ textAlign: "center", marginTop:24 }}>
             All Media
           </DialogTitle>
           <StyledDialogContent>
