@@ -26,6 +26,7 @@ import {
 import Utils from "./js/Utils";
 import NoDataImg from "./LowLevelComponents/NoDataImg";
 import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
+import ChangeIcon from '@material-ui/icons/Cached'
 
 const styles = {
   expansionSummaryInner: {
@@ -133,11 +134,12 @@ class CompanyChanges extends Component {
                     return (
                       <ListItem key={idx}>
                         <ListItemIcon className={classes.icon}>
-                          <img
-                            className={classes.imgChange}
-                            alt="change"
-                            src={require("./images/change.svg")}
-                          />
+                          <ChangeIcon  style={{color:'#4c84ff'}} className={classes.imgChange}/>
+                          {/*<img*/}
+                            {/*className={classes.imgChange}*/}
+                            {/*alt="change"*/}
+                            {/*src={require("./images/change.svg")}*/}
+                          {/*/>*/}
                         </ListItemIcon>
                         <ListItemText
                           style={{ marginLeft: -25, maxWidth: "68%" }}
@@ -240,12 +242,13 @@ class CompanyChanges extends Component {
                             expandIcon={<ExpandMoreIcon />}
                           >
                             <ListItemIcon>
-                              <img
-                                height={20}
-                                width={20}
-                                alt={"change"}
-                                src={require("./images/change.svg")}
-                              />
+                                <ChangeIcon style={{height:20, width:20, marginTop:2, color:'#4c84ff'}}/>
+                              {/*<img*/}
+                                {/*height={20}*/}
+                                {/*width={20}*/}
+                                {/*alt={"change"}*/}
+                                {/*src={require("./images/change.svg")}*/}
+                              {/*/>*/}
                             </ListItemIcon>
                             <StyledListItemText
                               primary={
