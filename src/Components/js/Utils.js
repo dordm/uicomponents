@@ -114,11 +114,11 @@ class Utils {
   }
 
   static getParenthesisInfo(val) {
-    return val.indexOf("(") !== -1 ? val.substr(val.indexOf("(")) : "";
+    return val != null && val.indexOf("(") !== -1 ? val.substr(val.indexOf("(")) : "";
   }
 
   static deleteParenthesisInfo(val) {
-    if (val.indexOf("(") !== -1) return val.substr(0, val.indexOf("("));
+    if (val != null && val.indexOf("(") !== -1) return val.substr(0, val.indexOf("("));
     else return val;
   }
 
