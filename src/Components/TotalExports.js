@@ -96,14 +96,17 @@ class TotalExports extends Component {
     }
     if (data.length < 2) {
       for (let i = 0; i < supplier.length; i++) {
-        data.push({
-          name:
-            "Q" +
-            supplier[i].month +
-            "-Y" +
-            supplier[i].year.toString().substr(2),
-          supplier: supplier[i].value_of_goods
-        });
+        try {
+            data.push({
+                name:
+                "Q" +
+                supplier[i].month +
+                "-Y" +
+                supplier[i].year.toString().substr(2),
+                supplier: supplier[i].value_of_goods
+            });
+        }
+        catch (e) {}
       }
     }
     return data;
