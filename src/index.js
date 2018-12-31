@@ -36,7 +36,8 @@ import {
   SmallBoxLayout,
   StyledDivSearch,
   StyledSearchIcon,
-  StyledDialogContent
+  StyledDialogContent,
+  StyledChip
 } from "./Components/LowLevelComponents/StyledComponents";
 
 import CompanyScore from "./Components/CompanyScore";
@@ -110,5 +111,6 @@ export {
   GoogleMap,
   StyledDialogContent,
   MoreDataBranchesInvestments,
-  CompanyChanges
+  CompanyChanges,
+  StyledChip
 };

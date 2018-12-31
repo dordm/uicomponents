@@ -9,6 +9,29 @@ import ExpansionPanel from "@material-ui/core/ExpansionPanel";
 import ExpansionPanelSummary from "@material-ui/core/ExpansionPanelSummary";
 import ExpansionPanelDetails from "@material-ui/core/ExpansionPanelDetails";
 import ListItemText from "@material-ui/core/ListItemText";
+import Chip from "@material-ui/core/Chip";
+
+export const StyledChip = styled(Chip)`
+  font-family: Roboto !important;
+  font-size: 14px !important;
+  height: 28px !important;
+  color: ${props =>
+    props.type === "delete"
+      ? "#ff0000"
+      : props.type === "info"
+      ? "#4C84FF"
+      : props.type === "success"
+      ? "#2fd565"
+      : ""} !important;
+  border: ${props =>
+    props.type === "delete"
+      ? "0.5px solid #ff0000"
+      : props.type === "info"
+      ? "0.5px solid #4C84FF"
+      : props.type === "success"
+      ? "0.5px solid #2fd565"
+      : ""} !important;
+`;
 
 export const StyledExpansionPanel = styled(ExpansionPanel)`
   padding-top: 0px;
