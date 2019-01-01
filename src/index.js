@@ -23,6 +23,7 @@ import MoreDataTrademarks from "./Components/MoreDataTrademarks";
 import MoreDataPatents from "./Components/MoreDataPatents";
 import MoreDataCourtCases from "./Components/MoreDataCourtCases";
 import CompanyChanges from "./Components/CompanyChanges";
+import MoreDataDishonest from "./Components/MoreDataDishonest";
 import {
   StyledCloseIcon,
   SearchInputWrapper,
@@ -112,5 +113,6 @@ export {
   StyledDialogContent,
   MoreDataBranchesInvestments,
   CompanyChanges,
-  StyledChip
+  StyledChip,
+  MoreDataDishonest
 };
