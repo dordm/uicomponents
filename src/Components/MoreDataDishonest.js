@@ -83,7 +83,7 @@ function MoreDataDishonest(props) {
                       {"\u2022"} Enforcement of Court: {item.courtName}
                     </Typography>
                     <Typography className={"fontStyle7"}>
-                      {"\u2022"} Province: {item.area}
+                      {"\u2022"} Province: {item.areaName}
                     </Typography>
                     <Typography className={"fontStyle7"}>
                       {"\u2022"} Basis for the Symbol: {item.gistId}
