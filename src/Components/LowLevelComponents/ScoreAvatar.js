@@ -14,7 +14,18 @@ const StyledScoreAvatar = styled(Avatar)`
 `;
 
 const ScoreAvatar = function(props) {
-  if (props.score < 5)
+  if (props.score == null)
+    return (
+      <StyledScoreAvatar
+        mobile={props.width < 600 ? "true" : "false"}
+        back={"rgba(255, 26, 94, 0.03)"}
+        color={"#cc003d"}
+        border={"1px solid #cc003d"}
+      >
+        N/A
+      </StyledScoreAvatar>
+    );
+  else if (props.score < 5)
     return (
       <StyledScoreAvatar
         mobile={props.width < 600 ? "true" : "false"}

@@ -145,13 +145,27 @@ class CompanyScore extends Component {
   }
 
   designRiskLbl(score) {
-    if (score < 6) return <RiskLbl color={"#FF3B77"}>High Risk</RiskLbl>;
+    if (score == null) return <RiskLbl color={"#4c84ff"}>Calculating</RiskLbl>;
+    else if (score < 6) return <RiskLbl color={"#FF3B77"}>High Risk</RiskLbl>;
     else if (score < 8) return <RiskLbl color={"#F97413"}>Medium Risk</RiskLbl>;
     else return <RiskLbl color={"#2FD565"}>Low Risk</RiskLbl>;
   }
 
   bottomMsg(score, classes) {
-    if (score < 6)
+    if (score == null)
+      return (
+        <div className={classes.divBottomMsg}>
+          <img
+            style={{ height: 24, width: 24 }}
+            alt="flag"
+            src={Utils.getIcon("natural")}
+          />
+          <Typography className={classNames(classes.bottomMsg, "fontStyle11")}>
+            Our system calculating the supplier score
+          </Typography>
+        </div>
+      );
+    else if (score < 6)
       return (
         <div className={classes.divBottomMsg}>
           <img
@@ -207,7 +221,9 @@ class CompanyScore extends Component {
     } else {
       buksaSize = 95 * 0.95;
     }
-    return (this.state.report.score / 100) * buksaSize + "%";
+    return this.state.report.score != null
+      ? (this.state.report.score / 100) * buksaSize + "%"
+      : 0;
   }
 
   render() {
@@ -250,10 +266,16 @@ class CompanyScore extends Component {
           </StyledTitle>
           <div data-cy={"divScore"} className={classes.divScore}>
             <label className={classes.scoreLabel}>
-              {(this.state.report.score / 10).toFixed(1)}
+              {this.state.report.score != null
+                ? (this.state.report.score / 10).toFixed(1)
+                : "N/A"}
             </label>
             <br />
-            {this.designRiskLbl(this.state.report.score / 10)}
+            {this.designRiskLbl(
+              this.state.report.score != null
+                ? this.state.report.score / 10
+                : null
+            )}
           </div>
         </div>
 
