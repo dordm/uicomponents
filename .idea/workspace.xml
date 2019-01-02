@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="deedca82-8ad4-4e62-ac9a-df5681d3be65" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/LowLevelComponents/PieChart.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/LowLevelComponents/PieChart.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -16,11 +16,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="true">
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+            <state relative-caret-position="170">
+              <caret line="10" column="4" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -40,17 +40,17 @@
       <file leaf-file-name="TopProducts.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Components/TopProducts.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2380">
-              <caret line="152" column="48" selection-start-line="152" selection-start-column="48" selection-end-line="152" selection-end-column="48" />
+            <state relative-caret-position="2177">
+              <caret line="154" column="30" selection-start-line="154" selection-start-column="19" selection-end-line="154" selection-end-column="30" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PieChart.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="PieChart.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Components/LowLevelComponents/PieChart.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="107">
-              <caret line="45" column="43" selection-start-line="45" selection-start-column="43" selection-end-line="45" selection-end-column="43" />
+            <state relative-caret-position="450">
+              <caret line="142" column="19" lean-forward="true" selection-start-line="142" selection-start-column="19" selection-end-line="142" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -123,9 +123,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>this.state</find>
-      <find>key=</find>
-      <find>Back.</find>
       <find>Close.png</find>
       <find>getEmployeeIcon</find>
       <find>StyledExpansionPanel</find>
@@ -153,6 +150,9 @@
       <find>shipments</find>
       <find>this.state.data</find>
       <find>replace</find>
+      <find>CustomTooltip</find>
+      <find>this.props.name</find>
+      <find>props.name</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -210,8 +210,8 @@
         <option value="$PROJECT_DIR$/src/index.js" />
         <option value="$PROJECT_DIR$/src/Components/TopProducts.js" />
         <option value="$PROJECT_DIR$/stories/MockData/reportData.js" />
-        <option value="$PROJECT_DIR$/src/Components/LowLevelComponents/PieChart.js" />
         <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/src/Components/LowLevelComponents/PieChart.js" />
       </list>
     </option>
   </component>
@@ -405,12 +405,12 @@
       <workItem from="1546357032459" duration="646000" />
       <workItem from="1546418829556" duration="2228000" />
       <workItem from="1546428277147" duration="3870000" />
-      <workItem from="1546433083312" duration="193000" />
+      <workItem from="1546433083312" duration="1138000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="188044000" />
+    <option name="totallyTimeSpent" value="188989000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
@@ -424,7 +424,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.37522125" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.37522125" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -779,13 +779,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/TopProducts.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2380">
-          <caret line="152" column="48" selection-start-line="152" selection-start-column="48" selection-end-line="152" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/stories/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1037">
@@ -800,17 +793,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/LowLevelComponents/PieChart.js">
+    <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="107">
-          <caret line="45" column="43" selection-start-line="45" selection-start-column="43" selection-end-line="45" selection-end-column="43" />
+        <state relative-caret-position="170">
+          <caret line="10" column="4" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
+    <entry file="file://$PROJECT_DIR$/src/Components/TopProducts.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+        <state relative-caret-position="2177">
+          <caret line="154" column="30" selection-start-line="154" selection-start-column="19" selection-end-line="154" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/LowLevelComponents/PieChart.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="142" column="19" lean-forward="true" selection-start-line="142" selection-start-column="19" selection-end-line="142" selection-end-column="19" />
         </state>
       </provider>
     </entry>

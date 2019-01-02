@@ -42,48 +42,48 @@ class TopProducts extends Component {
       case "4":
         if (this.props.type === "import") {
           if (this.state.report.import !== undefined)
-            return this.state.report.import.shipmentByProduct.supplier.lastQuarter.sort(
-              function(a, b) {
+            return this.state.report.import.shipmentByProduct.supplier.lastQuarter
+              .filter(item => item.value_of_goods > 0)
+              .sort(function(a, b) {
                 return b.value_of_goods - a.value_of_goods;
-              }
-            );
+              });
           else return [];
         } else
-          return this.state.report.shipmentByProduct.supplier.lastQuarter.sort(
-            function(a, b) {
+          return this.state.report.shipmentByProduct.supplier.lastQuarter
+            .filter(item => item.value_of_goods > 0)
+            .sort(function(a, b) {
               return b.value_of_goods - a.value_of_goods;
-            }
-          );
+            });
       case "12":
         if (this.props.type === "import") {
           if (this.state.report.import !== undefined)
-            return this.state.report.import.shipmentByProduct.supplier.lastYear.sort(
-              function(a, b) {
+            return this.state.report.import.shipmentByProduct.supplier.lastYear
+              .filter(item => item.value_of_goods > 0)
+              .sort(function(a, b) {
                 return b.value_of_goods - a.value_of_goods;
-              }
-            );
+              });
           else return [];
         } else
-          return this.state.report.shipmentByProduct.supplier.lastYear.sort(
-            function(a, b) {
+          return this.state.report.shipmentByProduct.supplier.lastYear
+            .filter(item => item.value_of_goods > 0)
+            .sort(function(a, b) {
               return b.value_of_goods - a.value_of_goods;
-            }
-          );
+            });
       case "36":
         if (this.props.type === "import") {
           if (this.state.report.import !== undefined)
-            return this.state.report.import.shipmentByProduct.supplier.last3Years.sort(
-              function(a, b) {
+            return this.state.report.import.shipmentByProduct.supplier.last3Years
+              .filter(item => item.value_of_goods > 0)
+              .sort(function(a, b) {
                 return b.value_of_goods - a.value_of_goods;
-              }
-            );
+              });
           else return [];
         } else
-          return this.state.report.shipmentByProduct.supplier.last3Years.sort(
-            function(a, b) {
+          return this.state.report.shipmentByProduct.supplier.last3Years
+            .filter(item => item.value_of_goods > 0)
+            .sort(function(a, b) {
               return b.value_of_goods - a.value_of_goods;
-            }
-          );
+            });
       default:
         return [];
     }

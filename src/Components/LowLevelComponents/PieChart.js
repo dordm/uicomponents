@@ -42,7 +42,7 @@ const CustomTooltip = props => {
   if (props.payload[0] != null) {
     return (
       <div className={classes.customTooltip}>
-        {props.payload[0].payload[props.name] ? props.payload[0].payload[props.name].replace("###", "") : ''} :{" "}
+        {props.payload[0].payload[props.name].replace("###", "")} :{" "}
         {new Intl.NumberFormat("en").format(
           props.payload[0].payload[props.value]
         ) + props.unit}
@@ -140,7 +140,7 @@ const CustomLegend = props => {
             type="info"
             effect="solid"
           >
-            <span>{entry.value ? entry.value.replace("###", "") : ''}</span>
+            <span>{entry.value.replace("###", "")}</span>
           </ReactTooltip>
         </li>
       ))}
