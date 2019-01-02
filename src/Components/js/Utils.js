@@ -606,6 +606,8 @@ class Utils {
         return require("../images/countries/DZ.svg");
       case "Dominican Republic":
         return require("../images/countries/DO.svg");
+      case "unknown":
+        return require("../images/countries/WW.svg");
       case "AF":
         return require("../images/countries/AF.svg");
       case "AX":
