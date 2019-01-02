@@ -1583,54 +1583,27 @@ const reportData = {
         }
       ],
       lastYear: [
-        {
-          hs_code: "8536",
-          hscode_desc:
-            "(8536) Electrical apparatus for switching or protecting electrical circuits, or for making connections to or in electrical circuits (for example, switches, relays, fuses, surge suppressors, plugs, sockets, lamp-holders, junction boxes), for a voltage not exceeding 1 000 V",
-          shipment_count: "337",
-          value_of_goods: 6269581
-        },
-        {
-          hs_code: "8537",
-          hscode_desc:
-            "(8537) Boards, panels, consoles, desks, cabinets and other bases, equipped with two or more apparatus of heading 8535 or 8536, for electric control or the distribution of electricity, including those incorporating instruments or apparatus of Chapter 90, and numerical control apparatus, other than switching apparatus of heading 8517",
-          shipment_count: "16",
-          value_of_goods: 133820
-        },
-        {
-          hs_code: "9107",
-          hscode_desc:
-            "(9107) Time switches, with clock or watch movement or with synchronous motor",
-          shipment_count: "18",
-          value_of_goods: 58715
-        },
-        {
-          hs_code: "8538",
-          hscode_desc:
-            "(8538) Parts suitable for use solely or principally with the apparatus of heading 8535, 8536 or 8537",
-          shipment_count: "26",
-          value_of_goods: 29296
-        },
-        {
-          hs_code: "8504",
-          hscode_desc:
-            "(8504) Electrical transformers, static converters (for example, rectifiers) and inductors",
-          shipment_count: "12",
-          value_of_goods: 27863
-        },
-        {
-          hs_code: "8531",
-          hscode_desc:
-            "(8531) Electric sound or visual signalling apparatus (for example, bells, sirens, indicator panels, burglar or fire alarms), other than those of heading 8512 or 8530",
-          shipment_count: "31",
-          value_of_goods: 23112
-        },
-        {
-          hs_code: "7326",
-          hscode_desc: "(7326) Other articles of iron or steel",
-          shipment_count: "1",
-          value_of_goods: 1100
-        }
+          {
+              hs_code: "8536",
+              hscode_desc:
+                  "(8536) Electrical apparatus for switching or protecting electrical circuits, or for making connections to or in electrical circuits (for example, switches, relays, fuses, surge suppressors, plugs, sockets, lamp-holders, junction boxes), for a voltage not exceeding 1 000 V",
+              shipment_count: "17",
+              value_of_goods: 362832.27
+          },
+          {
+              hs_code: "9107",
+              hscode_desc:
+                  "(9107) Time switches, with clock or watch movement or with synchronous motor",
+              shipment_count: "1",
+              value_of_goods: 3876
+          },
+          {
+              hs_code: "8537",
+              hscode_desc:
+                  "(8537) Boards, panels, consoles, desks, cabinets and other bases, equipped with two or more apparatus of heading 8535 or 8536, for electric control or the distribution of electricity, including those incorporating instruments or apparatus of Chapter 90, and numerical control apparatus, other than switching apparatus of heading 8517",
+              shipment_count: "1",
+              value_of_goods: 1438
+          }
       ],
       last3Years: [
         {

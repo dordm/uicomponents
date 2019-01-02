@@ -192,7 +192,8 @@ class MyPieChart extends Component {
       cx: this.props.cx,
       cy: this.props.cy,
       innerRadius: this.props.innerRadius,
-      outerRadius: this.props.outerRadius
+      outerRadius: this.props.outerRadius,
+      key: 1
     };
   }
 
@@ -201,6 +202,9 @@ class MyPieChart extends Component {
       this.setState({
         data: this.props.data
       });
+    }
+    if (prevProps.period !== this.props.period) {
+      this.setState({ key: this.state.key + 1 });
     }
 
     if (prevProps.innerRadius !== this.props.innerRadius) {
@@ -215,7 +219,7 @@ class MyPieChart extends Component {
     const COLORS = ["#FF3B77", "#2FD565", "#F97413", "#4C84FF", "#A1AEC6"];
     const { classes } = this.props;
     return (
-      <ResponsiveContainer height={this.props.height}>
+      <ResponsiveContainer key={this.state.key} height={this.props.height}>
         <PieChart>
           <Legend
             verticalAlign="middle"
