@@ -180,19 +180,6 @@ class PublicFinancialRatio extends Component {
                     : ""}
                 </ListItemSecondaryAction>
               </ListItem>
-              {/*<ListItem>*/}
-              {/*{this.props.data.icon !== undefined ? (*/}
-              {/*<ListItemIcon className={classes.icon}>*/}
-              {/*<img alt="msg" src={Utils.getIcon("")} />*/}
-              {/*</ListItemIcon>*/}
-              {/*) : (*/}
-              {/*""*/}
-              {/*)}*/}
-              {/*<ListItemText*/}
-              {/*style={{ marginLeft: -35 }}*/}
-              {/*primary={<Typography className={"fontStyle11"} />}*/}
-              {/*/>*/}
-              {/*</ListItem>*/}
             </List>
           </div>
         ) : (
