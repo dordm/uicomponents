@@ -129,7 +129,7 @@ class Industry extends Component {
           }}
           className={classes.divIndustries}
         >
-          {this.state.report.industry
+          {this.state.report.industry && this.state.report.industry
             .split(/,|;|\./)
             .filter(function(item) {
               return item.replace(/\s/g, "") !== "";
@@ -180,7 +180,7 @@ class Industry extends Component {
           </DialogTitle>
           <StyledDialogContent>
             <List>
-              {this.state.report.industry
+              {this.state.report.industry && this.state.report.industry
                 .split(/,|;|\./)
                 .filter(function(item) {
                   return item.replace(/\s/g, "") !== "";
