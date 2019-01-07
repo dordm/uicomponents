@@ -10,12 +10,35 @@ import ListItemIcon from "@material-ui/core/ListItemIcon";
 import classNames from "classnames";
 import Utils from "./js/Utils";
 import ReactTooltip from "react-tooltip";
-import { BigBoxLayout } from "./LowLevelComponents/StyledComponents";
+import {
+  BigBoxLayout,
+  StyledCloseIcon
+} from "./LowLevelComponents/StyledComponents";
 import styled from "styled-components";
+import DialogContent from "@material-ui/core/DialogContent";
+import DialogTitle from "@material-ui/core/DialogTitle";
+import MoreDataWebsite from "./MoreDataWebsite";
+import Dialog from "@material-ui/core/Dialog";
+import './css/fullScreenDialog.css'
 
 const StyledLblWebsite = styled.label`
   cursor: ${props => (props.link ? "pointer" : "")};
   color: ${props => (props.link ? "#4C84FF" : "#172b51")} !important;
+`;
+
+const StyledListItemSecondary = styled(ListItemSecondaryAction)`
+  text-align: left;
+  width: 50%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  right: 62px !important;
+`;
+
+const StyledDialogContent = styled(DialogContent)`
+  width: 100%;
+  padding: 0px !important;
+  overflow-y: unset !important;
 `;
 
 const styles = {
@@ -36,32 +59,77 @@ const styles = {
   },
   listItemSecondary: {
     textAlign: "left",
-    width: "60%",
-    whiteSpace: "nowrap",
-    overflow: "hidden",
-    textOverflow: "ellipsis"
+    width: 32,
+    whiteSpace: "nowrap"
   },
   topIcon: {
     marginTop: -2,
     marginLeft: 6
+  },
+  moreBtn: {
+    textAlign: "right",
+    cursor: "pointer"
+  },
+  imgMore: {
+    marginTop: -4,
+    position: "absolute",
+    marginLeft: -4
+  },
+  dialog: {
+    background: "#F5F7FB"
   }
-  // lblWebsite: {
-  //   cursor: "pointer",
-  //   color: "#4C84FF !important"
-  // }
+
 };
 
 class SocialMedia extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      report: this.props.report
+      report: this.props.report,
+      moreDataOpen: false
     };
   }
 
   openWebsite(url) {
     if (url.startsWith("http")) window.open(url);
     else window.open("http://" + url);
+  }
+
+  dialogMoreData() {
+    const { classes } = this.props;
+    return (
+      <Dialog
+        PaperProps={{
+          classes: {
+            root: classNames("fullScreenDialog", classes.dialog)
+          }
+        }}
+
+        open={this.state.moreDataOpen}
+        onClose={() => this.setState({ moreDataOpen: false })}
+        aria-labelledby="scroll-dialog-title"
+      >
+        <StyledCloseIcon
+          data-cy={"btnCloseDialog"}
+          onClick={() => this.setState({ moreDataOpen: false })}
+        >
+          <img alt="Close" src={Utils.getImage("Close.png")} />
+        </StyledCloseIcon>
+        <DialogTitle
+          className={"fontStyle3"}
+          style={{ textAlign: "center", marginTop: 24 }}
+        >
+          Website Information
+        </DialogTitle>
+        <StyledDialogContent>
+          <MoreDataWebsite
+            width={this.props.width}
+            websiteArchive={this.state.report.websiteArchive}
+            websiteWhoIs={this.state.report.websiteWhoIs}
+          />
+        </StyledDialogContent>
+      </Dialog>
+    );
   }
 
   render() {
@@ -101,18 +169,48 @@ class SocialMedia extends Component {
                   <Typography className={"fontStyle7"}>Website</Typography>
                 }
               />
-              <ListItemSecondaryAction
-                className={classNames(classes.listItemSecondary, "fontStyle10")}
-                onClick={() =>
-                  haveWebsite ? this.openWebsite(this.state.report.website) : ""
-                }
-              >
-                <StyledLblWebsite link={haveWebsite}>
+              {haveWebsite &&
+              (this.state.report.websiteArchive ||
+                this.state.report.websiteWhoIs) ? (
+                <ListItemSecondaryAction
+                  className={classNames(
+                    classes.listItemSecondary,
+                    "fontStyle10"
+                  )}
+                  style={{
+                    right: this.props.width > 600 ? 30 : 15
+                  }}
+                >
+                  <div
+                    onClick={() => this.setState({ moreDataOpen: true })}
+                    className={classNames(classes.moreBtn, "fontStyle6")}
+                    data-cy="divMore"
+                  >
+                    More
+                    <img
+                      alt="view all"
+                      src={require("./images/Back.png")}
+                      className={classes.imgMore}
+                    />
+                  </div>
+                </ListItemSecondaryAction>
+              ) : (
+                ""
+              )}
+              <StyledListItemSecondary className={"fontStyle10"}>
+                <StyledLblWebsite
+                  onClick={() =>
+                    haveWebsite
+                      ? this.openWebsite(this.state.report.website)
+                      : ""
+                  }
+                  link={haveWebsite}
+                >
                   {this.state.report.website !== undefined
                     ? this.state.report.website
                     : ""}
                 </StyledLblWebsite>
-              </ListItemSecondaryAction>
+              </StyledListItemSecondary>
             </ListItem>
             <ListItem>
               <ListItemIcon className={classes.icon}>
@@ -124,8 +222,8 @@ class SocialMedia extends Component {
                   <Typography className={"fontStyle7"}>Linkedin</Typography>
                 }
               />
-              <ListItemSecondaryAction
-                className={classNames(classes.listItemSecondary, "fontStyle10")}
+              <StyledListItemSecondary
+                className={"fontStyle10"}
                 onClick={() =>
                   this.state.report.linkedin !== null &&
                   this.state.report.linkedin !== ""
@@ -143,7 +241,7 @@ class SocialMedia extends Component {
                     ? this.state.report.linkedin
                     : ""}
                 </StyledLblWebsite>
-              </ListItemSecondaryAction>
+              </StyledListItemSecondary>
             </ListItem>
             <ListItem>
               <ListItemIcon className={classes.icon}>
@@ -155,8 +253,8 @@ class SocialMedia extends Component {
                   <Typography className={"fontStyle7"}>Weibo</Typography>
                 }
               />
-              <ListItemSecondaryAction
-                className={classNames(classes.listItemSecondary, "fontStyle10")}
+              <StyledListItemSecondary
+                className={"fontStyle10"}
                 onClick={() =>
                   this.state.report.weibo !== null &&
                   this.state.report.weibo !== ""
@@ -174,7 +272,7 @@ class SocialMedia extends Component {
                     ? this.state.report.weibo
                     : ""}
                 </StyledLblWebsite>
-              </ListItemSecondaryAction>
+              </StyledListItemSecondary>
             </ListItem>
 
             <ListItem>
@@ -187,8 +285,8 @@ class SocialMedia extends Component {
                   <Typography className={"fontStyle7"}>Wechat</Typography>
                 }
               />
-              <ListItemSecondaryAction
-                className={classNames(classes.listItemSecondary, "fontStyle10")}
+              <StyledListItemSecondary
+                className={"fontStyle10"}
                 onClick={() =>
                   this.state.report.wechat !== null &&
                   this.state.report.wechat !== ""
@@ -206,33 +304,11 @@ class SocialMedia extends Component {
                     ? this.state.report.wechat
                     : ""}
                 </StyledLblWebsite>
-              </ListItemSecondaryAction>
+              </StyledListItemSecondary>
             </ListItem>
-
-            {/*<ListItem>*/}
-            {/*{this.state.report.socialIcon !== undefined ? (*/}
-            {/*<ListItemIcon className={classes.icon}>*/}
-            {/*<img*/}
-            {/*alt="msg"*/}
-            {/*src={Utils.getIcon(this.state.report.socialIcon)}*/}
-            {/*/>*/}
-            {/*</ListItemIcon>*/}
-            {/*) : (*/}
-            {/*""*/}
-            {/*)}*/}
-            {/*<ListItemText*/}
-            {/*style={{ marginLeft: -15 }}*/}
-            {/*primary={*/}
-            {/*<Typography className={"fontStyle11"}>*/}
-            {/*{this.state.report.socialMsg !== undefined*/}
-            {/*? this.state.report.socialMsg*/}
-            {/*: ""}*/}
-            {/*</Typography>*/}
-            {/*}*/}
-            {/*/>*/}
-            {/*</ListItem>*/}
           </List>
         </div>
+        {this.dialogMoreData()}
       </BigBoxLayout>
     );
   }

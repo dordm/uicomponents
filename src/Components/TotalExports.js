@@ -44,36 +44,14 @@ class TotalExports extends Component {
     if (this.props.type === "import") {
       try {
         industry = this.state.report.import.shipmentsOverTime.industry;
-        //     .filter(
-        //   item =>
-        //     this.state.selectMonths == 24
-        //       ? item.year >= new Date().getFullYear() - 1
-        //       : item.year >= new Date().getFullYear() - 2
-        // );
         supplier = this.state.report.import.shipmentsOverTime.supplier;
-        //     .filter(
-        //   item =>
-        //     this.state.selectMonths == 24
-        //       ? item.year >= new Date().getFullYear() - 1
-        //       : item.year >= new Date().getFullYear() - 2
-        // );
       } catch (e) {
         industry = [];
         supplier = [];
       }
     } else {
       industry = this.state.report.shipmentsOverTime.industry;
-      //     .filter(item =>
-      //   this.state.selectMonths == 24
-      //     ? item.year >= new Date().getFullYear() - 1
-      //     : item.year >= new Date().getFullYear() - 2
-      // );
       supplier = this.state.report.shipmentsOverTime.supplier;
-      //     .filter(item =>
-      //   this.state.selectMonths == 24
-      //     ? item.year >= new Date().getFullYear() - 1
-      //     : item.year >= new Date().getFullYear() - 2
-      // );
     }
 
     for (let i = 0; i < supplier.length; i++) {
@@ -151,14 +129,6 @@ class TotalExports extends Component {
             </span>
           </ReactTooltip>
         </StyledTitle>
-        {/*<select*/}
-        {/*onChange={e => this.setState({ selectMonths: e.target.value })}*/}
-        {/*className={classNames(classes.select, "fontStyle16")}*/}
-        {/*defaultValue={this.state.selectMonths}*/}
-        {/*>*/}
-        {/*<option value={24}>Last 2 years</option>*/}
-        {/*<option value={36}>Last 3 years</option>*/}
-        {/*</select>*/}
         <br />
         <br />
         {exportData.length > 1 ? (

@@ -12,6 +12,1373 @@ const reportData = {
   industry: "Electric Mechinary; export and import; ",
   foreignInvestment: 2,
   numberOfBranches: 3,
+    websiteArchive:{
+        "latestChanges" : [
+            [
+                "urlkey",
+                "timestamp",
+                "original",
+                "mimetype",
+                "statuscode",
+                "digest",
+                "length"
+            ],
+            [
+                "com,jxlogistics)/",
+                "20060830123618",
+                "http://www.jxlogistics.com:80/",
+                "text/html",
+                "200",
+                "E4ETZQLJABA4L6WG6G3O66GSMNQAH76S",
+                "1147"
+            ],
+            [
+                "com,jxlogistics)/",
+                "20060902143121",
+                "http://www.jxlogistics.com:80/",
+                "text/html",
+                "200",
+                "E4ETZQLJABA4L6WG6G3O66GSMNQAH76S",
+                "1146"
+            ],
+            [
+                "com,jxlogistics)/",
+                "20060914074906",
+                "http://www.jxlogistics.com:80/",
+                "text/html",
+                "200",
+                "E4ETZQLJABA4L6WG6G3O66GSMNQAH76S",
+                "1144"
+            ],
+            [
+                "com,jxlogistics)/",
+                "20061004012131",
+                "http://jxlogistics.com:80/",
+                "text/html",
+                "200",
+                "XTPGTHSAME5IYD2CQ4TYTLF2BGFPEFCC",
+                "5497"
+            ],
+            [
+                "com,jxlogistics)/",
+                "20061027044228",
+                "http://www.jxlogistics.com:80/",
+                "text/html",
+                "200",
+                "HJBCB4DDUGAZSSOCVTO5AFPNA4D3TLZJ",
+                "968"
+            ],
+            [
+                "com,jxlogistics)/",
+                "20061030092552",
+                "http://www.jxlogistics.com:80/",
+                "text/html",
+                "200",
+                "HJBCB4DDUGAZSSOCVTO5AFPNA4D3TLZJ",
+                "968"
+            ],
+            [
+                "com,jxlogistics)/",
+                "20061104192030",
+                "http://www.jxlogistics.com:80/",
+                "text/html",
+                "200",
+                "HJBCB4DDUGAZSSOCVTO5AFPNA4D3TLZJ",
+                "973"
+            ],
+            [
+                "com,jxlogistics)/",
+                "20061113122643",
+                "http://www.jxlogistics.com:80/",
+                "text/html",
+                "200",
+                "HJBCB4DDUGAZSSOCVTO5AFPNA4D3TLZJ",
+                "971"
+            ],
+            [
+                "com,jxlogistics)/",
+                "20061113214645",
+                "http://www.jxlogistics.com:80/",
+                "text/html",
+                "200",
+                "HJBCB4DDUGAZSSOCVTO5AFPNA4D3TLZJ",
+                "972"
+            ],
+            [
+                "com,jxlogistics)/",
+                "20061119080657",
+                "http://www.jxlogistics.com:80/",
+                "text/html",
+                "200",
+                "HJBCB4DDUGAZSSOCVTO5AFPNA4D3TLZJ",
+                "972"
+            ],
+            [
+                "com,jxlogistics)/",
+                "20061201001812",
+                "http://www.jxlogistics.com:80/",
+                "text/html",
+                "200",
+                "HJBCB4DDUGAZSSOCVTO5AFPNA4D3TLZJ",
+                "970"
+            ],
+            [
+                "com,jxlogistics)/",
+                "20061205023220",
+                "http://jxlogistics.com:80/",
+                "text/html",
+                "200",
+                "XTPGTHSAME5IYD2CQ4TYTLF2BGFPEFCC",
+                "5498"
+            ],
+            [
+                "com,jxlogistics)/",
+                "20061205083039",
+                "http://www.jxlogistics.com:80/",
+                "text/html",
+                "200",
+                "HJBCB4DDUGAZSSOCVTO5AFPNA4D3TLZJ",
+                "969"
+            ],
+            [
+                "com,jxlogistics)/",
+                "20061209223635",
+                "http://www.jxlogistics.com:80/",
+                "text/html",
+                "200",
+                "HJBCB4DDUGAZSSOCVTO5AFPNA4D3TLZJ",
+                "970"
+            ],
+            [
+                "com,jxlogistics)/",
+                "20061214103414",
+                "http://www.jxlogistics.com:80/",
+                "text/html",
+                "200",
+                "HJBCB4DDUGAZSSOCVTO5AFPNA4D3TLZJ",
+                "969"
+            ],
+            [
+                "com,jxlogistics)/",
+                "20061220003311",
+                "http://www.jxlogistics.com:80/",
+                "text/html",
+                "200",
+                "HJBCB4DDUGAZSSOCVTO5AFPNA4D3TLZJ",
+                "966"
+            ],
+            [
+                "com,jxlogistics)/",
+                "20061224181149",
+                "http://www.jxlogistics.com:80/",
+                "text/html",
+                "200",
+                "HJBCB4DDUGAZSSOCVTO5AFPNA4D3TLZJ",
+                "970"
+            ],
+            [
+                "com,jxlogistics)/",
+                "20070101070120",
+                "http://www.jxlogistics.com:80/",
+                "text/html",
+                "200",
+                "HJBCB4DDUGAZSSOCVTO5AFPNA4D3TLZJ",
+                "972"
+            ],
+            [
+                "com,jxlogistics)/",
+                "20070105194901",
+                "http://www.jxlogistics.com:80/",
+                "text/html",
+                "200",
+                "HJBCB4DDUGAZSSOCVTO5AFPNA4D3TLZJ",
+                "973"
+            ],
+            [
+                "com,jxlogistics)/",
+                "20070110145343",
+                "http://www.jxlogistics.com:80/",
+                "text/html",
+                "200",
+                "HJBCB4DDUGAZSSOCVTO5AFPNA4D3TLZJ",
+                "970"
+            ],
+            [
+                "com,jxlogistics)/",
+                "20070115104553",
+                "http://www.jxlogistics.com:80/",
+                "text/html",
+                "200",
+                "HJBCB4DDUGAZSSOCVTO5AFPNA4D3TLZJ",
+                "973"
+            ],
+            [
+                "com,jxlogistics)/",
+                "20070120120419",
+                "http://www.jxlogistics.com:80/",
+                "text/html",
+                "200",
+                "HJBCB4DDUGAZSSOCVTO5AFPNA4D3TLZJ",
+                "972"
+            ],
+            [
+                "com,jxlogistics)/",
+                "20070125092648",
+                "http://www.jxlogistics.com:80/",
+                "text/html",
+                "200",
+                "HJBCB4DDUGAZSSOCVTO5AFPNA4D3TLZJ",
+                "974"
+            ],
+            [
+                "com,jxlogistics)/",
+                "20070202013227",
+                "http://www.jxlogistics.com:80/",
+                "text/html",
+                "200",
+                "HJBCB4DDUGAZSSOCVTO5AFPNA4D3TLZJ",
+                "973"
+            ],
+            [
+                "com,jxlogistics)/",
+                "20070205025848",
+                "http://www.jxlogistics.com:80/",
+                "text/html",
+                "200",
+                "HJBCB4DDUGAZSSOCVTO5AFPNA4D3TLZJ",
+                "969"
+            ],
+            [
+                "com,jxlogistics)/",
+                "20070210020223",
+                "http://www.jxlogistics.com:80/",
+                "text/html",
+                "200",
+                "HJBCB4DDUGAZSSOCVTO5AFPNA4D3TLZJ",
+                "969"
+            ],
+            [
+                "com,jxlogistics)/",
+                "20070225140047",
+                "http://www.jxlogistics.com:80/",
+                "text/html",
+                "200",
+                "HJBCB4DDUGAZSSOCVTO5AFPNA4D3TLZJ",
+                "973"
+            ],
+            [
+                "com,jxlogistics)/",
+                "20070403224926",
+                "http://www.jxlogistics.com:80/",
+                "text/html",
+                "200",
+                "HJBCB4DDUGAZSSOCVTO5AFPNA4D3TLZJ",
+                "972"
+            ],
+            [
+                "com,jxlogistics)/",
+                "20070429135037",
+                "http://www.jxlogistics.com:80/",
+                "text/html",
+                "200",
+                "HJBCB4DDUGAZSSOCVTO5AFPNA4D3TLZJ",
+                "973"
+            ],
+            [
+                "com,jxlogistics)/",
+                "20070609164221",
+                "http://www.jxlogistics.com:80/",
+                "text/html",
+                "200",
+                "MP3E2JQZ7VD232S2RBCTKD75UI6D4YSX",
+                "977"
+            ],
+            [
+                "com,jxlogistics)/",
+                "20070701215720",
+                "http://www.jxlogistics.com:80/",
+                "text/html",
+                "200",
+                "MP3E2JQZ7VD232S2RBCTKD75UI6D4YSX",
+                "980"
+            ],
+            [
+                "com,jxlogistics)/",
+                "20070710015134",
+                "http://www.jxlogistics.com:80/",
+                "text/html",
+                "200",
+                "JRE43JT5H7K2UZZA3SSX5P5JRZJ5BTCF",
+                "2267"
+            ],
+            [
+                "com,jxlogistics)/",
+                "20070809234208",
+                "http://www.jxlogistics.com:80/",
+                "text/html",
+                "200",
+                "JRE43JT5H7K2UZZA3SSX5P5JRZJ5BTCF",
+                "2269"
+            ],
+            [
+                "com,jxlogistics)/",
+                "20070811235758",
+                "http://www.jxlogistics.com:80/",
+                "text/html",
+                "200",
+                "JRE43JT5H7K2UZZA3SSX5P5JRZJ5BTCF",
+                "2270"
+            ],
+            [
+                "com,jxlogistics)/",
+                "20070909123407",
+                "http://www.jxlogistics.com:80/",
+                "text/html",
+                "200",
+                "YYLP6UF5PRTFSKJIBU4VORZ4QOEJICV5",
+                "2496"
+            ],
+            [
+                "com,jxlogistics)/",
+                "20071010081113",
+                "http://www.jxlogistics.com:80/",
+                "text/html",
+                "200",
+                "YYLP6UF5PRTFSKJIBU4VORZ4QOEJICV5",
+                "2494"
+            ],
+            [
+                "com,jxlogistics)/",
+                "20071014052539",
+                "http://jxlogistics.com:80/",
+                "text/html",
+                "200",
+                "6DS34BLB43IX2PO3WCIEPCHB24NUQJYV",
+                "5441"
+            ],
+            [
+                "com,jxlogistics)/",
+                "20071024122225",
+                "http://www.jxlogistics.com:80/",
+                "text/html",
+                "200",
+                "YYLP6UF5PRTFSKJIBU4VORZ4QOEJICV5",
+                "2493"
+            ],
+            [
+                "com,jxlogistics)/",
+                "20080130045235",
+                "http://www.jxlogistics.com:80/",
+                "text/html",
+                "200",
+                "U5SULE3CMRK252T4TO47626LMLITFBRO",
+                "2530"
+            ],
+            [
+                "com,jxlogistics)/",
+                "20080526013232",
+                "http://www.jxlogistics.com:80/",
+                "text/html",
+                "200",
+                "KBPH5LNTZDVJSDKLXCXN4VPPQV3BUPOI",
+                "2496"
+            ],
+            [
+                "com,jxlogistics)/",
+                "20080723200607",
+                "http://www.jxlogistics.com/",
+                "text/html",
+                "200",
+                "KBPH5LNTZDVJSDKLXCXN4VPPQV3BUPOI",
+                "2637"
+            ],
+            [
+                "com,jxlogistics)/",
+                "20080917113946",
+                "http://www.jxlogistics.com:80/",
+                "text/html",
+                "200",
+                "OQCCAEVMIQA57GB4CH52JNX37UVWLSXX",
+                "2494"
+            ],
+            [
+                "com,jxlogistics)/",
+                "20081019021020",
+                "http://www.jxlogistics.com:80/",
+                "text/html",
+                "200",
+                "OQCCAEVMIQA57GB4CH52JNX37UVWLSXX",
+                "2494"
+            ],
+            [
+                "com,jxlogistics)/",
+                "20090105202625",
+                "http://www.jxlogistics.com:80/",
+                "text/html",
+                "200",
+                "OQCCAEVMIQA57GB4CH52JNX37UVWLSXX",
+                "2498"
+            ],
+            [
+                "com,jxlogistics)/",
+                "20090524114719",
+                "http://www.jxlogistics.com:80/",
+                "text/html",
+                "200",
+                "2ZTDYRS6UZVPFAM3JBXFVNLNXYPH3IPD",
+                "2495"
+            ],
+            [
+                "com,jxlogistics)/",
+                "20090724101728",
+                "http://www.jxlogistics.com:80/",
+                "text/html",
+                "200",
+                "2ZTDYRS6UZVPFAM3JBXFVNLNXYPH3IPD",
+                "2496"
+            ],
+            [
+                "com,jxlogistics)/",
+                "20100105142337",
+                "http://www.jxlogistics.com:80/",
+                "text/html",
+                "200",
+                "IC4RHX2RYYWFO5ILFV5MBORNDHSHP25B",
+                "6946"
+            ],
+            [
+                "com,jxlogistics)/",
+                "20100105142337",
+                "http://www.jxlogistics.com:80/",
+                "text/html",
+                "200",
+                "IC4RHX2RYYWFO5ILFV5MBORNDHSHP25B",
+                "6946"
+            ],
+            [
+                "com,jxlogistics)/",
+                "20100213162528",
+                "http://www.jxlogistics.com:80/",
+                "text/html",
+                "200",
+                "C4M7T4X6HBV463RSBN3LDDTVRNOVSM6S",
+                "364"
+            ],
+            [
+                "com,jxlogistics)/",
+                "20100512101242",
+                "http://jxlogistics.com/",
+                "text/html",
+                "404",
+                "FDT6D5W4INNGHSMOF7NP67MFYJ7IUKQP",
+                "420"
+            ],
+            [
+                "com,jxlogistics)/",
+                "20100909224956",
+                "http://www.jxlogistics.com:80/",
+                "text/html",
+                "200",
+                "C4M7T4X6HBV463RSBN3LDDTVRNOVSM6S",
+                "352"
+            ],
+            [
+                "com,jxlogistics)/",
+                "20101012060946",
+                "http://www.jxlogistics.com:80/",
+                "text/html",
+                "200",
+                "C4M7T4X6HBV463RSBN3LDDTVRNOVSM6S",
+                "351"
+            ],
+            [
+                "com,jxlogistics)/",
+                "20101207142300",
+                "http://www.jxlogistics.com:80/",
+                "text/html",
+                "200",
+                "C4M7T4X6HBV463RSBN3LDDTVRNOVSM6S",
+                "351"
+            ],
+            [
+                "com,jxlogistics)/",
+                "20110202085800",
+                "http://www.jxlogistics.com/",
+                "text/html",
+                "200",
+                "C4M7T4X6HBV463RSBN3LDDTVRNOVSM6S",
+                "491"
+            ],
+            [
+                "com,jxlogistics)/",
+                "20110206012743",
+                "http://www.jxlogistics.com/",
+                "text/html",
+                "200",
+                "C4M7T4X6HBV463RSBN3LDDTVRNOVSM6S",
+                "496"
+            ],
+            [
+                "com,jxlogistics)/",
+                "20110713082447",
+                "http://www.jxlogistics.com:80/",
+                "text/html",
+                "200",
+                "C4M7T4X6HBV463RSBN3LDDTVRNOVSM6S",
+                "348"
+            ],
+            [
+                "com,jxlogistics)/",
+                "20110814091446",
+                "http://www.jxlogistics.com:80/",
+                "text/html",
+                "200",
+                "C4M7T4X6HBV463RSBN3LDDTVRNOVSM6S",
+                "353"
+            ],
+            [
+                "com,jxlogistics)/",
+                "20110814091446",
+                "http://www.jxlogistics.com:80/",
+                "text/html",
+                "200",
+                "C4M7T4X6HBV463RSBN3LDDTVRNOVSM6S",
+                "353"
+            ],
+            [
+                "com,jxlogistics)/",
+                "20110906063301",
+                "http://www.jxlogistics.com:80/",
+                "text/html",
+                "200",
+                "C4M7T4X6HBV463RSBN3LDDTVRNOVSM6S",
+                "354"
+            ],
+            [
+                "com,jxlogistics)/",
+                "20111113224127",
+                "http://www.jxlogistics.com/",
+                "text/html",
+                "200",
+                "C4M7T4X6HBV463RSBN3LDDTVRNOVSM6S",
+                "492"
+            ],
+            [
+                "com,jxlogistics)/",
+                "20120202191931",
+                "http://www.jxlogistics.com:80/",
+                "text/html",
+                "200",
+                "C4M7T4X6HBV463RSBN3LDDTVRNOVSM6S",
+                "350"
+            ],
+            [
+                "com,jxlogistics)/",
+                "20120519050223",
+                "http://www.jxlogistics.com/",
+                "text/html",
+                "200",
+                "C4M7T4X6HBV463RSBN3LDDTVRNOVSM6S",
+                "492"
+            ],
+            [
+                "com,jxlogistics)/",
+                "20120520134850",
+                "http://www.jxlogistics.com/",
+                "text/html",
+                "200",
+                "C4M7T4X6HBV463RSBN3LDDTVRNOVSM6S",
+                "492"
+            ],
+            [
+                "com,jxlogistics)/",
+                "20120702202613",
+                "http://www.jxlogistics.com:80/",
+                "text/html",
+                "200",
+                "C4M7T4X6HBV463RSBN3LDDTVRNOVSM6S",
+                "350"
+            ],
+            [
+                "com,jxlogistics)/",
+                "20121005133158",
+                "http://www.jxlogistics.com:80/",
+                "text/html",
+                "200",
+                "C4M7T4X6HBV463RSBN3LDDTVRNOVSM6S",
+                "348"
+            ],
+            [
+                "com,jxlogistics)/",
+                "20121017161049",
+                "http://www.jxlogistics.com/",
+                "warc/revisit",
+                "-",
+                "C4M7T4X6HBV463RSBN3LDDTVRNOVSM6S",
+                "502"
+            ],
+            [
+                "com,jxlogistics)/",
+                "20121205111817",
+                "http://www.jxlogistics.com:80/",
+                "text/html",
+                "200",
+                "C4M7T4X6HBV463RSBN3LDDTVRNOVSM6S",
+                "359"
+            ],
+            [
+                "com,jxlogistics)/",
+                "20130130161013",
+                "http://www.jxlogistics.com/",
+                "warc/revisit",
+                "-",
+                "C4M7T4X6HBV463RSBN3LDDTVRNOVSM6S",
+                "516"
+            ],
+            [
+                "com,jxlogistics)/",
+                "20130324014920",
+                "http://www.jxlogistics.com/",
+                "warc/revisit",
+                "-",
+                "C4M7T4X6HBV463RSBN3LDDTVRNOVSM6S",
+                "515"
+            ],
+            [
+                "com,jxlogistics)/",
+                "20130425184915",
+                "http://www.jxlogistics.com/",
+                "warc/revisit",
+                "-",
+                "C4M7T4X6HBV463RSBN3LDDTVRNOVSM6S",
+                "515"
+            ],
+            [
+                "com,jxlogistics)/",
+                "20130513163924",
+                "http://www.jxlogistics.com:80/",
+                "text/html",
+                "200",
+                "C4M7T4X6HBV463RSBN3LDDTVRNOVSM6S",
+                "363"
+            ],
+            [
+                "com,jxlogistics)/",
+                "20130602112222",
+                "http://jxlogistics.com/",
+                "text/html",
+                "200",
+                "C4M7T4X6HBV463RSBN3LDDTVRNOVSM6S",
+                "499"
+            ],
+            [
+                "com,jxlogistics)/",
+                "20131023052444",
+                "http://www.jxlogistics.com/",
+                "warc/revisit",
+                "-",
+                "C4M7T4X6HBV463RSBN3LDDTVRNOVSM6S",
+                "513"
+            ],
+            [
+                "com,jxlogistics)/",
+                "20140102031201",
+                "http://jxlogistics.com/",
+                "text/html",
+                "200",
+                "C4M7T4X6HBV463RSBN3LDDTVRNOVSM6S",
+                "502"
+            ],
+            [
+                "com,jxlogistics)/",
+                "20140107065951",
+                "http://www.jxlogistics.com/",
+                "text/html",
+                "200",
+                "C4M7T4X6HBV463RSBN3LDDTVRNOVSM6S",
+                "503"
+            ],
+            [
+                "com,jxlogistics)/",
+                "20140517162944",
+                "http://jxlogistics.com/",
+                "text/html",
+                "200",
+                "C4M7T4X6HBV463RSBN3LDDTVRNOVSM6S",
+                "496"
+            ],
+            [
+                "com,jxlogistics)/",
+                "20140919110627",
+                "http://www.jxlogistics.com/",
+                "text/html",
+                "200",
+                "C4M7T4X6HBV463RSBN3LDDTVRNOVSM6S",
+                "501"
+            ],
+            [
+                "com,jxlogistics)/",
+                "20141024115442",
+                "http://www.jxlogistics.com/",
+                "warc/revisit",
+                "-",
+                "C4M7T4X6HBV463RSBN3LDDTVRNOVSM6S",
+                "512"
+            ],
+            [
+                "com,jxlogistics)/",
+                "20141217132207",
+                "http://jxlogistics.com/",
+                "text/html",
+                "200",
+                "C4M7T4X6HBV463RSBN3LDDTVRNOVSM6S",
+                "487"
+            ],
+            [
+                "com,jxlogistics)/",
+                "20150205035616",
+                "http://www.jxlogistics.com/",
+                "text/html",
+                "200",
+                "C4M7T4X6HBV463RSBN3LDDTVRNOVSM6S",
+                "492"
+            ],
+            [
+                "com,jxlogistics)/",
+                "20150627104513",
+                "http://www.jxlogistics.com/",
+                "warc/revisit",
+                "-",
+                "C4M7T4X6HBV463RSBN3LDDTVRNOVSM6S",
+                "493"
+            ],
+            [
+                "com,jxlogistics)/",
+                "20150812220928",
+                "http://www.jxlogistics.com/",
+                "text/html",
+                "200",
+                "C4M7T4X6HBV463RSBN3LDDTVRNOVSM6S",
+                "491"
+            ],
+            [
+                "com,jxlogistics)/",
+                "20160219092901",
+                "http://www.jxlogistics.com/",
+                "text/html",
+                "200",
+                "C4M7T4X6HBV463RSBN3LDDTVRNOVSM6S",
+                "494"
+            ],
+            [
+                "com,jxlogistics)/",
+                "20160307071010",
+                "http://jxlogistics.com/",
+                "text/html",
+                "404",
+                "UZUJRM3MSTCTOZXGNQNHVLVRJFCH5QED",
+                "559"
+            ],
+            [
+                "com,jxlogistics)/",
+                "20160813224531",
+                "http://www.jxlogistics.com/",
+                "text/html",
+                "200",
+                "C4M7T4X6HBV463RSBN3LDDTVRNOVSM6S",
+                "492"
+            ],
+            [
+                "com,jxlogistics)/",
+                "20160914054050",
+                "http://jxlogistics.com/",
+                "text/html",
+                "404",
+                "UZUJRM3MSTCTOZXGNQNHVLVRJFCH5QED",
+                "559"
+            ],
+            [
+                "com,jxlogistics)/",
+                "20161002043453",
+                "http://jxlogistics.com/",
+                "warc/revisit",
+                "-",
+                "UZUJRM3MSTCTOZXGNQNHVLVRJFCH5QED",
+                "434"
+            ],
+            [
+                "com,jxlogistics)/",
+                "20170407080414",
+                "http://www.jxlogistics.com:80/",
+                "text/html",
+                "200",
+                "C4M7T4X6HBV463RSBN3LDDTVRNOVSM6S",
+                "346"
+            ],
+            [
+                "com,jxlogistics)/",
+                "20170603051710",
+                "http://jxlogistics.com/",
+                "text/html",
+                "404",
+                "UZUJRM3MSTCTOZXGNQNHVLVRJFCH5QED",
+                "559"
+            ],
+            [
+                "com,jxlogistics)/",
+                "20170612080050",
+                "http://www.jxlogistics.com:80/",
+                "text/html",
+                "200",
+                "C4M7T4X6HBV463RSBN3LDDTVRNOVSM6S",
+                "327"
+            ],
+            [
+                "com,jxlogistics)/",
+                "20170915234959",
+                "http://jxlogistics.com/",
+                "text/html",
+                "404",
+                "UZUJRM3MSTCTOZXGNQNHVLVRJFCH5QED",
+                "561"
+            ],
+            [
+                "com,jxlogistics)/",
+                "20171201014302",
+                "http://www.jxlogistics.com:80/",
+                "text/html",
+                "200",
+                "E2JVEVSVBTFYSXSVQTT2AGIAY6K3UX67",
+                "5956"
+            ],
+            [
+                "com,jxlogistics)/",
+                "20171213204242",
+                "http://www.jxlogistics.com:80/",
+                "text/html",
+                "200",
+                "ZALFHCKWGW5MAPCOMO6K7U7LX37QAZJA",
+                "5903"
+            ],
+            [
+                "com,jxlogistics)/",
+                "20171214231717",
+                "http://www.jxlogistics.com:80/",
+                "text/html",
+                "200",
+                "NQ6UFHNSNRHLYP2XFYV4J3ZTYESECRIK",
+                "5952"
+            ],
+            [
+                "com,jxlogistics)/",
+                "20180124021747",
+                "http://www.jxlogistics.com:80/",
+                "text/html",
+                "200",
+                "BRLVSX4QFMXBPAI6JZREVQ7SAIHGKHEW",
+                "5946"
+            ],
+            [
+                "com,jxlogistics)/",
+                "20180224035923",
+                "http://www.jxlogistics.com:80/",
+                "text/html",
+                "200",
+                "BRLVSX4QFMXBPAI6JZREVQ7SAIHGKHEW",
+                "5944"
+            ],
+            [
+                "com,jxlogistics)/",
+                "20180326222046",
+                "http://www.jxlogistics.com:80/",
+                "text/html",
+                "200",
+                "BRLVSX4QFMXBPAI6JZREVQ7SAIHGKHEW",
+                "5945"
+            ],
+            [
+                "com,jxlogistics)/",
+                "20180428012227",
+                "http://www.jxlogistics.com:80/",
+                "text/html",
+                "200",
+                "SON4ZDRD4WGTRYPN7YZEUZ5QARMQDT5J",
+                "6024"
+            ],
+            [
+                "com,jxlogistics)/",
+                "20180805122245",
+                "http://jxlogistics.com/",
+                "text/html",
+                "301",
+                "3I42H3S6NNFQ2MSVX7XZKYAYSCX5QBYJ",
+                "462"
+            ],
+            [
+                "com,jxlogistics)/",
+                "20180818182429",
+                "http://www.jxlogistics.com/",
+                "text/html",
+                "200",
+                "KLEBUDMZTLJ5ZD37NBOBCU6D2PTJ4QGL",
+                "6170"
+            ]
+        ],
+        "metadata" : {
+            "captures" : {
+                "2001" : {
+                    "text/html" : 2
+                },
+                "2002" : {
+                    "image/gif" : 1,
+                    "text/css" : 1,
+                    "text/html" : 36
+                },
+                "2003" : {
+                    "application/x-shockwave-flash" : 1,
+                    "image/gif" : 1,
+                    "text/html" : 35
+                },
+                "2004" : {
+                    "application/x-shockwave-flash" : 7,
+                    "image/gif" : 21,
+                    "image/jpeg" : 12,
+                    "text/html" : 231
+                },
+                "2005" : {
+                    "application/x-shockwave-flash" : 2,
+                    "text/html" : 139
+                },
+                "2006" : {
+                    "application/x-shockwave-flash" : 7,
+                    "image/gif" : 12,
+                    "image/jpeg" : 1,
+                    "text/css" : 1,
+                    "text/html" : 125
+                },
+                "2007" : {
+                    "application/octet-stream" : 1,
+                    "image/gif" : 20,
+                    "image/jpeg" : 45,
+                    "text/css" : 2,
+                    "text/html" : 128
+                },
+                "2008" : {
+                    "text/html" : 25
+                },
+                "2009" : {
+                    "text/html" : 28
+                },
+                "2010" : {
+                    "text/html" : 96
+                },
+                "2011" : {
+                    "text/html" : 94
+                },
+                "2012" : {
+                    "text/html" : 20
+                },
+                "2013" : {
+                    "application/x-shockwave-flash" : 1,
+                    "image/gif" : 21,
+                    "image/jpeg" : 29,
+                    "image/png" : 5,
+                    "text/css" : 2,
+                    "text/html" : 44
+                },
+                "2014" : {
+                    "text/html" : 11
+                },
+                "2015" : {
+                    "image/gif" : 10,
+                    "image/jpeg" : 12,
+                    "text/css" : 3,
+                    "text/html" : 5
+                },
+                "2016" : {
+                    "application/x-shockwave-flash" : 2,
+                    "image/gif" : 35,
+                    "image/jpeg" : 68,
+                    "image/png" : 6,
+                    "text/css" : 4,
+                    "text/html" : 27
+                },
+                "2017" : {
+                    "text/html" : 26
+                },
+                "2018" : {
+                    "image/jpeg" : 16,
+                    "image/png" : 10,
+                    "text/css" : 3,
+                    "text/html" : 42
+                }
+            },
+            "new_urls" : {
+                "2001" : {
+                    "text/html" : 1
+                },
+                "2002" : {
+                    "image/gif" : 1,
+                    "text/css" : 1,
+                    "text/html" : 20
+                },
+                "2003" : {
+                    "application/x-shockwave-flash" : 1,
+                    "text/html" : 3
+                },
+                "2004" : {
+                    "application/x-shockwave-flash" : 2,
+                    "image/gif" : 21,
+                    "image/jpeg" : 12,
+                    "text/html" : 5
+                },
+                "2006" : {
+                    "image/gif" : 12,
+                    "image/jpeg" : 1,
+                    "text/css" : 1,
+                    "text/html" : 20
+                },
+                "2007" : {
+                    "application/octet-stream" : 1,
+                    "image/gif" : 7,
+                    "image/jpeg" : 43,
+                    "text/html" : 21
+                },
+                "2010" : {
+                    "text/html" : 74
+                },
+                "2011" : {
+                    "text/html" : 15
+                },
+                "2012" : {
+                    "text/html" : 1
+                },
+                "2013" : {
+                    "application/x-shockwave-flash" : 1,
+                    "image/gif" : 21,
+                    "image/jpeg" : 29,
+                    "image/png" : 5,
+                    "text/css" : 2,
+                    "text/html" : 22
+                },
+                "2015" : {
+                    "image/gif" : 1,
+                    "image/jpeg" : 2
+                },
+                "2016" : {
+                    "image/jpeg" : 27,
+                    "image/png" : 1,
+                    "text/html" : 2
+                },
+                "2017" : {
+                    "text/html" : 4
+                },
+                "2018" : {
+                    "image/jpeg" : 16,
+                    "image/png" : 10,
+                    "text/css" : 3,
+                    "text/html" : 30
+                }
+            },
+            "timestamp" : "20181116193451",
+            "type" : "host",
+            "urls" : {
+                "2001" : {
+                    "text/html" : 1
+                },
+                "2002" : {
+                    "image/gif" : 1,
+                    "text/css" : 1,
+                    "text/html" : 21
+                },
+                "2003" : {
+                    "application/x-shockwave-flash" : 1,
+                    "image/gif" : 1,
+                    "text/html" : 14
+                },
+                "2004" : {
+                    "application/x-shockwave-flash" : 3,
+                    "image/gif" : 21,
+                    "image/jpeg" : 12,
+                    "text/html" : 29
+                },
+                "2005" : {
+                    "application/x-shockwave-flash" : 1,
+                    "text/html" : 23
+                },
+                "2006" : {
+                    "application/x-shockwave-flash" : 1,
+                    "image/gif" : 12,
+                    "image/jpeg" : 1,
+                    "text/css" : 1,
+                    "text/html" : 25
+                },
+                "2007" : {
+                    "application/octet-stream" : 1,
+                    "image/gif" : 12,
+                    "image/jpeg" : 43,
+                    "text/css" : 1,
+                    "text/html" : 43
+                },
+                "2008" : {
+                    "text/html" : 20
+                },
+                "2009" : {
+                    "text/html" : 21
+                },
+                "2010" : {
+                    "text/html" : 79
+                },
+                "2011" : {
+                    "text/html" : 78
+                },
+                "2012" : {
+                    "text/html" : 9
+                },
+                "2013" : {
+                    "application/x-shockwave-flash" : 1,
+                    "image/gif" : 21,
+                    "image/jpeg" : 29,
+                    "image/png" : 5,
+                    "text/css" : 2,
+                    "text/html" : 28
+                },
+                "2014" : {
+                    "text/html" : 3
+                },
+                "2015" : {
+                    "image/gif" : 9,
+                    "image/jpeg" : 9,
+                    "text/css" : 2,
+                    "text/html" : 2
+                },
+                "2016" : {
+                    "application/x-shockwave-flash" : 1,
+                    "image/gif" : 22,
+                    "image/jpeg" : 55,
+                    "image/png" : 6,
+                    "text/css" : 2,
+                    "text/html" : 24
+                },
+                "2017" : {
+                    "text/html" : 11
+                },
+                "2018" : {
+                    "image/jpeg" : 16,
+                    "image/png" : 10,
+                    "text/css" : 3,
+                    "text/html" : 33
+                }
+            },
+            "urls_total_compressed_size" : {
+                "2001" : {
+                    "text/html" : 677
+                },
+                "2002" : {
+                    "image/gif" : 477,
+                    "text/css" : 449,
+                    "text/html" : 27516
+                },
+                "2003" : {
+                    "application/x-shockwave-flash" : 125263,
+                    "image/gif" : 481,
+                    "text/html" : 20103
+                },
+                "2004" : {
+                    "application/x-shockwave-flash" : 139246,
+                    "image/gif" : 38750,
+                    "image/jpeg" : 146509,
+                    "text/html" : 45194
+                },
+                "2005" : {
+                    "application/x-shockwave-flash" : 125299,
+                    "text/html" : 40825
+                },
+                "2006" : {
+                    "application/x-shockwave-flash" : 125293,
+                    "image/gif" : 52995,
+                    "image/jpeg" : 18609,
+                    "text/css" : 457,
+                    "text/html" : 81314
+                },
+                "2007" : {
+                    "application/octet-stream" : 1697036,
+                    "image/gif" : 59974,
+                    "image/jpeg" : 3792123,
+                    "text/css" : 458,
+                    "text/html" : 128075
+                },
+                "2008" : {
+                    "text/html" : 43926
+                },
+                "2009" : {
+                    "text/html" : 48264
+                },
+                "2010" : {
+                    "text/html" : 348467
+                },
+                "2011" : {
+                    "text/html" : 366406
+                },
+                "2012" : {
+                    "text/html" : 36232
+                },
+                "2013" : {
+                    "application/x-shockwave-flash" : 1426,
+                    "image/gif" : 69863,
+                    "image/jpeg" : 1525062,
+                    "image/png" : 18800,
+                    "text/css" : 6701,
+                    "text/html" : 109564
+                },
+                "2014" : {
+                    "text/html" : 6225
+                },
+                "2015" : {
+                    "image/gif" : 24010,
+                    "image/jpeg" : 767890,
+                    "text/css" : 6689,
+                    "text/html" : 5735
+                },
+                "2016" : {
+                    "application/x-shockwave-flash" : 1426,
+                    "image/gif" : 71005,
+                    "image/jpeg" : 6167402,
+                    "image/png" : 219726,
+                    "text/css" : 6689,
+                    "text/html" : 107968
+                },
+                "2017" : {
+                    "text/html" : 54711
+                },
+                "2018" : {
+                    "image/jpeg" : 1824620,
+                    "image/png" : 5428616,
+                    "text/css" : 7688,
+                    "text/html" : 190012
+                }
+            }
+        }
+    },
+    websiteWhoIs:{
+        "WhoisRecord" : {
+            "administrativeContact" : {
+                "city" : "shanghai",
+                "country" : "CHINA",
+                "countryCode" : "CN",
+                "email" : "shenxj@jxlogistics.com",
+                "fax" : "862137620999",
+                "name" : "shen xiaojun",
+                "organization" : "ShangHai JingXingCangChuSheBeiGongChengYouXianGongSi",
+                "postalCode" : "201108",
+                "rawText" : "Admin Name: shen xiaojun\nAdmin Organization: ShangHai JingXingCangChuSheBeiGongChengYouXianGongSi\nAdmin Street: 505 Shennan Road, Xinzhuang Industrial Zone, Shanghai, China\nAdmin City: shanghai\nAdmin State/Province: shanghai\nAdmin Postal Code: 201108\nAdmin Country: CN\nAdmin Phone : +86.2137620999\nAdmin Fax: +86.2137620999\nAdmin Email: shenxj@jxlogistics.com",
+                "state" : "shanghai",
+                "street1" : "505 Shennan Road, Xinzhuang Industrial Zone, Shanghai, China",
+                "telephone" : "862137620999"
+            },
+            "audit" : {
+                "createdDate" : "2019-01-06 16:14:01.934 UTC",
+                "updatedDate" : "2019-01-06 16:14:01.934 UTC"
+            },
+            "contactEmail" : "shenxj@jxlogistics.com",
+            "createdDate" : "2002-06-12T12:07:18Z",
+            "createdDateNormalized" : "2002-06-12 12:07:18 UTC",
+            "customField1Name" : "RegistrarContactEmail",
+            "customField1Value" : "domain@cndns.com",
+            "customField2Name" : "RegistrarContactPhone",
+            "customField2Value" : "+86.2151697771",
+            "customField3Name" : "RegistrarURL",
+            "customField3Value" : "http://www.cndns.com",
+            "domainName" : "jxlogistics.com",
+            "domainNameExt" : ".com",
+            "estimatedDomainAge" : 6052,
+            "expiresDate" : "2023-06-12T12:07:18Z",
+            "expiresDateNormalized" : "2023-06-12 12:07:18 UTC",
+            "footer" : "",
+            "header" : "",
+            "nameServers" : {
+                "hostNames" : [
+                    "a.ezdnscenter.com",
+                    "b.ezdnscenter.com"
+                ],
+                "ips" : [			],
+                "rawText" : "a.ezdnscenter.com\nb.ezdnscenter.com\n"
+            },
+            "parseCode" : 3579,
+            "rawText" : "Domain Name: jxlogistics.com\nRegistry Domain ID: 10021839\nRegistrar WHOIS Server: grs-whois.cndns.com\nRegistrar URL: http://www.cndns.com\nUpdated Date: 2018-05-14T09:18:40Z\nCreate Date: 2002-06-12T12:07:18Z\nRegistrar Registration Expiration Date: 2023-06-12T12:07:18Z\nRegistrar: SHANGHAI MEICHENG TECHNOLOGY INFORMATION DEVELOPMENT CO., LTD.\nRegistrar IANA ID: 1621\nRegistrar Abuse Contact Email: domain@cndns.com\nRegistrar Abuse Contact Phone: +86.2151697771\nReseller: (null)\nDomain Status: ok https://icann.org/epp#ok\nRegistry Registrant ID: \nRegistrant Name: shen xiaojun\nRegistrant Organization: ShangHai JingXingCangChuSheBeiGongChengYouXianGongSi\nRegistrant Street: 505 Shennan Road, Xinzhuang Industrial Zone, Shanghai, China\nRegistrant City: shanghai\nRegistrant State/Province: shanghai\nRegistrant Postal Code: 201108\nRegistrant Country: CN\nRegistrant Phone : +86.2137620999\nRegistrant Phone Ext:\nRegistrant Fax: +86.2137620999\nRegistrant Fax Ext:\nRegistrant Email: shenxj@jxlogistics.com\nRegistry Admin ID: \nAdmin Name: shen xiaojun\nAdmin Organization: ShangHai JingXingCangChuSheBeiGongChengYouXianGongSi\nAdmin Street: 505 Shennan Road, Xinzhuang Industrial Zone, Shanghai, China\nAdmin City: shanghai\nAdmin State/Province: shanghai\nAdmin Postal Code: 201108\nAdmin Country: CN\nAdmin Phone : +86.2137620999\nAdmin Phone Ext:\nAdmin Fax: +86.2137620999\nAdmin Fax Ext:\nAdmin Email: shenxj@jxlogistics.com\nRegistry Tech ID: \nTech Name: shen xiaojun\nTech Organization: ShangHai JingXingCangChuSheBeiGongChengYouXianGongSi\nTech Street: 505 Shennan Road, Xinzhuang Industrial Zone, Shanghai, China\nTech City: shanghai\nTech State/Province: shanghai\nTech Postal Code: 201108\nTech Country: CN\nTech Phone : +86.2137620999\nTech Phone Ext:\nTech Fax: +86.2137620999\nTech Fax Ext:\nTech Email: shenxj@jxlogistics.com\nName Server: a.ezdnscenter.com\nName Server: b.ezdnscenter.com\nDNSSEC:unsigned\nURL of the ICANN WHOIS Data Problem Reporting System: http://wdprs.internic.net/\n>>> Last update of whois database: 2009-05-29T20:15:00Z <<<\nFor more information on Whois status codes, please visit: https://www.icann.org/resources/pages/epp-status-codes-list-2014-06-18-en",
+            "registrant" : {
+                "city" : "shanghai",
+                "country" : "CHINA",
+                "countryCode" : "CN",
+                "email" : "shenxj@jxlogistics.com",
+                "fax" : "862137620999",
+                "name" : "shen xiaojun",
+                "organization" : "ShangHai JingXingCangChuSheBeiGongChengYouXianGongSi",
+                "postalCode" : "201108",
+                "rawText" : "Registrant Name: shen xiaojun\nRegistrant Organization: ShangHai JingXingCangChuSheBeiGongChengYouXianGongSi\nRegistrant Street: 505 Shennan Road, Xinzhuang Industrial Zone, Shanghai, China\nRegistrant City: shanghai\nRegistrant State/Province: shanghai\nRegistrant Postal Code: 201108\nRegistrant Country: CN\nRegistrant Phone : +86.2137620999\nRegistrant Fax: +86.2137620999\nRegistrant Email: shenxj@jxlogistics.com",
+                "state" : "shanghai",
+                "street1" : "505 Shennan Road, Xinzhuang Industrial Zone, Shanghai, China",
+                "telephone" : "862137620999"
+            },
+            "registrarIANAID" : "1621",
+            "registrarName" : "SHANGHAI MEICHENG TECHNOLOGY INFORMATION DEVELOPMENT CO., LTD.",
+            "registryData" : {
+                "audit" : {
+                    "createdDate" : "2019-01-06 16:13:55.161 UTC",
+                    "updatedDate" : "2019-01-06 16:13:55.161 UTC"
+                },
+                "createdDate" : "2002-06-12T04:07:18Z",
+                "createdDateNormalized" : "2002-06-12 04:07:18 UTC",
+                "customField1Name" : "RegistrarContactEmail",
+                "customField1Value" : "domain@cndns.com",
+                "customField2Name" : "RegistrarContactPhone",
+                "customField2Value" : "021-51697771",
+                "customField3Name" : "RegistrarURL",
+                "customField3Value" : "http://www.cndns.com",
+                "domainName" : "jxlogistics.com",
+                "expiresDate" : "2023-06-12T04:07:18Z",
+                "expiresDateNormalized" : "2023-06-12 04:07:18 UTC",
+                "footer" : "",
+                "header" : "",
+                "nameServers" : {
+                    "hostNames" : [
+                        "A.EZDNSCENTER.COM",
+                        "B.EZDNSCENTER.COM"
+                    ],
+                    "ips" : [				],
+                    "rawText" : "A.EZDNSCENTER.COM\nB.EZDNSCENTER.COM\n"
+                },
+                "parseCode" : 251,
+                "rawText" : "Domain Name: JXLOGISTICS.COM\n   Registry Domain ID: 87454812_DOMAIN_COM-VRSN\n   Registrar WHOIS Server: grs-whois.cndns.com\n   Registrar URL: http://www.cndns.com\n   Updated Date: 2018-05-14T01:18:38Z\n   Creation Date: 2002-06-12T04:07:18Z\n   Registry Expiry Date: 2023-06-12T04:07:18Z\n   Registrar: Shanghai Meicheng Technology Information Development Co., Ltd.\n   Registrar IANA ID: 1621\n   Registrar Abuse Contact Email: domain@cndns.com\n   Registrar Abuse Contact Phone: 021-51697771\n   Domain Status: clientTransferProhibited https://icann.org/epp#clientTransferProhibited\n   Name Server: A.EZDNSCENTER.COM\n   Name Server: B.EZDNSCENTER.COM\n   DNSSEC: unsigned\n   URL of the ICANN Whois Inaccuracy Complaint Form: https://www.icann.org/wicf/\n>>> Last update of whois database: 2019-01-06T16:13:42Z <<<\n\nFor more information on Whois status codes, please visit https://icann.org/epp\n\nNOTICE: The expiration date displayed in this record is the date the\nregistrar's sponsorship of the domain name registration in the registry is\ncurrently set to expire. This date does not necessarily reflect the expiration\ndate of the domain name registrant's agreement with the sponsoring\nregistrar.  Users may consult the sponsoring registrar's Whois database to\nview the registrar's reported date of expiration for this registration.\n\nTERMS OF USE: You are not authorized to access or query our Whois\ndatabase through the use of electronic processes that are high-volume and\nautomated except as reasonably necessary to register domain names or\nmodify existing registrations; the Data in VeriSign Global Registry\nServices' (\"VeriSign\") Whois database is provided by VeriSign for\ninformation purposes only, and to assist persons in obtaining information\nabout or related to a domain name registration record. VeriSign does not\nguarantee its accuracy. By submitting a Whois query, you agree to abide\nby the following terms of use: You agree that you may use this Data only\nfor lawful purposes and that under no circumstances will you use this Data\nto: (1) allow, enable, or otherwise support the transmission of mass\nunsolicited, commercial advertising or solicitations via e-mail, telephone,\nor facsimile; or (2) enable high volume, automated, electronic processes\nthat apply to VeriSign (or its computer systems). The compilation,\nrepackaging, dissemination or other use of this Data is expressly\nprohibited without the prior written consent of VeriSign. You agree not to\nuse electronic processes that are automated and high-volume to access or\nquery the Whois database except as reasonably necessary to register\ndomain names or modify existing registrations. VeriSign reserves the right\nto restrict your access to the Whois database in its sole discretion to ensure\noperational stability.  VeriSign may restrict or terminate your access to the\nWhois database for failure to abide by these terms of use. VeriSign\nreserves the right to modify these terms at any time.\n\nThe Registry database contains ONLY .COM, .NET, .EDU domains and\nRegistrars.",
+                "registrarIANAID" : "1621",
+                "registrarName" : "Shanghai Meicheng Technology Information Development Co., Ltd.",
+                "status" : "clientTransferProhibited",
+                "strippedText" : "Domain Name: JXLOGISTICS.COM\nRegistry Domain ID: 87454812_DOMAIN_COM-VRSN\nRegistrar WHOIS Server: grs-whois.cndns.com\nRegistrar URL: http://www.cndns.com\nUpdated Date: 2018-05-14T01:18:38Z\nCreation Date: 2002-06-12T04:07:18Z\nRegistry Expiry Date: 2023-06-12T04:07:18Z\nRegistrar: Shanghai Meicheng Technology Information Development Co., Ltd.\nRegistrar IANA ID: 1621\nRegistrar Abuse Contact Email: domain@cndns.com\nRegistrar Abuse Contact Phone: 021-51697771\nDomain Status: clientTransferProhibited https://icann.org/epp#clientTransferProhibited\nName Server: A.EZDNSCENTER.COM\nName Server: B.EZDNSCENTER.COM\nDNSSEC: unsigned\nURL of the ICANN Whois Inaccuracy Complaint Form: https://www.icann.org/wicf/\n>>> Last update of whois database: 2019-01-06T16:13:42Z <<<\nFor more information on Whois status codes, please visit https://icann.org/epp\nNOTICE: The expiration date displayed in this record is the date the\nregistrar's sponsorship of the domain name registration in the registry is\ncurrently set to expire. This date does not necessarily reflect the expiration\ndate of the domain name registrant's agreement with the sponsoring\nregistrar.  Users may consult the sponsoring registrar's Whois database to\nview the registrar's reported date of expiration for this registration.\nTERMS OF USE: You are not authorized to access or query our Whois\ndatabase through the use of electronic processes that are high-volume and\nautomated except as reasonably necessary to register domain names or\nmodify existing registrations; the Data in VeriSign Global Registry\nServices' (\"VeriSign\") Whois database is provided by VeriSign for\ninformation purposes only, and to assist persons in obtaining information\nabout or related to a domain name registration record. VeriSign does not\nguarantee its accuracy. By submitting a Whois query, you agree to abide\nby the following terms of use: You agree that you may use this Data only\nfor lawful purposes and that under no circumstances will you use this Data\nto: (1) allow, enable, or otherwise support the transmission of mass\nunsolicited, commercial advertising or solicitations via e-mail, telephone,\nor facsimile; or (2) enable high volume, automated, electronic processes\nthat apply to VeriSign (or its computer systems). The compilation,\nrepackaging, dissemination or other use of this Data is expressly\nprohibited without the prior written consent of VeriSign. You agree not to\nuse electronic processes that are automated and high-volume to access or\nquery the Whois database except as reasonably necessary to register\ndomain names or modify existing registrations. VeriSign reserves the right\nto restrict your access to the Whois database in its sole discretion to ensure\noperational stability.  VeriSign may restrict or terminate your access to the\nWhois database for failure to abide by these terms of use. VeriSign\nreserves the right to modify these terms at any time.\nThe Registry database contains ONLY .COM, .NET, .EDU domains and\nRegistrars.\n",
+                "updatedDate" : "2018-05-14T01:18:38Z",
+                "updatedDateNormalized" : "2018-05-14 01:18:38 UTC",
+                "whoisServer" : "grs-whois.cndns.com"
+            },
+            "status" : "ok",
+            "strippedText" : "Domain Name: jxlogistics.com\nRegistrar WHOIS Server: grs-whois.cndns.com\nRegistrar URL: http://www.cndns.com\nUpdated Date: 2018-05-14T09:18:40Z\nCreate Date: 2002-06-12T12:07:18Z\nRegistrar Registration Expiration Date: 2023-06-12T12:07:18Z\nRegistrar: SHANGHAI MEICHENG TECHNOLOGY INFORMATION DEVELOPMENT CO., LTD.\nRegistrar IANA ID: 1621\nRegistrar Abuse Contact Email: domain@cndns.com\nRegistrar Abuse Contact Phone: +86.2151697771\nDomain Status: ok https://icann.org/epp#ok\nRegistrant Name: shen xiaojun\nRegistrant Organization: ShangHai JingXingCangChuSheBeiGongChengYouXianGongSi\nRegistrant Street: 505 Shennan Road, Xinzhuang Industrial Zone, Shanghai, China\nRegistrant City: shanghai\nRegistrant State/Province: shanghai\nRegistrant Postal Code: 201108\nRegistrant Country: CN\nRegistrant Phone : +86.2137620999\nRegistrant Fax: +86.2137620999\nRegistrant Email: shenxj@jxlogistics.com\nAdmin Name: shen xiaojun\nAdmin Organization: ShangHai JingXingCangChuSheBeiGongChengYouXianGongSi\nAdmin Street: 505 Shennan Road, Xinzhuang Industrial Zone, Shanghai, China\nAdmin City: shanghai\nAdmin State/Province: shanghai\nAdmin Postal Code: 201108\nAdmin Country: CN\nAdmin Phone : +86.2137620999\nAdmin Fax: +86.2137620999\nAdmin Email: shenxj@jxlogistics.com\nTech Name: shen xiaojun\nTech Organization: ShangHai JingXingCangChuSheBeiGongChengYouXianGongSi\nTech Street: 505 Shennan Road, Xinzhuang Industrial Zone, Shanghai, China\nTech City: shanghai\nTech State/Province: shanghai\nTech Postal Code: 201108\nTech Country: CN\nTech Phone : +86.2137620999\nTech Fax: +86.2137620999\nTech Email: shenxj@jxlogistics.com\nName Server: a.ezdnscenter.com\nName Server: b.ezdnscenter.com\n",
+            "technicalContact" : {
+                "city" : "shanghai",
+                "country" : "CHINA",
+                "countryCode" : "CN",
+                "email" : "shenxj@jxlogistics.com",
+                "fax" : "862137620999",
+                "name" : "shen xiaojun",
+                "organization" : "ShangHai JingXingCangChuSheBeiGongChengYouXianGongSi",
+                "postalCode" : "201108",
+                "rawText" : "Tech Name: shen xiaojun\nTech Organization: ShangHai JingXingCangChuSheBeiGongChengYouXianGongSi\nTech Street: 505 Shennan Road, Xinzhuang Industrial Zone, Shanghai, China\nTech City: shanghai\nTech State/Province: shanghai\nTech Postal Code: 201108\nTech Country: CN\nTech Phone : +86.2137620999\nTech Fax: +86.2137620999\nTech Email: shenxj@jxlogistics.com",
+                "state" : "shanghai",
+                "street1" : "505 Shennan Road, Xinzhuang Industrial Zone, Shanghai, China",
+                "telephone" : "862137620999"
+            },
+            "updatedDate" : "2018-05-14T09:18:40Z",
+            "updatedDateNormalized" : "2018-05-14 09:18:40 UTC",
+            "whoisServer" : "grs-whois.cndns.com"
+        }
+    },
   changesList: [
     {
       date: "2015-01-29",

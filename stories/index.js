@@ -22,7 +22,7 @@ import reportData from "./MockData/reportData";
 import "../src/Components/css/fonts.css";
 import "../src/Components/css/tooltip.css";
 import Utils from "../src/Components/js/Utils";
-import CompanyChanges from '../src/Components/CompanyChanges';
+import CompanyChanges from "../src/Components/CompanyChanges";
 
 const investmentsList =
   reportData.foreignInvestmentList != null &&
@@ -83,9 +83,9 @@ storiesOf("Components", module)
   .add("Registration Details", () => (
     <RegistrationDetails width={window.innerWidth} report={reportData} />
   ))
-    .add("Company Changes", () => (
-        <CompanyChanges width={window.innerWidth} report={reportData} />
-    ))
+  .add("Company Changes", () => (
+    <CompanyChanges width={window.innerWidth} report={reportData} />
+  ))
   .add("Social Media", () => (
     <SocialMedia width={window.innerWidth} report={reportData} />
   ))
