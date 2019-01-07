@@ -178,7 +178,7 @@ class SocialMedia extends Component {
                     "fontStyle10"
                   )}
                   style={{
-                    right: this.props.width > 600 ? 30 : 15
+                    right: this.props.width > 600 ? 30 : 25
                   }}
                 >
                   <div
