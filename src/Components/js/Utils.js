@@ -582,6 +582,8 @@ class Utils {
         return require("../images/countries/EG.svg");
       case "Singapure":
         return require("../images/countries/SG.svg");
+      case "Singapore":
+        return require("../images/countries/SG.svg");
       case "Reunion":
         return require("../images/countries/FR.svg");
       case "Honduras":
@@ -606,6 +608,8 @@ class Utils {
         return require("../images/countries/DZ.svg");
       case "Dominican Republic":
         return require("../images/countries/DO.svg");
+      case "Kenya":
+        return require("../images/countries/KE.svg");
       case "unknown":
         return require("../images/countries/WW.svg");
       case "AF":
