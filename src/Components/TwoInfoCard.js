@@ -60,6 +60,11 @@ const styles = {
   },
   dialog: {
     margin: 16
+  },
+  divContent: {
+    display: "inline-flex",
+    width: "100%",
+    marginTop: 20
   }
 };
 
@@ -88,12 +93,8 @@ class TwoInfoCard extends Component {
 
   render() {
     const { classes } = this.props;
-    return (this.state.content1 !== "" &&
-      this.state.content1 != null &&
-      this.state.content1 !== "null") ||
-      (this.state.content2 !== "" &&
-        this.state.content2 != null &&
-        this.state.content2 !== "null") ? (
+    return (this.state.content1 && this.state.content1 !== "null") ||
+      (this.state.content2 && this.state.content2 !== "null") ? (
       <SmallBoxLayout container={true} direction={"column"}>
         <div style={{ width: "100%" }}>
           <StyledTitle
@@ -131,7 +132,7 @@ class TwoInfoCard extends Component {
                 <img
                   alt="view all"
                   src={require("./images/Back.png")}
-                  style={{ marginTop: -4, position: "absolute" }}
+                  className={classes.bottomIcon}
                 />
               </div>
             ) : (
@@ -145,17 +146,11 @@ class TwoInfoCard extends Component {
               ""
             )}
           </StyledTitle>
-          <div
-            data-cy="divContent"
-            style={{ display: "inline-flex", width: "100%", marginTop: 20 }}
-          >
-            {this.state.content1 !== "" && this.state.content1 != null ? (
+          <div data-cy="divContent" className={classes.divContent}>
+            {this.state.content1 ? (
               <div
                 style={{
-                  width:
-                    this.state.content2 !== "" && this.state.content2 != null
-                      ? "50%"
-                      : "100%"
+                  width: this.state.content2 ? "50%" : "100%"
                 }}
                 data-cy="divContent1"
               >
@@ -174,7 +169,7 @@ class TwoInfoCard extends Component {
             ) : (
               ""
             )}
-            {this.state.content2 !== "" && this.state.content2 != null ? (
+            {this.state.content2 ? (
               <div
                 data-cy="divContent2"
                 style={{ paddingRight: 10, width: "50%" }}
@@ -195,9 +190,7 @@ class TwoInfoCard extends Component {
               ""
             )}
           </div>
-          {this.props.bottomMsg !== "" &&
-          this.props.bottomMsg !== undefined &&
-          this.props.bottomMsg !== null ? (
+          {this.props.bottomMsg ? (
             <div
               data-tip
               data-for={"tipBtmMsg" + this.props.name}
@@ -208,7 +201,7 @@ class TwoInfoCard extends Component {
                 className={classNames(classes.bottomContent, "fontStyle11")}
                 style={{ marginTop: this.props.content1Lbl === "" ? 25 : 10 }}
               >
-                {this.props.bottomIcon != null ? (
+                {this.props.bottomIcon ? (
                   <img
                     height={24}
                     width={24}
@@ -219,9 +212,7 @@ class TwoInfoCard extends Component {
                 ) : (
                   ""
                 )}
-                <label
-                  style={{ marginLeft: this.props.bottomIcon != null ? 25 : 0 }}
-                >
+                <label style={{ marginLeft: this.props.bottomIcon ? 25 : 0 }}>
                   {this.props.bottomMsg}
                 </label>
               </Typography>
@@ -257,7 +248,7 @@ class TwoInfoCard extends Component {
             </StyledCloseIcon>
             <DialogTitle
               className={"fontStyle3"}
-              style={{ textAlign: "center", marginTop:24 }}
+              style={{ textAlign: "center", marginTop: 24 }}
             >
               {this.props.moreTitle}
             </DialogTitle>

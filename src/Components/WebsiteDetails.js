@@ -13,7 +13,7 @@ import ReactTooltip from "react-tooltip";
 import { BigBoxLayout } from "./LowLevelComponents/StyledComponents";
 import NoDataImg from "./LowLevelComponents/NoDataImg";
 import CountryIcon from "@material-ui/icons/LocationCity";
-import EmailIcon from '@material-ui/icons/Email';
+import EmailIcon from "@material-ui/icons/Email";
 
 const styles = {
   title: {
@@ -70,7 +70,8 @@ class WebsiteDetails extends Component {
             </span>
           </ReactTooltip>
         </div>
-        {this.props.websiteWhoIs ? (
+        {this.props.websiteWhoIs &&
+        this.props.websiteWhoIs.dataError !== "MISSING_WHOIS_DATA" ? (
           <div className={classes.listDiv}>
             <List>
               <ListItem>
@@ -171,38 +172,36 @@ class WebsiteDetails extends Component {
                   {this.props.websiteWhoIs.registrant.country}
                 </ListItemSecondaryAction>
               </ListItem>
-                <ListItem>
-                    <ListItemIcon className={classes.icon}>
-                        <EmailIcon />
-                    </ListItemIcon>
-                    <ListItemText
-                        style={{ marginLeft: -25 }}
-                        primary={
-                            <Typography className={"fontStyle7"}>
-                                Email
-                            </Typography>
-                        }
-                    />
-                    <div data-tip data-for={"domainEmail"}>
-                    <ListItemSecondaryAction
-                        className={classNames(
-                            classes.listItemSecondary,
-                            "fontStyle10"
-                        )}
-                    >
-                        {this.props.websiteWhoIs.registrant.email}
-                    </ListItemSecondaryAction>
-                    </div>
-                    <ReactTooltip
-                        className={classNames("tooltip", "fontStyle14")}
-                        id={"domainEmail"}
-                        place="top"
-                        type="info"
-                        effect="solid"
-                    >
-                        <span>{this.props.websiteWhoIs.registrant.email}</span>
-                    </ReactTooltip>
-                </ListItem>
+              <ListItem>
+                <ListItemIcon className={classes.icon}>
+                  <EmailIcon />
+                </ListItemIcon>
+                <ListItemText
+                  style={{ marginLeft: -25 }}
+                  primary={
+                    <Typography className={"fontStyle7"}>Email</Typography>
+                  }
+                />
+                <div data-tip data-for={"domainEmail"}>
+                  <ListItemSecondaryAction
+                    className={classNames(
+                      classes.listItemSecondary,
+                      "fontStyle10"
+                    )}
+                  >
+                    {this.props.websiteWhoIs.registrant.email}
+                  </ListItemSecondaryAction>
+                </div>
+                <ReactTooltip
+                  className={classNames("tooltip", "fontStyle14")}
+                  id={"domainEmail"}
+                  place="top"
+                  type="info"
+                  effect="solid"
+                >
+                  <span>{this.props.websiteWhoIs.registrant.email}</span>
+                </ReactTooltip>
+              </ListItem>
             </List>
           </div>
         ) : (
