@@ -206,7 +206,8 @@ class MoreDataWebsite extends Component {
     const { globalRank, rankMsgType, rankMsg } = this.getGlobalRank();
 
     return (
-      <Grid item={true} md={12} container={true} direction={"row"}>
+      <div>
+        {/*<Grid item={true} md={12} container={true} direction={"row"}>*/}
         <TwoInfoCard
           width={this.props.width}
           name={"Website Lifetime"}
@@ -261,7 +262,8 @@ class MoreDataWebsite extends Component {
           bottomMsg={btmMsgChanges}
           bottomIcon={btmIconChanges}
         />
-      </Grid>
+        {/*</Grid>*/}
+      </div>
     );
   }
 }

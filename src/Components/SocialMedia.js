@@ -19,20 +19,28 @@ import DialogContent from "@material-ui/core/DialogContent";
 import DialogTitle from "@material-ui/core/DialogTitle";
 import MoreDataWebsite from "./MoreDataWebsite";
 import Dialog from "@material-ui/core/Dialog";
-import './css/fullScreenDialog.css'
+import "./css/fullScreenDialog.css";
 
 const StyledLblWebsite = styled.label`
   cursor: ${props => (props.link ? "pointer" : "")};
   color: ${props => (props.link ? "#4C84FF" : "#172b51")} !important;
 `;
 
+// const StyledListItemSecondary = styled(ListItemSecondaryAction)`
+//   text-align: left;
+//   width: 50%;
+//   white-space: nowrap;
+//   overflow: hidden;
+//   text-overflow: ellipsis;
+//   right: 62px !important;
+// `;
+
 const StyledListItemSecondary = styled(ListItemSecondaryAction)`
   text-align: left;
-  width: 50%;
+  width: 60%;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
-  right: 62px !important;
 `;
 
 const StyledDialogContent = styled(DialogContent)`
@@ -78,7 +86,6 @@ const styles = {
   dialog: {
     background: "#F5F7FB"
   }
-
 };
 
 class SocialMedia extends Component {
@@ -104,7 +111,6 @@ class SocialMedia extends Component {
             root: classNames("fullScreenDialog", classes.dialog)
           }
         }}
-
         open={this.state.moreDataOpen}
         onClose={() => this.setState({ moreDataOpen: false })}
         aria-labelledby="scroll-dialog-title"
@@ -170,34 +176,34 @@ class SocialMedia extends Component {
                   <Typography className={"fontStyle7"}>Website</Typography>
                 }
               />
-              {haveWebsite &&
-              (this.state.report.websiteArchive ||
-                this.state.report.websiteWhoIs) ? (
-                <ListItemSecondaryAction
-                  className={classNames(
-                    classes.listItemSecondary,
-                    "fontStyle10"
-                  )}
-                  style={{
-                    right: this.props.width > 600 ? 30 : 25
-                  }}
-                >
-                  <div
-                    onClick={() => this.setState({ moreDataOpen: true })}
-                    className={classNames(classes.moreBtn, "fontStyle6")}
-                    data-cy="divMore"
-                  >
-                    More
-                    <img
-                      alt="view all"
-                      src={require("./images/Back.png")}
-                      className={classes.imgMore}
-                    />
-                  </div>
-                </ListItemSecondaryAction>
-              ) : (
-                ""
-              )}
+              {/*{haveWebsite &&*/}
+              {/*(this.state.report.websiteArchive ||*/}
+              {/*this.state.report.websiteWhoIs) ? (*/}
+              {/*<ListItemSecondaryAction*/}
+              {/*className={classNames(*/}
+              {/*classes.listItemSecondary,*/}
+              {/*"fontStyle10"*/}
+              {/*)}*/}
+              {/*style={{*/}
+              {/*right: this.props.width > 600 ? 30 : 25*/}
+              {/*}}*/}
+              {/*>*/}
+              {/*<div*/}
+              {/*onClick={() => this.setState({ moreDataOpen: true })}*/}
+              {/*className={classNames(classes.moreBtn, "fontStyle6")}*/}
+              {/*data-cy="divMore"*/}
+              {/*>*/}
+              {/*More*/}
+              {/*<img*/}
+              {/*alt="view all"*/}
+              {/*src={require("./images/Back.png")}*/}
+              {/*className={classes.imgMore}*/}
+              {/*/>*/}
+              {/*</div>*/}
+              {/*</ListItemSecondaryAction>*/}
+              {/*) : (*/}
+              {/*""*/}
+              {/*)}*/}
               <StyledListItemSecondary className={"fontStyle10"}>
                 <StyledLblWebsite
                   onClick={() =>

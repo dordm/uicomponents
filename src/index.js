@@ -60,6 +60,7 @@ import TopInsights from "./Components/TopInsights";
 import TopProducts from "./Components/TopProducts";
 import TotalExports from "./Components/TotalExports";
 import TwoInfoCard from "./Components/TwoInfoCard";
+import MoreDataWebsite from "./Components/MoreDataWebsite";
 
 export {
   CompanyScore,
@@ -116,5 +117,6 @@ export {
   CompanyChanges,
   StyledChip,
   MoreDataDishonest,
-  MoreDataLawEnforcement
+  MoreDataLawEnforcement,
+  MoreDataWebsite
 };
