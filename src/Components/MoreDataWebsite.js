@@ -185,9 +185,11 @@ class MoreDataWebsite extends Component {
         )}% during the last quarter of ${rankYear}`;
         rankIcon = Utils.getIconByNumber(3);
       }
-      // if (rank > 1000000) rank = Math.round(rank / 1000000) + "M";
-      // else if (rank > 1000) rank = Math.round(rank / 1000) + "K";
-      return { globalRank: rank, rankMsgType: rankIcon, rankMsg };
+      return {
+        globalRank: new Intl.NumberFormat("en").format(rank),
+        rankMsgType: rankIcon,
+        rankMsg
+      };
     } else return { globalRank: null, rankMsgType: null, rankMsg: "" };
   }
 
