@@ -34,6 +34,20 @@ const styles = {
   topIcon: {
     marginTop: -2,
     marginLeft: 6
+  },
+  bottomMsg: {
+    marginLeft: 22,
+    marginRight: 10,
+    textAlign: "left",
+    whiteSpace: "nowrap",
+    overflow: "hidden",
+    textOverflow: "ellipsis"
+  },
+  bottomIcon: {
+    position: "absolute",
+    marginTop: -4,
+    height: 24,
+    width: 24
   }
 };
 
@@ -84,13 +98,29 @@ class WebsiteChanges extends Component {
           </ReactTooltip>
         </div>
         {this.props.websiteChanges && this.props.websiteChanges.length > 0 ? (
-          <BarChart
-            height={"80%"}
-            width={this.props.width}
-            dataKeyBar={"Changes"}
-            dataKey={"name"}
-            data={this.getWebsiteData()}
-          />
+          <div style={{ width:'100%' }}>
+            <BarChart
+              height={"88%"}
+              width={this.props.width}
+              dataKeyBar={"Changes"}
+              dataKey={"name"}
+              data={this.getWebsiteData()}
+            />
+            <Typography
+              className={classNames(classes.bottomMsg, "fontStyle11")}
+            >
+              {this.props.bottomMsg ? (
+                <img
+                  alt="bottomIcon"
+                  className={classes.bottomIcon}
+                  src={this.props.bottomIcon}
+                />
+              ) : (
+                ""
+              )}
+              <label style={{ marginLeft: 25 }}>{this.props.bottomMsg}</label>
+            </Typography>
+          </div>
         ) : (
           <NoDataImg />
         )}

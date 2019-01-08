@@ -1260,6 +1260,34 @@ const reportData = {
             }
         }
     },
+    websiteSimilarWeb:{
+        "global_rank" : [
+            {
+                "date" : "2018-10",
+                "global_rank" : 20558538
+            },
+            {
+                "date" : "2018-11",
+                "global_rank" : 16144988
+            },
+            {
+                "date" : "2018-12",
+                "global_rank" : 22019006
+            }
+        ],
+        "meta" : {
+            "last_updated" : "2018-12-31",
+            "request" : {
+                "country" : "world",
+                "domain" : "jxlogistics.com",
+                "end_date" : "2018-12-31",
+                "format" : null,
+                "limit" : null,
+                "start_date" : "2018-10-01"
+            },
+            "status" : "Success"
+        }
+    },
     websiteWhoIs:{
         "WhoisRecord" : {
             "administrativeContact" : {

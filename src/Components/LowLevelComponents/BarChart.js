@@ -42,7 +42,7 @@ class MyBarChart extends Component {
             iconType={"circle"}
             iconSize={10}
             wrapperStyle={{
-              marginTop: -30,
+              marginTop: -35,
               marginLeft: this.props.width > 600 ? "50%" : "60%",
               width: "fit-content",
               fontFamily: "Roboto",

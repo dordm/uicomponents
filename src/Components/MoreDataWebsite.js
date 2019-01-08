@@ -18,18 +18,14 @@ class MoreDataWebsite extends Component {
 
   getBtmMsgChanges(lastYearChanges) {
     return lastYearChanges === 0
-      ? "Below industry standard"
-      : lastYearChanges > 9
-      ? "Above industry standard"
-      : "";
+      ? "No site changes over the last year"
+      : "Site actively maintained";
   }
 
   getBtmIconChanges(lastYearChanges) {
     return lastYearChanges === 0
       ? Utils.getIconByNumber(3)
-      : lastYearChanges > 9
-      ? Utils.getIconByNumber(2)
-      : null;
+      : Utils.getIconByNumber(2);
   }
 
   getWebsiteLifetime() {
@@ -165,6 +161,36 @@ class MoreDataWebsite extends Component {
     return { websiteStatus: "", websiteStatusMsg: "" };
   }
 
+  getGlobalRank() {
+    const { websiteSimilarWeb } = this.props;
+    if (websiteSimilarWeb.global_rank) {
+      const rankYear = websiteSimilarWeb.global_rank[0].date.substr(0, 4);
+      const beforeRank = websiteSimilarWeb.global_rank[0].global_rank;
+      let rankMsg = "",
+        rankIcon = null;
+      let rank =
+        websiteSimilarWeb.global_rank[websiteSimilarWeb.global_rank.length - 1]
+          .global_rank;
+      if (rank > beforeRank) {
+        const changeRate = ((rank - beforeRank) * 100) / beforeRank;
+        rankMsg = `The website rank increased by ${changeRate.toFixed(
+          0
+        )}% during the last quarter of ${rankYear}`;
+        rankIcon = Utils.getIconByNumber(2);
+      }
+      if (beforeRank > rank) {
+        const changeRate = ((beforeRank - rank) * 100) / rank;
+        rankMsg = `The website rank decreased by ${changeRate.toFixed(
+          0
+        )}% during the last quarter of ${rankYear}`;
+        rankIcon = Utils.getIconByNumber(3);
+      }
+      // if (rank > 1000000) rank = Math.round(rank / 1000000) + "M";
+      // else if (rank > 1000) rank = Math.round(rank / 1000) + "K";
+      return { globalRank: rank, rankMsgType: rankIcon, rankMsg };
+    } else return { globalRank: null, rankMsgType: null, rankMsg: "" };
+  }
+
   render() {
     const { websiteArchive, websiteWhoIs } = this.props;
     const lastYearChanges = this.getLastYearChanges();
@@ -175,6 +201,7 @@ class MoreDataWebsite extends Component {
     const { websiteStatus, websiteStatusMsg } = this.getWebsiteStatus(
       websiteStatuses
     );
+    const { globalRank, rankMsgType, rankMsg } = this.getGlobalRank();
 
     return (
       <Grid item={true} md={12} container={true} direction={"row"}>
@@ -192,15 +219,17 @@ class MoreDataWebsite extends Component {
         />
         <TwoInfoCard
           width={this.props.width}
-          name={"Website Changes (last year)"}
+          name={"Global Rank"}
           date={""}
-          infoText={'Website changes in the last year, based on "Web Archive"'}
-          content1={lastYearChanges}
-          content1Lbl={"Changes"}
+          infoText={
+            'Website global rank in the last year, based on "Similar Web"'
+          }
+          content1={globalRank}
+          content1Lbl={"Global Rank"}
           content2={""}
           content2Lbl={""}
-          bottomIcon={btmIconChanges}
-          bottomMsg={btmMsgChanges}
+          bottomIcon={rankMsgType}
+          bottomMsg={rankMsg}
         />
         <TwoInfoCard
           width={this.props.width}
@@ -227,6 +256,8 @@ class MoreDataWebsite extends Component {
         <WebsiteChanges
           width={this.props.width}
           websiteChanges={websiteArchive.latestChanges}
+          bottomMsg={btmMsgChanges}
+          bottomIcon={btmIconChanges}
         />
       </Grid>
     );

@@ -126,6 +126,7 @@ class SocialMedia extends Component {
             width={this.props.width}
             websiteArchive={this.state.report.websiteArchive}
             websiteWhoIs={this.state.report.websiteWhoIs}
+            websiteSimilarWeb={this.state.report.websiteSimilarWeb}
           />
         </StyledDialogContent>
       </Dialog>
