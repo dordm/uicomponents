@@ -206,7 +206,7 @@ class MoreDataWebsite extends Component {
     const { globalRank, rankMsgType, rankMsg } = this.getGlobalRank();
 
     return (
-      <div>
+      <div style={{display:'flex', flexWrap:'wrap'}}>
         {/*<Grid item={true} md={12} container={true} direction={"row"}>*/}
         <TwoInfoCard
           width={this.props.width}
