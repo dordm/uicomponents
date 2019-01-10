@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="deedca82-8ad4-4e62-ac9a-df5681d3be65" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/MoreDataBranchesInvestments.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/MoreDataBranchesInvestments.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/ShareholdersExpansion.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/ShareholdersExpansion.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -37,7 +39,7 @@
       <file leaf-file-name="PieChartWrapper.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Components/PieChartWrapper.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="680">
+            <state relative-caret-position="425">
               <caret line="91" column="12" selection-start-line="91" selection-start-column="12" selection-end-line="91" selection-end-column="12" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
@@ -49,7 +51,7 @@
       <file leaf-file-name="MoreDataShareholders.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Components/MoreDataShareholders.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="646">
+            <state relative-caret-position="340">
               <caret line="77" column="64" selection-start-line="77" selection-start-column="64" selection-end-line="77" selection-end-column="64" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
@@ -91,8 +93,8 @@
       <file leaf-file-name="ShareholdersExpansion.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Components/ShareholdersExpansion.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="281">
-              <caret line="191" column="34" selection-start-line="191" selection-start-column="34" selection-end-line="195" selection-end-column="39" />
+            <state relative-caret-position="324">
+              <caret line="73" column="30" lean-forward="true" selection-start-line="73" selection-start-column="30" selection-end-line="73" selection-end-column="30" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -103,8 +105,8 @@
       <file leaf-file-name="MoreDataBranchesInvestments.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Components/MoreDataBranchesInvestments.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="94">
-              <caret line="125" column="56" selection-start-line="125" selection-start-column="56" selection-end-line="125" selection-end-column="56" />
+            <state relative-caret-position="238">
+              <caret line="62" column="19" lean-forward="true" selection-start-line="62" selection-start-column="19" selection-end-line="62" selection-end-column="19" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -134,7 +136,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>this.state.data</find>
       <find>replace</find>
       <find>CustomTooltip</find>
       <find>this.props.name</find>
@@ -163,6 +164,7 @@
       <find>edges</find>
       <find>url</find>
       <find>console.log</find>
+      <find>Loader</find>
       <find>Request Analysis</find>
     </findStrings>
   </component>
@@ -443,12 +445,12 @@
       <workItem from="1547024104797" duration="8340000" />
       <workItem from="1547036591173" duration="10849000" />
       <workItem from="1547055277725" duration="608000" />
-      <workItem from="1547106989425" duration="19092000" />
+      <workItem from="1547106989425" duration="20235000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="262716000" />
+    <option name="totallyTimeSpent" value="263859000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
@@ -841,7 +843,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/PieChartWrapper.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
+        <state relative-caret-position="425">
           <caret line="91" column="12" selection-start-line="91" selection-start-column="12" selection-end-line="91" selection-end-column="12" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
@@ -851,7 +853,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/MoreDataShareholders.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
+        <state relative-caret-position="340">
           <caret line="77" column="64" selection-start-line="77" selection-start-column="64" selection-end-line="77" selection-end-column="64" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
@@ -861,8 +863,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/ShareholdersExpansion.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="191" column="34" selection-start-line="191" selection-start-column="34" selection-end-line="195" selection-end-column="39" />
+        <state relative-caret-position="324">
+          <caret line="73" column="30" lean-forward="true" selection-start-line="73" selection-start-column="30" selection-end-line="73" selection-end-column="30" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
@@ -871,8 +873,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/MoreDataBranchesInvestments.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="94">
-          <caret line="125" column="56" selection-start-line="125" selection-start-column="56" selection-end-line="125" selection-end-column="56" />
+        <state relative-caret-position="238">
+          <caret line="62" column="19" lean-forward="true" selection-start-line="62" selection-start-column="19" selection-end-line="62" selection-end-column="19" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>

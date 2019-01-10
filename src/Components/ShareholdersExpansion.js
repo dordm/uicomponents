@@ -19,6 +19,7 @@ import {
 } from "./LowLevelComponents/StyledComponents";
 import NoDataImg from "./LowLevelComponents/NoDataImg";
 import GroupIcon from "@material-ui/icons/Group";
+import Loader from "./LowLevelComponents/Loader";
 
 const styles = {
   title: {
@@ -52,6 +53,18 @@ const styles = {
 };
 
 class ShareholdersExpansion extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      loading: false
+    };
+  }
+
+  addSupplier(englishName, chineseName) {
+    this.props.addSupplier(englishName, chineseName);
+    this.setState({ loading: false });
+  }
+
   render() {
     const { classes } = this.props;
     return (
@@ -60,6 +73,7 @@ class ShareholdersExpansion extends Component {
         container={true}
         justify={"flex-start"}
       >
+        <Loader open={this.state.loading} />
         <div className={classes.title}>
           <Typography className={classNames("fontStyle1")}>
             Shareholders Data
@@ -142,7 +156,13 @@ class ShareholdersExpansion extends Component {
                                   <Typography
                                     style={{ cursor: "pointer" }}
                                     className={"fontStyle6"}
-                                    onClick={() => this.props.addSupplier(item.properties.name,item.properties.name)}
+                                    onClick={() => {
+                                      this.setState({ loading: true });
+                                      this.addSupplier(
+                                        item.properties.name,
+                                        item.properties.name
+                                      );
+                                    }}
                                   >
                                     Request Analysis
                                   </Typography>
@@ -197,7 +217,13 @@ class ShareholdersExpansion extends Component {
                                     <Typography
                                       style={{ cursor: "pointer" }}
                                       className={"fontStyle6"}
-                                      onClick={() => this.props.addSupplier(item.properties.name,item.properties.name)}
+                                      onClick={() => {
+                                        this.setState({ loading: true });
+                                        this.addSupplier(
+                                          associate.properties.name,
+                                          associate.properties.name
+                                        );
+                                      }}
                                     >
                                       Request Analysis
                                     </Typography>

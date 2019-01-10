@@ -9,6 +9,7 @@ import List from "@material-ui/core/List";
 import ListItem from "@material-ui/core/ListItem";
 import Divider from "@material-ui/core/Divider";
 import Typography from "@material-ui/core/Typography";
+import Loader from "./LowLevelComponents/Loader";
 
 const styles = {
   tabIndicator: {
@@ -43,32 +44,38 @@ function MoreData(props) {
         return (
           <div key={props.moreData.indexOf(item)}>
             <ListItem>
-              <div style={{display:'flex', width:'80%'}}>
-              <img
-                height={24}
-                width={24}
-                alt={item.icon}
-                src={Utils.getIcon(item.icon)}
-              />
-              <Typography
-                className={classNames(classes.typoMore, "fontStyle5")}
-              >
-                {item.name}
-                {"\n"}
-              </Typography>
-              </div>
-                {window.location.pathname.includes(
-                    "/direct/"
-                ) ? (
-                    ""
-                ) : (
+              <div style={{ display: "flex", width: "80%" }}>
+                <img
+                  height={24}
+                  width={24}
+                  alt={item.icon}
+                  src={Utils.getIcon(item.icon)}
+                />
                 <Typography
-                    style={{ cursor: "pointer" }}
-                    className={"fontStyle6"}
-                    onClick={() => props.addSupplier(item.name.substr(0, item.name.lastIndexOf('(') - 1), item.name.substr(item.name.lastIndexOf('(')))}
+                  className={classNames(classes.typoMore, "fontStyle5")}
                 >
-                    Request Analysis
-                </Typography> )}
+                  {item.name}
+                  {"\n"}
+                </Typography>
+              </div>
+              {window.location.pathname.includes("/direct/") ? (
+                ""
+              ) : (
+                <Typography
+                  style={{ cursor: "pointer" }}
+                  className={"fontStyle6"}
+                  onClick={() => {
+                    props.changeLoader(true);
+                    props.addSupplier(
+                      item.name.substr(0, item.name.lastIndexOf("(") - 1),
+                      item.name.substr(item.name.lastIndexOf("("))
+                    );
+                    props.changeLoader(false);
+                  }}
+                >
+                  Request Analysis
+                </Typography>
+              )}
             </ListItem>
             <Divider />
           </div>
@@ -82,13 +89,20 @@ class MoreDataBranchesInvestments extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      selectedTab: this.props.moreSubTitle
+      selectedTab: this.props.moreSubTitle,
+      loading: false
     };
   }
+
+  changeLoader(val) {
+    this.setState({ loading: val });
+  }
+
   render() {
     const { classes } = this.props;
     return this.props.moreData.length > 0 || this.props.moreData2.length > 0 ? (
       <div>
+        <Loader open={this.state.loading} />
         <Tabs
           value={this.state.selectedTab}
           id={"tabs"}
@@ -121,9 +135,19 @@ class MoreDataBranchesInvestments extends Component {
           />
         </Tabs>
         {this.state.selectedTab === this.props.moreSubTitle ? (
-          <MoreData addSupplier={this.props.addSupplier} classes={classes} moreData={this.props.moreData} />
+          <MoreData
+            addSupplier={this.props.addSupplier}
+            changeLoader={this.changeLoader}
+            classes={classes}
+            moreData={this.props.moreData}
+          />
         ) : (
-          <MoreData addSupplier={this.props.addSupplier} classes={classes} moreData={this.props.moreData2} />
+          <MoreData
+            addSupplier={this.props.addSupplier}
+            changeLoader={this.changeLoader}
+            classes={classes}
+            moreData={this.props.moreData2}
+          />
         )}
       </div>
     ) : null;
