@@ -9,7 +9,6 @@ import List from "@material-ui/core/List";
 import ListItem from "@material-ui/core/ListItem";
 import Divider from "@material-ui/core/Divider";
 import Typography from "@material-ui/core/Typography";
-import Loader from "./LowLevelComponents/Loader";
 
 const styles = {
   tabIndicator: {
@@ -65,12 +64,10 @@ function MoreData(props) {
                   style={{ cursor: "pointer" }}
                   className={"fontStyle6"}
                   onClick={() => {
-                    props.changeLoader(true);
                     props.addSupplier(
                       item.name.substr(0, item.name.lastIndexOf("(") - 1),
                       item.name.substr(item.name.lastIndexOf("("))
                     );
-                    props.changeLoader(false);
                   }}
                 >
                   Request Analysis
@@ -89,20 +86,14 @@ class MoreDataBranchesInvestments extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      selectedTab: this.props.moreSubTitle,
-      loading: false
+      selectedTab: this.props.moreSubTitle
     };
-  }
-
-  changeLoader(val) {
-    this.setState({ loading: val });
   }
 
   render() {
     const { classes } = this.props;
     return this.props.moreData.length > 0 || this.props.moreData2.length > 0 ? (
       <div>
-        <Loader open={this.state.loading} />
         <Tabs
           value={this.state.selectedTab}
           id={"tabs"}
@@ -137,14 +128,12 @@ class MoreDataBranchesInvestments extends Component {
         {this.state.selectedTab === this.props.moreSubTitle ? (
           <MoreData
             addSupplier={this.props.addSupplier}
-            changeLoader={this.changeLoader.bind(this)}
             classes={classes}
             moreData={this.props.moreData}
           />
         ) : (
           <MoreData
             addSupplier={this.props.addSupplier}
-            changeLoader={this.changeLoader.bind(this)}
             classes={classes}
             moreData={this.props.moreData2}
           />
