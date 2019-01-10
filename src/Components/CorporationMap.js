@@ -8,7 +8,7 @@ import ReactTooltip from "react-tooltip";
 import NoDataImg from "./LowLevelComponents/NoDataImg";
 import PropTypes from "prop-types";
 import classNames from "classnames";
-import "../../node_modules/vis/dist/vis-network.min.css";
+import "/node_modules/vis/dist/vis-network.min.css";
 
 const graph = {
   nodes: [
