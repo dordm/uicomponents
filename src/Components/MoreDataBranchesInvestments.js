@@ -137,14 +137,14 @@ class MoreDataBranchesInvestments extends Component {
         {this.state.selectedTab === this.props.moreSubTitle ? (
           <MoreData
             addSupplier={this.props.addSupplier}
-            changeLoader={this.changeLoader}
+            changeLoader={this.changeLoader.bind(this)}
             classes={classes}
             moreData={this.props.moreData}
           />
         ) : (
           <MoreData
             addSupplier={this.props.addSupplier}
-            changeLoader={this.changeLoader}
+            changeLoader={this.changeLoader.bind(this)}
             classes={classes}
             moreData={this.props.moreData2}
           />

@@ -159,7 +159,7 @@ class ShareholdersExpansion extends Component {
                                     onClick={() => {
                                       this.setState({ loading: true });
                                       this.addSupplier(
-                                        item.properties.name,
+                                        "Temporary name" + item.id,
                                         item.properties.name
                                       );
                                     }}
@@ -220,7 +220,7 @@ class ShareholdersExpansion extends Component {
                                       onClick={() => {
                                         this.setState({ loading: true });
                                         this.addSupplier(
-                                          associate.properties.name,
+                                          "Temporary name" + associate.id,
                                           associate.properties.name
                                         );
                                       }}
