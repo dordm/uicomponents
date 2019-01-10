@@ -9,23 +9,6 @@ import NoDataImg from "./LowLevelComponents/NoDataImg";
 import PropTypes from "prop-types";
 import classNames from "classnames";
 
-const graph = {
-  nodes: [
-    { id: 1, label: "Node 1 dfasds ", title: "test title", color: "red" },
-    { id: 2, label: "Node 2" },
-    { id: 3, label: "Node 3" },
-    { id: 4, label: "Node 4" },
-    { id: 5, label: "Node 5" }
-  ],
-  edges: [
-    { from: 1, to: 2, label: "rel1", title: "test title 2" },
-    { from: 1, to: 3, label: "rel2" },
-    { from: 2, to: 4, label: "rel3" },
-    { from: 2, to: 5, label: "rel4" },
-    { from: 3, to: 2, label: "rel5" }
-  ]
-};
-
 const options = {
   layout: {
     hierarchical: false
@@ -36,6 +19,9 @@ const options = {
   interaction: {
     hover: true,
     tooltipDelay: 0
+  },
+  physics: {
+    enabled: false
   }
 };
 
@@ -50,7 +36,20 @@ const styles = {
   topIcon: {
     marginTop: -2,
     marginLeft: 6
-  }
+  },
+    divDictionary:{
+      marginLeft:10,
+      display:'flex',
+        marginTop:3
+    },
+    circle: {
+      width:9,
+        height:9,
+        borderRadius:4.5,
+        marginTop:3,
+        marginRight:4,
+        marginLeft:4
+    }
 };
 
 class CorporationMap extends Component {
@@ -107,7 +106,7 @@ class CorporationMap extends Component {
     const graph = this.getGraph();
     return (
       <BigBoxLayout
-        style={{ height: "auto", overflow: "hidden" }}
+        style={{ height: "auto", overflow:'hidden' }}
         container={true}
         justify={"flex-start"}
       >
@@ -128,6 +127,14 @@ class CorporationMap extends Component {
           >
             <span>Shareholders corporation graph.</span>
           </ReactTooltip>
+            <div className={classNames(classes.divDictionary, "fontStyle8")}>
+                <div className={classes.circle} style={{background:'green'}}/>
+                Supplier
+                <div className={classes.circle} style={{background:'red'}}/>
+                Company
+                <div className={classes.circle} style={{background:'blue'}}/>
+                Person
+            </div>
         </div>
         {graph && graph.nodes.length > 0 ? (
           <Graph
