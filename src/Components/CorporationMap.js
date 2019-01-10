@@ -37,19 +37,19 @@ const styles = {
     marginTop: -2,
     marginLeft: 6
   },
-    divDictionary:{
-      marginLeft:10,
-      display:'flex',
-        marginTop:3
-    },
-    circle: {
-      width:9,
-        height:9,
-        borderRadius:4.5,
-        marginTop:3,
-        marginRight:4,
-        marginLeft:4
-    }
+  divDictionary: {
+    marginLeft: 10,
+    display: "flex",
+    marginTop: 3
+  },
+  circle: {
+    width: 9,
+    height: 9,
+    borderRadius: 4.5,
+    marginTop: 3,
+    marginRight: 4,
+    marginLeft: 4
+  }
 };
 
 class CorporationMap extends Component {
@@ -67,7 +67,7 @@ class CorporationMap extends Component {
         title:
           (item.properties.role ? "Role: " + item.properties.role + ". " : "") +
           (item.properties.shouldCapi && item.properties.shouldCapi > 0
-            ? "Capital: " + item.properties.shouldCapi + ". "
+            ? "Capital: ¥" + item.properties.shouldCapi + ". "
             : "") +
           (item.properties.stockPercent
             ? "Percent: " + item.properties.stockPercent + "%"
@@ -89,7 +89,7 @@ class CorporationMap extends Component {
               ? "Role: " + item.properties.role
               : undefined
             : (item.properties.registCapi
-                ? "Capital: " + item.properties.registCapi + ". "
+                ? "Capital: ¥" + item.properties.registCapi + ". "
                 : "") +
               (item.properties.status
                 ? "Status: " + item.properties.status
@@ -106,7 +106,7 @@ class CorporationMap extends Component {
     const graph = this.getGraph();
     return (
       <BigBoxLayout
-        style={{ height: "auto", overflow:'hidden' }}
+        style={{ height: "auto", overflow: "hidden" }}
         container={true}
         justify={"flex-start"}
       >
@@ -127,14 +127,14 @@ class CorporationMap extends Component {
           >
             <span>Shareholders corporation graph.</span>
           </ReactTooltip>
-            <div className={classNames(classes.divDictionary, "fontStyle8")}>
-                <div className={classes.circle} style={{background:'green'}}/>
-                Supplier
-                <div className={classes.circle} style={{background:'red'}}/>
-                Company
-                <div className={classes.circle} style={{background:'blue'}}/>
-                Person
-            </div>
+          <div className={classNames(classes.divDictionary, "fontStyle8")}>
+            <div className={classes.circle} style={{ background: "green" }} />
+            Supplier
+            <div className={classes.circle} style={{ background: "red" }} />
+            Company
+            <div className={classes.circle} style={{ background: "blue" }} />
+            Person
+          </div>
         </div>
         {graph && graph.nodes.length > 0 ? (
           <Graph
