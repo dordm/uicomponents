@@ -8,9 +8,22 @@ import classNames from "classnames";
 import ReactTooltip from "react-tooltip";
 import {
   BigBoxLayout,
-  StyledTitle
+  StyledTitle,
+  StyledCloseIcon
 } from "./LowLevelComponents/StyledComponents";
 import NoDataImg from "./LowLevelComponents/NoDataImg";
+import styled from "styled-components";
+import DialogContent from "@material-ui/core/DialogContent";
+import DialogTitle from "@material-ui/core/DialogTitle";
+import MoreDataShareholders from "./MoreDataShareholders";
+import Dialog from "@material-ui/core/Dialog";
+import "./css/fullScreenDialog.css";
+
+const StyledDialogContent = styled(DialogContent)`
+  width: 100%;
+  padding: 0px !important;
+  overflow-y: unset !important;
+`;
 
 const styles = {
   bottomMsg: {
@@ -30,10 +43,61 @@ const styles = {
   topIcon: {
     marginTop: -2,
     marginLeft: 6
+  },
+  divViewAll: {
+    marginTop: 19,
+    cursor: "pointer",
+    height: "fit-content"
+  },
+  dialog: {
+    background: "#F5F7FB"
   }
 };
 
 class PieChartWrapper extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      allShareholdersOpen: false
+    };
+  }
+
+  dialogMoreData() {
+    const { classes } = this.props;
+    return (
+      <Dialog
+        PaperProps={{
+          classes: {
+            root: classNames("fullScreenDialog", classes.dialog)
+          }
+        }}
+        open={this.state.allShareholdersOpen}
+        onClose={() => this.setState({ allShareholdersOpen: false })}
+        aria-labelledby="scroll-dialog-title"
+      >
+        <StyledCloseIcon
+          data-cy={"btnCloseDialog"}
+          onClick={() => this.setState({ allShareholdersOpen: false })}
+        >
+          <img alt="Close" src={Utils.getImage("Close.png")} />
+        </StyledCloseIcon>
+        <DialogTitle
+          className={"fontStyle3"}
+          style={{ textAlign: "center", marginTop: 24 }}
+        >
+          Corporate Map
+        </DialogTitle>
+        <StyledDialogContent>
+          <MoreDataShareholders
+            width={this.props.width}
+            corporateMap={this.props.corporateMap}
+            chineseName={this.props.chineseName}
+          />
+        </StyledDialogContent>
+      </Dialog>
+    );
+  }
+
   render() {
     const { classes } = this.props;
     return (
@@ -42,7 +106,11 @@ class PieChartWrapper extends Component {
         justify={"flex-start"}
         alignItems={"flex-start"}
       >
-        <StyledTitle width={this.props.width} mobileWidth={""} otherWidth={""}>
+        <StyledTitle
+          width={this.props.width}
+          mobileWidth={"65%"}
+          otherWidth={"75%"}
+        >
           <Typography className={classNames("fontStyle1")}>
             {this.props.title}
           </Typography>
@@ -62,6 +130,22 @@ class PieChartWrapper extends Component {
             <span>{this.props.infoText}</span>
           </ReactTooltip>
         </StyledTitle>
+        {this.props.title === "Shareholders" && this.props.corporateMap ? (
+          <div
+            data-cy="viewAllShareholders"
+            className={classNames(classes.divViewAll, "fontStyle6")}
+            onClick={() => this.setState({ allShareholdersOpen: true })}
+          >
+            View All
+            <img
+              alt="view all"
+              src={require("./images/Back.png")}
+              style={{ marginTop: -4, position: "absolute" }}
+            />
+          </div>
+        ) : (
+          ""
+        )}
         {this.props.data !== undefined && this.props.data.length > 0 ? (
           <PieChart
             width={this.props.width}
@@ -111,6 +195,7 @@ class PieChartWrapper extends Component {
         >
           <span>{this.props.bottomMsg}</span>
         </ReactTooltip>
+        {this.dialogMoreData()}
       </BigBoxLayout>
     );
   }

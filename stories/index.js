@@ -66,6 +66,8 @@ storiesOf("Components", module)
         "this supplier his good shareholder and not good dasvsdfd asddffdvsda fgasdfasdfdv savsdvsad dfsavsdvdswf"
       }
       dataKey={"percent"}
+      corporateMap={reportData.corporateMap}
+      chineseName={reportData.originalName}
     />
   ))
   .add("Industry", () => (

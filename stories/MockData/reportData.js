@@ -1,5 +1,5 @@
 const reportData = {
-  originalName: "艾森（北京）贸易有限公司",
+  originalName: "苏州市东望钣金有限公司",
   registrationNumber: "371100200006586",
   score: 80,
   dateOfRegistration: "April 2007",
@@ -3394,13 +3394,325 @@ const reportData = {
       { country: "Kazakhstan", shipment_count: "2", value_of_goods: 6537 },
       { country: "Latvia", shipment_count: "1", value_of_goods: 5200 },
       { country: "Germany", shipment_count: "1", value_of_goods: 1100 }
-    ]
-  },
+]
+},
   shareholders: [
     { name: "Ma Haihua", percent: 30, associate: 1 },
     { name: "Wang Zhaoting", percent: 20, key: 2 },
     { name: "Wang Haihua", percent: 50, key: 3 }
-  ]
+  ],
+  corporateMap:{
+      "nodes" : [
+          {
+              "id" : "135151278",
+              "labels" : [
+                  "Person"
+              ],
+              "properties" : {
+                  "hasImage" : false,
+                  "keyNo" : "pe12dc96bd135bff67128c673f7715ad",
+                  "name" : "张关千",
+                  "role" : ""
+              }
+          },
+          {
+              "id" : "49325650",
+              "labels" : [
+                  "Company"
+              ],
+              "properties" : {
+                  "econKind" : "有限责任公司",
+                  "hasImage" : false,
+                  "keyNo" : "cff217cd4d145f66667d4b97b657a53a",
+                  "name" : "苏州市东望钣金有限公司",
+                  "registCapi" : "4000.000",
+                  "status" : "在业"
+              }
+          },
+          {
+              "id" : "152341760",
+              "labels" : [
+                  "Person"
+              ],
+              "properties" : {
+                  "hasImage" : false,
+                  "keyNo" : "pr6d0f9cb4aa72a9196e9f2dc7d25915",
+                  "name" : "张济达",
+                  "role" : "自然人股东"
+              }
+          },
+          {
+              "id" : "121090768",
+              "labels" : [
+                  "Person"
+              ],
+              "properties" : {
+                  "hasImage" : false,
+                  "keyNo" : "pb50dbfd075b12496a3a5e20031a2356",
+                  "name" : "张建平",
+                  "role" : ""
+              }
+          },
+          {
+              "id" : "27841455",
+              "labels" : [
+                  "Company"
+              ],
+              "properties" : {
+                  "econKind" : "有限责任公司",
+                  "hasImage" : false,
+                  "keyNo" : "7608ab016f486a6bc5dede4d7a127d89",
+                  "name" : "苏州市东望精密制造有限公司",
+                  "registCapi" : "2000.000",
+                  "status" : "在业"
+              }
+          },
+          {
+              "id" : "24153822",
+              "labels" : [
+                  "Company"
+              ],
+              "properties" : {
+                  "econKind" : "有限责任公司",
+                  "hasImage" : false,
+                  "keyNo" : "6697feb812d092a98f810a1ed7310594",
+                  "name" : "苏州市东望医疗设备有限公司",
+                  "registCapi" : "6500.000",
+                  "status" : "在业"
+              }
+          },
+          {
+              "id" : "16802446",
+              "labels" : [
+                  "Company"
+              ],
+              "properties" : {
+                  "econKind" : "有限责任公司",
+                  "hasImage" : false,
+                  "keyNo" : "473bde1e86eaaf408e18640020fcea0a",
+                  "name" : "苏州市富士达仓储成套设备有限公司",
+                  "registCapi" : "450.000",
+                  "status" : "注销"
+              }
+          }
+      ],
+      "relationships" : [
+          {
+              "endNode" : "27841455",
+              "id" : "180595554",
+              "properties" : {
+                  "role" : "总经理"
+              },
+              "startNode" : "121090768",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "27841455",
+              "id" : "28703543",
+              "properties" : {
+                  "role" : "自然人股东",
+                  "shouldCapi" : 0,
+                  "stockPercent" : 0
+              },
+              "startNode" : "121090768",
+              "type" : "INVEST"
+          },
+          {
+              "endNode" : "24153822",
+              "id" : "27889643",
+              "properties" : {
+                  "role" : "自然人股东",
+                  "shouldCapi" : 0,
+                  "stockPercent" : 0
+              },
+              "startNode" : "121090768",
+              "type" : "INVEST"
+          },
+          {
+              "endNode" : "27841455",
+              "id" : "180595552",
+              "properties" : {
+                  "role" : "监事"
+              },
+              "startNode" : "152341760",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "24153822",
+              "id" : "27889644",
+              "properties" : {
+                  "role" : "自然人股东",
+                  "shouldCapi" : 0,
+                  "stockPercent" : 0
+              },
+              "startNode" : "152341760",
+              "type" : "INVEST"
+          },
+          {
+              "endNode" : "27841455",
+              "id" : "28703544",
+              "properties" : {
+                  "role" : "自然人股东",
+                  "shouldCapi" : 0,
+                  "stockPercent" : 0
+              },
+              "startNode" : "152341760",
+              "type" : "INVEST"
+          },
+          {
+              "endNode" : "16802446",
+              "id" : "253948658",
+              "properties" : {
+                  "role" : "执行董事兼总经理"
+              },
+              "startNode" : "121090768",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "49325650",
+              "id" : "206722054",
+              "properties" : {
+                  "role" : "监事"
+              },
+              "startNode" : "152341760",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "24153822",
+              "id" : "179356836",
+              "properties" : {
+                  "role" : "执行董事"
+              },
+              "startNode" : "121090768",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "16802446",
+              "id" : "77579655",
+              "properties" : {
+                  "role" : "自然人股东",
+                  "shouldCapi" : 427.500000,
+                  "stockPercent" : 95
+              },
+              "startNode" : "121090768",
+              "type" : "INVEST"
+          },
+          {
+              "endNode" : "49325650",
+              "id" : "117146530",
+              "properties" : {
+                  "role" : ""
+              },
+              "startNode" : "135151278",
+              "type" : "LEGAL"
+          },
+          {
+              "endNode" : "24153822",
+              "id" : "179356841",
+              "properties" : {
+                  "role" : "监事"
+              },
+              "startNode" : "152341760",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "49325650",
+              "id" : "206722059",
+              "properties" : {
+                  "role" : "总经理"
+              },
+              "startNode" : "121090768",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "16802446",
+              "id" : "140025441",
+              "properties" : {
+                  "role" : ""
+              },
+              "startNode" : "121090768",
+              "type" : "LEGAL"
+          },
+          {
+              "endNode" : "24153822",
+              "id" : "179356842",
+              "properties" : {
+                  "role" : "总经理"
+              },
+              "startNode" : "121090768",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "49325650",
+              "id" : "206722057",
+              "properties" : {
+                  "role" : "执行董事"
+              },
+              "startNode" : "135151278",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "49325650",
+              "id" : "46107044",
+              "properties" : {
+                  "role" : "自然人股东",
+                  "shouldCapi" : 180,
+                  "stockPercent" : 4.500000
+              },
+              "startNode" : "135151278",
+              "type" : "INVEST"
+          },
+          {
+              "endNode" : "49325650",
+              "id" : "46107043",
+              "properties" : {
+                  "role" : "自然人股东",
+                  "shouldCapi" : 1020,
+                  "stockPercent" : 25.500000
+              },
+              "startNode" : "152341760",
+              "type" : "INVEST"
+          },
+          {
+              "endNode" : "27841455",
+              "id" : "180595551",
+              "properties" : {
+                  "role" : "执行董事"
+              },
+              "startNode" : "121090768",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "27841455",
+              "id" : "104499238",
+              "properties" : {
+                  "role" : ""
+              },
+              "startNode" : "121090768",
+              "type" : "LEGAL"
+          },
+          {
+              "endNode" : "24153822",
+              "id" : "103900972",
+              "properties" : {
+                  "role" : ""
+              },
+              "startNode" : "121090768",
+              "type" : "LEGAL"
+          },
+          {
+              "endNode" : "49325650",
+              "id" : "46107041",
+              "properties" : {
+                  "role" : "自然人股东",
+                  "shouldCapi" : 2800,
+                  "stockPercent" : 70
+              },
+              "startNode" : "121090768",
+              "type" : "INVEST"
+          }
+      ]
+  }
 };
 
 export default reportData;

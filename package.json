@@ -1,6 +1,6 @@
 {
   "name": "@tiidan/uicomponents",
-  "version": "0.2.56",
+  "version": "0.2.57",
   "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
   "main": "dist/index.js",
   "scripts": {
@@ -10,7 +10,9 @@
     "build-storybook": "build-storybook"
   },
   "dependencies": {
+    "d3-force": "^2.0.0",
     "react-google-maps": "^9.4.5",
+    "react-graph-vis": "^1.0.2",
     "react-number-format": "^3.6.2",
     "react-tooltip": "^3.8.4",
     "recharts": "^1.1.0",
