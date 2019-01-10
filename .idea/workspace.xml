@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="deedca82-8ad4-4e62-ac9a-df5681d3be65" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/Components/CorporationMap.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/CorporationMap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/css/vis-network.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/css/vis-network.min.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -82,7 +82,9 @@
       <file leaf-file-name="vis-network.min.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Components/css/vis-network.min.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-811" />
+            <state relative-caret-position="170">
+              <caret column="2069" selection-start-column="2069" selection-end-column="2069" />
+            </state>
           </provider>
         </entry>
       </file>
@@ -111,7 +113,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>unknown</find>
       <find>shipments</find>
       <find>this.state.data</find>
       <find>replace</find>
@@ -141,6 +142,7 @@
       <find>map</find>
       <find>edges</find>
       <find>console.log</find>
+      <find>url</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -149,7 +151,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Components/InfoCard.js" />
         <option value="$PROJECT_DIR$/src/Components/MoreDataBranchesInvestments.js" />
         <option value="$PROJECT_DIR$/src/Components/RegistrationDetails.js" />
         <option value="$PROJECT_DIR$/src/Components/AreaChart.js" />
@@ -199,6 +200,7 @@
         <option value="$PROJECT_DIR$/src/Components/ShareholdersExpansion.js" />
         <option value="$PROJECT_DIR$/src/Components/MoreDataShareholders.js" />
         <option value="$PROJECT_DIR$/src/Components/CorporationMap.js" />
+        <option value="$PROJECT_DIR$/src/Components/css/vis-network.min.css" />
         <option value="$PROJECT_DIR$/package.json" />
       </list>
     </option>
@@ -420,18 +422,18 @@
       <workItem from="1547024104797" duration="8340000" />
       <workItem from="1547036591173" duration="10849000" />
       <workItem from="1547055277725" duration="608000" />
-      <workItem from="1547106989425" duration="14742000" />
+      <workItem from="1547106989425" duration="15019000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="258366000" />
+    <option name="totallyTimeSpent" value="258643000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4982699" visible="true" weight="0.14805058" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4982699" visible="true" weight="0.14805058" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50052685" side_tool="true" weight="0.39069265" />
@@ -440,7 +442,7 @@
       <window_info anchor="bottom" id="Run" order="2" weight="0.32900432" />
       <window_info id="npm" order="3" sideWeight="0.5017301" side_tool="true" weight="0.14805058" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.49947312" visible="true" weight="0.39069265" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49947312" visible="true" weight="0.39069265" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -836,11 +838,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/css/vis-network.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-811" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/CorporationMap.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -848,6 +845,13 @@
           <folding>
             <element signature="e#0#36#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/css/vis-network.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret column="2069" selection-start-column="2069" selection-end-column="2069" />
         </state>
       </provider>
     </entry>
