@@ -43,6 +43,7 @@ function MoreData(props) {
         return (
           <div key={props.moreData.indexOf(item)}>
             <ListItem>
+              <div style={{display:'flex', width:'80%'}}>
               <img
                 height={24}
                 width={24}
@@ -55,6 +56,19 @@ function MoreData(props) {
                 {item.name}
                 {"\n"}
               </Typography>
+              </div>
+                {window.location.pathname.includes(
+                    "/direct/"
+                ) ? (
+                    ""
+                ) : (
+                <Typography
+                    style={{ cursor: "pointer" }}
+                    className={"fontStyle6"}
+                    onClick={() => props.addSupplier(item.name.substr(0, item.name.lastIndexOf('(') - 1), item.name.substr(item.name.lastIndexOf('(')))}
+                >
+                    Request Analysis
+                </Typography> )}
             </ListItem>
             <Divider />
           </div>
@@ -107,9 +121,9 @@ class MoreDataBranchesInvestments extends Component {
           />
         </Tabs>
         {this.state.selectedTab === this.props.moreSubTitle ? (
-          <MoreData classes={classes} moreData={this.props.moreData} />
+          <MoreData addSupplier={this.props.addSupplier} classes={classes} moreData={this.props.moreData} />
         ) : (
-          <MoreData classes={classes} moreData={this.props.moreData2} />
+          <MoreData addSupplier={this.props.addSupplier} classes={classes} moreData={this.props.moreData2} />
         )}
       </div>
     ) : null;

@@ -89,6 +89,7 @@ class PieChartWrapper extends Component {
         </DialogTitle>
         <StyledDialogContent>
           <MoreDataShareholders
+            addSupplier={this.props.addSupplier}
             width={this.props.width}
             corporateMap={this.props.corporateMap}
             chineseName={this.props.chineseName}

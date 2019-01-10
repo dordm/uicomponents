@@ -135,10 +135,14 @@ class ShareholdersExpansion extends Component {
                                     {item.sharesProperties.stockPercent}%
                                   </Typography>
                                 </div>
-                                {item.label === "Company" ? (
+                                {item.label === "Company" &&
+                                !window.location.pathname.includes(
+                                  "/direct/"
+                                ) ? (
                                   <Typography
                                     style={{ cursor: "pointer" }}
                                     className={"fontStyle6"}
+                                    onClick={() => this.props.addSupplier(item.properties.name,item.properties.name)}
                                   >
                                     Request Analysis
                                   </Typography>
@@ -185,12 +189,19 @@ class ShareholdersExpansion extends Component {
                                       ¥{associate.properties.registCapi}
                                     </Typography>
                                   </div>
-                                  <Typography
-                                    style={{ cursor: "pointer" }}
-                                    className={"fontStyle6"}
-                                  >
-                                    Request Analysis
-                                  </Typography>
+                                  {window.location.pathname.includes(
+                                    "/direct/"
+                                  ) ? (
+                                    ""
+                                  ) : (
+                                    <Typography
+                                      style={{ cursor: "pointer" }}
+                                      className={"fontStyle6"}
+                                      onClick={() => this.props.addSupplier(item.properties.name,item.properties.name)}
+                                    >
+                                      Request Analysis
+                                    </Typography>
+                                  )}
                                 </div>
                               ))}
                             </div>
