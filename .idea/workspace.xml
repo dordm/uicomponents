@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="deedca82-8ad4-4e62-ac9a-df5681d3be65" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/Components/MoreDataBranchesInvestments.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/MoreDataBranchesInvestments.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/MoreDataShareholders.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/MoreDataShareholders.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/PieChartWrapper.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/PieChartWrapper.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/ShareholdersExpansion.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/ShareholdersExpansion.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -446,12 +443,12 @@
       <workItem from="1547024104797" duration="8340000" />
       <workItem from="1547036591173" duration="10849000" />
       <workItem from="1547055277725" duration="608000" />
-      <workItem from="1547106989425" duration="18849000" />
+      <workItem from="1547106989425" duration="19092000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="262473000" />
+    <option name="totallyTimeSpent" value="262716000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
@@ -466,7 +463,7 @@
       <window_info anchor="bottom" id="Run" order="2" weight="0.32900432" />
       <window_info id="npm" order="3" sideWeight="0.5017301" side_tool="true" weight="0.14805058" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.49947312" visible="true" weight="0.63852817" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.49947312" visible="true" weight="0.37770563" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
