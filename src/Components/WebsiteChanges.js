@@ -52,24 +52,11 @@ const styles = {
 };
 
 class WebsiteChanges extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      websiteChanges: null
-    };
-  }
-  componentDidMount() {
-    this.setState({ websiteChanges: this.props.websiteChanges });
-  }
-  componentDidUpdate(prevProps) {
-    if (prevProps.websiteChanges !== this.props.websiteChanges)
-      this.setState({ websiteChanges: this.props.websiteChanges });
-  }
   getWebsiteData() {
     const data = [];
 
-    for (let i = 1; i < this.state.websiteChanges.length; i++) {
-      const change = this.state.websiteChanges[i];
+    for (let i = 1; i < this.props.websiteChanges.length; i++) {
+      const change = this.props.websiteChanges[i];
       const year = change[1].substr(0, 4);
       let found = false;
       for (let j = 0; j < data.length; j++) {
@@ -87,11 +74,7 @@ class WebsiteChanges extends Component {
   render() {
     const { classes } = this.props;
     return (
-      <BigBoxLayout
-        container={true}
-        justify={"flex-start"}
-        alignItems={"flex-start"}
-      >
+      <BigBoxLayout container={true} justify={"flex-start"} >
         <div className={classes.title}>
           <Typography className={classNames("fontStyle1")}>
             Website Changes
@@ -114,8 +97,8 @@ class WebsiteChanges extends Component {
             </span>
           </ReactTooltip>
         </div>
-        {this.state.websiteChanges && this.state.websiteChanges.length > 0 ? (
-          <div style={{ width: "100%" }}>
+        {this.props.websiteChanges && this.props.websiteChanges.length > 0 ? (
+          <div style={{ width:'100%' }}>
             <BarChart
               height={"88%"}
               width={this.props.width}

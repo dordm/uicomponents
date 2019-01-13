@@ -23,6 +23,7 @@ import "../src/Components/css/fonts.css";
 import "../src/Components/css/tooltip.css";
 import Utils from "../src/Components/js/Utils";
 import CompanyChanges from "../src/Components/CompanyChanges";
+import WebsiteChanges from "../src/Components/WebsiteChanges";
 
 const investmentsList =
   reportData.foreignInvestmentList != null &&
@@ -72,6 +73,12 @@ storiesOf("Components", module)
   ))
   .add("Industry", () => (
     <Industry width={window.innerWidth} report={reportData} />
+  ))
+  .add("Website Changes", () => (
+    <WebsiteChanges
+      width={window.innerWidth}
+      websiteChanges={reportData.websiteArchive.latestChanges}
+    />
   ))
   .add("Top Products", () => (
     <TopProducts width={window.innerWidth} report={reportData} />
