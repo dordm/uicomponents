@@ -16,9 +16,8 @@ import {
 } from "./LowLevelComponents/StyledComponents";
 import styled from "styled-components";
 import DialogContent from "@material-ui/core/DialogContent";
-import DialogTitle from "@material-ui/core/DialogTitle";
-import MoreDataWebsite from "./MoreDataWebsite";
-import Dialog from "@material-ui/core/Dialog";
+// import DialogTitle from "@material-ui/core/DialogTitle";
+// import Dialog from "@material-ui/core/Dialog";
 import "./css/fullScreenDialog.css";
 
 const StyledLblWebsite = styled.label`
@@ -43,11 +42,11 @@ const StyledListItemSecondary = styled(ListItemSecondaryAction)`
   text-overflow: ellipsis;
 `;
 
-const StyledDialogContent = styled(DialogContent)`
-  width: 100%;
-  padding: 0px !important;
-  overflow-y: unset !important;
-`;
+// const StyledDialogContent = styled(DialogContent)`
+//   width: 100%;
+//   padding: 0px !important;
+//   overflow-y: unset !important;
+// `;
 
 const styles = {
   title: {
@@ -92,8 +91,8 @@ class SocialMedia extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      report: this.props.report,
-      moreDataOpen: false
+      report: this.props.report
+      // moreDataOpen: false
     };
   }
 
@@ -102,42 +101,37 @@ class SocialMedia extends Component {
     else window.open("http://" + url);
   }
 
-  dialogMoreData() {
-    const { classes } = this.props;
-    return (
-      <Dialog
-        PaperProps={{
-          classes: {
-            root: classNames("fullScreenDialog", classes.dialog)
-          }
-        }}
-        open={this.state.moreDataOpen}
-        onClose={() => this.setState({ moreDataOpen: false })}
-        aria-labelledby="scroll-dialog-title"
-      >
-        <StyledCloseIcon
-          data-cy={"btnCloseDialog"}
-          onClick={() => this.setState({ moreDataOpen: false })}
-        >
-          <img alt="Close" src={Utils.getImage("Close.png")} />
-        </StyledCloseIcon>
-        <DialogTitle
-          className={"fontStyle3"}
-          style={{ textAlign: "center", marginTop: 24 }}
-        >
-          Website Information
-        </DialogTitle>
-        <StyledDialogContent>
-          <MoreDataWebsite
-            width={this.props.width}
-            websiteArchive={this.state.report.websiteArchive}
-            websiteWhoIs={this.state.report.websiteWhoIs}
-            websiteSimilarWeb={this.state.report.websiteSimilarWeb}
-          />
-        </StyledDialogContent>
-      </Dialog>
-    );
-  }
+  // dialogMoreData() {
+  //   const { classes } = this.props;
+  //   return (
+  //     <Dialog
+  //       PaperProps={{
+  //         classes: {
+  //           root: classNames("fullScreenDialog", classes.dialog)
+  //         }
+  //       }}
+  //       open={this.state.moreDataOpen}
+  //       onClose={() => this.setState({ moreDataOpen: false })}
+  //       aria-labelledby="scroll-dialog-title"
+  //     >
+  //       <StyledCloseIcon
+  //         data-cy={"btnCloseDialog"}
+  //         onClick={() => this.setState({ moreDataOpen: false })}
+  //       >
+  //         <img alt="Close" src={Utils.getImage("Close.png")} />
+  //       </StyledCloseIcon>
+  //       <DialogTitle
+  //         className={"fontStyle3"}
+  //         style={{ textAlign: "center", marginTop: 24 }}
+  //       >
+  //         Website Information
+  //       </DialogTitle>
+  //       <StyledDialogContent>
+  //         {/*here shuld apear the website data*/}
+  //       </StyledDialogContent>
+  //     </Dialog>
+  //   );
+  // }
 
   render() {
     const { classes } = this.props;
@@ -315,7 +309,7 @@ class SocialMedia extends Component {
             </ListItem>
           </List>
         </div>
-        {this.dialogMoreData()}
+        {/*{this.dialogMoreData()}*/}
       </BigBoxLayout>
     );
   }
