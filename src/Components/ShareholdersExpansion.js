@@ -124,7 +124,7 @@ class ShareholdersExpansion extends Component {
                               <div style={{ display: "flex" }}>
                                 <div style={{ width: "80%" }}>
                                   <Typography className={"fontStyle10"}>
-                                    {item.properties.name}{" "}
+                                    {item.properties.englishName}{" ("} {item.properties.name} {") "}
                                     {item.associate.length > 0
                                       ? `(Shareholder in ${
                                           item.associate.length
@@ -148,7 +148,7 @@ class ShareholdersExpansion extends Component {
                                     className={"fontStyle6"}
                                     onClick={() => {
                                       this.addSupplier(
-                                        "Temporary name" + item.id,
+                                        item.properties.englishName,
                                         item.properties.name
                                       );
                                     }}
@@ -176,13 +176,13 @@ class ShareholdersExpansion extends Component {
                                     }}
                                   >
                                     <Typography className={"fontStyle10"}>
-                                      {associate.properties.name}
+                                      {associate.properties.englishName} {" ("} {associate.properties.name} {")"}
                                     </Typography>
                                     <Typography
                                       style={{ display: "flex" }}
                                       className={"fontStyle7"}
                                     >
-                                      {"\u2022"}
+                                      {"\u2022 "}
                                       {associate.properties.status}
                                       <img
                                         alt={"capital"}
@@ -208,7 +208,7 @@ class ShareholdersExpansion extends Component {
                                       className={"fontStyle6"}
                                       onClick={() => {
                                         this.addSupplier(
-                                          "Temporary name" + associate.id,
+                                          associate.properties.englishName,
                                           associate.properties.name
                                         );
                                       }}

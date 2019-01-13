@@ -3409,6 +3409,7 @@ const reportData = {
                   "Person"
               ],
               "properties" : {
+                  "englishName" : "Zhang Guanqian",
                   "hasImage" : false,
                   "keyNo" : "pe12dc96bd135bff67128c673f7715ad",
                   "name" : "张关千",
@@ -3422,11 +3423,12 @@ const reportData = {
               ],
               "properties" : {
                   "econKind" : "有限责任公司",
+                  "englishName" : "Suzhou Dongwang Sheet Metal Co., Ltd.",
                   "hasImage" : false,
                   "keyNo" : "cff217cd4d145f66667d4b97b657a53a",
                   "name" : "苏州市东望钣金有限公司",
                   "registCapi" : "4000.000",
-                  "status" : "在业"
+                  "status" : "working"
               }
           },
           {
@@ -3435,10 +3437,11 @@ const reportData = {
                   "Person"
               ],
               "properties" : {
+                  "englishName" : "Zhang Ji-da",
                   "hasImage" : false,
                   "keyNo" : "pr6d0f9cb4aa72a9196e9f2dc7d25915",
                   "name" : "张济达",
-                  "role" : "自然人股东"
+                  "role" : "Natural person shareholders"
               }
           },
           {
@@ -3447,6 +3450,7 @@ const reportData = {
                   "Person"
               ],
               "properties" : {
+                  "englishName" : "Zhang Jianping",
                   "hasImage" : false,
                   "keyNo" : "pb50dbfd075b12496a3a5e20031a2356",
                   "name" : "张建平",
@@ -3460,11 +3464,12 @@ const reportData = {
               ],
               "properties" : {
                   "econKind" : "有限责任公司",
+                  "englishName" : "Suzhou Dongwang Precision Manufacturing Co., Ltd.",
                   "hasImage" : false,
                   "keyNo" : "7608ab016f486a6bc5dede4d7a127d89",
                   "name" : "苏州市东望精密制造有限公司",
                   "registCapi" : "2000.000",
-                  "status" : "在业"
+                  "status" : "working"
               }
           },
           {
@@ -3474,11 +3479,12 @@ const reportData = {
               ],
               "properties" : {
                   "econKind" : "有限责任公司",
+                  "englishName" : "Suzhou Dongwang Medical Equipment Co., Ltd.",
                   "hasImage" : false,
                   "keyNo" : "6697feb812d092a98f810a1ed7310594",
                   "name" : "苏州市东望医疗设备有限公司",
                   "registCapi" : "6500.000",
-                  "status" : "在业"
+                  "status" : "working"
               }
           },
           {
@@ -3488,11 +3494,12 @@ const reportData = {
               ],
               "properties" : {
                   "econKind" : "有限责任公司",
+                  "englishName" : "Suzhou Fuji Warehouse Equipment Co., Ltd.",
                   "hasImage" : false,
                   "keyNo" : "473bde1e86eaaf408e18640020fcea0a",
                   "name" : "苏州市富士达仓储成套设备有限公司",
                   "registCapi" : "450.000",
-                  "status" : "注销"
+                  "status" : "Write-off"
               }
           }
       ],
@@ -3510,7 +3517,7 @@ const reportData = {
               "endNode" : "27841455",
               "id" : "28703543",
               "properties" : {
-                  "role" : "自然人股东",
+                  "role" : "Natural person shareholders",
                   "shouldCapi" : 0,
                   "stockPercent" : 0
               },
@@ -3521,7 +3528,7 @@ const reportData = {
               "endNode" : "24153822",
               "id" : "27889643",
               "properties" : {
-                  "role" : "自然人股东",
+                  "role" : "Natural person shareholders",
                   "shouldCapi" : 0,
                   "stockPercent" : 0
               },
@@ -3541,7 +3548,7 @@ const reportData = {
               "endNode" : "24153822",
               "id" : "27889644",
               "properties" : {
-                  "role" : "自然人股东",
+                  "role" : "Natural person shareholders",
                   "shouldCapi" : 0,
                   "stockPercent" : 0
               },
@@ -3552,7 +3559,7 @@ const reportData = {
               "endNode" : "27841455",
               "id" : "28703544",
               "properties" : {
-                  "role" : "自然人股东",
+                  "role" : "Natural person shareholders",
                   "shouldCapi" : 0,
                   "stockPercent" : 0
               },
@@ -3590,7 +3597,7 @@ const reportData = {
               "endNode" : "16802446",
               "id" : "77579655",
               "properties" : {
-                  "role" : "自然人股东",
+                  "role" : "Natural person shareholders",
                   "shouldCapi" : 427.500000,
                   "stockPercent" : 95
               },
@@ -3655,7 +3662,7 @@ const reportData = {
               "endNode" : "49325650",
               "id" : "46107044",
               "properties" : {
-                  "role" : "自然人股东",
+                  "role" : "Natural person shareholders",
                   "shouldCapi" : 180,
                   "stockPercent" : 4.500000
               },
@@ -3666,7 +3673,7 @@ const reportData = {
               "endNode" : "49325650",
               "id" : "46107043",
               "properties" : {
-                  "role" : "自然人股东",
+                  "role" : "Natural person shareholders",
                   "shouldCapi" : 1020,
                   "stockPercent" : 25.500000
               },
@@ -3704,7 +3711,7 @@ const reportData = {
               "endNode" : "49325650",
               "id" : "46107041",
               "properties" : {
-                  "role" : "自然人股东",
+                  "role" : "Natural person shareholders",
                   "shouldCapi" : 2800,
                   "stockPercent" : 70
               },

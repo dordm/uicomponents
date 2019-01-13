@@ -76,7 +76,7 @@ class CorporationMap extends Component {
 
       const graphNodes = theNodes.map(item => ({
         id: item.id,
-        label: item.properties.name,
+        label: item.properties.englishName,
         color:
           item.labels[0] === "Person"
             ? "blue"
