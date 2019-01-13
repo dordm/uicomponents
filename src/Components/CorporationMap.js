@@ -106,7 +106,7 @@ class CorporationMap extends Component {
     const graph = this.getGraph();
     return (
       <BigBoxLayout
-        style={{ height: "auto", overflow: "hidden" }}
+        style={{ height: 500, overflow: "hidden" }}
         container={true}
         justify={"flex-start"}
       >
@@ -129,11 +129,11 @@ class CorporationMap extends Component {
           </ReactTooltip>
           <div className={classNames(classes.divDictionary, "fontStyle8")}>
             <div className={classes.circle} style={{ background: "green" }} />
-            Supplier
+            This Supplier
             <div className={classes.circle} style={{ background: "red" }} />
-            Company
+            Companies
             <div className={classes.circle} style={{ background: "blue" }} />
-            Person
+            Persons
           </div>
         </div>
         {graph && graph.nodes.length > 0 ? (
