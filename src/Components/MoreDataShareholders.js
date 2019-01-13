@@ -74,7 +74,7 @@ class MoreDataShareholders extends Component {
   }
   render() {
     const { corporateMap } = this.props;
-    return <Grid justify={"center"} item={true} md={12} container={true} direction={"row"} >
+    return <Grid item={true} md={12} container={true} direction={"row"} >
       <ShareholdersExpansion addSupplier={this.props.addSupplier} shareholders={this.state.shareholders} width={this.props.width}/>
       <CorporationMap corporateMap={corporateMap} supplier={this.state.supplier} width={this.props.width}/>
     </Grid>;

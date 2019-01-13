@@ -47,7 +47,7 @@ class WebsiteDetails extends Component {
   render() {
     const { classes } = this.props;
     return (
-      <BigBoxLayout container={true} justify={"flex-start"}>
+      <BigBoxLayout container={true} justify={"flex-start"} alignItems={"flex-start"}>
         <div className={classes.title}>
           <Typography className={classNames("fontStyle1")}>
             DNS Details

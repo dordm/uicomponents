@@ -1,6 +1,7 @@
 import React from "react";
 
 import Utils from "./Components/js/Utils";
+import WebsiteUtils from "./Components/js/WebsiteUtils";
 import MySuppliersUtils from "./Components/js/MySuppliersUtils";
 import SourcingUtils from "./Components/js/SourcingUtils";
 import IPUtils from "./Components/js/IPUtils";
@@ -60,7 +61,8 @@ import TopInsights from "./Components/TopInsights";
 import TopProducts from "./Components/TopProducts";
 import TotalExports from "./Components/TotalExports";
 import TwoInfoCard from "./Components/TwoInfoCard";
-import MoreDataWebsite from "./Components/MoreDataWebsite";
+import WebsiteDetails from "./Components/WebsiteDetails";
+import WebsiteChanges from "./Components/WebsiteChanges";
 
 export {
   CompanyScore,
@@ -118,5 +120,7 @@ export {
   StyledChip,
   MoreDataDishonest,
   MoreDataLawEnforcement,
-  MoreDataWebsite
+  WebsiteChanges,
+  WebsiteDetails,
+  WebsiteUtils
 };
