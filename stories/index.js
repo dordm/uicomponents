@@ -24,6 +24,7 @@ import "../src/Components/css/tooltip.css";
 import Utils from "../src/Components/js/Utils";
 import CompanyChanges from "../src/Components/CompanyChanges";
 import WebsiteChanges from "../src/Components/WebsiteChanges";
+import CorporationMap from "../src/Components/CorporationMap";
 
 const investmentsList =
   reportData.foreignInvestmentList != null &&
@@ -54,6 +55,15 @@ storiesOf("Components", module)
       width={window.innerWidth}
       category={"Overview"}
       data={reportData.insights}
+    />
+  ))
+  .add("Corporation Graph", () => (
+    <CorporationMap
+      width={window.innerWidth}
+      corporateMap={reportData.corporateMap}
+      supplier={reportData.corporateMap.nodes.find(
+        item => item.properties.name === reportData.originalName
+      )}
     />
   ))
   .add("Shareholders", () => (

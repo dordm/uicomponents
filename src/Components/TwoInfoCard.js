@@ -93,8 +93,10 @@ class TwoInfoCard extends Component {
 
   render() {
     const { classes } = this.props;
-    return (this.state.content1 && this.state.content1 !== "null") ||
-      (this.state.content2 && this.state.content2 !== "null") ? (
+    return ((this.state.content1 || this.state.content1 === 0) &&
+      this.state.content1 !== "null") ||
+      ((this.state.content2 || this.state.content2 === 0) &&
+        this.state.content2 !== "null") ? (
       <SmallBoxLayout container={true} direction={"column"}>
         <div style={{ width: "100%" }}>
           <StyledTitle
