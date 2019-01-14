@@ -57,7 +57,8 @@ const styles = {
     overflow: "hidden",
     width: "100%",
     background: "white",
-    margin: "1%"
+    margin: "1%",
+    position:'relative'
   }
 };
 
