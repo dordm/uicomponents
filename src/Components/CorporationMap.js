@@ -10,23 +10,6 @@ import classNames from "classnames";
 import "./css/vis-network.min.css";
 import { StyledButton } from "./LowLevelComponents/StyledComponents";
 
-const options = {
-  layout: {
-    hierarchical: false
-  },
-  nodes: {
-    shape: "image",
-    widthConstraint: 200
-  },
-  interaction: {
-    hover: true,
-    tooltipDelay: 0
-  },
-  physics: {
-    enabled: false
-  }
-};
-
 const styles = {
   title: {
     marginTop: 19,
@@ -58,33 +41,9 @@ const styles = {
     width: "100%",
     background: "white",
     margin: "1%",
-    position:'relative'
+    position: "relative"
   }
 };
-
-const events = {
-  hoverNode: function(event) {
-    let { node } = event;
-    ChangeTooltip(node, event, "block");
-  },
-  blurNode: function(event) {
-    let { node } = event;
-    setTimeout(() => {
-      ChangeTooltip(node, event, "none");
-    }, 300);
-  }
-};
-
-function ChangeTooltip(node, event, display) {
-  if (display === "block" || !this.state.isOnTooltip)
-    console.log("change tooltip")
-    this.setState({
-      xPos: event.pointer.DOM.x,
-      yPos: event.pointer.DOM.y - 50,
-      displayTooltip: display,
-      selectedNode: node
-    });
-}
 
 class CorporationMap extends Component {
   constructor(props) {
@@ -94,9 +53,46 @@ class CorporationMap extends Component {
       yPos: 0,
       displayTooltip: "none",
       isOnTooltip: false,
-      selectedNode: ""
+      selectedNode: "",
+      events: {
+        hoverNode: event => {
+          let { node } = event;
+          this.changeTooltip(node, event, "block");
+        },
+        blurNode: event => {
+          let { node } = event;
+          setTimeout(() => {
+            this.changeTooltip(node, event, "none");
+          }, 300);
+        }
+      },
+      options: {
+        layout: {
+          hierarchical: false
+        },
+        nodes: {
+          shape: "image",
+          widthConstraint: 200
+        },
+        interaction: {
+          hover: true,
+          tooltipDelay: 0
+        },
+        physics: {
+          enabled: false
+        }
+      }
     };
-    ChangeTooltip = ChangeTooltip.bind(this);
+  }
+
+  changeTooltip(node, event, display) {
+    if (display === "block" || !this.state.isOnTooltip)
+      this.setState({
+        xPos: event.pointer.DOM.x,
+        yPos: event.pointer.DOM.y - 50,
+        displayTooltip: display,
+        selectedNode: node
+      });
   }
 
   addSupplier(englishName, chineseName) {
@@ -183,9 +179,9 @@ class CorporationMap extends Component {
     return (
       <div className={classes.divWrapper}>
         <div
-          onMouseEnter={() => {console.log("mouse enter");this.setState({ isOnTooltip: true })}}
+          onMouseEnter={() => this.setState({ isOnTooltip: true })}
           onMouseLeave={() =>
-          {console.log("mouse leave");this.setState({ displayTooltip: "none", isOnTooltip: false })}
+            this.setState({ displayTooltip: "none", isOnTooltip: false })
           }
           id={"myTooltip"}
           className={classNames("tooltip", "fontStyle15")}
@@ -272,8 +268,8 @@ class CorporationMap extends Component {
           <Graph
             style={{ width: "100%", height: "100%" }}
             graph={graph}
-            options={options}
-            events={events}
+            options={this.state.options}
+            events={this.state.events}
           />
         ) : (
           <NoDataImg />

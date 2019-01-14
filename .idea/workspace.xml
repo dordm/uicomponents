@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="deedca82-8ad4-4e62-ac9a-df5681d3be65" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.cache/325c8f456729b912b0d2134054eb7448-dfeeb2271cc2857eb0a45a5003c8bbee" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/325c8f456729b912b0d2134054eb7448-dfeeb2271cc2857eb0a45a5003c8bbee" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/CorporationMap.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/CorporationMap.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -40,8 +42,8 @@
       <file leaf-file-name="CorporationMap.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Components/CorporationMap.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="219">
-              <caret line="79" column="31" selection-start-line="79" selection-start-column="31" selection-end-line="79" selection-end-column="31" />
+            <state relative-caret-position="501">
+              <caret line="271" column="30" selection-start-line="271" selection-start-column="30" selection-end-line="271" selection-end-column="30" />
               <folding>
                 <element signature="e#0#36#0" expanded="true" />
               </folding>
@@ -123,9 +125,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>map</find>
-      <find>edges</find>
-      <find>url</find>
       <find>Loader</find>
       <find>Request Analysis</find>
       <find>console.log</find>
@@ -153,6 +152,9 @@
       <find>supplier</find>
       <find>setState</find>
       <find>this.setState</find>
+      <find>ChangeTooltip</find>
+      <find>changeTooltip</find>
+      <find>console.og</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -437,12 +439,12 @@
       <workItem from="1547375449736" duration="4720000" />
       <workItem from="1547391677296" duration="1380000" />
       <workItem from="1547453589078" duration="4234000" />
-      <workItem from="1547460093363" duration="17244000" />
+      <workItem from="1547460093363" duration="18798000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="297710000" />
+    <option name="totallyTimeSpent" value="299264000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
@@ -793,8 +795,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/CorporationMap.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="79" column="31" selection-start-line="79" selection-start-column="31" selection-end-line="79" selection-end-column="31" />
+        <state relative-caret-position="501">
+          <caret line="271" column="30" selection-start-line="271" selection-start-column="30" selection-end-line="271" selection-end-column="30" />
           <folding>
             <element signature="e#0#36#0" expanded="true" />
           </folding>
