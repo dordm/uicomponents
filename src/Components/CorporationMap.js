@@ -76,9 +76,8 @@ const events = {
 };
 
 function ChangeTooltip(node, event, display) {
-  console.log(event);
-  console.log(document.getElementById("myTooltip"));
   if (display === "block" || !this.state.isOnTooltip)
+    console.log("change tooltip")
     this.setState({
       xPos: event.pointer.DOM.x,
       yPos: event.pointer.DOM.y - 50,
@@ -184,9 +183,9 @@ class CorporationMap extends Component {
     return (
       <div className={classes.divWrapper}>
         <div
-          onMouseEnter={() => this.setState({ isOnTooltip: true })}
+          onMouseEnter={() => {console.log("mouse enter");this.setState({ isOnTooltip: true })}}
           onMouseLeave={() =>
-            this.setState({ displayTooltip: "none", isOnTooltip: false })
+          {console.log("mouse leave");this.setState({ displayTooltip: "none", isOnTooltip: false })}
           }
           id={"myTooltip"}
           className={classNames("tooltip", "fontStyle15")}
