@@ -38,7 +38,7 @@ const styles = {
     marginLeft: 6
   },
   divDictionary: {
-    marginLeft: 10,
+    marginLeft: 22,
     display: "flex",
     marginTop: 3
   },
@@ -49,6 +49,13 @@ const styles = {
     marginTop: 3,
     marginRight: 4,
     marginLeft: 4
+  },
+  divWrapper: {
+    height: 500,
+    overflow: "hidden",
+    width: "100%",
+    background: "white",
+    margin: "1%"
   }
 };
 
@@ -105,9 +112,7 @@ class CorporationMap extends Component {
     const { classes } = this.props;
     const graph = this.getGraph();
     return (
-      <div
-        style={{ height: 500, overflow: "hidden", width:'100%', background:'white' }}
-      >
+      <div className={classes.divWrapper}>
         <div className={classes.title}>
           <Typography className={"fontStyle1"}>Corporation Graph</Typography>
           <div data-tip data-for={"tipCorpMap"}>
@@ -125,14 +130,14 @@ class CorporationMap extends Component {
           >
             <span>Shareholders corporation graph.</span>
           </ReactTooltip>
-          <div className={classNames(classes.divDictionary, "fontStyle8")}>
-            <div className={classes.circle} style={{ background: "green" }} />
-            This Supplier
-            <div className={classes.circle} style={{ background: "red" }} />
-            Companies
-            <div className={classes.circle} style={{ background: "blue" }} />
-            Persons
-          </div>
+        </div>
+        <div className={classNames(classes.divDictionary, "fontStyle8")}>
+          <div className={classes.circle} style={{ background: "green" }} />
+          This Supplier
+          <div className={classes.circle} style={{ background: "red" }} />
+          Companies
+          <div className={classes.circle} style={{ background: "blue" }} />
+          Persons
         </div>
         {graph && graph.nodes.length > 0 ? (
           <Graph

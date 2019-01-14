@@ -10,22 +10,13 @@ import {
   BigBoxLayout,
   StyledTitle,
   StyledCloseIcon,
-    StyledDialogContent
+  StyledDialogContent
 } from "./LowLevelComponents/StyledComponents";
 import NoDataImg from "./LowLevelComponents/NoDataImg";
-import styled from "styled-components";
-import DialogContent from "@material-ui/core/DialogContent";
 import DialogTitle from "@material-ui/core/DialogTitle";
-import MoreDataShareholders from "./MoreDataShareholders";
 import Dialog from "@material-ui/core/Dialog";
 import "./css/fullScreenDialog.css";
-import ShareholdersExpansion from './ShareholdersExpansion'
-
-// const StyledDialogContent = styled(DialogContent)`
-//   width: 100%;
-//   padding: 0px !important;
-//   overflow-y: unset !important;
-// `;
+import ShareholdersExpansion from "./ShareholdersExpansion";
 
 const styles = {
   bottomMsg: {
@@ -53,7 +44,7 @@ const styles = {
   },
   dialog: {
     background: "#F5F7FB",
-      margin:16
+    margin: 16
   }
 };
 
@@ -91,13 +82,12 @@ class PieChartWrapper extends Component {
           Corporate Map
         </DialogTitle>
         <StyledDialogContent>
-            <ShareholdersExpansion chineseName={this.props.chineseName} addSupplier={this.props.addSupplier} corporateMap={this.props.corporateMap} width={this.props.width}/>
-          {/*<MoreDataShareholders*/}
-            {/*addSupplier={this.props.addSupplier}*/}
-            {/*width={this.props.width}*/}
-            {/*corporateMap={this.props.corporateMap}*/}
-            {/*chineseName={this.props.chineseName}*/}
-          {/*/>*/}
+          <ShareholdersExpansion
+            chineseName={this.props.chineseName}
+            addSupplier={this.props.addSupplier}
+            corporateMap={this.props.corporateMap}
+            width={this.props.width}
+          />
         </StyledDialogContent>
       </Dialog>
     );

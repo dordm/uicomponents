@@ -41,89 +41,90 @@ const styles = {
   expansionSummaryInner: {
     margin: "0px !important"
   },
-  divWrapper:{
-      height: "auto", width:'100%', background:'white', paddingTop:8
+  divWrapper: {
+    height: "auto",
+    width: "100%",
+    background: "white",
+    paddingTop: 8
   }
 };
 
 class ShareholdersExpansion extends Component {
-  constructor(props){
-    super(props)
-      this.state = {}
+  constructor(props) {
+    super(props);
+    this.state = {};
   }
   addSupplier(englishName, chineseName) {
     this.props.addSupplier(englishName, chineseName);
   }
-    componentDidMount() {
-        const { corporateMap } = this.props;
-        const persons = corporateMap.nodes.filter(
-            item => item.labels[0] === "Person"
-        );
-        const companies = corporateMap.nodes.filter(
-            item => item.labels[0] === "Company"
-        );
-        const investRelations = corporateMap.relationships.filter(
-            item => item.type === "INVEST"
-        );
-        const legalRelations = corporateMap.relationships.filter(
-            item => item.type === "LEGAL"
-        );
-        const employRelations = corporateMap.relationships.filter(
-            item => item.type === "EMPLOY"
-        );
+  componentDidMount() {
+    const { corporateMap } = this.props;
+    const persons = corporateMap.nodes.filter(
+      item => item.labels[0] === "Person"
+    );
+    const companies = corporateMap.nodes.filter(
+      item => item.labels[0] === "Company"
+    );
+    const investRelations = corporateMap.relationships.filter(
+      item => item.type === "INVEST"
+    );
+    const legalRelations = corporateMap.relationships.filter(
+      item => item.type === "LEGAL"
+    );
+    const employRelations = corporateMap.relationships.filter(
+      item => item.type === "EMPLOY"
+    );
 
-        const supplier = companies.find(
-            item => item.properties.name === this.props.chineseName
+    const supplier = companies.find(
+      item => item.properties.name === this.props.chineseName
+    );
+
+    const supplierId = supplier.id;
+
+    const shareholdersRelations = investRelations.filter(
+      item => item.endNode === supplierId
+    );
+
+    let shareholders = [];
+
+    for (let i = 0; i < shareholdersRelations.length; i++) {
+      const shareholder = corporateMap.nodes.find(
+        item => item.id === shareholdersRelations[i].startNode
+      );
+      const associateRelations = investRelations.filter(
+        item => item.startNode === shareholder.id && item.endNode !== supplierId
+      );
+      let associate = [];
+      for (let j = 0; j < associateRelations.length; j++) {
+        const associateComp = companies.find(
+          item => item.id === associateRelations[j].endNode
         );
-
-        const supplierId = supplier.id;
-
-        const shareholdersRelations = investRelations.filter(
-            item => item.endNode === supplierId
-        );
-
-        let shareholders = [];
-
-        for (let i = 0; i < shareholdersRelations.length; i++) {
-            const shareholder = corporateMap.nodes.find(
-                item => item.id === shareholdersRelations[i].startNode
-            );
-            const associateRelations = investRelations.filter(
-                item => item.startNode === shareholder.id && item.endNode !== supplierId
-            );
-            let associate = [];
-            for (let j = 0; j < associateRelations.length; j++) {
-                const associateComp = companies.find(
-                    item => item.id === associateRelations[j].endNode
-                );
-                associate.push(associateComp);
-            }
-            shareholders.push({
-                id: shareholder.id,
-                label: shareholder.labels[0],
-                properties: shareholder.properties,
-                sharesProperties: shareholdersRelations[i].properties,
-                associate
-            });
-        }
-
-        this.setState({
-            persons,
-            supplier,
-            companies,
-            investRelations,
-            legalRelations,
-            employRelations,
-            supplierId,
-            shareholders
-        });
+        associate.push(associateComp);
+      }
+      shareholders.push({
+        id: shareholder.id,
+        label: shareholder.labels[0],
+        properties: shareholder.properties,
+        sharesProperties: shareholdersRelations[i].properties,
+        associate
+      });
     }
+
+    this.setState({
+      persons,
+      supplier,
+      companies,
+      investRelations,
+      legalRelations,
+      employRelations,
+      supplierId,
+      shareholders
+    });
+  }
   render() {
     const { classes } = this.props;
     return (
-      <div
-        className={classes.divWrapper}
-      >
+      <div className={classes.divWrapper}>
         <div className={classes.title}>
           <Typography className={classNames("fontStyle1")}>
             Shareholders Data
@@ -184,7 +185,8 @@ class ShareholdersExpansion extends Component {
                               <div style={{ display: "flex" }}>
                                 <div>
                                   <Typography className={"fontStyle10"}>
-                                    {item.properties.englishName}{" ("} {item.properties.name} {") "}
+                                    {item.properties.englishName}
+                                    {" ("} {item.properties.name} {") "}
                                     {item.associate.length > 0
                                       ? `(Shareholder in ${
                                           item.associate.length
@@ -204,7 +206,10 @@ class ShareholdersExpansion extends Component {
                                   "/direct/"
                                 ) ? (
                                   <Typography
-                                    style={{ cursor: "pointer", height:'fit-content' }}
+                                    style={{
+                                      cursor: "pointer",
+                                      height: "fit-content"
+                                    }}
                                     className={"fontStyle6"}
                                     onClick={() => {
                                       this.addSupplier(
@@ -223,7 +228,13 @@ class ShareholdersExpansion extends Component {
                           />
                         </StyledExpansionSummary>
                         {item.associate.length > 0 ? (
-                          <StyledExpansionPanelDetails style={{paddingRight:this.props.innerWidth > 600 ? 16 : 8, paddingLeft:this.props.innerWidth > 600 ? 16 : 8}}>
+                          <StyledExpansionPanelDetails
+                            style={{
+                              paddingRight:
+                                this.props.innerWidth > 600 ? 16 : 8,
+                              paddingLeft: this.props.innerWidth > 600 ? 16 : 8
+                            }}
+                          >
                             <div style={{ width: "100%" }}>
                               {item.associate.map((associate, idx) => (
                                 <div
@@ -232,7 +243,8 @@ class ShareholdersExpansion extends Component {
                                 >
                                   <div>
                                     <Typography className={"fontStyle10"}>
-                                      {associate.properties.englishName} {" ("} {associate.properties.name} {")"}
+                                      {associate.properties.englishName} {" ("}{" "}
+                                      {associate.properties.name} {")"}
                                     </Typography>
                                     <Typography
                                       style={{ display: "flex" }}
@@ -260,7 +272,10 @@ class ShareholdersExpansion extends Component {
                                     ""
                                   ) : (
                                     <Typography
-                                      style={{ cursor: "pointer", height:'fit-content' }}
+                                      style={{
+                                        cursor: "pointer",
+                                        height: "fit-content"
+                                      }}
                                       className={"fontStyle6"}
                                       onClick={() => {
                                         this.addSupplier(
