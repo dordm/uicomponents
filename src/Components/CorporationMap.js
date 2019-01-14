@@ -105,10 +105,8 @@ class CorporationMap extends Component {
     const { classes } = this.props;
     const graph = this.getGraph();
     return (
-      <BigBoxLayout
-        style={{ height: 500, overflow: "hidden" }}
-        container={true}
-        justify={"flex-start"}
+      <div
+        style={{ height: 500, overflow: "hidden", width:'100%', background:'white' }}
       >
         <div className={classes.title}>
           <Typography className={"fontStyle1"}>Corporation Graph</Typography>
@@ -146,7 +144,7 @@ class CorporationMap extends Component {
         ) : (
           <NoDataImg />
         )}
-      </BigBoxLayout>
+      </div>
     );
   }
 }

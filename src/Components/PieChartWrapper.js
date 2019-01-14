@@ -9,7 +9,8 @@ import ReactTooltip from "react-tooltip";
 import {
   BigBoxLayout,
   StyledTitle,
-  StyledCloseIcon
+  StyledCloseIcon,
+    StyledDialogContent
 } from "./LowLevelComponents/StyledComponents";
 import NoDataImg from "./LowLevelComponents/NoDataImg";
 import styled from "styled-components";
@@ -18,12 +19,13 @@ import DialogTitle from "@material-ui/core/DialogTitle";
 import MoreDataShareholders from "./MoreDataShareholders";
 import Dialog from "@material-ui/core/Dialog";
 import "./css/fullScreenDialog.css";
+import ShareholdersExpansion from './ShareholdersExpansion'
 
-const StyledDialogContent = styled(DialogContent)`
-  width: 100%;
-  padding: 0px !important;
-  overflow-y: unset !important;
-`;
+// const StyledDialogContent = styled(DialogContent)`
+//   width: 100%;
+//   padding: 0px !important;
+//   overflow-y: unset !important;
+// `;
 
 const styles = {
   bottomMsg: {
@@ -50,7 +52,8 @@ const styles = {
     height: "fit-content"
   },
   dialog: {
-    background: "#F5F7FB"
+    background: "#F5F7FB",
+      margin:16
   }
 };
 
@@ -68,7 +71,7 @@ class PieChartWrapper extends Component {
       <Dialog
         PaperProps={{
           classes: {
-            root: classNames("fullScreenDialog", classes.dialog)
+            root: classNames(classes.dialog)
           }
         }}
         open={this.state.allShareholdersOpen}
@@ -88,12 +91,13 @@ class PieChartWrapper extends Component {
           Corporate Map
         </DialogTitle>
         <StyledDialogContent>
-          <MoreDataShareholders
-            addSupplier={this.props.addSupplier}
-            width={this.props.width}
-            corporateMap={this.props.corporateMap}
-            chineseName={this.props.chineseName}
-          />
+            <ShareholdersExpansion chineseName={this.props.chineseName} addSupplier={this.props.addSupplier} corporateMap={this.props.corporateMap} width={this.props.width}/>
+          {/*<MoreDataShareholders*/}
+            {/*addSupplier={this.props.addSupplier}*/}
+            {/*width={this.props.width}*/}
+            {/*corporateMap={this.props.corporateMap}*/}
+            {/*chineseName={this.props.chineseName}*/}
+          {/*/>*/}
         </StyledDialogContent>
       </Dialog>
     );

@@ -10,7 +10,6 @@ import Utils from "./js/Utils";
 import ReactTooltip from "react-tooltip";
 import Divider from "@material-ui/core/Divider";
 import {
-  BigBoxLayout,
   StyledExpansionPanel,
   StyledListItem,
   StyledListItemText,
@@ -35,34 +34,95 @@ const styles = {
   listDiv: {
     width: "100%"
   },
-  listItemSecondary: {
-    textAlign: "left",
-    width: "50%",
-    whiteSpace: "nowrap",
-    overflow: "hidden",
-    textOverflow: "ellipsis"
-  },
   topIcon: {
     marginTop: -2,
     marginLeft: 6
   },
   expansionSummaryInner: {
     margin: "0px !important"
+  },
+  divWrapper:{
+      height: "auto", width:'100%', background:'white', paddingTop:8
   }
 };
 
 class ShareholdersExpansion extends Component {
+  constructor(props){
+    super(props)
+      this.state = {}
+  }
   addSupplier(englishName, chineseName) {
     this.props.addSupplier(englishName, chineseName);
   }
+    componentDidMount() {
+        const { corporateMap } = this.props;
+        const persons = corporateMap.nodes.filter(
+            item => item.labels[0] === "Person"
+        );
+        const companies = corporateMap.nodes.filter(
+            item => item.labels[0] === "Company"
+        );
+        const investRelations = corporateMap.relationships.filter(
+            item => item.type === "INVEST"
+        );
+        const legalRelations = corporateMap.relationships.filter(
+            item => item.type === "LEGAL"
+        );
+        const employRelations = corporateMap.relationships.filter(
+            item => item.type === "EMPLOY"
+        );
 
+        const supplier = companies.find(
+            item => item.properties.name === this.props.chineseName
+        );
+
+        const supplierId = supplier.id;
+
+        const shareholdersRelations = investRelations.filter(
+            item => item.endNode === supplierId
+        );
+
+        let shareholders = [];
+
+        for (let i = 0; i < shareholdersRelations.length; i++) {
+            const shareholder = corporateMap.nodes.find(
+                item => item.id === shareholdersRelations[i].startNode
+            );
+            const associateRelations = investRelations.filter(
+                item => item.startNode === shareholder.id && item.endNode !== supplierId
+            );
+            let associate = [];
+            for (let j = 0; j < associateRelations.length; j++) {
+                const associateComp = companies.find(
+                    item => item.id === associateRelations[j].endNode
+                );
+                associate.push(associateComp);
+            }
+            shareholders.push({
+                id: shareholder.id,
+                label: shareholder.labels[0],
+                properties: shareholder.properties,
+                sharesProperties: shareholdersRelations[i].properties,
+                associate
+            });
+        }
+
+        this.setState({
+            persons,
+            supplier,
+            companies,
+            investRelations,
+            legalRelations,
+            employRelations,
+            supplierId,
+            shareholders
+        });
+    }
   render() {
     const { classes } = this.props;
     return (
-      <BigBoxLayout
-        style={{ height: "auto" }}
-        container={true}
-        justify={"flex-start"}
+      <div
+        className={classes.divWrapper}
       >
         <div className={classes.title}>
           <Typography className={classNames("fontStyle1")}>
@@ -84,10 +144,10 @@ class ShareholdersExpansion extends Component {
             <span>Shareholders associates information.</span>
           </ReactTooltip>
         </div>
-        {this.props.shareholders && this.props.shareholders.length > 0 ? (
+        {this.state.shareholders && this.state.shareholders.length > 0 ? (
           <div className={classes.listDiv}>
             <List>
-              {this.props.shareholders.map((item, idx) => {
+              {this.state.shareholders.map((item, idx) => {
                 return (
                   <div key={idx}>
                     <StyledListItem>
@@ -122,7 +182,7 @@ class ShareholdersExpansion extends Component {
                           <StyledListItemText
                             primary={
                               <div style={{ display: "flex" }}>
-                                <div style={{ width: "80%" }}>
+                                <div>
                                   <Typography className={"fontStyle10"}>
                                     {item.properties.englishName}{" ("} {item.properties.name} {") "}
                                     {item.associate.length > 0
@@ -144,7 +204,7 @@ class ShareholdersExpansion extends Component {
                                   "/direct/"
                                 ) ? (
                                   <Typography
-                                    style={{ cursor: "pointer" }}
+                                    style={{ cursor: "pointer", height:'fit-content' }}
                                     className={"fontStyle6"}
                                     onClick={() => {
                                       this.addSupplier(
@@ -163,18 +223,14 @@ class ShareholdersExpansion extends Component {
                           />
                         </StyledExpansionSummary>
                         {item.associate.length > 0 ? (
-                          <StyledExpansionPanelDetails>
+                          <StyledExpansionPanelDetails style={{paddingRight:this.props.innerWidth > 600 ? 16 : 8, paddingLeft:this.props.innerWidth > 600 ? 16 : 8}}>
                             <div style={{ width: "100%" }}>
                               {item.associate.map((associate, idx) => (
                                 <div
                                   key={idx}
                                   style={{ display: "flex", marginBottom: 12 }}
                                 >
-                                  <div
-                                    style={{
-                                      width: "80%"
-                                    }}
-                                  >
+                                  <div>
                                     <Typography className={"fontStyle10"}>
                                       {associate.properties.englishName} {" ("} {associate.properties.name} {")"}
                                     </Typography>
@@ -204,7 +260,7 @@ class ShareholdersExpansion extends Component {
                                     ""
                                   ) : (
                                     <Typography
-                                      style={{ cursor: "pointer" }}
+                                      style={{ cursor: "pointer", height:'fit-content' }}
                                       className={"fontStyle6"}
                                       onClick={() => {
                                         this.addSupplier(
@@ -234,7 +290,7 @@ class ShareholdersExpansion extends Component {
         ) : (
           <NoDataImg />
         )}
-      </BigBoxLayout>
+      </div>
     );
   }
 }

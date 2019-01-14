@@ -26,6 +26,7 @@ import MoreDataCourtCases from "./Components/MoreDataCourtCases";
 import CompanyChanges from "./Components/CompanyChanges";
 import MoreDataDishonest from "./Components/MoreDataDishonest";
 import MoreDataLawEnforcement from "./Components/MoreDataLawEnforcement";
+import CorporationMap from './Components/CorporationMap'
 import {
   StyledCloseIcon,
   SearchInputWrapper,
@@ -122,5 +123,6 @@ export {
   MoreDataLawEnforcement,
   WebsiteChanges,
   WebsiteDetails,
-  WebsiteUtils
+  WebsiteUtils,
+  CorporationMap
 };
