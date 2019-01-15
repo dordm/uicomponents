@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="deedca82-8ad4-4e62-ac9a-df5681d3be65" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/Components/TwoInfoCard.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/TwoInfoCard.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/WebsiteDetails.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/WebsiteDetails.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/js/WebsiteUtils.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/js/WebsiteUtils.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/PieChartWrapper.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/PieChartWrapper.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/ShareholdersExpansion.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/ShareholdersExpansion.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -49,7 +50,7 @@
         <entry file="file://$PROJECT_DIR$/src/Components/js/WebsiteUtils.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="157">
-              <caret line="76" column="28" lean-forward="true" selection-start-line="76" selection-start-column="28" selection-end-line="76" selection-end-column="28" />
+              <caret line="76" column="28" selection-start-line="76" selection-start-column="28" selection-end-line="76" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -57,8 +58,11 @@
       <file leaf-file-name="CorporationMap.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Components/CorporationMap.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="54" selection-start-line="4" selection-start-column="54" selection-end-line="4" selection-end-column="54" />
+            <state relative-caret-position="182">
+              <caret line="94" column="25" lean-forward="true" selection-start-line="94" selection-start-column="25" selection-end-line="94" selection-end-column="25" />
+              <folding>
+                <element signature="e#0#36#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -67,7 +71,7 @@
         <entry file="file://$PROJECT_DIR$/src/Components/TwoInfoCard.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="14">
-              <caret line="159" column="37" lean-forward="true" selection-start-line="159" selection-start-column="37" selection-end-line="159" selection-end-column="37" />
+              <caret line="159" column="37" selection-start-line="159" selection-start-column="37" selection-end-line="159" selection-end-column="37" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -78,8 +82,20 @@
       <file leaf-file-name="ShareholdersExpansion.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Components/ShareholdersExpansion.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" selection-start-line="21" selection-end-line="21" selection-end-column="39" />
+            <state relative-caret-position="337">
+              <caret line="120" column="37" lean-forward="true" selection-start-line="120" selection-start-column="37" selection-end-line="120" selection-end-column="37" />
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TopProducts.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Components/TopProducts.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="47" column="16" lean-forward="true" selection-start-line="47" selection-start-column="16" selection-end-line="47" selection-end-column="59" />
             </state>
           </provider>
         </entry>
@@ -96,20 +112,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Certifications.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Components/Certifications.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="298">
-              <caret line="23" column="2" selection-start-line="23" selection-start-column="2" selection-end-line="23" selection-end-column="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="PieChartWrapper.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Components/PieChartWrapper.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="179">
-              <caret line="130" column="68" selection-start-line="130" selection-start-column="68" selection-end-line="130" selection-end-column="68" />
+            <state relative-caret-position="230">
+              <caret line="106" column="28" lean-forward="true" selection-start-line="106" selection-start-column="28" selection-end-line="106" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -127,7 +134,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>topIcon</find>
       <find>expansionSummaryInner</find>
       <find>BigBoxLayout</find>
       <find>StyledDialogContent</find>
@@ -144,7 +150,6 @@
       <find>console.og</find>
       <find>length</find>
       <find>console.log</find>
-      <find>divViewAll</find>
       <find>StyledExpansionSummary</find>
       <find>StyledExpansionPanelDetails</find>
       <find>StyledListItem</find>
@@ -152,11 +157,13 @@
       <find>content</find>
       <find>S</find>
       <find>GroupIcon</find>
-      <find>StyledChip</find>
-      <find>StyledDivTooltip</find>
       <find>substr</find>
       <find>registrant</find>
       <find>getWebsiteStatus</find>
+      <find>StyledDivTooltip</find>
+      <find>sort</find>
+      <find>divViewAll</find>
+      <find>StyledChip</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -209,12 +216,12 @@
         <option value="$PROJECT_DIR$/src/Components/images/person.svg" />
         <option value="$PROJECT_DIR$/src/Components/css/vis-network.min.css" />
         <option value="$PROJECT_DIR$/stories/MockData/reportData.js" />
-        <option value="$PROJECT_DIR$/src/Components/PieChartWrapper.js" />
-        <option value="$PROJECT_DIR$/src/Components/ShareholdersExpansion.js" />
-        <option value="$PROJECT_DIR$/src/Components/CorporationMap.js" />
         <option value="$PROJECT_DIR$/src/Components/TwoInfoCard.js" />
         <option value="$PROJECT_DIR$/src/Components/WebsiteDetails.js" />
         <option value="$PROJECT_DIR$/src/Components/js/WebsiteUtils.js" />
+        <option value="$PROJECT_DIR$/src/Components/PieChartWrapper.js" />
+        <option value="$PROJECT_DIR$/src/Components/CorporationMap.js" />
+        <option value="$PROJECT_DIR$/src/Components/ShareholdersExpansion.js" />
         <option value="$PROJECT_DIR$/package.json" />
       </list>
     </option>
@@ -322,16 +329,16 @@
     <property name="prettierjs.PrettierConfiguration.Package" value="C:\Users\Dor Damry\Desktop\Tiidan\projects\uicomponents\node_modules\prettier" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Dor Damry\Desktop\Tiidan\projects\uicomponents\src\Components\images" />
+      <recent name="C:\Users\Dor Damry\Desktop\Tiidan\projects\uicomponents\src\Components\NetrowkChart" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Dor Damry\Desktop\Tiidan\projects\uicomponents\src\Components\images" />
       <recent name="C:\Users\Dor Damry\Desktop\Tiidan\projects\uicomponents\src\Components\css" />
       <recent name="C:\Users\Dor Damry\Desktop\Tiidan\projects\uicomponents\src\Components\LowLevelComponents" />
       <recent name="C:\Users\Dor Damry\Desktop\Tiidan\projects\uicomponents\src\Components" />
       <recent name="C:\Users\Dor Damry\Desktop\Tiidan\projects\uicomponents\src\Components\js" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Dor Damry\Desktop\Tiidan\projects\uicomponents\src\Components\images" />
-      <recent name="C:\Users\Dor Damry\Desktop\Tiidan\projects\uicomponents\src\Components\NetrowkChart" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -443,12 +450,12 @@
       <workItem from="1547453589078" duration="4234000" />
       <workItem from="1547460093363" duration="18844000" />
       <workItem from="1547503787840" duration="1060000" />
-      <workItem from="1547540376091" duration="21367000" />
+      <workItem from="1547540376091" duration="22999000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="321737000" />
+    <option name="totallyTimeSpent" value="323369000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
@@ -592,13 +599,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/TopProducts.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="110" column="8" selection-start-line="110" selection-start-column="8" selection-end-line="110" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/SocialMedia.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4760">
@@ -726,24 +726,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/PieChartWrapper.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="130" column="68" selection-start-line="130" selection-start-column="68" selection-end-line="130" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/Certifications.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="298">
           <caret line="23" column="2" selection-start-line="23" selection-start-column="2" selection-end-line="23" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/ShareholdersExpansion.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" selection-start-line="21" selection-end-line="21" selection-end-column="39" />
         </state>
       </provider>
     </entry>
@@ -757,17 +743,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/CorporationMap.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="54" selection-start-line="4" selection-start-column="54" selection-end-line="4" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/TwoInfoCard.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="14">
-          <caret line="159" column="37" lean-forward="true" selection-start-line="159" selection-start-column="37" selection-end-line="159" selection-end-column="37" />
+          <caret line="159" column="37" selection-start-line="159" selection-start-column="37" selection-end-line="159" selection-end-column="37" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
@@ -791,7 +770,41 @@
     <entry file="file://$PROJECT_DIR$/src/Components/js/WebsiteUtils.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="157">
-          <caret line="76" column="28" lean-forward="true" selection-start-line="76" selection-start-column="28" selection-end-line="76" selection-end-column="28" />
+          <caret line="76" column="28" selection-start-line="76" selection-start-column="28" selection-end-line="76" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/CorporationMap.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="94" column="25" lean-forward="true" selection-start-line="94" selection-start-column="25" selection-end-line="94" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#36#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/TopProducts.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="47" column="16" lean-forward="true" selection-start-line="47" selection-start-column="16" selection-end-line="47" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/PieChartWrapper.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="106" column="28" lean-forward="true" selection-start-line="106" selection-start-column="28" selection-end-line="106" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/ShareholdersExpansion.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="337">
+          <caret line="120" column="37" lean-forward="true" selection-start-line="120" selection-start-column="37" selection-end-line="120" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

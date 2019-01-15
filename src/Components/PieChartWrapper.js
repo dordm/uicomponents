@@ -104,7 +104,7 @@ class PieChartWrapper extends Component {
         <StyledTitle
           width={this.props.width}
           mobileWidth={"50%"}
-          otherWidth={"65%"}
+          otherWidth={"60%"}
         >
           <Typography className={classNames("fontStyle1")}>
             {this.props.title}

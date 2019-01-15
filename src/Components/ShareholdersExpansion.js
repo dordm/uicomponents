@@ -125,6 +125,10 @@ class ShareholdersExpansion extends Component {
       });
     }
 
+    shareholders.sort(function(a,b){
+        return b.sharesProperties.stockPercent - a.sharesProperties.stockPercent;
+    })
+
     this.setState({
       persons,
       supplier,
@@ -236,12 +240,28 @@ class ShareholdersExpansion extends Component {
                                         this.props.width > 600 ? "flex" : ""
                                     }}
                                   >
+                                      {item.associate.length > 0 ? (
+                                          <StyledChip
+                                              style={{ marginTop: 5, marginRight: 5 }}
+                                              type={"info"}
+                                              onClick={() => {}}
+                                              icon={
+                                                  <ExpandMoreIcon
+                                                      style={{ color: "#4C84FF" }}
+                                                  />
+                                              }
+                                              variant={"outlined"}
+                                              label={"Invested Companies"}
+                                          />
+                                      ) : (
+                                          ""
+                                      )}
                                     {item.label === "Company" &&
                                     !window.location.pathname.includes(
                                       "/direct/"
                                     ) ? (
                                       <StyledChip
-                                        style={{ marginRight: 5, marginTop: 5 }}
+                                        style={{  marginTop: 5 }}
                                         type={"info"}
                                         onClick={() => {
                                           this.addSupplier(
@@ -256,22 +276,6 @@ class ShareholdersExpansion extends Component {
                                         }
                                         variant={"outlined"}
                                         label={"Request Analysis"}
-                                      />
-                                    ) : (
-                                      ""
-                                    )}
-                                    {item.associate.length > 0 ? (
-                                      <StyledChip
-                                        style={{ marginTop: 5 }}
-                                        type={"info"}
-                                        onClick={() => {}}
-                                        icon={
-                                          <ExpandMoreIcon
-                                            style={{ color: "#4C84FF" }}
-                                          />
-                                        }
-                                        variant={"outlined"}
-                                        label={"Invested Companies"}
                                       />
                                     ) : (
                                       ""
