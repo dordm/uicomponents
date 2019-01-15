@@ -9,6 +9,17 @@ import PropTypes from "prop-types";
 import classNames from "classnames";
 import "./css/vis-network.min.css";
 import { StyledButton } from "./LowLevelComponents/StyledComponents";
+import styled from "styled-components";
+
+const StyledDivTooltip = styled.div`
+  position: absolute;
+  left: ${props => props.xPos}px;
+  top: ${props => props.yPos}px;
+  z-index: 10;
+  display: ${props => props.displayTooltip};
+  max-height:200px;
+  overflow-y:auto;
+`;
 
 const styles = {
   title: {
@@ -34,6 +45,12 @@ const styles = {
     marginTop: 3,
     marginRight: 4,
     marginLeft: 4
+  },
+  legend: {
+    marginRight: 4,
+    marginLeft: 4,
+    width: 14,
+    height: 14
   },
   divWrapper: {
     height: 500,
@@ -68,18 +85,26 @@ class CorporationMap extends Component {
       },
       options: {
         layout: {
-          hierarchical: false
+          hierarchical: {
+            enabled: true,
+            nodeSpacing: 150,
+            sortMethod: "directed"
+          }
         },
         nodes: {
           shape: "image",
-          widthConstraint: 200
+          widthConstraint: 150
         },
         interaction: {
           hover: true,
-          tooltipDelay: 0
+          tooltipDelay: 0,
+          hoverConnectedEdges: false
         },
         physics: {
           enabled: false
+        },
+        groups: {
+          myGroup: { size: 50 }
         }
       }
     };
@@ -104,34 +129,87 @@ class CorporationMap extends Component {
     if (corporateMap && supplier) {
       let theNodes = corporateMap.nodes.slice(0);
       let theRelations = corporateMap.relationships.slice(0);
-      theRelations = theRelations.filter(item => item.type === "INVEST");
+      theRelations = theRelations.filter(
+        item => item.type === "INVEST" && item.startNode !== supplier.id
+      );
 
       const graphRelations = theRelations.map(item => ({
         from: item.startNode,
         to: item.endNode,
-        label: "Invest",
         role: item.properties.role,
         shouldCapi: item.properties.shouldCapi,
         stockPercent: item.properties.stockPercent
       }));
 
-      for (let i = 0; i < theNodes.length; i++) {
-        theNodes[i].associate = graphRelations.filter(
-          item => item.from === theNodes[i].id
+      const shareholdersRelations = graphRelations.filter(
+        item => item.to === supplier.id
+      );
+
+      let shareholders = [];
+
+      for (let i = 0; i < shareholdersRelations.length; i++) {
+        const shareholder = theNodes.find(
+          item => item.id === shareholdersRelations[i].from
         );
-        for (let j = 0; j < theNodes[i].associate.length; j++) {
-          const item = theNodes.find(
-            item => item.id === theNodes[i].associate[j].to
+        const associateRelations = graphRelations.filter(
+          item => item.from === shareholder.id
+        );
+        let associate = [];
+        for (let j = 0; j < associateRelations.length; j++) {
+          const associateComp = theNodes.find(
+            item => item.id === associateRelations[j].to
           );
-          theNodes[i].associate[j].relation = item;
+          const associateItem = associateRelations[j];
+          associateItem.relation = associateComp;
+          associate.push(associateItem);
         }
+        shareholders.push({
+          id: shareholder.id,
+          labels: shareholder.labels,
+          properties: shareholder.properties,
+          associate
+        });
       }
 
-      const graphNodes = theNodes.map(item => ({
+      let finalNodes = [];
+      let thisSupplier = theNodes.find(item => item.id === supplier.id);
+      thisSupplier.group = "myGroup";
+      finalNodes.push(thisSupplier);
+
+      for (let i = 0; i < shareholders.length; i++) {
+        shareholders[i].group = i.toString();
+        finalNodes.push(shareholders[i]);
+        for (let j = 0; j < shareholders[i].associate.length; j++)
+          if (shareholders[i].associate[j].relation.id !== supplier.id) {
+            const itemToAdd = theNodes.find(
+              item => item.id === shareholders[i].associate[j].relation.id
+            );
+            itemToAdd.group = i.toString();
+            finalNodes.push(itemToAdd);
+          }
+      }
+
+      finalNodes = finalNodes.sort(function(a, b) {
+        return Number.parseInt(b.id) - Number.parseInt(a.id);
+      });
+      finalNodes = finalNodes.filter(
+        (item, idx) => idx === 0 || item.id != finalNodes[idx - 1].id
+      );
+
+      const finalRelations = graphRelations.map(item => ({
+        from: item.to === supplier.id ? item.to : item.from,
+        to: item.to === supplier.id ? item.from : item.to,
+        role: item.role,
+        shouldCapi: item.shouldCapi,
+        stockPercent: item.stockPercent
+      }));
+
+      const graphNodes = finalNodes.map(item => ({
         id: item.id,
         associate: item.associate,
         label: item.properties.englishName,
         nodeType: item.labels[0],
+        group: item.group,
         chineseName: item.properties.name,
         color:
           item.labels[0] === "Person"
@@ -166,10 +244,11 @@ class CorporationMap extends Component {
       }));
       return {
         nodes: graphNodes,
-        edges: graphRelations
+        edges: finalRelations
       };
     } else return null;
   }
+
   render() {
     const { classes } = this.props;
     const graph = this.getGraph();
@@ -178,27 +257,25 @@ class CorporationMap extends Component {
     );
     return (
       <div className={classes.divWrapper}>
-        <div
+        <StyledDivTooltip
           onMouseEnter={() => this.setState({ isOnTooltip: true })}
           onMouseLeave={() =>
             this.setState({ displayTooltip: "none", isOnTooltip: false })
           }
           id={"myTooltip"}
+          xPos={this.state.xPos}
+          yPos={this.state.yPos}
+          displayTooltip={this.state.displayTooltip}
           className={classNames("tooltip", "fontStyle15")}
-          style={{
-            position: "absolute",
-            left: this.state.xPos,
-            top: this.state.yPos,
-            zIndex: 10,
-            display: this.state.displayTooltip
-          }}
         >
           <div>{currentNode ? currentNode.tooltipContent : ""}</div>
           <div>
-            {currentNode && currentNode.associate.length > 0
+            {currentNode &&
+            currentNode.associate &&
+            currentNode.associate.length > 0
               ? "\nAssociate Companies: "
               : ""}
-            {currentNode
+            {currentNode && currentNode.associate
               ? currentNode.associate.map(
                   item =>
                     `\n\u2022 Company Name - ${
@@ -237,7 +314,7 @@ class CorporationMap extends Component {
           ) : (
             ""
           )}
-        </div>
+        </StyledDivTooltip>
         <div className={classes.title}>
           <Typography className={"fontStyle1"}>Corporation Graph</Typography>
           <div data-tip data-for={"tipCorpMap"}>
@@ -257,11 +334,20 @@ class CorporationMap extends Component {
           </ReactTooltip>
         </div>
         <div className={classNames(classes.divDictionary, "fontStyle8")}>
-          <div className={classes.circle} style={{ background: "#2fd565" }} />
+          <img
+            src={require("./images/businessGreen.svg")}
+            className={classes.legend}
+          />
           This Supplier
-          <div className={classes.circle} style={{ background: "#a4afbf" }} />
+          <img
+            src={require("./images/businessGrey.svg")}
+            className={classes.legend}
+          />
           Other Companies
-          <div className={classes.circle} style={{ background: "#4c84ff" }} />
+          <img
+            src={require("./images/person.svg")}
+            className={classes.legend}
+          />
           Persons
         </div>
         {graph && graph.nodes.length > 0 ? (

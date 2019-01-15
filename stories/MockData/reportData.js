@@ -1,5 +1,5 @@
 const reportData = {
-  originalName: "苏州市东望钣金有限公司",
+  originalName: "广东美的制冷设备有限公司",
   registrationNumber: "371100200006586",
   score: 80,
   dateOfRegistration: "April 2007",
@@ -3401,322 +3401,4343 @@ const reportData = {
     { name: "Wang Zhaoting", percent: 20, key: 2 },
     { name: "Wang Haihua", percent: 50, key: 3 }
   ],
-  corporateMap:{
+  corporateMap: {
       "nodes" : [
           {
-              "id" : "135151278",
+              "id" : "27442850",
+              "labels" : [
+                  "Company"
+              ],
+              "properties" : {
+                  "econKind" : "有限责任公司(法人独资)",
+                  "englishName" : "Mei Group E-Commerce Co., Ltd.",
+                  "hasImage" : true,
+                  "keyNo" : "741cb3d954e24f349862d1be8b994696",
+                  "name" : "美的集团电子商务有限公司",
+                  "registCapi" : "10000.000",
+                  "status" : "surviving"
+              }
+          },
+          {
+              "id" : "23365728",
+              "labels" : [
+                  "Company"
+              ],
+              "properties" : {
+                  "econKind" : "股份有限公司(台港澳与境内合资、未上市)",
+                  "englishName" : "Andersch Technology Co., Ltd.",
+                  "hasImage" : true,
+                  "keyNo" : "630537e4747092679451cea00432584b",
+                  "name" : "安得智联科技股份有限公司",
+                  "registCapi" : "67650.000",
+                  "status" : "surviving"
+              }
+          },
+          {
+              "id" : "28003758",
+              "labels" : [
+                  "Company"
+              ],
+              "properties" : {
+                  "econKind" : "其他有限责任公司",
+                  "englishName" : "Guangdong Mei HVAC Equipment Co., Ltd.",
+                  "hasImage" : false,
+                  "keyNo" : "766f04948eaedb5aeedbe2775266ed82",
+                  "name" : "广东美的暖通设备有限公司",
+                  "registCapi" : "50000.000",
+                  "status" : "surviving"
+              }
+          },
+          {
+              "id" : "25481100",
+              "labels" : [
+                  "Company"
+              ],
+              "properties" : {
+                  "econKind" : "有限责任公司(中外合资)",
+                  "englishName" : "Guangdong Mei Group Wuhu Refrigeration Equipment Co., Ltd.",
+                  "hasImage" : true,
+                  "keyNo" : "6bf3741229b0bb3f9f16d6a1623ebf8a",
+                  "name" : "广东美的集团芜湖制冷设备有限公司",
+                  "registCapi" : "692.800",
+                  "status" : "surviving"
+              }
+          },
+          {
+              "id" : "52716845",
+              "labels" : [
+                  "Company"
+              ],
+              "properties" : {
+                  "econKind" : "有限责任公司(中外合资)",
+                  "englishName" : "Guangdong Mei Refrigeration Equipment Co., Ltd.",
+                  "hasImage" : true,
+                  "keyNo" : "dda33f83062154c9c8a5570629b6f099",
+                  "name" : "广东美的制冷设备有限公司",
+                  "registCapi" : "85400.000",
+                  "status" : "surviving"
+              }
+          },
+          {
+              "id" : "106208346",
               "labels" : [
                   "Person"
               ],
               "properties" : {
-                  "englishName" : "Zhang Guanqian",
+                  "englishName" : "Wang Juan",
                   "hasImage" : false,
-                  "keyNo" : "pe12dc96bd135bff67128c673f7715ad",
-                  "name" : "张关千",
-                  "role" : ""
+                  "keyNo" : "p85faddd2012d17d5e6acded7164bb39",
+                  "name" : "王娟",
+                  "role" : "Supervisor"
               }
           },
           {
-              "id" : "49325650",
+              "id" : "14289864",
+              "labels" : [
+                  "Company"
+              ],
+              "properties" : {
+                  "econKind" : "有限责任公司(法人独资)",
+                  "englishName" : "Guangdong Mei Intelligent Technology Co., Ltd.",
+                  "hasImage" : false,
+                  "keyNo" : "3c6f257b0b6028de1a87a7fc30cc00d9",
+                  "name" : "广东美的智能科技有限公司",
+                  "registCapi" : "5000.000",
+                  "status" : "surviving"
+              }
+          },
+          {
+              "id" : "145205427",
+              "labels" : [
+                  "Person"
+              ],
+              "properties" : {
+                  "englishName" : "HU JIA",
+                  "hasImage" : false,
+                  "keyNo" : "pr01b1fd4b40133a621763eccd37b2da",
+                  "name" : "HU JIA",
+                  "role" : "Chairman of the Supervisory Board"
+              }
+          },
+          {
+              "id" : "81393357",
+              "labels" : [
+                  "Person"
+              ],
+              "properties" : {
+                  "englishName" : "Wu Ze-kuan",
+                  "hasImage" : false,
+                  "keyNo" : "p3865b9071b09a84407c65ad76043939",
+                  "name" : "伍泽宽",
+                  "role" : "Director"
+              }
+          },
+          {
+              "id" : "837915",
               "labels" : [
                   "Company"
               ],
               "properties" : {
                   "econKind" : "有限责任公司",
-                  "englishName" : "Suzhou Dongwang Sheet Metal Co., Ltd.",
-                  "hasImage" : false,
-                  "keyNo" : "cff217cd4d145f66667d4b97b657a53a",
-                  "name" : "苏州市东望钣金有限公司",
-                  "registCapi" : "4000.000",
-                  "status" : "working"
+                  "englishName" : "Chongqing Mei Refrigeration Equipment Co., Ltd.",
+                  "hasImage" : true,
+                  "keyNo" : "03908d14e1694b39654862a1ad894e37",
+                  "name" : "重庆美的制冷设备有限公司",
+                  "registCapi" : "5000.000",
+                  "status" : "surviving"
               }
           },
           {
-              "id" : "152341760",
+              "id" : "18284302",
+              "labels" : [
+                  "Company"
+              ],
+              "properties" : {
+                  "econKind" : "有限责任公司(自然人投资或控股)",
+                  "englishName" : "Foshan Shunde Mei Electronic Technology Co., Ltd.",
+                  "hasImage" : false,
+                  "keyNo" : "4d55c4c5d375cfc2adf70601ae7004b6",
+                  "name" : "佛山市顺德区美的电子科技有限公司",
+                  "registCapi" : "1000.000",
+                  "status" : "surviving"
+              }
+          },
+          {
+              "id" : "45712294",
+              "labels" : [
+                  "Company"
+              ],
+              "properties" : {
+                  "econKind" : "有限责任公司(中外合资)",
+                  "englishName" : "Hefei Mei Refrigerators Co., Ltd.",
+                  "hasImage" : true,
+                  "keyNo" : "c0594a253701f281926128b93cce63d1",
+                  "name" : "合肥美的电冰箱有限公司",
+                  "registCapi" : "9210.987",
+                  "status" : "surviving"
+              }
+          },
+          {
+              "id" : "55745136",
+              "labels" : [
+                  "Company"
+              ],
+              "properties" : {
+                  "econKind" : "有限责任公司",
+                  "englishName" : "Mei Innovation Investment Co., Ltd.",
+                  "hasImage" : false,
+                  "keyNo" : "ea4c0091715e60a24ba890282d026c6d",
+                  "name" : "美的创新投资有限公司",
+                  "registCapi" : "5000.000",
+                  "status" : "surviving"
+              }
+          },
+          {
+              "id" : "140254068",
               "labels" : [
                   "Person"
               ],
               "properties" : {
-                  "englishName" : "Zhang Ji-da",
+                  "englishName" : "Yin Bitong",
+                  "hasImage" : true,
+                  "keyNo" : "pf0cfb34822211ad0069e4008c849268",
+                  "name" : "殷必彤",
+                  "role" : ""
+              }
+          },
+          {
+              "id" : "8653996",
+              "labels" : [
+                  "Company"
+              ],
+              "properties" : {
+                  "econKind" : "有限责任公司(中外合资)",
+                  "englishName" : "Guangdong Mei Kitchen Appliance Manufacturing Co., Ltd.",
                   "hasImage" : false,
-                  "keyNo" : "pr6d0f9cb4aa72a9196e9f2dc7d25915",
-                  "name" : "张济达",
+                  "keyNo" : "247fabd4df39c3d4d822f3c00aa0b676",
+                  "name" : "广东美的厨卫电器制造有限公司",
+                  "registCapi" : "1500.000",
+                  "status" : "surviving"
+              }
+          },
+          {
+              "id" : "52287797",
+              "labels" : [
+                  "Company"
+              ],
+              "properties" : {
+                  "econKind" : "其他有限责任公司",
+                  "englishName" : "Mei Robot Industry Development Co., Ltd.",
+                  "hasImage" : false,
+                  "keyNo" : "dbd7dbf53b862df3e288a1a42d473519",
+                  "name" : "美的机器人产业发展有限公司",
+                  "registCapi" : "100000.000",
+                  "status" : "surviving"
+              }
+          },
+          {
+              "id" : "35735051",
+              "labels" : [
+                  "Company"
+              ],
+              "properties" : {
+                  "econKind" : "有限责任公司(自然人投资或控股)",
+                  "englishName" : "Guangdong Mei Zhi Lan Home Technology Co., Ltd.",
+                  "hasImage" : false,
+                  "keyNo" : "96a96880169f224489579622628155dc",
+                  "name" : "广东美的智联家居科技有限公司",
+                  "registCapi" : "5000.000",
+                  "status" : "surviving"
+              }
+          },
+          {
+              "id" : "13942008",
+              "labels" : [
+                  "Company"
+              ],
+              "properties" : {
+                  "econKind" : "有限责任公司(外商投资企业与内资合资)",
+                  "englishName" : "Guangdong Deyi Jie Electrical Appliance Co., Ltd.",
+                  "hasImage" : false,
+                  "keyNo" : "3af3586363bba68ae7fa9259618d6a01",
+                  "name" : "广东德易捷电器有限公司",
+                  "registCapi" : "36000.000",
+                  "status" : "surviving"
+              }
+          },
+          {
+              "id" : "41305667",
+              "labels" : [
+                  "Company"
+              ],
+              "properties" : {
+                  "econKind" : "其他有限责任公司",
+                  "englishName" : "Wuhu Mei Kitchen Appliance Manufacturing Co., Ltd.",
+                  "hasImage" : false,
+                  "keyNo" : "adee2c002b1d279071c54fbf4a706b56",
+                  "name" : "芜湖美的厨卫电器制造有限公司",
+                  "registCapi" : "6000.000",
+                  "status" : "surviving"
+              }
+          },
+          {
+              "id" : "9700258",
+              "labels" : [
+                  "Company"
+              ],
+              "properties" : {
+                  "econKind" : "有限责任公司(中外合资)",
+                  "englishName" : "AnHui Meizhi Precision Manufacturing Co., Ltd.",
+                  "hasImage" : false,
+                  "keyNo" : "28f17023b6c19d4521ca62583ad1c736",
+                  "name" : "安徽美芝精密制造有限公司",
+                  "registCapi" : "84210.526",
+                  "status" : "surviving"
+              }
+          },
+          {
+              "id" : "33947443",
+              "labels" : [
+                  "Company"
+              ],
+              "properties" : {
+                  "econKind" : "有限责任公司(外国法人独资)",
+                  "englishName" : "Guangdong Mei Precision Mold Technology Co., Ltd.",
+                  "hasImage" : true,
+                  "keyNo" : "8f312105ee63ac6635240518b4dbfae6",
+                  "name" : "广东美的精密模具科技有限公司",
+                  "registCapi" : "2000.000",
+                  "status" : "surviving"
+              }
+          },
+          {
+              "id" : "57823798",
+              "labels" : [
+                  "Company"
+              ],
+              "properties" : {
+                  "econKind" : "有限责任公司（自然人投资或控股的法人独资）",
+                  "englishName" : "Wuhu Mei Kitchen Appliance Manufacturing Co., Ltd.",
+                  "hasImage" : false,
+                  "keyNo" : "f2fa627683ef242b787e08257fe62f08",
+                  "name" : "芜湖美的厨房电器制造有限公司",
+                  "registCapi" : "2000.000",
+                  "status" : "surviving"
+              }
+          },
+          {
+              "id" : "1657951",
+              "labels" : [
+                  "Company"
+              ],
+              "properties" : {
+                  "econKind" : "其他有限责任公司",
+                  "englishName" : "Foshan Welling Material Supply Co., Ltd.",
+                  "hasImage" : false,
+                  "keyNo" : "0710ed61e74bfacca5758e5bdac6a6c7",
+                  "name" : "佛山市威灵材料供应有限公司",
+                  "registCapi" : "2000.000",
+                  "status" : "surviving"
+              }
+          },
+          {
+              "id" : "52347734",
+              "labels" : [
+                  "Company"
+              ],
+              "properties" : {
+                  "econKind" : "有限责任公司（自然人投资或控股的法人独资）",
+                  "englishName" : "Shanghai Komo Electric Appliance Co., Ltd.",
+                  "hasImage" : false,
+                  "keyNo" : "dc180cc89ef4ccb7c4df410e1cf13ef5",
+                  "name" : "上海科慕电器有限公司",
+                  "registCapi" : "20000.000",
+                  "status" : "surviving"
+              }
+          },
+          {
+              "id" : "50692172",
+              "labels" : [
+                  "Company"
+              ],
+              "properties" : {
+                  "econKind" : "有限责任公司(中外合资)",
+                  "englishName" : "Hefei Mei Washing Machine Co., Ltd.",
+                  "hasImage" : true,
+                  "keyNo" : "d52a299f1c9c8ee621e4c65a8f034574",
+                  "name" : "合肥美的洗衣机有限公司",
+                  "registCapi" : "13552.000",
+                  "status" : "surviving"
+              }
+          },
+          {
+              "id" : "138251895",
+              "labels" : [
+                  "Person"
+              ],
+              "properties" : {
+                  "englishName" : "Gu Yanmin",
+                  "hasImage" : true,
+                  "keyNo" : "pea83003052147075d5de0318be9e70f",
+                  "name" : "顾炎民",
+                  "role" : "Director"
+              }
+          },
+          {
+              "id" : "43403483",
+              "labels" : [
+                  "Company"
+              ],
+              "properties" : {
+                  "econKind" : "股份有限公司(上市)",
+                  "englishName" : "Wuxi Small Swan Co., Ltd.",
+                  "hasImage" : true,
+                  "keyNo" : "b6b1f03e058671c2738b4a569bfd2f21",
+                  "name" : "无锡小天鹅股份有限公司",
+                  "registCapi" : "63248.776",
+                  "status" : "working"
+              }
+          },
+          {
+              "id" : "20948080",
+              "labels" : [
+                  "Company"
+              ],
+              "properties" : {
+                  "econKind" : "有限责任公司(法人独资)",
+                  "englishName" : "Foshan Mei Air Conditioning Industry Investment Co., Ltd.",
+                  "hasImage" : false,
+                  "keyNo" : "58a599fc62e3d36f3b111e35d79d5cb6",
+                  "name" : "佛山市美的空调工业投资有限公司",
+                  "registCapi" : "2320.000",
+                  "status" : "surviving"
+              }
+          },
+          {
+              "id" : "10538225",
+              "labels" : [
+                  "Company"
+              ],
+              "properties" : {
+                  "econKind" : "有限责任公司(中外合资)",
+                  "englishName" : "Guangzhou Hualing Refrigeration Equipment Co., Ltd.",
+                  "hasImage" : false,
+                  "keyNo" : "2c7af80e27d48266688805015dd5cb8f",
+                  "name" : "广州华凌制冷设备有限公司",
+                  "registCapi" : "64000.000",
+                  "status" : "surviving"
+              }
+          },
+          {
+              "id" : "62564841",
+              "labels" : [
+                  "Company"
+              ],
+              "properties" : {
+                  "econKind" : "\\N",
+                  "englishName" : "Toshiba Carry Co., Ltd.",
+                  "hasImage" : false,
+                  "keyNo" : "gc34b49806541dbf7c32ce5cda95e24e",
+                  "name" : "东芝开利株式会社",
+                  "registCapi" : "0.000",
+                  "status" : "N"
+              }
+          },
+          {
+              "id" : "107454002",
+              "labels" : [
+                  "Person"
+              ],
+              "properties" : {
+                  "englishName" : "Minji Nagase",
+                  "hasImage" : false,
+                  "keyNo" : "p89e169eabc0b5517a0d321a66bd0669",
+                  "name" : "永濑敏治",
+                  "role" : "Vice Chairman of the Board"
+              }
+          },
+          {
+              "id" : "33496746",
+              "labels" : [
+                  "Company"
+              ],
+              "properties" : {
+                  "econKind" : "有限责任公司(中外合资)",
+                  "englishName" : "Wuhan Refrigeration Equipment Co., Ltd.",
+                  "hasImage" : true,
+                  "keyNo" : "8d4f288caa104f94ba4df5ce4d72ec15",
+                  "name" : "美的集团武汉制冷设备有限公司",
+                  "registCapi" : "800.000",
+                  "status" : "surviving"
+              }
+          },
+          {
+              "id" : "83963228",
+              "labels" : [
+                  "Person"
+              ],
+              "properties" : {
+                  "englishName" : "Waseem Islam",
+                  "hasImage" : false,
+                  "keyNo" : "p406dbdf51e4836edb5beab0121bafaf",
+                  "name" : "Waseem Islam",
+                  "role" : "Director"
+              }
+          },
+          {
+              "id" : "58398747",
+              "labels" : [
+                  "Company"
+              ],
+              "properties" : {
+                  "econKind" : "其他有限责任公司",
+                  "englishName" : "Hefei Mei Materials Supply Co., Ltd.",
+                  "hasImage" : false,
+                  "keyNo" : "f561a1a804cde8b902e023f57ad460e5",
+                  "name" : "合肥市美的材料供应有限公司",
+                  "registCapi" : "13000.000",
+                  "status" : "surviving"
+              }
+          },
+          {
+              "id" : "28143817",
+              "labels" : [
+                  "Company"
+              ],
+              "properties" : {
+                  "econKind" : "有限责任公司(自然人投资或控股)",
+                  "englishName" : "Ningbo Meimei Home Electrical Services Co., Ltd.",
+                  "hasImage" : false,
+                  "keyNo" : "77042a4ccb2fd1937a81758f4ce5664d",
+                  "name" : "宁波美美家园电器服务有限公司",
+                  "registCapi" : "3000.000",
+                  "status" : "surviving"
+              }
+          },
+          {
+              "id" : "57439241",
+              "labels" : [
+                  "Company"
+              ],
+              "properties" : {
+                  "econKind" : "有限责任公司(自然人投资或控股)",
+                  "englishName" : "Wuhu Le Xiang Electric Appliance Co., Ltd.",
+                  "hasImage" : false,
+                  "keyNo" : "f15fb580b95ead824e11d5a97a3cac75",
+                  "name" : "芜湖乐祥电器有限公司",
+                  "registCapi" : "2000.000",
+                  "status" : "surviving"
+              }
+          },
+          {
+              "id" : "33527448",
+              "labels" : [
+                  "Company"
+              ],
+              "properties" : {
+                  "econKind" : "有限责任公司（非自然人投资或控股的法人独资）",
+                  "englishName" : "Smart Home Technology Co., Ltd.",
+                  "hasImage" : true,
+                  "keyNo" : "8d6ff6fee7ec706944e24c78710f7ee0",
+                  "name" : "美的智慧家居科技有限公司",
+                  "registCapi" : "10000.000",
+                  "status" : "working"
+              }
+          },
+          {
+              "id" : "35923276",
+              "labels" : [
+                  "Company"
+              ],
+              "properties" : {
+                  "econKind" : "有限责任公司(自然人投资或控股)",
+                  "englishName" : "Foshan Mei Material Supply Co., Ltd.",
+                  "hasImage" : false,
+                  "keyNo" : "9772fb898ce0113770c59edb21b9ef80",
+                  "name" : "佛山市美的材料供应有限公司",
+                  "registCapi" : "6000.000",
+                  "status" : "surviving"
+              }
+          },
+          {
+              "id" : "11640285",
+              "labels" : [
+                  "Company"
+              ],
+              "properties" : {
+                  "econKind" : "有限责任公司(法人独资)",
+                  "englishName" : "Guangdong Mei Intelligent Robot Co., Ltd.",
+                  "hasImage" : false,
+                  "keyNo" : "312290e9e0fcb5cd163ec41004c3f146",
+                  "name" : "广东美的智能机器人有限公司",
+                  "registCapi" : "15000.000",
+                  "status" : "surviving"
+              }
+          },
+          {
+              "id" : "6192690",
+              "labels" : [
+                  "Company"
+              ],
+              "properties" : {
+                  "econKind" : "其他有限责任公司",
+                  "englishName" : "Foshan Mei Zhi Hui Real Estate Development Co., Ltd.",
+                  "hasImage" : false,
+                  "keyNo" : "1a15b53dcd65b1375bcc2378b43dafee",
+                  "name" : "佛山市美的智荟房地产开发有限公司",
+                  "registCapi" : "6000.000",
+                  "status" : "surviving"
+              }
+          },
+          {
+              "id" : "28564934",
+              "labels" : [
+                  "Company"
+              ],
+              "properties" : {
+                  "econKind" : "有限责任公司(法人独资)",
+                  "englishName" : "Central Huijin Asset Management Co., Ltd.",
+                  "hasImage" : false,
+                  "keyNo" : "78c200dd24178853e4a985d918c6bc2e",
+                  "name" : "中央汇金资产管理有限责任公司",
+                  "registCapi" : "500000.000",
+                  "status" : "working"
+              }
+          },
+          {
+              "id" : "43855585",
+              "labels" : [
+                  "Company"
+              ],
+              "properties" : {
+                  "econKind" : "有限责任公司(中外合资)",
+                  "englishName" : "Hefei RongShida Washing Machine Co., Ltd.",
+                  "hasImage" : false,
+                  "keyNo" : "b894dee03e3d201af50ab60638820740",
+                  "name" : "合肥荣事达洗衣机有限公司",
+                  "registCapi" : "2592.000",
+                  "status" : "surviving"
+              }
+          },
+          {
+              "id" : "785551",
+              "labels" : [
+                  "Company"
+              ],
+              "properties" : {
+                  "econKind" : "有限责任公司(中外合资)",
+                  "englishName" : "AnHui Meizhi Refrigeration Equipment Co., Ltd.",
+                  "hasImage" : false,
+                  "keyNo" : "035792728e73f4cf0e218a15afb40c92",
+                  "name" : "安徽美芝制冷设备有限公司",
+                  "registCapi" : "32500.000",
+                  "status" : "surviving"
+              }
+          },
+          {
+              "id" : "31463525",
+              "labels" : [
+                  "Company"
+              ],
+              "properties" : {
+                  "econKind" : "有限责任公司（非自然人投资或控股的法人独资）",
+                  "englishName" : "Guangdong Mei Daily Electrical Appliance Import & Export Trading Co., Ltd.",
+                  "hasImage" : false,
+                  "keyNo" : "84d05f991ede38ae5b2a74cc1e21ba51",
+                  "name" : "广东美的日用电器进出口贸易有限公司",
+                  "registCapi" : "10000.000",
+                  "status" : "working"
+              }
+          },
+          {
+              "id" : "13532230",
+              "labels" : [
+                  "Company"
+              ],
+              "properties" : {
+                  "econKind" : "其他有限责任公司",
+                  "englishName" : "Hefei Mei HVAC Equipment Co., Ltd.",
+                  "hasImage" : false,
+                  "keyNo" : "3931bdfa91ad0084d55e09c7302c0980",
+                  "name" : "合肥美的暖通设备有限公司",
+                  "registCapi" : "106000.000",
+                  "status" : "surviving"
+              }
+          },
+          {
+              "id" : "57523686",
+              "labels" : [
+                  "Company"
+              ],
+              "properties" : {
+                  "econKind" : "其他有限责任公司",
+                  "englishName" : "Guangzhou Hualing Air Conditioning Equipment Co., Ltd.",
+                  "hasImage" : false,
+                  "keyNo" : "f1ba2f7dfcecba582edbf89b03009980",
+                  "name" : "广州华凌空调设备有限公司",
+                  "registCapi" : "43757.560",
+                  "status" : "surviving"
+              }
+          },
+          {
+              "id" : "3015330",
+              "labels" : [
+                  "Company"
+              ],
+              "properties" : {
+                  "econKind" : "有限责任公司(台港澳与境内合资)",
+                  "englishName" : "Guangdong Mei Life Appliance Manufacturing Co., Ltd.",
+                  "hasImage" : true,
+                  "keyNo" : "0cc68eb8e8f9d0445d1916a9872d207c",
+                  "name" : "广东美的生活电器制造有限公司",
+                  "registCapi" : "6926.000",
+                  "status" : "surviving"
+              }
+          },
+          {
+              "id" : "150137184",
+              "labels" : [
+                  "Person"
+              ],
+              "properties" : {
+                  "englishName" : "Wu Dehai",
+                  "hasImage" : false,
+                  "keyNo" : "pr489e4e5394f80a927e01f23ea42ac0",
+                  "name" : "吴德海",
+                  "role" : "Director"
+              }
+          },
+          {
+              "id" : "10795830",
+              "labels" : [
+                  "Company"
+              ],
+              "properties" : {
+                  "econKind" : "有限责任公司(中外合资)",
+                  "englishName" : "Guangdong Mei Chi Precision Manufacturing Co., Ltd.",
+                  "hasImage" : false,
+                  "keyNo" : "2d916ad7d280f663fdb24c9d58938418",
+                  "name" : "广东美芝精密制造有限公司",
+                  "registCapi" : "774.010",
+                  "status" : "surviving"
+              }
+          },
+          {
+              "id" : "32893280",
+              "labels" : [
+                  "Company"
+              ],
+              "properties" : {
+                  "econKind" : "有限责任公司（自然人投资或控股的法人独资）",
+                  "englishName" : "Mei Financial Holdings (Shenzhen) Co., Ltd.",
+                  "hasImage" : false,
+                  "keyNo" : "8aca3b9c9b79671b6d221dba30cbfa3b",
+                  "name" : "美的金融控股(深圳)有限公司",
+                  "registCapi" : "350000.000",
+                  "status" : "surviving"
+              }
+          },
+          {
+              "id" : "52249473",
+              "labels" : [
+                  "Company"
+              ],
+              "properties" : {
+                  "econKind" : "有限责任公司(法人独资)",
+                  "englishName" : "Guangdong Mei Electric Co., Ltd.",
+                  "hasImage" : false,
+                  "keyNo" : "dbaf125f97a2250adffad0fb3e84fdf6",
+                  "name" : "广东美的电气有限公司",
+                  "registCapi" : "100000.000",
+                  "status" : "surviving"
+              }
+          },
+          {
+              "id" : "103661489",
+              "labels" : [
+                  "Person"
+              ],
+              "properties" : {
+                  "englishName" : "Ho Jianfeng",
+                  "hasImage" : true,
+                  "keyNo" : "p7e030f207ed5db212d7955d2e2b932a",
+                  "name" : "何剑锋",
                   "role" : "Natural person shareholders"
               }
           },
           {
-              "id" : "121090768",
+              "id" : "29181728",
+              "labels" : [
+                  "Company"
+              ],
+              "properties" : {
+                  "econKind" : "有限责任公司",
+                  "englishName" : "Shenzhen Meyun Zhi Digital Technology Co., Ltd.",
+                  "hasImage" : true,
+                  "keyNo" : "7b51951641f914f57173a2944cf9cacc",
+                  "name" : "深圳美云智数科技有限公司",
+                  "registCapi" : "10000.000",
+                  "status" : "surviving"
+              }
+          },
+          {
+              "id" : "43419186",
+              "labels" : [
+                  "Company"
+              ],
+              "properties" : {
+                  "econKind" : "有限责任公司(中外合资)",
+                  "englishName" : "Hefei RongShida Motor Co., Ltd.",
+                  "hasImage" : false,
+                  "keyNo" : "b6c2b916c708be7d985e9550bacd89bc",
+                  "name" : "合肥荣事达电机有限公司",
+                  "registCapi" : "2390.000",
+                  "status" : "surviving"
+              }
+          },
+          {
+              "id" : "62444563",
+              "labels" : [
+                  "Company"
+              ],
+              "properties" : {
+                  "econKind" : "\\N",
+                  "englishName" : "MIDEA Electric Investment (BVI) LIMITED",
+                  "hasImage" : false,
+                  "keyNo" : "gb516d08861cf0574a4712f1d4002353",
+                  "name" : "MIDEA ELECTRIC INVESTMENT(BVI) LIMITED",
+                  "registCapi" : "0.000",
+                  "status" : "N"
+              }
+          },
+          {
+              "id" : "28623391",
+              "labels" : [
+                  "Company"
+              ],
+              "properties" : {
+                  "econKind" : "有限责任公司(中外合资)",
+                  "englishName" : "Foshan Shunde District 100 years Tongchuang Plastic Industry Co., Ltd.",
+                  "hasImage" : false,
+                  "keyNo" : "790034af186df53df002b3e539712abd",
+                  "name" : "佛山市顺德区百年同创塑胶实业有限公司",
+                  "registCapi" : "19228.000",
+                  "status" : "surviving"
+              }
+          },
+          {
+              "id" : "18353322",
+              "labels" : [
+                  "Company"
+              ],
+              "properties" : {
+                  "econKind" : "有限责任公司(中外合资)",
+                  "englishName" : "Guangdong Mei Environmental Appliance Manufacturing Co., Ltd.",
+                  "hasImage" : true,
+                  "keyNo" : "4da107bbc5fe0e8939c0f8dbf63ec1b1",
+                  "name" : "广东美的环境电器制造有限公司",
+                  "registCapi" : "38000.000",
+                  "status" : "surviving"
+              }
+          },
+          {
+              "id" : "20701581",
+              "labels" : [
+                  "Company"
+              ],
+              "properties" : {
+                  "econKind" : "其他股份有限公司(上市)",
+                  "englishName" : "Sichuan Changhong Electric Co., Ltd.",
+                  "hasImage" : true,
+                  "keyNo" : "579906dd6921d954a44898dc9a36de15",
+                  "name" : "四川长虹电器股份有限公司",
+                  "registCapi" : "461624.422",
+                  "status" : "surviving"
+              }
+          },
+          {
+              "id" : "32045904",
+              "labels" : [
+                  "Company"
+              ],
+              "properties" : {
+                  "econKind" : "有限责任公司(法人独资)",
+                  "englishName" : "Foshan City Shunde Mei Home Appliance Industry Co., Ltd.",
+                  "hasImage" : false,
+                  "keyNo" : "873fe8132ef18bb9bbd1f4cad6c4837c",
+                  "name" : "佛山市顺德区美的家电实业有限公司",
+                  "registCapi" : "250000.000",
+                  "status" : "surviving"
+              }
+          },
+          {
+              "id" : "54325893",
+              "labels" : [
+                  "Company"
+              ],
+              "properties" : {
+                  "econKind" : "其他有限责任公司",
+                  "englishName" : "Mei Chi Optoelectronics Technology Co., Ltd.",
+                  "hasImage" : true,
+                  "keyNo" : "e4624fdf699bef4666e143f31f43e79b",
+                  "name" : "美智光电科技有限公司",
+                  "registCapi" : "10000.000",
+                  "status" : "surviving"
+              }
+          },
+          {
+              "id" : "23876566",
+              "labels" : [
+                  "Company"
+              ],
+              "properties" : {
+                  "econKind" : "有限责任公司(台港澳与境内合资)",
+                  "englishName" : "Guangdong Mei Kitchen Appliance Manufacturing Co., Ltd.",
+                  "hasImage" : true,
+                  "keyNo" : "652e0f9cdf09671649f00c12dfbee366",
+                  "name" : "广东美的厨房电器制造有限公司",
+                  "registCapi" : "7200.000",
+                  "status" : "surviving"
+              }
+          },
+          {
+              "id" : "75720511",
               "labels" : [
                   "Person"
               ],
               "properties" : {
-                  "englishName" : "Zhang Jianping",
+                  "englishName" : "Liu Min",
+                  "hasImage" : true,
+                  "keyNo" : "p26b3775f4ea1307e28aef63a6cf2cb8",
+                  "name" : "刘敏",
+                  "role" : "Natural person shareholders"
+              }
+          },
+          {
+              "id" : "16672063",
+              "labels" : [
+                  "Company"
+              ],
+              "properties" : {
+                  "econKind" : "有限责任公司（自然人投资或控股的法人独资）",
+                  "englishName" : "Wuhu Mei Daily Appliance Consulting Service Co., Ltd.",
                   "hasImage" : false,
-                  "keyNo" : "pb50dbfd075b12496a3a5e20031a2356",
-                  "name" : "张建平",
+                  "keyNo" : "4683262b1651ef41bdfe3fc2b2642660",
+                  "name" : "芜湖美的日用家电咨询服务有限公司",
+                  "registCapi" : "10000.000",
+                  "status" : "surviving"
+              }
+          },
+          {
+              "id" : "129373556",
+              "labels" : [
+                  "Person"
+              ],
+              "properties" : {
+                  "englishName" : "Jiang Huafang",
+                  "hasImage" : false,
+                  "keyNo" : "pce9b2c895e2c6cf86d40df898c1bc0c",
+                  "name" : "姜华方",
+                  "role" : "Director"
+              }
+          },
+          {
+              "id" : "54228479",
+              "labels" : [
+                  "Company"
+              ],
+              "properties" : {
+                  "econKind" : "有限责任公司(台港澳与境内合资)",
+                  "englishName" : "Guangdong Vacuum Electronics Manufacturing Co., Ltd.",
+                  "hasImage" : false,
+                  "keyNo" : "e3f94a8e75d3c88803faca20869bba09",
+                  "name" : "广东威特真空电子制造有限公司",
+                  "registCapi" : "2500.000",
+                  "status" : "surviving"
+              }
+          },
+          {
+              "id" : "97417222",
+              "labels" : [
+                  "Person"
+              ],
+              "properties" : {
+                  "englishName" : "Fu Wei",
+                  "hasImage" : false,
+                  "keyNo" : "p6a7ad51ddc6acae60216b86a718e0ed",
+                  "name" : "傅蔚",
+                  "role" : "Director"
+              }
+          },
+          {
+              "id" : "26142023",
+              "labels" : [
+                  "Company"
+              ],
+              "properties" : {
+                  "econKind" : "其他有限责任公司",
+                  "englishName" : "Hubei Mei Refrigerators Co., Ltd.",
+                  "hasImage" : true,
+                  "keyNo" : "6eb78121f8894e4592f2cec8e5168248",
+                  "name" : "湖北美的电冰箱有限公司",
+                  "registCapi" : "85000.000",
+                  "status" : "surviving"
+              }
+          },
+          {
+              "id" : "49303866",
+              "labels" : [
+                  "Company"
+              ],
+              "properties" : {
+                  "econKind" : "有限责任公司(外商投资企业法人独资)",
+                  "englishName" : "Zhejiang Mei Chi Compressor Co., Ltd.",
+                  "hasImage" : false,
+                  "keyNo" : "cf5e09a8ffc9a2caa03910c695b0e325",
+                  "name" : "浙江美芝压缩机有限公司",
+                  "registCapi" : "5000.000",
+                  "status" : "surviving"
+              }
+          },
+          {
+              "id" : "81977135",
+              "labels" : [
+                  "Person"
+              ],
+              "properties" : {
+                  "englishName" : "Chen Lihong",
+                  "hasImage" : false,
+                  "keyNo" : "p3a38766daa3e0b779cd1df35805df5c",
+                  "name" : "陈丽红",
+                  "role" : "Director"
+              }
+          },
+          {
+              "id" : "39880110",
+              "labels" : [
+                  "Company"
+              ],
+              "properties" : {
+                  "econKind" : "其他有限责任公司",
+                  "englishName" : "Wuhu Xiaoswan Refrigeration Equipment Co., Ltd.",
+                  "hasImage" : false,
+                  "keyNo" : "a7fa0ea25aac674b1501088a1bb12773",
+                  "name" : "芜湖小天鹅制冷设备有限公司",
+                  "registCapi" : "5000.000",
+                  "status" : "surviving"
+              }
+          },
+          {
+              "id" : "31317266",
+              "labels" : [
+                  "Company"
+              ],
+              "properties" : {
+                  "econKind" : "其他股份有限公司(非上市)",
+                  "englishName" : "China Securities and Finance Company Limited",
+                  "hasImage" : true,
+                  "keyNo" : "8434f4e2874e6fd1431416ae131bafd8",
+                  "name" : "中国证券金融股份有限公司",
+                  "registCapi" : "15000000.000",
+                  "status" : "working"
+              }
+          },
+          {
+              "id" : "31428876",
+              "labels" : [
+                  "Company"
+              ],
+              "properties" : {
+                  "econKind" : "有限责任公司(外商合资)",
+                  "englishName" : "Toshiba Kali Air Conditioning (China) Co., Ltd.",
+                  "hasImage" : false,
+                  "keyNo" : "84ab83d6bc454fd9a1e45437016d3831",
+                  "name" : "东芝开利空调(中国)有限公司",
+                  "registCapi" : "36000.000",
+                  "status" : "surviving"
+              }
+          },
+          {
+              "id" : "78401913",
+              "labels" : [
+                  "Person"
+              ],
+              "properties" : {
+                  "englishName" : "Zhu Fengtao",
+                  "hasImage" : true,
+                  "keyNo" : "p2f10e89de841bdc628df613420b0040",
+                  "name" : "朱凤涛",
                   "role" : ""
               }
           },
           {
-              "id" : "27841455",
+              "id" : "13169438",
               "labels" : [
                   "Company"
               ],
               "properties" : {
-                  "econKind" : "有限责任公司",
-                  "englishName" : "Suzhou Dongwang Precision Manufacturing Co., Ltd.",
+                  "econKind" : "有限责任公司(中外合资)",
+                  "englishName" : "Guangdong Meizhi Refrigeration Equipment Co., Ltd.",
+                  "hasImage" : true,
+                  "keyNo" : "37a2e1032399ec9068c5e5d003c62951",
+                  "name" : "广东美芝制冷设备有限公司",
+                  "registCapi" : "5527.000",
+                  "status" : "surviving"
+              }
+          },
+          {
+              "id" : "4430488",
+              "labels" : [
+                  "Company"
+              ],
+              "properties" : {
+                  "econKind" : "有限责任公司(台港澳与境内合资)",
+                  "englishName" : "Foshan Mei Kali Refrigeration Equipment Co., Ltd.",
                   "hasImage" : false,
-                  "keyNo" : "7608ab016f486a6bc5dede4d7a127d89",
-                  "name" : "苏州市东望精密制造有限公司",
-                  "registCapi" : "2000.000",
+                  "keyNo" : "12b7198ae8e5d2a908f2d00573e1d9ca",
+                  "name" : "佛山市美的开利制冷设备有限公司",
+                  "registCapi" : "20000.000",
+                  "status" : "surviving"
+              }
+          },
+          {
+              "id" : "162068595",
+              "labels" : [
+                  "Company"
+              ],
+              "properties" : {
+                  "englishName" : "Hong Kong Central Clearing Company Limited",
+                  "hasImage" : false,
+                  "keyNo" : "he7910e63f79702ea812d50f082dfaec",
+                  "name" : "香港中央结算有限公司"
+              }
+          },
+          {
+              "id" : "34704845",
+              "labels" : [
+                  "Company"
+              ],
+              "properties" : {
+                  "econKind" : "有限责任公司(中外合资)",
+                  "englishName" : "Chongqing Mei General Refrigeration Equipment Co., Ltd.",
+                  "hasImage" : false,
+                  "keyNo" : "925af2731f09135a76e74c690f5cce14",
+                  "name" : "重庆美的通用制冷设备有限公司",
+                  "registCapi" : "1250.000",
+                  "status" : "surviving"
+              }
+          },
+          {
+              "id" : "69114819",
+              "labels" : [
+                  "Person"
+              ],
+              "properties" : {
+                  "englishName" : "Lee Kai",
+                  "hasImage" : false,
+                  "keyNo" : "p121e484878f0a4e52794073226ed48b",
+                  "name" : "李凯",
+                  "role" : "Director"
+              }
+          },
+          {
+              "id" : "58054315",
+              "labels" : [
+                  "Company"
+              ],
+              "properties" : {
+                  "econKind" : "其他有限责任公司",
+                  "englishName" : "Guangdong Mei Environmental Technology Co., Ltd.",
+                  "hasImage" : false,
+                  "keyNo" : "f3f1b735c5e52e06dd42ed3d0cc0d774",
+                  "name" : "广东美的环境科技有限公司",
+                  "registCapi" : "5000.000",
+                  "status" : "surviving"
+              }
+          },
+          {
+              "id" : "54556836",
+              "labels" : [
+                  "Company"
+              ],
+              "properties" : {
+                  "econKind" : "有限责任公司(法人独资)",
+                  "englishName" : "Guangdong Mei Microwave Oven Manufacturing Co., Ltd.",
+                  "hasImage" : false,
+                  "keyNo" : "e558d7a7bf37fc3b8ccfcd7e7a85b7cc",
+                  "name" : "广东美的微波炉制造有限公司",
+                  "registCapi" : "42000.000",
+                  "status" : "surviving"
+              }
+          },
+          {
+              "id" : "152770557",
+              "labels" : [
+                  "Person"
+              ],
+              "properties" : {
+                  "englishName" : "Zhao Wenxin",
+                  "hasImage" : false,
+                  "keyNo" : "pr6fd3f6f11db4f13bee37d0a27bf659",
+                  "name" : "赵文心",
+                  "role" : "Director"
+              }
+          },
+          {
+              "id" : "56690310",
+              "labels" : [
+                  "Company"
+              ],
+              "properties" : {
+                  "econKind" : "有限责任公司(自然人投资或控股)",
+                  "englishName" : "Mei Holdings Limited",
+                  "hasImage" : true,
+                  "keyNo" : "ee3ef565b0c6405aa713a76affcc52e9",
+                  "name" : "美的控股有限公司",
+                  "registCapi" : "33000.000",
+                  "status" : "surviving"
+              }
+          },
+          {
+              "id" : "134568430",
+              "labels" : [
+                  "Person"
+              ],
+              "properties" : {
+                  "englishName" : "Wang Jianguo",
+                  "hasImage" : false,
+                  "keyNo" : "pdeee78b7f5a108e7ac086573c852967",
+                  "name" : "王建国",
+                  "role" : ""
+              }
+          },
+          {
+              "id" : "56348336",
+              "labels" : [
+                  "Company"
+              ],
+              "properties" : {
+                  "econKind" : "股份有限公司(非上市、自然人投资或控股)",
+                  "englishName" : "Foshan Shunde Mei Micro-Loan Co., Ltd.",
+                  "hasImage" : false,
+                  "keyNo" : "ecd09dab88bcf43aa4cacf9cb4aa47e4",
+                  "name" : "佛山市顺德区美的小额贷款股份有限公司",
+                  "registCapi" : "20000.000",
                   "status" : "working"
               }
           },
           {
-              "id" : "24153822",
+              "id" : "105636262",
+              "labels" : [
+                  "Person"
+              ],
+              "properties" : {
+                  "englishName" : "Fang Hongbo",
+                  "hasImage" : true,
+                  "keyNo" : "p843138812fbff4fef920653cdfd970b",
+                  "name" : "方洪波",
+                  "role" : ""
+              }
+          },
+          {
+              "id" : "82031378",
+              "labels" : [
+                  "Person"
+              ],
+              "properties" : {
+                  "englishName" : "Xia Yi",
+                  "hasImage" : false,
+                  "keyNo" : "p3a63e2ef9fca8793e78db4a2b34ce52",
+                  "name" : "夏毅",
+                  "role" : "Director"
+              }
+          },
+          {
+              "id" : "45610565",
               "labels" : [
                   "Company"
               ],
               "properties" : {
-                  "econKind" : "有限责任公司",
-                  "englishName" : "Suzhou Dongwang Medical Equipment Co., Ltd.",
+                  "econKind" : "其他有限责任公司",
+                  "englishName" : "Handan Mei Refrigeration Equipment Co., Ltd.",
+                  "hasImage" : true,
+                  "keyNo" : "bfeb8fa5f2ef0a07606c0a7aa4253621",
+                  "name" : "邯郸美的制冷设备有限公司",
+                  "registCapi" : "8000.000",
+                  "status" : "surviving"
+              }
+          },
+          {
+              "id" : "50250246",
+              "labels" : [
+                  "Company"
+              ],
+              "properties" : {
+                  "econKind" : "其他有限责任公司",
+                  "englishName" : "Wuhu Mei Zhi Air Conditioning Equipment Co., Ltd.",
                   "hasImage" : false,
-                  "keyNo" : "6697feb812d092a98f810a1ed7310594",
-                  "name" : "苏州市东望医疗设备有限公司",
-                  "registCapi" : "6500.000",
+                  "keyNo" : "d351b2fa9881469bd1cabc0b55ddd3cf",
+                  "name" : "芜湖美智空调设备有限公司",
+                  "registCapi" : "83000.000",
+                  "status" : "surviving"
+              }
+          },
+          {
+              "id" : "50359546",
+              "labels" : [
+                  "Company"
+              ],
+              "properties" : {
+                  "econKind" : "有限责任公司(中外合资)",
+                  "englishName" : "China Reezer Industry Co., Ltd. (Freezing Transfer 2002.5.15 Dongshan Court)",
+                  "hasImage" : false,
+                  "keyNo" : "d3c671d616c6daf04fd0505f457f186f",
+                  "name" : "中国雪柜实业有限公司(冻结转让2002.5.15东山区法院)",
+                  "registCapi" : "1000.000",
                   "status" : "working"
               }
           },
           {
-              "id" : "16802446",
+              "id" : "37121997",
               "labels" : [
                   "Company"
               ],
               "properties" : {
-                  "econKind" : "有限责任公司",
-                  "englishName" : "Suzhou Fuji Warehouse Equipment Co., Ltd.",
+                  "econKind" : "其他有限责任公司",
+                  "englishName" : "Guangdong Welling Auto Parts Co., Ltd.",
                   "hasImage" : false,
-                  "keyNo" : "473bde1e86eaaf408e18640020fcea0a",
-                  "name" : "苏州市富士达仓储成套设备有限公司",
-                  "registCapi" : "450.000",
-                  "status" : "Write-off"
+                  "keyNo" : "9c758b9af9842ec24ec9c21b80370278",
+                  "name" : "广东威灵汽车部件有限公司",
+                  "registCapi" : "20000.000",
+                  "status" : "surviving"
+              }
+          },
+          {
+              "id" : "35812830",
+              "labels" : [
+                  "Company"
+              ],
+              "properties" : {
+                  "econKind" : "有限责任公司(外商投资企业与内资合资)",
+                  "englishName" : "Wanyuan public access alliance technology (Beijing) Co., Ltd.",
+                  "hasImage" : false,
+                  "keyNo" : "96fcb80556b8fb3963f50aea8164a5cb",
+                  "name" : "万源众享联盟科技(北京)有限公司",
+                  "registCapi" : "9.000",
+                  "status" : "working"
+              }
+          },
+          {
+              "id" : "55857066",
+              "labels" : [
+                  "Company"
+              ],
+              "properties" : {
+                  "econKind" : "股份有限公司(上市、自然人投资或控股)",
+                  "englishName" : "Mei Group Co., Ltd.",
+                  "hasImage" : true,
+                  "keyNo" : "eac35f7cb2922037a2f7e0525d8cf0cb",
+                  "name" : "美的集团股份有限公司",
+                  "registCapi" : "658402.257",
+                  "status" : "surviving"
+              }
+          },
+          {
+              "id" : "51303665",
+              "labels" : [
+                  "Company"
+              ],
+              "properties" : {
+                  "econKind" : "有限责任公司(中外合资)",
+                  "englishName" : "Guangdong Mei Commercial Air Conditioning Equipment Co., Ltd.",
+                  "hasImage" : false,
+                  "keyNo" : "d7b8f0acc4c5d99cf900da00b2cd64de",
+                  "name" : "广东美的商用空调设备有限公司",
+                  "registCapi" : "66000.000",
+                  "status" : "surviving"
               }
           }
       ],
       "relationships" : [
           {
-              "endNode" : "27841455",
-              "id" : "180595554",
+              "endNode" : "52716845",
+              "id" : "5365851",
               "properties" : {
-                  "role" : "总经理"
+                  "role" : "Corporate legal entity",
+                  "shouldCapi" : 62342,
+                  "stockPercent" : 73
               },
-              "startNode" : "121090768",
-              "type" : "EMPLOY"
-          },
-          {
-              "endNode" : "27841455",
-              "id" : "28703543",
-              "properties" : {
-                  "role" : "Natural person shareholders",
-                  "shouldCapi" : 0,
-                  "stockPercent" : 0
-              },
-              "startNode" : "121090768",
+              "startNode" : "55857066",
               "type" : "INVEST"
           },
           {
-              "endNode" : "24153822",
-              "id" : "27889643",
+              "endNode" : "52716845",
+              "id" : "5365853",
               "properties" : {
-                  "role" : "Natural person shareholders",
-                  "shouldCapi" : 0,
-                  "stockPercent" : 0
+                  "role" : "Corporate legal entity",
+                  "shouldCapi" : 5978,
+                  "stockPercent" : 7
               },
-              "startNode" : "121090768",
+              "startNode" : "62444563",
               "type" : "INVEST"
           },
           {
-              "endNode" : "27841455",
-              "id" : "180595552",
+              "endNode" : "52716845",
+              "id" : "5365852",
               "properties" : {
-                  "role" : "监事"
+                  "role" : "Corporate legal entity",
+                  "shouldCapi" : 17080,
+                  "stockPercent" : 20
               },
-              "startNode" : "152341760",
-              "type" : "EMPLOY"
-          },
-          {
-              "endNode" : "24153822",
-              "id" : "27889644",
-              "properties" : {
-                  "role" : "Natural person shareholders",
-                  "shouldCapi" : 0,
-                  "stockPercent" : 0
-              },
-              "startNode" : "152341760",
+              "startNode" : "62564841",
               "type" : "INVEST"
           },
           {
-              "endNode" : "27841455",
-              "id" : "28703544",
+              "endNode" : "43419186",
+              "id" : "116355837",
               "properties" : {
-                  "role" : "Natural person shareholders",
-                  "shouldCapi" : 0,
-                  "stockPercent" : 0
+                  "role" : ""
               },
-              "startNode" : "152341760",
+              "startNode" : "134568430",
+              "type" : "LEGAL"
+          },
+          {
+              "endNode" : "28003758",
+              "id" : "240441921",
+              "properties" : {
+                  "role" : "董事"
+              },
+              "startNode" : "81393357",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "33496746",
+              "id" : "218954004",
+              "properties" : {
+                  "role" : "副董事长"
+              },
+              "startNode" : "107454002",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "33496746",
+              "id" : "218954006",
+              "properties" : {
+                  "role" : "董事"
+              },
+              "startNode" : "106208346",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "33496746",
+              "id" : "218954007",
+              "properties" : {
+                  "role" : "董事"
+              },
+              "startNode" : "150137184",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "33496746",
+              "id" : "218954000",
+              "properties" : {
+                  "role" : "董事"
+              },
+              "startNode" : "83963228",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "33496746",
+              "id" : "218954003",
+              "properties" : {
+                  "role" : "董事"
+              },
+              "startNode" : "152770557",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "4430488",
+              "id" : "1369142",
+              "properties" : {
+                  "role" : "Corporate legal entity",
+                  "shouldCapi" : 12000,
+                  "stockPercent" : 60
+              },
+              "startNode" : "55857066",
               "type" : "INVEST"
           },
           {
-              "endNode" : "16802446",
-              "id" : "253948658",
+              "endNode" : "6192690",
+              "id" : "197847022",
               "properties" : {
-                  "role" : "执行董事兼总经理"
+                  "role" : "董事"
               },
-              "startNode" : "121090768",
+              "startNode" : "75720511",
               "type" : "EMPLOY"
           },
           {
-              "endNode" : "49325650",
-              "id" : "206722054",
+              "endNode" : "39880110",
+              "id" : "555065",
               "properties" : {
-                  "role" : "监事"
-              },
-              "startNode" : "152341760",
-              "type" : "EMPLOY"
-          },
-          {
-              "endNode" : "24153822",
-              "id" : "179356836",
-              "properties" : {
-                  "role" : "执行董事"
-              },
-              "startNode" : "121090768",
-              "type" : "EMPLOY"
-          },
-          {
-              "endNode" : "16802446",
-              "id" : "77579655",
-              "properties" : {
-                  "role" : "Natural person shareholders",
-                  "shouldCapi" : 427.500000,
+                  "role" : "Corporate legal entity",
+                  "shouldCapi" : 4750,
                   "stockPercent" : 95
               },
-              "startNode" : "121090768",
+              "startNode" : "55857066",
               "type" : "INVEST"
           },
           {
-              "endNode" : "49325650",
-              "id" : "117146530",
+              "endNode" : "33496746",
+              "id" : "218954045",
               "properties" : {
-                  "role" : ""
+                  "role" : "董事长"
               },
-              "startNode" : "135151278",
-              "type" : "LEGAL"
+              "startNode" : "134568430",
+              "type" : "EMPLOY"
           },
           {
-              "endNode" : "24153822",
-              "id" : "179356841",
+              "endNode" : "39880110",
+              "id" : "555066",
+              "properties" : {
+                  "role" : "Corporate legal entity",
+                  "shouldCapi" : 250,
+                  "stockPercent" : 5
+              },
+              "startNode" : "20948080",
+              "type" : "INVEST"
+          },
+          {
+              "endNode" : "33496746",
+              "id" : "218954047",
+              "properties" : {
+                  "role" : "董事"
+              },
+              "startNode" : "81977135",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "33496746",
+              "id" : "218954042",
+              "properties" : {
+                  "role" : "董事"
+              },
+              "startNode" : "129373556",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "33496746",
+              "id" : "218954043",
+              "properties" : {
+                  "role" : "董事"
+              },
+              "startNode" : "82031378",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "13942008",
+              "id" : "6072420",
+              "properties" : {
+                  "role" : "Corporate legal entity",
+                  "shouldCapi" : 21600,
+                  "stockPercent" : 60
+              },
+              "startNode" : "54556836",
+              "type" : "INVEST"
+          },
+          {
+              "endNode" : "6192690",
+              "id" : "197847025",
               "properties" : {
                   "role" : "监事"
               },
-              "startNode" : "152341760",
+              "startNode" : "145205427",
               "type" : "EMPLOY"
           },
           {
-              "endNode" : "49325650",
-              "id" : "206722059",
+              "endNode" : "33496746",
+              "id" : "218954052",
               "properties" : {
-                  "role" : "总经理"
+                  "role" : "监事"
               },
-              "startNode" : "121090768",
+              "startNode" : "145205427",
               "type" : "EMPLOY"
           },
           {
-              "endNode" : "16802446",
-              "id" : "140025441",
+              "endNode" : "33496746",
+              "id" : "218954053",
               "properties" : {
-                  "role" : ""
+                  "role" : "董事"
               },
-              "startNode" : "121090768",
-              "type" : "LEGAL"
-          },
-          {
-              "endNode" : "24153822",
-              "id" : "179356842",
-              "properties" : {
-                  "role" : "总经理"
-              },
-              "startNode" : "121090768",
+              "startNode" : "81393357",
               "type" : "EMPLOY"
           },
           {
-              "endNode" : "49325650",
-              "id" : "206722057",
+              "endNode" : "45712294",
+              "id" : "5291037",
               "properties" : {
-                  "role" : "执行董事"
+                  "role" : "Corporate legal entity",
+                  "shouldCapi" : 6908.240700,
+                  "stockPercent" : 75
               },
-              "startNode" : "135151278",
-              "type" : "EMPLOY"
-          },
-          {
-              "endNode" : "49325650",
-              "id" : "46107044",
-              "properties" : {
-                  "role" : "Natural person shareholders",
-                  "shouldCapi" : 180,
-                  "stockPercent" : 4.500000
-              },
-              "startNode" : "135151278",
+              "startNode" : "55857066",
               "type" : "INVEST"
           },
           {
-              "endNode" : "49325650",
-              "id" : "46107043",
+              "endNode" : "33496746",
+              "id" : "218954050",
               "properties" : {
-                  "role" : "Natural person shareholders",
-                  "shouldCapi" : 1020,
-                  "stockPercent" : 25.500000
+                  "role" : "总经理"
               },
-              "startNode" : "152341760",
-              "type" : "INVEST"
-          },
-          {
-              "endNode" : "27841455",
-              "id" : "180595551",
-              "properties" : {
-                  "role" : "执行董事"
-              },
-              "startNode" : "121090768",
+              "startNode" : "140254068",
               "type" : "EMPLOY"
           },
           {
-              "endNode" : "27841455",
-              "id" : "104499238",
+              "endNode" : "54228479",
+              "id" : "259515175",
+              "properties" : {
+                  "role" : "董事长"
+              },
+              "startNode" : "78401913",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "52287797",
+              "id" : "200423332",
+              "properties" : {
+                  "role" : "董事长"
+              },
+              "startNode" : "105636262",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "10795830",
+              "id" : "145100030",
               "properties" : {
                   "role" : ""
               },
-              "startNode" : "121090768",
+              "startNode" : "134568430",
               "type" : "LEGAL"
           },
           {
-              "endNode" : "24153822",
-              "id" : "103900972",
+              "endNode" : "55857066",
+              "id" : "21418271",
+              "properties" : {
+                  "stockPercent" : 33.290000
+              },
+              "startNode" : "56690310",
+              "type" : "INVEST"
+          },
+          {
+              "endNode" : "20701581",
+              "id" : "2344002",
+              "properties" : {
+                  "stockPercent" : 0.810000
+              },
+              "startNode" : "28564934",
+              "type" : "INVEST"
+          },
+          {
+              "endNode" : "28003758",
+              "id" : "240441910",
+              "properties" : {
+                  "role" : "董事长"
+              },
+              "startNode" : "105636262",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "55857066",
+              "id" : "21418276",
+              "properties" : {
+                  "stockPercent" : 2.980000
+              },
+              "startNode" : "31317266",
+              "type" : "INVEST"
+          },
+          {
+              "endNode" : "10538225",
+              "id" : "1280112",
+              "properties" : {
+                  "role" : "Corporate shareholders",
+                  "shouldCapi" : 48000,
+                  "stockPercent" : 75
+              },
+              "startNode" : "55857066",
+              "type" : "INVEST"
+          },
+          {
+              "endNode" : "55857066",
+              "id" : "21418274",
+              "properties" : {
+                  "stockPercent" : 13.100000
+              },
+              "startNode" : "162068595",
+              "type" : "INVEST"
+          },
+          {
+              "endNode" : "28623391",
+              "id" : "3090501",
+              "properties" : {
+                  "role" : "Corporate legal entity",
+                  "shouldCapi" : 14421,
+                  "stockPercent" : 75
+              },
+              "startNode" : "33947443",
+              "type" : "INVEST"
+          },
+          {
+              "endNode" : "34704845",
+              "id" : "186951503",
+              "properties" : {
+                  "role" : "董事"
+              },
+              "startNode" : "138251895",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "55857066",
+              "id" : "21418281",
+              "properties" : {
+                  "stockPercent" : 1.180000
+              },
+              "startNode" : "28564934",
+              "type" : "INVEST"
+          },
+          {
+              "endNode" : "34704845",
+              "id" : "186951506",
+              "properties" : {
+                  "role" : "董事"
+              },
+              "startNode" : "150137184",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "34704845",
+              "id" : "186951513",
+              "properties" : {
+                  "role" : "监事"
+              },
+              "startNode" : "81393357",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "18353322",
+              "id" : "4996301",
+              "properties" : {
+                  "role" : "Corporate legal entity",
+                  "shouldCapi" : 28500,
+                  "stockPercent" : 75
+              },
+              "startNode" : "55857066",
+              "type" : "INVEST"
+          },
+          {
+              "endNode" : "52287797",
+              "id" : "114073157",
               "properties" : {
                   "role" : ""
               },
-              "startNode" : "121090768",
+              "startNode" : "105636262",
               "type" : "LEGAL"
           },
           {
-              "endNode" : "49325650",
-              "id" : "46107041",
+              "endNode" : "54556836",
+              "id" : "140546288",
               "properties" : {
-                  "role" : "Natural person shareholders",
-                  "shouldCapi" : 2800,
+                  "role" : ""
+              },
+              "startNode" : "105636262",
+              "type" : "LEGAL"
+          },
+          {
+              "endNode" : "33527448",
+              "id" : "3084473",
+              "properties" : {
+                  "role" : "Corporate legal entity",
+                  "shouldCapi" : 10000,
+                  "stockPercent" : 100
+              },
+              "startNode" : "55857066",
+              "type" : "INVEST"
+          },
+          {
+              "endNode" : "50250246",
+              "id" : "5131480",
+              "properties" : {
+                  "role" : "Corporate legal entity",
+                  "shouldCapi" : 10400,
+                  "stockPercent" : 12.530000
+              },
+              "startNode" : "20948080",
+              "type" : "INVEST"
+          },
+          {
+              "endNode" : "50250246",
+              "id" : "5131479",
+              "properties" : {
+                  "role" : "Corporate legal entity",
+                  "shouldCapi" : 72600,
+                  "stockPercent" : 87.470000
+              },
+              "startNode" : "55857066",
+              "type" : "INVEST"
+          },
+          {
+              "endNode" : "13169438",
+              "id" : "180455005",
+              "properties" : {
+                  "role" : "董事"
+              },
+              "startNode" : "83963228",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "13169438",
+              "id" : "180455004",
+              "properties" : {
+                  "role" : "董事"
+              },
+              "startNode" : "152770557",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "13169438",
+              "id" : "180455007",
+              "properties" : {
+                  "role" : "董事"
+              },
+              "startNode" : "107454002",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "13169438",
+              "id" : "180455006",
+              "properties" : {
+                  "role" : "董事长"
+              },
+              "startNode" : "134568430",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "13169438",
+              "id" : "180455009",
+              "properties" : {
+                  "role" : "董事"
+              },
+              "startNode" : "81977135",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "13169438",
+              "id" : "180455011",
+              "properties" : {
+                  "role" : "董事"
+              },
+              "startNode" : "106208346",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "23365728",
+              "id" : "159021528",
+              "properties" : {
+                  "role" : "董事长"
+              },
+              "startNode" : "105636262",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "25481100",
+              "id" : "94471426",
+              "properties" : {
+                  "role" : ""
+              },
+              "startNode" : "134568430",
+              "type" : "LEGAL"
+          },
+          {
+              "endNode" : "13169438",
+              "id" : "180455014",
+              "properties" : {
+                  "role" : "监事"
+              },
+              "startNode" : "145205427",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "11640285",
+              "id" : "120798100",
+              "properties" : {
+                  "role" : ""
+              },
+              "startNode" : "138251895",
+              "type" : "LEGAL"
+          },
+          {
+              "endNode" : "785551",
+              "id" : "203604114",
+              "properties" : {
+                  "role" : "董事长"
+              },
+              "startNode" : "134568430",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "32045904",
+              "id" : "1607849",
+              "properties" : {
+                  "role" : "Corporate legal entity",
+                  "shouldCapi" : 250000,
+                  "stockPercent" : 100
+              },
+              "startNode" : "55857066",
+              "type" : "INVEST"
+          },
+          {
+              "endNode" : "785551",
+              "id" : "203604118",
+              "properties" : {
+                  "role" : "董事"
+              },
+              "startNode" : "107454002",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "785551",
+              "id" : "203604121",
+              "properties" : {
+                  "role" : "董事"
+              },
+              "startNode" : "81977135",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "13942008",
+              "id" : "140026010",
+              "properties" : {
+                  "role" : ""
+              },
+              "startNode" : "78401913",
+              "type" : "LEGAL"
+          },
+          {
+              "endNode" : "28143817",
+              "id" : "477379",
+              "properties" : {
+                  "role" : "Corporate legal entity",
+                  "shouldCapi" : 150,
+                  "stockPercent" : 5
+              },
+              "startNode" : "20948080",
+              "type" : "INVEST"
+          },
+          {
+              "endNode" : "13532230",
+              "id" : "5404823",
+              "properties" : {
+                  "role" : "Corporate legal entity",
+                  "shouldCapi" : 104500,
+                  "stockPercent" : 98.580000
+              },
+              "startNode" : "55857066",
+              "type" : "INVEST"
+          },
+          {
+              "endNode" : "28143817",
+              "id" : "477378",
+              "properties" : {
+                  "role" : "Corporate legal entity",
+                  "shouldCapi" : 2850,
+                  "stockPercent" : 95
+              },
+              "startNode" : "55857066",
+              "type" : "INVEST"
+          },
+          {
+              "endNode" : "20948080",
+              "id" : "220691936",
+              "properties" : {
+                  "role" : "监事"
+              },
+              "startNode" : "145205427",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "43403483",
+              "id" : "20897273",
+              "properties" : {
+                  "stockPercent" : 1.610000
+              },
+              "startNode" : "28564934",
+              "type" : "INVEST"
+          },
+          {
+              "endNode" : "31428876",
+              "id" : "164928796",
+              "properties" : {
+                  "role" : "副董事长"
+              },
+              "startNode" : "83963228",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "13532230",
+              "id" : "5404824",
+              "properties" : {
+                  "role" : "Corporate legal entity",
+                  "shouldCapi" : 1500,
+                  "stockPercent" : 1.420000
+              },
+              "startNode" : "20948080",
+              "type" : "INVEST"
+          },
+          {
+              "endNode" : "54325893",
+              "id" : "1954002",
+              "properties" : {
+                  "role" : "Corporate shareholders",
+                  "shouldCapi" : 5000,
+                  "stockPercent" : 50
+              },
+              "startNode" : "55857066",
+              "type" : "INVEST"
+          },
+          {
+              "endNode" : "43403483",
+              "id" : "152405466",
+              "properties" : {
+                  "role" : "董事长"
+              },
+              "startNode" : "105636262",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "50359546",
+              "id" : "143934532",
+              "properties" : {
+                  "role" : ""
+              },
+              "startNode" : "134568430",
+              "type" : "LEGAL"
+          },
+          {
+              "endNode" : "16672063",
+              "id" : "104394477",
+              "properties" : {
+                  "role" : ""
+              },
+              "startNode" : "105636262",
+              "type" : "LEGAL"
+          },
+          {
+              "endNode" : "785551",
+              "id" : "3177707",
+              "properties" : {
+                  "role" : "Corporate legal entity",
+                  "shouldCapi" : 30875,
+                  "stockPercent" : 95
+              },
+              "startNode" : "55857066",
+              "type" : "INVEST"
+          },
+          {
+              "endNode" : "785551",
+              "id" : "3177708",
+              "properties" : {
+                  "role" : "Foreign (regional) enterprises",
+                  "shouldCapi" : 1625,
+                  "stockPercent" : 5
+              },
+              "startNode" : "62564841",
+              "type" : "INVEST"
+          },
+          {
+              "endNode" : "33947443",
+              "id" : "97493289",
+              "properties" : {
+                  "role" : ""
+              },
+              "startNode" : "140254068",
+              "type" : "LEGAL"
+          },
+          {
+              "endNode" : "16672063",
+              "id" : "1846559",
+              "properties" : {
+                  "role" : "Corporate legal entity",
+                  "shouldCapi" : 10000,
+                  "stockPercent" : 100
+              },
+              "startNode" : "55857066",
+              "type" : "INVEST"
+          },
+          {
+              "endNode" : "35812830",
+              "id" : "6620515",
+              "properties" : {
+                  "role" : "Corporate legal entity",
+                  "shouldCapi" : 0,
+                  "stockPercent" : 11.110000
+              },
+              "startNode" : "20701581",
+              "type" : "INVEST"
+          },
+          {
+              "endNode" : "54228479",
+              "id" : "142681478",
+              "properties" : {
+                  "role" : ""
+              },
+              "startNode" : "78401913",
+              "type" : "LEGAL"
+          },
+          {
+              "endNode" : "13942008",
+              "id" : "254021166",
+              "properties" : {
+                  "role" : "董事长"
+              },
+              "startNode" : "78401913",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "13942008",
+              "id" : "254021168",
+              "properties" : {
+                  "role" : "董事"
+              },
+              "startNode" : "134568430",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "35735051",
+              "id" : "3499311",
+              "properties" : {
+                  "role" : "Corporate legal entity",
+                  "shouldCapi" : 500,
+                  "stockPercent" : 10
+              },
+              "startNode" : "20948080",
+              "type" : "INVEST"
+          },
+          {
+              "endNode" : "56690310",
+              "id" : "163949791",
+              "properties" : {
+                  "role" : "经理"
+              },
+              "startNode" : "103661489",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "35735051",
+              "id" : "3499310",
+              "properties" : {
+                  "role" : "Corporate legal entity",
+                  "shouldCapi" : 4500,
+                  "stockPercent" : 90
+              },
+              "startNode" : "55857066",
+              "type" : "INVEST"
+          },
+          {
+              "endNode" : "785551",
+              "id" : "115614712",
+              "properties" : {
+                  "role" : ""
+              },
+              "startNode" : "134568430",
+              "type" : "LEGAL"
+          },
+          {
+              "endNode" : "18353322",
+              "id" : "235292441",
+              "properties" : {
+                  "role" : "董事长"
+              },
+              "startNode" : "105636262",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "57523686",
+              "id" : "219341875",
+              "properties" : {
+                  "role" : "监事"
+              },
+              "startNode" : "129373556",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "18353322",
+              "id" : "235292449",
+              "properties" : {
+                  "role" : "监事"
+              },
+              "startNode" : "145205427",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "35735051",
+              "id" : "209204561",
+              "properties" : {
+                  "role" : "监事"
+              },
+              "startNode" : "81977135",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "23876566",
+              "id" : "250433473",
+              "properties" : {
+                  "role" : "董事长"
+              },
+              "startNode" : "105636262",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "35735051",
+              "id" : "209204558",
+              "properties" : {
+                  "role" : "董事"
+              },
+              "startNode" : "75720511",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "57523686",
+              "id" : "219341871",
+              "properties" : {
+                  "role" : "董事"
+              },
+              "startNode" : "82031378",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "35812830",
+              "id" : "6620507",
+              "properties" : {
+                  "role" : "Corporate legal entity",
+                  "shouldCapi" : 0,
+                  "stockPercent" : 11.110000
+              },
+              "startNode" : "52716845",
+              "type" : "INVEST"
+          },
+          {
+              "endNode" : "57523686",
+              "id" : "219341869",
+              "properties" : {
+                  "role" : "董事长"
+              },
+              "startNode" : "140254068",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "57439241",
+              "id" : "178808808",
+              "properties" : {
+                  "role" : "监事"
+              },
+              "startNode" : "82031378",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "43419186",
+              "id" : "205122941",
+              "properties" : {
+                  "role" : "董事长兼总经理"
+              },
+              "startNode" : "134568430",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "43855585",
+              "id" : "4077940",
+              "properties" : {
+                  "role" : "Corporate shareholders",
+                  "shouldCapi" : 1283.040000,
+                  "stockPercent" : 49.500000
+              },
+              "startNode" : "55857066",
+              "type" : "INVEST"
+          },
+          {
+              "endNode" : "57823798",
+              "id" : "247981965",
+              "properties" : {
+                  "role" : "董事长"
+              },
+              "startNode" : "78401913",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "57439241",
+              "id" : "178808802",
+              "properties" : {
+                  "role" : "董事兼总经理"
+              },
+              "startNode" : "69114819",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "57439241",
+              "id" : "178808804",
+              "properties" : {
+                  "role" : "董事"
+              },
+              "startNode" : "97417222",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "57439241",
+              "id" : "178808805",
+              "properties" : {
+                  "role" : "董事长"
+              },
+              "startNode" : "140254068",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "13169438",
+              "id" : "104397672",
+              "properties" : {
+                  "role" : ""
+              },
+              "startNode" : "134568430",
+              "type" : "LEGAL"
+          },
+          {
+              "endNode" : "23876566",
+              "id" : "250433468",
+              "properties" : {
+                  "role" : "监事"
+              },
+              "startNode" : "145205427",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "23876566",
+              "id" : "250433471",
+              "properties" : {
+                  "role" : "副董事长,总经理"
+              },
+              "startNode" : "78401913",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "52347734",
+              "id" : "183072691",
+              "properties" : {
+                  "role" : "董事长"
+              },
+              "startNode" : "134568430",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "52347734",
+              "id" : "183072692",
+              "properties" : {
+                  "role" : "监事"
+              },
+              "startNode" : "145205427",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "9700258",
+              "id" : "1921397",
+              "properties" : {
+                  "role" : "Corporate legal entity",
+                  "shouldCapi" : 80000,
+                  "stockPercent" : 95
+              },
+              "startNode" : "55857066",
+              "type" : "INVEST"
+          },
+          {
+              "endNode" : "13532230",
+              "id" : "242391834",
+              "properties" : {
+                  "role" : "董事"
+              },
+              "startNode" : "81393357",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "52716845",
+              "id" : "134062736",
+              "properties" : {
+                  "role" : ""
+              },
+              "startNode" : "134568430",
+              "type" : "LEGAL"
+          },
+          {
+              "endNode" : "57523686",
+              "id" : "4081070",
+              "properties" : {
+                  "role" : "Corporate shareholders",
+                  "shouldCapi" : 39381.805000,
+                  "stockPercent" : 90
+              },
+              "startNode" : "55857066",
+              "type" : "INVEST"
+          },
+          {
+              "endNode" : "58398747",
+              "id" : "552344",
+              "properties" : {
+                  "role" : "Corporate legal entity",
+                  "shouldCapi" : 11700,
+                  "stockPercent" : 90
+              },
+              "startNode" : "55857066",
+              "type" : "INVEST"
+          },
+          {
+              "endNode" : "58398747",
+              "id" : "552345",
+              "properties" : {
+                  "role" : "Corporate legal entity",
+                  "shouldCapi" : 1300,
+                  "stockPercent" : 10
+              },
+              "startNode" : "35923276",
+              "type" : "INVEST"
+          },
+          {
+              "endNode" : "57523686",
+              "id" : "4081071",
+              "properties" : {
+                  "role" : "Corporate shareholders",
+                  "shouldCapi" : 4375.756000,
+                  "stockPercent" : 10
+              },
+              "startNode" : "20948080",
+              "type" : "INVEST"
+          },
+          {
+              "endNode" : "45610565",
+              "id" : "240793595",
+              "properties" : {
+                  "role" : "监事"
+              },
+              "startNode" : "82031378",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "45610565",
+              "id" : "5313011",
+              "properties" : {
+                  "role" : "Corporate legal entity",
+                  "shouldCapi" : 7200,
+                  "stockPercent" : 90
+              },
+              "startNode" : "55857066",
+              "type" : "INVEST"
+          },
+          {
+              "endNode" : "43403483",
+              "id" : "90840264",
+              "properties" : {
+                  "role" : ""
+              },
+              "startNode" : "105636262",
+              "type" : "LEGAL"
+          },
+          {
+              "endNode" : "45610565",
+              "id" : "5313012",
+              "properties" : {
+                  "role" : "Corporate legal entity",
+                  "shouldCapi" : 800,
+                  "stockPercent" : 10
+              },
+              "startNode" : "20948080",
+              "type" : "INVEST"
+          },
+          {
+              "endNode" : "45610565",
+              "id" : "240793587",
+              "properties" : {
+                  "role" : "董事"
+              },
+              "startNode" : "129373556",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "45610565",
+              "id" : "240793588",
+              "properties" : {
+                  "role" : "董事长"
+              },
+              "startNode" : "140254068",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "43855585",
+              "id" : "123215592",
+              "properties" : {
+                  "role" : ""
+              },
+              "startNode" : "105636262",
+              "type" : "LEGAL"
+          },
+          {
+              "endNode" : "55857066",
+              "id" : "176289597",
+              "properties" : {
+                  "role" : "董事长,经理"
+              },
+              "startNode" : "105636262",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "55857066",
+              "id" : "176289596",
+              "properties" : {
+                  "role" : "监事长"
+              },
+              "startNode" : "75720511",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "55857066",
+              "id" : "176289598",
+              "properties" : {
+                  "role" : "董事"
+              },
+              "startNode" : "140254068",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "10795830",
+              "id" : "6675877",
+              "properties" : {
+                  "role" : "Corporate legal entity",
+                  "shouldCapi" : 309.603900,
+                  "stockPercent" : 40
+              },
+              "startNode" : "62564841",
+              "type" : "INVEST"
+          },
+          {
+              "endNode" : "52716845",
+              "id" : "241707944",
+              "properties" : {
+                  "role" : "董事"
+              },
+              "startNode" : "150137184",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "10795830",
+              "id" : "6675876",
+              "properties" : {
+                  "role" : "Corporate legal entity",
+                  "shouldCapi" : 464.405800,
+                  "stockPercent" : 60
+              },
+              "startNode" : "55857066",
+              "type" : "INVEST"
+          },
+          {
+              "endNode" : "52716845",
+              "id" : "241707945",
+              "properties" : {
+                  "role" : "总经理"
+              },
+              "startNode" : "140254068",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "52716845",
+              "id" : "241707946",
+              "properties" : {
+                  "role" : "董事"
+              },
+              "startNode" : "81393357",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "31463525",
+              "id" : "471492",
+              "properties" : {
+                  "role" : "Corporate legal entity",
+                  "shouldCapi" : 10000,
+                  "stockPercent" : 100
+              },
+              "startNode" : "55857066",
+              "type" : "INVEST"
+          },
+          {
+              "endNode" : "52716845",
+              "id" : "241707947",
+              "properties" : {
+                  "role" : "董事长"
+              },
+              "startNode" : "134568430",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "52716845",
+              "id" : "241707948",
+              "properties" : {
+                  "role" : "监事"
+              },
+              "startNode" : "145205427",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "837915",
+              "id" : "141626809",
+              "properties" : {
+                  "role" : ""
+              },
+              "startNode" : "140254068",
+              "type" : "LEGAL"
+          },
+          {
+              "endNode" : "52716845",
+              "id" : "241707936",
+              "properties" : {
+                  "role" : "副董事长"
+              },
+              "startNode" : "107454002",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "55857066",
+              "id" : "176289609",
+              "properties" : {
+                  "role" : "董事"
+              },
+              "startNode" : "103661489",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "52716845",
+              "id" : "241707937",
+              "properties" : {
+                  "role" : "董事"
+              },
+              "startNode" : "106208346",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "55857066",
+              "id" : "176289611",
+              "properties" : {
+                  "role" : "董事"
+              },
+              "startNode" : "138251895",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "8653996",
+              "id" : "5089670",
+              "properties" : {
+                  "role" : "Corporate legal entity",
+                  "shouldCapi" : 1125,
+                  "stockPercent" : 75
+              },
+              "startNode" : "55857066",
+              "type" : "INVEST"
+          },
+          {
+              "endNode" : "52716845",
+              "id" : "241707939",
+              "properties" : {
+                  "role" : "董事"
+              },
+              "startNode" : "152770557",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "52716845",
+              "id" : "241707940",
+              "properties" : {
+                  "role" : "董事"
+              },
+              "startNode" : "83963228",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "55857066",
+              "id" : "176289613",
+              "properties" : {
+                  "role" : "董事"
+              },
+              "startNode" : "78401913",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "52716845",
+              "id" : "241707941",
+              "properties" : {
+                  "role" : "董事"
+              },
+              "startNode" : "82031378",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "52716845",
+              "id" : "241707942",
+              "properties" : {
+                  "role" : "董事"
+              },
+              "startNode" : "81977135",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "11640285",
+              "id" : "3792337",
+              "properties" : {
+                  "role" : "Corporate legal entity",
+                  "shouldCapi" : 15000,
+                  "stockPercent" : 100
+              },
+              "startNode" : "55857066",
+              "type" : "INVEST"
+          },
+          {
+              "endNode" : "31428876",
+              "id" : "955902",
+              "properties" : {
+                  "role" : "Corporate legal entity",
+                  "shouldCapi" : 18360,
+                  "stockPercent" : 51
+              },
+              "startNode" : "62564841",
+              "type" : "INVEST"
+          },
+          {
+              "endNode" : "29181728",
+              "id" : "269963751",
+              "properties" : {
+                  "role" : "董事"
+              },
+              "startNode" : "81977135",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "52716845",
+              "id" : "241707935",
+              "properties" : {
+                  "role" : "董事"
+              },
+              "startNode" : "129373556",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "837915",
+              "id" : "257336661",
+              "properties" : {
+                  "role" : "董事长"
+              },
+              "startNode" : "140254068",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "837915",
+              "id" : "257336665",
+              "properties" : {
+                  "role" : "监事"
+              },
+              "startNode" : "82031378",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "43403483",
+              "id" : "20633390",
+              "properties" : {
+                  "stockPercent" : 37.780000
+              },
+              "startNode" : "55857066",
+              "type" : "INVEST"
+          },
+          {
+              "endNode" : "51303665",
+              "id" : "256153948",
+              "properties" : {
+                  "role" : "董事长"
+              },
+              "startNode" : "134568430",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "39880110",
+              "id" : "93519752",
+              "properties" : {
+                  "role" : ""
+              },
+              "startNode" : "140254068",
+              "type" : "LEGAL"
+          },
+          {
+              "endNode" : "51303665",
+              "id" : "256153950",
+              "properties" : {
+                  "role" : "董事"
+              },
+              "startNode" : "106208346",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "51303665",
+              "id" : "256153951",
+              "properties" : {
+                  "role" : "董事"
+              },
+              "startNode" : "129373556",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "51303665",
+              "id" : "256153946",
+              "properties" : {
+                  "role" : "董事"
+              },
+              "startNode" : "150137184",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "51303665",
+              "id" : "256153957",
+              "properties" : {
+                  "role" : "董事"
+              },
+              "startNode" : "152770557",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "51303665",
+              "id" : "256153958",
+              "properties" : {
+                  "role" : "副董事长"
+              },
+              "startNode" : "107454002",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "18284302",
+              "id" : "225379148",
+              "properties" : {
+                  "role" : "监事"
+              },
+              "startNode" : "82031378",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "31463525",
+              "id" : "156510071",
+              "properties" : {
+                  "role" : "董事"
+              },
+              "startNode" : "138251895",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "51303665",
+              "id" : "256153952",
+              "properties" : {
+                  "role" : "董事"
+              },
+              "startNode" : "82031378",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "51303665",
+              "id" : "141058637",
+              "properties" : {
+                  "role" : ""
+              },
+              "startNode" : "134568430",
+              "type" : "LEGAL"
+          },
+          {
+              "endNode" : "51303665",
+              "id" : "256153953",
+              "properties" : {
+                  "role" : "董事"
+              },
+              "startNode" : "81977135",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "55745136",
+              "id" : "5933695",
+              "properties" : {
+                  "role" : "Other investors",
+                  "shouldCapi" : 1500,
+                  "stockPercent" : 30
+              },
+              "startNode" : "20948080",
+              "type" : "INVEST"
+          },
+          {
+              "endNode" : "52249473",
+              "id" : "1966648",
+              "properties" : {
+                  "role" : "Corporate legal entity",
+                  "shouldCapi" : 100000,
+                  "stockPercent" : 100
+              },
+              "startNode" : "55857066",
+              "type" : "INVEST"
+          },
+          {
+              "endNode" : "55745136",
+              "id" : "5933693",
+              "properties" : {
+                  "role" : "Other investors",
+                  "shouldCapi" : 3500,
                   "stockPercent" : 70
               },
-              "startNode" : "121090768",
+              "startNode" : "55857066",
               "type" : "INVEST"
+          },
+          {
+              "endNode" : "51303665",
+              "id" : "256153955",
+              "properties" : {
+                  "role" : "董事"
+              },
+              "startNode" : "83963228",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "51303665",
+              "id" : "256153960",
+              "properties" : {
+                  "role" : "董事"
+              },
+              "startNode" : "81393357",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "31463525",
+              "id" : "156510072",
+              "properties" : {
+                  "role" : ""
+              },
+              "startNode" : "140254068",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "31463525",
+              "id" : "156510073",
+              "properties" : {
+                  "role" : "董事"
+              },
+              "startNode" : "82031378",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "51303665",
+              "id" : "256153962",
+              "properties" : {
+                  "role" : "监事"
+              },
+              "startNode" : "145205427",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "54556836",
+              "id" : "6134380",
+              "properties" : {
+                  "role" : "Corporate legal entity",
+                  "shouldCapi" : 42000,
+                  "stockPercent" : 100
+              },
+              "startNode" : "55857066",
+              "type" : "INVEST"
+          },
+          {
+              "endNode" : "3015330",
+              "id" : "7030367",
+              "properties" : {
+                  "role" : "Corporate legal entity",
+                  "shouldCapi" : 5194.500000,
+                  "stockPercent" : 75
+              },
+              "startNode" : "55857066",
+              "type" : "INVEST"
+          },
+          {
+              "endNode" : "56348336",
+              "id" : "2149909",
+              "properties" : {
+                  "role" : "Corporate legal entity",
+                  "shouldCapi" : 6000,
+                  "stockPercent" : 0
+              },
+              "startNode" : "55857066",
+              "type" : "INVEST"
+          },
+          {
+              "endNode" : "23365728",
+              "id" : "94035887",
+              "properties" : {
+                  "role" : ""
+              },
+              "startNode" : "105636262",
+              "type" : "LEGAL"
+          },
+          {
+              "endNode" : "56348336",
+              "id" : "2149910",
+              "properties" : {
+                  "role" : "Corporate legal entity",
+                  "shouldCapi" : 14000,
+                  "stockPercent" : 0
+              },
+              "startNode" : "32045904",
+              "type" : "INVEST"
+          },
+          {
+              "endNode" : "58054315",
+              "id" : "4548223",
+              "properties" : {
+                  "role" : "Corporate legal entity",
+                  "shouldCapi" : 250,
+                  "stockPercent" : 5
+              },
+              "startNode" : "20948080",
+              "type" : "INVEST"
+          },
+          {
+              "endNode" : "58054315",
+              "id" : "4548222",
+              "properties" : {
+                  "role" : "Corporate legal entity",
+                  "shouldCapi" : 4750,
+                  "stockPercent" : 95
+              },
+              "startNode" : "55857066",
+              "type" : "INVEST"
+          },
+          {
+              "endNode" : "18284302",
+              "id" : "225379152",
+              "properties" : {
+                  "role" : "董事长"
+              },
+              "startNode" : "140254068",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "34704845",
+              "id" : "2220663",
+              "properties" : {
+                  "role" : "Corporate legal entity",
+                  "shouldCapi" : 937.500000,
+                  "stockPercent" : 75
+              },
+              "startNode" : "55857066",
+              "type" : "INVEST"
+          },
+          {
+              "endNode" : "45610565",
+              "id" : "133617057",
+              "properties" : {
+                  "role" : ""
+              },
+              "startNode" : "140254068",
+              "type" : "LEGAL"
+          },
+          {
+              "endNode" : "32893280",
+              "id" : "251606181",
+              "properties" : {
+                  "role" : "董事长"
+              },
+              "startNode" : "105636262",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "33496746",
+              "id" : "4058726",
+              "properties" : {
+                  "role" : "Corporate legal entity",
+                  "shouldCapi" : 584,
+                  "stockPercent" : 73
+              },
+              "startNode" : "55857066",
+              "type" : "INVEST"
+          },
+          {
+              "endNode" : "13169438",
+              "id" : "1846909",
+              "properties" : {
+                  "role" : "Corporate legal entity",
+                  "shouldCapi" : 3316.200000,
+                  "stockPercent" : 60
+              },
+              "startNode" : "55857066",
+              "type" : "INVEST"
+          },
+          {
+              "endNode" : "13169438",
+              "id" : "1846910",
+              "properties" : {
+                  "role" : "Corporate legal entity",
+                  "shouldCapi" : 2210.800000,
+                  "stockPercent" : 40
+              },
+              "startNode" : "62564841",
+              "type" : "INVEST"
+          },
+          {
+              "endNode" : "33527448",
+              "id" : "201980525",
+              "properties" : {
+                  "role" : "董事"
+              },
+              "startNode" : "75720511",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "33947443",
+              "id" : "166170496",
+              "properties" : {
+                  "role" : "监事"
+              },
+              "startNode" : "129373556",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "28623391",
+              "id" : "202090107",
+              "properties" : {
+                  "role" : "监事"
+              },
+              "startNode" : "82031378",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "28623391",
+              "id" : "202090104",
+              "properties" : {
+                  "role" : "董事长"
+              },
+              "startNode" : "140254068",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "27442850",
+              "id" : "4609585",
+              "properties" : {
+                  "role" : "Corporate legal entity",
+                  "shouldCapi" : 10000,
+                  "stockPercent" : 100
+              },
+              "startNode" : "55857066",
+              "type" : "INVEST"
+          },
+          {
+              "endNode" : "28623391",
+              "id" : "202090100",
+              "properties" : {
+                  "role" : "董事"
+              },
+              "startNode" : "129373556",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "41305667",
+              "id" : "124545",
+              "properties" : {
+                  "role" : "Corporate shareholders",
+                  "shouldCapi" : 600,
+                  "stockPercent" : 10
+              },
+              "startNode" : "8653996",
+              "type" : "INVEST"
+          },
+          {
+              "endNode" : "41305667",
+              "id" : "124544",
+              "properties" : {
+                  "role" : "Corporate shareholders",
+                  "shouldCapi" : 5400,
+                  "stockPercent" : 90
+              },
+              "startNode" : "55857066",
+              "type" : "INVEST"
+          },
+          {
+              "endNode" : "18353322",
+              "id" : "130951503",
+              "properties" : {
+                  "role" : ""
+              },
+              "startNode" : "105636262",
+              "type" : "LEGAL"
+          },
+          {
+              "endNode" : "26142023",
+              "id" : "4993732",
+              "properties" : {
+                  "role" : "Corporate legal entity",
+                  "shouldCapi" : 2450,
+                  "stockPercent" : 2.880000
+              },
+              "startNode" : "20948080",
+              "type" : "INVEST"
+          },
+          {
+              "endNode" : "32045904",
+              "id" : "176299018",
+              "properties" : {
+                  "role" : "董事长"
+              },
+              "startNode" : "105636262",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "26142023",
+              "id" : "4993731",
+              "properties" : {
+                  "role" : "Corporate legal entity",
+                  "shouldCapi" : 82550,
+                  "stockPercent" : 97.120000
+              },
+              "startNode" : "55857066",
+              "type" : "INVEST"
+          },
+          {
+              "endNode" : "3015330",
+              "id" : "270670519",
+              "properties" : {
+                  "role" : "监事"
+              },
+              "startNode" : "145205427",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "3015330",
+              "id" : "270670516",
+              "properties" : {
+                  "role" : "董事长"
+              },
+              "startNode" : "105636262",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "33947443",
+              "id" : "166170490",
+              "properties" : {
+                  "role" : "董事长"
+              },
+              "startNode" : "140254068",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "33947443",
+              "id" : "166170489",
+              "properties" : {
+                  "role" : "董事"
+              },
+              "startNode" : "82031378",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "54325893",
+              "id" : "182328385",
+              "properties" : {
+                  "role" : "董事"
+              },
+              "startNode" : "81393357",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "50250246",
+              "id" : "237632648",
+              "properties" : {
+                  "role" : "董事长"
+              },
+              "startNode" : "140254068",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "52287797",
+              "id" : "2994831",
+              "properties" : {
+                  "role" : "Corporate legal entity",
+                  "shouldCapi" : 80000,
+                  "stockPercent" : 80
+              },
+              "startNode" : "55857066",
+              "type" : "INVEST"
+          },
+          {
+              "endNode" : "37121997",
+              "id" : "5839611",
+              "properties" : {
+                  "role" : "Corporate legal entity",
+                  "shouldCapi" : 1000,
+                  "stockPercent" : 5
+              },
+              "startNode" : "20948080",
+              "type" : "INVEST"
+          },
+          {
+              "endNode" : "50250246",
+              "id" : "237632651",
+              "properties" : {
+                  "role" : "董事兼总经理"
+              },
+              "startNode" : "69114819",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "37121997",
+              "id" : "5839610",
+              "properties" : {
+                  "role" : "Corporate legal entity",
+                  "shouldCapi" : 19000,
+                  "stockPercent" : 95
+              },
+              "startNode" : "55857066",
+              "type" : "INVEST"
+          },
+          {
+              "endNode" : "3015330",
+              "id" : "148082288",
+              "properties" : {
+                  "role" : ""
+              },
+              "startNode" : "105636262",
+              "type" : "LEGAL"
+          },
+          {
+              "endNode" : "50250246",
+              "id" : "237632642",
+              "properties" : {
+                  "role" : "监事"
+              },
+              "startNode" : "82031378",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "50250246",
+              "id" : "237632645",
+              "properties" : {
+                  "role" : "董事"
+              },
+              "startNode" : "97417222",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "55857066",
+              "id" : "86073237",
+              "properties" : {
+                  "stockPercent" : 2.060000
+              },
+              "startNode" : "105636262",
+              "type" : "INVEST"
+          },
+          {
+              "endNode" : "52287797",
+              "id" : "2994832",
+              "properties" : {
+                  "role" : "Corporate legal entity",
+                  "shouldCapi" : 20000,
+                  "stockPercent" : 20
+              },
+              "startNode" : "20948080",
+              "type" : "INVEST"
+          },
+          {
+              "endNode" : "57823798",
+              "id" : "137105121",
+              "properties" : {
+                  "role" : ""
+              },
+              "startNode" : "78401913",
+              "type" : "LEGAL"
+          },
+          {
+              "endNode" : "57439241",
+              "id" : "1752779",
+              "properties" : {
+                  "role" : "Natural person shareholders",
+                  "shouldCapi" : 1800,
+                  "stockPercent" : 90
+              },
+              "startNode" : "25481100",
+              "type" : "INVEST"
+          },
+          {
+              "endNode" : "57439241",
+              "id" : "1752780",
+              "properties" : {
+                  "role" : "Natural person shareholders",
+                  "shouldCapi" : 200,
+                  "stockPercent" : 10
+              },
+              "startNode" : "52716845",
+              "type" : "INVEST"
+          },
+          {
+              "endNode" : "35923276",
+              "id" : "265731329",
+              "properties" : {
+                  "role" : "监事"
+              },
+              "startNode" : "145205427",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "32893280",
+              "id" : "138866321",
+              "properties" : {
+                  "role" : ""
+              },
+              "startNode" : "105636262",
+              "type" : "LEGAL"
+          },
+          {
+              "endNode" : "54325893",
+              "id" : "182328377",
+              "properties" : {
+                  "role" : "董事"
+              },
+              "startNode" : "81977135",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "35923276",
+              "id" : "145690182",
+              "properties" : {
+                  "role" : ""
+              },
+              "startNode" : "105636262",
+              "type" : "LEGAL"
+          },
+          {
+              "endNode" : "6192690",
+              "id" : "2845395",
+              "properties" : {
+                  "role" : "Corporate legal entity",
+                  "shouldCapi" : 5700,
+                  "stockPercent" : 95
+              },
+              "startNode" : "55857066",
+              "type" : "INVEST"
+          },
+          {
+              "endNode" : "6192690",
+              "id" : "2845396",
+              "properties" : {
+                  "role" : "Corporate legal entity",
+                  "shouldCapi" : 300,
+                  "stockPercent" : 5
+              },
+              "startNode" : "20948080",
+              "type" : "INVEST"
+          },
+          {
+              "endNode" : "32893280",
+              "id" : "5934939",
+              "properties" : {
+                  "role" : "Corporate legal entity",
+                  "shouldCapi" : 350000,
+                  "stockPercent" : 100
+              },
+              "startNode" : "55857066",
+              "type" : "INVEST"
+          },
+          {
+              "endNode" : "28003758",
+              "id" : "133444849",
+              "properties" : {
+                  "role" : ""
+              },
+              "startNode" : "105636262",
+              "type" : "LEGAL"
+          },
+          {
+              "endNode" : "54556836",
+              "id" : "255093811",
+              "properties" : {
+                  "role" : "监事"
+              },
+              "startNode" : "145205427",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "8653996",
+              "id" : "236900626",
+              "properties" : {
+                  "role" : "董事长"
+              },
+              "startNode" : "105636262",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "8653996",
+              "id" : "236900624",
+              "properties" : {
+                  "role" : "监事"
+              },
+              "startNode" : "145205427",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "57523686",
+              "id" : "123241558",
+              "properties" : {
+                  "role" : ""
+              },
+              "startNode" : "140254068",
+              "type" : "LEGAL"
+          },
+          {
+              "endNode" : "20948080",
+              "id" : "4158256",
+              "properties" : {
+                  "role" : "Corporate legal entity",
+                  "shouldCapi" : 2320,
+                  "stockPercent" : 100
+              },
+              "startNode" : "55857066",
+              "type" : "INVEST"
+          },
+          {
+              "endNode" : "50250246",
+              "id" : "132088012",
+              "properties" : {
+                  "role" : ""
+              },
+              "startNode" : "140254068",
+              "type" : "LEGAL"
+          },
+          {
+              "endNode" : "54556836",
+              "id" : "255093800",
+              "properties" : {
+                  "role" : "董事长"
+              },
+              "startNode" : "105636262",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "18284302",
+              "id" : "4428638",
+              "properties" : {
+                  "role" : "Corporate legal entity",
+                  "shouldCapi" : 100,
+                  "stockPercent" : 10
+              },
+              "startNode" : "20948080",
+              "type" : "INVEST"
+          },
+          {
+              "endNode" : "18284302",
+              "id" : "4428637",
+              "properties" : {
+                  "role" : "Corporate legal entity",
+                  "shouldCapi" : 900,
+                  "stockPercent" : 90
+              },
+              "startNode" : "55857066",
+              "type" : "INVEST"
+          },
+          {
+              "endNode" : "54556836",
+              "id" : "255093803",
+              "properties" : {
+                  "role" : "董事,经理"
+              },
+              "startNode" : "78401913",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "28623391",
+              "id" : "114878960",
+              "properties" : {
+                  "role" : ""
+              },
+              "startNode" : "140254068",
+              "type" : "LEGAL"
+          },
+          {
+              "endNode" : "35923276",
+              "id" : "265731324",
+              "properties" : {
+                  "role" : "董事长"
+              },
+              "startNode" : "105636262",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "50359546",
+              "id" : "6538063",
+              "properties" : {
+                  "role" : "Other investors",
+                  "shouldCapi" : 950,
+                  "stockPercent" : 95
+              },
+              "startNode" : "62444563",
+              "type" : "INVEST"
+          },
+          {
+              "endNode" : "32045904",
+              "id" : "102389034",
+              "properties" : {
+                  "role" : ""
+              },
+              "startNode" : "105636262",
+              "type" : "LEGAL"
+          },
+          {
+              "endNode" : "50359546",
+              "id" : "6538064",
+              "properties" : {
+                  "role" : "Other investors",
+                  "shouldCapi" : 22.500000,
+                  "stockPercent" : 2.250000
+              },
+              "startNode" : "55857066",
+              "type" : "INVEST"
+          },
+          {
+              "endNode" : "23876566",
+              "id" : "138296077",
+              "properties" : {
+                  "role" : ""
+              },
+              "startNode" : "105636262",
+              "type" : "LEGAL"
+          },
+          {
+              "endNode" : "14289864",
+              "id" : "5273445",
+              "properties" : {
+                  "role" : "Corporate legal entity",
+                  "shouldCapi" : 5000,
+                  "stockPercent" : 100
+              },
+              "startNode" : "55857066",
+              "type" : "INVEST"
+          },
+          {
+              "endNode" : "33496746",
+              "id" : "123052140",
+              "properties" : {
+                  "role" : ""
+              },
+              "startNode" : "134568430",
+              "type" : "LEGAL"
+          },
+          {
+              "endNode" : "837915",
+              "id" : "6262627",
+              "properties" : {
+                  "role" : "Corporate legal entity",
+                  "shouldCapi" : 250,
+                  "stockPercent" : 5
+              },
+              "startNode" : "20948080",
+              "type" : "INVEST"
+          },
+          {
+              "endNode" : "23876566",
+              "id" : "5867364",
+              "properties" : {
+                  "role" : "Corporate legal entity",
+                  "shouldCapi" : 5400,
+                  "stockPercent" : 75
+              },
+              "startNode" : "54556836",
+              "type" : "INVEST"
+          },
+          {
+              "endNode" : "837915",
+              "id" : "6262625",
+              "properties" : {
+                  "role" : "Corporate legal entity",
+                  "shouldCapi" : 4750,
+                  "stockPercent" : 95
+              },
+              "startNode" : "55857066",
+              "type" : "INVEST"
+          },
+          {
+              "endNode" : "52347734",
+              "id" : "1996576",
+              "properties" : {
+                  "role" : "Corporate legal entity",
+                  "shouldCapi" : 20000,
+                  "stockPercent" : 100
+              },
+              "startNode" : "55857066",
+              "type" : "INVEST"
+          },
+          {
+              "endNode" : "18284302",
+              "id" : "126158016",
+              "properties" : {
+                  "role" : ""
+              },
+              "startNode" : "140254068",
+              "type" : "LEGAL"
+          },
+          {
+              "endNode" : "50359546",
+              "id" : "262103255",
+              "properties" : {
+                  "role" : "董事长"
+              },
+              "startNode" : "134568430",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "43855585",
+              "id" : "219289182",
+              "properties" : {
+                  "role" : "董事"
+              },
+              "startNode" : "129373556",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "25481100",
+              "id" : "159930053",
+              "properties" : {
+                  "role" : "董事"
+              },
+              "startNode" : "82031378",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "51303665",
+              "id" : "6194960",
+              "properties" : {
+                  "role" : "Corporate legal entity",
+                  "shouldCapi" : 13200,
+                  "stockPercent" : 20
+              },
+              "startNode" : "62564841",
+              "type" : "INVEST"
+          },
+          {
+              "endNode" : "51303665",
+              "id" : "6194961",
+              "properties" : {
+                  "role" : "Corporate legal entity",
+                  "shouldCapi" : 4620,
+                  "stockPercent" : 7
+              },
+              "startNode" : "62444563",
+              "type" : "INVEST"
+          },
+          {
+              "endNode" : "51303665",
+              "id" : "6194959",
+              "properties" : {
+                  "role" : "Corporate legal entity",
+                  "shouldCapi" : 48180,
+                  "stockPercent" : 73
+              },
+              "startNode" : "55857066",
+              "type" : "INVEST"
+          },
+          {
+              "endNode" : "31463525",
+              "id" : "92821226",
+              "properties" : {
+                  "role" : ""
+              },
+              "startNode" : "140254068",
+              "type" : "LEGAL"
+          },
+          {
+              "endNode" : "39880110",
+              "id" : "157947401",
+              "properties" : {
+                  "role" : "监事"
+              },
+              "startNode" : "82031378",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "39880110",
+              "id" : "157947406",
+              "properties" : {
+                  "role" : "董事长兼总经理"
+              },
+              "startNode" : "140254068",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "43855585",
+              "id" : "219289185",
+              "properties" : {
+                  "role" : "董事长"
+              },
+              "startNode" : "105636262",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "14289864",
+              "id" : "240103740",
+              "properties" : {
+                  "role" : "董事"
+              },
+              "startNode" : "138251895",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "10538225",
+              "id" : "99633797",
+              "properties" : {
+                  "role" : ""
+              },
+              "startNode" : "140254068",
+              "type" : "LEGAL"
+          },
+          {
+              "endNode" : "16672063",
+              "id" : "180448701",
+              "properties" : {
+                  "role" : "董事长"
+              },
+              "startNode" : "105636262",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "1657951",
+              "id" : "237268385",
+              "properties" : {
+                  "role" : "监事"
+              },
+              "startNode" : "145205427",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "54228479",
+              "id" : "6388712",
+              "properties" : {
+                  "role" : "Corporate legal entity",
+                  "shouldCapi" : 1875,
+                  "stockPercent" : 75
+              },
+              "startNode" : "55857066",
+              "type" : "INVEST"
+          },
+          {
+              "endNode" : "20701581",
+              "id" : "2343850",
+              "properties" : {
+                  "stockPercent" : 2.820000
+              },
+              "startNode" : "31317266",
+              "type" : "INVEST"
+          },
+          {
+              "endNode" : "49303866",
+              "id" : "6578158",
+              "properties" : {
+                  "role" : "Corporate legal entity",
+                  "shouldCapi" : 5000,
+                  "stockPercent" : 100
+              },
+              "startNode" : "55857066",
+              "type" : "INVEST"
+          },
+          {
+              "endNode" : "25481100",
+              "id" : "668570",
+              "properties" : {
+                  "role" : "Corporate legal entity",
+                  "shouldCapi" : 505.744000,
+                  "stockPercent" : 73
+              },
+              "startNode" : "55857066",
+              "type" : "INVEST"
+          },
+          {
+              "endNode" : "25481100",
+              "id" : "668571",
+              "properties" : {
+                  "role" : "Foreign (regional) enterprises",
+                  "shouldCapi" : 138.560000,
+                  "stockPercent" : 20
+              },
+              "startNode" : "62564841",
+              "type" : "INVEST"
+          },
+          {
+              "endNode" : "10795830",
+              "id" : "264515678",
+              "properties" : {
+                  "role" : "董事长"
+              },
+              "startNode" : "134568430",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "4430488",
+              "id" : "100386400",
+              "properties" : {
+                  "role" : ""
+              },
+              "startNode" : "134568430",
+              "type" : "LEGAL"
+          },
+          {
+              "endNode" : "10795830",
+              "id" : "264515684",
+              "properties" : {
+                  "role" : "董事"
+              },
+              "startNode" : "152770557",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "35923276",
+              "id" : "6746052",
+              "properties" : {
+                  "role" : "Corporate legal entity",
+                  "shouldCapi" : 600,
+                  "stockPercent" : 10
+              },
+              "startNode" : "20948080",
+              "type" : "INVEST"
+          },
+          {
+              "endNode" : "10795830",
+              "id" : "264515687",
+              "properties" : {
+                  "role" : "董事"
+              },
+              "startNode" : "83963228",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "35923276",
+              "id" : "6746051",
+              "properties" : {
+                  "role" : "Corporate legal entity",
+                  "shouldCapi" : 5400,
+                  "stockPercent" : 90
+              },
+              "startNode" : "55857066",
+              "type" : "INVEST"
+          },
+          {
+              "endNode" : "10795830",
+              "id" : "264515682",
+              "properties" : {
+                  "role" : "董事"
+              },
+              "startNode" : "81977135",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "29181728",
+              "id" : "6989766",
+              "properties" : {
+                  "role" : "Corporate legal entity",
+                  "shouldCapi" : 5000,
+                  "stockPercent" : 50
+              },
+              "startNode" : "55745136",
+              "type" : "INVEST"
+          },
+          {
+              "endNode" : "11640285",
+              "id" : "214301547",
+              "properties" : {
+                  "role" : "监事"
+              },
+              "startNode" : "145205427",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "10795830",
+              "id" : "264515691",
+              "properties" : {
+                  "role" : "董事"
+              },
+              "startNode" : "107454002",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "29181728",
+              "id" : "6989765",
+              "properties" : {
+                  "role" : "Corporate legal entity",
+                  "shouldCapi" : 5000,
+                  "stockPercent" : 50
+              },
+              "startNode" : "20948080",
+              "type" : "INVEST"
+          },
+          {
+              "endNode" : "11640285",
+              "id" : "214301546",
+              "properties" : {
+                  "role" : "董事长"
+              },
+              "startNode" : "138251895",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "43403483",
+              "id" : "20736652",
+              "properties" : {
+                  "stockPercent" : 5.230000
+              },
+              "startNode" : "162068595",
+              "type" : "INVEST"
+          },
+          {
+              "endNode" : "10795830",
+              "id" : "264515697",
+              "properties" : {
+                  "role" : "董事"
+              },
+              "startNode" : "106208346",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "10795830",
+              "id" : "264515699",
+              "properties" : {
+                  "role" : "监事"
+              },
+              "startNode" : "145205427",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "55857066",
+              "id" : "102384035",
+              "properties" : {
+                  "role" : ""
+              },
+              "startNode" : "105636262",
+              "type" : "LEGAL"
+          },
+          {
+              "endNode" : "52347734",
+              "id" : "105663990",
+              "properties" : {
+                  "role" : ""
+              },
+              "startNode" : "134568430",
+              "type" : "LEGAL"
+          },
+          {
+              "endNode" : "1657951",
+              "id" : "237268383",
+              "properties" : {
+                  "role" : "董事长（广东威灵电机制造有限公司委派）"
+              },
+              "startNode" : "105636262",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "23365728",
+              "id" : "616396",
+              "properties" : {
+                  "role" : "Corporate legal entity",
+                  "shouldCapi" : 37207.500000,
+                  "stockPercent" : 55
+              },
+              "startNode" : "55857066",
+              "type" : "INVEST"
+          },
+          {
+              "endNode" : "50692172",
+              "id" : "46024",
+              "properties" : {
+                  "role" : "Corporate shareholders",
+                  "shouldCapi" : 9414.500000,
+                  "stockPercent" : 69.470000
+              },
+              "startNode" : "43403483",
+              "type" : "INVEST"
+          },
+          {
+              "endNode" : "50692172",
+              "id" : "46026",
+              "properties" : {
+                  "role" : "Corporate legal entity",
+                  "shouldCapi" : 749.500000,
+                  "stockPercent" : 5.530000
+              },
+              "startNode" : "55857066",
+              "type" : "INVEST"
+          },
+          {
+              "endNode" : "1657951",
+              "id" : "131916816",
+              "properties" : {
+                  "role" : ""
+              },
+              "startNode" : "105636262",
+              "type" : "LEGAL"
+          },
+          {
+              "endNode" : "57823798",
+              "id" : "5726106",
+              "properties" : {
+                  "role" : "Corporate legal entity",
+                  "shouldCapi" : 2000,
+                  "stockPercent" : 100
+              },
+              "startNode" : "55857066",
+              "type" : "INVEST"
+          },
+          {
+              "endNode" : "25481100",
+              "id" : "159929944",
+              "properties" : {
+                  "role" : "董事"
+              },
+              "startNode" : "81393357",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "25481100",
+              "id" : "159929947",
+              "properties" : {
+                  "role" : "董事"
+              },
+              "startNode" : "152770557",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "25481100",
+              "id" : "159929949",
+              "properties" : {
+                  "role" : "监事"
+              },
+              "startNode" : "145205427",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "25481100",
+              "id" : "159929950",
+              "properties" : {
+                  "role" : "总经理"
+              },
+              "startNode" : "140254068",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "25481100",
+              "id" : "159929951",
+              "properties" : {
+                  "role" : "董事"
+              },
+              "startNode" : "106208346",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "25481100",
+              "id" : "159929937",
+              "properties" : {
+                  "role" : "董事"
+              },
+              "startNode" : "150137184",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "55745136",
+              "id" : "251584804",
+              "properties" : {
+                  "role" : "监事"
+              },
+              "startNode" : "145205427",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "25481100",
+              "id" : "159929938",
+              "properties" : {
+                  "role" : "董事"
+              },
+              "startNode" : "83963228",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "25481100",
+              "id" : "159929940",
+              "properties" : {
+                  "role" : "副董事长"
+              },
+              "startNode" : "107454002",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "57439241",
+              "id" : "103603697",
+              "properties" : {
+                  "role" : ""
+              },
+              "startNode" : "140254068",
+              "type" : "LEGAL"
+          },
+          {
+              "endNode" : "25481100",
+              "id" : "159929941",
+              "properties" : {
+                  "role" : "董事"
+              },
+              "startNode" : "81977135",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "28003758",
+              "id" : "5292977",
+              "properties" : {
+                  "role" : "Corporate legal entity",
+                  "shouldCapi" : 45000,
+                  "stockPercent" : 90
+              },
+              "startNode" : "55857066",
+              "type" : "INVEST"
+          },
+          {
+              "endNode" : "28003758",
+              "id" : "5292978",
+              "properties" : {
+                  "role" : "Corporate legal entity",
+                  "shouldCapi" : 5000,
+                  "stockPercent" : 10
+              },
+              "startNode" : "20948080",
+              "type" : "INVEST"
+          },
+          {
+              "endNode" : "10538225",
+              "id" : "170589641",
+              "properties" : {
+                  "role" : "董事长"
+              },
+              "startNode" : "140254068",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "10538225",
+              "id" : "170589645",
+              "properties" : {
+                  "role" : "董事"
+              },
+              "startNode" : "129373556",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "25481100",
+              "id" : "159929952",
+              "properties" : {
+                  "role" : "董事长"
+              },
+              "startNode" : "134568430",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "4430488",
+              "id" : "172157354",
+              "properties" : {
+                  "role" : "监事"
+              },
+              "startNode" : "145205427",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "4430488",
+              "id" : "172157353",
+              "properties" : {
+                  "role" : "董事"
+              },
+              "startNode" : "152770557",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "25481100",
+              "id" : "159929955",
+              "properties" : {
+                  "role" : "董事"
+              },
+              "startNode" : "129373556",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "4430488",
+              "id" : "172157359",
+              "properties" : {
+                  "role" : "副董事长"
+              },
+              "startNode" : "83963228",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "52249473",
+              "id" : "182550799",
+              "properties" : {
+                  "role" : "监事"
+              },
+              "startNode" : "145205427",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "4430488",
+              "id" : "172157362",
+              "properties" : {
+                  "role" : "董事"
+              },
+              "startNode" : "129373556",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "8653996",
+              "id" : "131736621",
+              "properties" : {
+                  "role" : ""
+              },
+              "startNode" : "105636262",
+              "type" : "LEGAL"
+          },
+          {
+              "endNode" : "4430488",
+              "id" : "172157370",
+              "properties" : {
+                  "role" : "董事长"
+              },
+              "startNode" : "134568430",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "10538225",
+              "id" : "170589651",
+              "properties" : {
+                  "role" : "监事"
+              },
+              "startNode" : "82031378",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "4430488",
+              "id" : "172157368",
+              "properties" : {
+                  "role" : "董事"
+              },
+              "startNode" : "97417222",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "4430488",
+              "id" : "172157369",
+              "properties" : {
+                  "role" : "董事"
+              },
+              "startNode" : "82031378",
+              "type" : "EMPLOY"
           }
       ]
   }

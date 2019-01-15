@@ -8,16 +8,23 @@ import ListItemIcon from "@material-ui/core/ListItemIcon";
 import classNames from "classnames";
 import Utils from "./js/Utils";
 import ReactTooltip from "react-tooltip";
-import Divider from "@material-ui/core/Divider";
 import {
   StyledExpansionPanel,
-  StyledListItem,
   StyledListItemText,
   StyledExpansionSummary,
-  StyledExpansionPanelDetails
+  StyledExpansionPanelDetails,
+  StyledChip
 } from "./LowLevelComponents/StyledComponents";
 import NoDataImg from "./LowLevelComponents/NoDataImg";
-import GroupIcon from "@material-ui/icons/Group";
+import GroupIcon from "@material-ui/icons/Business";
+import UserIcon from "@material-ui/icons/Person";
+import ListItem from "@material-ui/core/ListItem";
+import styled from "styled-components";
+import AddIcon from "@material-ui/icons/Add";
+
+const StyledListItem = styled(ListItem)`
+  padding: 2px 0 2px 0 !important;
+`;
 
 const styles = {
   title: {
@@ -39,13 +46,21 @@ const styles = {
     marginLeft: 6
   },
   expansionSummaryInner: {
-    margin: "0px !important"
+    margin: "0px !important",
+    alignItems: "flex-start",
+      paddingBottom: 5
   },
   divWrapper: {
     height: "auto",
     width: "100%",
     background: "white",
     paddingTop: 8
+  },
+  shareholderImg: {
+    marginTop: 6,
+    height: 24,
+    width: 24,
+    alignSelf: "center"
   }
 };
 
@@ -152,77 +167,117 @@ class ShareholdersExpansion extends Component {
                 return (
                   <div key={idx}>
                     <StyledListItem>
-                      <StyledExpansionPanel style={{ width: "100%" }}>
+                      <StyledExpansionPanel
+                        style={{ width: "100%", marginRight: 4, marginLeft: 4 }}
+                      >
                         <StyledExpansionSummary
                           style={{
                             cursor:
-                              item.associate.length > 0 ? "pointer" : "default"
+                              item.associate.length > 0 ? "pointer" : "default",
+                            background: "#f0f1f5"
                           }}
                           IconButtonProps={{
                             style: {
-                              padding: 0
+                              padding: 0,
+                              top: "85%"
                             }
                           }}
                           classes={{
                             content: classes.expansionSummaryInner,
                             expanded: classes.expansionSummaryInner
                           }}
-                          expandIcon={
-                            item.associate.length > 0 ? <ExpandMoreIcon /> : ""
-                          }
+                          expandIcon={""}
                         >
                           <ListItemIcon>
-                            <GroupIcon
-                              style={{
-                                height: 24,
-                                width: 24,
-                                alignSelf: "center"
-                              }}
-                            />
+                            {item.label === "Company" ? (
+                              <GroupIcon className={classes.shareholderImg} />
+                            ) : (
+                              <UserIcon className={classes.shareholderImg} />
+                            )}
                           </ListItemIcon>
                           <StyledListItemText
+                            style={{
+                              padding: 0,
+                              marginLeft: 0
+                            }}
                             primary={
-                              <div style={{ display: "flex" }}>
-                                <div>
+                              <div
+                                style={{
+                                  display: "flex",
+                                  width: "100%",
+                                  alignItems: "center"
+                                }}
+                              >
+                                <div style={{ width: "100%" }}>
                                   <Typography className={"fontStyle10"}>
                                     {item.properties.englishName}
-                                    {" ("} {item.properties.name} {") "}
-                                    {item.associate.length > 0
-                                      ? `(Shareholder in ${
-                                          item.associate.length
-                                        } other companies)`
-                                      : ""}
                                   </Typography>
-                                  <Typography
-                                    style={{ width: "80%" }}
-                                    className={"fontStyle7"}
-                                  >
+                                  <Typography className={"fontStyle7"}>
+                                    {"\u2022"} Chinese Name:{" "}
+                                    {item.properties.name}
+                                  </Typography>
+                                  <Typography className={"fontStyle7"}>
                                     {"\u2022"} Shares:{" "}
                                     {item.sharesProperties.stockPercent}%
                                   </Typography>
-                                </div>
-                                {item.label === "Company" &&
-                                !window.location.pathname.includes(
-                                  "/direct/"
-                                ) ? (
-                                  <Typography
+                                  {item.associate.length > 0 ? (
+                                    <Typography className={"fontStyle7"}>
+                                      {"\u2022"} Associate:{" "}
+                                      {`Shareholder in ${
+                                        item.associate.length
+                                      } other companies`}
+                                    </Typography>
+                                  ) : (
+                                    ""
+                                  )}
+                                  <div
                                     style={{
-                                      cursor: "pointer",
-                                      height: "fit-content"
-                                    }}
-                                    className={"fontStyle6"}
-                                    onClick={() => {
-                                      this.addSupplier(
-                                        item.properties.englishName,
-                                        item.properties.name
-                                      );
+                                      display:
+                                        this.props.width > 600 ? "flex" : ""
                                     }}
                                   >
-                                    Request Analysis
-                                  </Typography>
-                                ) : (
-                                  ""
-                                )}
+                                    {item.label === "Company" &&
+                                    !window.location.pathname.includes(
+                                      "/direct/"
+                                    ) ? (
+                                      <StyledChip
+                                        style={{ marginRight: 5, marginTop: 5 }}
+                                        type={"info"}
+                                        onClick={() => {
+                                          this.addSupplier(
+                                            item.properties.englishName,
+                                            item.properties.name
+                                          );
+                                        }}
+                                        icon={
+                                          <AddIcon
+                                            style={{ color: "#4C84FF" }}
+                                          />
+                                        }
+                                        variant={"outlined"}
+                                        label={"Request Analysis"}
+                                      />
+                                    ) : (
+                                      ""
+                                    )}
+                                    {item.associate.length > 0 ? (
+                                      <StyledChip
+                                        style={{ marginTop: 5 }}
+                                        type={"info"}
+                                        onClick={() => {}}
+                                        icon={
+                                          <ExpandMoreIcon
+                                            style={{ color: "#4C84FF" }}
+                                          />
+                                        }
+                                        variant={"outlined"}
+                                        label={"Invested Companies"}
+                                      />
+                                    ) : (
+                                      ""
+                                    )}
+                                  </div>
+                                </div>
                               </div>
                             }
                           />
@@ -230,63 +285,73 @@ class ShareholdersExpansion extends Component {
                         {item.associate.length > 0 ? (
                           <StyledExpansionPanelDetails
                             style={{
-                              paddingRight:
-                                this.props.innerWidth > 600 ? 16 : 8,
-                              paddingLeft: this.props.innerWidth > 600 ? 16 : 8
+                              paddingLeft: 8,
+                              marginTop: 16
                             }}
                           >
-                            <div style={{ width: "100%" }}>
+                            <div>
                               {item.associate.map((associate, idx) => (
                                 <div
                                   key={idx}
-                                  style={{ display: "flex", marginBottom: 12 }}
+                                  style={{
+                                    display: "flex",
+                                    marginBottom: 12,
+                                    alignItems: "flex-start"
+                                  }}
                                 >
-                                  <div>
-                                    <Typography className={"fontStyle10"}>
-                                      {associate.properties.englishName} {" ("}{" "}
-                                      {associate.properties.name} {")"}
-                                    </Typography>
-                                    <Typography
-                                      style={{ display: "flex" }}
-                                      className={"fontStyle7"}
-                                    >
-                                      {"\u2022 "}
-                                      {associate.properties.status}
-                                      <img
-                                        alt={"capital"}
-                                        src={require("./images/yuan.svg")}
-                                        height={16}
-                                        width={16}
-                                        style={{
-                                          marginTop: 2,
-                                          marginLeft: 4,
-                                          marginRight: 4
-                                        }}
+                                  <ListItemIcon>
+                                    {item.label === "Company" ? (
+                                      <GroupIcon
+                                        className={classes.shareholderImg}
                                       />
-                                      ¥{associate.properties.registCapi}
+                                    ) : (
+                                      <UserIcon
+                                        className={classes.shareholderImg}
+                                      />
+                                    )}
+                                  </ListItemIcon>
+                                  <div style={{ width: "100%" }}>
+                                    <Typography className={"fontStyle10"}>
+                                      {associate.properties.englishName}
                                     </Typography>
+                                    <Typography className={"fontStyle7"}>
+                                      {"\u2022 "}Chinese Name:{" "}
+                                      {associate.properties.name}
+                                    </Typography>
+                                    <Typography className={"fontStyle7"}>
+                                      {"\u2022 "}Status:{" "}
+                                      {associate.properties.status}
+                                    </Typography>
+                                    <Typography className={"fontStyle7"}>
+                                      {"\u2022 "}Capital:{" "}
+                                      {associate.properties.registCapi}
+                                    </Typography>
+                                    <div style={{ display: "flex" }}>
+                                      {!window.location.pathname.includes(
+                                        "/direct/"
+                                      ) ? (
+                                        <StyledChip
+                                          style={{ marginTop: 5 }}
+                                          type={"info"}
+                                          onClick={() => {
+                                            this.addSupplier(
+                                              associate.properties.englishName,
+                                              associate.properties.name
+                                            );
+                                          }}
+                                          icon={
+                                            <AddIcon
+                                              style={{ color: "#4C84FF" }}
+                                            />
+                                          }
+                                          variant={"outlined"}
+                                          label={"Request Analysis"}
+                                        />
+                                      ) : (
+                                        ""
+                                      )}
+                                    </div>
                                   </div>
-                                  {window.location.pathname.includes(
-                                    "/direct/"
-                                  ) ? (
-                                    ""
-                                  ) : (
-                                    <Typography
-                                      style={{
-                                        cursor: "pointer",
-                                        height: "fit-content"
-                                      }}
-                                      className={"fontStyle6"}
-                                      onClick={() => {
-                                        this.addSupplier(
-                                          associate.properties.englishName,
-                                          associate.properties.name
-                                        );
-                                      }}
-                                    >
-                                      Request Analysis
-                                    </Typography>
-                                  )}
                                 </div>
                               ))}
                             </div>
@@ -296,7 +361,6 @@ class ShareholdersExpansion extends Component {
                         )}
                       </StyledExpansionPanel>
                     </StyledListItem>
-                    <Divider />
                   </div>
                 );
               })}

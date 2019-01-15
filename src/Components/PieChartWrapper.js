@@ -103,8 +103,8 @@ class PieChartWrapper extends Component {
       >
         <StyledTitle
           width={this.props.width}
-          mobileWidth={"65%"}
-          otherWidth={"75%"}
+          mobileWidth={"50%"}
+          otherWidth={"65%"}
         >
           <Typography className={classNames("fontStyle1")}>
             {this.props.title}
@@ -131,7 +131,7 @@ class PieChartWrapper extends Component {
             className={classNames(classes.divViewAll, "fontStyle6")}
             onClick={() => this.setState({ allShareholdersOpen: true })}
           >
-            View All
+            Expand Shareholders
             <img
               alt="view all"
               src={require("./images/Back.png")}
