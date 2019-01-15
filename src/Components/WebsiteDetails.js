@@ -124,7 +124,7 @@ class WebsiteDetails extends Component {
                     "fontStyle10"
                   )}
                 >
-                  {this.props.websiteWhoIs.createdDate.substr(0, 10)}
+                  {this.props.websiteWhoIs.registryData.createdDate.substr(0, 10)}
                 </ListItemSecondaryAction>
               </ListItem>
               <ListItem>
@@ -148,7 +148,7 @@ class WebsiteDetails extends Component {
                     "fontStyle10"
                   )}
                 >
-                  {this.props.websiteWhoIs.expiresDate.substr(0, 10)}
+                  {this.props.websiteWhoIs.registryData.expiresDate.substr(0, 10)}
                 </ListItemSecondaryAction>
               </ListItem>
               <ListItem>
