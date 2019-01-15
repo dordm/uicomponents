@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="deedca82-8ad4-4e62-ac9a-df5681d3be65" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/TwoInfoCard.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/TwoInfoCard.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/WebsiteDetails.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/WebsiteDetails.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/js/WebsiteUtils.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/js/WebsiteUtils.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -29,8 +30,8 @@
       <file leaf-file-name="WebsiteDetails.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Components/WebsiteDetails.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="48" column="12" lean-forward="true" selection-start-line="48" selection-start-column="12" selection-end-line="48" selection-end-column="12" />
+            <state relative-caret-position="2907">
+              <caret line="186" column="58" selection-start-line="186" selection-start-column="58" selection-end-line="186" selection-end-column="58" />
             </state>
           </provider>
         </entry>
@@ -47,20 +48,8 @@
       <file leaf-file-name="WebsiteUtils.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Components/js/WebsiteUtils.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="25" column="16" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="reportData.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/stories/MockData/reportData.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="249">
-              <caret line="3395" column="71" selection-start-line="3395" selection-start-column="71" selection-end-line="3395" selection-end-column="71" />
-              <folding>
-                <element signature="e#130643#140353#0" />
-              </folding>
+            <state relative-caret-position="157">
+              <caret line="76" column="28" lean-forward="true" selection-start-line="76" selection-start-column="28" selection-end-line="76" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -70,6 +59,18 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
               <caret line="4" column="54" selection-start-line="4" selection-start-column="54" selection-end-line="4" selection-end-column="54" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TwoInfoCard.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Components/TwoInfoCard.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="14">
+              <caret line="159" column="37" lean-forward="true" selection-start-line="159" selection-start-column="37" selection-end-line="159" selection-end-column="37" />
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -126,7 +127,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>listDiv</find>
       <find>topIcon</find>
       <find>expansionSummaryInner</find>
       <find>BigBoxLayout</find>
@@ -154,8 +154,9 @@
       <find>GroupIcon</find>
       <find>StyledChip</find>
       <find>StyledDivTooltip</find>
-      <find>getWebsiteStatus</find>
       <find>substr</find>
+      <find>registrant</find>
+      <find>getWebsiteStatus</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -206,14 +207,14 @@
         <option value="$PROJECT_DIR$/src/Components/images/businessGreen.svg" />
         <option value="$PROJECT_DIR$/src/Components/images/businessGrey.svg" />
         <option value="$PROJECT_DIR$/src/Components/images/person.svg" />
-        <option value="$PROJECT_DIR$/src/Components/TwoInfoCard.js" />
         <option value="$PROJECT_DIR$/src/Components/css/vis-network.min.css" />
         <option value="$PROJECT_DIR$/stories/MockData/reportData.js" />
         <option value="$PROJECT_DIR$/src/Components/PieChartWrapper.js" />
         <option value="$PROJECT_DIR$/src/Components/ShareholdersExpansion.js" />
         <option value="$PROJECT_DIR$/src/Components/CorporationMap.js" />
-        <option value="$PROJECT_DIR$/src/Components/js/WebsiteUtils.js" />
+        <option value="$PROJECT_DIR$/src/Components/TwoInfoCard.js" />
         <option value="$PROJECT_DIR$/src/Components/WebsiteDetails.js" />
+        <option value="$PROJECT_DIR$/src/Components/js/WebsiteUtils.js" />
         <option value="$PROJECT_DIR$/package.json" />
       </list>
     </option>
@@ -442,12 +443,12 @@
       <workItem from="1547453589078" duration="4234000" />
       <workItem from="1547460093363" duration="18844000" />
       <workItem from="1547503787840" duration="1060000" />
-      <workItem from="1547540376091" duration="20203000" />
+      <workItem from="1547540376091" duration="21367000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="320573000" />
+    <option name="totallyTimeSpent" value="321737000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
@@ -691,16 +692,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/TwoInfoCard.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1292">
-          <caret line="92" selection-start-line="92" selection-end-line="92" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/css/vis-network.min.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -773,6 +764,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/TwoInfoCard.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="14">
+          <caret line="159" column="37" lean-forward="true" selection-start-line="159" selection-start-column="37" selection-end-line="159" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/WebsiteDetails.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2907">
+          <caret line="186" column="58" selection-start-line="186" selection-start-column="58" selection-end-line="186" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/WebsiteChanges.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="269">
@@ -782,15 +790,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/js/WebsiteUtils.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="25" column="16" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/WebsiteDetails.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="48" column="12" lean-forward="true" selection-start-line="48" selection-start-column="12" selection-end-line="48" selection-end-column="12" />
+        <state relative-caret-position="157">
+          <caret line="76" column="28" lean-forward="true" selection-start-line="76" selection-start-column="28" selection-end-line="76" selection-end-column="28" />
         </state>
       </provider>
     </entry>

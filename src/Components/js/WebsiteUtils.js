@@ -28,7 +28,7 @@ class WebsiteUtils {
   }
 
   static getWebsiteStatuses(websiteWhoIs) {
-    const status = websiteWhoIs.WhoisRecord.status;
+    const status = websiteWhoIs.WhoisRecord.registryData.status;
     if (status) {
       const statuses = status
         .split(" ")

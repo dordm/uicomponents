@@ -149,10 +149,13 @@ class TwoInfoCard extends Component {
             )}
           </StyledTitle>
           <div data-cy="divContent" className={classes.divContent}>
-            {this.state.content1 ? (
+            {this.state.content1 || this.state.content1 === 0 ? (
               <div
                 style={{
-                  width: this.state.content2 ? "50%" : "100%"
+                  width:
+                    this.state.content2 || this.state.content2 === 0
+                      ? "50%"
+                      : "100%"
                 }}
                 data-cy="divContent1"
               >
@@ -171,7 +174,7 @@ class TwoInfoCard extends Component {
             ) : (
               ""
             )}
-            {this.state.content2 ? (
+            {this.state.content2 || this.state.content2 === 0 ? (
               <div
                 data-cy="divContent2"
                 style={{ paddingRight: 10, width: "50%" }}

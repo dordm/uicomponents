@@ -183,8 +183,8 @@ class WebsiteDetails extends Component {
                     "fontStyle10"
                   )}
                 >
-                  {this.props.websiteWhoIs.registrant
-                    ? this.props.websiteWhoIs.registrant.country
+                  {this.props.websiteWhoIs.registryData.registrant
+                    ? this.props.websiteWhoIs.registryData.registrant.country
                     : ""}
                 </ListItemSecondaryAction>
               </ListItem>
@@ -205,8 +205,8 @@ class WebsiteDetails extends Component {
                       "fontStyle10"
                     )}
                   >
-                    {this.props.websiteWhoIs.registrant
-                      ? this.props.websiteWhoIs.registrant.email
+                    {this.props.websiteWhoIs.registryData.registrant
+                      ? this.props.websiteWhoIs.registryData.registrant.email
                       : ""}
                   </ListItemSecondaryAction>
                 </div>
@@ -218,8 +218,8 @@ class WebsiteDetails extends Component {
                   effect="solid"
                 >
                   <span>
-                    {this.props.websiteWhoIs.registrant
-                      ? this.props.websiteWhoIs.registrant.email
+                    {this.props.websiteWhoIs.registryData.registrant
+                      ? this.props.websiteWhoIs.registryData.registrant.email
                       : ""}
                   </span>
                 </ReactTooltip>
