@@ -48,7 +48,7 @@ const styles = {
   expansionSummaryInner: {
     margin: "0px !important",
     alignItems: "flex-start",
-      paddingBottom: 5
+    paddingBottom: 5
   },
   divWrapper: {
     height: "auto",
@@ -125,9 +125,9 @@ class ShareholdersExpansion extends Component {
       });
     }
 
-    shareholders.sort(function(a,b){
-        return b.sharesProperties.stockPercent - a.sharesProperties.stockPercent;
-    })
+    shareholders.sort(function(a, b) {
+      return b.sharesProperties.stockPercent - a.sharesProperties.stockPercent;
+    });
 
     this.setState({
       persons,
@@ -240,28 +240,28 @@ class ShareholdersExpansion extends Component {
                                         this.props.width > 600 ? "flex" : ""
                                     }}
                                   >
-                                      {item.associate.length > 0 ? (
-                                          <StyledChip
-                                              style={{ marginTop: 5, marginRight: 5 }}
-                                              type={"info"}
-                                              onClick={() => {}}
-                                              icon={
-                                                  <ExpandMoreIcon
-                                                      style={{ color: "#4C84FF" }}
-                                                  />
-                                              }
-                                              variant={"outlined"}
-                                              label={"Invested Companies"}
+                                    {item.associate.length > 0 ? (
+                                      <StyledChip
+                                        style={{ marginTop: 5, marginRight: 5 }}
+                                        type={"info"}
+                                        onClick={() => {}}
+                                        icon={
+                                          <ExpandMoreIcon
+                                            style={{ color: "#4C84FF" }}
                                           />
-                                      ) : (
-                                          ""
-                                      )}
+                                        }
+                                        variant={"outlined"}
+                                        label={"Invested Companies"}
+                                      />
+                                    ) : (
+                                      ""
+                                    )}
                                     {item.label === "Company" &&
                                     !window.location.pathname.includes(
                                       "/direct/"
                                     ) ? (
                                       <StyledChip
-                                        style={{  marginTop: 5 }}
+                                        style={{ marginTop: 5 }}
                                         type={"info"}
                                         onClick={() => {
                                           this.addSupplier(
@@ -304,15 +304,9 @@ class ShareholdersExpansion extends Component {
                                   }}
                                 >
                                   <ListItemIcon>
-                                    {item.label === "Company" ? (
-                                      <GroupIcon
-                                        className={classes.shareholderImg}
-                                      />
-                                    ) : (
-                                      <UserIcon
-                                        className={classes.shareholderImg}
-                                      />
-                                    )}
+                                    <GroupIcon
+                                      className={classes.shareholderImg}
+                                    />
                                   </ListItemIcon>
                                   <div style={{ width: "100%" }}>
                                     <Typography className={"fontStyle10"}>
