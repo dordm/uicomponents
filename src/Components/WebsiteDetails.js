@@ -47,7 +47,11 @@ class WebsiteDetails extends Component {
   render() {
     const { classes } = this.props;
     return (
-      <BigBoxLayout container={true} justify={"flex-start"} alignItems={"flex-start"}>
+      <BigBoxLayout
+        container={true}
+        justify={"flex-start"}
+        alignItems={"flex-start"}
+      >
         <div className={classes.title}>
           <Typography className={classNames("fontStyle1")}>
             DNS Details
@@ -124,7 +128,12 @@ class WebsiteDetails extends Component {
                     "fontStyle10"
                   )}
                 >
-                  {this.props.websiteWhoIs.registryData.createdDate.substr(0, 10)}
+                  {this.props.websiteWhoIs.registryData
+                    ? this.props.websiteWhoIs.registryData.createdDate.substr(
+                        0,
+                        10
+                      )
+                    : ""}
                 </ListItemSecondaryAction>
               </ListItem>
               <ListItem>
@@ -148,7 +157,12 @@ class WebsiteDetails extends Component {
                     "fontStyle10"
                   )}
                 >
-                  {this.props.websiteWhoIs.registryData.expiresDate.substr(0, 10)}
+                  {this.props.websiteWhoIs.registryData
+                    ? this.props.websiteWhoIs.registryData.expiresDate.substr(
+                        0,
+                        10
+                      )
+                    : ""}
                 </ListItemSecondaryAction>
               </ListItem>
               <ListItem>
@@ -169,7 +183,9 @@ class WebsiteDetails extends Component {
                     "fontStyle10"
                   )}
                 >
-                  {this.props.websiteWhoIs.registrant.country}
+                  {this.props.websiteWhoIs.registrant
+                    ? this.props.websiteWhoIs.registrant.country
+                    : ""}
                 </ListItemSecondaryAction>
               </ListItem>
               <ListItem>
@@ -189,7 +205,9 @@ class WebsiteDetails extends Component {
                       "fontStyle10"
                     )}
                   >
-                    {this.props.websiteWhoIs.registrant.email}
+                    {this.props.websiteWhoIs.registrant
+                      ? this.props.websiteWhoIs.registrant.email
+                      : ""}
                   </ListItemSecondaryAction>
                 </div>
                 <ReactTooltip
@@ -199,7 +217,11 @@ class WebsiteDetails extends Component {
                   type="info"
                   effect="solid"
                 >
-                  <span>{this.props.websiteWhoIs.registrant.email}</span>
+                  <span>
+                    {this.props.websiteWhoIs.registrant
+                      ? this.props.websiteWhoIs.registrant.email
+                      : ""}
+                  </span>
                 </ReactTooltip>
               </ListItem>
             </List>
