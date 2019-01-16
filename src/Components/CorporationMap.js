@@ -256,7 +256,7 @@ class CorporationMap extends Component {
   render() {
     const { classes } = this.props;
     const graph = this.getGraph();
-    const currentNode = graph.nodes.find(
+    const currentNode = graph && graph.nodes.find(
       node => node.id === this.state.selectedNode
     );
     return (
