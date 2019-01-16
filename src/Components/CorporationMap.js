@@ -17,8 +17,8 @@ const StyledDivTooltip = styled.div`
   top: ${props => props.yPos}px;
   z-index: 10;
   display: ${props => props.displayTooltip};
-  max-height:200px;
-  overflow-y:auto;
+  max-height: 200px;
+  overflow-y: auto;
 `;
 
 const styles = {
@@ -232,7 +232,11 @@ class CorporationMap extends Component {
                   : ""
               } ${
                 item.properties.status
-                  ? "\nStatus: " + item.properties.status
+                  ? "\nStatus: " +
+                    (item.properties.status === "surviving" ||
+                    item.properties.status === "working"
+                      ? "active"
+                      : item.properties.status)
                   : ""
               }`,
         image:

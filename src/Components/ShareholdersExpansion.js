@@ -318,7 +318,11 @@ class ShareholdersExpansion extends Component {
                                     </Typography>
                                     <Typography className={"fontStyle7"}>
                                       {"\u2022 "}Status:{" "}
-                                      {associate.properties.status}
+                                      {associate.properties.status ===
+                                        "surviving" ||
+                                      associate.properties.status === "working"
+                                        ? "active"
+                                        : associate.properties.status}
                                     </Typography>
                                     <Typography className={"fontStyle7"}>
                                       {"\u2022 "}Capital:{" "}
