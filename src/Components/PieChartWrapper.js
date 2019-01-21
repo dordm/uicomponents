@@ -62,7 +62,7 @@ class PieChartWrapper extends Component {
       <Dialog
         PaperProps={{
           classes: {
-            root: classNames(classes.dialog)
+            root: classes.dialog
           }
         }}
         open={this.state.allShareholdersOpen}
