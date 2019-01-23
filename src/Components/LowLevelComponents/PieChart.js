@@ -234,6 +234,7 @@ class MyPieChart extends Component {
             }
           />
           <Pie
+            isAnimationActive={!(this.props.title === 'Shareholders')}
             data={this.state.data}
             dataKey={this.state.dataKey}
             nameKey={this.props.name}
