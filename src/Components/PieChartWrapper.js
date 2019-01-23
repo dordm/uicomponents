@@ -126,7 +126,9 @@ class PieChartWrapper extends Component {
             <span>{this.props.infoText}</span>
           </ReactTooltip>
         </StyledTitle>
-        {this.props.title === "Shareholders" && this.props.corporateMap ? (
+        {this.props.title === "Shareholders" && this.props.corporateMap && this.props.corporateMap.nodes.find(
+            item => item.properties.name === this.props.chineseName
+        ) ? (
           <div
             data-cy="viewAllShareholders"
             className={classNames(classes.divViewAll, "fontStyle6")}
