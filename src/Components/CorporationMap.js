@@ -105,6 +105,9 @@ class CorporationMap extends Component {
         },
         groups: {
           myGroup: { size: 50 }
+        },
+        edges:{
+          arrows: ''
         }
       }
     };
