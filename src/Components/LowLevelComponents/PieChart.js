@@ -42,10 +42,14 @@ const CustomTooltip = props => {
   if (props.payload[0] != null) {
     return (
       <div className={classes.customTooltip}>
-        {props.payload[0].payload[props.name].replace("###", "")} :{" "}
-        {new Intl.NumberFormat("en").format(
-          props.payload[0].payload[props.value]
-        ) + props.unit}
+        {props.payload[0].payload[props.name].replace("###", "")}{" "}
+        {props.value
+          ? ": " +
+            new Intl.NumberFormat("en").format(
+              props.payload[0].payload[props.value]
+            ) +
+            props.unit
+          : ""}
       </div>
     );
   }
@@ -234,7 +238,7 @@ class MyPieChart extends Component {
             }
           />
           <Pie
-            isAnimationActive={!(this.props.title === 'Shareholders')}
+            isAnimationActive={!(this.props.title === "Shareholders")}
             data={this.state.data}
             dataKey={this.state.dataKey}
             nameKey={this.props.name}
@@ -257,11 +261,17 @@ class MyPieChart extends Component {
               ) : (
                 <CustomTooltip
                   classes={classes}
-                  value={this.props.title === 'Shareholders' ? '' : this.state.dataKey}
+                  value={
+                    this.props.title === "Shareholders"
+                      ? ""
+                      : this.state.dataKey
+                  }
                   name={
                     this.props.name !== undefined ? this.props.name : "name"
                   }
-                  unit={this.props.title === 'Shareholders' ? '' : this.props.unit}
+                  unit={
+                    this.props.title === "Shareholders" ? "" : this.props.unit
+                  }
                 />
               )
             }
