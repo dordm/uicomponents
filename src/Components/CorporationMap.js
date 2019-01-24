@@ -38,13 +38,10 @@ const styles = {
     display: "flex",
     marginTop: 3
   },
-  circle: {
-    width: 9,
-    height: 9,
-    borderRadius: 4.5,
-    marginTop: 3,
-    marginRight: 4,
-    marginLeft: 4
+  divFilter: {
+    marginLeft: 24,
+    display: "flex",
+    marginTop: 10
   },
   legend: {
     marginRight: 4,
@@ -53,12 +50,21 @@ const styles = {
     height: 14
   },
   divWrapper: {
-    height: 500,
+    height: 600,
     overflow: "hidden",
     width: "100%",
     background: "white",
     margin: "1%",
     position: "relative"
+  },
+  select: {
+    width: 70,
+    marginTop: 2,
+    border: "1px solid #E4E8ED",
+    boxSizing: "border-box",
+    borderRadius: 2,
+    height: 32,
+    background: "#ffffff"
   }
 };
 
@@ -70,6 +76,10 @@ class CorporationMap extends Component {
       yPos: 0,
       displayTooltip: "none",
       isOnTooltip: false,
+      showTopEmps: true,
+      selectedLevel: 0,
+      showEdgesRelation: true,
+      displayByLevel: true,
       selectedNode: "",
       events: {
         hoverNode: event => {
@@ -106,11 +116,13 @@ class CorporationMap extends Component {
         groups: {
           myGroup: { size: 50 }
         },
-        edges:{
-          arrows: ''
+        edges: {
+          arrows: "to"
         }
       }
     };
+
+    this.levelsArr = [];
   }
 
   changeTooltip(node, event, display) {
@@ -132,8 +144,14 @@ class CorporationMap extends Component {
     if (corporateMap && supplier) {
       let theNodes = corporateMap.nodes.slice(0);
       let theRelations = corporateMap.relationships.slice(0);
+      let numLevels = 1;
       theRelations = theRelations.filter(
-        item => item.type === "INVEST" && item.startNode !== supplier.id
+        item =>
+          (item.type === "INVEST" ||
+            (this.state.showTopEmps &&
+              item.type === "EMPLOY" &&
+              item.endNode === supplier.id)) &&
+          item.startNode !== supplier.id
       );
 
       const graphRelations = theRelations.map(item => ({
@@ -141,7 +159,8 @@ class CorporationMap extends Component {
         to: item.endNode,
         role: item.properties.role,
         shouldCapi: item.properties.shouldCapi,
-        stockPercent: item.properties.stockPercent
+        stockPercent: item.properties.stockPercent,
+        type: item.type
       }));
 
       const shareholdersRelations = graphRelations.filter(
@@ -170,17 +189,24 @@ class CorporationMap extends Component {
           id: shareholder.id,
           labels: shareholder.labels,
           properties: shareholder.properties,
-          associate
+          associate,
+          level: 2
         });
+
+        numLevels = 2;
       }
 
       let finalNodes = [];
       let thisSupplier = theNodes.find(item => item.id === supplier.id);
       thisSupplier.group = "myGroup";
+      thisSupplier.level = 1;
       finalNodes.push(thisSupplier);
 
       for (let i = 0; i < shareholders.length; i++) {
-        shareholders[i].group = i.toString();
+        shareholders[i].group =
+          shareholders[i].associate.length > 1
+            ? i.toString()
+            : "supplierAssociate";
         finalNodes.push(shareholders[i]);
         for (let j = 0; j < shareholders[i].associate.length; j++)
           if (shareholders[i].associate[j].relation.id !== supplier.id) {
@@ -188,7 +214,36 @@ class CorporationMap extends Component {
               item => item.id === shareholders[i].associate[j].relation.id
             );
             itemToAdd.group = i.toString();
-            finalNodes.push(itemToAdd);
+            // itemToAdd.level = 3;
+            // finalNodes.push(itemToAdd);
+
+            //test code
+            const associateRelations = graphRelations.filter(
+              item => item.from === itemToAdd.id
+            );
+            let associates = [];
+            for (let k = 0; k < associateRelations.length; k++) {
+              const associateComp = theNodes.find(
+                item => item.id === associateRelations[k].to
+              );
+              const associateItem = associateRelations[k];
+              associateItem.relation = associateComp;
+              associates.push(associateItem);
+              associateComp.level = 4;
+              associateComp.group = "fourth level";
+              finalNodes.push(associateComp);
+              if (numLevels < 4) numLevels = 4;
+            }
+            finalNodes.push({
+              id: itemToAdd.id,
+              labels: itemToAdd.labels,
+              properties: itemToAdd.properties,
+              associate: associates,
+              level: 3,
+              group: "third level"
+            });
+            if (numLevels < 3) numLevels = 3;
+            //end test
           }
       }
 
@@ -199,16 +254,41 @@ class CorporationMap extends Component {
         (item, idx) => idx === 0 || item.id != finalNodes[idx - 1].id
       );
 
+      let levelsArr = [];
+      for (let i = 1; i < numLevels; i++) levelsArr.push(i);
+      this.levelsArr = levelsArr;
+
       const finalRelations = graphRelations.map(item => ({
-        from: item.to === supplier.id ? item.to : item.from,
-        to: item.to === supplier.id ? item.from : item.to,
+        from: item.from,
+        to: item.to,
         role: item.role,
+        label: this.state.showEdgesRelation
+          ? (item.stockPercent && item.stockPercent.toString() + "%") ||
+            item.role ||
+            item.type
+          : "",
         shouldCapi: item.shouldCapi,
         stockPercent: item.stockPercent
       }));
 
+      const lengthLevel3 = finalNodes.filter(item => item.level <= 3).length;
+      const lengthLevel4 = finalNodes.filter(item => item.level <= 4).length;
+
+      this.defaultLevel = lengthLevel4 < 30 ? 3 : lengthLevel3 < 30 ? 2 : 1;
+      if(this.defaultLevel + 1 > numLevels)
+        this.defaultLevel = numLevels - 1;
+
+      finalNodes = finalNodes.filter(
+        item =>
+          item.level <=
+          (this.state.selectedLevel
+            ? this.state.selectedLevel + 1
+            : this.defaultLevel + 1)
+      );
+
       const graphNodes = finalNodes.map(item => ({
         id: item.id,
+        level: this.state.displayByLevel ? item.level : undefined,
         associate: item.associate,
         label: item.properties.englishName,
         nodeType: item.labels[0],
@@ -259,9 +339,9 @@ class CorporationMap extends Component {
   render() {
     const { classes } = this.props;
     const graph = this.getGraph();
-    const currentNode = graph && graph.nodes.find(
-      node => node.id === this.state.selectedNode
-    );
+    console.log(this.state.levelsArr);
+    const currentNode =
+      graph && graph.nodes.find(node => node.id === this.state.selectedNode);
     return (
       <div className={classes.divWrapper}>
         <StyledDivTooltip
@@ -356,6 +436,75 @@ class CorporationMap extends Component {
             className={classes.legend}
           />
           Persons
+        </div>
+        <div className={classes.divFilter}>
+          <div>
+            <Typography className={"fontStyle19"}>Levels</Typography>
+            <select
+              onChange={e =>
+                this.setState({
+                  selectedLevel: Number.parseInt(e.target.value)
+                })
+              }
+              className={classNames(classes.select, "fontStyle16")}
+              defaultValue={
+                this.state.selectedLevel
+                  ? this.state.selectedLevel
+                  : this.defaultLevel
+              }
+            >
+              {this.levelsArr.map((item, idx) => (
+                <option key={idx} value={idx + 1}>
+                  Level {idx + 1}
+                </option>
+              ))}
+            </select>
+          </div>
+          <div style={{ marginLeft: 10 }}>
+            <Typography className={"fontStyle19"}>Top Executive</Typography>
+            <select
+              onChange={e =>
+                this.setState({
+                  showTopEmps: e.target.value === "0" ? false : true
+                })
+              }
+              className={classNames(classes.select, "fontStyle16")}
+              defaultValue={this.state.showTopEmps ? "1" : "0"}
+            >
+              <option value={"0"}>No</option>
+              <option value={"1"}>Yes</option>
+            </select>
+          </div>
+          <div style={{ marginLeft: 10 }}>
+            <Typography className={"fontStyle19"}>Labels</Typography>
+            <select
+              onChange={e =>
+                this.setState({
+                  showEdgesRelation: e.target.value === "0" ? false : true
+                })
+              }
+              className={classNames(classes.select, "fontStyle16")}
+              defaultValue={this.state.showEdgesRelation ? "1" : "0"}
+            >
+              <option value={"0"}>No</option>
+              <option value={"1"}>Yes</option>
+            </select>
+          </div>
+          <div style={{ marginLeft: 10 }}>
+            <Typography className={"fontStyle19"}>Display Mode</Typography>
+            <select
+              onChange={e =>
+                this.setState({
+                  displayByLevel: e.target.value === "0" ? false : true
+                })
+              }
+              className={classNames(classes.select, "fontStyle16")}
+              defaultValue={this.state.displayByLevel ? "1" : "0"}
+            >
+              <option value={"0"}>Hierarchical</option>
+              <option value={"1"}>By Level</option>
+            </select>
+          </div>
         </div>
         {graph && graph.nodes.length > 0 ? (
           <Graph
