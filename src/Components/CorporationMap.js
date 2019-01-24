@@ -50,7 +50,7 @@ const styles = {
     height: 14
   },
   divWrapper: {
-    height: 600,
+    height: 550,
     overflow: "hidden",
     width: "100%",
     background: "white",
