@@ -11,10 +11,13 @@ import "./css/vis-network.min.css";
 import { StyledButton } from "./LowLevelComponents/StyledComponents";
 import styled from "styled-components";
 
+let isFirefox = typeof InstallTrigger !== "undefined";
+let isIE = /*@cc_on!@*/ false || !!document.documentMode;
+
 const StyledDivTooltip = styled.div`
   position: absolute;
-  left: ${props => props.xPos}px;
-  top: ${props => props.yPos}px;
+  left: ${props => (isFirefox ? 0 : props.xPos)}px;
+  top: ${props => (isFirefox ? 0 : props.yPos)}px;
   z-index: 10;
   display: ${props => props.displayTooltip};
   max-height: 200px;
@@ -81,18 +84,29 @@ class CorporationMap extends Component {
       showEdgesRelation: true,
       displayByLevel: true,
       selectedNode: "",
-      events: {
-        hoverNode: event => {
-          let { node } = event;
-          this.changeTooltip(node, event, "block");
-        },
-        blurNode: event => {
-          let { node } = event;
-          setTimeout(() => {
-            this.changeTooltip(node, event, "none");
-          }, 300);
-        }
-      },
+      events: !isIE
+        ? {
+            hoverNode: event => {
+              console.log(event);
+              let { node } = event;
+              if (isFirefox) {
+                setTimeout(() => {
+                  if (this.state.displayTooltip === "none")
+                    this.changeTooltip(node, event, "block");
+                }, 200);
+              } else this.changeTooltip(node, event, "block");
+            },
+            blurNode: event => {
+              let { node } = event;
+              setTimeout(
+                () => {
+                  this.changeTooltip(node, event, "none");
+                },
+                isFirefox ? 700 : 300
+              );
+            }
+          }
+        : {},
       options: {
         layout: {
           hierarchical: {
@@ -275,8 +289,7 @@ class CorporationMap extends Component {
       const lengthLevel4 = finalNodes.filter(item => item.level <= 4).length;
 
       this.defaultLevel = lengthLevel4 < 30 ? 3 : lengthLevel3 < 30 ? 2 : 1;
-      if(this.defaultLevel + 1 > numLevels)
-        this.defaultLevel = numLevels - 1;
+      if (this.defaultLevel + 1 > numLevels) this.defaultLevel = numLevels - 1;
 
       finalNodes = finalNodes.filter(
         item =>
@@ -322,6 +335,29 @@ class CorporationMap extends Component {
                       : item.properties.status)
                   : ""
               }`,
+        title: isIE
+          ? item.labels[0] === "Person"
+            ? `Name: ${item.properties.englishName}\nChinese Name: ${
+                item.properties.name
+              } ${
+                item.properties.role ? "\nRole: " + item.properties.role : ""
+              }`
+            : `Name: ${item.properties.englishName}\nChinese Name: ${
+                item.properties.name
+              } ${
+                item.properties.registCapi
+                  ? "\nCapital: ¥" + item.properties.registCapi
+                  : ""
+              } ${
+                item.properties.status
+                  ? "\nStatus: " +
+                    (item.properties.status === "surviving" ||
+                    item.properties.status === "working"
+                      ? "active"
+                      : item.properties.status)
+                  : ""
+              }`
+          : undefined,
         image:
           item.labels[0] === "Person"
             ? require("./images/person.svg")
@@ -344,64 +380,68 @@ class CorporationMap extends Component {
       graph && graph.nodes.find(node => node.id === this.state.selectedNode);
     return (
       <div className={classes.divWrapper}>
-        <StyledDivTooltip
-          onMouseEnter={() => this.setState({ isOnTooltip: true })}
-          onMouseLeave={() =>
-            this.setState({ displayTooltip: "none", isOnTooltip: false })
-          }
-          id={"myTooltip"}
-          xPos={this.state.xPos}
-          yPos={this.state.yPos}
-          displayTooltip={this.state.displayTooltip}
-          className={classNames("tooltip", "fontStyle15")}
-        >
-          <div>{currentNode ? currentNode.tooltipContent : ""}</div>
-          <div>
-            {currentNode &&
-            currentNode.associate &&
-            currentNode.associate.length > 0
-              ? "\nAssociate Companies: "
-              : ""}
-            {currentNode && currentNode.associate
-              ? currentNode.associate.map(
-                  item =>
-                    `\n\u2022 Company Name - ${
-                      item.relation.properties.englishName
-                    }${
-                      item.shouldCapi
-                        ? "\nShares Capital - ¥" + item.shouldCapi
-                        : ""
-                    }${
-                      item.stockPercent
-                        ? "\nShares Percent - " + item.stockPercent + "%"
-                        : ""
-                    }`
-                )
-              : ""}
-          </div>
-          {currentNode &&
-          currentNode.nodeType === "Company" &&
-          this.props.supplier.id !== currentNode.id ? (
-            <div
-              style={{
-                marginTop: 10,
-                display: "flex",
-                justifyContent: "center"
-              }}
-            >
-              <StyledButton
-                onClick={() =>
-                  this.addSupplier(currentNode.label, currentNode.chineseName)
-                }
-                selected={true}
-              >
-                Request Analysis
-              </StyledButton>
+        {!isIE ? (
+          <StyledDivTooltip
+            onMouseEnter={() => this.setState({ isOnTooltip: true })}
+            onMouseLeave={() =>
+              this.setState({ displayTooltip: "none", isOnTooltip: false })
+            }
+            id={"myTooltip"}
+            xPos={this.state.xPos}
+            yPos={this.state.yPos}
+            displayTooltip={this.state.displayTooltip}
+            className={classNames("tooltip", "fontStyle15")}
+          >
+            <div>{currentNode ? currentNode.tooltipContent : ""}</div>
+            <div>
+              {currentNode &&
+              currentNode.associate &&
+              currentNode.associate.length > 0
+                ? "\nAssociate Companies: "
+                : ""}
+              {currentNode && currentNode.associate
+                ? currentNode.associate.map(
+                    item =>
+                      `\n\u2022 Company Name - ${
+                        item.relation.properties.englishName
+                      }${
+                        item.shouldCapi
+                          ? "\nShares Capital - ¥" + item.shouldCapi
+                          : ""
+                      }${
+                        item.stockPercent
+                          ? "\nShares Percent - " + item.stockPercent + "%"
+                          : ""
+                      }`
+                  )
+                : ""}
             </div>
-          ) : (
-            ""
-          )}
-        </StyledDivTooltip>
+            {currentNode &&
+            currentNode.nodeType === "Company" &&
+            this.props.supplier.id !== currentNode.id ? (
+              <div
+                style={{
+                  marginTop: 10,
+                  display: "flex",
+                  justifyContent: "center"
+                }}
+              >
+                <StyledButton
+                  onClick={() =>
+                    this.addSupplier(currentNode.label, currentNode.chineseName)
+                  }
+                  selected={true}
+                >
+                  Request Analysis
+                </StyledButton>
+              </div>
+            ) : (
+              ""
+            )}
+          </StyledDivTooltip>
+        ) : (
+          ""
+        )}
         <div className={classes.title}>
           <Typography className={"fontStyle1"}>Corporation Graph</Typography>
           <div data-tip data-for={"tipCorpMap"}>
