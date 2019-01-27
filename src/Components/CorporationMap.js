@@ -27,7 +27,6 @@ const StyledDivTooltip = styled.div`
 const styles = {
   title: {
     marginTop: 19,
-    marginLeft: 24,
     textAlign: "left",
     display: "flex",
     height: "min-content"
@@ -37,12 +36,10 @@ const styles = {
     marginLeft: 6
   },
   divDictionary: {
-    marginLeft: 22,
     display: "flex",
     marginTop: 3
   },
   divFilter: {
-    marginLeft: 24,
     display: "flex",
     marginTop: 10
   },
@@ -61,7 +58,6 @@ const styles = {
     position: "relative"
   },
   select: {
-    width: 70,
     marginTop: 2,
     border: "1px solid #E4E8ED",
     boxSizing: "border-box",
@@ -285,6 +281,31 @@ class CorporationMap extends Component {
         stockPercent: item.stockPercent
       }));
 
+      let filteredRelations = [],
+        found;
+      if (this.state.showEdgesRelation && this.state.showTopEmps)
+        for (let i = 0; i < finalRelations.length; i++) {
+          found = false;
+          for (let j = 0; j < finalRelations.length; j++) {
+            if (
+              i !== j &&
+              finalRelations[i].from === finalRelations[j].from &&
+              finalRelations[i].to === finalRelations[j].to
+            ) {
+              if (
+                finalRelations[i].stockPercent &&
+                finalRelations[i].stockPercent > 0
+              ) {
+              } else {
+                found = true;
+                break;
+              }
+            }
+          }
+          if (!found) filteredRelations.push(finalRelations[i]);
+        }
+      else filteredRelations = finalRelations;
+
       const lengthLevel3 = finalNodes.filter(item => item.level <= 3).length;
       const lengthLevel4 = finalNodes.filter(item => item.level <= 4).length;
 
@@ -367,7 +388,7 @@ class CorporationMap extends Component {
       }));
       return {
         nodes: graphNodes,
-        edges: finalRelations
+        edges: filteredRelations
       };
     } else return null;
   }
@@ -442,7 +463,10 @@ class CorporationMap extends Component {
         ) : (
           ""
         )}
-        <div className={classes.title}>
+        <div
+          style={{ marginLeft: this.props.width > 600 ? 24 : 16 }}
+          className={classes.title}
+        >
           <Typography className={"fontStyle1"}>Corporation Graph</Typography>
           <div data-tip data-for={"tipCorpMap"}>
             <img
@@ -460,7 +484,10 @@ class CorporationMap extends Component {
             <span>Shareholders corporation graph.</span>
           </ReactTooltip>
         </div>
-        <div className={classNames(classes.divDictionary, "fontStyle8")}>
+        <div
+          style={{ marginLeft: this.props.width > 600 ? 22 : 14 }}
+          className={classNames(classes.divDictionary, "fontStyle8")}
+        >
           <img
             src={require("./images/businessGreen.svg")}
             className={classes.legend}
@@ -477,15 +504,27 @@ class CorporationMap extends Component {
           />
           Persons
         </div>
-        <div className={classes.divFilter}>
+        <div
+          className={classes.divFilter}
+          style={{ marginLeft: this.props.width > 600 ? 24 : 16 }}
+        >
           <div>
-            <Typography className={"fontStyle19"}>Levels</Typography>
+            <Typography
+              style={{
+                height: this.props.width > 600 ? "" : 35,
+                width: this.props.width > 600 ? "" : 60
+              }}
+              className={"fontStyle19"}
+            >
+              Levels
+            </Typography>
             <select
               onChange={e =>
                 this.setState({
                   selectedLevel: Number.parseInt(e.target.value)
                 })
               }
+              style={{ width: this.props.width > 600 ? 75 : 60 }}
               className={classNames(classes.select, "fontStyle16")}
               defaultValue={
                 this.state.selectedLevel
@@ -501,13 +540,22 @@ class CorporationMap extends Component {
             </select>
           </div>
           <div style={{ marginLeft: 10 }}>
-            <Typography className={"fontStyle19"}>Top Executive</Typography>
+            <Typography
+              style={{
+                height: this.props.width > 600 ? "" : 35,
+                width: this.props.width > 600 ? "" : 60
+              }}
+              className={"fontStyle19"}
+            >
+              Top Executive
+            </Typography>
             <select
               onChange={e =>
                 this.setState({
                   showTopEmps: e.target.value === "0" ? false : true
                 })
               }
+              style={{ width: this.props.width > 600 ? 75 : 60 }}
               className={classNames(classes.select, "fontStyle16")}
               defaultValue={this.state.showTopEmps ? "1" : "0"}
             >
@@ -516,13 +564,22 @@ class CorporationMap extends Component {
             </select>
           </div>
           <div style={{ marginLeft: 10 }}>
-            <Typography className={"fontStyle19"}>Labels</Typography>
+            <Typography
+              style={{
+                height: this.props.width > 600 ? "" : 35,
+                width: this.props.width > 600 ? "" : 50
+              }}
+              className={"fontStyle19"}
+            >
+              Labels
+            </Typography>
             <select
               onChange={e =>
                 this.setState({
                   showEdgesRelation: e.target.value === "0" ? false : true
                 })
               }
+              style={{ width: this.props.width > 600 ? 75 : 50 }}
               className={classNames(classes.select, "fontStyle16")}
               defaultValue={this.state.showEdgesRelation ? "1" : "0"}
             >
@@ -531,13 +588,22 @@ class CorporationMap extends Component {
             </select>
           </div>
           <div style={{ marginLeft: 10 }}>
-            <Typography className={"fontStyle19"}>Display Mode</Typography>
+            <Typography
+              style={{
+                height: this.props.width > 600 ? "" : 35,
+                width: this.props.width > 600 ? "" : 75
+              }}
+              className={"fontStyle19"}
+            >
+              Display Mode
+            </Typography>
             <select
               onChange={e =>
                 this.setState({
                   displayByLevel: e.target.value === "0" ? false : true
                 })
               }
+              style={{ width: 75 }}
               className={classNames(classes.select, "fontStyle16")}
               defaultValue={this.state.displayByLevel ? "1" : "0"}
             >
