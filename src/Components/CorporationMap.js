@@ -173,7 +173,7 @@ class CorporationMap extends Component {
             theNodes.push({
                 id: i,
                 labels: ["Company"],
-                properties: {englishName: branches.branches[i].name, name:''}
+                properties: {englishName: branches.branches[i].name.substr(0, branches.branches[i].name.lastIndexOf("(") - 1), name:branches.branches[i].name.substr(branches.branches[i].name.lastIndexOf("("))}
             });
             theRelations.push({
                 startNode: i,
@@ -189,7 +189,7 @@ class CorporationMap extends Component {
                 theNodes.push({
                     id: i + 100,
                     labels: ["Company"],
-                    properties: {englishName: subsidiaries[i].name, name:''},
+                    properties: {englishName: subsidiaries[i].name.substr(0, subsidiaries[i].name.lastIndexOf("(") - 1), name:subsidiaries[i].name.substr(subsidiaries[i].name.lastIndexOf("("))},
                     associate: [],
                     level: 2,
                     group: "supplierAssociate"

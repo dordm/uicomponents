@@ -1430,9 +1430,9 @@ const reportData = {
     }
   ],
   branchesData: {
-    branches: [{ name: "branch1" }, { name: "branch2" }, { name: "branch3" }]
+    branches: [{ name: "branch1 (a)" }, { name: "branch2 (a)" }, { name: "branch3 (a)" }]
   },
-  foreignInvestmentList: [{ name: "investment1" }, { name: "investment2" }],
+  foreignInvestmentList: [{ name: "investment1 (a)" }, { name: "investment2 (a)" }],
   jobsList: [
     {
       address: "青山装备制造产业园区",
