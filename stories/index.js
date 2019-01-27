@@ -64,6 +64,8 @@ storiesOf("Components", module)
       supplier={reportData.corporateMap.nodes.find(
         item => item.properties.name === reportData.originalName
       )}
+      subsidiaries={reportData.foreignInvestmentList}
+      branches={reportData.branchesData}
     />
   ))
   .add("Shareholders", () => (

@@ -79,6 +79,8 @@ class CorporationMap extends Component {
       selectedLevel: 0,
       showEdgesRelation: true,
       displayByLevel: true,
+      showSubsidiaries:true,
+      showBranches:true,
       selectedNode: "",
       events: !isIE
         ? {
@@ -150,7 +152,7 @@ class CorporationMap extends Component {
   }
 
   getGraph() {
-    const { corporateMap, supplier } = this.props;
+    const { corporateMap, supplier, subsidiaries, branches } = this.props;
     if (corporateMap && supplier) {
       let theNodes = corporateMap.nodes.slice(0);
       let theRelations = corporateMap.relationships.slice(0);
@@ -163,6 +165,44 @@ class CorporationMap extends Component {
               item.endNode === supplier.id)) &&
           item.startNode !== supplier.id
       );
+
+      console.log(subsidiaries, branches)
+
+        if(branches && branches.branches && this.state.showBranches){
+          for(let i=0; i < branches.branches.length; i++){
+            theNodes.push({
+                id: i,
+                labels: ["Company"],
+                properties: {englishName: branches.branches[i].name, name:''}
+            });
+            theRelations.push({
+                startNode: i,
+                endNode: supplier.id,
+                properties: {},
+                type: 'Branch'
+            });
+          }
+        }
+
+        if(subsidiaries && this.state.showSubsidiaries){
+            for(let i=0; i < subsidiaries.length; i++){
+                theNodes.push({
+                    id: i + 100,
+                    labels: ["Company"],
+                    properties: {englishName: subsidiaries[i].name, name:''},
+                    associate: [],
+                    level: 2,
+                    group: "supplierAssociate"
+                });
+                theRelations.push({
+                    startNode: i + 100,
+                    endNode: supplier.id,
+                    properties: {},
+                    type: 'Subsidiary'
+                });
+            }
+        }
+        console.log(theNodes, theRelations)
 
       const graphRelations = theRelations.map(item => ({
         from: item.startNode,
@@ -399,6 +439,55 @@ class CorporationMap extends Component {
     console.log(this.state.levelsArr);
     const currentNode =
       graph && graph.nodes.find(node => node.id === this.state.selectedNode);
+
+    const BranchesSelect = () => { return( <div style={{ marginLeft: 10 }}>
+        <Typography
+            style={{
+                width: 75
+            }}
+            className={"fontStyle19"}
+        >
+            Branches
+        </Typography>
+        <select
+            onChange={e =>
+                this.setState({
+                    showBranches: e.target.value === "0" ? false : true
+                })
+            }
+            style={{ width: 75  }}
+            className={classNames(classes.select, "fontStyle16")}
+            defaultValue={this.state.showBranches ? "1" : "0"}
+        >
+            <option value={"0"}>No</option>
+            <option value={"1"}>Yes</option>
+        </select>
+    </div> ) }
+
+      const SubsidiariesSelect = () => { return( <div style={{ marginLeft: this.props.width > 600 ? 10 : 0 }}>
+          <Typography
+              style={{
+                  width: 75
+              }}
+              className={"fontStyle19"}
+          >
+              Subsidiaries
+          </Typography>
+          <select
+              onChange={e =>
+                  this.setState({
+                      showSubsidiaries: e.target.value === "0" ? false : true
+                  })
+              }
+              style={{ width: 75 }}
+              className={classNames(classes.select, "fontStyle16")}
+              defaultValue={this.state.showSubsidiaries ? "1" : "0"}
+          >
+              <option value={"0"}>No</option>
+              <option value={"1"}>Yes</option>
+          </select>
+      </div> ) }
+
     return (
       <div className={classes.divWrapper}>
         {!isIE ? (
@@ -611,7 +700,13 @@ class CorporationMap extends Component {
               <option value={"1"}>By Level</option>
             </select>
           </div>
+            {this.props.width > 600 ? <SubsidiariesSelect/> : ''}
+            {this.props.width > 600 ? <BranchesSelect/> : ''}
         </div>
+          {this.props.width <= 600 ? <div className={classes.divFilter} style={{ marginLeft: this.props.width > 600 ? 24 : 16 }}>
+              <SubsidiariesSelect/>
+              <BranchesSelect/>
+        </div> : ''}
         {graph && graph.nodes.length > 0 ? (
           <Graph
             style={{ width: "100%", height: "100%" }}
