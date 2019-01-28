@@ -210,7 +210,10 @@ class Certifications extends Component {
           >
             <img alt="Close" src={require("./images/Close.png")} />
           </StyledCloseIcon>
-          <DialogTitle className={"fontStyle3"} style={{ textAlign: "center", marginTop:24 }}>
+          <DialogTitle
+            className={"fontStyle3"}
+            style={{ textAlign: "center", marginTop: 24 }}
+          >
             All Certificates
           </DialogTitle>
           <StyledDialogContent>
@@ -299,11 +302,13 @@ class Certifications extends Component {
                                   ? "Valid Until " + certificate.expiration
                                   : "Invalid"}
                               </Typography>
-                                {certificate.startDate ?
+                              {certificate.startDate ? (
                                 <Typography className={"fontStyle11"}>
-                                    {"\u2022"} Start Date:{" "}
-                                    {certificate.startDate}
-                                </Typography> : '' }
+                                  {"\u2022"} Start Date: {certificate.startDate}
+                                </Typography>
+                              ) : (
+                                ""
+                              )}
                               <Typography className={"fontStyle11"}>
                                 {"\u2022"} Expired Date:{" "}
                                 {certificate.expiredDate}
