@@ -299,6 +299,11 @@ class Certifications extends Component {
                                   ? "Valid Until " + certificate.expiration
                                   : "Invalid"}
                               </Typography>
+                                {certificate.startDate ?
+                                <Typography className={"fontStyle11"}>
+                                    {"\u2022"} Start Date:{" "}
+                                    {certificate.startDate}
+                                </Typography> : '' }
                               <Typography className={"fontStyle11"}>
                                 {"\u2022"} Expired Date:{" "}
                                 {certificate.expiredDate}
@@ -306,18 +311,6 @@ class Certifications extends Component {
                               <Typography className={"fontStyle11"}>
                                 {"\u2022"} Certificate Number:{" "}
                                 {certificate.certNo}
-                              </Typography>
-                              <Typography className={"fontStyle11"}>
-                                {"\u2022"} Certificate Status:{" "}
-                                {certificate.certStatus}
-                              </Typography>
-                              <Typography className={"fontStyle11"}>
-                                {"\u2022"} Organization Name:{" "}
-                                {certificate.organizationName}
-                              </Typography>
-                              <Typography className={"fontStyle11"}>
-                                {"\u2022"} Issued Company Name:{" "}
-                                {certificate.issuedCompanyName}
                               </Typography>
                             </div>
                           </StyledExpansionPanelDetails>
