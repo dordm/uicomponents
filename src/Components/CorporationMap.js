@@ -139,7 +139,7 @@ class CorporationMap extends Component {
   changeTooltip(node, event, display) {
     if (display === "block" || !this.state.isOnTooltip)
       this.setState({
-        xPos: event.pointer.DOM.x,
+        xPos: event.pointer.DOM.x + 20,
         yPos: event.pointer.DOM.y - 50,
         displayTooltip: display,
         selectedNode: node
@@ -167,52 +167,62 @@ class CorporationMap extends Component {
 
       if (branches && branches.branches && this.state.showBranches) {
         for (let i = 0; i < branches.branches.length; i++) {
-          theNodes.push({
-            id: i,
-            labels: ["Company"],
-            properties: {
-              englishName: branches.branches[i].name.substr(
-                0,
-                branches.branches[i].name.lastIndexOf("(") - 1
-              ),
-              name: branches.branches[i].name.substr(
-                branches.branches[i].name.lastIndexOf("(")
-              )
-            }
-          });
-          theRelations.push({
-            startNode: i,
-            endNode: supplier.id,
-            properties: {},
-            type: "Branch"
-          });
+          try {
+            const englishName = branches.branches[i].name.substr(
+              0,
+              branches.branches[i].name.lastIndexOf("(") - 1
+            );
+            let chineseName = branches.branches[i].name.substr(
+              branches.branches[i].name.lastIndexOf("(")
+            );
+            chineseName = chineseName.substr(1, chineseName.length - 2);
+            theNodes.push({
+              id: i,
+              labels: ["Company"],
+              properties: {
+                englishName: englishName,
+                name: chineseName
+              }
+            });
+            theRelations.push({
+              startNode: i,
+              endNode: supplier.id,
+              properties: {},
+              type: "Branch"
+            });
+          } catch (e) {}
         }
       }
 
       if (subsidiaries && this.state.showSubsidiaries) {
         for (let i = 0; i < subsidiaries.length; i++) {
-          theNodes.push({
-            id: i + 100,
-            labels: ["Company"],
-            properties: {
-              englishName: subsidiaries[i].name.substr(
-                0,
-                subsidiaries[i].name.lastIndexOf("(") - 1
-              ),
-              name: subsidiaries[i].name.substr(
-                subsidiaries[i].name.lastIndexOf("(")
-              )
-            },
-            associate: [],
-            level: 2,
-            group: "supplierAssociate"
-          });
-          theRelations.push({
-            startNode: i + 100,
-            endNode: supplier.id,
-            properties: {},
-            type: "Subsidiary"
-          });
+          try {
+            const englishName = subsidiaries[i].name.substr(
+              0,
+              subsidiaries[i].name.lastIndexOf("(") - 1
+            );
+            let chineseName = subsidiaries[i].name.substr(
+              subsidiaries[i].name.lastIndexOf("(")
+            );
+            chineseName = chineseName.substr(1, chineseName.length - 2);
+            theNodes.push({
+              id: i + 100,
+              labels: ["Company"],
+              properties: {
+                englishName: englishName,
+                name: chineseName
+              },
+              associate: [],
+              level: 2,
+              group: "supplierAssociate"
+            });
+            theRelations.push({
+              startNode: i + 100,
+              endNode: supplier.id,
+              properties: {},
+              type: "Subsidiary"
+            });
+          } catch (e) {}
         }
       }
 
@@ -276,10 +286,7 @@ class CorporationMap extends Component {
               item => item.id === shareholders[i].associate[j].relation.id
             );
             itemToAdd.group = i.toString();
-            // itemToAdd.level = 3;
-            // finalNodes.push(itemToAdd);
 
-            //test code
             const associateRelations = graphRelations.filter(
               item => item.from === itemToAdd.id
             );
@@ -305,7 +312,6 @@ class CorporationMap extends Component {
               group: "third level"
             });
             if (numLevels < 3) numLevels = 3;
-            //end test
           }
       }
 
