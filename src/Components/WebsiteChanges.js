@@ -53,7 +53,7 @@ const styles = {
 
 class WebsiteChanges extends Component {
   getWebsiteData() {
-    const data = [];
+    let data = [];
 
     for (let i = 1; i < this.props.websiteChanges.length; i++) {
       const change = this.props.websiteChanges[i];
@@ -70,6 +70,7 @@ class WebsiteChanges extends Component {
     }
 
     if (data.length < 5 && data.length > 0) {
+      let tempArr = [];
       const difference = 5 - data.length;
       let min = Number.parseInt(data[0].name);
       for (let i = 1; i < data.length; i++) {
@@ -78,9 +79,13 @@ class WebsiteChanges extends Component {
       }
       min--;
       for (let i = 0; i < difference; i++) {
-        data.push({ name: min, Changes: 0 });
+        tempArr.push({ name: min, Changes: 0 });
         min--;
       }
+      for (let i = 0; i < data.length; i++) {
+        tempArr.push(data[i]);
+      }
+      data = tempArr;
     }
 
     return data;
