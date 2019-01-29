@@ -69,12 +69,26 @@ class WebsiteChanges extends Component {
       if (!found) data.push({ name: year, Changes: 1 });
     }
 
+    if (data.length < 5 && data.length > 0) {
+      const difference = 5 - data.length;
+      let min = Number.parseInt(data[0].name);
+      for (let i = 1; i < data.length; i++) {
+        if (Number.parseInt(data[i].name) < min)
+          min = Number.parseInt(data[i].name);
+      }
+      min--;
+      for (let i = 0; i < difference; i++) {
+        data.push({ name: min, Changes: 0 });
+        min--;
+      }
+    }
+
     return data;
   }
   render() {
     const { classes } = this.props;
     return (
-      <BigBoxLayout container={true} justify={"flex-start"} >
+      <BigBoxLayout container={true} justify={"flex-start"}>
         <div className={classes.title}>
           <Typography className={classNames("fontStyle1")}>
             Website Changes
@@ -98,7 +112,7 @@ class WebsiteChanges extends Component {
           </ReactTooltip>
         </div>
         {this.props.websiteChanges && this.props.websiteChanges.length > 0 ? (
-          <div style={{ width:'100%' }}>
+          <div style={{ width: "100%" }}>
             <BarChart
               height={"88%"}
               width={this.props.width}
