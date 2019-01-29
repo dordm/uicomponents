@@ -77,10 +77,8 @@ class WebsiteChanges extends Component {
         if (Number.parseInt(data[i].name) < min)
           min = Number.parseInt(data[i].name);
       }
-      min--;
       for (let i = 0; i < difference; i++) {
-        tempArr.push({ name: min, Changes: 0 });
-        min--;
+        tempArr.push({ name: min - difference + i, Changes: 0 });
       }
       for (let i = 0; i < data.length; i++) {
         tempArr.push(data[i]);
