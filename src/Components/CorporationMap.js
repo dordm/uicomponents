@@ -292,16 +292,16 @@ class CorporationMap extends Component {
             );
             let associates = [];
             for (let k = 0; k < associateRelations.length; k++) {
+              const associateComp = theNodes.find(
+                item => item.id === associateRelations[k].to
+              );
+              const associateItem = associateRelations[k];
+              associateItem.relation = associateComp;
+              associates.push(associateItem);
               if (associateRelations[k].to !== supplier.id) {
-                const associateComp = theNodes.find(
-                  item => item.id === associateRelations[k].to
-                );
-                const associateItem = associateRelations[k];
-                associateItem.relation = associateComp;
-                associates.push(associateItem);
                 finalNodes.push(associateComp);
-                if (numLevels < 4) numLevels = 4;
               }
+              if (numLevels < 4) numLevels = 4;
             }
             finalNodes.push({
               id: itemToAdd.id,
