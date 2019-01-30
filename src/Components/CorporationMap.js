@@ -185,8 +185,8 @@ class CorporationMap extends Component {
               }
             });
             theRelations.push({
-              startNode: i,
-              endNode: supplier.id,
+              startNode: supplier.id,
+              endNode: i,
               properties: {},
               type: "Branch"
             });
@@ -217,8 +217,8 @@ class CorporationMap extends Component {
               group: "supplierAssociate"
             });
             theRelations.push({
-              startNode: i + 100,
-              endNode: supplier.id,
+              startNode: supplier.id,
+              endNode: i + 100,
               properties: {},
               type: "Subsidiary"
             });
