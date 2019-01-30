@@ -156,6 +156,7 @@ class CorporationMap extends Component {
       let theNodes = corporateMap.nodes.slice(0);
       let theRelations = corporateMap.relationships.slice(0);
       let numLevels = 1;
+      let finalNodes = [];
       theRelations = theRelations.filter(
         item =>
           (item.type === "INVEST" ||
@@ -176,13 +177,15 @@ class CorporationMap extends Component {
               branches.branches[i].name.lastIndexOf("(")
             );
             chineseName = chineseName.substr(1, chineseName.length - 2);
-            theNodes.push({
+            finalNodes.push({
               id: i,
               labels: ["Company"],
               properties: {
                 englishName: englishName,
                 name: chineseName
-              }
+              },
+              group: "supplierBranches",
+              level: 2
             });
             theRelations.push({
               startNode: supplier.id,
@@ -205,16 +208,15 @@ class CorporationMap extends Component {
               subsidiaries[i].name.lastIndexOf("(")
             );
             chineseName = chineseName.substr(1, chineseName.length - 2);
-            theNodes.push({
+            finalNodes.push({
               id: i + 100,
               labels: ["Company"],
               properties: {
                 englishName: englishName,
                 name: chineseName
               },
-              associate: [],
-              level: 2,
-              group: "supplierAssociate"
+              group: "supplierBranches",
+              level: 2
             });
             theRelations.push({
               startNode: supplier.id,
@@ -268,7 +270,6 @@ class CorporationMap extends Component {
         numLevels = 2;
       }
 
-      let finalNodes = [];
       let thisSupplier = theNodes.find(item => item.id === supplier.id);
       thisSupplier.group = "myGroup";
       thisSupplier.level = 1;
