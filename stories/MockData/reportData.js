@@ -1407,6 +1407,43 @@ const reportData = {
             "whoisServer" : "grs-whois.cndns.com"
         }
     },
+    lawEnforcement:[
+        {
+            "court" : "Shanghai Minhang District People's Court",
+            "date" : "2003-10-09",
+            "execMoney" : "¥8134.9",
+            "name" : "Shanghai Jingxing Warehousing Equipment Engineering Co., Ltd.",
+            "num" : "(2003) Min Zizi No. 03563"
+        },
+        {
+            "court" : "Shanghai Minhang District People's Court",
+            "date" : "2005-03-11",
+            "execMoney" : "¥10815.9",
+            "name" : "Shanghai Jingxing Warehousing Equipment Engineering Co., Ltd.",
+            "num" : "(2005) Min Zizi No. 01334"
+        },
+        {
+            "court" : "Shanghai Minhang District People's Court",
+            "date" : "2009-06-24",
+            "execMoney" : "¥10000",
+            "name" : "Shanghai Jingxing Warehousing Equipment Engineering Co., Ltd.",
+            "num" : "(2009) Min Zizi No. 05615"
+        },
+        {
+            "court" : "Shanghai Minhang District People's Court",
+            "date" : "2010-06-11",
+            "execMoney" : "¥1160",
+            "name" : "Shanghai Jingxing Warehousing Equipment Engineering Co., Ltd.",
+            "num" : "(2010) Min Zizi No. 04178"
+        },
+        {
+            "court" : "Shanghai Minhang District People's Court",
+            "date" : "2010-06-12",
+            "execMoney" : "¥39000",
+            "name" : "Shanghai Jingxing Warehousing Equipment Engineering Co., Ltd.",
+            "num" : "(2010) Min Zizi No. 04340"
+        }
+    ],
   changesList: [
     {
       date: "2015-01-29",

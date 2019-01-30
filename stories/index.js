@@ -18,6 +18,7 @@ import PublicFinancial from "../src/Components/PublicFinancial";
 import PublicFinancialRatio from "../src/Components/PublicFinancialRatio";
 import MoreDataBranchesInvestments from "../src/Components/MoreDataBranchesInvestments";
 import MoreDataEmployees from "../src/Components/MoreDataEmployees";
+import MoreDataLawEnforcement from '../src/Components/MoreDataLawEnforcement';
 import reportData from "./MockData/reportData";
 import "../src/Components/css/fonts.css";
 import "../src/Components/css/tooltip.css";
@@ -219,37 +220,25 @@ storiesOf("Components", module)
       }
     />
   ))
-  .add("Two Info Card with drill down and text", () => (
+  .add("Law Enforcement example", () => (
     <TwoInfoCard
       width={window.innerWidth}
-      name={"Investments and Branches"}
+      name={"law enforcement"}
       date={""}
       infoText={"The company subsidiaries and branches"}
       content1={
-        reportData.foreignInvestment !== undefined
-          ? reportData.foreignInvestment
-          : ""
+        reportData.lawEnforcement.length
       }
-      content1Lbl={"No. of Investments"}
-      content2={
-        reportData.numberOfBranches !== undefined
-          ? reportData.numberOfBranches
-          : ""
-      }
-      content2Lbl={"Branches"}
+      content1Lbl={"law enforcement"}
+      content2Lbl={""}
       bottomIcon={Utils.getIconByNumber(4)}
       bottomMsg={"some text message"}
       moreBtn={true}
-      moreTitle={"Investments and Branches"}
+      moreTitle={"Enforcement List"}
       moreData={
-        investmentsList.length > 0 || branchesList.length > 0 ? (
-          <MoreDataBranchesInvestments
-            moreData={investmentsList}
-            moreData2={branchesList}
-            moreSubTitle={"Investments"}
-            moreSubTitle2={"Branches"}
+          <MoreDataLawEnforcement
+              moreData={reportData.lawEnforcement}
           />
-        ) : null
       }
     />
   ));

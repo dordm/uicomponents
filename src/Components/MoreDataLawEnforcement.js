@@ -71,7 +71,13 @@ function MoreDataLawEnforcement(props) {
                       {"\u2022"} Enforcement of Court: {item.court}
                     </Typography>
                     <Typography className={"fontStyle7"}>
-                      {"\u2022"} Execution Target: {item.execMoney}
+                      {"\u2022"} Execution Target:{" "}
+                      {item.execMoney
+                        ? item.execMoney[0] +
+                          new Intl.NumberFormat("en").format(
+                            item.execMoney.substr(1)
+                          )
+                        : ""}
                     </Typography>
                   </div>
                 </StyledExpansionPanelDetails>
