@@ -161,13 +161,16 @@ const CustomLabel = ({
   outerRadius,
   percent,
   index,
-  width
+  width,
+  title
 }) => {
   const radius = outerRadius * 0.5;
   const x = cx + radius * Math.cos(-midAngle * RADIAN);
   const y = cy + radius * Math.sin(-midAngle * RADIAN);
   const COLORS = ["#FF3B77", "#2FD565", "#F97413", "#4C84FF", "#A1AEC6"];
-  return (percent >= 1 ? percent : (percent * 100).toFixed(0)) >= 10 ? (
+  return (percent >= 1 || title === "Shareholders"
+    ? percent
+    : (percent * 100).toFixed(0)) >= 10 ? (
     <text
       x={(width < 600 ? x + (x > cx ? -10 : 10) : x) + (x > cx ? -5 : 5)}
       y={y}
@@ -180,7 +183,11 @@ const CustomLabel = ({
       textAnchor={x > cx ? "start" : "end"}
       dominantBaseline="central"
     >
-      {`${percent >= 1 ? percent : (percent * 100).toFixed(0)}%`}
+      {`${
+        percent >= 1 || title === "Shareholders"
+          ? percent
+          : (percent * 100).toFixed(0)
+      }%`}
     </text>
   ) : (
     ""
@@ -248,7 +255,9 @@ class MyPieChart extends Component {
             outerRadius={this.state.outerRadius}
             fill="#8884d8"
             labelLine={false}
-            label={<CustomLabel width={this.props.width} />}
+            label={
+              <CustomLabel width={this.props.width} title={this.props.title} />
+            }
           >
             {this.state.data.map((entry, index) => (
               <Cell key={index} fill={COLORS[index % COLORS.length]} />
