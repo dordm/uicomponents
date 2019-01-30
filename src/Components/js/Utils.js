@@ -1054,7 +1054,9 @@ class Utils {
   }
 
   static calcTaxRating(report) {
-    const lastYear = new Date().getFullYear() - 1;
+    let date = new Date();
+    date.setDate(date.getDate() - 180);
+    const lastYear = date.getFullYear() - 1;
     let taxRating = "Not Eligible";
     let taxRatingBottomMsg = "Past eligible years: ";
     if (
