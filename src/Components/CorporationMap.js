@@ -285,7 +285,6 @@ class CorporationMap extends Component {
             const itemToAdd = theNodes.find(
               item => item.id === shareholders[i].associate[j].relation.id
             );
-            itemToAdd.group = i.toString();
 
             const associateRelations = graphRelations.filter(
               item => item.from === itemToAdd.id
@@ -296,11 +295,11 @@ class CorporationMap extends Component {
                 item => item.id === associateRelations[k].to
               );
               const associateItem = associateRelations[k];
+              associateComp.level = 4;
+              associateComp.group = "fourth level";
               associateItem.relation = associateComp;
               associates.push(associateItem);
-              if (associateRelations[k].to !== supplier.id) {
-                finalNodes.push(associateComp);
-              }
+              finalNodes.push(associateComp);
               if (numLevels < 4) numLevels = 4;
             }
             finalNodes.push({
@@ -316,7 +315,11 @@ class CorporationMap extends Component {
       }
 
       finalNodes = finalNodes.sort(function(a, b) {
-        return Number.parseInt(b.id) - Number.parseInt(a.id);
+        let ids = Number.parseInt(a.id) - Number.parseInt(b.id);
+        if (ids !== 0) {
+          return ids;
+        }
+        return Number.parseInt(a.level) - Number.parseInt(b.level);
       });
       finalNodes = finalNodes.filter(
         (item, idx) => idx === 0 || item.id != finalNodes[idx - 1].id
