@@ -355,7 +355,7 @@ class CorporationMap extends Component {
                 finalRelations[i].stockPercent > 0
               ) {
               } else {
-                found = true;
+                finalRelations[i].label = "";
                 break;
               }
             }
