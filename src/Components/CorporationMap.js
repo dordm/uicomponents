@@ -150,6 +150,10 @@ class CorporationMap extends Component {
     this.props.addSupplier(englishName, chineseName);
   }
 
+  deepClone(item){
+    return JSON.parse(JSON.stringify(item));
+  }
+
   getGraph() {
     const { corporateMap, supplier, subsidiaries, branches } = this.props;
     if (corporateMap && supplier) {
@@ -157,7 +161,6 @@ class CorporationMap extends Component {
       let theRelations = corporateMap.relationships.slice(0);
       let numLevels = 1;
       let finalNodes = [];
-      console.log(finalNodes)
       theRelations = theRelations.filter(
         item =>
           (item.type === "INVEST" ||
@@ -178,7 +181,7 @@ class CorporationMap extends Component {
               branches.branches[i].name.lastIndexOf("(")
             );
             chineseName = chineseName.substr(1, chineseName.length - 2);
-            finalNodes.push({
+            finalNodes.push(this.deepClone({
               id: i,
               labels: ["Company"],
               properties: {
@@ -187,7 +190,7 @@ class CorporationMap extends Component {
               },
               group: "supplierBranches",
               level: 2
-            });
+            }));
             theRelations.push({
               startNode: supplier.id,
               endNode: i,
@@ -209,7 +212,7 @@ class CorporationMap extends Component {
               subsidiaries[i].name.lastIndexOf("(")
             );
             chineseName = chineseName.substr(1, chineseName.length - 2);
-            finalNodes.push({
+            finalNodes.push(this.deepClone({
               id: i + 100,
               labels: ["Company"],
               properties: {
@@ -218,7 +221,7 @@ class CorporationMap extends Component {
               },
               group: "supplierBranches",
               level: 2
-            });
+            }));
             theRelations.push({
               startNode: supplier.id,
               endNode: i + 100,
@@ -274,14 +277,14 @@ class CorporationMap extends Component {
       let thisSupplier = theNodes.find(item => item.id === supplier.id);
       thisSupplier.group = "myGroup";
       thisSupplier.level = 1;
-      finalNodes.push(thisSupplier);
+      finalNodes.push(this.deepClone(thisSupplier));
 
       for (let i = 0; i < shareholders.length; i++) {
         shareholders[i].group =
           shareholders[i].associate.length > 1
             ? i.toString()
             : "supplierAssociate";
-        finalNodes.push(shareholders[i]);
+        finalNodes.push(this.deepClone(shareholders[i]));
         for (let j = 0; j < shareholders[i].associate.length; j++)
           if (shareholders[i].associate[j].relation.id !== supplier.id) {
             const itemToAdd = theNodes.find(
@@ -301,17 +304,17 @@ class CorporationMap extends Component {
               associateComp.group = "fourth level";
               associateItem.relation = associateComp;
               associates.push(associateItem);
-              finalNodes.push(associateComp);
+              finalNodes.push(this.deepClone(associateComp));
               if (numLevels < 4) numLevels = 4;
             }
-            finalNodes.push({
+            finalNodes.push(this.deepClone({
               id: itemToAdd.id,
               labels: itemToAdd.labels,
               properties: itemToAdd.properties,
               associate: associates,
               level: 3,
               group: "third level"
-            });
+            }));
             if (numLevels < 3) numLevels = 3;
           }
       }
