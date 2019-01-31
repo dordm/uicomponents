@@ -54,54 +54,84 @@ function MoreDataDishonest(props) {
                   <StyledListItemText
                     primary={
                       <Typography className={"fontStyle7"}>
-                        {item.dishonestName}
+                        {item.Name ? item.Name : item.dishonestName}
                       </Typography>
                     }
                   />
                 </StyledExpansionSummary>
                 <StyledExpansionPanelDetails>
-                  <div>
-                    <Typography className={"fontStyle7"}>
-                      {"\u2022"} Release Time: {item.publishDate}
-                    </Typography>
-                    <Typography className={"fontStyle7"}>
-                      {"\u2022"} Filling Time: {item.regDate}
-                    </Typography>
-                    <Typography className={"fontStyle7"}>
-                      {"\u2022"} Case Number: {item.caseCode}
-                    </Typography>
-                    <Typography className={"fontStyle7"}>
-                      {"\u2022"} Dishonest Id: {item.dishonestId}
-                    </Typography>
-                    <Typography className={"fontStyle7"}>
-                      {"\u2022"} Id Number / Organization Code: {item.cardNum}
-                    </Typography>
-                    <Typography className={"fontStyle7"}>
-                      {"\u2022"} Name of Person in Charge: {item.businessEntity}
-                    </Typography>
-                    <Typography className={"fontStyle7"}>
-                      {"\u2022"} Enforcement of Court: {item.courtName}
-                    </Typography>
-                    <Typography className={"fontStyle7"}>
-                      {"\u2022"} Province: {item.areaName}
-                    </Typography>
-                    <Typography className={"fontStyle7"}>
-                      {"\u2022"} Basis for the Symbol: {item.gistId}
-                    </Typography>
-                    <Typography className={"fontStyle7"}>
-                      {"\u2022"} Execution units: {item.gistUnit}
-                    </Typography>
-                    <Typography className={"fontStyle7"}>
-                      {"\u2022"} Legal Responsibility: {item.legalDuty}
-                    </Typography>
-                    <Typography className={"fontStyle7"}>
-                      {"\u2022"} Debtor's Fulfillment: {item.performance}
-                    </Typography>
-                    <Typography className={"fontStyle7"}>
-                      {"\u2022"} Debtor Behavior Specific Circumstances:{" "}
-                      {item.disruptTypeName}
-                    </Typography>
-                  </div>
+                  {item.Name ? (
+                    <div>
+                      <Typography className={"fontStyle7"}>
+                        {"\u2022"} Release Time: {item.Publicdate}
+                      </Typography>
+                      <Typography className={"fontStyle7"}>
+                        {"\u2022"} Filling Time: {item.Liandate}
+                      </Typography>
+                      <Typography className={"fontStyle7"}>
+                        {"\u2022"} Case Number: {item.Anno}
+                      </Typography>
+                      <Typography className={"fontStyle7"}>
+                        {"\u2022"} Organization Code: {item.Orgno}
+                      </Typography>
+                      <Typography className={"fontStyle7"}>
+                        {"\u2022"} Dishonest Number: {item.Executeno}
+                      </Typography>
+                      <Typography className={"fontStyle7"}>
+                        {"\u2022"} Execute Status: {item.Executestatus}
+                      </Typography>
+                      <Typography className={"fontStyle7"}>
+                        {"\u2022"} Behavior Note: {item.Actionremark}
+                      </Typography>
+                      <Typography className={"fontStyle7"}>
+                        {"\u2022"} Executive Court: {item.Executegov}
+                      </Typography>
+                    </div>
+                  ) : (
+                    <div>
+                      <Typography className={"fontStyle7"}>
+                        {"\u2022"} Release Time: {item.publishDate}
+                      </Typography>
+                      <Typography className={"fontStyle7"}>
+                        {"\u2022"} Filling Time: {item.regDate}
+                      </Typography>
+                      <Typography className={"fontStyle7"}>
+                        {"\u2022"} Case Number: {item.caseCode}
+                      </Typography>
+                      <Typography className={"fontStyle7"}>
+                        {"\u2022"} Dishonest Id: {item.dishonestId}
+                      </Typography>
+                      <Typography className={"fontStyle7"}>
+                        {"\u2022"} Id Number / Organization Code: {item.cardNum}
+                      </Typography>
+                      <Typography className={"fontStyle7"}>
+                        {"\u2022"} Name of Person in Charge:{" "}
+                        {item.businessEntity}
+                      </Typography>
+                      <Typography className={"fontStyle7"}>
+                        {"\u2022"} Enforcement of Court: {item.courtName}
+                      </Typography>
+                      <Typography className={"fontStyle7"}>
+                        {"\u2022"} Province: {item.areaName}
+                      </Typography>
+                      <Typography className={"fontStyle7"}>
+                        {"\u2022"} Basis for the Symbol: {item.gistId}
+                      </Typography>
+                      <Typography className={"fontStyle7"}>
+                        {"\u2022"} Execution units: {item.gistUnit}
+                      </Typography>
+                      <Typography className={"fontStyle7"}>
+                        {"\u2022"} Legal Responsibility: {item.legalDuty}
+                      </Typography>
+                      <Typography className={"fontStyle7"}>
+                        {"\u2022"} Debtor's Fulfillment: {item.performance}
+                      </Typography>
+                      <Typography className={"fontStyle7"}>
+                        {"\u2022"} Debtor Behavior Specific Circumstances:{" "}
+                        {item.disruptTypeName}
+                      </Typography>
+                    </div>
+                  )}
                 </StyledExpansionPanelDetails>
               </StyledExpansionPanel>
             </StyledListItem>
