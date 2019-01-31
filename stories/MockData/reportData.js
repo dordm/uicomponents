@@ -1,5 +1,5 @@
 const reportData = {
-  originalName: "上海鑫冶铜业有限公司",
+  originalName: "浙江前程石化股份有限公司",
   registrationNumber: "371100200006586",
   score: 80,
   dateOfRegistration: "April 2007",
@@ -3441,1967 +3441,2937 @@ const reportData = {
   corporateMap: {
       nodes : [
           {
-              "id" : "28657593",
+              "id" : "128092587",
+              "labels" : [
+                  "Person"
+              ],
+              "properties" : {
+                  "englishName" : "Feng Lijiang",
+                  "hasImage" : false,
+                  "keyNo" : "pca1500d7069961110c1d98e24532c3d",
+                  "name" : "冯利江",
+                  "role" : "Supervisor"
+              }
+          },
+          {
+              "id" : "25222030",
               "labels" : [
                   "Company"
               ],
               "properties" : {
                   "econKind" : "其他有限责任公司",
-                  "englishName" : "Xi'an Xiteng Technology Development Co., Ltd.",
+                  "englishName" : "Longkou Zhonghai Aluminum Co., Ltd.",
                   "hasImage" : false,
-                  "keyNo" : "78b789d95ca02fde5a85eea0f798f84b",
-                  "name" : "西安西腾科技发展有限公司",
-                  "registCapi" : "100000.000",
+                  "keyNo" : "6a790e857dc4d93dfe8658e5d6a2f3fa",
+                  "name" : "龙口中海铝业有限公司",
+                  "registCapi" : "25000.000",
                   "status" : "working"
               }
           },
           {
-              "id" : "45113022",
+              "id" : "24771439",
               "labels" : [
                   "Company"
               ],
               "properties" : {
-                  "econKind" : "有限责任公司",
-                  "englishName" : "Shenzhen Maike Commodity Financial Services Co., Ltd.",
+                  "econKind" : "其他有限责任公司",
+                  "englishName" : "Tak Ching Yi Kee Property Co., Ltd.",
                   "hasImage" : false,
-                  "keyNo" : "bd2929b1c6851e01878a230af288ec16",
-                  "name" : "深圳迈科大宗商品金融服务有限公司",
-                  "registCapi" : "125633.350",
-                  "status" : "surviving"
-              }
-          },
-          {
-              "id" : "4861020",
-              "labels" : [
-                  "Company"
-              ],
-              "properties" : {
-                  "econKind" : "集体所有制",
-                  "englishName" : "Shanghai Jinshan Industrial Co., Ltd.",
-                  "hasImage" : false,
-                  "keyNo" : "14720879b309733bbd10ecabda21ae98",
-                  "name" : "上海市金山区工业总公司",
-                  "registCapi" : "1001.000",
-                  "status" : "surviving"
-              }
-          },
-          {
-              "id" : "20914470",
-              "labels" : [
-                  "Company"
-              ],
-              "properties" : {
-                  "econKind" : "有限合伙企业",
-                  "englishName" : "Beijing Huashan Hongye Equity Investment Fund (Limited Partnership)",
-                  "hasImage" : false,
-                  "keyNo" : "582f19ad4b4a6c3392405156d910f434",
-                  "name" : "北京华山弘业股权投资基金(有限合伙)",
-                  "registCapi" : "0.000",
-                  "status" : "working"
-              }
-          },
-          {
-              "id" : "20089128",
-              "labels" : [
-                  "Company"
-              ],
-              "properties" : {
-                  "econKind" : "有限责任公司（中外合资）",
-                  "englishName" : "Jin Heng (Shanghai) Financial Leasing Co., Ltd.",
-                  "hasImage" : false,
-                  "keyNo" : "54b1cd23972b16ca79104a7723aa0a42",
-                  "name" : "金恒(上海)融资租赁有限公司",
-                  "registCapi" : "30000.000",
-                  "status" : "surviving"
-              }
-          },
-          {
-              "id" : "4490084",
-              "labels" : [
-                  "Company"
-              ],
-              "properties" : {
-                  "econKind" : "有限责任公司（非自然人投资或控股的法人独资）",
-                  "englishName" : "Shanghai Zhangyan Industrial Park Development Co., Ltd.",
-                  "hasImage" : false,
-                  "keyNo" : "12e544f6cfa8c03848ff043ad2ac52ea",
-                  "name" : "上海张堰工业园区发展有限公司",
+                  "keyNo" : "68952eaee4740aa2380308890726b79f",
+                  "name" : "德正奕奇物产有限公司",
                   "registCapi" : "10000.000",
-                  "status" : "surviving"
-              }
-          },
-          {
-              "id" : "40729161",
-              "labels" : [
-                  "Company"
-              ],
-              "properties" : {
-                  "econKind" : "有限责任公司(外商投资企业法人独资)",
-                  "englishName" : "Midwest Commodity Trading Centre Limited",
-                  "hasImage" : false,
-                  "keyNo" : "aaeb44568456b120490a6b3c576cb180",
-                  "name" : "中西部商品交易中心有限公司",
-                  "registCapi" : "40000.000",
                   "status" : "working"
               }
           },
           {
-              "id" : "33987104",
-              "labels" : [
-                  "Company"
-              ],
-              "properties" : {
-                  "econKind" : "股份有限公司(台港澳与境内合资、未上市)",
-                  "englishName" : "Rosewood Holdings Co., Ltd.",
-                  "hasImage" : true,
-                  "keyNo" : "8ed9c021af8fadb8612b9e6cdd2dd270",
-                  "name" : "蔷薇控股股份有限公司",
-                  "registCapi" : "1180000.000",
-                  "status" : "surviving"
-              }
-          },
-          {
-              "id" : "125705300",
+              "id" : "93242263",
               "labels" : [
                   "Person"
               ],
               "properties" : {
-                  "englishName" : "Zhang Chunling",
+                  "englishName" : "Shen Zhihong",
                   "hasImage" : false,
-                  "keyNo" : "pc295697817580ef7a1a049647d296dc",
-                  "name" : "张春玲",
-                  "role" : "Director"
-              }
-          },
-          {
-              "id" : "6074212",
-              "labels" : [
-                  "Company"
-              ],
-              "properties" : {
-                  "econKind" : "其他股份有限公司(非上市)",
-                  "englishName" : "Maike Futures Co., Ltd.",
-                  "hasImage" : true,
-                  "keyNo" : "197f973257eeb22720ca62bccd3ee691",
-                  "name" : "迈科期货股份有限公司",
-                  "registCapi" : "32800.000",
-                  "status" : "working"
-              }
-          },
-          {
-              "id" : "132153050",
-              "labels" : [
-                  "Person"
-              ],
-              "properties" : {
-                  "englishName" : "Zou Jian",
-                  "hasImage" : false,
-                  "keyNo" : "pd6d6f2bcd03bddf5cc4c709a755f2f4",
-                  "name" : "邹建",
+                  "keyNo" : "p5cced299068a47750df1e3714e6ad48",
+                  "name" : "沈志宏",
                   "role" : ""
               }
           },
           {
-              "id" : "59133890",
+              "id" : "30648266",
               "labels" : [
                   "Company"
               ],
               "properties" : {
-                  "econKind" : "有限责任公司",
-                  "englishName" : "Shaanxi Yingbao Investment Co., Ltd.",
+                  "econKind" : "有限责任公司(国有独资)",
+                  "englishName" : "Jiangsu Overseas Enterprise Group Co., Ltd.",
                   "hasImage" : false,
-                  "keyNo" : "f792e8bc8a7f5ab63aaab935a1316679",
-                  "name" : "陕西盈宝投资有限公司",
-                  "registCapi" : "1700.000",
+                  "keyNo" : "80f4aec0b4068f721d9e9e36912d23de",
+                  "name" : "江苏省海外企业集团有限公司",
+                  "registCapi" : "50000.000",
                   "status" : "working"
               }
           },
           {
-              "id" : "13981596",
-              "labels" : [
-                  "Company"
-              ],
-              "properties" : {
-                  "econKind" : "有限责任公司（自然人投资或控股）",
-                  "englishName" : "Daishang Road (Shanghai) Nonferrous Metals Co., Ltd.",
-                  "hasImage" : false,
-                  "keyNo" : "3ae8b99a0f3c5d9798e0efb824961be4",
-                  "name" : "大商道(上海)有色金属有限公司",
-                  "registCapi" : "1000.000",
-                  "status" : "surviving"
-              }
-          },
-          {
-              "id" : "83281",
-              "labels" : [
-                  "Company"
-              ],
-              "properties" : {
-                  "econKind" : "有限责任公司（外商投资企业与内资合资）",
-                  "englishName" : "Shanghai Xinye Copper Co., Ltd.",
-                  "hasImage" : false,
-                  "keyNo" : "005b729b7f184ae1010b19a7f9460afe",
-                  "name" : "上海鑫冶铜业有限公司",
-                  "registCapi" : "30430.000",
-                  "status" : "surviving"
-              }
-          },
-          {
-              "id" : "14569607",
-              "labels" : [
-                  "Company"
-              ],
-              "properties" : {
-                  "econKind" : "有限责任公司(台港澳与境内合资)",
-                  "englishName" : "Xi'an Prince Catering Investment Management Group Co., Ltd.",
-                  "hasImage" : false,
-                  "keyNo" : "3d68d052ea02790a4c323b4efac7f940",
-                  "name" : "西安王子饮食投资管理集团有限公司",
-                  "registCapi" : "1215.200",
-                  "status" : "working"
-              }
-          },
-          {
-              "id" : "93580030",
+              "id" : "133012980",
               "labels" : [
                   "Person"
               ],
               "properties" : {
-                  "englishName" : "Wang Hongbin",
+                  "englishName" : "Fan Binwen",
                   "hasImage" : false,
-                  "keyNo" : "p5dde60ba3445b33c08fc5c88013fc15",
-                  "name" : "王宏斌",
-                  "role" : "Director"
+                  "keyNo" : "pd98b52d813e9f67f378e8725644f85b",
+                  "name" : "范斌文",
+                  "role" : "Staff Director"
               }
           },
           {
-              "id" : "39502121",
-              "labels" : [
-                  "Company"
-              ],
-              "properties" : {
-                  "econKind" : "有限责任公司（自然人投资或控股的法人独资）",
-                  "englishName" : "Jinmai (Shanghai) Logistics Co., Ltd.",
-                  "hasImage" : false,
-                  "keyNo" : "a5cfdc1ba90eac8762123dd16c86368d",
-                  "name" : "金劢(上海)物流有限公司",
-                  "registCapi" : "5000.000",
-                  "status" : "surviving"
-              }
-          },
-          {
-              "id" : "57774603",
-              "labels" : [
-                  "Company"
-              ],
-              "properties" : {
-                  "econKind" : "有限责任公司(中外合资)",
-                  "englishName" : "Xi'an Maike Metal International Group Co., Ltd.",
-                  "hasImage" : true,
-                  "keyNo" : "f1eaa125195168c07e590240c63748f4",
-                  "name" : "西安迈科金属国际集团有限公司",
-                  "registCapi" : "136720.000",
-                  "status" : "working"
-              }
-          },
-          {
-              "id" : "18095726",
-              "labels" : [
-                  "Company"
-              ],
-              "properties" : {
-                  "econKind" : "有限责任公司（外商投资企业法人独资）",
-                  "englishName" : "Guohe (Shanghai) Metal Resources Co., Ltd.",
-                  "hasImage" : false,
-                  "keyNo" : "4c43b448fa0455bb32d2af07ec764a27",
-                  "name" : "国合(上海)金属资源有限公司",
-                  "registCapi" : "5000.000",
-                  "status" : "surviving"
-              }
-          },
-          {
-              "id" : "55680985",
-              "labels" : [
-                  "Company"
-              ],
-              "properties" : {
-                  "econKind" : "有限责任公司（自然人投资或控股的法人独资）",
-                  "englishName" : "Shanghai Maike Metal Resources Co., Ltd.",
-                  "hasImage" : true,
-                  "keyNo" : "e935523284e10041ccb1fa6c69767abd",
-                  "name" : "上海迈科金属资源有限公司",
-                  "registCapi" : "40000.000",
-                  "status" : "surviving"
-              }
-          },
-          {
-              "id" : "82826",
-              "labels" : [
-                  "Company"
-              ],
-              "properties" : {
-                  "econKind" : "其他股份有限公司(非上市)",
-                  "englishName" : "Daishando Commodity Trading Market Co., Ltd.",
-                  "hasImage" : true,
-                  "keyNo" : "005aea99f0e4e53161f054424e0cdebb",
-                  "name" : "大商道商品交易市场股份有限公司",
-                  "registCapi" : "100000.000",
-                  "status" : "working"
-              }
-          },
-          {
-              "id" : "105609926",
-              "labels" : [
-                  "Person"
-              ],
-              "properties" : {
-                  "englishName" : "Hu Jianbin",
-                  "hasImage" : false,
-                  "keyNo" : "p838a5a5f8f857438f2d88fe88b58cc9",
-                  "name" : "胡建斌",
-                  "role" : ""
-              }
-          },
-          {
-              "id" : "95791912",
-              "labels" : [
-                  "Person"
-              ],
-              "properties" : {
-                  "englishName" : "Ho Kin-Pi",
-                  "hasImage" : true,
-                  "keyNo" : "p64cbe63028da2cc6ac7782612e845c9",
-                  "name" : "何金碧",
-                  "role" : "Natural person shareholders"
-              }
-          },
-          {
-              "id" : "23292359",
-              "labels" : [
-                  "Company"
-              ],
-              "properties" : {
-                  "econKind" : "有限责任公司（外商投资企业法人独资）",
-                  "englishName" : "Shanghai Xin Yi Trade Co., Ltd.",
-                  "hasImage" : false,
-                  "keyNo" : "625b3e43547370ade2671b98799d3704",
-                  "name" : "上海昕祎经贸有限公司",
-                  "registCapi" : "10000.000",
-                  "status" : "surviving"
-              }
-          },
-          {
-              "id" : "32126790",
-              "labels" : [
-                  "Company"
-              ],
-              "properties" : {
-                  "econKind" : "有限责任公司（非自然人投资或控股的法人独资）",
-                  "englishName" : "Shanghai Hongsheng Property Co., Ltd.",
-                  "hasImage" : false,
-                  "keyNo" : "871c1527e9b4cbf463aef6fd3fd19bd6",
-                  "name" : "上海虹晟置业有限公司",
-                  "registCapi" : "500.000",
-                  "status" : "surviving"
-              }
-          },
-          {
-              "id" : "15943232",
-              "labels" : [
-                  "Company"
-              ],
-              "properties" : {
-                  "econKind" : "有限责任公司（非自然人投资或控股的法人独资）",
-                  "englishName" : "Shanghai Nonferrous High-Tech Development Co., Ltd.",
-                  "hasImage" : false,
-                  "keyNo" : "4333bc7af1bfc5aba25e3b2c7c3de003",
-                  "name" : "上海有色高科技发展有限公司",
-                  "registCapi" : "5000.000",
-                  "status" : "surviving"
-              }
-          },
-          {
-              "id" : "54711537",
-              "labels" : [
-                  "Company"
-              ],
-              "properties" : {
-                  "econKind" : "其他有限责任公司",
-                  "englishName" : "Jinchuan Maike Metal Resources Co., Ltd.",
-                  "hasImage" : false,
-                  "keyNo" : "e52ea2157152a343a39c64163d9c9cdd",
-                  "name" : "金川迈科金属资源有限公司",
-                  "registCapi" : "100000.000",
-                  "status" : "surviving"
-              }
-          },
-          {
-              "id" : "55223538",
-              "labels" : [
-                  "Company"
-              ],
-              "properties" : {
-                  "econKind" : "其他有限责任公司",
-                  "englishName" : "Xi'an Yingyu Asset Management Co., Ltd.",
-                  "hasImage" : false,
-                  "keyNo" : "e74f0b4daf6e2f32a7620a4fef40cf4b",
-                  "name" : "西安盈宇资产管理有限公司",
-                  "registCapi" : "35000.000",
-                  "status" : "working"
-              }
-          },
-          {
-              "id" : "60679462",
-              "labels" : [
-                  "Company"
-              ],
-              "properties" : {
-                  "econKind" : "股份有限公司(非上市)",
-                  "englishName" : "Bronze Gap Aluminum Co., Ltd.",
-                  "hasImage" : false,
-                  "keyNo" : "fe1264b84e6e607c2d5c7caf2219c25d",
-                  "name" : "青铜峡铝业股份有限公司",
-                  "registCapi" : "139680.150",
-                  "status" : "surviving"
-              }
-          },
-          {
-              "id" : "40133594",
+              "id" : "56302401",
               "labels" : [
                   "Company"
               ],
               "properties" : {
                   "econKind" : "有限责任公司(自然人投资或控股)",
-                  "englishName" : "Xi'an Yingtong Investment Co., Ltd.",
+                  "englishName" : "Chengdu JiamanRu Enterprise Management Consulting Co., Ltd.",
                   "hasImage" : false,
-                  "keyNo" : "a87027d6ec5c4f559936b146bd46b5b7",
-                  "name" : "西安盈通投资有限公司",
-                  "registCapi" : "1000.000",
-                  "status" : "working"
+                  "keyNo" : "ebc9a2e414116631dd6595902cb7e72f",
+                  "name" : "成都佳满如企业管理咨询有限公司",
+                  "registCapi" : "10.000",
+                  "status" : "surviving"
               }
           },
           {
-              "id" : "34301385",
+              "id" : "34142761",
               "labels" : [
                   "Company"
               ],
               "properties" : {
-                  "econKind" : "有限责任公司(外商投资企业法人独资)",
-                  "englishName" : "Xi'an Yingyu Trading Co., Ltd.",
+                  "econKind" : "有限责任公司(自然人独资)",
+                  "englishName" : "Chengdu Baojingli Technology Co., Ltd.",
                   "hasImage" : false,
-                  "keyNo" : "9028b7211342554503accdb14f59e352",
-                  "name" : "西安盈宇贸易有限公司",
+                  "keyNo" : "8f7f564b28df0caf18931080e06911dc",
+                  "name" : "成都宝晶利科技有限公司",
+                  "registCapi" : "10.000",
+                  "status" : "surviving"
+              }
+          },
+          {
+              "id" : "34606131",
+              "labels" : [
+                  "Company"
+              ],
+              "properties" : {
+                  "econKind" : "其他有限责任公司",
+                  "englishName" : "Xinjiang Xinjiang Xide-Zhong Cheng Property Co., Ltd.",
+                  "hasImage" : false,
+                  "keyNo" : "916d70f7e4563242ebf0a09c248da935",
+                  "name" : "新疆弈德众诚物产有限公司",
                   "registCapi" : "5000.000",
                   "status" : "working"
               }
           },
           {
-              "id" : "14558491",
+              "id" : "46162667",
               "labels" : [
                   "Company"
               ],
               "properties" : {
-                  "econKind" : "有限责任公司（非自然人投资或控股的法人独资）",
-                  "englishName" : "Shanghai Jinshan Three New Foreign Trade Co., Ltd.",
-                  "hasImage" : false,
-                  "keyNo" : "3d5c99c3c86ede538c833a20214b7d01",
-                  "name" : "上海金山三新外经贸有限公司",
-                  "registCapi" : "200.000",
-                  "status" : "surviving"
-              }
-          },
-          {
-              "id" : "12680708",
-              "labels" : [
-                  "Company"
-              ],
-              "properties" : {
-                  "econKind" : "有限责任公司",
-                  "englishName" : "Maike Investment Holdings Limited",
-                  "hasImage" : false,
-                  "keyNo" : "355f44e0a6ef1f4c25bdcf6fedbb7375",
-                  "name" : "迈科投资控股有限公司",
-                  "registCapi" : "20000.000",
-                  "status" : "working"
-              }
-          },
-          {
-              "id" : "133170230",
-              "labels" : [
-                  "Person"
-              ],
-              "properties" : {
-                  "englishName" : "Ridon",
-                  "hasImage" : false,
-                  "keyNo" : "pda09ed6da8c6ad6d82171a09e4a0b2e",
-                  "name" : "雷冬",
-                  "role" : ""
-              }
-          },
-          {
-              "id" : "56020881",
-              "labels" : [
-                  "Company"
-              ],
-              "properties" : {
-                  "econKind" : "有限责任公司（外商投资企业法人独资）",
-                  "englishName" : "Shanghai Hongding Property Co., Ltd.",
-                  "hasImage" : false,
-                  "keyNo" : "ea9db4716d5f59bc6336a4771cd86623",
-                  "name" : "上海虹鼎置业有限公司",
-                  "registCapi" : "500.000",
-                  "status" : "surviving"
-              }
-          },
-          {
-              "id" : "88510347",
-              "labels" : [
-                  "Person"
-              ],
-              "properties" : {
-                  "englishName" : "Gao Yuying",
-                  "hasImage" : false,
-                  "keyNo" : "p4e01d147778e79ad3683186a12e0b42",
-                  "name" : "高玉英",
-                  "role" : "Supervisor"
-              }
-          },
-          {
-              "id" : "5316738",
-              "labels" : [
-                  "Company"
-              ],
-              "properties" : {
-                  "econKind" : "有限责任公司（外商投资企业法人独资）",
-                  "englishName" : "Shanghai Hongmao Property Co., Ltd.",
-                  "hasImage" : false,
-                  "keyNo" : "1657d73cf8f223f378f3ca74b0b2a6f2",
-                  "name" : "上海虹茂置业有限公司",
-                  "registCapi" : "500.000",
-                  "status" : "surviving"
-              }
-          },
-          {
-              "id" : "16118048",
-              "labels" : [
-                  "Company"
-              ],
-              "properties" : {
-                  "econKind" : "有限责任公司（非自然人投资或控股的法人独资）",
-                  "englishName" : "Shanghai Zhangyan New Materials Development Co., Ltd.",
-                  "hasImage" : false,
-                  "keyNo" : "43ef321e88d4b9161accc5c8c0f8a3b2",
-                  "name" : "上海张堰新材料发展有限公司",
-                  "registCapi" : "500.000",
-                  "status" : "surviving"
-              }
-          },
-          {
-              "id" : "28240504",
-              "labels" : [
-                  "Company"
-              ],
-              "properties" : {
-                  "econKind" : "有限责任公司（非自然人投资或控股的法人独资）",
-                  "englishName" : "Shanghai Mibo Information Technology Co., Ltd.",
-                  "hasImage" : false,
-                  "keyNo" : "76ffb50064ed661ac9a8a30aacc2f276",
-                  "name" : "上海米波信息科技有限公司",
-                  "registCapi" : "25.000",
-                  "status" : "surviving"
-              }
-          },
-          {
-              "id" : "55376538",
-              "labels" : [
-                  "Company"
-              ],
-              "properties" : {
-                  "econKind" : "其他有限责任公司",
-                  "englishName" : "Shanghai Liuxi Environmental Health Cleaning Service Co., Ltd.",
-                  "hasImage" : false,
-                  "keyNo" : "e7f114e7da3086873172c34ed09dfaae",
-                  "name" : "上海留溪环境卫生保洁服务有限公司",
-                  "registCapi" : "100.000",
-                  "status" : "surviving"
-              }
-          },
-          {
-              "id" : "9423444",
-              "labels" : [
-                  "Company"
-              ],
-              "properties" : {
-                  "econKind" : "有限责任公司（自然人投资或控股）",
-                  "englishName" : "Shanghai Di Liang Information Technology Co., Ltd.",
-                  "hasImage" : false,
-                  "keyNo" : "27a076bddceca59779c669ed2b4c7059",
-                  "name" : "上海迪亮信息科技有限公司",
-                  "registCapi" : "500.000",
-                  "status" : "surviving"
-              }
-          },
-          {
-              "id" : "104722142",
-              "labels" : [
-                  "Person"
-              ],
-              "properties" : {
-                  "englishName" : "Ho Chen",
+                  "econKind" : "股份有限公司(非上市、自然人投资或控股)",
+                  "englishName" : "Zhejiang Qiangcheng Petrochemical Co., Ltd.",
                   "hasImage" : true,
-                  "keyNo" : "p80c2105f370cc0d8d88b49c2ff7a646",
-                  "name" : "何晨",
-                  "role" : "Director"
-              }
-          },
-          {
-              "id" : "28010572",
-              "labels" : [
-                  "Company"
-              ],
-              "properties" : {
-                  "econKind" : "有限责任公司（自然人投资或控股的法人独资）",
-                  "englishName" : "Dasang Road (Shenzhen) Internet of Things Co., Ltd.",
-                  "hasImage" : false,
-                  "keyNo" : "760bd5dce0e2fc8738ddd9d2502dc80a",
-                  "name" : "大商道(深圳)物联网有限公司",
-                  "registCapi" : "1000.000",
+                  "keyNo" : "c18be05fdd0f427735f4c1f2d988cfdc",
+                  "name" : "浙江前程石化股份有限公司",
+                  "registCapi" : "21600.000",
                   "status" : "surviving"
               }
           },
           {
-              "id" : "91722653",
-              "labels" : [
-                  "Person"
-              ],
-              "properties" : {
-                  "englishName" : "Wei Xi",
-                  "hasImage" : false,
-                  "keyNo" : "p580dd92762803f1cd215d29dc7580fa",
-                  "name" : "魏西",
-                  "role" : ""
-              }
-          },
-          {
-              "id" : "25873766",
-              "labels" : [
-                  "Company"
-              ],
-              "properties" : {
-                  "econKind" : "有限责任公司（中外合资）",
-                  "englishName" : "Guojin Metal Network Information Technology Co., Ltd.",
-                  "hasImage" : false,
-                  "keyNo" : "6d37f4d8b71e5ae5549df5c9ffa2cf06",
-                  "name" : "国金金属网信息科技有限公司",
-                  "registCapi" : "6562.500",
-                  "status" : "surviving"
-              }
-          },
-          {
-              "id" : "7021189",
+              "id" : "40166986",
               "labels" : [
                   "Company"
               ],
               "properties" : {
                   "econKind" : "有限合伙企业",
-                  "englishName" : "Beijing Huashan Investment Management Center (Limited Partnership)",
-                  "hasImage" : true,
-                  "keyNo" : "1d7b5fdf06153d3b37898586c4db6729",
-                  "name" : "北京华山投资管理中心(有限合伙)",
+                  "englishName" : "Horgos Spun Tenzhong Equity Investment Management Partnership (Limited Partnership)",
+                  "hasImage" : false,
+                  "keyNo" : "a893e0539dd1c3d8ec69b274a4c45283",
+                  "name" : "霍尔果斯普天众诚股权投资管理合伙企业(有限合伙)",
                   "registCapi" : "0.000",
                   "status" : "working"
               }
           },
           {
-              "id" : "107067803",
+              "id" : "72442991",
               "labels" : [
                   "Person"
               ],
               "properties" : {
-                  "englishName" : "Luo Sheng Chang",
+                  "englishName" : "Tung Songtao",
                   "hasImage" : false,
-                  "keyNo" : "p881ba34f7f2088de93240fedf16d2d4",
-                  "name" : "罗盛璋",
-                  "role" : ""
+                  "keyNo" : "p1bd2c12b9cdde3e3928c3291e5296af",
+                  "name" : "董松涛",
+                  "role" : "Director"
               }
           },
           {
-              "id" : "38133438",
+              "id" : "54516604",
               "labels" : [
                   "Company"
               ],
               "properties" : {
                   "econKind" : "其他有限责任公司",
-                  "englishName" : "Shaanxi Blue Sea Breeze Investment Management Co., Ltd.",
+                  "englishName" : "Shanghai New Ding Data Technology Co., Ltd.",
+                  "hasImage" : true,
+                  "keyNo" : "e45f14317b3f9c463497c1ca53d3ff7d",
+                  "name" : "上海新增鼎数据科技有限公司",
+                  "registCapi" : "1666.670",
+                  "status" : "surviving"
+              }
+          },
+          {
+              "id" : "134660183",
+              "labels" : [
+                  "Person"
+              ],
+              "properties" : {
+                  "englishName" : "Zhang Xiaosong",
                   "hasImage" : false,
-                  "keyNo" : "a01dcc2daef72b8299090b1aa028dd90",
-                  "name" : "陕西蓝海风投资管理有限公司",
-                  "registCapi" : "6000.000",
+                  "keyNo" : "pdebabae7bb28630fb5abf65f8baad2e",
+                  "name" : "张小松",
+                  "role" : "Supervisor"
+              }
+          },
+          {
+              "id" : "67036074",
+              "labels" : [
+                  "Person"
+              ],
+              "properties" : {
+                  "englishName" : "Qian Gang",
+                  "hasImage" : false,
+                  "keyNo" : "p0af860ed1354f11e7edd668c8ae3786",
+                  "name" : "钱刚",
+                  "role" : "Director"
+              }
+          },
+          {
+              "id" : "36029553",
+              "labels" : [
+                  "Company"
+              ],
+              "properties" : {
+                  "econKind" : "有限责任公司(自然人投资或控股)",
+                  "englishName" : "Jiaxing Jiaye Mechanical and Electrical Development Co., Ltd.",
+                  "hasImage" : false,
+                  "keyNo" : "975b34de6d8defeb4a311b24ab5e9513",
+                  "name" : "嘉兴嘉冶机电发展有限公司",
+                  "registCapi" : "3000.000",
+                  "status" : "surviving"
+              }
+          },
+          {
+              "id" : "107220502",
+              "labels" : [
+                  "Person"
+              ],
+              "properties" : {
+                  "englishName" : "Wang Jian",
+                  "hasImage" : false,
+                  "keyNo" : "p88961668d0839fb2a44b8c8f3c6e1e5",
+                  "name" : "王坚",
+                  "role" : "Natural person shareholders"
+              }
+          },
+          {
+              "id" : "18389915",
+              "labels" : [
+                  "Company"
+              ],
+              "properties" : {
+                  "econKind" : "其他有限责任公司",
+                  "englishName" : "Shanghai Zhithong International Trade Co., Ltd.",
+                  "hasImage" : false,
+                  "keyNo" : "4d81e458baf1c61442cc7e0b15c8e7a2",
+                  "name" : "上海致同国际贸易有限公司",
+                  "registCapi" : "1000.000",
+                  "status" : "surviving"
+              }
+          },
+          {
+              "id" : "14602311",
+              "labels" : [
+                  "Company"
+              ],
+              "properties" : {
+                  "econKind" : "有限责任公司(自然人投资或控股)",
+                  "englishName" : "Sichuan Jingyuan Chemical Technology Co., Ltd.",
+                  "hasImage" : false,
+                  "keyNo" : "3d8c61802f84e76ffe8f9fd3fad292ec",
+                  "name" : "四川晶萃化工科技有限公司",
+                  "registCapi" : "100.000",
+                  "status" : "surviving"
+              }
+          },
+          {
+              "id" : "57243080",
+              "labels" : [
+                  "Company"
+              ],
+              "properties" : {
+                  "econKind" : "有限责任公司（自然人投资或控股的法人独资）",
+                  "englishName" : "Ningbo Toucheng Products Co., Ltd.",
+                  "hasImage" : false,
+                  "keyNo" : "efb4709a79e62e1b8a58bf492ba44087",
+                  "name" : "宁波前程物产有限公司",
+                  "registCapi" : "2000.000",
+                  "status" : "surviving"
+              }
+          },
+          {
+              "id" : "44484097",
+              "labels" : [
+                  "Company"
+              ],
+              "properties" : {
+                  "econKind" : "有限责任公司",
+                  "englishName" : "Jiangsu Textile Industry (Group) Import & Export Co., Ltd.",
+                  "hasImage" : false,
+                  "keyNo" : "ba8afb6ac0d54aa289218c2de3839394",
+                  "name" : "江苏省纺织工业(集团)进出口有限公司",
+                  "registCapi" : "127277.741",
                   "status" : "working"
               }
           },
           {
-              "id" : "52903898",
+              "id" : "97920367",
+              "labels" : [
+                  "Person"
+              ],
+              "properties" : {
+                  "englishName" : "Li Jun",
+                  "hasImage" : false,
+                  "keyNo" : "p6b767a793c2f6c66cb7fd80e37b0346",
+                  "name" : "李军",
+                  "role" : "Director"
+              }
+          },
+          {
+              "id" : "57581013",
+              "labels" : [
+                  "Company"
+              ],
+              "properties" : {
+                  "econKind" : "有限责任公司（法人独资）",
+                  "englishName" : "Jiangsu Sohao Supply Chain Management Co., Ltd.",
+                  "hasImage" : false,
+                  "keyNo" : "f11c853705b7e3dbd042647cbba9e9e2",
+                  "name" : "江苏苏豪供应链管理有限公司",
+                  "registCapi" : "10000.000",
+                  "status" : "working"
+              }
+          },
+          {
+              "id" : "110515288",
+              "labels" : [
+                  "Person"
+              ],
+              "properties" : {
+                  "englishName" : "Zhao Gang",
+                  "hasImage" : false,
+                  "keyNo" : "p92eacf799e3dec820ce526c8a25f1af",
+                  "name" : "赵刚",
+                  "role" : ""
+              }
+          },
+          {
+              "id" : "50469852",
+              "labels" : [
+                  "Company"
+              ],
+              "properties" : {
+                  "econKind" : "有限责任公司（非自然人投资或控股的法人独资）",
+                  "englishName" : "Promising Property Co., Ltd.",
+                  "hasImage" : false,
+                  "keyNo" : "d37c3246e1ce520376298a31155c817a",
+                  "name" : "前程物产有限公司",
+                  "registCapi" : "10000.000",
+                  "status" : "surviving"
+              }
+          },
+          {
+              "id" : "56062039",
+              "labels" : [
+                  "Company"
+              ],
+              "properties" : {
+                  "econKind" : "有限责任公司（自然人投资或控股的法人独资）",
+                  "englishName" : "Shanghai New Ding Industrial Technology Co., Ltd.",
+                  "hasImage" : false,
+                  "keyNo" : "eac9a77620beb74a544d75d97082bfe7",
+                  "name" : "上海新增鼎工业科技有限公司",
+                  "registCapi" : "100.000",
+                  "status" : "surviving"
+              }
+          },
+          {
+              "id" : "142076283",
+              "labels" : [
+                  "Person"
+              ],
+              "properties" : {
+                  "englishName" : "Wang Wenjie",
+                  "hasImage" : false,
+                  "keyNo" : "pf612030c32ebfe22c323c59bcea8454",
+                  "name" : "王文杰",
+                  "role" : "Director"
+              }
+          },
+          {
+              "id" : "23428715",
+              "labels" : [
+                  "Company"
+              ],
+              "properties" : {
+                  "econKind" : "有限责任公司（法人独资）",
+                  "englishName" : "Jiangsu Textile Group Co., Ltd.",
+                  "hasImage" : true,
+                  "keyNo" : "62eea0765d45f8be7b742aad0fd5f703",
+                  "name" : "江苏省纺织集团有限公司",
+                  "registCapi" : "30000.000",
+                  "status" : "working"
+              }
+          },
+          {
+              "id" : "35928893",
               "labels" : [
                   "Company"
               ],
               "properties" : {
                   "econKind" : "其他有限责任公司",
-                  "englishName" : "Shanghai Cinda Maike Metal Resources Co., Ltd.",
-                  "hasImage" : true,
-                  "keyNo" : "dda22b04ece03cee2d56b68cca97e353",
-                  "name" : "上海信达迈科金属资源有限公司",
-                  "registCapi" : "50000.000",
+                  "englishName" : "Chengdu New Ding Chemical Technology Co., Ltd.",
+                  "hasImage" : false,
+                  "keyNo" : "96efacfcc678d14cfef2dda44ca28700",
+                  "name" : "成都新增鼎化工技术有限公司",
+                  "registCapi" : "1000.000",
                   "status" : "surviving"
+              }
+          },
+          {
+              "id" : "22762107",
+              "labels" : [
+                  "Company"
+              ],
+              "properties" : {
+                  "econKind" : "有限合伙企业",
+                  "englishName" : "Shanghai Linyuan Corporate Management Partnership (Limited Partnership)",
+                  "hasImage" : false,
+                  "keyNo" : "601c1bf5d8ce6586545a2beea7601a3a",
+                  "name" : "上海霖珪企业管理合伙企业(有限合伙)",
+                  "registCapi" : "0.000",
+                  "status" : "surviving"
+              }
+          },
+          {
+              "id" : "49687512",
+              "labels" : [
+                  "Company"
+              ],
+              "properties" : {
+                  "econKind" : "有限责任公司（自然人投资或控股）",
+                  "englishName" : "Shanghai New Ding Network Technology Co., Ltd.",
+                  "hasImage" : false,
+                  "keyNo" : "d03a2dcff92917941ff2c0379c8533aa",
+                  "name" : "上海新增鼎网络技术有限公司",
+                  "registCapi" : "505.000",
+                  "status" : "surviving"
+              }
+          },
+          {
+              "id" : "114649571",
+              "labels" : [
+                  "Person"
+              ],
+              "properties" : {
+                  "englishName" : "Liu Xiaoqing",
+                  "hasImage" : false,
+                  "keyNo" : "p9fe1e56daf9b22199f01ef442814753",
+                  "name" : "刘晓庆",
+                  "role" : "Supervisor"
+              }
+          },
+          {
+              "id" : "130622709",
+              "labels" : [
+                  "Person"
+              ],
+              "properties" : {
+                  "englishName" : "Wu Yan",
+                  "hasImage" : false,
+                  "keyNo" : "pd20753b708f37a8166c4e9be866886f",
+                  "name" : "吴艳",
+                  "role" : "Supervisor"
+              }
+          },
+          {
+              "id" : "14634904",
+              "labels" : [
+                  "Company"
+              ],
+              "properties" : {
+                  "econKind" : "有限责任公司(自然人投资或控股)",
+                  "englishName" : "Bennaught Energy Chemical Co., Ltd.",
+                  "hasImage" : false,
+                  "keyNo" : "3dafdc2d1cbda614ad30fb5bfcdcb4f8",
+                  "name" : "奔诺能源化工有限公司",
+                  "registCapi" : "5000.000",
+                  "status" : "surviving"
+              }
+          },
+          {
+              "id" : "43081155",
+              "labels" : [
+                  "Company"
+              ],
+              "properties" : {
+                  "econKind" : "有限责任公司（中外合资）",
+                  "englishName" : "New Idor Information Technology (Shanghai) Co., Ltd.",
+                  "hasImage" : false,
+                  "keyNo" : "b4b52c6c825f376185f3a8e44530e042",
+                  "name" : "新熠物信息科技(上海)有限公司",
+                  "registCapi" : "500.000",
+                  "status" : "surviving"
+              }
+          },
+          {
+              "id" : "1644365",
+              "labels" : [
+                  "Company"
+              ],
+              "properties" : {
+                  "econKind" : "股份有限公司(非上市、自然人投资或控股)",
+                  "englishName" : "Zhejiang Qiangyuan Investment Co., Ltd.",
+                  "hasImage" : true,
+                  "keyNo" : "06fb53e527cd7085de74d8177c8a3e83",
+                  "name" : "浙江前程投资股份有限公司",
+                  "registCapi" : "25100.000",
+                  "status" : "surviving"
+              }
+          },
+          {
+              "id" : "18474062",
+              "labels" : [
+                  "Company"
+              ],
+              "properties" : {
+                  "econKind" : "有限责任公司（自然人投资或控股的法人独资）",
+                  "englishName" : "Zhejiang Jiaye Investment Group Co., Ltd.",
+                  "hasImage" : false,
+                  "keyNo" : "4ddcc1b76a7db6b3fc708c951058d9fe",
+                  "name" : "浙江嘉冶投资集团有限公司",
+                  "registCapi" : "5000.000",
+                  "status" : "surviving"
+              }
+          },
+          {
+              "id" : "77435391",
+              "labels" : [
+                  "Person"
+              ],
+              "properties" : {
+                  "englishName" : "Wang Yiben",
+                  "hasImage" : false,
+                  "keyNo" : "p2b693ca9fded7c0cd459deeae314dd6",
+                  "name" : "王祎本",
+                  "role" : "Natural person shareholders"
+              }
+          },
+          {
+              "id" : "69296452",
+              "labels" : [
+                  "Person"
+              ],
+              "properties" : {
+                  "englishName" : "Zhang Renle",
+                  "hasImage" : false,
+                  "keyNo" : "p1204ba89d8c720f8e49ab3d496f68c2",
+                  "name" : "张仁乐",
+                  "role" : "Chairman of the Supervisory Board"
+              }
+          },
+          {
+              "id" : "18862200",
+              "labels" : [
+                  "Company"
+              ],
+              "properties" : {
+                  "econKind" : "有限责任公司（非自然人投资或控股的法人独资）",
+                  "englishName" : "Ningbo Koku International Trade Co., Ltd.",
+                  "hasImage" : false,
+                  "keyNo" : "4f81650fcb84386ab1063de19f267faf",
+                  "name" : "宁波科固国际贸易有限公司",
+                  "registCapi" : "1000.000",
+                  "status" : "surviving"
+              }
+          },
+          {
+              "id" : "113253804",
+              "labels" : [
+                  "Person"
+              ],
+              "properties" : {
+                  "englishName" : "Zhao Li-Bin",
+                  "hasImage" : false,
+                  "keyNo" : "p9b80945acfca12f1cdc5e6ca11e4940",
+                  "name" : "赵力宾",
+                  "role" : "Director"
+              }
+          },
+          {
+              "id" : "16192923",
+              "labels" : [
+                  "Company"
+              ],
+              "properties" : {
+                  "econKind" : "有限责任公司（自然人投资或控股的法人独资）",
+                  "englishName" : "Ningbo Cheng Energy Co., Ltd.",
+                  "hasImage" : false,
+                  "keyNo" : "44403b62b3491803ac97e77dbbcee603",
+                  "name" : "宁波前程能源有限公司",
+                  "registCapi" : "6000.000",
+                  "status" : "surviving"
+              }
+          },
+          {
+              "id" : "4012368",
+              "labels" : [
+                  "Company"
+              ],
+              "properties" : {
+                  "econKind" : "其他有限责任公司",
+                  "englishName" : "Zhejiang Jinsheng Tang Chemical Co., Ltd.",
+                  "hasImage" : false,
+                  "keyNo" : "10e71f18661b0359e7b92966b1960706",
+                  "name" : "浙江金色盛唐化工有限公司",
+                  "registCapi" : "725.000",
+                  "status" : "surviving"
+              }
+          },
+          {
+              "id" : "64909995",
+              "labels" : [
+                  "Person"
+              ],
+              "properties" : {
+                  "englishName" : "Jian Dynasty",
+                  "hasImage" : false,
+                  "keyNo" : "p04551ded7fbe8308d3798f3dcf6877d",
+                  "name" : "王剑朝",
+                  "role" : "Director"
+              }
+          },
+          {
+              "id" : "137701706",
+              "labels" : [
+                  "Person"
+              ],
+              "properties" : {
+                  "englishName" : "Gu Kungen",
+                  "hasImage" : false,
+                  "keyNo" : "pe84c7530c49f49949f85ff070b6c5d6",
+                  "name" : "顾昆根",
+                  "role" : "Chairman of the Supervisory Board"
+              }
+          },
+          {
+              "id" : "56369887",
+              "labels" : [
+                  "Company"
+              ],
+              "properties" : {
+                  "econKind" : "其他有限责任公司",
+                  "englishName" : "Zhejiang Jiaye Asset Management Co., Ltd.",
+                  "hasImage" : false,
+                  "keyNo" : "ec1171099da9a2fdc8111d75dc1a5eaa",
+                  "name" : "浙江嘉冶资产管理有限公司",
+                  "registCapi" : "25000.000",
+                  "status" : "surviving"
+              }
+          },
+          {
+              "id" : "42796297",
+              "labels" : [
+                  "Company"
+              ],
+              "properties" : {
+                  "econKind" : "有限责任公司（自然人投资或控股的法人独资）",
+                  "englishName" : "Shanghai Shuoran International Trade Co., Ltd.",
+                  "hasImage" : false,
+                  "keyNo" : "b385ce0b7c5d7d6eb9be00ad0d7897d4",
+                  "name" : "上海硕冉国际贸易有限公司",
+                  "registCapi" : "100.000",
+                  "status" : "surviving"
+              }
+          },
+          {
+              "id" : "3219383",
+              "labels" : [
+                  "Company"
+              ],
+              "properties" : {
+                  "econKind" : "有限责任公司（自然人投资或控股）",
+                  "englishName" : "Shanghai New Ding Asset Management Co., Ltd.",
+                  "hasImage" : false,
+                  "keyNo" : "0d954d23c9877ae6b37b3e05c948537b",
+                  "name" : "上海新增鼎资产管理有限公司",
+                  "registCapi" : "17000.000",
+                  "status" : "surviving"
+              }
+          },
+          {
+              "id" : "30969439",
+              "labels" : [
+                  "Company"
+              ],
+              "properties" : {
+                  "econKind" : "其他股份有限公司(非上市)",
+                  "englishName" : "Zhejiang Daicang Information Technology Co., Ltd.",
+                  "hasImage" : true,
+                  "keyNo" : "82493a6f1a9bacf6f719dd4db086dcaa",
+                  "name" : "浙江大仓信息科技股份有限公司",
+                  "registCapi" : "3000.000",
+                  "status" : "surviving"
+              }
+          },
+          {
+              "id" : "45685555",
+              "labels" : [
+                  "Company"
+              ],
+              "properties" : {
+                  "econKind" : "有限责任公司（自然人投资或控股的法人独资）",
+                  "englishName" : "Ningbo Garu Information Technology Co., Ltd.",
+                  "hasImage" : false,
+                  "keyNo" : "bf8c3d9fcd94be965b2d85049cb68ba9",
+                  "name" : "宁波加麓信息科技有限公司",
+                  "registCapi" : "200.000",
+                  "status" : "surviving"
+              }
+          },
+          {
+              "id" : "59597831",
+              "labels" : [
+                  "Company"
+              ],
+              "properties" : {
+                  "econKind" : "有限责任公司（自然人投资或控股）",
+                  "englishName" : "Kiwi Resources Holdings Limited",
+                  "hasImage" : false,
+                  "keyNo" : "f9814356bbd838360e8eb5dbf77a6011",
+                  "name" : "弈慧资源控股有限公司",
+                  "registCapi" : "15000.000",
+                  "status" : "surviving"
+              }
+          },
+          {
+              "id" : "87600297",
+              "labels" : [
+                  "Person"
+              ],
+              "properties" : {
+                  "englishName" : "Fang Min",
+                  "hasImage" : false,
+                  "keyNo" : "p4b29ca0bb30cdb967d9ca3d8c356130",
+                  "name" : "方旻",
+                  "role" : "Director"
+              }
+          },
+          {
+              "id" : "30420552",
+              "labels" : [
+                  "Company"
+              ],
+              "properties" : {
+                  "econKind" : "有限责任公司（自然人投资或控股的法人独资）",
+                  "englishName" : "Ningbo and Mei Property Co., Ltd.",
+                  "hasImage" : false,
+                  "keyNo" : "8002c6b2d02146b2b552f71b85166a64",
+                  "name" : "宁波和美置业有限公司",
+                  "registCapi" : "30000.000",
+                  "status" : "surviving"
+              }
+          },
+          {
+              "id" : "95853610",
+              "labels" : [
+                  "Person"
+              ],
+              "properties" : {
+                  "englishName" : "Wang Lingyun",
+                  "hasImage" : false,
+                  "keyNo" : "p64fd9edef1c5850c85a9b78ddd759ef",
+                  "name" : "王凌云",
+                  "role" : "General Manager"
+              }
+          },
+          {
+              "id" : "60658751",
+              "labels" : [
+                  "Company"
+              ],
+              "properties" : {
+                  "econKind" : "有限责任公司(自然人投资或控股)",
+                  "englishName" : "Zhejiang Hemei Investment Co., Ltd.",
+                  "hasImage" : false,
+                  "keyNo" : "fdfc20944cb0c0b2726380f9b1a581ba",
+                  "name" : "浙江和美投资有限公司",
+                  "registCapi" : "2590.000",
+                  "status" : "surviving"
+              }
+          },
+          {
+              "id" : "42226467",
+              "labels" : [
+                  "Company"
+              ],
+              "properties" : {
+                  "econKind" : "有限责任公司（自然人投资或控股的法人独资）",
+                  "englishName" : "Ningbo Cimei International Trade Co., Ltd.",
+                  "hasImage" : false,
+                  "keyNo" : "b1240aae8a116a4449c9d89f9cfbffda",
+                  "name" : "宁波慈美国际贸易有限公司",
+                  "registCapi" : "3500.000",
+                  "status" : "surviving"
+              }
+          },
+          {
+              "id" : "874405",
+              "labels" : [
+                  "Company"
+              ],
+              "properties" : {
+                  "econKind" : "有限责任公司（法人独资）",
+                  "englishName" : "Jiangsu Sohao Hong Rui Import & Export Co., Ltd.",
+                  "hasImage" : false,
+                  "keyNo" : "03b50225985a79d9a37fb49517ff61bd",
+                  "name" : "江苏苏豪泓瑞进出口有限公司",
+                  "registCapi" : "2000.000",
+                  "status" : "working"
+              }
+          },
+          {
+              "id" : "138434036",
+              "labels" : [
+                  "Person"
+              ],
+              "properties" : {
+                  "englishName" : "King Boat",
+                  "hasImage" : false,
+                  "keyNo" : "pea9a946da6c4d4e5ef5bc4116fee992",
+                  "name" : "王艇",
+                  "role" : "Supervisor"
+              }
+          },
+          {
+              "id" : "130352752",
+              "labels" : [
+                  "Person"
+              ],
+              "properties" : {
+                  "englishName" : "Zhang Fa-song",
+                  "hasImage" : false,
+                  "keyNo" : "pd12deadee23044051c7894f1aa7a45c",
+                  "name" : "张发松",
+                  "role" : ""
+              }
+          },
+          {
+              "id" : "27736592",
+              "labels" : [
+                  "Company"
+              ],
+              "properties" : {
+                  "econKind" : "有限责任公司（自然人投资或控股）",
+                  "englishName" : "Shanghai Xinyun Investment Management Co., Ltd.",
+                  "hasImage" : false,
+                  "keyNo" : "74ea685ca5801934ad5eaea4074edd6a",
+                  "name" : "上海新蕴投资管理有限公司",
+                  "registCapi" : "1000.000",
+                  "status" : "surviving"
+              }
+          },
+          {
+              "id" : "17678515",
+              "labels" : [
+                  "Company"
+              ],
+              "properties" : {
+                  "econKind" : "有限责任公司(自然人投资或控股)",
+                  "englishName" : "Ningbo Hemei Chemical Research Institute Co., Ltd.",
+                  "hasImage" : false,
+                  "keyNo" : "4a7fff7ffef5f1cbe6875bf6a24a726e",
+                  "name" : "宁波和美化工研究院有限公司",
+                  "registCapi" : "1800.000",
+                  "status" : "surviving"
+              }
+          },
+          {
+              "id" : "58917442",
+              "labels" : [
+                  "Company"
+              ],
+              "properties" : {
+                  "econKind" : "有限责任公司(国有独资)",
+                  "englishName" : "Jiangsu Soho Holding Group Co., Ltd.",
+                  "hasImage" : true,
+                  "keyNo" : "f6ab5c74b600d5bc8e6643d0542e576d",
+                  "name" : "江苏省苏豪控股集团有限公司",
+                  "registCapi" : "200000.000",
+                  "status" : "working"
+              }
+          },
+          {
+              "id" : "92456538",
+              "labels" : [
+                  "Person"
+              ],
+              "properties" : {
+                  "englishName" : "Fan Xiaotao",
+                  "hasImage" : false,
+                  "keyNo" : "p5a595dbf422e0ccae92a887c4202ed7",
+                  "name" : "范晓涛",
+                  "role" : "Supervisor"
+              }
+          },
+          {
+              "id" : "9894729",
+              "labels" : [
+                  "Company"
+              ],
+              "properties" : {
+                  "econKind" : "有限责任公司(自然人投资或控股)",
+                  "englishName" : "Ningbo Zhihang Investment Consulting Co., Ltd.",
+                  "hasImage" : false,
+                  "keyNo" : "299dec32c7114f14fecc4b368acc6820",
+                  "name" : "宁波知行投资咨询有限公司",
+                  "registCapi" : "150.000",
+                  "status" : "surviving"
+              }
+          },
+          {
+              "id" : "151117034",
+              "labels" : [
+                  "Person"
+              ],
+              "properties" : {
+                  "englishName" : "Ma Hongwei",
+                  "hasImage" : false,
+                  "keyNo" : "pr51e55755d7cf27eeea8b90f6c91316",
+                  "name" : "马宏伟",
+                  "role" : "Director"
+              }
+          },
+          {
+              "id" : "105713087",
+              "labels" : [
+                  "Person"
+              ],
+              "properties" : {
+                  "englishName" : "Zhang Jianbo",
+                  "hasImage" : false,
+                  "keyNo" : "p83dcdc2f5bb6739f3d618587dd474ed",
+                  "name" : "张剑波",
+                  "role" : "Natural person shareholders"
               }
           }
       ],
       relationships : [
           {
-              "endNode" : "5316738",
-              "id" : "6789222",
-              "properties" : {
-                  "role" : "Corporate legal entity",
-                  "shouldCapi" : 500,
-                  "stockPercent" : 100
-              },
-              "startNode" : "20089128",
-              "type" : "INVEST"
-          },
-          {
-              "endNode" : "5316738",
-              "id" : "148319955",
-              "properties" : {
-                  "role" : ""
-              },
-              "startNode" : "107067803",
-              "type" : "LEGAL"
-          },
-          {
-              "endNode" : "45113022",
-              "id" : "4767811",
-              "properties" : {
-                  "role" : "Corporate shareholders",
-                  "shouldCapi" : 89738.900000,
-                  "stockPercent" : 71.430000
-              },
-              "startNode" : "57774603",
-              "type" : "INVEST"
-          },
-          {
-              "endNode" : "59133890",
-              "id" : "15797475",
+              "endNode" : "1644365",
+              "id" : "88824139",
               "properties" : {
                   "role" : "Natural person shareholders",
-                  "shouldCapi" : 1190,
-                  "stockPercent" : 70
+                  "shouldCapi" : 40,
+                  "stockPercent" : 0.159400
               },
-              "startNode" : "95791912",
+              "startNode" : "107220502",
               "type" : "INVEST"
           },
           {
-              "endNode" : "40133594",
-              "id" : "62878124",
-              "properties" : {
-                  "role" : "Natural person shareholders",
-                  "shouldCapi" : 300,
-                  "stockPercent" : 30
-              },
-              "startNode" : "125705300",
-              "type" : "INVEST"
-          },
-          {
-              "endNode" : "40133594",
-              "id" : "62878123",
-              "properties" : {
-                  "role" : "Natural person shareholders",
-                  "shouldCapi" : 700,
-                  "stockPercent" : 70
-              },
-              "startNode" : "95791912",
-              "type" : "INVEST"
-          },
-          {
-              "endNode" : "59133890",
-              "id" : "15797477",
-              "properties" : {
-                  "role" : "Natural person shareholders",
-                  "shouldCapi" : 510,
-                  "stockPercent" : 30
-              },
-              "startNode" : "125705300",
-              "type" : "INVEST"
-          },
-          {
-              "endNode" : "20089128",
-              "id" : "171910696",
-              "properties" : {
-                  "role" : "Chairman of the Board of Directors"
-              },
-              "startNode" : "107067803",
-              "type" : "EMPLOY"
-          },
-          {
-              "endNode" : "55680985",
-              "id" : "157661055",
-              "properties" : {
-                  "role" : "Supervisor"
-              },
-              "startNode" : "125705300",
-              "type" : "EMPLOY"
-          },
-          {
-              "endNode" : "12680708",
-              "id" : "9632905",
-              "properties" : {
-                  "role" : "Natural person shareholders",
-                  "shouldCapi" : 19000,
-                  "stockPercent" : 95
-              },
-              "startNode" : "95791912",
-              "type" : "INVEST"
-          },
-          {
-              "endNode" : "56020881",
-              "id" : "178600123",
-              "properties" : {
-                  "role" : "Executive Director"
-              },
-              "startNode" : "107067803",
-              "type" : "EMPLOY"
-          },
-          {
-              "endNode" : "39502121",
-              "id" : "5054061",
-              "properties" : {
-                  "role" : "Corporate legal entity",
-                  "shouldCapi" : 5000,
-                  "stockPercent" : 100
-              },
-              "startNode" : "54711537",
-              "type" : "INVEST"
-          },
-          {
-              "endNode" : "38133438",
-              "id" : "145739406",
-              "properties" : {
-                  "role" : ""
-              },
-              "startNode" : "125705300",
-              "type" : "LEGAL"
-          },
-          {
-              "endNode" : "4490084",
-              "id" : "145840788",
-              "properties" : {
-                  "role" : ""
-              },
-              "startNode" : "105609926",
-              "type" : "LEGAL"
-          },
-          {
-              "endNode" : "23292359",
-              "id" : "104767511",
-              "properties" : {
-                  "role" : ""
-              },
-              "startNode" : "132153050",
-              "type" : "LEGAL"
-          },
-          {
-              "endNode" : "52903898",
-              "id" : "944672",
-              "properties" : {
-                  "role" : "Corporate legal entity",
-                  "shouldCapi" : 20000,
-                  "stockPercent" : 40
-              },
-              "startNode" : "57774603",
-              "type" : "INVEST"
-          },
-          {
-              "endNode" : "20089128",
-              "id" : "101241405",
-              "properties" : {
-                  "role" : ""
-              },
-              "startNode" : "107067803",
-              "type" : "LEGAL"
-          },
-          {
-              "endNode" : "15943232",
-              "id" : "180076684",
-              "properties" : {
-                  "role" : "Executive Director"
-              },
-              "startNode" : "105609926",
-              "type" : "EMPLOY"
-          },
-          {
-              "endNode" : "15943232",
-              "id" : "180076679",
-              "properties" : {
-                  "role" : "Supervisor"
-              },
-              "startNode" : "88510347",
-              "type" : "EMPLOY"
-          },
-          {
-              "endNode" : "32126790",
-              "id" : "1767461",
-              "properties" : {
-                  "role" : "Corporate legal entity",
-                  "shouldCapi" : 500,
-                  "stockPercent" : 100
-              },
-              "startNode" : "54711537",
-              "type" : "INVEST"
-          },
-          {
-              "endNode" : "83281",
-              "id" : "253758820",
-              "properties" : {
-                  "role" : "Director"
-              },
-              "startNode" : "107067803",
-              "type" : "EMPLOY"
-          },
-          {
-              "endNode" : "83281",
-              "id" : "253758824",
-              "properties" : {
-                  "role" : "Supervisor"
-              },
-              "startNode" : "93580030",
-              "type" : "EMPLOY"
-          },
-          {
-              "endNode" : "40133594",
-              "id" : "130745735",
-              "properties" : {
-                  "role" : ""
-              },
-              "startNode" : "95791912",
-              "type" : "LEGAL"
-          },
-          {
-              "endNode" : "83281",
-              "id" : "253758828",
-              "properties" : {
-                  "role" : "Supervisor"
-              },
-              "startNode" : "133170230",
-              "type" : "EMPLOY"
-          },
-          {
-              "endNode" : "6074212",
-              "id" : "89569051",
-              "properties" : {
-                  "stockPercent" : 0.900000
-              },
-              "startNode" : "104722142",
-              "type" : "INVEST"
-          },
-          {
-              "endNode" : "83281",
-              "id" : "253758831",
-              "properties" : {
-                  "role" : "Director"
-              },
-              "startNode" : "95791912",
-              "type" : "EMPLOY"
-          },
-          {
-              "endNode" : "12680708",
-              "id" : "216140",
-              "properties" : {
-                  "role" : "Corporate shareholders",
-                  "shouldCapi" : 1000,
-                  "stockPercent" : 5
-              },
-              "startNode" : "59133890",
-              "type" : "INVEST"
-          },
-          {
-              "endNode" : "45113022",
-              "id" : "234039714",
-              "properties" : {
-                  "role" : "General Manager"
-              },
-              "startNode" : "104722142",
-              "type" : "EMPLOY"
-          },
-          {
-              "endNode" : "45113022",
-              "id" : "234039723",
-              "properties" : {
-                  "role" : "Chairman of the Board of Directors"
-              },
-              "startNode" : "104722142",
-              "type" : "EMPLOY"
-          },
-          {
-              "endNode" : "82826",
-              "id" : "258817805",
-              "properties" : {
-                  "role" : "Chairman of the Board of Directors"
-              },
-              "startNode" : "95791912",
-              "type" : "EMPLOY"
-          },
-          {
-              "endNode" : "28657593",
-              "id" : "6448643",
-              "properties" : {
-                  "role" : "Corporate shareholders",
-                  "shouldCapi" : 60000,
-                  "stockPercent" : 60
-              },
-              "startNode" : "12680708",
-              "type" : "INVEST"
-          },
-          {
-              "endNode" : "23292359",
-              "id" : "179223243",
-              "properties" : {
-                  "role" : "Chairman of the Board of Directors"
-              },
-              "startNode" : "132153050",
-              "type" : "EMPLOY"
-          },
-          {
-              "endNode" : "13981596",
-              "id" : "169380468",
-              "properties" : {
-                  "role" : "Executive Director"
-              },
-              "startNode" : "93580030",
-              "type" : "EMPLOY"
-          },
-          {
-              "endNode" : "38133438",
-              "id" : "83921263",
-              "properties" : {
-                  "role" : "Natural person shareholders",
-                  "shouldCapi" : 2853,
-                  "stockPercent" : 47.550000
-              },
-              "startNode" : "125705300",
-              "type" : "INVEST"
-          },
-          {
-              "endNode" : "4490084",
-              "id" : "264260016",
-              "properties" : {
-                  "role" : "Executive Director"
-              },
-              "startNode" : "105609926",
-              "type" : "EMPLOY"
-          },
-          {
-              "endNode" : "82826",
-              "id" : "258817820",
-              "properties" : {
-                  "role" : "Vice Chairman of the Board"
-              },
-              "startNode" : "91722653",
-              "type" : "EMPLOY"
-          },
-          {
-              "endNode" : "4490084",
-              "id" : "264260018",
-              "properties" : {
-                  "role" : "Supervisor"
-              },
-              "startNode" : "88510347",
-              "type" : "EMPLOY"
-          },
-          {
-              "endNode" : "23292359",
-              "id" : "179223256",
-              "properties" : {
-                  "role" : "Director"
-              },
-              "startNode" : "93580030",
-              "type" : "EMPLOY"
-          },
-          {
-              "endNode" : "82826",
-              "id" : "258817818",
-              "properties" : {
-                  "role" : "Director and Managing Director"
-              },
-              "startNode" : "91722653",
-              "type" : "EMPLOY"
-          },
-          {
-              "endNode" : "40729161",
-              "id" : "2499166",
-              "properties" : {
-                  "role" : "Corporate shareholders",
-                  "shouldCapi" : 40000,
-                  "stockPercent" : 100
-              },
-              "startNode" : "57774603",
-              "type" : "INVEST"
-          },
-          {
-              "endNode" : "55680985",
-              "id" : "397438",
-              "properties" : {
-                  "role" : "Corporate legal entity",
-                  "shouldCapi" : 40000,
-                  "stockPercent" : 100
-              },
-              "startNode" : "57774603",
-              "type" : "INVEST"
-          },
-          {
-              "endNode" : "83281",
-              "id" : "253758815",
-              "properties" : {
-                  "role" : "Chairman and General Manager"
-              },
-              "startNode" : "132153050",
-              "type" : "EMPLOY"
-          },
-          {
-              "endNode" : "12680708",
-              "id" : "154463156",
-              "properties" : {
-                  "role" : "Director"
-              },
-              "startNode" : "125705300",
-              "type" : "EMPLOY"
-          },
-          {
-              "endNode" : "83281",
-              "id" : "5895903",
-              "properties" : {
-                  "role" : "Corporate legal entity",
-                  "shouldCapi" : 29500,
-                  "stockPercent" : 96.940000
-              },
-              "startNode" : "57774603",
-              "type" : "INVEST"
-          },
-          {
-              "endNode" : "12680708",
-              "id" : "154463154",
-              "properties" : {
-                  "role" : "Chairman and General Manager"
-              },
-              "startNode" : "95791912",
-              "type" : "EMPLOY"
-          },
-          {
-              "endNode" : "23292359",
-              "id" : "1631888",
-              "properties" : {
-                  "role" : "Corporate legal entity",
-                  "shouldCapi" : 10000,
-                  "stockPercent" : 100
-              },
-              "startNode" : "83281",
-              "type" : "INVEST"
-          },
-          {
-              "endNode" : "33987104",
-              "id" : "232489811",
-              "properties" : {
-                  "role" : "Director"
-              },
-              "startNode" : "95791912",
-              "type" : "EMPLOY"
-          },
-          {
-              "endNode" : "34301385",
-              "id" : "128571708",
-              "properties" : {
-                  "role" : ""
-              },
-              "startNode" : "95791912",
-              "type" : "LEGAL"
-          },
-          {
-              "endNode" : "28657593",
-              "id" : "263436584",
-              "properties" : {
-                  "role" : "Chairman of the Board of Directors"
-              },
-              "startNode" : "95791912",
-              "type" : "EMPLOY"
-          },
-          {
-              "endNode" : "9423444",
-              "id" : "8938516",
-              "properties" : {
-                  "role" : "Natural person shareholders",
-                  "shouldCapi" : 10,
-                  "stockPercent" : 2
-              },
-              "startNode" : "95791912",
-              "type" : "INVEST"
-          },
-          {
-              "endNode" : "55376538",
-              "id" : "849578",
-              "properties" : {
-                  "role" : "Corporate legal entity",
-                  "shouldCapi" : 55,
-                  "stockPercent" : 55
-              },
-              "startNode" : "28240504",
-              "type" : "INVEST"
-          },
-          {
-              "endNode" : "55376538",
-              "id" : "849579",
-              "properties" : {
-                  "role" : "Corporate legal entity",
-                  "shouldCapi" : 45,
-                  "stockPercent" : 45
-              },
-              "startNode" : "4490084",
-              "type" : "INVEST"
-          },
-          {
-              "endNode" : "32126790",
-              "id" : "181574271",
-              "properties" : {
-                  "role" : "Executive Director and Managing Director"
-              },
-              "startNode" : "107067803",
-              "type" : "EMPLOY"
-          },
-          {
-              "endNode" : "6074212",
-              "id" : "57891776",
-              "properties" : {
-                  "stockPercent" : 5.650000
-              },
-              "startNode" : "38133438",
-              "type" : "INVEST"
-          },
-          {
-              "endNode" : "83281",
-              "id" : "5895905",
-              "properties" : {
-                  "role" : "Corporate legal entity",
-                  "shouldCapi" : 710,
-                  "stockPercent" : 2.330000
-              },
-              "startNode" : "4490084",
-              "type" : "INVEST"
-          },
-          {
-              "endNode" : "16118048",
-              "id" : "122303472",
-              "properties" : {
-                  "role" : ""
-              },
-              "startNode" : "105609926",
-              "type" : "LEGAL"
-          },
-          {
-              "endNode" : "83281",
-              "id" : "5895906",
-              "properties" : {
-                  "role" : "Corporate legal entity",
-                  "shouldCapi" : 220,
-                  "stockPercent" : 0.720000
-              },
-              "startNode" : "4861020",
-              "type" : "INVEST"
-          },
-          {
-              "endNode" : "55223538",
-              "id" : "146783357",
-              "properties" : {
-                  "role" : ""
-              },
-              "startNode" : "95791912",
-              "type" : "LEGAL"
-          },
-          {
-              "endNode" : "38133438",
-              "id" : "264046456",
-              "properties" : {
-                  "role" : "Chairman of the Board of Directors"
-              },
-              "startNode" : "125705300",
-              "type" : "EMPLOY"
-          },
-          {
-              "endNode" : "38133438",
-              "id" : "264046458",
-              "properties" : {
-                  "role" : "Director"
-              },
-              "startNode" : "95791912",
-              "type" : "EMPLOY"
-          },
-          {
-              "endNode" : "34301385",
-              "id" : "228489047",
-              "properties" : {
-                  "role" : ""
-              },
-              "startNode" : "95791912",
-              "type" : "EMPLOY"
-          },
-          {
-              "endNode" : "60679462",
-              "id" : "3085539",
-              "properties" : {
-                  "role" : "Corporate legal entity",
-                  "shouldCapi" : 17957.310000,
-                  "stockPercent" : 0
-              },
-              "startNode" : "57774603",
-              "type" : "INVEST"
-          },
-          {
-              "endNode" : "15943232",
-              "id" : "1681096",
-              "properties" : {
-                  "role" : "Corporate legal entity",
-                  "shouldCapi" : 5000,
-                  "stockPercent" : 100
-              },
-              "startNode" : "4490084",
-              "type" : "INVEST"
-          },
-          {
-              "endNode" : "25873766",
-              "id" : "254672375",
-              "properties" : {
-                  "role" : "Chairman of the Board of Directors"
-              },
-              "startNode" : "107067803",
-              "type" : "EMPLOY"
-          },
-          {
-              "endNode" : "25873766",
-              "id" : "254672369",
-              "properties" : {
-                  "role" : "Director"
-              },
-              "startNode" : "107067803",
-              "type" : "EMPLOY"
-          },
-          {
-              "endNode" : "13981596",
-              "id" : "100021010",
-              "properties" : {
-                  "role" : ""
-              },
-              "startNode" : "93580030",
-              "type" : "LEGAL"
-          },
-          {
-              "endNode" : "28010572",
-              "id" : "4906657",
-              "properties" : {
-                  "role" : "Corporate legal entity",
-                  "shouldCapi" : 1000,
-                  "stockPercent" : 100
-              },
-              "startNode" : "82826",
-              "type" : "INVEST"
-          },
-          {
-              "endNode" : "39502121",
-              "id" : "239048402",
-              "properties" : {
-                  "role" : "Executive Director"
-              },
-              "startNode" : "107067803",
-              "type" : "EMPLOY"
-          },
-          {
-              "endNode" : "4490084",
-              "id" : "6495893",
-              "properties" : {
-                  "role" : "Corporate legal entity",
-                  "shouldCapi" : 10000,
-                  "stockPercent" : 100
-              },
-              "startNode" : "16118048",
-              "type" : "INVEST"
-          },
-          {
-              "endNode" : "25873766",
-              "id" : "141209750",
-              "properties" : {
-                  "role" : ""
-              },
-              "startNode" : "107067803",
-              "type" : "LEGAL"
-          },
-          {
-              "endNode" : "14558491",
-              "id" : "213648962",
-              "properties" : {
-                  "role" : "Executive Director"
-              },
-              "startNode" : "133170230",
-              "type" : "EMPLOY"
-          },
-          {
-              "endNode" : "20089128",
-              "id" : "1213713",
-              "properties" : {
-                  "role" : "Corporate legal entity",
-                  "shouldCapi" : 21000,
-                  "stockPercent" : 70
-              },
-              "startNode" : "54711537",
-              "type" : "INVEST"
-          },
-          {
-              "endNode" : "18095726",
-              "id" : "126415488",
-              "properties" : {
-                  "role" : ""
-              },
-              "startNode" : "107067803",
-              "type" : "LEGAL"
-          },
-          {
-              "endNode" : "15943232",
-              "id" : "105179983",
-              "properties" : {
-                  "role" : ""
-              },
-              "startNode" : "105609926",
-              "type" : "LEGAL"
-          },
-          {
-              "endNode" : "57774603",
-              "id" : "1150234",
-              "properties" : {
-                  "role" : "Corporate shareholders",
-                  "shouldCapi" : 67539.680000,
-                  "stockPercent" : 49.400000
-              },
-              "startNode" : "12680708",
-              "type" : "INVEST"
-          },
-          {
-              "endNode" : "14569607",
-              "id" : "3111203",
-              "properties" : {
-                  "role" : "Corporate shareholders",
-                  "shouldCapi" : 619.750000,
-                  "stockPercent" : 51
-              },
-              "startNode" : "57774603",
-              "type" : "INVEST"
-          },
-          {
-              "endNode" : "57774603",
-              "id" : "1150236",
-              "properties" : {
-                  "role" : "Corporate shareholders",
-                  "shouldCapi" : 6836,
-                  "stockPercent" : 5
-              },
-              "startNode" : "40133594",
-              "type" : "INVEST"
-          },
-          {
-              "endNode" : "14558491",
-              "id" : "3601703",
-              "properties" : {
-                  "role" : "Corporate legal entity",
-                  "shouldCapi" : 200,
-                  "stockPercent" : 100
-              },
-              "startNode" : "4861020",
-              "type" : "INVEST"
-          },
-          {
-              "endNode" : "57774603",
-              "id" : "20693039",
-              "properties" : {
-                  "role" : "Natural person shareholders",
-                  "shouldCapi" : 21328.320000,
-                  "stockPercent" : 15.600000
-              },
-              "startNode" : "125705300",
-              "type" : "INVEST"
-          },
-          {
-              "endNode" : "54711537",
-              "id" : "1393921",
-              "properties" : {
-                  "role" : "Corporate legal entity",
-                  "shouldCapi" : 30000,
-                  "stockPercent" : 30
-              },
-              "startNode" : "45113022",
-              "type" : "INVEST"
-          },
-          {
-              "endNode" : "57774603",
-              "id" : "100704533",
-              "properties" : {
-                  "role" : ""
-              },
-              "startNode" : "95791912",
-              "type" : "LEGAL"
-          },
-          {
-              "endNode" : "45113022",
-              "id" : "131256519",
-              "properties" : {
-                  "role" : ""
-              },
-              "startNode" : "104722142",
-              "type" : "LEGAL"
-          },
-          {
-              "endNode" : "34301385",
-              "id" : "4447587",
-              "properties" : {
-                  "role" : "Corporate shareholders",
-                  "shouldCapi" : 5000,
-                  "stockPercent" : 100
-              },
-              "startNode" : "57774603",
-              "type" : "INVEST"
-          },
-          {
-              "endNode" : "57774603",
-              "id" : "170798351",
-              "properties" : {
-                  "role" : "Director"
-              },
-              "startNode" : "125705300",
-              "type" : "EMPLOY"
-          },
-          {
-              "endNode" : "57774603",
-              "id" : "170798345",
-              "properties" : {
-                  "role" : "Chairman and General Manager"
-              },
-              "startNode" : "95791912",
-              "type" : "EMPLOY"
-          },
-          {
-              "endNode" : "57774603",
-              "id" : "170798342",
-              "properties" : {
-                  "role" : "Director"
-              },
-              "startNode" : "91722653",
-              "type" : "EMPLOY"
-          },
-          {
-              "endNode" : "57774603",
-              "id" : "170798343",
-              "properties" : {
-                  "role" : "Director"
-              },
-              "startNode" : "104722142",
-              "type" : "EMPLOY"
-          },
-          {
-              "endNode" : "18095726",
-              "id" : "4192534",
-              "properties" : {
-                  "role" : "Corporate legal entity",
-                  "shouldCapi" : 5000,
-                  "stockPercent" : 100
-              },
-              "startNode" : "25873766",
-              "type" : "INVEST"
-          },
-          {
-              "endNode" : "16118048",
-              "id" : "215515627",
-              "properties" : {
-                  "role" : "Executive Director"
-              },
-              "startNode" : "105609926",
-              "type" : "EMPLOY"
-          },
-          {
-              "endNode" : "13981596",
-              "id" : "1069347",
-              "properties" : {
-                  "role" : "Corporate legal entity",
-                  "shouldCapi" : 600,
-                  "stockPercent" : 60
-              },
-              "startNode" : "82826",
-              "type" : "INVEST"
-          },
-          {
-              "endNode" : "28657593",
-              "id" : "145445791",
-              "properties" : {
-                  "role" : ""
-              },
-              "startNode" : "95791912",
-              "type" : "LEGAL"
-          },
-          {
-              "endNode" : "28240504",
-              "id" : "6545236",
-              "properties" : {
-                  "role" : "Corporate legal entity",
-                  "shouldCapi" : 25,
-                  "stockPercent" : 100
-              },
-              "startNode" : "4490084",
-              "type" : "INVEST"
-          },
-          {
-              "endNode" : "57774603",
-              "id" : "170798359",
-              "properties" : {
-                  "role" : "Chairman of the Board of Directors"
-              },
-              "startNode" : "95791912",
-              "type" : "EMPLOY"
-          },
-          {
-              "endNode" : "82826",
-              "id" : "143215541",
-              "properties" : {
-                  "role" : ""
-              },
-              "startNode" : "95791912",
-              "type" : "LEGAL"
-          },
-          {
-              "endNode" : "57774603",
-              "id" : "170798355",
-              "properties" : {
-                  "role" : "Director"
-              },
-              "startNode" : "107067803",
-              "type" : "EMPLOY"
-          },
-          {
-              "endNode" : "28010572",
-              "id" : "236459352",
-              "properties" : {
-                  "role" : "Executive Director"
-              },
-              "startNode" : "95791912",
-              "type" : "EMPLOY"
-          },
-          {
-              "endNode" : "5316738",
-              "id" : "269401935",
-              "properties" : {
-                  "role" : "Executive Director"
-              },
-              "startNode" : "107067803",
-              "type" : "EMPLOY"
-          },
-          {
-              "endNode" : "55223538",
-              "id" : "266214041",
+              "endNode" : "1644365",
+              "id" : "271270969",
               "properties" : {
                   "role" : "Manager"
               },
-              "startNode" : "91722653",
+              "startNode" : "93242263",
               "type" : "EMPLOY"
           },
           {
-              "endNode" : "55223538",
-              "id" : "266214038",
+              "endNode" : "874405",
+              "id" : "223237466",
               "properties" : {
                   "role" : "Chairman of the Board of Directors"
               },
-              "startNode" : "95791912",
+              "startNode" : "151117034",
               "type" : "EMPLOY"
           },
           {
-              "endNode" : "20914470",
-              "id" : "90958391",
-              "properties" : {
-                  "role" : ""
-              },
-              "startNode" : "7021189",
-              "type" : "LEGAL"
-          },
-          {
-              "endNode" : "54711537",
-              "id" : "175063819",
-              "properties" : {
-                  "role" : "Director"
-              },
-              "startNode" : "95791912",
-              "type" : "EMPLOY"
-          },
-          {
-              "endNode" : "9423444",
-              "id" : "153440832",
-              "properties" : {
-                  "role" : "Director"
-              },
-              "startNode" : "93580030",
-              "type" : "EMPLOY"
-          },
-          {
-              "endNode" : "38133438",
-              "id" : "6483719",
-              "properties" : {
-                  "role" : "Corporate shareholders",
-                  "shouldCapi" : 3147,
-                  "stockPercent" : 52.450000
-              },
-              "startNode" : "12680708",
-              "type" : "INVEST"
-          },
-          {
-              "endNode" : "20914470",
-              "id" : "5134635",
-              "properties" : {
-                  "role" : "Other investors",
-                  "shouldCapi" : 1000,
-                  "stockPercent" : 1.450000
-              },
-              "startNode" : "7021189",
-              "type" : "INVEST"
-          },
-          {
-              "endNode" : "54711537",
-              "id" : "175063813",
-              "properties" : {
-                  "role" : "Director and Managing Director"
-              },
-              "startNode" : "107067803",
-              "type" : "EMPLOY"
-          },
-          {
-              "endNode" : "20914470",
-              "id" : "5134627",
-              "properties" : {
-                  "role" : "Corporate shareholders",
-                  "shouldCapi" : 3000,
-                  "stockPercent" : 4.350000
-              },
-              "startNode" : "57774603",
-              "type" : "INVEST"
-          },
-          {
-              "endNode" : "40133594",
-              "id" : "232987278",
-              "properties" : {
-                  "role" : "Executive Director"
-              },
-              "startNode" : "95791912",
-              "type" : "EMPLOY"
-          },
-          {
-              "endNode" : "18095726",
-              "id" : "224011302",
-              "properties" : {
-                  "role" : "Executive Director"
-              },
-              "startNode" : "107067803",
-              "type" : "EMPLOY"
-          },
-          {
-              "endNode" : "56020881",
-              "id" : "1596260",
-              "properties" : {
-                  "role" : "Corporate legal entity",
-                  "shouldCapi" : 500,
-                  "stockPercent" : 100
-              },
-              "startNode" : "20089128",
-              "type" : "INVEST"
-          },
-          {
-              "endNode" : "14569607",
-              "id" : "205065147",
-              "properties" : {
-                  "role" : "Director"
-              },
-              "startNode" : "95791912",
-              "type" : "EMPLOY"
-          },
-          {
-              "endNode" : "59133890",
-              "id" : "163572792",
-              "properties" : {
-                  "role" : "Executive Director and Managing Director"
-              },
-              "startNode" : "95791912",
-              "type" : "EMPLOY"
-          },
-          {
-              "endNode" : "6074212",
-              "id" : "57887999",
-              "properties" : {
-                  "stockPercent" : 56.160000
-              },
-              "startNode" : "57774603",
-              "type" : "INVEST"
-          },
-          {
-              "endNode" : "82826",
-              "id" : "6184398",
-              "properties" : {
-                  "role" : "Corporate shareholders",
-                  "shouldCapi" : 19000,
-                  "stockPercent" : 19
-              },
-              "startNode" : "40729161",
-              "type" : "INVEST"
-          },
-          {
-              "endNode" : "82826",
-              "id" : "6184399",
-              "properties" : {
-                  "role" : "Corporate shareholders",
-                  "shouldCapi" : 15000,
-                  "stockPercent" : 15
-              },
-              "startNode" : "54711537",
-              "type" : "INVEST"
-          },
-          {
-              "endNode" : "82826",
-              "id" : "6184397",
-              "properties" : {
-                  "role" : "Corporate shareholders",
-                  "shouldCapi" : 20000,
-                  "stockPercent" : 20
-              },
-              "startNode" : "57774603",
-              "type" : "INVEST"
-          },
-          {
-              "endNode" : "12680708",
-              "id" : "92818453",
-              "properties" : {
-                  "role" : ""
-              },
-              "startNode" : "95791912",
-              "type" : "LEGAL"
-          },
-          {
-              "endNode" : "7021189",
-              "id" : "15258487",
-              "properties" : {
-                  "role" : "Natural person shareholders",
-                  "shouldCapi" : 300,
-                  "stockPercent" : 4.550000
-              },
-              "startNode" : "95791912",
-              "type" : "INVEST"
-          },
-          {
-              "endNode" : "9423444",
-              "id" : "157610",
-              "properties" : {
-                  "role" : "Corporate legal entity",
-                  "shouldCapi" : 490,
-                  "stockPercent" : 98
-              },
-              "startNode" : "55680985",
-              "type" : "INVEST"
-          },
-          {
-              "endNode" : "33987104",
-              "id" : "4678131",
-              "properties" : {
-                  "role" : "Corporate legal entity",
-                  "shouldCapi" : 50000,
-                  "stockPercent" : 4.240000
-              },
-              "startNode" : "45113022",
-              "type" : "INVEST"
-          },
-          {
-              "endNode" : "56020881",
-              "id" : "104466422",
-              "properties" : {
-                  "role" : ""
-              },
-              "startNode" : "107067803",
-              "type" : "LEGAL"
-          },
-          {
-              "endNode" : "32126790",
-              "id" : "105910173",
-              "properties" : {
-                  "role" : ""
-              },
-              "startNode" : "107067803",
-              "type" : "LEGAL"
-          },
-          {
-              "endNode" : "39502121",
-              "id" : "133674533",
-              "properties" : {
-                  "role" : ""
-              },
-              "startNode" : "107067803",
-              "type" : "LEGAL"
-          },
-          {
-              "endNode" : "14558491",
-              "id" : "121407209",
-              "properties" : {
-                  "role" : ""
-              },
-              "startNode" : "133170230",
-              "type" : "LEGAL"
-          },
-          {
-              "endNode" : "52903898",
-              "id" : "167196705",
-              "properties" : {
-                  "role" : "Director"
-              },
-              "startNode" : "95791912",
-              "type" : "EMPLOY"
-          },
-          {
-              "endNode" : "59133890",
-              "id" : "97210908",
-              "properties" : {
-                  "role" : ""
-              },
-              "startNode" : "95791912",
-              "type" : "LEGAL"
-          },
-          {
-              "endNode" : "60679462",
-              "id" : "204622801",
-              "properties" : {
-                  "role" : "Vice Chairman of the Board"
-              },
-              "startNode" : "95791912",
-              "type" : "EMPLOY"
-          },
-          {
-              "endNode" : "52903898",
-              "id" : "167196701",
+              "endNode" : "874405",
+              "id" : "223237464",
               "properties" : {
                   "role" : "Supervisor"
               },
-              "startNode" : "91722653",
+              "startNode" : "69296452",
               "type" : "EMPLOY"
           },
           {
-              "endNode" : "83281",
-              "id" : "140766088",
+              "endNode" : "1644365",
+              "id" : "271270972",
+              "properties" : {
+                  "role" : "Director"
+              },
+              "startNode" : "64909995",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "35928893",
+              "id" : "2206779",
+              "properties" : {
+                  "role" : "Corporate legal entity",
+                  "shouldCapi" : 650,
+                  "stockPercent" : 65
+              },
+              "startNode" : "56062039",
+              "type" : "INVEST"
+          },
+          {
+              "endNode" : "35928893",
+              "id" : "2206780",
+              "properties" : {
+                  "role" : "Corporate legal entity",
+                  "shouldCapi" : 350,
+                  "stockPercent" : 35
+              },
+              "startNode" : "14602311",
+              "type" : "INVEST"
+          },
+          {
+              "endNode" : "1644365",
+              "id" : "88824171",
+              "properties" : {
+                  "role" : "Natural person shareholders",
+                  "shouldCapi" : 30,
+                  "stockPercent" : 0.119500
+              },
+              "startNode" : "130622709",
+              "type" : "INVEST"
+          },
+          {
+              "endNode" : "45685555",
+              "id" : "254170887",
+              "properties" : {
+                  "role" : "Supervisor"
+              },
+              "startNode" : "72442991",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "45685555",
+              "id" : "254170883",
+              "properties" : {
+                  "role" : "Executive Director and Managing Director"
+              },
+              "startNode" : "138434036",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "4012368",
+              "id" : "5771391",
+              "properties" : {
+                  "role" : "Corporate legal entity",
+                  "shouldCapi" : 543.750000,
+                  "stockPercent" : 75
+              },
+              "startNode" : "46162667",
+              "type" : "INVEST"
+          },
+          {
+              "endNode" : "56062039",
+              "id" : "267185090",
+              "properties" : {
+                  "role" : "Supervisor"
+              },
+              "startNode" : "110515288",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "56062039",
+              "id" : "267185091",
+              "properties" : {
+                  "role" : "Chairman and General Manager"
+              },
+              "startNode" : "113253804",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "58917442",
+              "id" : "269786148",
+              "properties" : {
+                  "role" : "Employee Supervisor"
+              },
+              "startNode" : "137701706",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "34606131",
+              "id" : "3594358",
+              "properties" : {
+                  "role" : "Corporate shareholders",
+                  "shouldCapi" : 2000,
+                  "stockPercent" : 40
+              },
+              "startNode" : "46162667",
+              "type" : "INVEST"
+          },
+          {
+              "endNode" : "1644365",
+              "id" : "88824074",
+              "properties" : {
+                  "role" : "Natural person shareholders",
+                  "shouldCapi" : 90,
+                  "stockPercent" : 0.358600
+              },
+              "startNode" : "128092587",
+              "type" : "INVEST"
+          },
+          {
+              "endNode" : "34606131",
+              "id" : "3594359",
+              "properties" : {
+                  "role" : "Corporate shareholders",
+                  "shouldCapi" : 1500,
+                  "stockPercent" : 30
+              },
+              "startNode" : "40166986",
+              "type" : "INVEST"
+          },
+          {
+              "endNode" : "45685555",
+              "id" : "140966948",
               "properties" : {
                   "role" : ""
               },
-              "startNode" : "132153050",
+              "startNode" : "138434036",
               "type" : "LEGAL"
+          },
+          {
+              "endNode" : "50469852",
+              "id" : "5710873",
+              "properties" : {
+                  "role" : "Corporate legal entity",
+                  "shouldCapi" : 10000,
+                  "stockPercent" : 100
+              },
+              "startNode" : "46162667",
+              "type" : "INVEST"
+          },
+          {
+              "endNode" : "34606131",
+              "id" : "3594360",
+              "properties" : {
+                  "role" : "Corporate shareholders",
+                  "shouldCapi" : 1500,
+                  "stockPercent" : 30
+              },
+              "startNode" : "24771439",
+              "type" : "INVEST"
+          },
+          {
+              "endNode" : "46162667",
+              "id" : "161598961",
+              "properties" : {
+                  "role" : "Chairman of the Board of Directors"
+              },
+              "startNode" : "113253804",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "46162667",
+              "id" : "161598962",
+              "properties" : {
+                  "role" : "Director"
+              },
+              "startNode" : "142076283",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "1644365",
+              "id" : "88824087",
+              "properties" : {
+                  "role" : "Natural person shareholders",
+                  "shouldCapi" : 80,
+                  "stockPercent" : 0.318700
+              },
+              "startNode" : "77435391",
+              "type" : "INVEST"
+          },
+          {
+              "endNode" : "30420552",
+              "id" : "101897806",
+              "properties" : {
+                  "role" : ""
+              },
+              "startNode" : "105713087",
+              "type" : "LEGAL"
+          },
+          {
+              "endNode" : "56302401",
+              "id" : "114965176",
+              "properties" : {
+                  "role" : ""
+              },
+              "startNode" : "110515288",
+              "type" : "LEGAL"
+          },
+          {
+              "endNode" : "44484097",
+              "id" : "104983075",
+              "properties" : {
+                  "role" : ""
+              },
+              "startNode" : "130352752",
+              "type" : "LEGAL"
+          },
+          {
+              "endNode" : "46162667",
+              "id" : "96259540",
+              "properties" : {
+                  "role" : ""
+              },
+              "startNode" : "113253804",
+              "type" : "LEGAL"
+          },
+          {
+              "endNode" : "1644365",
+              "id" : "271270979",
+              "properties" : {
+                  "role" : "Director"
+              },
+              "startNode" : "93242263",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "1644365",
+              "id" : "271270978",
+              "properties" : {
+                  "role" : "Director"
+              },
+              "startNode" : "114649571",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "1644365",
+              "id" : "271270977",
+              "properties" : {
+                  "role" : "Director"
+              },
+              "startNode" : "97920367",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "17678515",
+              "id" : "3941457",
+              "properties" : {
+                  "role" : "Corporate legal entity",
+                  "shouldCapi" : 1538.390000,
+                  "stockPercent" : 85.470000
+              },
+              "startNode" : "1644365",
+              "type" : "INVEST"
+          },
+          {
+              "endNode" : "1644365",
+              "id" : "271270981",
+              "properties" : {
+                  "role" : "Chairman of the Board of Directors"
+              },
+              "startNode" : "113253804",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "1644365",
+              "id" : "271270980",
+              "properties" : {
+                  "role" : "Supervisor"
+              },
+              "startNode" : "92456538",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "22762107",
+              "id" : "5167153",
+              "properties" : {
+                  "role" : "Corporate legal entity",
+                  "shouldCapi" : 0,
+                  "stockPercent" : 0
+              },
+              "startNode" : "59597831",
+              "type" : "INVEST"
+          },
+          {
+              "endNode" : "18389915",
+              "id" : "211383323",
+              "properties" : {
+                  "role" : "Executive Director"
+              },
+              "startNode" : "87600297",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "59597831",
+              "id" : "221894070",
+              "properties" : {
+                  "role" : "Executive Director"
+              },
+              "startNode" : "64909995",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "60658751",
+              "id" : "221143477",
+              "properties" : {
+                  "role" : "Director"
+              },
+              "startNode" : "142076283",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "60658751",
+              "id" : "221143472",
+              "properties" : {
+                  "role" : "Supervisor"
+              },
+              "startNode" : "95853610",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "60658751",
+              "id" : "221143473",
+              "properties" : {
+                  "role" : "Director"
+              },
+              "startNode" : "87600297",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "874405",
+              "id" : "126040871",
+              "properties" : {
+                  "role" : ""
+              },
+              "startNode" : "151117034",
+              "type" : "LEGAL"
+          },
+          {
+              "endNode" : "34142761",
+              "id" : "137191556",
+              "properties" : {
+                  "role" : ""
+              },
+              "startNode" : "113253804",
+              "type" : "LEGAL"
+          },
+          {
+              "endNode" : "25222030",
+              "id" : "1540269",
+              "properties" : {
+                  "role" : "Corporate legal entity",
+                  "shouldCapi" : 11250,
+                  "stockPercent" : 45
+              },
+              "startNode" : "46162667",
+              "type" : "INVEST"
+          },
+          {
+              "endNode" : "34142761",
+              "id" : "71941249",
+              "properties" : {
+                  "role" : "Natural person shareholders",
+                  "shouldCapi" : 10,
+                  "stockPercent" : 100
+              },
+              "startNode" : "113253804",
+              "type" : "INVEST"
+          },
+          {
+              "endNode" : "4012368",
+              "id" : "5771392",
+              "properties" : {
+                  "role" : "Corporate legal entity",
+                  "shouldCapi" : 181.250000,
+                  "stockPercent" : 25
+              },
+              "startNode" : "18862200",
+              "type" : "INVEST"
+          },
+          {
+              "endNode" : "18862200",
+              "id" : "266018561",
+              "properties" : {
+                  "role" : "Supervisor"
+              },
+              "startNode" : "72442991",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "18862200",
+              "id" : "266018560",
+              "properties" : {
+                  "role" : "Executive Director"
+              },
+              "startNode" : "128092587",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "14634904",
+              "id" : "98716988",
+              "properties" : {
+                  "role" : ""
+              },
+              "startNode" : "95853610",
+              "type" : "LEGAL"
+          },
+          {
+              "endNode" : "1644365",
+              "id" : "88824251",
+              "properties" : {
+                  "role" : "Natural person shareholders",
+                  "shouldCapi" : 20,
+                  "stockPercent" : 0.079700
+              },
+              "startNode" : "95853610",
+              "type" : "INVEST"
+          },
+          {
+              "endNode" : "16192923",
+              "id" : "110231138",
+              "properties" : {
+                  "role" : ""
+              },
+              "startNode" : "93242263",
+              "type" : "LEGAL"
+          },
+          {
+              "endNode" : "18474062",
+              "id" : "114463701",
+              "properties" : {
+                  "role" : ""
+              },
+              "startNode" : "93242263",
+              "type" : "LEGAL"
+          },
+          {
+              "endNode" : "57243080",
+              "id" : "141740409",
+              "properties" : {
+                  "role" : ""
+              },
+              "startNode" : "93242263",
+              "type" : "LEGAL"
+          },
+          {
+              "endNode" : "874405",
+              "id" : "4148523",
+              "properties" : {
+                  "role" : "Corporate legal entity",
+                  "shouldCapi" : 2000,
+                  "stockPercent" : 100
+              },
+              "startNode" : "44484097",
+              "type" : "INVEST"
+          },
+          {
+              "endNode" : "18389915",
+              "id" : "120320574",
+              "properties" : {
+                  "role" : ""
+              },
+              "startNode" : "87600297",
+              "type" : "LEGAL"
+          },
+          {
+              "endNode" : "49687512",
+              "id" : "100734746",
+              "properties" : {
+                  "role" : ""
+              },
+              "startNode" : "113253804",
+              "type" : "LEGAL"
+          },
+          {
+              "endNode" : "23428715",
+              "id" : "97122519",
+              "properties" : {
+                  "role" : ""
+              },
+              "startNode" : "130352752",
+              "type" : "LEGAL"
+          },
+          {
+              "endNode" : "30969439",
+              "id" : "172384103",
+              "properties" : {
+                  "role" : "Supervisor"
+              },
+              "startNode" : "130622709",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "18862200",
+              "id" : "266018559",
+              "properties" : {
+                  "role" : "General Manager"
+              },
+              "startNode" : "128092587",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "1644365",
+              "id" : "149218755",
+              "properties" : {
+                  "role" : ""
+              },
+              "startNode" : "113253804",
+              "type" : "LEGAL"
+          },
+          {
+              "endNode" : "46162667",
+              "id" : "622909",
+              "properties" : {
+                  "role" : "Corporate legal entity",
+                  "shouldCapi" : 11845.160000,
+                  "stockPercent" : 54.840000
+              },
+              "startNode" : "1644365",
+              "type" : "INVEST"
+          },
+          {
+              "endNode" : "46162667",
+              "id" : "622911",
+              "properties" : {
+                  "role" : "Corporate legal entity",
+                  "shouldCapi" : 1836.950000,
+                  "stockPercent" : 8.500000
+              },
+              "startNode" : "9894729",
+              "type" : "INVEST"
+          },
+          {
+              "endNode" : "46162667",
+              "id" : "622910",
+              "properties" : {
+                  "role" : "Corporate legal entity",
+                  "shouldCapi" : 7917.890000,
+                  "stockPercent" : 36.660000
+              },
+              "startNode" : "60658751",
+              "type" : "INVEST"
+          },
+          {
+              "endNode" : "18389915",
+              "id" : "3472648",
+              "properties" : {
+                  "role" : "Corporate legal entity",
+                  "shouldCapi" : 900,
+                  "stockPercent" : 90
+              },
+              "startNode" : "50469852",
+              "type" : "INVEST"
+          },
+          {
+              "endNode" : "18389915",
+              "id" : "3472649",
+              "properties" : {
+                  "role" : "Corporate legal entity",
+                  "shouldCapi" : 100,
+                  "stockPercent" : 10
+              },
+              "startNode" : "18862200",
+              "type" : "INVEST"
+          },
+          {
+              "endNode" : "56302401",
+              "id" : "40725294",
+              "properties" : {
+                  "role" : "Natural person shareholders",
+                  "shouldCapi" : 2.500000,
+                  "stockPercent" : 25
+              },
+              "startNode" : "110515288",
+              "type" : "INVEST"
+          },
+          {
+              "endNode" : "23428715",
+              "id" : "163388665",
+              "properties" : {
+                  "role" : "Chairman of the Supervisory Board"
+              },
+              "startNode" : "137701706",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "23428715",
+              "id" : "163388659",
+              "properties" : {
+                  "role" : "Chairman of the Board of Directors"
+              },
+              "startNode" : "130352752",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "54516604",
+              "id" : "5910796",
+              "properties" : {
+                  "role" : "Corporate legal entity",
+                  "shouldCapi" : 1216.670000,
+                  "stockPercent" : 73
+              },
+              "startNode" : "49687512",
+              "type" : "INVEST"
+          },
+          {
+              "endNode" : "54516604",
+              "id" : "5910797",
+              "properties" : {
+                  "role" : "Corporate legal entity",
+                  "shouldCapi" : 450,
+                  "stockPercent" : 27
+              },
+              "startNode" : "56302401",
+              "type" : "INVEST"
+          },
+          {
+              "endNode" : "30969439",
+              "id" : "172384036",
+              "properties" : {
+                  "role" : "Director"
+              },
+              "startNode" : "93242263",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "30969439",
+              "id" : "172384035",
+              "properties" : {
+                  "role" : "Director"
+              },
+              "startNode" : "92456538",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "35928893",
+              "id" : "109621236",
+              "properties" : {
+                  "role" : ""
+              },
+              "startNode" : "110515288",
+              "type" : "LEGAL"
+          },
+          {
+              "endNode" : "57581013",
+              "id" : "6064604",
+              "properties" : {
+                  "role" : "State-owned enterprises",
+                  "shouldCapi" : 10000,
+                  "stockPercent" : 100
+              },
+              "startNode" : "58917442",
+              "type" : "INVEST"
+          },
+          {
+              "endNode" : "36029553",
+              "id" : "160788501",
+              "properties" : {
+                  "role" : "General Manager"
+              },
+              "startNode" : "105713087",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "36029553",
+              "id" : "160788497",
+              "properties" : {
+                  "role" : "Chairman of the Supervisory Board"
+              },
+              "startNode" : "134660183",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "36029553",
+              "id" : "160788499",
+              "properties" : {
+                  "role" : "Chairman of the Board of Directors"
+              },
+              "startNode" : "93242263",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "36029553",
+              "id" : "160788505",
+              "properties" : {
+                  "role" : "Director"
+              },
+              "startNode" : "87600297",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "36029553",
+              "id" : "160788485",
+              "properties" : {
+                  "role" : "Director"
+              },
+              "startNode" : "105713087",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "1644365",
+              "id" : "88824026",
+              "properties" : {
+                  "role" : "Natural person shareholders",
+                  "shouldCapi" : 190,
+                  "stockPercent" : 0.757000
+              },
+              "startNode" : "87600297",
+              "type" : "INVEST"
+          },
+          {
+              "endNode" : "36029553",
+              "id" : "160788484",
+              "properties" : {
+                  "role" : "Supervisor"
+              },
+              "startNode" : "92456538",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "42226467",
+              "id" : "6037963",
+              "properties" : {
+                  "role" : "Corporate legal entity",
+                  "shouldCapi" : 3500,
+                  "stockPercent" : 100
+              },
+              "startNode" : "1644365",
+              "type" : "INVEST"
+          },
+          {
+              "endNode" : "1644365",
+              "id" : "88824018",
+              "properties" : {
+                  "role" : "Natural person shareholders",
+                  "shouldCapi" : 240,
+                  "stockPercent" : 0.956200
+              },
+              "startNode" : "67036074",
+              "type" : "INVEST"
+          },
+          {
+              "endNode" : "9894729",
+              "id" : "112725799",
+              "properties" : {
+                  "role" : ""
+              },
+              "startNode" : "142076283",
+              "type" : "LEGAL"
+          },
+          {
+              "endNode" : "874405",
+              "id" : "223237366",
+              "properties" : {
+                  "role" : "Director and Managing Director"
+              },
+              "startNode" : "133012980",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "36029553",
+              "id" : "576968",
+              "properties" : {
+                  "role" : "Corporate legal entity",
+                  "shouldCapi" : 1650,
+                  "stockPercent" : 55
+              },
+              "startNode" : "18474062",
+              "type" : "INVEST"
+          },
+          {
+              "endNode" : "57581013",
+              "id" : "142190013",
+              "properties" : {
+                  "role" : ""
+              },
+              "startNode" : "130352752",
+              "type" : "LEGAL"
+          },
+          {
+              "endNode" : "42796297",
+              "id" : "182655781",
+              "properties" : {
+                  "role" : "Executive Director and Managing Director"
+              },
+              "startNode" : "110515288",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "3219383",
+              "id" : "3983857",
+              "properties" : {
+                  "role" : "Corporate legal entity",
+                  "shouldCapi" : 765,
+                  "stockPercent" : 4.500000
+              },
+              "startNode" : "56302401",
+              "type" : "INVEST"
+          },
+          {
+              "endNode" : "3219383",
+              "id" : "3983855",
+              "properties" : {
+                  "role" : "Corporate legal entity",
+                  "shouldCapi" : 3317,
+                  "stockPercent" : 19.510000
+              },
+              "startNode" : "34142761",
+              "type" : "INVEST"
+          },
+          {
+              "endNode" : "34606131",
+              "id" : "213517660",
+              "properties" : {
+                  "role" : "Chairman of the Board of Directors"
+              },
+              "startNode" : "67036074",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "27736592",
+              "id" : "6398345",
+              "properties" : {
+                  "role" : "Corporate legal entity",
+                  "shouldCapi" : 550,
+                  "stockPercent" : 55
+              },
+              "startNode" : "42796297",
+              "type" : "INVEST"
+          },
+          {
+              "endNode" : "27736592",
+              "id" : "6398346",
+              "properties" : {
+                  "role" : "Corporate legal entity",
+                  "shouldCapi" : 450,
+                  "stockPercent" : 45
+              },
+              "startNode" : "3219383",
+              "type" : "INVEST"
+          },
+          {
+              "endNode" : "4012368",
+              "id" : "139710910",
+              "properties" : {
+                  "role" : ""
+              },
+              "startNode" : "107220502",
+              "type" : "LEGAL"
+          },
+          {
+              "endNode" : "1644365",
+              "id" : "88823996",
+              "properties" : {
+                  "role" : "Natural person shareholders",
+                  "shouldCapi" : 420,
+                  "stockPercent" : 1.673300
+              },
+              "startNode" : "105713087",
+              "type" : "INVEST"
+          },
+          {
+              "endNode" : "43081155",
+              "id" : "143982956",
+              "properties" : {
+                  "role" : ""
+              },
+              "startNode" : "110515288",
+              "type" : "LEGAL"
+          },
+          {
+              "endNode" : "1644365",
+              "id" : "88823986",
+              "properties" : {
+                  "role" : "Natural person shareholders",
+                  "shouldCapi" : 1710,
+                  "stockPercent" : 6.812700
+              },
+              "startNode" : "142076283",
+              "type" : "INVEST"
+          },
+          {
+              "endNode" : "34606131",
+              "id" : "213517639",
+              "properties" : {
+                  "role" : "Director"
+              },
+              "startNode" : "64909995",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "60658751",
+              "id" : "54842694",
+              "properties" : {
+                  "role" : "Natural person shareholders",
+                  "shouldCapi" : 30,
+                  "stockPercent" : 1.160000
+              },
+              "startNode" : "107220502",
+              "type" : "INVEST"
+          },
+          {
+              "endNode" : "54516604",
+              "id" : "140892768",
+              "properties" : {
+                  "role" : ""
+              },
+              "startNode" : "110515288",
+              "type" : "LEGAL"
+          },
+          {
+              "endNode" : "24771439",
+              "id" : "379403",
+              "properties" : {
+                  "role" : "Corporate shareholders",
+                  "shouldCapi" : 5000,
+                  "stockPercent" : 50
+              },
+              "startNode" : "22762107",
+              "type" : "INVEST"
+          },
+          {
+              "endNode" : "60658751",
+              "id" : "54842707",
+              "properties" : {
+                  "role" : "Natural person shareholders",
+                  "shouldCapi" : 0,
+                  "stockPercent" : 0.190000
+              },
+              "startNode" : "134660183",
+              "type" : "INVEST"
+          },
+          {
+              "endNode" : "3219383",
+              "id" : "220354360",
+              "properties" : {
+                  "role" : "Chairman and General Manager"
+              },
+              "startNode" : "113253804",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "60658751",
+              "id" : "4028940",
+              "properties" : {
+                  "role" : "Corporate legal entity",
+                  "shouldCapi" : 650,
+                  "stockPercent" : 25.100000
+              },
+              "startNode" : "1644365",
+              "type" : "INVEST"
+          },
+          {
+              "endNode" : "36029553",
+              "id" : "95869826",
+              "properties" : {
+                  "role" : ""
+              },
+              "startNode" : "93242263",
+              "type" : "LEGAL"
+          },
+          {
+              "endNode" : "60658751",
+              "id" : "4028939",
+              "properties" : {
+                  "role" : "Corporate legal entity",
+                  "shouldCapi" : 1082.500000,
+                  "stockPercent" : 41.800000
+              },
+              "startNode" : "9894729",
+              "type" : "INVEST"
+          },
+          {
+              "endNode" : "17678515",
+              "id" : "219598638",
+              "properties" : {
+                  "role" : "Supervisor"
+              },
+              "startNode" : "134660183",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "17678515",
+              "id" : "219598639",
+              "properties" : {
+                  "role" : "Director"
+              },
+              "startNode" : "130622709",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "17678515",
+              "id" : "219598636",
+              "properties" : {
+                  "role" : "Chairman and General Manager"
+              },
+              "startNode" : "105713087",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "17678515",
+              "id" : "219598637",
+              "properties" : {
+                  "role" : "Director"
+              },
+              "startNode" : "77435391",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "49687512",
+              "id" : "1153617",
+              "properties" : {
+                  "role" : "Corporate legal entity",
+                  "shouldCapi" : 200,
+                  "stockPercent" : 39.600000
+              },
+              "startNode" : "3219383",
+              "type" : "INVEST"
+          },
+          {
+              "endNode" : "49687512",
+              "id" : "1153618",
+              "properties" : {
+                  "role" : "Corporate legal entity",
+                  "shouldCapi" : 110,
+                  "stockPercent" : 21.780000
+              },
+              "startNode" : "34142761",
+              "type" : "INVEST"
+          },
+          {
+              "endNode" : "49687512",
+              "id" : "1153620",
+              "properties" : {
+                  "role" : "Corporate legal entity",
+                  "shouldCapi" : 50,
+                  "stockPercent" : 9.900000
+              },
+              "startNode" : "56302401",
+              "type" : "INVEST"
+          },
+          {
+              "endNode" : "57243080",
+              "id" : "6011420",
+              "properties" : {
+                  "role" : "Corporate legal entity",
+                  "shouldCapi" : 2000,
+                  "stockPercent" : 100
+              },
+              "startNode" : "1644365",
+              "type" : "INVEST"
+          },
+          {
+              "endNode" : "18474062",
+              "id" : "2780768",
+              "properties" : {
+                  "role" : "Corporate legal entity",
+                  "shouldCapi" : 5000,
+                  "stockPercent" : 100
+              },
+              "startNode" : "1644365",
+              "type" : "INVEST"
+          },
+          {
+              "endNode" : "50469852",
+              "id" : "250523812",
+              "properties" : {
+                  "role" : "Manager"
+              },
+              "startNode" : "87600297",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "22762107",
+              "id" : "68328030",
+              "properties" : {
+                  "role" : "Natural person shareholders",
+                  "shouldCapi" : 0,
+                  "stockPercent" : 0
+              },
+              "startNode" : "64909995",
+              "type" : "INVEST"
+          },
+          {
+              "endNode" : "50469852",
+              "id" : "250523811",
+              "properties" : {
+                  "role" : "Supervisor"
+              },
+              "startNode" : "67036074",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "34606131",
+              "id" : "121346413",
+              "properties" : {
+                  "role" : ""
+              },
+              "startNode" : "67036074",
+              "type" : "LEGAL"
+          },
+          {
+              "endNode" : "42796297",
+              "id" : "1829453",
+              "properties" : {
+                  "role" : "Corporate legal entity",
+                  "shouldCapi" : 100,
+                  "stockPercent" : 100
+              },
+              "startNode" : "49687512",
+              "type" : "INVEST"
+          },
+          {
+              "endNode" : "57243080",
+              "id" : "255768916",
+              "properties" : {
+                  "role" : "Supervisor"
+              },
+              "startNode" : "77435391",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "57243080",
+              "id" : "255768917",
+              "properties" : {
+                  "role" : "Executive Director"
+              },
+              "startNode" : "93242263",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "23428715",
+              "id" : "725607",
+              "properties" : {
+                  "role" : "State-owned enterprises",
+                  "shouldCapi" : 30000,
+                  "stockPercent" : 100
+              },
+              "startNode" : "58917442",
+              "type" : "INVEST"
+          },
+          {
+              "endNode" : "57243080",
+              "id" : "255768915",
+              "properties" : {
+                  "role" : "Manager"
+              },
+              "startNode" : "93242263",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "60658751",
+              "id" : "54842676",
+              "properties" : {
+                  "role" : "Natural person shareholders",
+                  "shouldCapi" : 175,
+                  "stockPercent" : 6.760000
+              },
+              "startNode" : "67036074",
+              "type" : "INVEST"
+          },
+          {
+              "endNode" : "50469852",
+              "id" : "250523806",
+              "properties" : {
+                  "role" : "Chairman of the Board of Directors"
+              },
+              "startNode" : "87600297",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "56369887",
+              "id" : "271660608",
+              "properties" : {
+                  "role" : "Director"
+              },
+              "startNode" : "142076283",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "60658751",
+              "id" : "54842678",
+              "properties" : {
+                  "role" : "Natural person shareholders",
+                  "shouldCapi" : 105,
+                  "stockPercent" : 4.050000
+              },
+              "startNode" : "128092587",
+              "type" : "INVEST"
+          },
+          {
+              "endNode" : "50469852",
+              "id" : "250523804",
+              "properties" : {
+                  "role" : "Director"
+              },
+              "startNode" : "72442991",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "60658751",
+              "id" : "54842679",
+              "properties" : {
+                  "role" : "Natural person shareholders",
+                  "shouldCapi" : 95,
+                  "stockPercent" : 3.670000
+              },
+              "startNode" : "87600297",
+              "type" : "INVEST"
+          },
+          {
+              "endNode" : "56369887",
+              "id" : "271660616",
+              "properties" : {
+                  "role" : "Director"
+              },
+              "startNode" : "93242263",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "56369887",
+              "id" : "271660619",
+              "properties" : {
+                  "role" : "Director"
+              },
+              "startNode" : "105713087",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "54516604",
+              "id" : "254017956",
+              "properties" : {
+                  "role" : "Chairman of the Board of Directors"
+              },
+              "startNode" : "110515288",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "14602311",
+              "id" : "51766668",
+              "properties" : {
+                  "role" : "Natural person shareholders",
+                  "shouldCapi" : 95,
+                  "stockPercent" : 95
+              },
+              "startNode" : "97920367",
+              "type" : "INVEST"
+          },
+          {
+              "endNode" : "14634904",
+              "id" : "166686542",
+              "properties" : {
+                  "role" : "Executive Director"
+              },
+              "startNode" : "64909995",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "17678515",
+              "id" : "124281280",
+              "properties" : {
+                  "role" : ""
+              },
+              "startNode" : "105713087",
+              "type" : "LEGAL"
+          },
+          {
+              "endNode" : "35928893",
+              "id" : "189255149",
+              "properties" : {
+                  "role" : "Chairman and General Manager"
+              },
+              "startNode" : "110515288",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "27736592",
+              "id" : "262558989",
+              "properties" : {
+                  "role" : "Executive Director"
+              },
+              "startNode" : "110515288",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "56062039",
+              "id" : "6662857",
+              "properties" : {
+                  "role" : "Corporate legal entity",
+                  "shouldCapi" : 100,
+                  "stockPercent" : 100
+              },
+              "startNode" : "3219383",
+              "type" : "INVEST"
+          },
+          {
+              "endNode" : "56302401",
+              "id" : "200314186",
+              "properties" : {
+                  "role" : "Executive Director and Managing Director"
+              },
+              "startNode" : "110515288",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "35928893",
+              "id" : "189255161",
+              "properties" : {
+                  "role" : "Director"
+              },
+              "startNode" : "97920367",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "14634904",
+              "id" : "166686544",
+              "properties" : {
+                  "role" : "Manager"
+              },
+              "startNode" : "95853610",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "56369887",
+              "id" : "6918827",
+              "properties" : {
+                  "role" : "Corporate legal entity",
+                  "shouldCapi" : 100,
+                  "stockPercent" : 0.400000
+              },
+              "startNode" : "1644365",
+              "type" : "INVEST"
+          },
+          {
+              "endNode" : "56369887",
+              "id" : "6918826",
+              "properties" : {
+                  "role" : "Corporate legal entity",
+                  "shouldCapi" : 24900,
+                  "stockPercent" : 99.600000
+              },
+              "startNode" : "18474062",
+              "type" : "INVEST"
+          },
+          {
+              "endNode" : "42226467",
+              "id" : "141962917",
+              "properties" : {
+                  "role" : ""
+              },
+              "startNode" : "113253804",
+              "type" : "LEGAL"
+          },
+          {
+              "endNode" : "49687512",
+              "id" : "170859771",
+              "properties" : {
+                  "role" : "Chairman of the Board of Directors"
+              },
+              "startNode" : "113253804",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "56062039",
+              "id" : "147251730",
+              "properties" : {
+                  "role" : ""
+              },
+              "startNode" : "113253804",
+              "type" : "LEGAL"
+          },
+          {
+              "endNode" : "49687512",
+              "id" : "170859770",
+              "properties" : {
+                  "role" : "Director and Managing Director"
+              },
+              "startNode" : "110515288",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "42796297",
+              "id" : "106433705",
+              "properties" : {
+                  "role" : ""
+              },
+              "startNode" : "110515288",
+              "type" : "LEGAL"
+          },
+          {
+              "endNode" : "43081155",
+              "id" : "6275752",
+              "properties" : {
+                  "role" : "Corporate legal entity",
+                  "shouldCapi" : 245,
+                  "stockPercent" : 49
+              },
+              "startNode" : "54516604",
+              "type" : "INVEST"
+          },
+          {
+              "endNode" : "27736592",
+              "id" : "145022556",
+              "properties" : {
+                  "role" : ""
+              },
+              "startNode" : "110515288",
+              "type" : "LEGAL"
+          },
+          {
+              "endNode" : "50469852",
+              "id" : "139203250",
+              "properties" : {
+                  "role" : ""
+              },
+              "startNode" : "87600297",
+              "type" : "LEGAL"
+          },
+          {
+              "endNode" : "57581013",
+              "id" : "256694345",
+              "properties" : {
+                  "role" : "Chairman and General Manager"
+              },
+              "startNode" : "130352752",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "57581013",
+              "id" : "256694347",
+              "properties" : {
+                  "role" : "Supervisor"
+              },
+              "startNode" : "137701706",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "46162667",
+              "id" : "161599145",
+              "properties" : {
+                  "role" : "Director"
+              },
+              "startNode" : "64909995",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "46162667",
+              "id" : "161599150",
+              "properties" : {
+                  "role" : "Supervisor"
+              },
+              "startNode" : "138434036",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "46162667",
+              "id" : "161599153",
+              "properties" : {
+                  "role" : "Director"
+              },
+              "startNode" : "67036074",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "46162667",
+              "id" : "161599155",
+              "properties" : {
+                  "role" : "Manager"
+              },
+              "startNode" : "67036074",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "44484097",
+              "id" : "179670435",
+              "properties" : {
+                  "role" : "Chairman of the Supervisory Board"
+              },
+              "startNode" : "137701706",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "46162667",
+              "id" : "161599158",
+              "properties" : {
+                  "role" : "Supervisor"
+              },
+              "startNode" : "110515288",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "46162667",
+              "id" : "161599161",
+              "properties" : {
+                  "role" : "Director"
+              },
+              "startNode" : "93242263",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "46162667",
+              "id" : "161599165",
+              "properties" : {
+                  "role" : "Director"
+              },
+              "startNode" : "97920367",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "46162667",
+              "id" : "161599164",
+              "properties" : {
+                  "role" : "Supervisor"
+              },
+              "startNode" : "114649571",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "44484097",
+              "id" : "179670440",
+              "properties" : {
+                  "role" : "Employee Supervisor"
+              },
+              "startNode" : "69296452",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "44484097",
+              "id" : "179670420",
+              "properties" : {
+                  "role" : "Director and Managing Director"
+              },
+              "startNode" : "151117034",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "44484097",
+              "id" : "1657659",
+              "properties" : {
+                  "role" : "State-owned enterprises",
+                  "shouldCapi" : 429.690300,
+                  "stockPercent" : 0.340000
+              },
+              "startNode" : "30648266",
+              "type" : "INVEST"
+          },
+          {
+              "endNode" : "30420552",
+              "id" : "173270391",
+              "properties" : {
+                  "role" : "Chairman of the Board of Directors"
+              },
+              "startNode" : "105713087",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "44484097",
+              "id" : "179670418",
+              "properties" : {
+                  "role" : "Chairman of the Board of Directors"
+              },
+              "startNode" : "130352752",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "44484097",
+              "id" : "1657649",
+              "properties" : {
+                  "role" : "Corporate legal entity",
+                  "shouldCapi" : 11925.383000,
+                  "stockPercent" : 9.370000
+              },
+              "startNode" : "57581013",
+              "type" : "INVEST"
+          },
+          {
+              "endNode" : "30420552",
+              "id" : "173270393",
+              "properties" : {
+                  "role" : "Director"
+              },
+              "startNode" : "93242263",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "44484097",
+              "id" : "179670426",
+              "properties" : {
+                  "role" : "Staff Director"
+              },
+              "startNode" : "133012980",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "43081155",
+              "id" : "260410549",
+              "properties" : {
+                  "role" : "Supervisor"
+              },
+              "startNode" : "113253804",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "44484097",
+              "id" : "1657647",
+              "properties" : {
+                  "role" : "Corporate legal entity",
+                  "shouldCapi" : 20263.223000,
+                  "stockPercent" : 15.920000
+              },
+              "startNode" : "23428715",
+              "type" : "INVEST"
+          },
+          {
+              "endNode" : "44484097",
+              "id" : "1657646",
+              "properties" : {
+                  "role" : "Corporate legal entity",
+                  "shouldCapi" : 52111.460000,
+                  "stockPercent" : 40.940000
+              },
+              "startNode" : "58917442",
+              "type" : "INVEST"
+          },
+          {
+              "endNode" : "43081155",
+              "id" : "260410557",
+              "properties" : {
+                  "role" : "Director and Managing Director"
+              },
+              "startNode" : "110515288",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "9894729",
+              "id" : "37574011",
+              "properties" : {
+                  "role" : "Natural person shareholders",
+                  "shouldCapi" : 90,
+                  "stockPercent" : 60
+              },
+              "startNode" : "142076283",
+              "type" : "INVEST"
+          },
+          {
+              "endNode" : "42226467",
+              "id" : "256226333",
+              "properties" : {
+                  "role" : "Executive Director"
+              },
+              "startNode" : "113253804",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "44484097",
+              "id" : "1657666",
+              "properties" : {
+                  "role" : "Corporate legal entity",
+                  "shouldCapi" : 177.660400,
+                  "stockPercent" : 0.140000
+              },
+              "startNode" : "16192923",
+              "type" : "INVEST"
+          },
+          {
+              "endNode" : "42226467",
+              "id" : "256226329",
+              "properties" : {
+                  "role" : "Manager"
+              },
+              "startNode" : "113253804",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "44484097",
+              "id" : "1657671",
+              "properties" : {
+                  "role" : "Corporate legal entity",
+                  "shouldCapi" : 46.465600,
+                  "stockPercent" : 0.040000
+              },
+              "startNode" : "46162667",
+              "type" : "INVEST"
+          },
+          {
+              "endNode" : "59597831",
+              "id" : "55356435",
+              "properties" : {
+                  "role" : "Natural person shareholders",
+                  "shouldCapi" : 750,
+                  "stockPercent" : 5
+              },
+              "startNode" : "64909995",
+              "type" : "INVEST"
+          },
+          {
+              "endNode" : "4012368",
+              "id" : "251573662",
+              "properties" : {
+                  "role" : "Manager"
+              },
+              "startNode" : "107220502",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "4012368",
+              "id" : "251573663",
+              "properties" : {
+                  "role" : "Executive Director"
+              },
+              "startNode" : "107220502",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "4012368",
+              "id" : "251573661",
+              "properties" : {
+                  "role" : "Supervisor"
+              },
+              "startNode" : "72442991",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "42226467",
+              "id" : "256226336",
+              "properties" : {
+                  "role" : "Supervisor"
+              },
+              "startNode" : "92456538",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "14634904",
+              "id" : "915304",
+              "properties" : {
+                  "role" : "Corporate legal entity",
+                  "shouldCapi" : 1000,
+                  "stockPercent" : 20
+              },
+              "startNode" : "59597831",
+              "type" : "INVEST"
+          },
+          {
+              "endNode" : "18474062",
+              "id" : "199282826",
+              "properties" : {
+                  "role" : "General Manager"
+              },
+              "startNode" : "105713087",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "14634904",
+              "id" : "915302",
+              "properties" : {
+                  "role" : "Corporate legal entity",
+                  "shouldCapi" : 2550,
+                  "stockPercent" : 51
+              },
+              "startNode" : "1644365",
+              "type" : "INVEST"
+          },
+          {
+              "endNode" : "18474062",
+              "id" : "199282828",
+              "properties" : {
+                  "role" : "Supervisor"
+              },
+              "startNode" : "92456538",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "18474062",
+              "id" : "199282830",
+              "properties" : {
+                  "role" : "Director"
+              },
+              "startNode" : "134660183",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "18474062",
+              "id" : "199282831",
+              "properties" : {
+                  "role" : "Director"
+              },
+              "startNode" : "105713087",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "18474062",
+              "id" : "199282832",
+              "properties" : {
+                  "role" : "Director"
+              },
+              "startNode" : "64909995",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "18474062",
+              "id" : "199282834",
+              "properties" : {
+                  "role" : "Chairman of the Board of Directors"
+              },
+              "startNode" : "93242263",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "18474062",
+              "id" : "199282837",
+              "properties" : {
+                  "role" : "Director"
+              },
+              "startNode" : "87600297",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "16192923",
+              "id" : "2279332",
+              "properties" : {
+                  "role" : "Corporate legal entity",
+                  "shouldCapi" : 6000,
+                  "stockPercent" : 100
+              },
+              "startNode" : "1644365",
+              "type" : "INVEST"
+          },
+          {
+              "endNode" : "18862200",
+              "id" : "6596585",
+              "properties" : {
+                  "role" : "Corporate legal entity",
+                  "shouldCapi" : 1000,
+                  "stockPercent" : 100
+              },
+              "startNode" : "46162667",
+              "type" : "INVEST"
+          },
+          {
+              "endNode" : "16192923",
+              "id" : "190519547",
+              "properties" : {
+                  "role" : "Supervisor"
+              },
+              "startNode" : "87600297",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "16192923",
+              "id" : "190519546",
+              "properties" : {
+                  "role" : "Director"
+              },
+              "startNode" : "142076283",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "16192923",
+              "id" : "190519545",
+              "properties" : {
+                  "role" : "General Manager"
+              },
+              "startNode" : "93242263",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "16192923",
+              "id" : "190519548",
+              "properties" : {
+                  "role" : "Chairman of the Board of Directors"
+              },
+              "startNode" : "93242263",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "3219383",
+              "id" : "124642499",
+              "properties" : {
+                  "role" : ""
+              },
+              "startNode" : "113253804",
+              "type" : "LEGAL"
+          },
+          {
+              "endNode" : "59597831",
+              "id" : "125389000",
+              "properties" : {
+                  "role" : ""
+              },
+              "startNode" : "64909995",
+              "type" : "LEGAL"
+          },
+          {
+              "endNode" : "36029553",
+              "id" : "13900647",
+              "properties" : {
+                  "role" : "Natural person shareholders",
+                  "shouldCapi" : 450,
+                  "stockPercent" : 15
+              },
+              "startNode" : "105713087",
+              "type" : "INVEST"
+          },
+          {
+              "endNode" : "18862200",
+              "id" : "146688894",
+              "properties" : {
+                  "role" : ""
+              },
+              "startNode" : "128092587",
+              "type" : "LEGAL"
+          },
+          {
+              "endNode" : "30420552",
+              "id" : "1291229",
+              "properties" : {
+                  "role" : "Corporate legal entity",
+                  "shouldCapi" : 30000,
+                  "stockPercent" : 100
+              },
+              "startNode" : "1644365",
+              "type" : "INVEST"
+          },
+          {
+              "endNode" : "34142761",
+              "id" : "246368607",
+              "properties" : {
+                  "role" : "Executive Director and Managing Director"
+              },
+              "startNode" : "113253804",
+              "type" : "EMPLOY"
+          },
+          {
+              "endNode" : "9894729",
+              "id" : "195684435",
+              "properties" : {
+                  "role" : "Executive Director"
+              },
+              "startNode" : "142076283",
+              "type" : "EMPLOY"
           }
       ]
   }

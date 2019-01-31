@@ -157,6 +157,7 @@ class CorporationMap extends Component {
       let theRelations = corporateMap.relationships.slice(0);
       let numLevels = 1;
       let finalNodes = [];
+      console.log(finalNodes)
       theRelations = theRelations.filter(
         item =>
           (item.type === "INVEST" ||
@@ -322,6 +323,7 @@ class CorporationMap extends Component {
         }
         return Number.parseInt(a.level) - Number.parseInt(b.level);
       });
+
       finalNodes = finalNodes.filter(
         (item, idx) => idx === 0 || item.id != finalNodes[idx - 1].id
       );
@@ -448,6 +450,7 @@ class CorporationMap extends Component {
             ? require("./images/businessGreen.svg")
             : require("./images/businessGrey.svg")
       }));
+
       return {
         nodes: graphNodes,
         edges: filteredRelations
