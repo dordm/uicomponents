@@ -54,26 +54,54 @@ function MoreDataCourtCases(props) {
                   <StyledListItemText
                     primary={
                       <Typography className={"fontStyle7"}>
-                        {item.title}
+                        {item.CASE_NAME ? item.CASE_NAME : item.title}
                       </Typography>
                     }
                   />
                 </StyledExpansionSummary>
                 <StyledExpansionPanelDetails>
-                  <div>
-                    <Typography className={"fontStyle7"}>
-                      {"\u2022"} Date: {item.date}
-                    </Typography>
-                    <Typography className={"fontStyle7"}>
-                      {"\u2022"} Case Number: {item.num}
-                    </Typography>
-                    <Typography className={"fontStyle7"}>
-                      {"\u2022"} Judicial Institution: {item.ch}
-                    </Typography>
-                    <Typography className={"fontStyle7"}>
-                      {"\u2022"} Case Content: {item.content}
-                    </Typography>
-                  </div>
+                  {item.CASE_NAME ? (
+                    <div>
+                      <Typography className={"fontStyle7"}>
+                        {"\u2022"} Date: {item.SUBMIT_DATE}
+                      </Typography>
+                      <Typography className={"fontStyle7"}>
+                        {"\u2022"} Case Number: {item.CASE_NO}
+                      </Typography>
+                      <Typography className={"fontStyle7"}>
+                        {"\u2022"} Judicial Institution: {item.COURT}
+                      </Typography>
+                      <Typography className={"fontStyle7"}>
+                        {"\u2022"} Case Type: {item.CASE_TYPE}
+                      </Typography>
+                      <Typography className={"fontStyle7"}>
+                        {"\u2022"} Is Prosecutor:{" "}
+                        {item.IS_PROSECUTOR ? "Yes" : "No"}
+                      </Typography>
+                      <Typography className={"fontStyle7"}>
+                        {"\u2022"} Is Defendant:{" "}
+                        {item.IS_DEFENDANT ? "Yes" : "No"}
+                      </Typography>
+                      <Typography className={"fontStyle7"}>
+                        {"\u2022"} Update Date: {item.UPDATE_DATE}
+                      </Typography>
+                    </div>
+                  ) : (
+                    <div>
+                      <Typography className={"fontStyle7"}>
+                        {"\u2022"} Date: {item.date}
+                      </Typography>
+                      <Typography className={"fontStyle7"}>
+                        {"\u2022"} Case Number: {item.num}
+                      </Typography>
+                      <Typography className={"fontStyle7"}>
+                        {"\u2022"} Judicial Institution: {item.ch}
+                      </Typography>
+                      <Typography className={"fontStyle7"}>
+                        {"\u2022"} Case Content: {item.content}
+                      </Typography>
+                    </div>
+                  )}
                 </StyledExpansionPanelDetails>
               </StyledExpansionPanel>
             </StyledListItem>
