@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import styled from "styled-components";
+import PropTypes from "prop-types";
 
 const NoDataImgBig = styled.img`
   width: 100%;
@@ -32,5 +33,10 @@ class NoDataImg extends Component {
     );
   }
 }
+
+NoDataImg.propTypes = {
+  smallBox: PropTypes.bool,
+  width: PropTypes.number
+};
 
 export default NoDataImg;

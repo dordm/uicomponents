@@ -120,7 +120,8 @@ function MoreDataCourtCases(props) {
 }
 
 MoreDataCourtCases.propTypes = {
-  classes: PropTypes.object.isRequired
+  classes: PropTypes.object.isRequired,
+  moreData: PropTypes.array.isRequired
 };
 
 export default withStyles(styles)(MoreDataCourtCases);

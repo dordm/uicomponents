@@ -119,7 +119,11 @@ class FirstTimeExpTooltip extends React.Component {
 }
 
 FirstTimeExpTooltip.propTypes = {
-  classes: PropTypes.object.isRequired
+  classes: PropTypes.object.isRequired,
+  open: PropTypes.bool.isRequired,
+  placement: PropTypes.string.isRequired,
+  text: PropTypes.element.isRequired,
+  element: PropTypes.element.isRequired
 };
 
 export default withStyles(styles)(FirstTimeExpTooltip);

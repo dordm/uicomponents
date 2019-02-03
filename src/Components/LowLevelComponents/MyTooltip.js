@@ -118,7 +118,10 @@ class MyTooltip extends React.Component {
 }
 
 MyTooltip.propTypes = {
-  classes: PropTypes.object.isRequired
+  classes: PropTypes.object.isRequired,
+  placement: PropTypes.string.isRequired,
+  text: PropTypes.node.isRequired,
+  element: PropTypes.element.isRequired
 };
 
 export default withStyles(styles)(MyTooltip);

@@ -85,7 +85,7 @@ class PublicFinancialRatio extends Component {
               </span>
             </ReactTooltip>
           </StyledTitle>
-          {this.props.date !== "" && this.props.data != null ? (
+          {this.props.date ? (
             <Typography className={classNames(classes.date, "fontStyle12")}>
               {this.props.date}
             </Typography>
@@ -191,7 +191,10 @@ class PublicFinancialRatio extends Component {
 }
 
 PublicFinancialRatio.propTypes = {
-  classes: PropTypes.object.isRequired
+  classes: PropTypes.object.isRequired,
+  width: PropTypes.number.isRequired,
+  data: PropTypes.object,
+  date: PropTypes.string
 };
 
 export default withStyles(styles)(PublicFinancialRatio);

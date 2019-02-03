@@ -292,7 +292,20 @@ class MyPieChart extends Component {
 }
 
 MyPieChart.propTypes = {
-  classes: PropTypes.object.isRequired
+  classes: PropTypes.object.isRequired,
+  width: PropTypes.number.isRequired,
+  data: PropTypes.array.isRequired,
+  height: PropTypes.string.isRequired,
+  name: PropTypes.string,
+  unit: PropTypes.string.isRequired,
+  dataKey: PropTypes.string.isRequired,
+  cx: PropTypes.number.isRequired,
+  cy: PropTypes.number.isRequired,
+  innerRadius: PropTypes.number.isRequired,
+  outerRadius: PropTypes.number.isRequired,
+  productsTooltip: PropTypes.bool,
+  period: PropTypes.string,
+  title: PropTypes.string.isRequired
 };
 
 export default withStyles(styles)(MyPieChart);

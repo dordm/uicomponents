@@ -84,7 +84,7 @@ class InfoCard extends Component {
             otherWidth={""}
           >
             <StyledDivTitle
-              style={{ width: this.props.date === "" ? "100%" : "" }}
+              style={{ width: this.props.date ? "" : "100%" }}
               width={this.props.width}
             >
               <Typography className={classNames("fontStyle1")}>
@@ -106,7 +106,7 @@ class InfoCard extends Component {
                 <span>{this.props.infoText}</span>
               </ReactTooltip>
             </StyledDivTitle>
-            {this.props.date !== "" ? (
+            {this.props.date ? (
               <Typography className={classNames(classes.date, "fontStyle12")}>
                 {this.props.date}
               </Typography>
@@ -182,7 +182,14 @@ class InfoCard extends Component {
 }
 
 InfoCard.propTypes = {
-  classes: PropTypes.object.isRequired
+  classes: PropTypes.object.isRequired,
+  width: PropTypes.number.isRequired,
+  name: PropTypes.string.isRequired,
+  infoText: PropTypes.string.isRequired,
+  date: PropTypes.string,
+  content: PropTypes.string.isRequired,
+  bottomIcon: PropTypes.string,
+  bottomMsg: PropTypes.string.isRequired
 };
 
 export default withStyles(styles)(InfoCard);

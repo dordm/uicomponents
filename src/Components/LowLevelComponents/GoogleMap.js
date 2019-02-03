@@ -6,6 +6,7 @@ import {
   GoogleMap,
   Marker
 } from "react-google-maps";
+import PropTypes from "prop-types";
 
 class MapComponent extends Component {
   constructor(props) {
@@ -42,6 +43,11 @@ class MapComponent extends Component {
     );
   }
 }
+
+MapComponent.propTypes = {
+  address: PropTypes.string.isRequired,
+  isMarkerShown: PropTypes.bool.isRequired
+};
 
 export default compose(
   withProps({

@@ -150,7 +150,7 @@ class CorporationMap extends Component {
     this.props.addSupplier(englishName, chineseName);
   }
 
-  deepClone(item){
+  deepClone(item) {
     return JSON.parse(JSON.stringify(item));
   }
 
@@ -181,16 +181,18 @@ class CorporationMap extends Component {
               branches.branches[i].name.lastIndexOf("(")
             );
             chineseName = chineseName.substr(1, chineseName.length - 2);
-            finalNodes.push(this.deepClone({
-              id: i,
-              labels: ["Company"],
-              properties: {
-                englishName: englishName,
-                name: chineseName
-              },
-              group: "supplierBranches",
-              level: 2
-            }));
+            finalNodes.push(
+              this.deepClone({
+                id: i,
+                labels: ["Company"],
+                properties: {
+                  englishName: englishName,
+                  name: chineseName
+                },
+                group: "supplierBranches",
+                level: 2
+              })
+            );
             theRelations.push({
               startNode: supplier.id,
               endNode: i,
@@ -212,16 +214,18 @@ class CorporationMap extends Component {
               subsidiaries[i].name.lastIndexOf("(")
             );
             chineseName = chineseName.substr(1, chineseName.length - 2);
-            finalNodes.push(this.deepClone({
-              id: i + 100,
-              labels: ["Company"],
-              properties: {
-                englishName: englishName,
-                name: chineseName
-              },
-              group: "supplierBranches",
-              level: 2
-            }));
+            finalNodes.push(
+              this.deepClone({
+                id: i + 100,
+                labels: ["Company"],
+                properties: {
+                  englishName: englishName,
+                  name: chineseName
+                },
+                group: "supplierBranches",
+                level: 2
+              })
+            );
             theRelations.push({
               startNode: supplier.id,
               endNode: i + 100,
@@ -307,14 +311,16 @@ class CorporationMap extends Component {
               finalNodes.push(this.deepClone(associateComp));
               if (numLevels < 4) numLevels = 4;
             }
-            finalNodes.push(this.deepClone({
-              id: itemToAdd.id,
-              labels: itemToAdd.labels,
-              properties: itemToAdd.properties,
-              associate: associates,
-              level: 3,
-              group: "third level"
-            }));
+            finalNodes.push(
+              this.deepClone({
+                id: itemToAdd.id,
+                labels: itemToAdd.labels,
+                properties: itemToAdd.properties,
+                associate: associates,
+                level: 3,
+                group: "third level"
+              })
+            );
             if (numLevels < 3) numLevels = 3;
           }
       }
@@ -765,7 +771,13 @@ class CorporationMap extends Component {
 }
 
 CorporationMap.propTypes = {
-  classes: PropTypes.object.isRequired
+  classes: PropTypes.object.isRequired,
+  width: PropTypes.number.isRequired,
+  corporateMap: PropTypes.object,
+  addSupplier: PropTypes.func.isRequired,
+  supplier: PropTypes.object.isRequired,
+  branches: PropTypes.object,
+  subsidiaries: PropTypes.object
 };
 
 export default withStyles(styles)(CorporationMap);

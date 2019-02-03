@@ -20,10 +20,10 @@ const StyledDivTitle = styled.div`
   display: flex;
   width: ${props =>
     props.width > 600
-      ? props.date !== ""
+      ? props.date
         ? "60%"
         : "75%"
-      : props.date !== ""
+      : props.date
       ? "65%"
       : "80%"};
 `;
@@ -140,7 +140,7 @@ class TwoInfoCard extends Component {
             ) : (
               ""
             )}
-            {this.props.date !== "" ? (
+            {this.props.date ? (
               <Typography className={classNames(classes.date, "fontStyle12")}>
                 {this.props.date}
               </Typography>
@@ -281,7 +281,20 @@ class TwoInfoCard extends Component {
 }
 
 TwoInfoCard.propTypes = {
-  classes: PropTypes.object.isRequired
+  classes: PropTypes.object.isRequired,
+  width: PropTypes.number.isRequired,
+  name: PropTypes.string.isRequired,
+  date: PropTypes.string,
+  infoText: PropTypes.string.isRequired,
+  content1: PropTypes.string,
+  content1Lbl: PropTypes.string.isRequired,
+  content2: PropTypes.string,
+  content2Lbl: PropTypes.string.isRequired,
+  bottomIcon: PropTypes.string,
+  bottomMsg: PropTypes.string.isRequired,
+  moreBtn: PropTypes.bool,
+  moreTitle: PropTypes.string,
+  moreData: PropTypes.array
 };
 
 export default withStyles(styles)(TwoInfoCard);

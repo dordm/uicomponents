@@ -173,7 +173,9 @@ class RegistrationDetails extends Component {
 }
 
 RegistrationDetails.propTypes = {
-  classes: PropTypes.object.isRequired
+  classes: PropTypes.object.isRequired,
+  report: PropTypes.object.isRequired,
+  width: PropTypes.number.isRequired
 };
 
 export default withStyles(styles)(RegistrationDetails);

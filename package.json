@@ -1,6 +1,6 @@
 {
   "name": "@tiidan/uicomponents",
-  "version": "0.3.15",
+  "version": "0.3.16",
   "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
   "main": "dist/index.js",
   "scripts": {
@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "d3-force": "^2.0.0",
+    "prop-types": "^15.6.2",
     "react-google-maps": "^9.4.5",
     "react-graph-vis": "^1.0.2",
     "react-number-format": "^3.6.2",

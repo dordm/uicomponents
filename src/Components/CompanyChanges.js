@@ -26,7 +26,7 @@ import {
 import Utils from "./js/Utils";
 import NoDataImg from "./LowLevelComponents/NoDataImg";
 import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
-import ChangeIcon from '@material-ui/icons/Cached'
+import ChangeIcon from "@material-ui/icons/Cached";
 
 const styles = {
   expansionSummaryInner: {
@@ -134,11 +134,14 @@ class CompanyChanges extends Component {
                     return (
                       <ListItem key={idx}>
                         <ListItemIcon className={classes.icon}>
-                          <ChangeIcon  style={{color:'#4c84ff'}} className={classes.imgChange}/>
+                          <ChangeIcon
+                            style={{ color: "#4c84ff" }}
+                            className={classes.imgChange}
+                          />
                           {/*<img*/}
-                            {/*className={classes.imgChange}*/}
-                            {/*alt="change"*/}
-                            {/*src={require("./images/change.svg")}*/}
+                          {/*className={classes.imgChange}*/}
+                          {/*alt="change"*/}
+                          {/*src={require("./images/change.svg")}*/}
                           {/*/>*/}
                         </ListItemIcon>
                         <ListItemText
@@ -217,7 +220,10 @@ class CompanyChanges extends Component {
           >
             <img alt="Close" src={require("./images/Close.png")} />
           </StyledCloseIcon>
-          <DialogTitle className={"fontStyle3"} style={{ textAlign: "center", marginTop:24 }}>
+          <DialogTitle
+            className={"fontStyle3"}
+            style={{ textAlign: "center", marginTop: 24 }}
+          >
             All Changes
           </DialogTitle>
           <StyledDialogContent>
@@ -242,12 +248,19 @@ class CompanyChanges extends Component {
                             expandIcon={<ExpandMoreIcon />}
                           >
                             <ListItemIcon>
-                                <ChangeIcon style={{height:20, width:20, marginTop:2, color:'#4c84ff'}}/>
+                              <ChangeIcon
+                                style={{
+                                  height: 20,
+                                  width: 20,
+                                  marginTop: 2,
+                                  color: "#4c84ff"
+                                }}
+                              />
                               {/*<img*/}
-                                {/*height={20}*/}
-                                {/*width={20}*/}
-                                {/*alt={"change"}*/}
-                                {/*src={require("./images/change.svg")}*/}
+                              {/*height={20}*/}
+                              {/*width={20}*/}
+                              {/*alt={"change"}*/}
+                              {/*src={require("./images/change.svg")}*/}
                               {/*/>*/}
                             </ListItemIcon>
                             <StyledListItemText
@@ -286,7 +299,9 @@ class CompanyChanges extends Component {
 }
 
 CompanyChanges.propTypes = {
-  classes: PropTypes.object.isRequired
+  classes: PropTypes.object.isRequired,
+  report: PropTypes.object.isRequired,
+  width: PropTypes.number.isRequired
 };
 
 export default withStyles(styles)(CompanyChanges);

@@ -235,7 +235,9 @@ class WebsiteDetails extends Component {
 }
 
 WebsiteDetails.propTypes = {
-  classes: PropTypes.object.isRequired
+  classes: PropTypes.object.isRequired,
+  width: PropTypes.number.isRequired,
+  websiteWhoIs: PropTypes.object
 };
 
 export default withStyles(styles)(WebsiteDetails);

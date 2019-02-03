@@ -1,6 +1,7 @@
 import React from "react";
 import Avatar from "@material-ui/core/Avatar";
 import styled from "styled-components";
+import PropTypes from "prop-types";
 
 const StyledScoreAvatar = styled(Avatar)`
   margin-left: ${props => (props.mobile ? "" : "5px")} !important;
@@ -80,6 +81,11 @@ const ScoreAvatar = function(props) {
         {props.score.toFixed(1)}
       </StyledScoreAvatar>
     );
+};
+
+ScoreAvatar.propTypes = {
+  score: PropTypes.number,
+  width: PropTypes.number.isRequired
 };
 
 export default ScoreAvatar;

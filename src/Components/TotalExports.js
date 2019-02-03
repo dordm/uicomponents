@@ -75,16 +75,15 @@ class TotalExports extends Component {
     if (data.length < 2) {
       for (let i = 0; i < supplier.length; i++) {
         try {
-            data.push({
-                name:
-                "Q" +
-                supplier[i].month +
-                "-Y" +
-                supplier[i].year.toString().substr(2),
-                supplier: supplier[i].value_of_goods
-            });
-        }
-        catch (e) {}
+          data.push({
+            name:
+              "Q" +
+              supplier[i].month +
+              "-Y" +
+              supplier[i].year.toString().substr(2),
+            supplier: supplier[i].value_of_goods
+          });
+        } catch (e) {}
       }
     }
     return data;
@@ -165,7 +164,10 @@ class TotalExports extends Component {
 }
 
 TotalExports.propTypes = {
-  classes: PropTypes.object.isRequired
+  classes: PropTypes.object.isRequired,
+  report: PropTypes.object.isRequired,
+  width: PropTypes.number.isRequired,
+  type: PropTypes.string
 };
 
 export default withStyles(styles)(TotalExports);

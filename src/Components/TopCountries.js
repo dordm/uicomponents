@@ -293,7 +293,10 @@ class TopCountries extends Component {
           >
             <img alt="Close" src={require("./images/Close.png")} />
           </StyledCloseIcon>
-          <DialogTitle className={"fontStyle3"} style={{ textAlign: "center", marginTop:24 }}>
+          <DialogTitle
+            className={"fontStyle3"}
+            style={{ textAlign: "center", marginTop: 24 }}
+          >
             All Countries
           </DialogTitle>
           <StyledDialogContent>
@@ -339,7 +342,10 @@ class TopCountries extends Component {
 }
 
 TopCountries.propTypes = {
-  classes: PropTypes.object.isRequired
+  classes: PropTypes.object.isRequired,
+  report: PropTypes.object.isRequired,
+  width: PropTypes.number.isRequired,
+  type: PropTypes.string
 };
 
 export default withStyles(styles)(TopCountries);

@@ -54,7 +54,6 @@ const styles = {
 };
 
 class PublicFinancial extends Component {
-
   render() {
     const { classes } = this.props;
     return (
@@ -83,7 +82,7 @@ class PublicFinancial extends Component {
               </span>
             </ReactTooltip>
           </StyledTitle>
-          {this.props.date !== "" && this.props.data != null ? (
+          {this.props.date ? (
             <Typography className={classNames(classes.date, "fontStyle12")}>
               {this.props.date}
             </Typography>
@@ -215,7 +214,10 @@ class PublicFinancial extends Component {
 }
 
 PublicFinancial.propTypes = {
-  classes: PropTypes.object.isRequired
+  classes: PropTypes.object.isRequired,
+  width: PropTypes.number.isRequired,
+  data: PropTypes.object,
+  date: PropTypes.string
 };
 
 export default withStyles(styles)(PublicFinancial);

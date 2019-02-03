@@ -10,10 +10,11 @@ import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
 import { withStyles } from "@material-ui/core/styles/index";
 import PropTypes from "prop-types";
 import {
-    StyledExpansionPanel,
-    StyledListItem,
-    StyledExpansionSummary,
-    StyledExpansionPanelDetails} from './LowLevelComponents/StyledComponents'
+  StyledExpansionPanel,
+  StyledListItem,
+  StyledExpansionSummary,
+  StyledExpansionPanelDetails
+} from "./LowLevelComponents/StyledComponents";
 
 const StyledAvatar = styled(Avatar)`
   height: 46px !important;
@@ -145,7 +146,8 @@ function MoreDataTrademarks(props) {
 }
 
 MoreDataTrademarks.propTypes = {
-  classes: PropTypes.object.isRequired
+  classes: PropTypes.object.isRequired,
+  moreData: PropTypes.array.isRequired
 };
 
 export default withStyles(styles)(MoreDataTrademarks);

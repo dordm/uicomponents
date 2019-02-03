@@ -377,7 +377,11 @@ class ShareholdersExpansion extends Component {
 }
 
 ShareholdersExpansion.propTypes = {
-  classes: PropTypes.object.isRequired
+  classes: PropTypes.object.isRequired,
+  chineseName: PropTypes.string.isRequired,
+  addSupplier: PropTypes.func,
+  corporateMap: PropTypes.object.isRequired,
+  width: PropTypes.number.isRequired
 };
 
 export default withStyles(styles)(ShareholdersExpansion);

@@ -82,13 +82,16 @@ class PieChartWrapper extends Component {
           Corporate Map
         </DialogTitle>
         <StyledDialogContent>
-            { this.props.corporateMap ?
-          <ShareholdersExpansion
-            chineseName={this.props.chineseName}
-            addSupplier={this.props.addSupplier}
-            corporateMap={this.props.corporateMap}
-            width={this.props.width}
-          /> : '' }
+          {this.props.corporateMap ? (
+            <ShareholdersExpansion
+              chineseName={this.props.chineseName}
+              addSupplier={this.props.addSupplier}
+              corporateMap={this.props.corporateMap}
+              width={this.props.width}
+            />
+          ) : (
+            ""
+          )}
         </StyledDialogContent>
       </Dialog>
     );
@@ -126,8 +129,10 @@ class PieChartWrapper extends Component {
             <span>{this.props.infoText}</span>
           </ReactTooltip>
         </StyledTitle>
-        {this.props.title === "Shareholders" && this.props.corporateMap && this.props.corporateMap.nodes.find(
-            item => item.properties.name === this.props.chineseName
+        {this.props.title === "Shareholders" &&
+        this.props.corporateMap &&
+        this.props.corporateMap.nodes.find(
+          item => item.properties.name === this.props.chineseName
         ) ? (
           <div
             data-cy="viewAllShareholders"
@@ -200,7 +205,17 @@ class PieChartWrapper extends Component {
 }
 
 PieChartWrapper.propTypes = {
-  classes: PropTypes.object.isRequired
+  classes: PropTypes.object.isRequired,
+  width: PropTypes.number.isRequired,
+  infoText: PropTypes.string.isRequired,
+  title: PropTypes.string.isRequired,
+  data: PropTypes.array.isRequired,
+  bottomIcon: PropTypes.number,
+  bottomMsg: PropTypes.string.isRequired,
+  dataKey: PropTypes.string.isRequired,
+  addSupplier: PropTypes.func,
+  corporateMap: PropTypes.object,
+  chineseName: PropTypes.string
 };
 
 export default withStyles(styles)(PieChartWrapper);

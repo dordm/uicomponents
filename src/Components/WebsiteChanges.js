@@ -147,7 +147,11 @@ class WebsiteChanges extends Component {
 }
 
 WebsiteChanges.propTypes = {
-  classes: PropTypes.object.isRequired
+  classes: PropTypes.object.isRequired,
+  width: PropTypes.number.isRequired,
+  websiteChanges: PropTypes.array,
+  bottomMsg: PropTypes.string,
+  bottomIcon: PropTypes.string
 };
 
 export default withStyles(styles)(WebsiteChanges);

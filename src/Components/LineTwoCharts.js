@@ -9,6 +9,7 @@ import {
   Legend,
   ResponsiveContainer
 } from "recharts";
+import PropTypes from "prop-types";
 
 class LineTwoCharts extends Component {
   constructor(props) {
@@ -107,5 +108,17 @@ class LineTwoCharts extends Component {
     );
   }
 }
+
+LineTwoCharts.propTypes = {
+  height: PropTypes.string.isRequired,
+  data: PropTypes.array.isRequired,
+  keyX: PropTypes.string.isRequired,
+  dataKey1: PropTypes.string.isRequired,
+  dataKey2: PropTypes.string.isRequired,
+  legend: PropTypes.bool.isRequired,
+  unit: PropTypes.bool.isRequired,
+  tooltipUnit: PropTypes.string.isRequired,
+  width: PropTypes.number.isRequired
+};
 
 export default LineTwoCharts;

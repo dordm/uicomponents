@@ -172,7 +172,10 @@ class TopProducts extends Component {
 }
 
 TopProducts.propTypes = {
-  classes: PropTypes.object.isRequired
+  classes: PropTypes.object.isRequired,
+  report: PropTypes.object.isRequired,
+  width: PropTypes.number.isRequired,
+  type: PropTypes.string
 };
 
 export default withStyles(styles)(TopProducts);

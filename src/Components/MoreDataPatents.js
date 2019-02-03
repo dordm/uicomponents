@@ -132,7 +132,8 @@ function MoreDataPatents(props) {
 }
 
 MoreDataPatents.propTypes = {
-  classes: PropTypes.object.isRequired
+  classes: PropTypes.object.isRequired,
+  moreData: PropTypes.array.isRequired
 };
 
 export default withStyles(styles)(MoreDataPatents);

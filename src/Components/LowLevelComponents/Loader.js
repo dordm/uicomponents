@@ -6,6 +6,7 @@ import styled from "styled-components";
 import Utils from "../js/Utils";
 import Button from "@material-ui/core/Button";
 import { MyButton } from "./StyledComponents";
+import PropTypes from "prop-types";
 
 const StyledDivDialog = styled.div`
   display: flex;
@@ -143,5 +144,10 @@ class Loader extends Component {
     );
   }
 }
+
+Loader.propTypes = {
+  size: PropTypes.number.isRequired,
+  open: PropTypes.bool.isRequired
+};
 
 export default Loader;

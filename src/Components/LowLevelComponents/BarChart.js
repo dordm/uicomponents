@@ -9,6 +9,7 @@ import {
   XAxis,
   YAxis
 } from "recharts";
+import PropTypes from "prop-types";
 
 class MyBarChart extends Component {
   constructor(props) {
@@ -29,10 +30,7 @@ class MyBarChart extends Component {
   render() {
     return (
       <ResponsiveContainer height={this.props.height}>
-        <BarChart
-          data={this.state.data}
-          margin={{ right: 30, bottom: 5 }}
-        >
+        <BarChart data={this.state.data} margin={{ right: 30, bottom: 5 }}>
           <CartesianGrid strokeDasharray="3 3" />
           <XAxis dataKey={this.props.dataKey} />
           <YAxis />
@@ -57,5 +55,13 @@ class MyBarChart extends Component {
     );
   }
 }
+
+MyBarChart.propTypes = {
+  height: PropTypes.string.isRequired,
+  width: PropTypes.number.isRequired,
+  dataKeyBar: PropTypes.string.isRequired,
+  dataKey: PropTypes.string.isRequired,
+  data: PropTypes.array.isRequired
+};
 
 export default MyBarChart;

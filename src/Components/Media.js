@@ -165,7 +165,10 @@ class Media extends Component {
           >
             <img alt="Close" src={require("./images/Close.png")} />
           </StyledCloseIcon>
-          <DialogTitle className={"fontStyle3"} style={{ textAlign: "center", marginTop:24 }}>
+          <DialogTitle
+            className={"fontStyle3"}
+            style={{ textAlign: "center", marginTop: 24 }}
+          >
             All Media
           </DialogTitle>
           <StyledDialogContent>
@@ -211,7 +214,9 @@ class Media extends Component {
 }
 
 Media.propTypes = {
-  classes: PropTypes.object.isRequired
+  classes: PropTypes.object.isRequired,
+  report: PropTypes.object.isRequired,
+  width: PropTypes.number.isRequired
 };
 
 export default withStyles(styles)(Media);

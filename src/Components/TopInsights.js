@@ -188,7 +188,10 @@ class TopInsights extends Component {
           >
             <img alt="Close" src={require("./images/Close.png")} />
           </StyledCloseIcon>
-          <DialogTitle className={"fontStyle3"} style={{ textAlign: "center", marginTop:24 }}>
+          <DialogTitle
+            className={"fontStyle3"}
+            style={{ textAlign: "center", marginTop: 24 }}
+          >
             All Insights
           </DialogTitle>
           <StyledDialogContent>
@@ -224,7 +227,10 @@ class TopInsights extends Component {
 }
 
 TopInsights.propTypes = {
-  classes: PropTypes.object.isRequired
+  classes: PropTypes.object.isRequired,
+  category: PropTypes.string.isRequired,
+  width: PropTypes.number.isRequired,
+  data: PropTypes.array.isRequired
 };
 
 export default withStyles(styles)(TopInsights);

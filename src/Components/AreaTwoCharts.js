@@ -9,6 +9,7 @@ import {
   Legend,
   ResponsiveContainer
 } from "recharts";
+import PropTypes from "prop-types";
 
 class AreaTwoCharts extends Component {
   constructor(props) {
@@ -101,5 +102,15 @@ class AreaTwoCharts extends Component {
     );
   }
 }
+
+AreaTwoCharts.propTypes = {
+  height: PropTypes.number.isRequired,
+  width: PropTypes.number.isRequired,
+  data: PropTypes.array.isRequired,
+  keyX: PropTypes.string.isRequired,
+  dataKey1: PropTypes.string.isRequired,
+  dataKey2: PropTypes.string.isRequired,
+  legend: PropTypes.bool.isRequired
+};
 
 export default AreaTwoCharts;

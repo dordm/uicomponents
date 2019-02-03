@@ -299,7 +299,9 @@ class CompanyScore extends Component {
 }
 
 CompanyScore.propTypes = {
-  classes: PropTypes.object.isRequired
+  classes: PropTypes.object.isRequired,
+  report: PropTypes.object.isRequired,
+  width: PropTypes.number.isRequired
 };
 
 export default withStyles(styles)(CompanyScore);

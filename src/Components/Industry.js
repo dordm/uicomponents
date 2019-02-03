@@ -129,36 +129,37 @@ class Industry extends Component {
           }}
           className={classes.divIndustries}
         >
-          {this.state.report.industry && this.state.report.industry
-            .split(/,|;|\./)
-            .filter(function(item) {
-              return item.replace(/\s/g, "") !== "";
-            })
-            .map(industry => {
-              return (
-                <div
-                  className={classNames(classes.item, "industry")}
-                  key={industry}
-                >
-                  <div data-tip data-for={industry}>
-                    <label
-                      className={classNames(classes.itemText, "fontStyle7")}
-                    >
-                      {industry.replace("includes", "")}
-                    </label>
-                  </div>
-                  <ReactTooltip
-                    className={classNames("tooltip", "fontStyle14")}
-                    id={industry}
-                    place="bottom"
-                    type="info"
-                    effect="solid"
+          {this.state.report.industry &&
+            this.state.report.industry
+              .split(/,|;|\./)
+              .filter(function(item) {
+                return item.replace(/\s/g, "") !== "";
+              })
+              .map(industry => {
+                return (
+                  <div
+                    className={classNames(classes.item, "industry")}
+                    key={industry}
                   >
-                    <span>{industry.replace("includes", "")}</span>
-                  </ReactTooltip>
-                </div>
-              );
-            })}
+                    <div data-tip data-for={industry}>
+                      <label
+                        className={classNames(classes.itemText, "fontStyle7")}
+                      >
+                        {industry.replace("includes", "")}
+                      </label>
+                    </div>
+                    <ReactTooltip
+                      className={classNames("tooltip", "fontStyle14")}
+                      id={industry}
+                      place="bottom"
+                      type="info"
+                      effect="solid"
+                    >
+                      <span>{industry.replace("includes", "")}</span>
+                    </ReactTooltip>
+                  </div>
+                );
+              })}
         </div>
         <Dialog
           PaperProps={{
@@ -175,34 +176,38 @@ class Industry extends Component {
           >
             <img alt="Close" src={require("./images/Close.png")} />
           </StyledCloseIcon>
-          <DialogTitle className={"fontStyle3"} style={{ textAlign: "center", marginTop:24 }}>
+          <DialogTitle
+            className={"fontStyle3"}
+            style={{ textAlign: "center", marginTop: 24 }}
+          >
             All Industries
           </DialogTitle>
           <StyledDialogContent>
             <List>
-              {this.state.report.industry && this.state.report.industry
-                .split(/,|;|\./)
-                .filter(function(item) {
-                  return item.replace(/\s/g, "") !== "";
-                })
-                .map(industry => {
-                  return (
-                    <div key={industry}>
-                      <ListItem>
-                        <Typography
-                          className={classNames(
-                            classes.typoAllIndustries,
-                            "fontStyle5"
-                          )}
-                        >
-                          {industry.replace("includes", "")}
-                          {"\n"}
-                        </Typography>
-                      </ListItem>
-                      <Divider />
-                    </div>
-                  );
-                })}
+              {this.state.report.industry &&
+                this.state.report.industry
+                  .split(/,|;|\./)
+                  .filter(function(item) {
+                    return item.replace(/\s/g, "") !== "";
+                  })
+                  .map(industry => {
+                    return (
+                      <div key={industry}>
+                        <ListItem>
+                          <Typography
+                            className={classNames(
+                              classes.typoAllIndustries,
+                              "fontStyle5"
+                            )}
+                          >
+                            {industry.replace("includes", "")}
+                            {"\n"}
+                          </Typography>
+                        </ListItem>
+                        <Divider />
+                      </div>
+                    );
+                  })}
             </List>
           </StyledDialogContent>
         </Dialog>
@@ -212,7 +217,9 @@ class Industry extends Component {
 }
 
 Industry.propTypes = {
-  classes: PropTypes.object.isRequired
+  classes: PropTypes.object.isRequired,
+  report: PropTypes.object.isRequired,
+  width: PropTypes.number.isRequired
 };
 
 export default withStyles(styles)(Industry);
