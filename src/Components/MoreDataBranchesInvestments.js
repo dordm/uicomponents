@@ -145,7 +145,7 @@ class MoreDataBranchesInvestments extends Component {
 
 MoreDataBranchesInvestments.propTypes = {
   classes: PropTypes.object.isRequired,
-  addSupplier: PropTypes.func.isRequired,
+  addSupplier: PropTypes.func,
   moreData: PropTypes.array,
   moreData2: PropTypes.array,
   moreSubTitle: PropTypes.string.isRequired,

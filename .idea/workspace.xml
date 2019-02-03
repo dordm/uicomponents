@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="deedca82-8ad4-4e62-ac9a-df5681d3be65" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/Components/InfoCard.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/InfoCard.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/CorporationMap.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/CorporationMap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/MoreDataBranchesInvestments.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/MoreDataBranchesInvestments.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/PieChartWrapper.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/PieChartWrapper.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -64,8 +66,8 @@
       <file leaf-file-name="CorporationMap.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Components/CorporationMap.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="644">
-              <caret line="779" column="29" selection-start-line="779" selection-start-column="29" selection-end-line="779" selection-end-column="29" />
+            <state relative-caret-position="593">
+              <caret line="776" column="29" selection-start-line="776" selection-start-column="29" selection-end-line="776" selection-end-column="29" />
               <folding>
                 <element signature="e#0#36#0" expanded="true" />
               </folding>
@@ -73,11 +75,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TotalExports.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Components/TotalExports.js">
+      <file leaf-file-name="MoreDataBranchesInvestments.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Components/MoreDataBranchesInvestments.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="754">
-              <caret line="169" column="24" selection-end-line="173" />
+            <state relative-caret-position="482">
+              <caret line="147" column="29" selection-start-line="147" selection-start-column="29" selection-end-line="147" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Utils.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Components/js/Utils.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="36" column="9" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -94,17 +105,8 @@
       <file leaf-file-name="PieChartWrapper.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Components/PieChartWrapper.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="474">
-              <caret line="213" column="29" selection-start-line="213" selection-start-column="29" selection-end-line="213" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WebsiteChanges.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Components/WebsiteChanges.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="461">
-              <caret line="137" column="74" lean-forward="true" selection-start-line="137" selection-start-column="74" selection-end-line="137" selection-end-column="74" />
+            <state relative-caret-position="457">
+              <caret line="212" column="27" selection-start-line="212" selection-start-column="27" selection-end-line="212" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -198,7 +200,6 @@
         <option value="$PROJECT_DIR$/src/Components/LineChart.js" />
         <option value="$PROJECT_DIR$/src/Components/LineTwoCharts.js" />
         <option value="$PROJECT_DIR$/src/Components/Media.js" />
-        <option value="$PROJECT_DIR$/src/Components/MoreDataBranchesInvestments.js" />
         <option value="$PROJECT_DIR$/src/Components/MoreDataCourtCases.js" />
         <option value="$PROJECT_DIR$/src/Components/MoreDataDishonest.js" />
         <option value="$PROJECT_DIR$/src/Components/MoreDataEmployees.js" />
@@ -219,9 +220,10 @@
         <option value="$PROJECT_DIR$/src/Components/WebsiteDetails.js" />
         <option value="$PROJECT_DIR$/src/Components/Industry.js" />
         <option value="$PROJECT_DIR$/src/Components/TwoInfoCard.js" />
+        <option value="$PROJECT_DIR$/src/Components/InfoCard.js" />
         <option value="$PROJECT_DIR$/src/Components/PieChartWrapper.js" />
         <option value="$PROJECT_DIR$/src/Components/CorporationMap.js" />
-        <option value="$PROJECT_DIR$/src/Components/InfoCard.js" />
+        <option value="$PROJECT_DIR$/src/Components/MoreDataBranchesInvestments.js" />
         <option value="$PROJECT_DIR$/package.json" />
       </list>
     </option>
@@ -471,12 +473,12 @@
       <workItem from="1548847525644" duration="7221000" />
       <workItem from="1548927113403" duration="4372000" />
       <workItem from="1548933018253" duration="6251000" />
-      <workItem from="1549182574668" duration="8347000" />
+      <workItem from="1549182574668" duration="9003000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="404608000" />
+    <option name="totallyTimeSpent" value="405264000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
@@ -730,13 +732,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/js/Utils.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="36" column="9" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/LineTwoCharts.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="474">
@@ -754,13 +749,6 @@
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/MoreDataBranchesInvestments.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="652">
-          <caret line="148" column="28" lean-forward="true" selection-start-line="148" selection-start-column="28" selection-end-line="148" selection-end-column="28" />
         </state>
       </provider>
     </entry>
@@ -956,23 +944,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/PieChartWrapper.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="474">
-          <caret line="213" column="29" selection-start-line="213" selection-start-column="29" selection-end-line="213" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/CorporationMap.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="644">
-          <caret line="779" column="29" selection-start-line="779" selection-start-column="29" selection-end-line="779" selection-end-column="29" />
-          <folding>
-            <element signature="e#0#36#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/TwoInfoCard.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="571">
@@ -987,6 +958,37 @@
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/js/Utils.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="36" column="9" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/PieChartWrapper.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="457">
+          <caret line="212" column="27" selection-start-line="212" selection-start-column="27" selection-end-line="212" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/CorporationMap.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="593">
+          <caret line="776" column="29" selection-start-line="776" selection-start-column="29" selection-end-line="776" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#36#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/MoreDataBranchesInvestments.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="482">
+          <caret line="147" column="29" selection-start-line="147" selection-start-column="29" selection-end-line="147" selection-end-column="29" />
         </state>
       </provider>
     </entry>

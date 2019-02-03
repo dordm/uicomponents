@@ -210,7 +210,7 @@ PieChartWrapper.propTypes = {
   infoText: PropTypes.string.isRequired,
   title: PropTypes.string.isRequired,
   data: PropTypes.array.isRequired,
-  bottomIcon: PropTypes.number,
+  bottomIcon: PropTypes.any,
   bottomMsg: PropTypes.string,
   dataKey: PropTypes.string.isRequired,
   addSupplier: PropTypes.func,

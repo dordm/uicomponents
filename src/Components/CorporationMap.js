@@ -774,7 +774,7 @@ CorporationMap.propTypes = {
   classes: PropTypes.object.isRequired,
   width: PropTypes.number.isRequired,
   corporateMap: PropTypes.object,
-  addSupplier: PropTypes.func.isRequired,
+  addSupplier: PropTypes.func,
   supplier: PropTypes.object.isRequired,
   branches: PropTypes.any,
   subsidiaries: PropTypes.any
