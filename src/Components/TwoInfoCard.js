@@ -286,15 +286,15 @@ TwoInfoCard.propTypes = {
   name: PropTypes.string.isRequired,
   date: PropTypes.string,
   infoText: PropTypes.string.isRequired,
-  content1: PropTypes.string,
+  content1: PropTypes.any,
   content1Lbl: PropTypes.string.isRequired,
-  content2: PropTypes.string,
+  content2: PropTypes.any,
   content2Lbl: PropTypes.string.isRequired,
   bottomIcon: PropTypes.string,
-  bottomMsg: PropTypes.string.isRequired,
+  bottomMsg: PropTypes.string,
   moreBtn: PropTypes.bool,
   moreTitle: PropTypes.string,
-  moreData: PropTypes.array
+  moreData: PropTypes.any
 };
 
 export default withStyles(styles)(TwoInfoCard);

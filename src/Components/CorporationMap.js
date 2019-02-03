@@ -776,8 +776,8 @@ CorporationMap.propTypes = {
   corporateMap: PropTypes.object,
   addSupplier: PropTypes.func.isRequired,
   supplier: PropTypes.object.isRequired,
-  branches: PropTypes.object,
-  subsidiaries: PropTypes.object
+  branches: PropTypes.any,
+  subsidiaries: PropTypes.any
 };
 
 export default withStyles(styles)(CorporationMap);

@@ -135,11 +135,11 @@ class Industry extends Component {
               .filter(function(item) {
                 return item.replace(/\s/g, "") !== "";
               })
-              .map(industry => {
+              .map((industry, idx) => {
                 return (
                   <div
                     className={classNames(classes.item, "industry")}
-                    key={industry}
+                    key={idx}
                   >
                     <div data-tip data-for={industry}>
                       <label
@@ -190,9 +190,9 @@ class Industry extends Component {
                   .filter(function(item) {
                     return item.replace(/\s/g, "") !== "";
                   })
-                  .map(industry => {
+                  .map((industry, idx) => {
                     return (
-                      <div key={industry}>
+                      <div key={idx}>
                         <ListItem>
                           <Typography
                             className={classNames(
