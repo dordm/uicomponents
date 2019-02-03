@@ -187,9 +187,9 @@ InfoCard.propTypes = {
   name: PropTypes.string.isRequired,
   infoText: PropTypes.string.isRequired,
   date: PropTypes.string,
-  content: PropTypes.string.isRequired,
+  content: PropTypes.any,
   bottomIcon: PropTypes.string,
-  bottomMsg: PropTypes.string.isRequired
+  bottomMsg: PropTypes.string
 };
 
 export default withStyles(styles)(InfoCard);
