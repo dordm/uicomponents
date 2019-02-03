@@ -63,7 +63,10 @@ function MoreDataCourtCases(props) {
                   {item.CASE_NAME ? (
                     <div>
                       <Typography className={"fontStyle7"}>
-                        {"\u2022"} Date: {item.SUBMIT_DATE}
+                        {"\u2022"} Date:{" "}
+                        {item.SUBMIT_DATE
+                          ? item.SUBMIT_DATE.toString().substr(0, 10)
+                          : ""}
                       </Typography>
                       <Typography className={"fontStyle7"}>
                         {"\u2022"} Case Number: {item.CASE_NO}
@@ -83,7 +86,10 @@ function MoreDataCourtCases(props) {
                         {item.IS_DEFENDANT ? "Yes" : "No"}
                       </Typography>
                       <Typography className={"fontStyle7"}>
-                        {"\u2022"} Update Date: {item.UPDATE_DATE}
+                        {"\u2022"} Update Date:{" "}
+                        {item.UPDATE_DATE
+                          ? item.UPDATE_DATE.toString().substr(0, 10)
+                          : ""}
                       </Typography>
                     </div>
                   ) : (
