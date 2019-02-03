@@ -57,7 +57,7 @@ function MoreData(props) {
                   {"\n"}
                 </Typography>
               </div>
-              {window.location.pathname.includes("/direct/") ? (
+              {window.location.pathname.includes("/direct/") || !props.addSupplier ? (
                 ""
               ) : (
                 <Typography

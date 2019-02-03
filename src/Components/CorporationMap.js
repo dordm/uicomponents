@@ -569,6 +569,7 @@ class CorporationMap extends Component {
             </div>
             {currentNode &&
             currentNode.nodeType === "Company" &&
+            this.props.addSupplier &&
             this.props.supplier.id !== currentNode.id ? (
               <div
                 style={{

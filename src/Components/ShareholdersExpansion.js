@@ -258,7 +258,7 @@ class ShareholdersExpansion extends Component {
                                     )}
                                     {item.label === "Company" &&
                                     !window.location.pathname.includes(
-                                      "/direct/"
+                                      "/direct/" && this.props.addSupplier
                                     ) ? (
                                       <StyledChip
                                         style={{ marginTop: 5 }}
@@ -330,7 +330,7 @@ class ShareholdersExpansion extends Component {
                                     </Typography>
                                     <div style={{ display: "flex" }}>
                                       {!window.location.pathname.includes(
-                                        "/direct/"
+                                        "/direct/" && this.props.addSupplier
                                       ) ? (
                                         <StyledChip
                                           style={{ marginTop: 5 }}
