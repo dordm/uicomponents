@@ -110,9 +110,9 @@ class TopCountries extends Component {
 
     for (let i = 0; i < data.length; i++) {
       let item = data[i];
-      if (i > 3) other += item.value_of_goods;
+      if (i > 3) other += item.shipment_count;
 
-      sum += item.value_of_goods;
+      sum += item.shipment_count;
     }
     this.setState({
       otherCountries: Math.round(100 * (other / sum))
@@ -147,8 +147,8 @@ class TopCountries extends Component {
     for (let i = 0; i < data.length; i++) {
       let item = data[i];
       if (i <= 3 || getAll)
-        countries.push({ name: item.country, percent: item.value_of_goods });
-      sum += item.value_of_goods;
+        countries.push({ name: item.country, percent: item.shipment_count });
+      sum += item.shipment_count;
     }
     countries.forEach(
       country => (country.percent = Math.round(100 * (country.percent / sum)))
