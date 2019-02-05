@@ -110,9 +110,10 @@ class TopCountries extends Component {
 
     for (let i = 0; i < data.length; i++) {
       let item = data[i];
-      if (i > 3) other += item.shipment_count;
+      const count = Number.parseInt(item.shipment_count);
+      if (i > 3) other += isNaN(count) ? 0 : count;
 
-      sum += item.shipment_count;
+      sum += isNaN(count) ? 0 : count;
     }
     this.setState({
       otherCountries: Math.round(100 * (other / sum))
@@ -146,9 +147,13 @@ class TopCountries extends Component {
 
     for (let i = 0; i < data.length; i++) {
       let item = data[i];
+      const count = Number.parseInt(item.shipment_count);
       if (i <= 3 || getAll)
-        countries.push({ name: item.country, percent: item.shipment_count });
-      sum += item.shipment_count;
+        countries.push({
+          name: item.country,
+          percent: isNaN(count) ? 0 : count
+        });
+      sum += isNaN(count) ? 0 : count;
     }
     countries.forEach(
       country => (country.percent = Math.round(100 * (country.percent / sum)))
