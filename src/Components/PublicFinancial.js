@@ -90,7 +90,7 @@ class PublicFinancial extends Component {
             ""
           )}
         </div>
-        {this.props.data != null ? (
+        {this.props.data && this.props.data.revenue ? (
           <div className={classes.listDiv}>
             <List>
               <ListItem>

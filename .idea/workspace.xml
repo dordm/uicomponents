@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="deedca82-8ad4-4e62-ac9a-df5681d3be65" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Components/images/tax.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/MoreDataTaxCredit.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/MoreDataTaxCredit.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/PublicFinancial.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/PublicFinancial.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -27,20 +26,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Certifications.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Components/Certifications.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="300" column="59" selection-start-line="300" selection-start-column="59" selection-end-line="300" selection-end-column="59" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="PublicFinancial.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Components/PublicFinancial.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="22" column="10" lean-forward="true" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
+            <state relative-caret-position="153">
+              <caret line="92" column="28" selection-start-line="92" selection-start-column="28" selection-end-line="92" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -81,8 +71,8 @@
       <file leaf-file-name="Utils.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Components/js/Utils.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="123" lean-forward="true" selection-start-line="123" selection-end-line="123" />
+            <state relative-caret-position="17697">
+              <caret line="1056" column="4" lean-forward="true" selection-start-line="1056" selection-start-column="4" selection-end-line="1058" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -92,6 +82,15 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="191">
               <caret line="27" column="42" lean-forward="true" selection-start-line="27" selection-start-column="42" selection-end-line="27" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TwoInfoCard.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Components/TwoInfoCard.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="259">
+              <caret line="144" column="33" lean-forward="true" selection-start-line="144" selection-start-column="33" selection-end-line="144" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -127,8 +126,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>BarChart</find>
-      <find>FirstTimeExpTooltip</find>
       <find>MyLineChart</find>
       <find>Loader</find>
       <find>MyTooltip</find>
@@ -157,6 +154,8 @@
       <find>MoreData</find>
       <find>classNames</find>
       <find>deletePa</find>
+      <find>lastYear</find>
+      <find>SHIPMENTS_LAST_YEAR</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -192,7 +191,6 @@
         <option value="$PROJECT_DIR$/src/Components/MoreDataLawEnforcement.js" />
         <option value="$PROJECT_DIR$/src/Components/MoreDataPatents.js" />
         <option value="$PROJECT_DIR$/src/Components/MoreDataTrademarks.js" />
-        <option value="$PROJECT_DIR$/src/Components/PublicFinancial.js" />
         <option value="$PROJECT_DIR$/src/Components/PublicFinancialRatio.js" />
         <option value="$PROJECT_DIR$/src/Components/RecommendCredit.js" />
         <option value="$PROJECT_DIR$/src/Components/RegistrationDetails.js" />
@@ -215,6 +213,7 @@
         <option value="$PROJECT_DIR$/src/Components/MoreDataJobs.js" />
         <option value="$PROJECT_DIR$/src/index.js" />
         <option value="$PROJECT_DIR$/src/Components/MoreDataTaxCredit.js" />
+        <option value="$PROJECT_DIR$/src/Components/PublicFinancial.js" />
         <option value="$PROJECT_DIR$/package.json" />
       </list>
     </option>
@@ -272,13 +271,6 @@
               <item name="uicomponents" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="uicomponents" type="b2602c69:ProjectViewProjectNode" />
-              <item name="uicomponents" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Components" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="uicomponents" type="b2602c69:ProjectViewProjectNode" />
@@ -466,18 +458,18 @@
       <workItem from="1548933018253" duration="6251000" />
       <workItem from="1549182574668" duration="9543000" />
       <workItem from="1549276755220" duration="111000" />
-      <workItem from="1549358466956" duration="2901000" />
+      <workItem from="1549358466956" duration="5492000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="408816000" />
+    <option name="totallyTimeSpent" value="411407000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4982699" visible="true" weight="0.17702845" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4982699" visible="true" weight="0.17702845" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50052685" side_tool="true" weight="0.39069265" />
@@ -486,7 +478,7 @@
       <window_info id="npm" order="3" sideWeight="0.5017301" side_tool="true" weight="0.14805058" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32900432" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49947312" visible="true" weight="0.17424242" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.49947312" visible="true" weight="0.17424242" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -766,13 +758,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/TwoInfoCard.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4760">
-          <caret line="296" column="25" selection-start-line="296" selection-start-column="25" selection-end-line="296" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/InfoCard.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2737">
@@ -818,13 +803,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="300" column="59" selection-start-line="300" selection-start-column="59" selection-end-line="300" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/PublicFinancial.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="22" column="10" lean-forward="true" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
         </state>
       </provider>
     </entry>
@@ -886,13 +864,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/js/Utils.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="123" lean-forward="true" selection-start-line="123" selection-end-line="123" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/MoreDataTaxCredit.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="236">
@@ -900,6 +871,27 @@
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/js/Utils.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17697">
+          <caret line="1056" column="4" lean-forward="true" selection-start-line="1056" selection-start-column="4" selection-end-line="1058" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/TwoInfoCard.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="144" column="33" lean-forward="true" selection-start-line="144" selection-start-column="33" selection-end-line="144" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/PublicFinancial.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="92" column="28" selection-start-line="92" selection-start-column="28" selection-end-line="92" selection-end-column="28" />
         </state>
       </provider>
     </entry>
