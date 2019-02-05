@@ -30,7 +30,7 @@ function MoreDataTaxCredit(props) {
                 height={24}
                 width={24}
                 alt={"employee"}
-                src={Utils.getImage("employee.svg")}
+                src={Utils.getImage("tax.svg")}
               />
               <div>
                 <Typography
