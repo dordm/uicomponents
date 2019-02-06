@@ -1059,6 +1059,7 @@ class Utils {
     const lastYear = date.getFullYear() - 1;
     let taxRating = "Not Eligible";
     let taxRatingBottomMsg = "Past eligible years: ";
+    let taxRatingLbl = "";
     if (
       report != null &&
       report.taxRatingList !== undefined &&
@@ -1074,8 +1075,14 @@ class Utils {
           0,
           taxRatingBottomMsg.length - 2
         );
-      else taxRatingBottomMsg = "Not eligible for tax rating A";
-    } else taxRatingBottomMsg = "Not eligible for tax rating A";
+      else {
+        taxRatingBottomMsg = "Not eligible for tax rating A";
+        taxRatingLbl = `Not eligible at ${lastYear}`;
+      }
+    } else {
+      taxRatingBottomMsg = "Not eligible for tax rating A";
+      taxRatingLbl = `Not eligible at ${lastYear}`;
+    }
     if (taxRating === "A") {
       let sinceYear = lastYear;
       for (let j = lastYear - 1; j > 2012; j--) {
@@ -1090,7 +1097,7 @@ class Utils {
       if (sinceYear === lastYear) taxRatingBottomMsg = "Good Rating";
       else taxRatingBottomMsg = "Tax Rating A since " + sinceYear;
     }
-    return { taxRating, taxRatingBottomMsg };
+    return { taxRating, taxRatingBottomMsg, taxRatingLbl };
   }
 }
 
