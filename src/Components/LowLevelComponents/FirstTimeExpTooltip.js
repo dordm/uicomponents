@@ -91,6 +91,7 @@ class FirstTimeExpTooltip extends React.Component {
       <Tooltip
         placement={this.props.placement}
         open={this.props.open}
+        interactive={true}
         title={
           <React.Fragment>
             {this.props.text}
