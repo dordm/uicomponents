@@ -1094,8 +1094,10 @@ class Utils {
           break;
         }
       }
-      if (sinceYear === lastYear) taxRatingBottomMsg = "Good Rating";
-      else taxRatingBottomMsg = "Tax Rating A since " + sinceYear;
+      if (sinceYear === lastYear) {
+        taxRatingBottomMsg = "Good Rating";
+        taxRatingLbl = "";
+      } else taxRatingBottomMsg = "Tax Rating A since " + sinceYear;
     }
     return { taxRating, taxRatingBottomMsg, taxRatingLbl };
   }
