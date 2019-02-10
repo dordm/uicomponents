@@ -53,8 +53,14 @@ function MoreDataLawEnforcement(props) {
                   </ListItemIcon>
                   <StyledListItemText
                     primary={
-                      <Typography className={"fontStyle7"}>
+                      <Typography className={"fontStyle5"}>
                         {item.Id ? item.Name : item.name}
+                      </Typography>
+                    }
+                    secondary={
+                      <Typography className={"fontStyle11"}>
+                        {"\u2022 Case Date: " +
+                          (item.Id ? item.Liandate : item.date)}
                       </Typography>
                     }
                   />
@@ -62,41 +68,41 @@ function MoreDataLawEnforcement(props) {
                 <StyledExpansionPanelDetails>
                   {item.Id ? (
                     <div>
-                      <Typography className={"fontStyle7"}>
+                      <Typography className={"fontStyle11"}>
                         {"\u2022"} Filling Time: {item.Liandate}
                       </Typography>
-                      <Typography className={"fontStyle7"}>
+                      <Typography className={"fontStyle11"}>
                         {"\u2022"} Case Number: {item.Anno}
                       </Typography>
-                      <Typography className={"fontStyle7"}>
+                      <Typography className={"fontStyle11"}>
                         {"\u2022"} Executive Court: {item.ExecuteGov}
                       </Typography>
-                      <Typography className={"fontStyle7"}>
+                      <Typography className={"fontStyle11"}>
                         {"\u2022"} Status: {item.Status}
                       </Typography>
-                      <Typography className={"fontStyle7"}>
+                      <Typography className={"fontStyle11"}>
                         {"\u2022"} Id Number / Organization Code:{" "}
                         {item.PartyCardNum}
                       </Typography>
-                      <Typography className={"fontStyle7"}>
+                      <Typography className={"fontStyle11"}>
                         {"\u2022"} Landmark: {item.Biaodi}
                       </Typography>
-                      <Typography className={"fontStyle7"}>
+                      <Typography className={"fontStyle11"}>
                         {"\u2022"} Update Time: {item.Updatedate}
                       </Typography>
                     </div>
                   ) : (
                     <div>
-                      <Typography className={"fontStyle7"}>
+                      <Typography className={"fontStyle11"}>
                         {"\u2022"} Date: {item.date}
                       </Typography>
-                      <Typography className={"fontStyle7"}>
+                      <Typography className={"fontStyle11"}>
                         {"\u2022"} Case Number: {item.num}
                       </Typography>
-                      <Typography className={"fontStyle7"}>
+                      <Typography className={"fontStyle11"}>
                         {"\u2022"} Enforcement of Court: {item.court}
                       </Typography>
-                      <Typography className={"fontStyle7"}>
+                      <Typography className={"fontStyle11"}>
                         {"\u2022"} Execution Target:{" "}
                         {item.execMoney
                           ? item.execMoney[0] +

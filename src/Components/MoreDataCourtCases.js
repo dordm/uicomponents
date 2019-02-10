@@ -53,8 +53,18 @@ function MoreDataCourtCases(props) {
                   </ListItemIcon>
                   <StyledListItemText
                     primary={
-                      <Typography className={"fontStyle7"}>
+                      <Typography className={"fontStyle5"}>
                         {item.CASE_NAME ? item.CASE_NAME : item.title}
+                      </Typography>
+                    }
+                    secondary={
+                      <Typography className={"fontStyle11"}>
+                        {item.CASE_NAME
+                          ? item.SUBMIT_DATE
+                            ? "\u2022 Case Date: " +
+                              item.SUBMIT_DATE.toString().substr(0, 10)
+                            : ""
+                          : "\u2022 Case Date: " + item.date}
                       </Typography>
                     }
                   />
@@ -62,30 +72,30 @@ function MoreDataCourtCases(props) {
                 <StyledExpansionPanelDetails>
                   {item.CASE_NAME ? (
                     <div>
-                      <Typography className={"fontStyle7"}>
+                      <Typography className={"fontStyle11"}>
                         {"\u2022"} Date:{" "}
                         {item.SUBMIT_DATE
                           ? item.SUBMIT_DATE.toString().substr(0, 10)
                           : ""}
                       </Typography>
-                      <Typography className={"fontStyle7"}>
+                      <Typography className={"fontStyle11"}>
                         {"\u2022"} Case Number: {item.CASE_NO}
                       </Typography>
-                      <Typography className={"fontStyle7"}>
+                      <Typography className={"fontStyle11"}>
                         {"\u2022"} Judicial Institution: {item.COURT}
                       </Typography>
-                      <Typography className={"fontStyle7"}>
+                      <Typography className={"fontStyle11"}>
                         {"\u2022"} Case Type: {item.CASE_TYPE}
                       </Typography>
-                      <Typography className={"fontStyle7"}>
+                      <Typography className={"fontStyle11"}>
                         {"\u2022"} Is Prosecutor:{" "}
                         {item.IS_PROSECUTOR ? "Yes" : "No"}
                       </Typography>
-                      <Typography className={"fontStyle7"}>
+                      <Typography className={"fontStyle11"}>
                         {"\u2022"} Is Defendant:{" "}
                         {item.IS_DEFENDANT ? "Yes" : "No"}
                       </Typography>
-                      <Typography className={"fontStyle7"}>
+                      <Typography className={"fontStyle11"}>
                         {"\u2022"} Update Date:{" "}
                         {item.UPDATE_DATE
                           ? item.UPDATE_DATE.toString().substr(0, 10)
@@ -94,16 +104,16 @@ function MoreDataCourtCases(props) {
                     </div>
                   ) : (
                     <div>
-                      <Typography className={"fontStyle7"}>
+                      <Typography className={"fontStyle11"}>
                         {"\u2022"} Date: {item.date}
                       </Typography>
-                      <Typography className={"fontStyle7"}>
+                      <Typography className={"fontStyle11"}>
                         {"\u2022"} Case Number: {item.num}
                       </Typography>
-                      <Typography className={"fontStyle7"}>
+                      <Typography className={"fontStyle11"}>
                         {"\u2022"} Judicial Institution: {item.ch}
                       </Typography>
-                      <Typography className={"fontStyle7"}>
+                      <Typography className={"fontStyle11"}>
                         {"\u2022"} Case Content: {item.content}
                       </Typography>
                     </div>

@@ -138,11 +138,6 @@ class CompanyChanges extends Component {
                             style={{ color: "#4c84ff" }}
                             className={classes.imgChange}
                           />
-                          {/*<img*/}
-                          {/*className={classes.imgChange}*/}
-                          {/*alt="change"*/}
-                          {/*src={require("./images/change.svg")}*/}
-                          {/*/>*/}
                         </ListItemIcon>
                         <ListItemText
                           style={{ marginLeft: -25, maxWidth: "68%" }}
@@ -256,12 +251,6 @@ class CompanyChanges extends Component {
                                   color: "#4c84ff"
                                 }}
                               />
-                              {/*<img*/}
-                              {/*height={20}*/}
-                              {/*width={20}*/}
-                              {/*alt={"change"}*/}
-                              {/*src={require("./images/change.svg")}*/}
-                              {/*/>*/}
                             </ListItemIcon>
                             <StyledListItemText
                               primary={
@@ -269,13 +258,15 @@ class CompanyChanges extends Component {
                                   {change.changeItem}
                                 </Typography>
                               }
+                              secondary={
+                                <Typography className={"fontStyle11"}>
+                                  {"\u2022 Change Date: " + change.date}
+                                </Typography>
+                              }
                             />
                           </StyledExpansionSummary>
                           <StyledExpansionPanelDetails>
                             <div>
-                              <Typography className={"fontStyle11"}>
-                                {"\u2022"} Change Date: {change.date}
-                              </Typography>
                               <Typography className={"fontStyle11"}>
                                 {"\u2022"} Before Change: {change.before}
                               </Typography>
