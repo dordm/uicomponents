@@ -294,11 +294,9 @@ class Certifications extends Component {
                               }
                               secondary={
                                 <Typography className={"fontStyle11"}>
-                                  {`\u2022 $
-                                  {certificate.validity === 1
-                                    ? "Valid until"
-                                    : "Expired at"}{" "}
-                                  ${certificate.expiredDate}`}
+                                  {"\u2022 " + certificate.validity === 1
+                                    ? "Valid until "
+                                    : "Expired at " + certificate.expiredDate}
                                 </Typography>
                               }
                             />
