@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="deedca82-8ad4-4e62-ac9a-df5681d3be65" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-    </list>
+    <list default="true" id="deedca82-8ad4-4e62-ac9a-df5681d3be65" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -64,8 +62,8 @@
       <file leaf-file-name="Certifications.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Components/Certifications.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="737">
-              <caret line="313" column="30" selection-start-line="313" selection-start-column="30" selection-end-line="313" selection-end-column="30" />
+            <state relative-caret-position="380">
+              <caret line="292" column="45" lean-forward="true" selection-start-line="292" selection-start-column="45" selection-end-line="292" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -203,10 +201,10 @@
         <option value="$PROJECT_DIR$/src/Components/TopCountries.js" />
         <option value="$PROJECT_DIR$/src/Components/js/Utils.js" />
         <option value="$PROJECT_DIR$/src/Components/CompanyChanges.js" />
-        <option value="$PROJECT_DIR$/src/Components/Certifications.js" />
         <option value="$PROJECT_DIR$/src/Components/MoreDataCourtCases.js" />
         <option value="$PROJECT_DIR$/src/Components/MoreDataLawEnforcement.js" />
         <option value="$PROJECT_DIR$/src/Components/MoreDataDishonest.js" />
+        <option value="$PROJECT_DIR$/src/Components/Certifications.js" />
         <option value="$PROJECT_DIR$/package.json" />
       </list>
     </option>
@@ -475,12 +473,12 @@
       <workItem from="1549469768561" duration="377000" />
       <workItem from="1549530702676" duration="877000" />
       <workItem from="1549536744708" duration="139000" />
-      <workItem from="1549796317273" duration="3245000" />
+      <workItem from="1549796317273" duration="3518000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="421583000" />
+    <option name="totallyTimeSpent" value="421856000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
@@ -840,13 +838,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/Certifications.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="737">
-          <caret line="313" column="30" selection-start-line="313" selection-start-column="30" selection-end-line="313" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/stories/MockData/reportData.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="227">
@@ -879,6 +870,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="406">
           <caret line="256" column="69" lean-forward="true" selection-start-line="256" selection-start-column="69" selection-end-line="256" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/Certifications.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="292" column="45" lean-forward="true" selection-start-line="292" selection-start-column="45" selection-end-line="292" selection-end-column="45" />
         </state>
       </provider>
     </entry>
