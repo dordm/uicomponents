@@ -1070,11 +1070,13 @@ class Utils {
           taxRatingBottomMsg += report.taxRatingList[i].year + ", ";
         else taxRating = report.taxRatingList[i].rating;
       }
-      if (taxRatingBottomMsg.length > 22)
-        taxRatingBottomMsg = taxRatingBottomMsg.substr(
-          0,
-          taxRatingBottomMsg.length - 2
-        );
+      if (taxRatingBottomMsg.length > 22) {
+          taxRatingBottomMsg = taxRatingBottomMsg.substr(
+              0,
+              taxRatingBottomMsg.length - 2
+          );
+          taxRatingLbl = `Not eligible at ${lastYear}`;
+      }
       else {
         taxRatingBottomMsg = "Not eligible for tax rating A";
         taxRatingLbl = `Not eligible at ${lastYear}`;
