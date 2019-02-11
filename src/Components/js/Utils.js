@@ -1071,13 +1071,12 @@ class Utils {
         else taxRating = report.taxRatingList[i].rating;
       }
       if (taxRatingBottomMsg.length > 22) {
-          taxRatingBottomMsg = taxRatingBottomMsg.substr(
-              0,
-              taxRatingBottomMsg.length - 2
-          );
-          taxRatingLbl = `Not eligible at ${lastYear}`;
-      }
-      else {
+        taxRatingBottomMsg = taxRatingBottomMsg.substr(
+          0,
+          taxRatingBottomMsg.length - 2
+        );
+        taxRatingLbl = `Not eligible at ${lastYear}`;
+      } else {
         taxRatingBottomMsg = "Not eligible for tax rating A";
         taxRatingLbl = `Not eligible at ${lastYear}`;
       }
@@ -1099,7 +1098,10 @@ class Utils {
       if (sinceYear === lastYear) {
         taxRatingBottomMsg = "Good Rating";
         taxRatingLbl = "";
-      } else taxRatingBottomMsg = "Tax Rating A since " + sinceYear;
+      } else {
+        taxRatingBottomMsg = "Tax Rating A since " + sinceYear;
+        taxRatingLbl = "";
+      }
     }
     return { taxRating, taxRatingBottomMsg, taxRatingLbl };
   }
