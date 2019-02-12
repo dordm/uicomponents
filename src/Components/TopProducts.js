@@ -118,9 +118,7 @@ class TopProducts extends Component {
       if (this.state.other) {
         data.push(this.state.other);
       }
-      return data.sort(function(a, b) {
-        return b.value_of_goods - a.value_of_goods;
-      });
+      return data;
     } else return data;
   }
 
