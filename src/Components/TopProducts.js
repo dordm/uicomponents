@@ -150,7 +150,7 @@ class TopProducts extends Component {
         {this.getProducts().length > 0 ? (
           <PieChart
             width={this.props.width}
-            data={this.getProducts().slice(0, 4)}
+            data={this.getProducts().slice(0, 5)}
             height={"80%"}
             name={"hscode_desc"}
             unit={"$"}
