@@ -32,61 +32,96 @@ class TopProducts extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      report: this.props.report,
-      selectMonths: "12"
+      selectMonths: "12",
+      other: null
     };
   }
 
-  getProducts() {
+  componentDidMount() {
+    this.calcOtherProducts();
+  }
+
+  componentDidUpdate(prevProps, prevState) {
+    if (
+      this.state.selectMonths !== prevState.selectMonths ||
+      this.props.report !== prevProps.report
+    ) {
+      this.calcOtherProducts();
+    }
+  }
+
+  calcOtherProducts() {
+    let otherSum = 0,
+      otherShipments = 0;
+    let data = this.getData();
+
+    for (let i = 0; i < data.length; i++) {
+      let item = data[i];
+      const count = Number.parseFloat(item.value_of_goods);
+      if (i > 3) {
+        otherSum += count;
+        otherShipments += Number.parseInt(item.shipment_count);
+      }
+    }
+    this.setState({
+      other:
+        otherSum > 0
+          ? {
+              hscode: "",
+              hscode_desc: "Others",
+              shipment_count: otherShipments,
+              value_of_goods: otherSum
+            }
+          : null
+    });
+  }
+
+  getData() {
+    let data = [];
     switch (this.state.selectMonths) {
       case "4":
         if (this.props.type === "import") {
-          if (this.state.report.import !== undefined)
-            return this.state.report.import.shipmentByProduct.supplier.lastQuarter
-              .filter(item => item.value_of_goods > 0)
-              .sort(function(a, b) {
-                return b.value_of_goods - a.value_of_goods;
-              });
-          else return [];
-        } else
-          return this.state.report.shipmentByProduct.supplier.lastQuarter
-            .filter(item => item.value_of_goods > 0)
-            .sort(function(a, b) {
-              return b.value_of_goods - a.value_of_goods;
-            });
+          if (this.props.report.import !== undefined)
+            data = this.props.report.import.shipmentByProduct.supplier
+              .lastQuarter;
+        } else data = this.props.report.shipmentByProduct.supplier.lastQuarter;
+        break;
       case "12":
         if (this.props.type === "import") {
-          if (this.state.report.import !== undefined)
-            return this.state.report.import.shipmentByProduct.supplier.lastYear
-              .filter(item => item.value_of_goods > 0)
-              .sort(function(a, b) {
-                return b.value_of_goods - a.value_of_goods;
-              });
-          else return [];
-        } else
-          return this.state.report.shipmentByProduct.supplier.lastYear
-            .filter(item => item.value_of_goods > 0)
-            .sort(function(a, b) {
-              return b.value_of_goods - a.value_of_goods;
-            });
+          if (this.props.report.import !== undefined)
+            data = this.props.report.import.shipmentByProduct.supplier.lastYear;
+        } else data = this.props.report.shipmentByProduct.supplier.lastYear;
+        break;
       case "36":
         if (this.props.type === "import") {
-          if (this.state.report.import !== undefined)
-            return this.state.report.import.shipmentByProduct.supplier.last3Years
-              .filter(item => item.value_of_goods > 0)
-              .sort(function(a, b) {
-                return b.value_of_goods - a.value_of_goods;
-              });
-          else return [];
-        } else
-          return this.state.report.shipmentByProduct.supplier.last3Years
-            .filter(item => item.value_of_goods > 0)
-            .sort(function(a, b) {
-              return b.value_of_goods - a.value_of_goods;
-            });
+          if (this.props.report.import !== undefined)
+            data = this.props.report.import.shipmentByProduct.supplier
+              .last3Years;
+        } else data = this.props.report.shipmentByProduct.supplier.last3Years;
+        break;
       default:
-        return [];
+        data = [];
     }
+
+    return data
+      .filter(item => item.value_of_goods > 0)
+      .sort(function(a, b) {
+        return b.value_of_goods - a.value_of_goods;
+      });
+  }
+
+  getProducts(getAll) {
+    let data = this.getData();
+    if (getAll) return data;
+    else if (data.length > 5) {
+      data = data.slice(0, 4);
+      if (this.state.other) {
+        data.push(this.state.other);
+      }
+      return data.sort(function(a, b) {
+        return b.value_of_goods - a.value_of_goods;
+      });
+    } else return data;
   }
 
   getPeriodStr() {
@@ -147,10 +182,10 @@ class TopProducts extends Component {
           <option value={"12"}>Last year</option>
           <option value={"36"}>Last 3 years</option>
         </select>
-        {this.getProducts().length > 0 ? (
+        {this.getProducts(false).length > 0 ? (
           <PieChart
             width={this.props.width}
-            data={this.getProducts().slice(0, 5)}
+            data={this.getProducts(false).slice(0, 5)}
             height={"80%"}
             name={"hscode_desc"}
             unit={"$"}

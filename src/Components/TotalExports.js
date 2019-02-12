@@ -131,19 +131,19 @@ class TotalExports extends Component {
         <br />
         <br />
         {exportData.length > 1 ? (
-          exportData[1].industry !== undefined ? (
-            <LineTwoCharts
-              height={"80%"}
-              data={exportData}
-              keyX={"name"}
-              dataKey1={"supplier"}
-              dataKey2={"industry"}
-              legend={true}
-              unit={true}
-              tooltipUnit={"$"}
-              width={this.props.width}
-            />
-          ) : (
+          // exportData[1].industry !== undefined ? (
+          //   <LineTwoCharts
+          //     height={"80%"}
+          //     data={exportData}
+          //     keyX={"name"}
+          //     dataKey1={"supplier"}
+          //     dataKey2={"industry"}
+          //     legend={true}
+          //     unit={true}
+          //     tooltipUnit={"$"}
+          //     width={this.props.width}
+          //   />
+          // ) : (
             <LineChart
               height={"80%"}
               data={exportData}
@@ -154,7 +154,7 @@ class TotalExports extends Component {
               tooltipUnit={"$"}
               width={this.props.width}
             />
-          )
+          // )
         ) : (
           <NoDataImg />
         )}
