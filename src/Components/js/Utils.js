@@ -394,6 +394,10 @@ class Utils {
     switch (countryName) {
       case "Israel":
         return require("../images/countries/IL.svg");
+      case "Angola":
+        return require("../images/countries/AO.svg");
+      case "South Korea":
+        return require("../images/countries/KR.svg");
       case "Brazil":
         return require("../images/countries/BR.svg");
       case "China":
@@ -553,6 +557,8 @@ class Utils {
       case "Panama":
         return require("../images/countries/PA.svg");
       case "HongKong":
+        return require("../images/countries/IM.svg");
+      case "Hong Kong":
         return require("../images/countries/IM.svg");
       case "Argentina":
         return require("../images/countries/AR.svg");
