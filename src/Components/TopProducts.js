@@ -39,21 +39,21 @@ class TopProducts extends Component {
 
   getProducts() {
     switch (this.state.selectMonths) {
-      case "4":
-        if (this.props.type === "import") {
-          if (this.state.report.import !== undefined)
-            return this.state.report.import.shipmentByProduct.supplier.lastQuarter
-              .filter(item => item.value_of_goods > 0)
-              .sort(function(a, b) {
-                return b.value_of_goods - a.value_of_goods;
-              });
-          else return [];
-        } else
-          return this.state.report.shipmentByProduct.supplier.lastQuarter
-            .filter(item => item.value_of_goods > 0)
-            .sort(function(a, b) {
-              return b.value_of_goods - a.value_of_goods;
-            });
+      // case "4":
+      //   if (this.props.type === "import") {
+      //     if (this.state.report.import !== undefined)
+      //       return this.state.report.import.shipmentByProduct.supplier.lastQuarter
+      //         .filter(item => item.value_of_goods > 0)
+      //         .sort(function(a, b) {
+      //           return b.value_of_goods - a.value_of_goods;
+      //         });
+      //     else return [];
+      //   } else
+      //     return this.state.report.shipmentByProduct.supplier.lastQuarter
+      //       .filter(item => item.value_of_goods > 0)
+      //       .sort(function(a, b) {
+      //         return b.value_of_goods - a.value_of_goods;
+      //       });
       case "12":
         if (this.props.type === "import") {
           if (this.state.report.import !== undefined)
@@ -69,21 +69,21 @@ class TopProducts extends Component {
             .sort(function(a, b) {
               return b.value_of_goods - a.value_of_goods;
             });
-      case "36":
-        if (this.props.type === "import") {
-          if (this.state.report.import !== undefined)
-            return this.state.report.import.shipmentByProduct.supplier.last3Years
-              .filter(item => item.value_of_goods > 0)
-              .sort(function(a, b) {
-                return b.value_of_goods - a.value_of_goods;
-              });
-          else return [];
-        } else
-          return this.state.report.shipmentByProduct.supplier.last3Years
-            .filter(item => item.value_of_goods > 0)
-            .sort(function(a, b) {
-              return b.value_of_goods - a.value_of_goods;
-            });
+      // case "36":
+      //   if (this.props.type === "import") {
+      //     if (this.state.report.import !== undefined)
+      //       return this.state.report.import.shipmentByProduct.supplier.last3Years
+      //         .filter(item => item.value_of_goods > 0)
+      //         .sort(function(a, b) {
+      //           return b.value_of_goods - a.value_of_goods;
+      //         });
+      //     else return [];
+      //   } else
+      //     return this.state.report.shipmentByProduct.supplier.last3Years
+      //       .filter(item => item.value_of_goods > 0)
+      //       .sort(function(a, b) {
+      //         return b.value_of_goods - a.value_of_goods;
+      //       });
       default:
         return [];
     }
@@ -138,15 +138,15 @@ class TopProducts extends Component {
             </span>
           </ReactTooltip>
         </StyledTitle>
-        <select
-          onChange={e => this.setState({ selectMonths: e.target.value })}
-          className={classNames(classes.select, "fontStyle16")}
-          defaultValue={this.state.selectMonths}
-        >
-          <option value={"4"}>Last quarter</option>
-          <option value={"12"}>Last year</option>
-          <option value={"36"}>Last 3 years</option>
-        </select>
+        {/*<select*/}
+          {/*onChange={e => this.setState({ selectMonths: e.target.value })}*/}
+          {/*className={classNames(classes.select, "fontStyle16")}*/}
+          {/*defaultValue={this.state.selectMonths}*/}
+        {/*>*/}
+          {/*<option value={"4"}>Last quarter</option>*/}
+          {/*<option value={"12"}>Last year</option>*/}
+          {/*<option value={"36"}>Last 3 years</option>*/}
+        {/*</select>*/}
         {this.getProducts().length > 0 ? (
           <PieChart
             width={this.props.width}

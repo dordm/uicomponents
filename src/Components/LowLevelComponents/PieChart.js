@@ -64,7 +64,7 @@ const ProductTooltip = props => {
         <div>HsCode: {props.payload[0].payload["hs_code"]}</div>
         <div>Shipment count: {props.payload[0].payload["shipment_count"]}</div>
         <div>
-          Products sales {props.period}: $
+          Products sales: $
           {new Intl.NumberFormat("en").format(
             props.payload[0].payload["value_of_goods"]
           )}
