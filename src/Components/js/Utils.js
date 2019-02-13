@@ -1068,7 +1068,9 @@ class Utils {
   }
 
   static totalExportString(totalExport) {
-    if (totalExport < 1000000) {
+    if (!totalExport) {
+      return "Unknown";
+    } else if (totalExport < 1000000) {
       return "Below $1M";
     } else if (totalExport >= 1000000 && totalExport < 5000000) {
       return "$1M - $5M";
