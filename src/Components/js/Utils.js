@@ -1063,6 +1063,26 @@ class Utils {
     }
   }
 
+  static totalExportString(totalExport) {
+    if (totalExport < 1000000) {
+      return "Below $1M";
+    } else if (totalExport >= 1000000 && totalExport < 5000000) {
+      return "$1M - $5M";
+    } else if (totalExport >= 5000000 && totalExport < 20000000) {
+      return "$5M - $20M";
+    } else if (totalExport >= 20000000 && totalExport < 50000000) {
+      return "$20M - $50M";
+    } else if (totalExport >= 50000000 && totalExport < 100000000) {
+      return "$50M - $100M";
+    } else if (totalExport >= 100000000 && totalExport < 200000000) {
+      return "$100M - $200M";
+    } else if (totalExport >= 200000000 && totalExport < 500000000) {
+      return "$200M - $500M";
+    } else {
+      return "Above $500M";
+    }
+  }
+
   static calcTaxRating(report) {
     let date = new Date();
     date.setDate(date.getDate() - 180);
