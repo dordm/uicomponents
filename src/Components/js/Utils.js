@@ -394,6 +394,8 @@ class Utils {
     switch (countryName) {
       case "Israel":
         return require("../images/countries/IL.svg");
+      case "Mozambique":
+        return require("../images/countries/MZ.svg");
       case "Jordan":
         return require("../images/countries/JO.svg");
       case "Bolivia":
