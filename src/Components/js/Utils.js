@@ -596,6 +596,8 @@ class Utils {
         return require("../images/countries/SG.svg");
       case "Singapore":
         return require("../images/countries/SG.svg");
+      case "Dubai":
+        return require("../images/countries/AE.svg");
       case "Reunion":
         return require("../images/countries/FR.svg");
       case "Honduras":
