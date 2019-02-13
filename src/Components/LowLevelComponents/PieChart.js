@@ -35,6 +35,8 @@ const StyledTextLegend = styled.a`
   margin-left: ${props => (props.width > 600 ? 0 : "-10px")};
   text-align: left;
   line-height: ${props => (props.topTitle === "Shareholders" ? "20px" : "")};
+  color: ${props => (props.drillDown === "true" ? "#4c84ff" : "#0e1f42")};
+  cursor: ${props => (props.drillDown === "true" ? "pointer" : "default")};
 `;
 
 const CustomTooltip = props => {
@@ -133,8 +135,20 @@ const CustomLegend = props => {
               width={width}
               data-tip
               data-for={`item-${index}`}
+              drillDown={entry.value === "Others" ? "true" : "false"}
             >
-              <span>{entry.value}</span>
+              <span onClick={() => props.otherClick(true)}>
+                {entry.value}
+                {entry.value === "Others" ? (
+                  <img
+                    alt="other"
+                    src={require("../images/Back.png")}
+                    style={{ position: "absolute", height: 20, marginTop: 4 }}
+                  />
+                ) : (
+                  ""
+                )}
+              </span>
             </StyledTextLegend>
           )}
           <ReactTooltip
@@ -240,6 +254,7 @@ class MyPieChart extends Component {
               <CustomLegend
                 title={this.props.title}
                 width={this.props.width}
+                otherClick={this.props.otherClick}
                 classes={classes}
               />
             }
@@ -305,7 +320,8 @@ MyPieChart.propTypes = {
   outerRadius: PropTypes.number.isRequired,
   productsTooltip: PropTypes.bool,
   period: PropTypes.string,
-  title: PropTypes.string.isRequired
+  title: PropTypes.string.isRequired,
+  otherClick: PropTypes.func
 };
 
 export default withStyles(styles)(MyPieChart);

@@ -212,12 +212,12 @@ class TopCountries extends Component {
           </ReactTooltip>
         </StyledTitle>
         {/*<select*/}
-          {/*onChange={e => this.setState({ selectMonths: e.target.value })}*/}
-          {/*className={classNames(classes.select, "fontStyle16")}*/}
-          {/*defaultValue={this.state.selectMonths}*/}
+        {/*onChange={e => this.setState({ selectMonths: e.target.value })}*/}
+        {/*className={classNames(classes.select, "fontStyle16")}*/}
+        {/*defaultValue={this.state.selectMonths}*/}
         {/*>*/}
-          {/*<option value={4}>Last quarter</option>*/}
-          {/*<option value={12}>Last year</option>*/}
+        {/*<option value={4}>Last quarter</option>*/}
+        {/*<option value={12}>Last year</option>*/}
         {/*</select>*/}
         {this.getCountries(false).length > 0 ? (
           <div className={classes.listDiv}>

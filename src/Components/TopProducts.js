@@ -6,11 +6,20 @@ import Typography from "@material-ui/core/Typography";
 import classNames from "classnames";
 import Utils from "./js/Utils";
 import ReactTooltip from "react-tooltip";
+import DialogTitle from "@material-ui/core/DialogTitle";
 import {
   BigBoxLayout,
-  StyledTitle
+  StyledTitle,
+  StyledCloseIcon,
+  StyledDialogContent,
+  StyledListItem
 } from "./LowLevelComponents/StyledComponents";
 import NoDataImg from "./LowLevelComponents/NoDataImg";
+import Dialog from "@material-ui/core/Dialog";
+import List from "@material-ui/core/List";
+import Divider from "@material-ui/core/Divider";
+import ProductIcon from "@material-ui/icons/ShoppingCartOutlined";
+import ListItemIcon from "@material-ui/core/ListItemIcon";
 
 const styles = {
   select: {
@@ -25,6 +34,9 @@ const styles = {
   topIcon: {
     marginTop: -2,
     marginLeft: 6
+  },
+  dialog: {
+    margin: 16
   }
 };
 
@@ -33,7 +45,8 @@ class TopProducts extends Component {
     super(props);
     this.state = {
       selectMonths: "12",
-      other: null
+      other: null,
+      viewAllOpen: false
     };
   }
 
@@ -135,6 +148,10 @@ class TopProducts extends Component {
     }
   }
 
+  otherProductClick(val) {
+    this.setState({ viewAllOpen: val });
+  }
+
   render() {
     const { classes } = this.props;
     return (
@@ -195,10 +212,72 @@ class TopProducts extends Component {
             productsTooltip={true}
             period={this.getPeriodStr()}
             title={"Top Products in USD"}
+            otherClick={this.otherProductClick.bind(this)}
           />
         ) : (
           <NoDataImg />
         )}
+        <Dialog
+          PaperProps={{
+            classes: {
+              root: classes.dialog
+            }
+          }}
+          open={this.state.viewAllOpen}
+          onClose={() => this.otherProductClick(false)}
+          aria-labelledby="scroll-dialog-title"
+        >
+          <StyledCloseIcon onClick={() => this.otherProductClick(false)}>
+            <img alt="Close" src={require("./images/Close.png")} />
+          </StyledCloseIcon>
+          <DialogTitle
+            className={"fontStyle3"}
+            style={{ textAlign: "center", marginTop: 24 }}
+          >
+            All Products ({this.getPeriodStr()})
+          </DialogTitle>
+          <StyledDialogContent>
+            <List>
+              {this.getProducts(true).map((prod, idx) => {
+                return (
+                  <div key={idx}>
+                    <StyledListItem style={{ alignItems: "flex-start" }}>
+                      <ListItemIcon>
+                        <ProductIcon
+                          style={{
+                            marginTop: 3,
+                            marginLeft: 4,
+                            color: "#4c84ff"
+                          }}
+                        />
+                      </ListItemIcon>
+                      <div style={{ marginLeft: -10 }}>
+                        <Typography className={"fontStyle5"}>
+                          {prod.hscode_desc}
+                        </Typography>
+                        <div>
+                          <Typography className={"fontStyle11"}>
+                            {"\u2022 "}Shipment count:{" "}
+                            {new Intl.NumberFormat("en").format(
+                              prod.shipment_count
+                            )}
+                          </Typography>
+                          <Typography className={"fontStyle11"}>
+                            {"\u2022 "}Product sales: $
+                            {new Intl.NumberFormat("en").format(
+                              prod.value_of_goods
+                            )}
+                          </Typography>
+                        </div>
+                      </div>
+                    </StyledListItem>
+                    <Divider />
+                  </div>
+                );
+              })}
+            </List>
+          </StyledDialogContent>
+        </Dialog>
       </BigBoxLayout>
     );
   }
