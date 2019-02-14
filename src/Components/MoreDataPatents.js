@@ -14,17 +14,6 @@ import {
   StyledExpansionSummary,
   StyledExpansionPanelDetails
 } from "./LowLevelComponents/StyledComponents";
-import ValidIcon from "@material-ui/icons/CheckCircleOutline";
-import InvalidIcon from "@material-ui/icons/HighlightOff";
-import styled from 'styled-components';
-
-const StyledValidIcon = styled(ValidIcon)`
-  color: #2fd565;
-`;
-
-const StyledInvalidIcon = styled(InvalidIcon)`
-  color: #ff0000;
-`;
 
 const styles = {
   expansionSummaryInner: {
@@ -65,15 +54,19 @@ function MoreDataPatents(props) {
                   <StyledListItemText
                     primary={
                       <Typography className={"fontStyle7"}>
-                        {item.valid === true ? (
-                          <StyledValidIcon />
-                        ) : item.valid === false ? (
-                          <StyledInvalidIcon />
-                        ) : (
-                          ""
-                        )}
                         {item.patentName}
                       </Typography>
+                    }
+                    secondary={
+                      item.valid === true ? (
+                        <Typography className={"fontStyle35"}>Valid</Typography>
+                      ) : item.valid === false ? (
+                        <Typography className={"fontStyle30"}>
+                          Invalid
+                        </Typography>
+                      ) : (
+                        ""
+                      )
                     }
                   />
                 </StyledExpansionSummary>

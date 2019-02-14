@@ -88,15 +88,19 @@ function MoreDataTrademarks(props) {
                   <StyledListItemText
                     primary={
                       <Typography className={"fontStyle7"}>
-                        {item.valid === true ? (
-                          <StyledValidIcon />
-                        ) : item.valid === false ? (
-                          <StyledInvalidIcon />
-                        ) : (
-                          ""
-                        )}
                         {item.branType}
                       </Typography>
+                    }
+                    secondary={
+                      item.valid === true ? (
+                        <Typography className={"fontStyle35"}>Valid</Typography>
+                      ) : item.valid === false ? (
+                        <Typography className={"fontStyle30"}>
+                          Invalid
+                        </Typography>
+                      ) : (
+                        ""
+                      )
                     }
                   />
                 </StyledExpansionSummary>
