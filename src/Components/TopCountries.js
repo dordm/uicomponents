@@ -172,7 +172,11 @@ class TopCountries extends Component {
       sum += count;
     }
     countries.forEach(
-      country => (country.percent = Math.round(100 * (country.percent / sum)))
+      country =>
+        (country.percent =
+          100 * (country.percent / sum) > 1
+            ? Math.round(100 * (country.percent / sum))
+            : Math.ceil(100 * (country.percent / sum)))
     );
     return countries.filter(country => country.percent > 0);
   }

@@ -5255,61 +5255,77 @@ const reportData = {
       { country: "Australia", shipment_count: "1", value_of_goods: 1576.44 }
     ],
     lastYear: [
-      { country: "Turkey", shipment_count: "19", value_of_goods: 1751141 },
-      { country: "Sweden", shipment_count: "38", value_of_goods: 879185 },
-      { country: "Israel", shipment_count: "19", value_of_goods: 635322 },
-      { country: "Uruguay", shipment_count: "35", value_of_goods: 504969 },
-      { country: "Spain", shipment_count: "47", value_of_goods: 358242 },
-      { country: "Austria", shipment_count: "8", value_of_goods: 243374 },
-      { country: "Slovenia", shipment_count: "23", value_of_goods: 210600 },
-      { country: "Uzbekstan", shipment_count: "5", value_of_goods: 205200 },
-      { country: "Iraq", shipment_count: "2", value_of_goods: 179946 },
-      { country: "Netherlands", shipment_count: "13", value_of_goods: 139444 },
-      { country: "Australia", shipment_count: "22", value_of_goods: 136350 },
-      { country: "Cyprus", shipment_count: "20", value_of_goods: 128153 },
-      {
-        country: "United Kingdom",
-        shipment_count: "18",
-        value_of_goods: 120412
-      },
-      {
-        country: "United Arab Emirates",
-        shipment_count: "8",
-        value_of_goods: 109258
-      },
-      { country: "Malta", shipment_count: "23", value_of_goods: 75445 },
-      { country: "Ukraine", shipment_count: "4", value_of_goods: 75191 },
-      { country: "New Zealand", shipment_count: "9", value_of_goods: 73061 },
-      { country: "Pakistan", shipment_count: "3", value_of_goods: 71873 },
-      {
-        country: "Czech Republic",
-        shipment_count: "19",
-        value_of_goods: 67853
-      },
-      { country: "Poland", shipment_count: "19", value_of_goods: 65108 },
-      { country: "Chile", shipment_count: "5", value_of_goods: 62072 },
-      { country: "Indonesia", shipment_count: "4", value_of_goods: 39942 },
-      { country: "Costa Rica", shipment_count: "6", value_of_goods: 37107 },
-      { country: "Oman", shipment_count: "2", value_of_goods: 34920 },
-      { country: "Kirghizia", shipment_count: "1", value_of_goods: 33719 },
-      { country: "Malaysia", shipment_count: "7", value_of_goods: 33573 },
-      { country: "Yemen", shipment_count: "1", value_of_goods: 33510 },
-      { country: "Saudi Arabia", shipment_count: "3", value_of_goods: 32130 },
-      { country: "Portugal", shipment_count: "2", value_of_goods: 31640 },
-      { country: "Morocco", shipment_count: "2", value_of_goods: 28120 },
-      { country: "Thailand", shipment_count: "4", value_of_goods: 24367 },
-      { country: "Lebanon", shipment_count: "9", value_of_goods: 21462 },
-      { country: "Russia", shipment_count: "13", value_of_goods: 16721 },
-      { country: "South Africa", shipment_count: "4", value_of_goods: 13761 },
-      { country: "Peru", shipment_count: "2", value_of_goods: 13124 },
-      { country: "Mexico", shipment_count: "3", value_of_goods: 12883 },
-      { country: "Italy", shipment_count: "7", value_of_goods: 12022 },
-      { country: "France", shipment_count: "7", value_of_goods: 11025 },
-      { country: "Sri Lanka", shipment_count: "1", value_of_goods: 8425 },
-      { country: "Kazakhstan", shipment_count: "2", value_of_goods: 6537 },
-      { country: "Latvia", shipment_count: "1", value_of_goods: 5200 },
-      { country: "Germany", shipment_count: "1", value_of_goods: 1100 }
-]
+        {
+            "country" : "United States",
+            "shipment_count" : 2016,
+            "value_of_goods" : 30000000
+        },
+        {
+            "country" : "Vietnam",
+            "shipment_count" : 420,
+            "value_of_goods" : 6400000
+        },
+        {
+            "country" : "Russia",
+            "shipment_count" : 67,
+            "value_of_goods" : 2500000
+        },
+        {
+            "country" : "Mexico",
+            "shipment_count" : 15,
+            "value_of_goods" : 100000
+        },
+        {
+            "country" : "Columbia",
+            "shipment_count" : 4,
+            "value_of_goods" : 96000
+        },
+        {
+            "country" : "Argentina",
+            "shipment_count" : 5,
+            "value_of_goods" : 51000
+        },
+        {
+            "country" : "Panama",
+            "shipment_count" : 1,
+            "value_of_goods" : 22000
+        },
+        {
+            "country" : "Sri Lanka",
+            "shipment_count" : 11,
+            "value_of_goods" : 21000
+        },
+        {
+            "country" : "Peru",
+            "shipment_count" : 9,
+            "value_of_goods" : 17000
+        },
+        {
+            "country" : "India",
+            "shipment_count" : 1,
+            "value_of_goods" : 11000
+        },
+        {
+            "country" : "Ukraine",
+            "shipment_count" : 1,
+            "value_of_goods" : 1500
+        },
+        {
+            "country" : "Guatemala",
+            "shipment_count" : 257,
+            "value_of_goods" : 0
+        },
+        {
+            "country" : "unknown",
+            "shipment_count" : 11,
+            "value_of_goods" : 0
+        },
+        {
+            "country" : "Pakistan",
+            "shipment_count" : 16,
+            "value_of_goods" : 0
+        }
+    ]
 },
   shareholders: [
     { name: "Ma Haihua", percent: 30, associate: 1 },
