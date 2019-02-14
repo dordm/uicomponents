@@ -14,7 +14,7 @@ import classNames from "classnames";
 import { withStyles } from "@material-ui/core/styles/index";
 import PropTypes from "prop-types";
 import styled from "styled-components";
-import Utils from "./js/Utils";
+import Utils from "../js/Utils";
 
 const StyledUlLegend = styled.ul`
   margin-top: 0px;
