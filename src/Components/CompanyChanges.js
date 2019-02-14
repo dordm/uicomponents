@@ -67,6 +67,12 @@ const styles = {
     width: 20,
     top: "25%",
     position: "absolute"
+  },
+  typoTitle: {
+    fontFamily: "Roboto",
+    fontWeight: "bold",
+    color: "#586782",
+    fontSize: 12
   }
 };
 
@@ -77,6 +83,14 @@ class CompanyChanges extends Component {
       report: this.props.report,
       allChangesOpen: false
     };
+  }
+
+  isSpecialChange(change) {
+    change.toLowerCase().includes("[new]") ||
+      change.toLowerCase().includes("[quit]") ||
+      change.toLowerCase().includes("[quits]") ||
+      change.toLowerCase().includes("[exit]") ||
+      change.toLowerCase().includes("[withdrew]");
   }
 
   render() {
@@ -267,12 +281,46 @@ class CompanyChanges extends Component {
                           </StyledExpansionSummary>
                           <StyledExpansionPanelDetails>
                             <div>
-                              <Typography className={"fontStyle11"}>
-                                {"\u2022"} Before Change: {change.before}
+                              <Typography className={classes.typoTitle}>
+                                {"\u2022"} Before Change:
                               </Typography>
-                              <Typography className={"fontStyle11"}>
-                                {"\u2022"} After Change: {change.after}
+                              <div>
+                                {change.before
+                                  .split(/,|;|\./)
+                                  .map((change, idx) => (
+                                    <Typography
+                                      key={idx}
+                                      style={{ marginLeft: 7 }}
+                                      className={
+                                        this.isSpecialChange(change)
+                                          ? "fontStyle30"
+                                          : "fontStyle11"
+                                      }
+                                    >
+                                      {change}
+                                    </Typography>
+                                  ))}
+                              </div>
+                              <Typography className={classes.typoTitle}>
+                                {"\u2022"} After Change:
                               </Typography>
+                              <div>
+                                {change.after
+                                  .split(/,|;|\./)
+                                  .map((change, idx) => (
+                                    <Typography
+                                      key={idx}
+                                      style={{ marginLeft: 7 }}
+                                      className={
+                                        this.isSpecialChange(change)
+                                          ? "fontStyle30"
+                                          : "fontStyle11"
+                                      }
+                                    >
+                                      {change}
+                                    </Typography>
+                                  ))}
+                              </div>
                             </div>
                           </StyledExpansionPanelDetails>
                         </StyledExpansionPanel>
