@@ -86,7 +86,7 @@ class CompanyChanges extends Component {
   }
 
   isSpecialChange(change) {
-    change.toLowerCase().includes("[new]") ||
+    return change.toLowerCase().includes("[new]") ||
       change.toLowerCase().includes("[quit]") ||
       change.toLowerCase().includes("[quits]") ||
       change.toLowerCase().includes("[exit]") ||
