@@ -14,6 +14,7 @@ import classNames from "classnames";
 import { withStyles } from "@material-ui/core/styles/index";
 import PropTypes from "prop-types";
 import styled from "styled-components";
+import Utils from "./js/Utils";
 
 const StyledUlLegend = styled.ul`
   margin-top: 0px;
@@ -64,7 +65,20 @@ const ProductTooltip = props => {
     return (
       <div className={classes.customTooltip}>
         <div>HsCode: {props.payload[0].payload["hs_code"]}</div>
-        <div>Shipment count: {props.payload[0].payload["shipment_count"]}</div>
+        <div>
+          Shipment count:{" "}
+          {Utils.shipmentsCountString(
+            props.payload[0].payload["shipment_count"]
+          )}
+        </div>
+        <div>
+          Weight:{" "}
+          {props.payload[0].payload["total_kg"]
+            ? new Intl.NumberFormat("en").format(
+                props.payload[0].payload["total_kg"]
+              ) + " KG"
+            : "Unknown"}
+        </div>
         <div>
           Products sales {props.period}: $
           {new Intl.NumberFormat("en").format(

@@ -65,15 +65,16 @@ class TopProducts extends Component {
 
   calcOtherProducts() {
     let otherSum = 0,
-      otherShipments = 0;
+      otherShipments = 0,
+      weightSum = 0;
     let data = this.getData();
 
     for (let i = 0; i < data.length; i++) {
       let item = data[i];
-      const count = Number.parseFloat(item.value_of_goods);
       if (i > 3) {
-        otherSum += count;
+        otherSum += Number.parseFloat(item.value_of_goods);
         otherShipments += Number.parseInt(item.shipment_count);
+        weightSum += item.total_kg ? item.total_kg : 0;
       }
     }
     this.setState({
@@ -83,7 +84,8 @@ class TopProducts extends Component {
               hscode: "",
               hscode_desc: "Others",
               shipment_count: otherShipments,
-              value_of_goods: otherSum
+              value_of_goods: otherSum,
+              total_kg: weightSum
             }
           : null
     });
@@ -265,7 +267,7 @@ class TopProducts extends Component {
                             {prod.total_kg
                               ? new Intl.NumberFormat("en").format(
                                   prod.total_kg
-                                )
+                                ) + " KG"
                               : "Unknown"}
                           </Typography>
                           <Typography className={"fontStyle11"}>
