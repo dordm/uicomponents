@@ -1089,6 +1089,34 @@ class Utils {
     }
   }
 
+  static shipmentsCountString(totalShipments) {
+    if (!totalShipments) {
+      return "Unknown";
+    } else if (totalShipments < 5) {
+      return "Below 5";
+    } else if (totalShipments >= 5 && totalShipments < 10) {
+      return "5 - 10";
+    } else if (totalShipments >= 10 && totalShipments < 20) {
+      return "10 - 20";
+    } else if (totalShipments >= 20 && totalShipments < 50) {
+      return "20 - 50";
+    } else if (totalShipments >= 50 && totalShipments < 100) {
+      return "50 - 100";
+    } else if (totalShipments >= 100 && totalShipments < 200) {
+      return "100 - 200";
+    } else if (totalShipments >= 200 && totalShipments < 500) {
+      return "200 - 500";
+    } else if (totalShipments >= 500 && totalShipments < 1000) {
+      return "500 - 1,000";
+    } else if (totalShipments >= 1000 && totalShipments < 5000) {
+      return "1,000 - 5,000";
+    } else if (totalShipments >= 5000 && totalShipments < 10000) {
+      return "5,000 - 10,000";
+    } else {
+      return "Above 10,000";
+    }
+  }
+
   static calcTaxRating(report) {
     let date = new Date();
     date.setDate(date.getDate() - 180);

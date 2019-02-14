@@ -258,9 +258,15 @@ class TopProducts extends Component {
                         <div>
                           <Typography className={"fontStyle11"}>
                             {"\u2022 "}Shipment count:{" "}
-                            {new Intl.NumberFormat("en").format(
-                              prod.shipment_count
-                            )}
+                            {Utils.shipmentsCountString(prod.shipment_count)}
+                          </Typography>
+                          <Typography className={"fontStyle11"}>
+                            {"\u2022 "}Weight:{" "}
+                            {prod.total_kg
+                              ? new Intl.NumberFormat("en").format(
+                                  prod.total_kg
+                                )
+                              : "Unknown"}
                           </Typography>
                           <Typography className={"fontStyle11"}>
                             {"\u2022 "}Product sales: $
