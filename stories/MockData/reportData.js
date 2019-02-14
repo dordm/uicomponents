@@ -7,1443 +7,1447 @@ const reportData = {
   website: "https://www.blue-carbon.com",
   weibo: "https://www.weibo.com",
   recommendCredit: 15000,
+  registrationCreditCode: "43657145634576547634gbv",
   linkedin: "https://www.linkedin.com",
   wechat: "https://www.wechat.com",
   industry: "Electric Mechinary; export and import; ",
   foreignInvestment: 2,
   numberOfBranches: 3,
-    websiteArchive:{
-        "latestChanges" : [
-            [
-                "urlkey",
-                "timestamp",
-                "original",
-                "mimetype",
-                "statuscode",
-                "digest",
-                "length"
-            ],
-            [
-                "com,jxlogistics)/",
-                "20060830123618",
-                "http://www.jxlogistics.com:80/",
-                "text/html",
-                "200",
-                "E4ETZQLJABA4L6WG6G3O66GSMNQAH76S",
-                "1147"
-            ],
-            [
-                "com,jxlogistics)/",
-                "20060902143121",
-                "http://www.jxlogistics.com:80/",
-                "text/html",
-                "200",
-                "E4ETZQLJABA4L6WG6G3O66GSMNQAH76S",
-                "1146"
-            ],
-            [
-                "com,jxlogistics)/",
-                "20060914074906",
-                "http://www.jxlogistics.com:80/",
-                "text/html",
-                "200",
-                "E4ETZQLJABA4L6WG6G3O66GSMNQAH76S",
-                "1144"
-            ],
-            [
-                "com,jxlogistics)/",
-                "20061004012131",
-                "http://jxlogistics.com:80/",
-                "text/html",
-                "200",
-                "XTPGTHSAME5IYD2CQ4TYTLF2BGFPEFCC",
-                "5497"
-            ],
-            [
-                "com,jxlogistics)/",
-                "20061027044228",
-                "http://www.jxlogistics.com:80/",
-                "text/html",
-                "200",
-                "HJBCB4DDUGAZSSOCVTO5AFPNA4D3TLZJ",
-                "968"
-            ],
-            [
-                "com,jxlogistics)/",
-                "20061030092552",
-                "http://www.jxlogistics.com:80/",
-                "text/html",
-                "200",
-                "HJBCB4DDUGAZSSOCVTO5AFPNA4D3TLZJ",
-                "968"
-            ],
-            [
-                "com,jxlogistics)/",
-                "20061104192030",
-                "http://www.jxlogistics.com:80/",
-                "text/html",
-                "200",
-                "HJBCB4DDUGAZSSOCVTO5AFPNA4D3TLZJ",
-                "973"
-            ],
-            [
-                "com,jxlogistics)/",
-                "20061113122643",
-                "http://www.jxlogistics.com:80/",
-                "text/html",
-                "200",
-                "HJBCB4DDUGAZSSOCVTO5AFPNA4D3TLZJ",
-                "971"
-            ],
-            [
-                "com,jxlogistics)/",
-                "20061113214645",
-                "http://www.jxlogistics.com:80/",
-                "text/html",
-                "200",
-                "HJBCB4DDUGAZSSOCVTO5AFPNA4D3TLZJ",
-                "972"
-            ],
-            [
-                "com,jxlogistics)/",
-                "20061119080657",
-                "http://www.jxlogistics.com:80/",
-                "text/html",
-                "200",
-                "HJBCB4DDUGAZSSOCVTO5AFPNA4D3TLZJ",
-                "972"
-            ],
-            [
-                "com,jxlogistics)/",
-                "20061201001812",
-                "http://www.jxlogistics.com:80/",
-                "text/html",
-                "200",
-                "HJBCB4DDUGAZSSOCVTO5AFPNA4D3TLZJ",
-                "970"
-            ],
-            [
-                "com,jxlogistics)/",
-                "20061205023220",
-                "http://jxlogistics.com:80/",
-                "text/html",
-                "200",
-                "XTPGTHSAME5IYD2CQ4TYTLF2BGFPEFCC",
-                "5498"
-            ],
-            [
-                "com,jxlogistics)/",
-                "20061205083039",
-                "http://www.jxlogistics.com:80/",
-                "text/html",
-                "200",
-                "HJBCB4DDUGAZSSOCVTO5AFPNA4D3TLZJ",
-                "969"
-            ],
-            [
-                "com,jxlogistics)/",
-                "20061209223635",
-                "http://www.jxlogistics.com:80/",
-                "text/html",
-                "200",
-                "HJBCB4DDUGAZSSOCVTO5AFPNA4D3TLZJ",
-                "970"
-            ],
-            [
-                "com,jxlogistics)/",
-                "20061214103414",
-                "http://www.jxlogistics.com:80/",
-                "text/html",
-                "200",
-                "HJBCB4DDUGAZSSOCVTO5AFPNA4D3TLZJ",
-                "969"
-            ],
-            [
-                "com,jxlogistics)/",
-                "20061220003311",
-                "http://www.jxlogistics.com:80/",
-                "text/html",
-                "200",
-                "HJBCB4DDUGAZSSOCVTO5AFPNA4D3TLZJ",
-                "966"
-            ],
-            [
-                "com,jxlogistics)/",
-                "20061224181149",
-                "http://www.jxlogistics.com:80/",
-                "text/html",
-                "200",
-                "HJBCB4DDUGAZSSOCVTO5AFPNA4D3TLZJ",
-                "970"
-            ],
-            [
-                "com,jxlogistics)/",
-                "20070101070120",
-                "http://www.jxlogistics.com:80/",
-                "text/html",
-                "200",
-                "HJBCB4DDUGAZSSOCVTO5AFPNA4D3TLZJ",
-                "972"
-            ],
-            [
-                "com,jxlogistics)/",
-                "20070105194901",
-                "http://www.jxlogistics.com:80/",
-                "text/html",
-                "200",
-                "HJBCB4DDUGAZSSOCVTO5AFPNA4D3TLZJ",
-                "973"
-            ],
-            [
-                "com,jxlogistics)/",
-                "20070110145343",
-                "http://www.jxlogistics.com:80/",
-                "text/html",
-                "200",
-                "HJBCB4DDUGAZSSOCVTO5AFPNA4D3TLZJ",
-                "970"
-            ],
-            [
-                "com,jxlogistics)/",
-                "20070115104553",
-                "http://www.jxlogistics.com:80/",
-                "text/html",
-                "200",
-                "HJBCB4DDUGAZSSOCVTO5AFPNA4D3TLZJ",
-                "973"
-            ],
-            [
-                "com,jxlogistics)/",
-                "20070120120419",
-                "http://www.jxlogistics.com:80/",
-                "text/html",
-                "200",
-                "HJBCB4DDUGAZSSOCVTO5AFPNA4D3TLZJ",
-                "972"
-            ],
-            [
-                "com,jxlogistics)/",
-                "20070125092648",
-                "http://www.jxlogistics.com:80/",
-                "text/html",
-                "200",
-                "HJBCB4DDUGAZSSOCVTO5AFPNA4D3TLZJ",
-                "974"
-            ],
-            [
-                "com,jxlogistics)/",
-                "20070202013227",
-                "http://www.jxlogistics.com:80/",
-                "text/html",
-                "200",
-                "HJBCB4DDUGAZSSOCVTO5AFPNA4D3TLZJ",
-                "973"
-            ],
-            [
-                "com,jxlogistics)/",
-                "20070205025848",
-                "http://www.jxlogistics.com:80/",
-                "text/html",
-                "200",
-                "HJBCB4DDUGAZSSOCVTO5AFPNA4D3TLZJ",
-                "969"
-            ],
-            [
-                "com,jxlogistics)/",
-                "20070210020223",
-                "http://www.jxlogistics.com:80/",
-                "text/html",
-                "200",
-                "HJBCB4DDUGAZSSOCVTO5AFPNA4D3TLZJ",
-                "969"
-            ],
-            [
-                "com,jxlogistics)/",
-                "20070225140047",
-                "http://www.jxlogistics.com:80/",
-                "text/html",
-                "200",
-                "HJBCB4DDUGAZSSOCVTO5AFPNA4D3TLZJ",
-                "973"
-            ],
-            [
-                "com,jxlogistics)/",
-                "20070403224926",
-                "http://www.jxlogistics.com:80/",
-                "text/html",
-                "200",
-                "HJBCB4DDUGAZSSOCVTO5AFPNA4D3TLZJ",
-                "972"
-            ],
-            [
-                "com,jxlogistics)/",
-                "20070429135037",
-                "http://www.jxlogistics.com:80/",
-                "text/html",
-                "200",
-                "HJBCB4DDUGAZSSOCVTO5AFPNA4D3TLZJ",
-                "973"
-            ],
-            [
-                "com,jxlogistics)/",
-                "20070609164221",
-                "http://www.jxlogistics.com:80/",
-                "text/html",
-                "200",
-                "MP3E2JQZ7VD232S2RBCTKD75UI6D4YSX",
-                "977"
-            ],
-            [
-                "com,jxlogistics)/",
-                "20070701215720",
-                "http://www.jxlogistics.com:80/",
-                "text/html",
-                "200",
-                "MP3E2JQZ7VD232S2RBCTKD75UI6D4YSX",
-                "980"
-            ],
-            [
-                "com,jxlogistics)/",
-                "20070710015134",
-                "http://www.jxlogistics.com:80/",
-                "text/html",
-                "200",
-                "JRE43JT5H7K2UZZA3SSX5P5JRZJ5BTCF",
-                "2267"
-            ],
-            [
-                "com,jxlogistics)/",
-                "20070809234208",
-                "http://www.jxlogistics.com:80/",
-                "text/html",
-                "200",
-                "JRE43JT5H7K2UZZA3SSX5P5JRZJ5BTCF",
-                "2269"
-            ],
-            [
-                "com,jxlogistics)/",
-                "20070811235758",
-                "http://www.jxlogistics.com:80/",
-                "text/html",
-                "200",
-                "JRE43JT5H7K2UZZA3SSX5P5JRZJ5BTCF",
-                "2270"
-            ],
-            [
-                "com,jxlogistics)/",
-                "20070909123407",
-                "http://www.jxlogistics.com:80/",
-                "text/html",
-                "200",
-                "YYLP6UF5PRTFSKJIBU4VORZ4QOEJICV5",
-                "2496"
-            ],
-            [
-                "com,jxlogistics)/",
-                "20071010081113",
-                "http://www.jxlogistics.com:80/",
-                "text/html",
-                "200",
-                "YYLP6UF5PRTFSKJIBU4VORZ4QOEJICV5",
-                "2494"
-            ],
-            [
-                "com,jxlogistics)/",
-                "20071014052539",
-                "http://jxlogistics.com:80/",
-                "text/html",
-                "200",
-                "6DS34BLB43IX2PO3WCIEPCHB24NUQJYV",
-                "5441"
-            ],
-            [
-                "com,jxlogistics)/",
-                "20071024122225",
-                "http://www.jxlogistics.com:80/",
-                "text/html",
-                "200",
-                "YYLP6UF5PRTFSKJIBU4VORZ4QOEJICV5",
-                "2493"
-            ],
-            [
-                "com,jxlogistics)/",
-                "20080130045235",
-                "http://www.jxlogistics.com:80/",
-                "text/html",
-                "200",
-                "U5SULE3CMRK252T4TO47626LMLITFBRO",
-                "2530"
-            ],
-            [
-                "com,jxlogistics)/",
-                "20080526013232",
-                "http://www.jxlogistics.com:80/",
-                "text/html",
-                "200",
-                "KBPH5LNTZDVJSDKLXCXN4VPPQV3BUPOI",
-                "2496"
-            ],
-            [
-                "com,jxlogistics)/",
-                "20080723200607",
-                "http://www.jxlogistics.com/",
-                "text/html",
-                "200",
-                "KBPH5LNTZDVJSDKLXCXN4VPPQV3BUPOI",
-                "2637"
-            ],
-            [
-                "com,jxlogistics)/",
-                "20080917113946",
-                "http://www.jxlogistics.com:80/",
-                "text/html",
-                "200",
-                "OQCCAEVMIQA57GB4CH52JNX37UVWLSXX",
-                "2494"
-            ],
-            [
-                "com,jxlogistics)/",
-                "20081019021020",
-                "http://www.jxlogistics.com:80/",
-                "text/html",
-                "200",
-                "OQCCAEVMIQA57GB4CH52JNX37UVWLSXX",
-                "2494"
-            ],
-            [
-                "com,jxlogistics)/",
-                "20090105202625",
-                "http://www.jxlogistics.com:80/",
-                "text/html",
-                "200",
-                "OQCCAEVMIQA57GB4CH52JNX37UVWLSXX",
-                "2498"
-            ],
-            [
-                "com,jxlogistics)/",
-                "20090524114719",
-                "http://www.jxlogistics.com:80/",
-                "text/html",
-                "200",
-                "2ZTDYRS6UZVPFAM3JBXFVNLNXYPH3IPD",
-                "2495"
-            ],
-            [
-                "com,jxlogistics)/",
-                "20090724101728",
-                "http://www.jxlogistics.com:80/",
-                "text/html",
-                "200",
-                "2ZTDYRS6UZVPFAM3JBXFVNLNXYPH3IPD",
-                "2496"
-            ],
-            [
-                "com,jxlogistics)/",
-                "20100105142337",
-                "http://www.jxlogistics.com:80/",
-                "text/html",
-                "200",
-                "IC4RHX2RYYWFO5ILFV5MBORNDHSHP25B",
-                "6946"
-            ],
-            [
-                "com,jxlogistics)/",
-                "20100105142337",
-                "http://www.jxlogistics.com:80/",
-                "text/html",
-                "200",
-                "IC4RHX2RYYWFO5ILFV5MBORNDHSHP25B",
-                "6946"
-            ],
-            [
-                "com,jxlogistics)/",
-                "20100213162528",
-                "http://www.jxlogistics.com:80/",
-                "text/html",
-                "200",
-                "C4M7T4X6HBV463RSBN3LDDTVRNOVSM6S",
-                "364"
-            ],
-            [
-                "com,jxlogistics)/",
-                "20100512101242",
-                "http://jxlogistics.com/",
-                "text/html",
-                "404",
-                "FDT6D5W4INNGHSMOF7NP67MFYJ7IUKQP",
-                "420"
-            ],
-            [
-                "com,jxlogistics)/",
-                "20100909224956",
-                "http://www.jxlogistics.com:80/",
-                "text/html",
-                "200",
-                "C4M7T4X6HBV463RSBN3LDDTVRNOVSM6S",
-                "352"
-            ],
-            [
-                "com,jxlogistics)/",
-                "20101012060946",
-                "http://www.jxlogistics.com:80/",
-                "text/html",
-                "200",
-                "C4M7T4X6HBV463RSBN3LDDTVRNOVSM6S",
-                "351"
-            ],
-            [
-                "com,jxlogistics)/",
-                "20101207142300",
-                "http://www.jxlogistics.com:80/",
-                "text/html",
-                "200",
-                "C4M7T4X6HBV463RSBN3LDDTVRNOVSM6S",
-                "351"
-            ],
-            [
-                "com,jxlogistics)/",
-                "20110202085800",
-                "http://www.jxlogistics.com/",
-                "text/html",
-                "200",
-                "C4M7T4X6HBV463RSBN3LDDTVRNOVSM6S",
-                "491"
-            ],
-            [
-                "com,jxlogistics)/",
-                "20110206012743",
-                "http://www.jxlogistics.com/",
-                "text/html",
-                "200",
-                "C4M7T4X6HBV463RSBN3LDDTVRNOVSM6S",
-                "496"
-            ],
-            [
-                "com,jxlogistics)/",
-                "20110713082447",
-                "http://www.jxlogistics.com:80/",
-                "text/html",
-                "200",
-                "C4M7T4X6HBV463RSBN3LDDTVRNOVSM6S",
-                "348"
-            ],
-            [
-                "com,jxlogistics)/",
-                "20110814091446",
-                "http://www.jxlogistics.com:80/",
-                "text/html",
-                "200",
-                "C4M7T4X6HBV463RSBN3LDDTVRNOVSM6S",
-                "353"
-            ],
-            [
-                "com,jxlogistics)/",
-                "20110814091446",
-                "http://www.jxlogistics.com:80/",
-                "text/html",
-                "200",
-                "C4M7T4X6HBV463RSBN3LDDTVRNOVSM6S",
-                "353"
-            ],
-            [
-                "com,jxlogistics)/",
-                "20110906063301",
-                "http://www.jxlogistics.com:80/",
-                "text/html",
-                "200",
-                "C4M7T4X6HBV463RSBN3LDDTVRNOVSM6S",
-                "354"
-            ],
-            [
-                "com,jxlogistics)/",
-                "20111113224127",
-                "http://www.jxlogistics.com/",
-                "text/html",
-                "200",
-                "C4M7T4X6HBV463RSBN3LDDTVRNOVSM6S",
-                "492"
-            ],
-            [
-                "com,jxlogistics)/",
-                "20120202191931",
-                "http://www.jxlogistics.com:80/",
-                "text/html",
-                "200",
-                "C4M7T4X6HBV463RSBN3LDDTVRNOVSM6S",
-                "350"
-            ],
-            [
-                "com,jxlogistics)/",
-                "20120519050223",
-                "http://www.jxlogistics.com/",
-                "text/html",
-                "200",
-                "C4M7T4X6HBV463RSBN3LDDTVRNOVSM6S",
-                "492"
-            ],
-            [
-                "com,jxlogistics)/",
-                "20120520134850",
-                "http://www.jxlogistics.com/",
-                "text/html",
-                "200",
-                "C4M7T4X6HBV463RSBN3LDDTVRNOVSM6S",
-                "492"
-            ],
-            [
-                "com,jxlogistics)/",
-                "20120702202613",
-                "http://www.jxlogistics.com:80/",
-                "text/html",
-                "200",
-                "C4M7T4X6HBV463RSBN3LDDTVRNOVSM6S",
-                "350"
-            ],
-            [
-                "com,jxlogistics)/",
-                "20121005133158",
-                "http://www.jxlogistics.com:80/",
-                "text/html",
-                "200",
-                "C4M7T4X6HBV463RSBN3LDDTVRNOVSM6S",
-                "348"
-            ],
-            [
-                "com,jxlogistics)/",
-                "20121017161049",
-                "http://www.jxlogistics.com/",
-                "warc/revisit",
-                "-",
-                "C4M7T4X6HBV463RSBN3LDDTVRNOVSM6S",
-                "502"
-            ],
-            [
-                "com,jxlogistics)/",
-                "20121205111817",
-                "http://www.jxlogistics.com:80/",
-                "text/html",
-                "200",
-                "C4M7T4X6HBV463RSBN3LDDTVRNOVSM6S",
-                "359"
-            ],
-            [
-                "com,jxlogistics)/",
-                "20130130161013",
-                "http://www.jxlogistics.com/",
-                "warc/revisit",
-                "-",
-                "C4M7T4X6HBV463RSBN3LDDTVRNOVSM6S",
-                "516"
-            ],
-            [
-                "com,jxlogistics)/",
-                "20130324014920",
-                "http://www.jxlogistics.com/",
-                "warc/revisit",
-                "-",
-                "C4M7T4X6HBV463RSBN3LDDTVRNOVSM6S",
-                "515"
-            ],
-            [
-                "com,jxlogistics)/",
-                "20130425184915",
-                "http://www.jxlogistics.com/",
-                "warc/revisit",
-                "-",
-                "C4M7T4X6HBV463RSBN3LDDTVRNOVSM6S",
-                "515"
-            ],
-            [
-                "com,jxlogistics)/",
-                "20130513163924",
-                "http://www.jxlogistics.com:80/",
-                "text/html",
-                "200",
-                "C4M7T4X6HBV463RSBN3LDDTVRNOVSM6S",
-                "363"
-            ],
-            [
-                "com,jxlogistics)/",
-                "20130602112222",
-                "http://jxlogistics.com/",
-                "text/html",
-                "200",
-                "C4M7T4X6HBV463RSBN3LDDTVRNOVSM6S",
-                "499"
-            ],
-            [
-                "com,jxlogistics)/",
-                "20131023052444",
-                "http://www.jxlogistics.com/",
-                "warc/revisit",
-                "-",
-                "C4M7T4X6HBV463RSBN3LDDTVRNOVSM6S",
-                "513"
-            ],
-            [
-                "com,jxlogistics)/",
-                "20140102031201",
-                "http://jxlogistics.com/",
-                "text/html",
-                "200",
-                "C4M7T4X6HBV463RSBN3LDDTVRNOVSM6S",
-                "502"
-            ],
-            [
-                "com,jxlogistics)/",
-                "20140107065951",
-                "http://www.jxlogistics.com/",
-                "text/html",
-                "200",
-                "C4M7T4X6HBV463RSBN3LDDTVRNOVSM6S",
-                "503"
-            ],
-            [
-                "com,jxlogistics)/",
-                "20140517162944",
-                "http://jxlogistics.com/",
-                "text/html",
-                "200",
-                "C4M7T4X6HBV463RSBN3LDDTVRNOVSM6S",
-                "496"
-            ],
-            [
-                "com,jxlogistics)/",
-                "20140919110627",
-                "http://www.jxlogistics.com/",
-                "text/html",
-                "200",
-                "C4M7T4X6HBV463RSBN3LDDTVRNOVSM6S",
-                "501"
-            ],
-            [
-                "com,jxlogistics)/",
-                "20141024115442",
-                "http://www.jxlogistics.com/",
-                "warc/revisit",
-                "-",
-                "C4M7T4X6HBV463RSBN3LDDTVRNOVSM6S",
-                "512"
-            ],
-            [
-                "com,jxlogistics)/",
-                "20141217132207",
-                "http://jxlogistics.com/",
-                "text/html",
-                "200",
-                "C4M7T4X6HBV463RSBN3LDDTVRNOVSM6S",
-                "487"
-            ],
-            [
-                "com,jxlogistics)/",
-                "20150205035616",
-                "http://www.jxlogistics.com/",
-                "text/html",
-                "200",
-                "C4M7T4X6HBV463RSBN3LDDTVRNOVSM6S",
-                "492"
-            ],
-            [
-                "com,jxlogistics)/",
-                "20150627104513",
-                "http://www.jxlogistics.com/",
-                "warc/revisit",
-                "-",
-                "C4M7T4X6HBV463RSBN3LDDTVRNOVSM6S",
-                "493"
-            ],
-            [
-                "com,jxlogistics)/",
-                "20150812220928",
-                "http://www.jxlogistics.com/",
-                "text/html",
-                "200",
-                "C4M7T4X6HBV463RSBN3LDDTVRNOVSM6S",
-                "491"
-            ],
-            [
-                "com,jxlogistics)/",
-                "20160219092901",
-                "http://www.jxlogistics.com/",
-                "text/html",
-                "200",
-                "C4M7T4X6HBV463RSBN3LDDTVRNOVSM6S",
-                "494"
-            ],
-            [
-                "com,jxlogistics)/",
-                "20160307071010",
-                "http://jxlogistics.com/",
-                "text/html",
-                "404",
-                "UZUJRM3MSTCTOZXGNQNHVLVRJFCH5QED",
-                "559"
-            ],
-            [
-                "com,jxlogistics)/",
-                "20160813224531",
-                "http://www.jxlogistics.com/",
-                "text/html",
-                "200",
-                "C4M7T4X6HBV463RSBN3LDDTVRNOVSM6S",
-                "492"
-            ],
-            [
-                "com,jxlogistics)/",
-                "20160914054050",
-                "http://jxlogistics.com/",
-                "text/html",
-                "404",
-                "UZUJRM3MSTCTOZXGNQNHVLVRJFCH5QED",
-                "559"
-            ],
-            [
-                "com,jxlogistics)/",
-                "20161002043453",
-                "http://jxlogistics.com/",
-                "warc/revisit",
-                "-",
-                "UZUJRM3MSTCTOZXGNQNHVLVRJFCH5QED",
-                "434"
-            ],
-            [
-                "com,jxlogistics)/",
-                "20170407080414",
-                "http://www.jxlogistics.com:80/",
-                "text/html",
-                "200",
-                "C4M7T4X6HBV463RSBN3LDDTVRNOVSM6S",
-                "346"
-            ],
-            [
-                "com,jxlogistics)/",
-                "20170603051710",
-                "http://jxlogistics.com/",
-                "text/html",
-                "404",
-                "UZUJRM3MSTCTOZXGNQNHVLVRJFCH5QED",
-                "559"
-            ],
-            [
-                "com,jxlogistics)/",
-                "20170612080050",
-                "http://www.jxlogistics.com:80/",
-                "text/html",
-                "200",
-                "C4M7T4X6HBV463RSBN3LDDTVRNOVSM6S",
-                "327"
-            ],
-            [
-                "com,jxlogistics)/",
-                "20170915234959",
-                "http://jxlogistics.com/",
-                "text/html",
-                "404",
-                "UZUJRM3MSTCTOZXGNQNHVLVRJFCH5QED",
-                "561"
-            ],
-            [
-                "com,jxlogistics)/",
-                "20171201014302",
-                "http://www.jxlogistics.com:80/",
-                "text/html",
-                "200",
-                "E2JVEVSVBTFYSXSVQTT2AGIAY6K3UX67",
-                "5956"
-            ],
-            [
-                "com,jxlogistics)/",
-                "20171213204242",
-                "http://www.jxlogistics.com:80/",
-                "text/html",
-                "200",
-                "ZALFHCKWGW5MAPCOMO6K7U7LX37QAZJA",
-                "5903"
-            ],
-            [
-                "com,jxlogistics)/",
-                "20171214231717",
-                "http://www.jxlogistics.com:80/",
-                "text/html",
-                "200",
-                "NQ6UFHNSNRHLYP2XFYV4J3ZTYESECRIK",
-                "5952"
-            ],
-            [
-                "com,jxlogistics)/",
-                "20180124021747",
-                "http://www.jxlogistics.com:80/",
-                "text/html",
-                "200",
-                "BRLVSX4QFMXBPAI6JZREVQ7SAIHGKHEW",
-                "5946"
-            ],
-            [
-                "com,jxlogistics)/",
-                "20180224035923",
-                "http://www.jxlogistics.com:80/",
-                "text/html",
-                "200",
-                "BRLVSX4QFMXBPAI6JZREVQ7SAIHGKHEW",
-                "5944"
-            ],
-            [
-                "com,jxlogistics)/",
-                "20180326222046",
-                "http://www.jxlogistics.com:80/",
-                "text/html",
-                "200",
-                "BRLVSX4QFMXBPAI6JZREVQ7SAIHGKHEW",
-                "5945"
-            ],
-            [
-                "com,jxlogistics)/",
-                "20180428012227",
-                "http://www.jxlogistics.com:80/",
-                "text/html",
-                "200",
-                "SON4ZDRD4WGTRYPN7YZEUZ5QARMQDT5J",
-                "6024"
-            ],
-            [
-                "com,jxlogistics)/",
-                "20180805122245",
-                "http://jxlogistics.com/",
-                "text/html",
-                "301",
-                "3I42H3S6NNFQ2MSVX7XZKYAYSCX5QBYJ",
-                "462"
-            ],
-            [
-                "com,jxlogistics)/",
-                "20180818182429",
-                "http://www.jxlogistics.com/",
-                "text/html",
-                "200",
-                "KLEBUDMZTLJ5ZD37NBOBCU6D2PTJ4QGL",
-                "6170"
-            ]
-        ],
-        "metadata" : {
-            "captures" : {
-                "2001" : {
-                    "text/html" : 2
-                },
-                "2002" : {
-                    "image/gif" : 1,
-                    "text/css" : 1,
-                    "text/html" : 36
-                },
-                "2003" : {
-                    "application/x-shockwave-flash" : 1,
-                    "image/gif" : 1,
-                    "text/html" : 35
-                },
-                "2004" : {
-                    "application/x-shockwave-flash" : 7,
-                    "image/gif" : 21,
-                    "image/jpeg" : 12,
-                    "text/html" : 231
-                },
-                "2005" : {
-                    "application/x-shockwave-flash" : 2,
-                    "text/html" : 139
-                },
-                "2006" : {
-                    "application/x-shockwave-flash" : 7,
-                    "image/gif" : 12,
-                    "image/jpeg" : 1,
-                    "text/css" : 1,
-                    "text/html" : 125
-                },
-                "2007" : {
-                    "application/octet-stream" : 1,
-                    "image/gif" : 20,
-                    "image/jpeg" : 45,
-                    "text/css" : 2,
-                    "text/html" : 128
-                },
-                "2008" : {
-                    "text/html" : 25
-                },
-                "2009" : {
-                    "text/html" : 28
-                },
-                "2010" : {
-                    "text/html" : 96
-                },
-                "2011" : {
-                    "text/html" : 94
-                },
-                "2012" : {
-                    "text/html" : 20
-                },
-                "2013" : {
-                    "application/x-shockwave-flash" : 1,
-                    "image/gif" : 21,
-                    "image/jpeg" : 29,
-                    "image/png" : 5,
-                    "text/css" : 2,
-                    "text/html" : 44
-                },
-                "2014" : {
-                    "text/html" : 11
-                },
-                "2015" : {
-                    "image/gif" : 10,
-                    "image/jpeg" : 12,
-                    "text/css" : 3,
-                    "text/html" : 5
-                },
-                "2016" : {
-                    "application/x-shockwave-flash" : 2,
-                    "image/gif" : 35,
-                    "image/jpeg" : 68,
-                    "image/png" : 6,
-                    "text/css" : 4,
-                    "text/html" : 27
-                },
-                "2017" : {
-                    "text/html" : 26
-                },
-                "2018" : {
-                    "image/jpeg" : 16,
-                    "image/png" : 10,
-                    "text/css" : 3,
-                    "text/html" : 42
-                }
-            },
-            "new_urls" : {
-                "2001" : {
-                    "text/html" : 1
-                },
-                "2002" : {
-                    "image/gif" : 1,
-                    "text/css" : 1,
-                    "text/html" : 20
-                },
-                "2003" : {
-                    "application/x-shockwave-flash" : 1,
-                    "text/html" : 3
-                },
-                "2004" : {
-                    "application/x-shockwave-flash" : 2,
-                    "image/gif" : 21,
-                    "image/jpeg" : 12,
-                    "text/html" : 5
-                },
-                "2006" : {
-                    "image/gif" : 12,
-                    "image/jpeg" : 1,
-                    "text/css" : 1,
-                    "text/html" : 20
-                },
-                "2007" : {
-                    "application/octet-stream" : 1,
-                    "image/gif" : 7,
-                    "image/jpeg" : 43,
-                    "text/html" : 21
-                },
-                "2010" : {
-                    "text/html" : 74
-                },
-                "2011" : {
-                    "text/html" : 15
-                },
-                "2012" : {
-                    "text/html" : 1
-                },
-                "2013" : {
-                    "application/x-shockwave-flash" : 1,
-                    "image/gif" : 21,
-                    "image/jpeg" : 29,
-                    "image/png" : 5,
-                    "text/css" : 2,
-                    "text/html" : 22
-                },
-                "2015" : {
-                    "image/gif" : 1,
-                    "image/jpeg" : 2
-                },
-                "2016" : {
-                    "image/jpeg" : 27,
-                    "image/png" : 1,
-                    "text/html" : 2
-                },
-                "2017" : {
-                    "text/html" : 4
-                },
-                "2018" : {
-                    "image/jpeg" : 16,
-                    "image/png" : 10,
-                    "text/css" : 3,
-                    "text/html" : 30
-                }
-            },
-            "timestamp" : "20181116193451",
-            "type" : "host",
-            "urls" : {
-                "2001" : {
-                    "text/html" : 1
-                },
-                "2002" : {
-                    "image/gif" : 1,
-                    "text/css" : 1,
-                    "text/html" : 21
-                },
-                "2003" : {
-                    "application/x-shockwave-flash" : 1,
-                    "image/gif" : 1,
-                    "text/html" : 14
-                },
-                "2004" : {
-                    "application/x-shockwave-flash" : 3,
-                    "image/gif" : 21,
-                    "image/jpeg" : 12,
-                    "text/html" : 29
-                },
-                "2005" : {
-                    "application/x-shockwave-flash" : 1,
-                    "text/html" : 23
-                },
-                "2006" : {
-                    "application/x-shockwave-flash" : 1,
-                    "image/gif" : 12,
-                    "image/jpeg" : 1,
-                    "text/css" : 1,
-                    "text/html" : 25
-                },
-                "2007" : {
-                    "application/octet-stream" : 1,
-                    "image/gif" : 12,
-                    "image/jpeg" : 43,
-                    "text/css" : 1,
-                    "text/html" : 43
-                },
-                "2008" : {
-                    "text/html" : 20
-                },
-                "2009" : {
-                    "text/html" : 21
-                },
-                "2010" : {
-                    "text/html" : 79
-                },
-                "2011" : {
-                    "text/html" : 78
-                },
-                "2012" : {
-                    "text/html" : 9
-                },
-                "2013" : {
-                    "application/x-shockwave-flash" : 1,
-                    "image/gif" : 21,
-                    "image/jpeg" : 29,
-                    "image/png" : 5,
-                    "text/css" : 2,
-                    "text/html" : 28
-                },
-                "2014" : {
-                    "text/html" : 3
-                },
-                "2015" : {
-                    "image/gif" : 9,
-                    "image/jpeg" : 9,
-                    "text/css" : 2,
-                    "text/html" : 2
-                },
-                "2016" : {
-                    "application/x-shockwave-flash" : 1,
-                    "image/gif" : 22,
-                    "image/jpeg" : 55,
-                    "image/png" : 6,
-                    "text/css" : 2,
-                    "text/html" : 24
-                },
-                "2017" : {
-                    "text/html" : 11
-                },
-                "2018" : {
-                    "image/jpeg" : 16,
-                    "image/png" : 10,
-                    "text/css" : 3,
-                    "text/html" : 33
-                }
-            },
-            "urls_total_compressed_size" : {
-                "2001" : {
-                    "text/html" : 677
-                },
-                "2002" : {
-                    "image/gif" : 477,
-                    "text/css" : 449,
-                    "text/html" : 27516
-                },
-                "2003" : {
-                    "application/x-shockwave-flash" : 125263,
-                    "image/gif" : 481,
-                    "text/html" : 20103
-                },
-                "2004" : {
-                    "application/x-shockwave-flash" : 139246,
-                    "image/gif" : 38750,
-                    "image/jpeg" : 146509,
-                    "text/html" : 45194
-                },
-                "2005" : {
-                    "application/x-shockwave-flash" : 125299,
-                    "text/html" : 40825
-                },
-                "2006" : {
-                    "application/x-shockwave-flash" : 125293,
-                    "image/gif" : 52995,
-                    "image/jpeg" : 18609,
-                    "text/css" : 457,
-                    "text/html" : 81314
-                },
-                "2007" : {
-                    "application/octet-stream" : 1697036,
-                    "image/gif" : 59974,
-                    "image/jpeg" : 3792123,
-                    "text/css" : 458,
-                    "text/html" : 128075
-                },
-                "2008" : {
-                    "text/html" : 43926
-                },
-                "2009" : {
-                    "text/html" : 48264
-                },
-                "2010" : {
-                    "text/html" : 348467
-                },
-                "2011" : {
-                    "text/html" : 366406
-                },
-                "2012" : {
-                    "text/html" : 36232
-                },
-                "2013" : {
-                    "application/x-shockwave-flash" : 1426,
-                    "image/gif" : 69863,
-                    "image/jpeg" : 1525062,
-                    "image/png" : 18800,
-                    "text/css" : 6701,
-                    "text/html" : 109564
-                },
-                "2014" : {
-                    "text/html" : 6225
-                },
-                "2015" : {
-                    "image/gif" : 24010,
-                    "image/jpeg" : 767890,
-                    "text/css" : 6689,
-                    "text/html" : 5735
-                },
-                "2016" : {
-                    "application/x-shockwave-flash" : 1426,
-                    "image/gif" : 71005,
-                    "image/jpeg" : 6167402,
-                    "image/png" : 219726,
-                    "text/css" : 6689,
-                    "text/html" : 107968
-                },
-                "2017" : {
-                    "text/html" : 54711
-                },
-                "2018" : {
-                    "image/jpeg" : 1824620,
-                    "image/png" : 5428616,
-                    "text/css" : 7688,
-                    "text/html" : 190012
-                }
-            }
-        }
-    },
-    websiteSimilarWeb:{
-        "global_rank" : [
-            {
-                "date" : "2018-10",
-                "global_rank" : 20558538
-            },
-            {
-                "date" : "2018-11",
-                "global_rank" : 16144988
-            },
-            {
-                "date" : "2018-12",
-                "global_rank" : 22019006
-            }
-        ],
-        "meta" : {
-            "last_updated" : "2018-12-31",
-            "request" : {
-                "country" : "world",
-                "domain" : "jxlogistics.com",
-                "end_date" : "2018-12-31",
-                "format" : null,
-                "limit" : null,
-                "start_date" : "2018-10-01"
-            },
-            "status" : "Success"
-        }
-    },
-    websiteWhoIs:{
-        "WhoisRecord" : {
-            "administrativeContact" : {
-                "city" : "shanghai",
-                "country" : "CHINA",
-                "countryCode" : "CN",
-                "email" : "shenxj@jxlogistics.com",
-                "fax" : "862137620999",
-                "name" : "shen xiaojun",
-                "organization" : "ShangHai JingXingCangChuSheBeiGongChengYouXianGongSi",
-                "postalCode" : "201108",
-                "rawText" : "Admin Name: shen xiaojun\nAdmin Organization: ShangHai JingXingCangChuSheBeiGongChengYouXianGongSi\nAdmin Street: 505 Shennan Road, Xinzhuang Industrial Zone, Shanghai, China\nAdmin City: shanghai\nAdmin State/Province: shanghai\nAdmin Postal Code: 201108\nAdmin Country: CN\nAdmin Phone : +86.2137620999\nAdmin Fax: +86.2137620999\nAdmin Email: shenxj@jxlogistics.com",
-                "state" : "shanghai",
-                "street1" : "505 Shennan Road, Xinzhuang Industrial Zone, Shanghai, China",
-                "telephone" : "862137620999"
-            },
-            "audit" : {
-                "createdDate" : "2019-01-06 16:14:01.934 UTC",
-                "updatedDate" : "2019-01-06 16:14:01.934 UTC"
-            },
-            "contactEmail" : "shenxj@jxlogistics.com",
-            "createdDate" : "2002-06-12T12:07:18Z",
-            "createdDateNormalized" : "2002-06-12 12:07:18 UTC",
-            "customField1Name" : "RegistrarContactEmail",
-            "customField1Value" : "domain@cndns.com",
-            "customField2Name" : "RegistrarContactPhone",
-            "customField2Value" : "+86.2151697771",
-            "customField3Name" : "RegistrarURL",
-            "customField3Value" : "http://www.cndns.com",
-            "domainName" : "jxlogistics.com",
-            "domainNameExt" : ".com",
-            "estimatedDomainAge" : 6052,
-            "expiresDate" : "2023-06-12T12:07:18Z",
-            "expiresDateNormalized" : "2023-06-12 12:07:18 UTC",
-            "footer" : "",
-            "header" : "",
-            "nameServers" : {
-                "hostNames" : [
-                    "a.ezdnscenter.com",
-                    "b.ezdnscenter.com"
-                ],
-                "ips" : [			],
-                "rawText" : "a.ezdnscenter.com\nb.ezdnscenter.com\n"
-            },
-            "parseCode" : 3579,
-            "rawText" : "Domain Name: jxlogistics.com\nRegistry Domain ID: 10021839\nRegistrar WHOIS Server: grs-whois.cndns.com\nRegistrar URL: http://www.cndns.com\nUpdated Date: 2018-05-14T09:18:40Z\nCreate Date: 2002-06-12T12:07:18Z\nRegistrar Registration Expiration Date: 2023-06-12T12:07:18Z\nRegistrar: SHANGHAI MEICHENG TECHNOLOGY INFORMATION DEVELOPMENT CO., LTD.\nRegistrar IANA ID: 1621\nRegistrar Abuse Contact Email: domain@cndns.com\nRegistrar Abuse Contact Phone: +86.2151697771\nReseller: (null)\nDomain Status: ok https://icann.org/epp#ok\nRegistry Registrant ID: \nRegistrant Name: shen xiaojun\nRegistrant Organization: ShangHai JingXingCangChuSheBeiGongChengYouXianGongSi\nRegistrant Street: 505 Shennan Road, Xinzhuang Industrial Zone, Shanghai, China\nRegistrant City: shanghai\nRegistrant State/Province: shanghai\nRegistrant Postal Code: 201108\nRegistrant Country: CN\nRegistrant Phone : +86.2137620999\nRegistrant Phone Ext:\nRegistrant Fax: +86.2137620999\nRegistrant Fax Ext:\nRegistrant Email: shenxj@jxlogistics.com\nRegistry Admin ID: \nAdmin Name: shen xiaojun\nAdmin Organization: ShangHai JingXingCangChuSheBeiGongChengYouXianGongSi\nAdmin Street: 505 Shennan Road, Xinzhuang Industrial Zone, Shanghai, China\nAdmin City: shanghai\nAdmin State/Province: shanghai\nAdmin Postal Code: 201108\nAdmin Country: CN\nAdmin Phone : +86.2137620999\nAdmin Phone Ext:\nAdmin Fax: +86.2137620999\nAdmin Fax Ext:\nAdmin Email: shenxj@jxlogistics.com\nRegistry Tech ID: \nTech Name: shen xiaojun\nTech Organization: ShangHai JingXingCangChuSheBeiGongChengYouXianGongSi\nTech Street: 505 Shennan Road, Xinzhuang Industrial Zone, Shanghai, China\nTech City: shanghai\nTech State/Province: shanghai\nTech Postal Code: 201108\nTech Country: CN\nTech Phone : +86.2137620999\nTech Phone Ext:\nTech Fax: +86.2137620999\nTech Fax Ext:\nTech Email: shenxj@jxlogistics.com\nName Server: a.ezdnscenter.com\nName Server: b.ezdnscenter.com\nDNSSEC:unsigned\nURL of the ICANN WHOIS Data Problem Reporting System: http://wdprs.internic.net/\n>>> Last update of whois database: 2009-05-29T20:15:00Z <<<\nFor more information on Whois status codes, please visit: https://www.icann.org/resources/pages/epp-status-codes-list-2014-06-18-en",
-            "registrant" : {
-                "city" : "shanghai",
-                "country" : "CHINA",
-                "countryCode" : "CN",
-                "email" : "shenxj@jxlogistics.com",
-                "fax" : "862137620999",
-                "name" : "shen xiaojun",
-                "organization" : "ShangHai JingXingCangChuSheBeiGongChengYouXianGongSi",
-                "postalCode" : "201108",
-                "rawText" : "Registrant Name: shen xiaojun\nRegistrant Organization: ShangHai JingXingCangChuSheBeiGongChengYouXianGongSi\nRegistrant Street: 505 Shennan Road, Xinzhuang Industrial Zone, Shanghai, China\nRegistrant City: shanghai\nRegistrant State/Province: shanghai\nRegistrant Postal Code: 201108\nRegistrant Country: CN\nRegistrant Phone : +86.2137620999\nRegistrant Fax: +86.2137620999\nRegistrant Email: shenxj@jxlogistics.com",
-                "state" : "shanghai",
-                "street1" : "505 Shennan Road, Xinzhuang Industrial Zone, Shanghai, China",
-                "telephone" : "862137620999"
-            },
-            "registrarIANAID" : "1621",
-            "registrarName" : "SHANGHAI MEICHENG TECHNOLOGY INFORMATION DEVELOPMENT CO., LTD.",
-            "registryData" : {
-                "audit" : {
-                    "createdDate" : "2019-01-06 16:13:55.161 UTC",
-                    "updatedDate" : "2019-01-06 16:13:55.161 UTC"
-                },
-                "createdDate" : "2002-06-12T04:07:18Z",
-                "createdDateNormalized" : "2002-06-12 04:07:18 UTC",
-                "customField1Name" : "RegistrarContactEmail",
-                "customField1Value" : "domain@cndns.com",
-                "customField2Name" : "RegistrarContactPhone",
-                "customField2Value" : "021-51697771",
-                "customField3Name" : "RegistrarURL",
-                "customField3Value" : "http://www.cndns.com",
-                "domainName" : "jxlogistics.com",
-                "expiresDate" : "2023-06-12T04:07:18Z",
-                "expiresDateNormalized" : "2023-06-12 04:07:18 UTC",
-                "footer" : "",
-                "header" : "",
-                "nameServers" : {
-                    "hostNames" : [
-                        "A.EZDNSCENTER.COM",
-                        "B.EZDNSCENTER.COM"
-                    ],
-                    "ips" : [				],
-                    "rawText" : "A.EZDNSCENTER.COM\nB.EZDNSCENTER.COM\n"
-                },
-                "parseCode" : 251,
-                "rawText" : "Domain Name: JXLOGISTICS.COM\n   Registry Domain ID: 87454812_DOMAIN_COM-VRSN\n   Registrar WHOIS Server: grs-whois.cndns.com\n   Registrar URL: http://www.cndns.com\n   Updated Date: 2018-05-14T01:18:38Z\n   Creation Date: 2002-06-12T04:07:18Z\n   Registry Expiry Date: 2023-06-12T04:07:18Z\n   Registrar: Shanghai Meicheng Technology Information Development Co., Ltd.\n   Registrar IANA ID: 1621\n   Registrar Abuse Contact Email: domain@cndns.com\n   Registrar Abuse Contact Phone: 021-51697771\n   Domain Status: clientTransferProhibited https://icann.org/epp#clientTransferProhibited\n   Name Server: A.EZDNSCENTER.COM\n   Name Server: B.EZDNSCENTER.COM\n   DNSSEC: unsigned\n   URL of the ICANN Whois Inaccuracy Complaint Form: https://www.icann.org/wicf/\n>>> Last update of whois database: 2019-01-06T16:13:42Z <<<\n\nFor more information on Whois status codes, please visit https://icann.org/epp\n\nNOTICE: The expiration date displayed in this record is the date the\nregistrar's sponsorship of the domain name registration in the registry is\ncurrently set to expire. This date does not necessarily reflect the expiration\ndate of the domain name registrant's agreement with the sponsoring\nregistrar.  Users may consult the sponsoring registrar's Whois database to\nview the registrar's reported date of expiration for this registration.\n\nTERMS OF USE: You are not authorized to access or query our Whois\ndatabase through the use of electronic processes that are high-volume and\nautomated except as reasonably necessary to register domain names or\nmodify existing registrations; the Data in VeriSign Global Registry\nServices' (\"VeriSign\") Whois database is provided by VeriSign for\ninformation purposes only, and to assist persons in obtaining information\nabout or related to a domain name registration record. VeriSign does not\nguarantee its accuracy. By submitting a Whois query, you agree to abide\nby the following terms of use: You agree that you may use this Data only\nfor lawful purposes and that under no circumstances will you use this Data\nto: (1) allow, enable, or otherwise support the transmission of mass\nunsolicited, commercial advertising or solicitations via e-mail, telephone,\nor facsimile; or (2) enable high volume, automated, electronic processes\nthat apply to VeriSign (or its computer systems). The compilation,\nrepackaging, dissemination or other use of this Data is expressly\nprohibited without the prior written consent of VeriSign. You agree not to\nuse electronic processes that are automated and high-volume to access or\nquery the Whois database except as reasonably necessary to register\ndomain names or modify existing registrations. VeriSign reserves the right\nto restrict your access to the Whois database in its sole discretion to ensure\noperational stability.  VeriSign may restrict or terminate your access to the\nWhois database for failure to abide by these terms of use. VeriSign\nreserves the right to modify these terms at any time.\n\nThe Registry database contains ONLY .COM, .NET, .EDU domains and\nRegistrars.",
-                "registrarIANAID" : "1621",
-                "registrarName" : "Shanghai Meicheng Technology Information Development Co., Ltd.",
-                "status" : "clientTransferProhibited",
-                "strippedText" : "Domain Name: JXLOGISTICS.COM\nRegistry Domain ID: 87454812_DOMAIN_COM-VRSN\nRegistrar WHOIS Server: grs-whois.cndns.com\nRegistrar URL: http://www.cndns.com\nUpdated Date: 2018-05-14T01:18:38Z\nCreation Date: 2002-06-12T04:07:18Z\nRegistry Expiry Date: 2023-06-12T04:07:18Z\nRegistrar: Shanghai Meicheng Technology Information Development Co., Ltd.\nRegistrar IANA ID: 1621\nRegistrar Abuse Contact Email: domain@cndns.com\nRegistrar Abuse Contact Phone: 021-51697771\nDomain Status: clientTransferProhibited https://icann.org/epp#clientTransferProhibited\nName Server: A.EZDNSCENTER.COM\nName Server: B.EZDNSCENTER.COM\nDNSSEC: unsigned\nURL of the ICANN Whois Inaccuracy Complaint Form: https://www.icann.org/wicf/\n>>> Last update of whois database: 2019-01-06T16:13:42Z <<<\nFor more information on Whois status codes, please visit https://icann.org/epp\nNOTICE: The expiration date displayed in this record is the date the\nregistrar's sponsorship of the domain name registration in the registry is\ncurrently set to expire. This date does not necessarily reflect the expiration\ndate of the domain name registrant's agreement with the sponsoring\nregistrar.  Users may consult the sponsoring registrar's Whois database to\nview the registrar's reported date of expiration for this registration.\nTERMS OF USE: You are not authorized to access or query our Whois\ndatabase through the use of electronic processes that are high-volume and\nautomated except as reasonably necessary to register domain names or\nmodify existing registrations; the Data in VeriSign Global Registry\nServices' (\"VeriSign\") Whois database is provided by VeriSign for\ninformation purposes only, and to assist persons in obtaining information\nabout or related to a domain name registration record. VeriSign does not\nguarantee its accuracy. By submitting a Whois query, you agree to abide\nby the following terms of use: You agree that you may use this Data only\nfor lawful purposes and that under no circumstances will you use this Data\nto: (1) allow, enable, or otherwise support the transmission of mass\nunsolicited, commercial advertising or solicitations via e-mail, telephone,\nor facsimile; or (2) enable high volume, automated, electronic processes\nthat apply to VeriSign (or its computer systems). The compilation,\nrepackaging, dissemination or other use of this Data is expressly\nprohibited without the prior written consent of VeriSign. You agree not to\nuse electronic processes that are automated and high-volume to access or\nquery the Whois database except as reasonably necessary to register\ndomain names or modify existing registrations. VeriSign reserves the right\nto restrict your access to the Whois database in its sole discretion to ensure\noperational stability.  VeriSign may restrict or terminate your access to the\nWhois database for failure to abide by these terms of use. VeriSign\nreserves the right to modify these terms at any time.\nThe Registry database contains ONLY .COM, .NET, .EDU domains and\nRegistrars.\n",
-                "updatedDate" : "2018-05-14T01:18:38Z",
-                "updatedDateNormalized" : "2018-05-14 01:18:38 UTC",
-                "whoisServer" : "grs-whois.cndns.com"
-            },
-            "status" : "ok",
-            "strippedText" : "Domain Name: jxlogistics.com\nRegistrar WHOIS Server: grs-whois.cndns.com\nRegistrar URL: http://www.cndns.com\nUpdated Date: 2018-05-14T09:18:40Z\nCreate Date: 2002-06-12T12:07:18Z\nRegistrar Registration Expiration Date: 2023-06-12T12:07:18Z\nRegistrar: SHANGHAI MEICHENG TECHNOLOGY INFORMATION DEVELOPMENT CO., LTD.\nRegistrar IANA ID: 1621\nRegistrar Abuse Contact Email: domain@cndns.com\nRegistrar Abuse Contact Phone: +86.2151697771\nDomain Status: ok https://icann.org/epp#ok\nRegistrant Name: shen xiaojun\nRegistrant Organization: ShangHai JingXingCangChuSheBeiGongChengYouXianGongSi\nRegistrant Street: 505 Shennan Road, Xinzhuang Industrial Zone, Shanghai, China\nRegistrant City: shanghai\nRegistrant State/Province: shanghai\nRegistrant Postal Code: 201108\nRegistrant Country: CN\nRegistrant Phone : +86.2137620999\nRegistrant Fax: +86.2137620999\nRegistrant Email: shenxj@jxlogistics.com\nAdmin Name: shen xiaojun\nAdmin Organization: ShangHai JingXingCangChuSheBeiGongChengYouXianGongSi\nAdmin Street: 505 Shennan Road, Xinzhuang Industrial Zone, Shanghai, China\nAdmin City: shanghai\nAdmin State/Province: shanghai\nAdmin Postal Code: 201108\nAdmin Country: CN\nAdmin Phone : +86.2137620999\nAdmin Fax: +86.2137620999\nAdmin Email: shenxj@jxlogistics.com\nTech Name: shen xiaojun\nTech Organization: ShangHai JingXingCangChuSheBeiGongChengYouXianGongSi\nTech Street: 505 Shennan Road, Xinzhuang Industrial Zone, Shanghai, China\nTech City: shanghai\nTech State/Province: shanghai\nTech Postal Code: 201108\nTech Country: CN\nTech Phone : +86.2137620999\nTech Fax: +86.2137620999\nTech Email: shenxj@jxlogistics.com\nName Server: a.ezdnscenter.com\nName Server: b.ezdnscenter.com\n",
-            "technicalContact" : {
-                "city" : "shanghai",
-                "country" : "CHINA",
-                "countryCode" : "CN",
-                "email" : "shenxj@jxlogistics.com",
-                "fax" : "862137620999",
-                "name" : "shen xiaojun",
-                "organization" : "ShangHai JingXingCangChuSheBeiGongChengYouXianGongSi",
-                "postalCode" : "201108",
-                "rawText" : "Tech Name: shen xiaojun\nTech Organization: ShangHai JingXingCangChuSheBeiGongChengYouXianGongSi\nTech Street: 505 Shennan Road, Xinzhuang Industrial Zone, Shanghai, China\nTech City: shanghai\nTech State/Province: shanghai\nTech Postal Code: 201108\nTech Country: CN\nTech Phone : +86.2137620999\nTech Fax: +86.2137620999\nTech Email: shenxj@jxlogistics.com",
-                "state" : "shanghai",
-                "street1" : "505 Shennan Road, Xinzhuang Industrial Zone, Shanghai, China",
-                "telephone" : "862137620999"
-            },
-            "updatedDate" : "2018-05-14T09:18:40Z",
-            "updatedDateNormalized" : "2018-05-14 09:18:40 UTC",
-            "whoisServer" : "grs-whois.cndns.com"
-        }
-    },
-    lawEnforcement:[
-        {
-            "court" : "Shanghai Minhang District People's Court",
-            "date" : "2003-10-09",
-            "execMoney" : "¥8134.9",
-            "name" : "Shanghai Jingxing Warehousing Equipment Engineering Co., Ltd.",
-            "num" : "(2003) Min Zizi No. 03563"
-        },
-        {
-            "court" : "Shanghai Minhang District People's Court",
-            "date" : "2005-03-11",
-            "execMoney" : "¥10815.9",
-            "name" : "Shanghai Jingxing Warehousing Equipment Engineering Co., Ltd.",
-            "num" : "(2005) Min Zizi No. 01334"
-        },
-        {
-            "court" : "Shanghai Minhang District People's Court",
-            "date" : "2009-06-24",
-            "execMoney" : "¥10000",
-            "name" : "Shanghai Jingxing Warehousing Equipment Engineering Co., Ltd.",
-            "num" : "(2009) Min Zizi No. 05615"
-        },
-        {
-            "court" : "Shanghai Minhang District People's Court",
-            "date" : "2010-06-11",
-            "execMoney" : "¥1160",
-            "name" : "Shanghai Jingxing Warehousing Equipment Engineering Co., Ltd.",
-            "num" : "(2010) Min Zizi No. 04178"
-        },
-        {
-            "court" : "Shanghai Minhang District People's Court",
-            "date" : "2010-06-12",
-            "execMoney" : "¥39000",
-            "name" : "Shanghai Jingxing Warehousing Equipment Engineering Co., Ltd.",
-            "num" : "(2010) Min Zizi No. 04340"
-        }
+  websiteArchive: {
+    latestChanges: [
+      [
+        "urlkey",
+        "timestamp",
+        "original",
+        "mimetype",
+        "statuscode",
+        "digest",
+        "length"
+      ],
+      [
+        "com,jxlogistics)/",
+        "20060830123618",
+        "http://www.jxlogistics.com:80/",
+        "text/html",
+        "200",
+        "E4ETZQLJABA4L6WG6G3O66GSMNQAH76S",
+        "1147"
+      ],
+      [
+        "com,jxlogistics)/",
+        "20060902143121",
+        "http://www.jxlogistics.com:80/",
+        "text/html",
+        "200",
+        "E4ETZQLJABA4L6WG6G3O66GSMNQAH76S",
+        "1146"
+      ],
+      [
+        "com,jxlogistics)/",
+        "20060914074906",
+        "http://www.jxlogistics.com:80/",
+        "text/html",
+        "200",
+        "E4ETZQLJABA4L6WG6G3O66GSMNQAH76S",
+        "1144"
+      ],
+      [
+        "com,jxlogistics)/",
+        "20061004012131",
+        "http://jxlogistics.com:80/",
+        "text/html",
+        "200",
+        "XTPGTHSAME5IYD2CQ4TYTLF2BGFPEFCC",
+        "5497"
+      ],
+      [
+        "com,jxlogistics)/",
+        "20061027044228",
+        "http://www.jxlogistics.com:80/",
+        "text/html",
+        "200",
+        "HJBCB4DDUGAZSSOCVTO5AFPNA4D3TLZJ",
+        "968"
+      ],
+      [
+        "com,jxlogistics)/",
+        "20061030092552",
+        "http://www.jxlogistics.com:80/",
+        "text/html",
+        "200",
+        "HJBCB4DDUGAZSSOCVTO5AFPNA4D3TLZJ",
+        "968"
+      ],
+      [
+        "com,jxlogistics)/",
+        "20061104192030",
+        "http://www.jxlogistics.com:80/",
+        "text/html",
+        "200",
+        "HJBCB4DDUGAZSSOCVTO5AFPNA4D3TLZJ",
+        "973"
+      ],
+      [
+        "com,jxlogistics)/",
+        "20061113122643",
+        "http://www.jxlogistics.com:80/",
+        "text/html",
+        "200",
+        "HJBCB4DDUGAZSSOCVTO5AFPNA4D3TLZJ",
+        "971"
+      ],
+      [
+        "com,jxlogistics)/",
+        "20061113214645",
+        "http://www.jxlogistics.com:80/",
+        "text/html",
+        "200",
+        "HJBCB4DDUGAZSSOCVTO5AFPNA4D3TLZJ",
+        "972"
+      ],
+      [
+        "com,jxlogistics)/",
+        "20061119080657",
+        "http://www.jxlogistics.com:80/",
+        "text/html",
+        "200",
+        "HJBCB4DDUGAZSSOCVTO5AFPNA4D3TLZJ",
+        "972"
+      ],
+      [
+        "com,jxlogistics)/",
+        "20061201001812",
+        "http://www.jxlogistics.com:80/",
+        "text/html",
+        "200",
+        "HJBCB4DDUGAZSSOCVTO5AFPNA4D3TLZJ",
+        "970"
+      ],
+      [
+        "com,jxlogistics)/",
+        "20061205023220",
+        "http://jxlogistics.com:80/",
+        "text/html",
+        "200",
+        "XTPGTHSAME5IYD2CQ4TYTLF2BGFPEFCC",
+        "5498"
+      ],
+      [
+        "com,jxlogistics)/",
+        "20061205083039",
+        "http://www.jxlogistics.com:80/",
+        "text/html",
+        "200",
+        "HJBCB4DDUGAZSSOCVTO5AFPNA4D3TLZJ",
+        "969"
+      ],
+      [
+        "com,jxlogistics)/",
+        "20061209223635",
+        "http://www.jxlogistics.com:80/",
+        "text/html",
+        "200",
+        "HJBCB4DDUGAZSSOCVTO5AFPNA4D3TLZJ",
+        "970"
+      ],
+      [
+        "com,jxlogistics)/",
+        "20061214103414",
+        "http://www.jxlogistics.com:80/",
+        "text/html",
+        "200",
+        "HJBCB4DDUGAZSSOCVTO5AFPNA4D3TLZJ",
+        "969"
+      ],
+      [
+        "com,jxlogistics)/",
+        "20061220003311",
+        "http://www.jxlogistics.com:80/",
+        "text/html",
+        "200",
+        "HJBCB4DDUGAZSSOCVTO5AFPNA4D3TLZJ",
+        "966"
+      ],
+      [
+        "com,jxlogistics)/",
+        "20061224181149",
+        "http://www.jxlogistics.com:80/",
+        "text/html",
+        "200",
+        "HJBCB4DDUGAZSSOCVTO5AFPNA4D3TLZJ",
+        "970"
+      ],
+      [
+        "com,jxlogistics)/",
+        "20070101070120",
+        "http://www.jxlogistics.com:80/",
+        "text/html",
+        "200",
+        "HJBCB4DDUGAZSSOCVTO5AFPNA4D3TLZJ",
+        "972"
+      ],
+      [
+        "com,jxlogistics)/",
+        "20070105194901",
+        "http://www.jxlogistics.com:80/",
+        "text/html",
+        "200",
+        "HJBCB4DDUGAZSSOCVTO5AFPNA4D3TLZJ",
+        "973"
+      ],
+      [
+        "com,jxlogistics)/",
+        "20070110145343",
+        "http://www.jxlogistics.com:80/",
+        "text/html",
+        "200",
+        "HJBCB4DDUGAZSSOCVTO5AFPNA4D3TLZJ",
+        "970"
+      ],
+      [
+        "com,jxlogistics)/",
+        "20070115104553",
+        "http://www.jxlogistics.com:80/",
+        "text/html",
+        "200",
+        "HJBCB4DDUGAZSSOCVTO5AFPNA4D3TLZJ",
+        "973"
+      ],
+      [
+        "com,jxlogistics)/",
+        "20070120120419",
+        "http://www.jxlogistics.com:80/",
+        "text/html",
+        "200",
+        "HJBCB4DDUGAZSSOCVTO5AFPNA4D3TLZJ",
+        "972"
+      ],
+      [
+        "com,jxlogistics)/",
+        "20070125092648",
+        "http://www.jxlogistics.com:80/",
+        "text/html",
+        "200",
+        "HJBCB4DDUGAZSSOCVTO5AFPNA4D3TLZJ",
+        "974"
+      ],
+      [
+        "com,jxlogistics)/",
+        "20070202013227",
+        "http://www.jxlogistics.com:80/",
+        "text/html",
+        "200",
+        "HJBCB4DDUGAZSSOCVTO5AFPNA4D3TLZJ",
+        "973"
+      ],
+      [
+        "com,jxlogistics)/",
+        "20070205025848",
+        "http://www.jxlogistics.com:80/",
+        "text/html",
+        "200",
+        "HJBCB4DDUGAZSSOCVTO5AFPNA4D3TLZJ",
+        "969"
+      ],
+      [
+        "com,jxlogistics)/",
+        "20070210020223",
+        "http://www.jxlogistics.com:80/",
+        "text/html",
+        "200",
+        "HJBCB4DDUGAZSSOCVTO5AFPNA4D3TLZJ",
+        "969"
+      ],
+      [
+        "com,jxlogistics)/",
+        "20070225140047",
+        "http://www.jxlogistics.com:80/",
+        "text/html",
+        "200",
+        "HJBCB4DDUGAZSSOCVTO5AFPNA4D3TLZJ",
+        "973"
+      ],
+      [
+        "com,jxlogistics)/",
+        "20070403224926",
+        "http://www.jxlogistics.com:80/",
+        "text/html",
+        "200",
+        "HJBCB4DDUGAZSSOCVTO5AFPNA4D3TLZJ",
+        "972"
+      ],
+      [
+        "com,jxlogistics)/",
+        "20070429135037",
+        "http://www.jxlogistics.com:80/",
+        "text/html",
+        "200",
+        "HJBCB4DDUGAZSSOCVTO5AFPNA4D3TLZJ",
+        "973"
+      ],
+      [
+        "com,jxlogistics)/",
+        "20070609164221",
+        "http://www.jxlogistics.com:80/",
+        "text/html",
+        "200",
+        "MP3E2JQZ7VD232S2RBCTKD75UI6D4YSX",
+        "977"
+      ],
+      [
+        "com,jxlogistics)/",
+        "20070701215720",
+        "http://www.jxlogistics.com:80/",
+        "text/html",
+        "200",
+        "MP3E2JQZ7VD232S2RBCTKD75UI6D4YSX",
+        "980"
+      ],
+      [
+        "com,jxlogistics)/",
+        "20070710015134",
+        "http://www.jxlogistics.com:80/",
+        "text/html",
+        "200",
+        "JRE43JT5H7K2UZZA3SSX5P5JRZJ5BTCF",
+        "2267"
+      ],
+      [
+        "com,jxlogistics)/",
+        "20070809234208",
+        "http://www.jxlogistics.com:80/",
+        "text/html",
+        "200",
+        "JRE43JT5H7K2UZZA3SSX5P5JRZJ5BTCF",
+        "2269"
+      ],
+      [
+        "com,jxlogistics)/",
+        "20070811235758",
+        "http://www.jxlogistics.com:80/",
+        "text/html",
+        "200",
+        "JRE43JT5H7K2UZZA3SSX5P5JRZJ5BTCF",
+        "2270"
+      ],
+      [
+        "com,jxlogistics)/",
+        "20070909123407",
+        "http://www.jxlogistics.com:80/",
+        "text/html",
+        "200",
+        "YYLP6UF5PRTFSKJIBU4VORZ4QOEJICV5",
+        "2496"
+      ],
+      [
+        "com,jxlogistics)/",
+        "20071010081113",
+        "http://www.jxlogistics.com:80/",
+        "text/html",
+        "200",
+        "YYLP6UF5PRTFSKJIBU4VORZ4QOEJICV5",
+        "2494"
+      ],
+      [
+        "com,jxlogistics)/",
+        "20071014052539",
+        "http://jxlogistics.com:80/",
+        "text/html",
+        "200",
+        "6DS34BLB43IX2PO3WCIEPCHB24NUQJYV",
+        "5441"
+      ],
+      [
+        "com,jxlogistics)/",
+        "20071024122225",
+        "http://www.jxlogistics.com:80/",
+        "text/html",
+        "200",
+        "YYLP6UF5PRTFSKJIBU4VORZ4QOEJICV5",
+        "2493"
+      ],
+      [
+        "com,jxlogistics)/",
+        "20080130045235",
+        "http://www.jxlogistics.com:80/",
+        "text/html",
+        "200",
+        "U5SULE3CMRK252T4TO47626LMLITFBRO",
+        "2530"
+      ],
+      [
+        "com,jxlogistics)/",
+        "20080526013232",
+        "http://www.jxlogistics.com:80/",
+        "text/html",
+        "200",
+        "KBPH5LNTZDVJSDKLXCXN4VPPQV3BUPOI",
+        "2496"
+      ],
+      [
+        "com,jxlogistics)/",
+        "20080723200607",
+        "http://www.jxlogistics.com/",
+        "text/html",
+        "200",
+        "KBPH5LNTZDVJSDKLXCXN4VPPQV3BUPOI",
+        "2637"
+      ],
+      [
+        "com,jxlogistics)/",
+        "20080917113946",
+        "http://www.jxlogistics.com:80/",
+        "text/html",
+        "200",
+        "OQCCAEVMIQA57GB4CH52JNX37UVWLSXX",
+        "2494"
+      ],
+      [
+        "com,jxlogistics)/",
+        "20081019021020",
+        "http://www.jxlogistics.com:80/",
+        "text/html",
+        "200",
+        "OQCCAEVMIQA57GB4CH52JNX37UVWLSXX",
+        "2494"
+      ],
+      [
+        "com,jxlogistics)/",
+        "20090105202625",
+        "http://www.jxlogistics.com:80/",
+        "text/html",
+        "200",
+        "OQCCAEVMIQA57GB4CH52JNX37UVWLSXX",
+        "2498"
+      ],
+      [
+        "com,jxlogistics)/",
+        "20090524114719",
+        "http://www.jxlogistics.com:80/",
+        "text/html",
+        "200",
+        "2ZTDYRS6UZVPFAM3JBXFVNLNXYPH3IPD",
+        "2495"
+      ],
+      [
+        "com,jxlogistics)/",
+        "20090724101728",
+        "http://www.jxlogistics.com:80/",
+        "text/html",
+        "200",
+        "2ZTDYRS6UZVPFAM3JBXFVNLNXYPH3IPD",
+        "2496"
+      ],
+      [
+        "com,jxlogistics)/",
+        "20100105142337",
+        "http://www.jxlogistics.com:80/",
+        "text/html",
+        "200",
+        "IC4RHX2RYYWFO5ILFV5MBORNDHSHP25B",
+        "6946"
+      ],
+      [
+        "com,jxlogistics)/",
+        "20100105142337",
+        "http://www.jxlogistics.com:80/",
+        "text/html",
+        "200",
+        "IC4RHX2RYYWFO5ILFV5MBORNDHSHP25B",
+        "6946"
+      ],
+      [
+        "com,jxlogistics)/",
+        "20100213162528",
+        "http://www.jxlogistics.com:80/",
+        "text/html",
+        "200",
+        "C4M7T4X6HBV463RSBN3LDDTVRNOVSM6S",
+        "364"
+      ],
+      [
+        "com,jxlogistics)/",
+        "20100512101242",
+        "http://jxlogistics.com/",
+        "text/html",
+        "404",
+        "FDT6D5W4INNGHSMOF7NP67MFYJ7IUKQP",
+        "420"
+      ],
+      [
+        "com,jxlogistics)/",
+        "20100909224956",
+        "http://www.jxlogistics.com:80/",
+        "text/html",
+        "200",
+        "C4M7T4X6HBV463RSBN3LDDTVRNOVSM6S",
+        "352"
+      ],
+      [
+        "com,jxlogistics)/",
+        "20101012060946",
+        "http://www.jxlogistics.com:80/",
+        "text/html",
+        "200",
+        "C4M7T4X6HBV463RSBN3LDDTVRNOVSM6S",
+        "351"
+      ],
+      [
+        "com,jxlogistics)/",
+        "20101207142300",
+        "http://www.jxlogistics.com:80/",
+        "text/html",
+        "200",
+        "C4M7T4X6HBV463RSBN3LDDTVRNOVSM6S",
+        "351"
+      ],
+      [
+        "com,jxlogistics)/",
+        "20110202085800",
+        "http://www.jxlogistics.com/",
+        "text/html",
+        "200",
+        "C4M7T4X6HBV463RSBN3LDDTVRNOVSM6S",
+        "491"
+      ],
+      [
+        "com,jxlogistics)/",
+        "20110206012743",
+        "http://www.jxlogistics.com/",
+        "text/html",
+        "200",
+        "C4M7T4X6HBV463RSBN3LDDTVRNOVSM6S",
+        "496"
+      ],
+      [
+        "com,jxlogistics)/",
+        "20110713082447",
+        "http://www.jxlogistics.com:80/",
+        "text/html",
+        "200",
+        "C4M7T4X6HBV463RSBN3LDDTVRNOVSM6S",
+        "348"
+      ],
+      [
+        "com,jxlogistics)/",
+        "20110814091446",
+        "http://www.jxlogistics.com:80/",
+        "text/html",
+        "200",
+        "C4M7T4X6HBV463RSBN3LDDTVRNOVSM6S",
+        "353"
+      ],
+      [
+        "com,jxlogistics)/",
+        "20110814091446",
+        "http://www.jxlogistics.com:80/",
+        "text/html",
+        "200",
+        "C4M7T4X6HBV463RSBN3LDDTVRNOVSM6S",
+        "353"
+      ],
+      [
+        "com,jxlogistics)/",
+        "20110906063301",
+        "http://www.jxlogistics.com:80/",
+        "text/html",
+        "200",
+        "C4M7T4X6HBV463RSBN3LDDTVRNOVSM6S",
+        "354"
+      ],
+      [
+        "com,jxlogistics)/",
+        "20111113224127",
+        "http://www.jxlogistics.com/",
+        "text/html",
+        "200",
+        "C4M7T4X6HBV463RSBN3LDDTVRNOVSM6S",
+        "492"
+      ],
+      [
+        "com,jxlogistics)/",
+        "20120202191931",
+        "http://www.jxlogistics.com:80/",
+        "text/html",
+        "200",
+        "C4M7T4X6HBV463RSBN3LDDTVRNOVSM6S",
+        "350"
+      ],
+      [
+        "com,jxlogistics)/",
+        "20120519050223",
+        "http://www.jxlogistics.com/",
+        "text/html",
+        "200",
+        "C4M7T4X6HBV463RSBN3LDDTVRNOVSM6S",
+        "492"
+      ],
+      [
+        "com,jxlogistics)/",
+        "20120520134850",
+        "http://www.jxlogistics.com/",
+        "text/html",
+        "200",
+        "C4M7T4X6HBV463RSBN3LDDTVRNOVSM6S",
+        "492"
+      ],
+      [
+        "com,jxlogistics)/",
+        "20120702202613",
+        "http://www.jxlogistics.com:80/",
+        "text/html",
+        "200",
+        "C4M7T4X6HBV463RSBN3LDDTVRNOVSM6S",
+        "350"
+      ],
+      [
+        "com,jxlogistics)/",
+        "20121005133158",
+        "http://www.jxlogistics.com:80/",
+        "text/html",
+        "200",
+        "C4M7T4X6HBV463RSBN3LDDTVRNOVSM6S",
+        "348"
+      ],
+      [
+        "com,jxlogistics)/",
+        "20121017161049",
+        "http://www.jxlogistics.com/",
+        "warc/revisit",
+        "-",
+        "C4M7T4X6HBV463RSBN3LDDTVRNOVSM6S",
+        "502"
+      ],
+      [
+        "com,jxlogistics)/",
+        "20121205111817",
+        "http://www.jxlogistics.com:80/",
+        "text/html",
+        "200",
+        "C4M7T4X6HBV463RSBN3LDDTVRNOVSM6S",
+        "359"
+      ],
+      [
+        "com,jxlogistics)/",
+        "20130130161013",
+        "http://www.jxlogistics.com/",
+        "warc/revisit",
+        "-",
+        "C4M7T4X6HBV463RSBN3LDDTVRNOVSM6S",
+        "516"
+      ],
+      [
+        "com,jxlogistics)/",
+        "20130324014920",
+        "http://www.jxlogistics.com/",
+        "warc/revisit",
+        "-",
+        "C4M7T4X6HBV463RSBN3LDDTVRNOVSM6S",
+        "515"
+      ],
+      [
+        "com,jxlogistics)/",
+        "20130425184915",
+        "http://www.jxlogistics.com/",
+        "warc/revisit",
+        "-",
+        "C4M7T4X6HBV463RSBN3LDDTVRNOVSM6S",
+        "515"
+      ],
+      [
+        "com,jxlogistics)/",
+        "20130513163924",
+        "http://www.jxlogistics.com:80/",
+        "text/html",
+        "200",
+        "C4M7T4X6HBV463RSBN3LDDTVRNOVSM6S",
+        "363"
+      ],
+      [
+        "com,jxlogistics)/",
+        "20130602112222",
+        "http://jxlogistics.com/",
+        "text/html",
+        "200",
+        "C4M7T4X6HBV463RSBN3LDDTVRNOVSM6S",
+        "499"
+      ],
+      [
+        "com,jxlogistics)/",
+        "20131023052444",
+        "http://www.jxlogistics.com/",
+        "warc/revisit",
+        "-",
+        "C4M7T4X6HBV463RSBN3LDDTVRNOVSM6S",
+        "513"
+      ],
+      [
+        "com,jxlogistics)/",
+        "20140102031201",
+        "http://jxlogistics.com/",
+        "text/html",
+        "200",
+        "C4M7T4X6HBV463RSBN3LDDTVRNOVSM6S",
+        "502"
+      ],
+      [
+        "com,jxlogistics)/",
+        "20140107065951",
+        "http://www.jxlogistics.com/",
+        "text/html",
+        "200",
+        "C4M7T4X6HBV463RSBN3LDDTVRNOVSM6S",
+        "503"
+      ],
+      [
+        "com,jxlogistics)/",
+        "20140517162944",
+        "http://jxlogistics.com/",
+        "text/html",
+        "200",
+        "C4M7T4X6HBV463RSBN3LDDTVRNOVSM6S",
+        "496"
+      ],
+      [
+        "com,jxlogistics)/",
+        "20140919110627",
+        "http://www.jxlogistics.com/",
+        "text/html",
+        "200",
+        "C4M7T4X6HBV463RSBN3LDDTVRNOVSM6S",
+        "501"
+      ],
+      [
+        "com,jxlogistics)/",
+        "20141024115442",
+        "http://www.jxlogistics.com/",
+        "warc/revisit",
+        "-",
+        "C4M7T4X6HBV463RSBN3LDDTVRNOVSM6S",
+        "512"
+      ],
+      [
+        "com,jxlogistics)/",
+        "20141217132207",
+        "http://jxlogistics.com/",
+        "text/html",
+        "200",
+        "C4M7T4X6HBV463RSBN3LDDTVRNOVSM6S",
+        "487"
+      ],
+      [
+        "com,jxlogistics)/",
+        "20150205035616",
+        "http://www.jxlogistics.com/",
+        "text/html",
+        "200",
+        "C4M7T4X6HBV463RSBN3LDDTVRNOVSM6S",
+        "492"
+      ],
+      [
+        "com,jxlogistics)/",
+        "20150627104513",
+        "http://www.jxlogistics.com/",
+        "warc/revisit",
+        "-",
+        "C4M7T4X6HBV463RSBN3LDDTVRNOVSM6S",
+        "493"
+      ],
+      [
+        "com,jxlogistics)/",
+        "20150812220928",
+        "http://www.jxlogistics.com/",
+        "text/html",
+        "200",
+        "C4M7T4X6HBV463RSBN3LDDTVRNOVSM6S",
+        "491"
+      ],
+      [
+        "com,jxlogistics)/",
+        "20160219092901",
+        "http://www.jxlogistics.com/",
+        "text/html",
+        "200",
+        "C4M7T4X6HBV463RSBN3LDDTVRNOVSM6S",
+        "494"
+      ],
+      [
+        "com,jxlogistics)/",
+        "20160307071010",
+        "http://jxlogistics.com/",
+        "text/html",
+        "404",
+        "UZUJRM3MSTCTOZXGNQNHVLVRJFCH5QED",
+        "559"
+      ],
+      [
+        "com,jxlogistics)/",
+        "20160813224531",
+        "http://www.jxlogistics.com/",
+        "text/html",
+        "200",
+        "C4M7T4X6HBV463RSBN3LDDTVRNOVSM6S",
+        "492"
+      ],
+      [
+        "com,jxlogistics)/",
+        "20160914054050",
+        "http://jxlogistics.com/",
+        "text/html",
+        "404",
+        "UZUJRM3MSTCTOZXGNQNHVLVRJFCH5QED",
+        "559"
+      ],
+      [
+        "com,jxlogistics)/",
+        "20161002043453",
+        "http://jxlogistics.com/",
+        "warc/revisit",
+        "-",
+        "UZUJRM3MSTCTOZXGNQNHVLVRJFCH5QED",
+        "434"
+      ],
+      [
+        "com,jxlogistics)/",
+        "20170407080414",
+        "http://www.jxlogistics.com:80/",
+        "text/html",
+        "200",
+        "C4M7T4X6HBV463RSBN3LDDTVRNOVSM6S",
+        "346"
+      ],
+      [
+        "com,jxlogistics)/",
+        "20170603051710",
+        "http://jxlogistics.com/",
+        "text/html",
+        "404",
+        "UZUJRM3MSTCTOZXGNQNHVLVRJFCH5QED",
+        "559"
+      ],
+      [
+        "com,jxlogistics)/",
+        "20170612080050",
+        "http://www.jxlogistics.com:80/",
+        "text/html",
+        "200",
+        "C4M7T4X6HBV463RSBN3LDDTVRNOVSM6S",
+        "327"
+      ],
+      [
+        "com,jxlogistics)/",
+        "20170915234959",
+        "http://jxlogistics.com/",
+        "text/html",
+        "404",
+        "UZUJRM3MSTCTOZXGNQNHVLVRJFCH5QED",
+        "561"
+      ],
+      [
+        "com,jxlogistics)/",
+        "20171201014302",
+        "http://www.jxlogistics.com:80/",
+        "text/html",
+        "200",
+        "E2JVEVSVBTFYSXSVQTT2AGIAY6K3UX67",
+        "5956"
+      ],
+      [
+        "com,jxlogistics)/",
+        "20171213204242",
+        "http://www.jxlogistics.com:80/",
+        "text/html",
+        "200",
+        "ZALFHCKWGW5MAPCOMO6K7U7LX37QAZJA",
+        "5903"
+      ],
+      [
+        "com,jxlogistics)/",
+        "20171214231717",
+        "http://www.jxlogistics.com:80/",
+        "text/html",
+        "200",
+        "NQ6UFHNSNRHLYP2XFYV4J3ZTYESECRIK",
+        "5952"
+      ],
+      [
+        "com,jxlogistics)/",
+        "20180124021747",
+        "http://www.jxlogistics.com:80/",
+        "text/html",
+        "200",
+        "BRLVSX4QFMXBPAI6JZREVQ7SAIHGKHEW",
+        "5946"
+      ],
+      [
+        "com,jxlogistics)/",
+        "20180224035923",
+        "http://www.jxlogistics.com:80/",
+        "text/html",
+        "200",
+        "BRLVSX4QFMXBPAI6JZREVQ7SAIHGKHEW",
+        "5944"
+      ],
+      [
+        "com,jxlogistics)/",
+        "20180326222046",
+        "http://www.jxlogistics.com:80/",
+        "text/html",
+        "200",
+        "BRLVSX4QFMXBPAI6JZREVQ7SAIHGKHEW",
+        "5945"
+      ],
+      [
+        "com,jxlogistics)/",
+        "20180428012227",
+        "http://www.jxlogistics.com:80/",
+        "text/html",
+        "200",
+        "SON4ZDRD4WGTRYPN7YZEUZ5QARMQDT5J",
+        "6024"
+      ],
+      [
+        "com,jxlogistics)/",
+        "20180805122245",
+        "http://jxlogistics.com/",
+        "text/html",
+        "301",
+        "3I42H3S6NNFQ2MSVX7XZKYAYSCX5QBYJ",
+        "462"
+      ],
+      [
+        "com,jxlogistics)/",
+        "20180818182429",
+        "http://www.jxlogistics.com/",
+        "text/html",
+        "200",
+        "KLEBUDMZTLJ5ZD37NBOBCU6D2PTJ4QGL",
+        "6170"
+      ]
     ],
+    metadata: {
+      captures: {
+        "2001": {
+          "text/html": 2
+        },
+        "2002": {
+          "image/gif": 1,
+          "text/css": 1,
+          "text/html": 36
+        },
+        "2003": {
+          "application/x-shockwave-flash": 1,
+          "image/gif": 1,
+          "text/html": 35
+        },
+        "2004": {
+          "application/x-shockwave-flash": 7,
+          "image/gif": 21,
+          "image/jpeg": 12,
+          "text/html": 231
+        },
+        "2005": {
+          "application/x-shockwave-flash": 2,
+          "text/html": 139
+        },
+        "2006": {
+          "application/x-shockwave-flash": 7,
+          "image/gif": 12,
+          "image/jpeg": 1,
+          "text/css": 1,
+          "text/html": 125
+        },
+        "2007": {
+          "application/octet-stream": 1,
+          "image/gif": 20,
+          "image/jpeg": 45,
+          "text/css": 2,
+          "text/html": 128
+        },
+        "2008": {
+          "text/html": 25
+        },
+        "2009": {
+          "text/html": 28
+        },
+        "2010": {
+          "text/html": 96
+        },
+        "2011": {
+          "text/html": 94
+        },
+        "2012": {
+          "text/html": 20
+        },
+        "2013": {
+          "application/x-shockwave-flash": 1,
+          "image/gif": 21,
+          "image/jpeg": 29,
+          "image/png": 5,
+          "text/css": 2,
+          "text/html": 44
+        },
+        "2014": {
+          "text/html": 11
+        },
+        "2015": {
+          "image/gif": 10,
+          "image/jpeg": 12,
+          "text/css": 3,
+          "text/html": 5
+        },
+        "2016": {
+          "application/x-shockwave-flash": 2,
+          "image/gif": 35,
+          "image/jpeg": 68,
+          "image/png": 6,
+          "text/css": 4,
+          "text/html": 27
+        },
+        "2017": {
+          "text/html": 26
+        },
+        "2018": {
+          "image/jpeg": 16,
+          "image/png": 10,
+          "text/css": 3,
+          "text/html": 42
+        }
+      },
+      new_urls: {
+        "2001": {
+          "text/html": 1
+        },
+        "2002": {
+          "image/gif": 1,
+          "text/css": 1,
+          "text/html": 20
+        },
+        "2003": {
+          "application/x-shockwave-flash": 1,
+          "text/html": 3
+        },
+        "2004": {
+          "application/x-shockwave-flash": 2,
+          "image/gif": 21,
+          "image/jpeg": 12,
+          "text/html": 5
+        },
+        "2006": {
+          "image/gif": 12,
+          "image/jpeg": 1,
+          "text/css": 1,
+          "text/html": 20
+        },
+        "2007": {
+          "application/octet-stream": 1,
+          "image/gif": 7,
+          "image/jpeg": 43,
+          "text/html": 21
+        },
+        "2010": {
+          "text/html": 74
+        },
+        "2011": {
+          "text/html": 15
+        },
+        "2012": {
+          "text/html": 1
+        },
+        "2013": {
+          "application/x-shockwave-flash": 1,
+          "image/gif": 21,
+          "image/jpeg": 29,
+          "image/png": 5,
+          "text/css": 2,
+          "text/html": 22
+        },
+        "2015": {
+          "image/gif": 1,
+          "image/jpeg": 2
+        },
+        "2016": {
+          "image/jpeg": 27,
+          "image/png": 1,
+          "text/html": 2
+        },
+        "2017": {
+          "text/html": 4
+        },
+        "2018": {
+          "image/jpeg": 16,
+          "image/png": 10,
+          "text/css": 3,
+          "text/html": 30
+        }
+      },
+      timestamp: "20181116193451",
+      type: "host",
+      urls: {
+        "2001": {
+          "text/html": 1
+        },
+        "2002": {
+          "image/gif": 1,
+          "text/css": 1,
+          "text/html": 21
+        },
+        "2003": {
+          "application/x-shockwave-flash": 1,
+          "image/gif": 1,
+          "text/html": 14
+        },
+        "2004": {
+          "application/x-shockwave-flash": 3,
+          "image/gif": 21,
+          "image/jpeg": 12,
+          "text/html": 29
+        },
+        "2005": {
+          "application/x-shockwave-flash": 1,
+          "text/html": 23
+        },
+        "2006": {
+          "application/x-shockwave-flash": 1,
+          "image/gif": 12,
+          "image/jpeg": 1,
+          "text/css": 1,
+          "text/html": 25
+        },
+        "2007": {
+          "application/octet-stream": 1,
+          "image/gif": 12,
+          "image/jpeg": 43,
+          "text/css": 1,
+          "text/html": 43
+        },
+        "2008": {
+          "text/html": 20
+        },
+        "2009": {
+          "text/html": 21
+        },
+        "2010": {
+          "text/html": 79
+        },
+        "2011": {
+          "text/html": 78
+        },
+        "2012": {
+          "text/html": 9
+        },
+        "2013": {
+          "application/x-shockwave-flash": 1,
+          "image/gif": 21,
+          "image/jpeg": 29,
+          "image/png": 5,
+          "text/css": 2,
+          "text/html": 28
+        },
+        "2014": {
+          "text/html": 3
+        },
+        "2015": {
+          "image/gif": 9,
+          "image/jpeg": 9,
+          "text/css": 2,
+          "text/html": 2
+        },
+        "2016": {
+          "application/x-shockwave-flash": 1,
+          "image/gif": 22,
+          "image/jpeg": 55,
+          "image/png": 6,
+          "text/css": 2,
+          "text/html": 24
+        },
+        "2017": {
+          "text/html": 11
+        },
+        "2018": {
+          "image/jpeg": 16,
+          "image/png": 10,
+          "text/css": 3,
+          "text/html": 33
+        }
+      },
+      urls_total_compressed_size: {
+        "2001": {
+          "text/html": 677
+        },
+        "2002": {
+          "image/gif": 477,
+          "text/css": 449,
+          "text/html": 27516
+        },
+        "2003": {
+          "application/x-shockwave-flash": 125263,
+          "image/gif": 481,
+          "text/html": 20103
+        },
+        "2004": {
+          "application/x-shockwave-flash": 139246,
+          "image/gif": 38750,
+          "image/jpeg": 146509,
+          "text/html": 45194
+        },
+        "2005": {
+          "application/x-shockwave-flash": 125299,
+          "text/html": 40825
+        },
+        "2006": {
+          "application/x-shockwave-flash": 125293,
+          "image/gif": 52995,
+          "image/jpeg": 18609,
+          "text/css": 457,
+          "text/html": 81314
+        },
+        "2007": {
+          "application/octet-stream": 1697036,
+          "image/gif": 59974,
+          "image/jpeg": 3792123,
+          "text/css": 458,
+          "text/html": 128075
+        },
+        "2008": {
+          "text/html": 43926
+        },
+        "2009": {
+          "text/html": 48264
+        },
+        "2010": {
+          "text/html": 348467
+        },
+        "2011": {
+          "text/html": 366406
+        },
+        "2012": {
+          "text/html": 36232
+        },
+        "2013": {
+          "application/x-shockwave-flash": 1426,
+          "image/gif": 69863,
+          "image/jpeg": 1525062,
+          "image/png": 18800,
+          "text/css": 6701,
+          "text/html": 109564
+        },
+        "2014": {
+          "text/html": 6225
+        },
+        "2015": {
+          "image/gif": 24010,
+          "image/jpeg": 767890,
+          "text/css": 6689,
+          "text/html": 5735
+        },
+        "2016": {
+          "application/x-shockwave-flash": 1426,
+          "image/gif": 71005,
+          "image/jpeg": 6167402,
+          "image/png": 219726,
+          "text/css": 6689,
+          "text/html": 107968
+        },
+        "2017": {
+          "text/html": 54711
+        },
+        "2018": {
+          "image/jpeg": 1824620,
+          "image/png": 5428616,
+          "text/css": 7688,
+          "text/html": 190012
+        }
+      }
+    }
+  },
+  websiteSimilarWeb: {
+    global_rank: [
+      {
+        date: "2018-10",
+        global_rank: 20558538
+      },
+      {
+        date: "2018-11",
+        global_rank: 16144988
+      },
+      {
+        date: "2018-12",
+        global_rank: 22019006
+      }
+    ],
+    meta: {
+      last_updated: "2018-12-31",
+      request: {
+        country: "world",
+        domain: "jxlogistics.com",
+        end_date: "2018-12-31",
+        format: null,
+        limit: null,
+        start_date: "2018-10-01"
+      },
+      status: "Success"
+    }
+  },
+  websiteWhoIs: {
+    WhoisRecord: {
+      administrativeContact: {
+        city: "shanghai",
+        country: "CHINA",
+        countryCode: "CN",
+        email: "shenxj@jxlogistics.com",
+        fax: "862137620999",
+        name: "shen xiaojun",
+        organization: "ShangHai JingXingCangChuSheBeiGongChengYouXianGongSi",
+        postalCode: "201108",
+        rawText:
+          "Admin Name: shen xiaojun\nAdmin Organization: ShangHai JingXingCangChuSheBeiGongChengYouXianGongSi\nAdmin Street: 505 Shennan Road, Xinzhuang Industrial Zone, Shanghai, China\nAdmin City: shanghai\nAdmin State/Province: shanghai\nAdmin Postal Code: 201108\nAdmin Country: CN\nAdmin Phone : +86.2137620999\nAdmin Fax: +86.2137620999\nAdmin Email: shenxj@jxlogistics.com",
+        state: "shanghai",
+        street1: "505 Shennan Road, Xinzhuang Industrial Zone, Shanghai, China",
+        telephone: "862137620999"
+      },
+      audit: {
+        createdDate: "2019-01-06 16:14:01.934 UTC",
+        updatedDate: "2019-01-06 16:14:01.934 UTC"
+      },
+      contactEmail: "shenxj@jxlogistics.com",
+      createdDate: "2002-06-12T12:07:18Z",
+      createdDateNormalized: "2002-06-12 12:07:18 UTC",
+      customField1Name: "RegistrarContactEmail",
+      customField1Value: "domain@cndns.com",
+      customField2Name: "RegistrarContactPhone",
+      customField2Value: "+86.2151697771",
+      customField3Name: "RegistrarURL",
+      customField3Value: "http://www.cndns.com",
+      domainName: "jxlogistics.com",
+      domainNameExt: ".com",
+      estimatedDomainAge: 6052,
+      expiresDate: "2023-06-12T12:07:18Z",
+      expiresDateNormalized: "2023-06-12 12:07:18 UTC",
+      footer: "",
+      header: "",
+      nameServers: {
+        hostNames: ["a.ezdnscenter.com", "b.ezdnscenter.com"],
+        ips: [],
+        rawText: "a.ezdnscenter.com\nb.ezdnscenter.com\n"
+      },
+      parseCode: 3579,
+      rawText:
+        "Domain Name: jxlogistics.com\nRegistry Domain ID: 10021839\nRegistrar WHOIS Server: grs-whois.cndns.com\nRegistrar URL: http://www.cndns.com\nUpdated Date: 2018-05-14T09:18:40Z\nCreate Date: 2002-06-12T12:07:18Z\nRegistrar Registration Expiration Date: 2023-06-12T12:07:18Z\nRegistrar: SHANGHAI MEICHENG TECHNOLOGY INFORMATION DEVELOPMENT CO., LTD.\nRegistrar IANA ID: 1621\nRegistrar Abuse Contact Email: domain@cndns.com\nRegistrar Abuse Contact Phone: +86.2151697771\nReseller: (null)\nDomain Status: ok https://icann.org/epp#ok\nRegistry Registrant ID: \nRegistrant Name: shen xiaojun\nRegistrant Organization: ShangHai JingXingCangChuSheBeiGongChengYouXianGongSi\nRegistrant Street: 505 Shennan Road, Xinzhuang Industrial Zone, Shanghai, China\nRegistrant City: shanghai\nRegistrant State/Province: shanghai\nRegistrant Postal Code: 201108\nRegistrant Country: CN\nRegistrant Phone : +86.2137620999\nRegistrant Phone Ext:\nRegistrant Fax: +86.2137620999\nRegistrant Fax Ext:\nRegistrant Email: shenxj@jxlogistics.com\nRegistry Admin ID: \nAdmin Name: shen xiaojun\nAdmin Organization: ShangHai JingXingCangChuSheBeiGongChengYouXianGongSi\nAdmin Street: 505 Shennan Road, Xinzhuang Industrial Zone, Shanghai, China\nAdmin City: shanghai\nAdmin State/Province: shanghai\nAdmin Postal Code: 201108\nAdmin Country: CN\nAdmin Phone : +86.2137620999\nAdmin Phone Ext:\nAdmin Fax: +86.2137620999\nAdmin Fax Ext:\nAdmin Email: shenxj@jxlogistics.com\nRegistry Tech ID: \nTech Name: shen xiaojun\nTech Organization: ShangHai JingXingCangChuSheBeiGongChengYouXianGongSi\nTech Street: 505 Shennan Road, Xinzhuang Industrial Zone, Shanghai, China\nTech City: shanghai\nTech State/Province: shanghai\nTech Postal Code: 201108\nTech Country: CN\nTech Phone : +86.2137620999\nTech Phone Ext:\nTech Fax: +86.2137620999\nTech Fax Ext:\nTech Email: shenxj@jxlogistics.com\nName Server: a.ezdnscenter.com\nName Server: b.ezdnscenter.com\nDNSSEC:unsigned\nURL of the ICANN WHOIS Data Problem Reporting System: http://wdprs.internic.net/\n>>> Last update of whois database: 2009-05-29T20:15:00Z <<<\nFor more information on Whois status codes, please visit: https://www.icann.org/resources/pages/epp-status-codes-list-2014-06-18-en",
+      registrant: {
+        city: "shanghai",
+        country: "CHINA",
+        countryCode: "CN",
+        email: "shenxj@jxlogistics.com",
+        fax: "862137620999",
+        name: "shen xiaojun",
+        organization: "ShangHai JingXingCangChuSheBeiGongChengYouXianGongSi",
+        postalCode: "201108",
+        rawText:
+          "Registrant Name: shen xiaojun\nRegistrant Organization: ShangHai JingXingCangChuSheBeiGongChengYouXianGongSi\nRegistrant Street: 505 Shennan Road, Xinzhuang Industrial Zone, Shanghai, China\nRegistrant City: shanghai\nRegistrant State/Province: shanghai\nRegistrant Postal Code: 201108\nRegistrant Country: CN\nRegistrant Phone : +86.2137620999\nRegistrant Fax: +86.2137620999\nRegistrant Email: shenxj@jxlogistics.com",
+        state: "shanghai",
+        street1: "505 Shennan Road, Xinzhuang Industrial Zone, Shanghai, China",
+        telephone: "862137620999"
+      },
+      registrarIANAID: "1621",
+      registrarName:
+        "SHANGHAI MEICHENG TECHNOLOGY INFORMATION DEVELOPMENT CO., LTD.",
+      registryData: {
+        audit: {
+          createdDate: "2019-01-06 16:13:55.161 UTC",
+          updatedDate: "2019-01-06 16:13:55.161 UTC"
+        },
+        createdDate: "2002-06-12T04:07:18Z",
+        createdDateNormalized: "2002-06-12 04:07:18 UTC",
+        customField1Name: "RegistrarContactEmail",
+        customField1Value: "domain@cndns.com",
+        customField2Name: "RegistrarContactPhone",
+        customField2Value: "021-51697771",
+        customField3Name: "RegistrarURL",
+        customField3Value: "http://www.cndns.com",
+        domainName: "jxlogistics.com",
+        expiresDate: "2023-06-12T04:07:18Z",
+        expiresDateNormalized: "2023-06-12 04:07:18 UTC",
+        footer: "",
+        header: "",
+        nameServers: {
+          hostNames: ["A.EZDNSCENTER.COM", "B.EZDNSCENTER.COM"],
+          ips: [],
+          rawText: "A.EZDNSCENTER.COM\nB.EZDNSCENTER.COM\n"
+        },
+        parseCode: 251,
+        rawText:
+          "Domain Name: JXLOGISTICS.COM\n   Registry Domain ID: 87454812_DOMAIN_COM-VRSN\n   Registrar WHOIS Server: grs-whois.cndns.com\n   Registrar URL: http://www.cndns.com\n   Updated Date: 2018-05-14T01:18:38Z\n   Creation Date: 2002-06-12T04:07:18Z\n   Registry Expiry Date: 2023-06-12T04:07:18Z\n   Registrar: Shanghai Meicheng Technology Information Development Co., Ltd.\n   Registrar IANA ID: 1621\n   Registrar Abuse Contact Email: domain@cndns.com\n   Registrar Abuse Contact Phone: 021-51697771\n   Domain Status: clientTransferProhibited https://icann.org/epp#clientTransferProhibited\n   Name Server: A.EZDNSCENTER.COM\n   Name Server: B.EZDNSCENTER.COM\n   DNSSEC: unsigned\n   URL of the ICANN Whois Inaccuracy Complaint Form: https://www.icann.org/wicf/\n>>> Last update of whois database: 2019-01-06T16:13:42Z <<<\n\nFor more information on Whois status codes, please visit https://icann.org/epp\n\nNOTICE: The expiration date displayed in this record is the date the\nregistrar's sponsorship of the domain name registration in the registry is\ncurrently set to expire. This date does not necessarily reflect the expiration\ndate of the domain name registrant's agreement with the sponsoring\nregistrar.  Users may consult the sponsoring registrar's Whois database to\nview the registrar's reported date of expiration for this registration.\n\nTERMS OF USE: You are not authorized to access or query our Whois\ndatabase through the use of electronic processes that are high-volume and\nautomated except as reasonably necessary to register domain names or\nmodify existing registrations; the Data in VeriSign Global Registry\nServices' (\"VeriSign\") Whois database is provided by VeriSign for\ninformation purposes only, and to assist persons in obtaining information\nabout or related to a domain name registration record. VeriSign does not\nguarantee its accuracy. By submitting a Whois query, you agree to abide\nby the following terms of use: You agree that you may use this Data only\nfor lawful purposes and that under no circumstances will you use this Data\nto: (1) allow, enable, or otherwise support the transmission of mass\nunsolicited, commercial advertising or solicitations via e-mail, telephone,\nor facsimile; or (2) enable high volume, automated, electronic processes\nthat apply to VeriSign (or its computer systems). The compilation,\nrepackaging, dissemination or other use of this Data is expressly\nprohibited without the prior written consent of VeriSign. You agree not to\nuse electronic processes that are automated and high-volume to access or\nquery the Whois database except as reasonably necessary to register\ndomain names or modify existing registrations. VeriSign reserves the right\nto restrict your access to the Whois database in its sole discretion to ensure\noperational stability.  VeriSign may restrict or terminate your access to the\nWhois database for failure to abide by these terms of use. VeriSign\nreserves the right to modify these terms at any time.\n\nThe Registry database contains ONLY .COM, .NET, .EDU domains and\nRegistrars.",
+        registrarIANAID: "1621",
+        registrarName:
+          "Shanghai Meicheng Technology Information Development Co., Ltd.",
+        status: "clientTransferProhibited",
+        strippedText:
+          "Domain Name: JXLOGISTICS.COM\nRegistry Domain ID: 87454812_DOMAIN_COM-VRSN\nRegistrar WHOIS Server: grs-whois.cndns.com\nRegistrar URL: http://www.cndns.com\nUpdated Date: 2018-05-14T01:18:38Z\nCreation Date: 2002-06-12T04:07:18Z\nRegistry Expiry Date: 2023-06-12T04:07:18Z\nRegistrar: Shanghai Meicheng Technology Information Development Co., Ltd.\nRegistrar IANA ID: 1621\nRegistrar Abuse Contact Email: domain@cndns.com\nRegistrar Abuse Contact Phone: 021-51697771\nDomain Status: clientTransferProhibited https://icann.org/epp#clientTransferProhibited\nName Server: A.EZDNSCENTER.COM\nName Server: B.EZDNSCENTER.COM\nDNSSEC: unsigned\nURL of the ICANN Whois Inaccuracy Complaint Form: https://www.icann.org/wicf/\n>>> Last update of whois database: 2019-01-06T16:13:42Z <<<\nFor more information on Whois status codes, please visit https://icann.org/epp\nNOTICE: The expiration date displayed in this record is the date the\nregistrar's sponsorship of the domain name registration in the registry is\ncurrently set to expire. This date does not necessarily reflect the expiration\ndate of the domain name registrant's agreement with the sponsoring\nregistrar.  Users may consult the sponsoring registrar's Whois database to\nview the registrar's reported date of expiration for this registration.\nTERMS OF USE: You are not authorized to access or query our Whois\ndatabase through the use of electronic processes that are high-volume and\nautomated except as reasonably necessary to register domain names or\nmodify existing registrations; the Data in VeriSign Global Registry\nServices' (\"VeriSign\") Whois database is provided by VeriSign for\ninformation purposes only, and to assist persons in obtaining information\nabout or related to a domain name registration record. VeriSign does not\nguarantee its accuracy. By submitting a Whois query, you agree to abide\nby the following terms of use: You agree that you may use this Data only\nfor lawful purposes and that under no circumstances will you use this Data\nto: (1) allow, enable, or otherwise support the transmission of mass\nunsolicited, commercial advertising or solicitations via e-mail, telephone,\nor facsimile; or (2) enable high volume, automated, electronic processes\nthat apply to VeriSign (or its computer systems). The compilation,\nrepackaging, dissemination or other use of this Data is expressly\nprohibited without the prior written consent of VeriSign. You agree not to\nuse electronic processes that are automated and high-volume to access or\nquery the Whois database except as reasonably necessary to register\ndomain names or modify existing registrations. VeriSign reserves the right\nto restrict your access to the Whois database in its sole discretion to ensure\noperational stability.  VeriSign may restrict or terminate your access to the\nWhois database for failure to abide by these terms of use. VeriSign\nreserves the right to modify these terms at any time.\nThe Registry database contains ONLY .COM, .NET, .EDU domains and\nRegistrars.\n",
+        updatedDate: "2018-05-14T01:18:38Z",
+        updatedDateNormalized: "2018-05-14 01:18:38 UTC",
+        whoisServer: "grs-whois.cndns.com"
+      },
+      status: "ok",
+      strippedText:
+        "Domain Name: jxlogistics.com\nRegistrar WHOIS Server: grs-whois.cndns.com\nRegistrar URL: http://www.cndns.com\nUpdated Date: 2018-05-14T09:18:40Z\nCreate Date: 2002-06-12T12:07:18Z\nRegistrar Registration Expiration Date: 2023-06-12T12:07:18Z\nRegistrar: SHANGHAI MEICHENG TECHNOLOGY INFORMATION DEVELOPMENT CO., LTD.\nRegistrar IANA ID: 1621\nRegistrar Abuse Contact Email: domain@cndns.com\nRegistrar Abuse Contact Phone: +86.2151697771\nDomain Status: ok https://icann.org/epp#ok\nRegistrant Name: shen xiaojun\nRegistrant Organization: ShangHai JingXingCangChuSheBeiGongChengYouXianGongSi\nRegistrant Street: 505 Shennan Road, Xinzhuang Industrial Zone, Shanghai, China\nRegistrant City: shanghai\nRegistrant State/Province: shanghai\nRegistrant Postal Code: 201108\nRegistrant Country: CN\nRegistrant Phone : +86.2137620999\nRegistrant Fax: +86.2137620999\nRegistrant Email: shenxj@jxlogistics.com\nAdmin Name: shen xiaojun\nAdmin Organization: ShangHai JingXingCangChuSheBeiGongChengYouXianGongSi\nAdmin Street: 505 Shennan Road, Xinzhuang Industrial Zone, Shanghai, China\nAdmin City: shanghai\nAdmin State/Province: shanghai\nAdmin Postal Code: 201108\nAdmin Country: CN\nAdmin Phone : +86.2137620999\nAdmin Fax: +86.2137620999\nAdmin Email: shenxj@jxlogistics.com\nTech Name: shen xiaojun\nTech Organization: ShangHai JingXingCangChuSheBeiGongChengYouXianGongSi\nTech Street: 505 Shennan Road, Xinzhuang Industrial Zone, Shanghai, China\nTech City: shanghai\nTech State/Province: shanghai\nTech Postal Code: 201108\nTech Country: CN\nTech Phone : +86.2137620999\nTech Fax: +86.2137620999\nTech Email: shenxj@jxlogistics.com\nName Server: a.ezdnscenter.com\nName Server: b.ezdnscenter.com\n",
+      technicalContact: {
+        city: "shanghai",
+        country: "CHINA",
+        countryCode: "CN",
+        email: "shenxj@jxlogistics.com",
+        fax: "862137620999",
+        name: "shen xiaojun",
+        organization: "ShangHai JingXingCangChuSheBeiGongChengYouXianGongSi",
+        postalCode: "201108",
+        rawText:
+          "Tech Name: shen xiaojun\nTech Organization: ShangHai JingXingCangChuSheBeiGongChengYouXianGongSi\nTech Street: 505 Shennan Road, Xinzhuang Industrial Zone, Shanghai, China\nTech City: shanghai\nTech State/Province: shanghai\nTech Postal Code: 201108\nTech Country: CN\nTech Phone : +86.2137620999\nTech Fax: +86.2137620999\nTech Email: shenxj@jxlogistics.com",
+        state: "shanghai",
+        street1: "505 Shennan Road, Xinzhuang Industrial Zone, Shanghai, China",
+        telephone: "862137620999"
+      },
+      updatedDate: "2018-05-14T09:18:40Z",
+      updatedDateNormalized: "2018-05-14 09:18:40 UTC",
+      whoisServer: "grs-whois.cndns.com"
+    }
+  },
+  lawEnforcement: [
+    {
+      court: "Shanghai Minhang District People's Court",
+      date: "2003-10-09",
+      execMoney: "¥8134.9",
+      name: "Shanghai Jingxing Warehousing Equipment Engineering Co., Ltd.",
+      num: "(2003) Min Zizi No. 03563"
+    },
+    {
+      court: "Shanghai Minhang District People's Court",
+      date: "2005-03-11",
+      execMoney: "¥10815.9",
+      name: "Shanghai Jingxing Warehousing Equipment Engineering Co., Ltd.",
+      num: "(2005) Min Zizi No. 01334"
+    },
+    {
+      court: "Shanghai Minhang District People's Court",
+      date: "2009-06-24",
+      execMoney: "¥10000",
+      name: "Shanghai Jingxing Warehousing Equipment Engineering Co., Ltd.",
+      num: "(2009) Min Zizi No. 05615"
+    },
+    {
+      court: "Shanghai Minhang District People's Court",
+      date: "2010-06-11",
+      execMoney: "¥1160",
+      name: "Shanghai Jingxing Warehousing Equipment Engineering Co., Ltd.",
+      num: "(2010) Min Zizi No. 04178"
+    },
+    {
+      court: "Shanghai Minhang District People's Court",
+      date: "2010-06-12",
+      execMoney: "¥39000",
+      name: "Shanghai Jingxing Warehousing Equipment Engineering Co., Ltd.",
+      num: "(2010) Min Zizi No. 04340"
+    }
+  ],
   changesList: [
     {
       date: "2015-01-29",
@@ -1467,9 +1471,16 @@ const reportData = {
     }
   ],
   branchesData: {
-    branches: [{ name: "branch1 (a)" }, { name: "branch2 (a)" }, { name: "branch3 (a)" }]
+    branches: [
+      { name: "branch1 (a)" },
+      { name: "branch2 (a)" },
+      { name: "branch3 (a)" }
+    ]
   },
-  foreignInvestmentList: [{ name: "investment1 (a)" }, { name: "investment2 (a)" }],
+  foreignInvestmentList: [
+    { name: "investment1 (a)" },
+    { name: "investment2 (a)" }
+  ],
   jobsList: [
     {
       address: "青山装备制造产业园区",
@@ -2992,1928 +3003,2218 @@ const reportData = {
   shipmentByProduct: {
     supplier: {
       lastQuarter: [
-          {
-              "hs_code" : "6302",
-              "hscode_desc" : "(6302) Bed linen, table linen, toilet linen and kitchen linen",
-              "shipment_count" : 139,
-              "value_of_goods" : 25162000
-          },
-          {
-              "hs_code" : "6403",
-              "hscode_desc" : "(6403) Footwear with outer soles of rubber, plastics, leather or composition leather and uppers of leather",
-              "shipment_count" : 2,
-              "value_of_goods" : 0
-          },
-          {
-              "hs_code" : "61",
-              "hscode_desc" : "(61) CHAPTER 61ARTICLES OF APPAREL AND CLOTHING ACCESSORIES, KNITTED OR CROCHETED",
-              "shipment_count" : 48,
-              "value_of_goods" : 15190000
-          },
-          {
-              "hs_code" : "6001",
-              "hscode_desc" : "(6001) Pile fabrics, including long pile fabrics and terry fabrics, knitted or crocheted",
-              "shipment_count" : 321,
-              "value_of_goods" : 11592000
-          },
-          {
-              "hs_code" : "9404",
-              "hscode_desc" : "(9404) Mattress supports; articles of bedding and similar furnishing (for example, mattresses, quilts, eiderdowns, cushions, pouffes and pillows) fitted with springs or stuffed or internally fitted with any material or of cellular rubber or plastics, whether or not covered",
-              "shipment_count" : 179,
-              "value_of_goods" : 10134000
-          },
-          {
-              "hs_code" : "3913",
-              "hscode_desc" : "(3913) Natural polymers (for example, alginic acid) and modified natural polymers (for example, hardened proteins, chemical derivatives of natural rubber), not elsewhere specified or included, in primary forms",
-              "shipment_count" : 5,
-              "value_of_goods" : 9797000
-          },
-          {
-              "hs_code" : "6301",
-              "hscode_desc" : "(6301) Blankets and travelling rugs",
-              "shipment_count" : 33,
-              "value_of_goods" : 5943000
-          },
-          {
-              "hs_code" : "8705",
-              "hscode_desc" : "(8705) Special purpose motor vehicles, other than those principally designed for the transport of persons or goods (for example, breakdown lorries, crane lorries, fire-fighting vehicles, concrete-mixer lorries, road sweeper lorries, spraying lorries, mobile workshops, mobile radiological units)",
-              "shipment_count" : 12,
-              "value_of_goods" : 5680000
-          },
-          {
-              "hs_code" : "6303",
-              "hscode_desc" : "(6303) Curtains (including drapes) and interior blinds; curtain or bed valances",
-              "shipment_count" : 28,
-              "value_of_goods" : 5392000
-          },
-          {
-              "hs_code" : "8701",
-              "hscode_desc" : "(8701) Tractors (other than tractors of heading 8709)",
-              "shipment_count" : 6,
-              "value_of_goods" : 5290000
-          },
-          {
-              "hs_code" : "4823",
-              "hscode_desc" : "(4823) Other paper, paperboard, cellulose wadding and webs of cellulose fibres, cut to size or shape; other articles of paper pulp, paper, paperboard, cellulose wadding or webs of cellulose fibres",
-              "shipment_count" : 15,
-              "value_of_goods" : 4269000
-          },
-          {
-              "hs_code" : "6304",
-              "hscode_desc" : "(6304) Other furnishing articles, excluding those of heading 9404",
-              "shipment_count" : 6,
-              "value_of_goods" : 4026000
-          },
-          {
-              "hs_code" : "2919",
-              "hscode_desc" : "(2919) Phosphoric esters and their salts, including lactophosphates; their halogenated, sulphonated, nitrated or nitrosated derivatives",
-              "shipment_count" : 10,
-              "value_of_goods" : 2901000
-          },
-          {
-              "hs_code" : "7228",
-              "hscode_desc" : "(7228) Other bars and rods of other alloy steel; angles, shapes and sections, of other alloy steel; hollow drill bars and rods, of alloy or non-alloy steel",
-              "shipment_count" : 3,
-              "value_of_goods" : 2713000
-          },
-          {
-              "hs_code" : "8504",
-              "hscode_desc" : "(8504) Electrical transformers, static converters (for example, rectifiers) and inductors",
-              "shipment_count" : 129,
-              "value_of_goods" : 2614000
-          },
-          {
-              "hs_code" : "64",
-              "hscode_desc" : "(64) CHAPTER 64FOOTWEAR, GAITERS AND THE LIKE; PARTS OF SUCH ARTICLES",
-              "shipment_count" : 11,
-              "value_of_goods" : 2454000
-          },
-          {
-              "hs_code" : "2827",
-              "hscode_desc" : "(2827) Chlorides, chloride oxides and chloride hydroxides; bromides and bromide oxides; iodides and iodide oxides",
-              "shipment_count" : 4,
-              "value_of_goods" : 2186000
-          },
-          {
-              "hs_code" : "8716",
-              "hscode_desc" : "(8716) Trailers and semi-trailers; other vehicles, not mechanically propelled; parts thereof",
-              "shipment_count" : 7,
-              "value_of_goods" : 2172000
-          },
-          {
-              "hs_code" : "6404",
-              "hscode_desc" : "(6404) Footwear with outer soles of rubber, plastics, leather or composition leather and uppers of textile materials",
-              "shipment_count" : 2,
-              "value_of_goods" : 2004000
-          },
-          {
-              "hs_code" : "4203",
-              "hscode_desc" : "(4203) Articles of apparel and clothing accessories, of leather or of composition leather",
-              "shipment_count" : 11,
-              "value_of_goods" : 1946000
-          },
-          {
-              "hs_code" : "8528",
-              "hscode_desc" : "(8528) Reception apparatus for television, whether or not incorporating radio-broadcast receivers or sound or video recording or reproducing apparatus; video monitors and video projectors",
-              "shipment_count" : 1,
-              "value_of_goods" : 1798000
-          },
-          {
-              "hs_code" : "73",
-              "hscode_desc" : "(73) CHAPTER 73ARTICLES OF IRON OR STEEL",
-              "shipment_count" : 4,
-              "value_of_goods" : 1734000
-          },
-          {
-              "hs_code" : "5407",
-              "hscode_desc" : "(5407) Woven fabrics of synthetic filament yarn, including woven fabrics obtained from materials of heading 5404",
-              "shipment_count" : 67,
-              "value_of_goods" : 1665000
-          },
-          {
-              "hs_code" : "3926",
-              "hscode_desc" : "(3926) Other articles of plastics and articles of other materials of headings 3901 to 3914",
-              "shipment_count" : 17,
-              "value_of_goods" : 1535000
-          },
-          {
-              "hs_code" : "8539",
-              "hscode_desc" : "(8539) Electric filament or discharge lamps, including sealed-beam lamp units and ultraviolet or infrared lamps; arc-lamps",
-              "shipment_count" : 53,
-              "value_of_goods" : 1474000
-          },
-          {
-              "hs_code" : "6202",
-              "hscode_desc" : "(6202) Women's or girls' overcoats, car-coats, capes, cloaks, anoraks (including ski-jackets), wind-cheaters, wind-jackets and similar articles, other than those of heading No 6204",
-              "shipment_count" : 4,
-              "value_of_goods" : 1387000
-          },
-          {
-              "hs_code" : "3923",
-              "hscode_desc" : "(3923) Articles for the conveyance or packing of goods, of plastics; stoppers, lids, caps and other closures, of plastics",
-              "shipment_count" : 112,
-              "value_of_goods" : 1378000
-          },
-          {
-              "hs_code" : "9405",
-              "hscode_desc" : "(9405) Lamps and lighting fittings including searchlights and spotlights and parts thereof, not elsewhere specified or included; illuminated signs, illuminated name-plates and the like, having a permanently fixed light source, and parts thereof not elsewhere specified or included",
-              "shipment_count" : 14,
-              "value_of_goods" : 1286000
-          },
-          {
-              "hs_code" : "3924",
-              "hscode_desc" : "(3924) Tableware, kitchenware, other household articles and toilet articles, of plastics",
-              "shipment_count" : 9,
-              "value_of_goods" : 1234000
-          },
-          {
-              "hs_code" : "6201",
-              "hscode_desc" : "(6201) Men's or boys' overcoats, car-coats, capes, cloaks, anoraks (including ski-jackets), wind-cheaters, wind-jackets and similar articles, other than those of heading No 6203",
-              "shipment_count" : 3,
-              "value_of_goods" : 867756
-          },
-          {
-              "hs_code" : "8712",
-              "hscode_desc" : "(8712) Bicycles and other cycles (including delivery tricycles), not motorized",
-              "shipment_count" : 29,
-              "value_of_goods" : 737936
-          },
-          {
-              "hs_code" : "8714",
-              "hscode_desc" : "(8714) Parts and accessories of vehicles of headings 8711 to 8713",
-              "shipment_count" : 137,
-              "value_of_goods" : 736541
-          },
-          {
-              "hs_code" : "5703",
-              "hscode_desc" : "(5703) Carpets and other textile floor coverings, tufted, whether or not made-up",
-              "shipment_count" : 5,
-              "value_of_goods" : 723883
-          },
-          {
-              "hs_code" : "43",
-              "hscode_desc" : "(43) CHAPTER 43FURSKINS AND ARTIFICIAL FUR; MANUFACTURES THEREOF",
-              "shipment_count" : 2,
-              "value_of_goods" : 708375
-          },
-          {
-              "hs_code" : "8473",
-              "hscode_desc" : "(8473) Parts and accessories (other than covers, carrying cases and the like) suitable for use solely or principally with machines of headings 8469 to 8472",
-              "shipment_count" : 39,
-              "value_of_goods" : 700753
-          },
-          {
-              "hs_code" : "6204",
-              "hscode_desc" : "(6204) Women's or girls' suits, ensembles, jackets, blazers, dresses, skirts, divided skirts, trousers, bib and brace overalls, breeches and shorts (other than swimwear)",
-              "shipment_count" : 3,
-              "value_of_goods" : 684905
-          },
-          {
-              "hs_code" : "6402",
-              "hscode_desc" : "(6402) Other footwear with outer soles and uppers of rubber or plastics",
-              "shipment_count" : 2,
-              "value_of_goods" : 669848
-          },
-          {
-              "hs_code" : "7610",
-              "hscode_desc" : "(7610) Aluminium structures (excluding prefabricated buildings of heading No 9406) and parts of structures (for example, bridges and bridge-sections, towers, lattice masts, roofs, roofing frameworks, doors and windows and their frames and thresholds for doors, balustrades, pillars and columns); aluminium plates, rods, profiles, tubes and the like, prepared for use in structures",
-              "shipment_count" : 14,
-              "value_of_goods" : 666683
-          },
-          {
-              "hs_code" : "2008",
-              "hscode_desc" : "(2008) Fruit, nuts and other edible parts of plants, otherwise prepared or preserved, whether or not containing added sugar or other sweetening matter or spirit, not elsewhere specified or included",
-              "shipment_count" : 2,
-              "value_of_goods" : 663369
-          },
-          {
-              "hs_code" : "3818",
-              "hscode_desc" : "(3818) Chemical elements doped for use in electronics, in the form of discs, wafers or similar forms; chemical compounds doped for use in electronics",
-              "shipment_count" : 1,
-              "value_of_goods" : 649551
-          },
-          {
-              "hs_code" : "8302",
-              "hscode_desc" : "(8302) Base metal mountings, fittings and similar articles suitable for furniture, doors, staircases, windows, blinds, coachwork, saddlery, trunks, chests, caskets or the like; base metal hat-racks, hat-pegs, brackets and similar fixtures; castors with mountings of base metal; automatic door closers of base metal",
-              "shipment_count" : 1,
-              "value_of_goods" : 508506
-          },
-          {
-              "hs_code" : "5811",
-              "hscode_desc" : "(5811) Quilted textile products in the piece, composed of one or more layers of textile materials assembled with padding by stitching or otherwise, other than embroidery of heading 5810",
-              "shipment_count" : 20,
-              "value_of_goods" : 418808
-          },
-          {
-              "hs_code" : "9401",
-              "hscode_desc" : "(9401) Seats (other than those of heading 9402), whether or not convertible into beds, and parts thereof",
-              "shipment_count" : 19,
-              "value_of_goods" : 343429
-          },
-          {
-              "hs_code" : "8536",
-              "hscode_desc" : "(8536) Electrical apparatus for switching or protecting electrical circuits, or for making connections to or in electrical circuits (for example, switches, relays, fuses, surge suppressors, plugs, sockets, lamp-holders, junction boxes), for a voltage not exceeding 1 000 V",
-              "shipment_count" : 53,
-              "value_of_goods" : 328802
-          },
-          {
-              "hs_code" : "84",
-              "hscode_desc" : "(84) CHAPTER 84NUCLEAR REACTORS, BOILERS, MACHINERY AND MECHANICAL APPLIANCES; PARTS THEREOF",
-              "shipment_count" : 4,
-              "value_of_goods" : 324640
-          },
-          {
-              "hs_code" : "8425",
-              "hscode_desc" : "(8425) Pulley tackle and hoists other than skip hoists; winches and capstans; jacks",
-              "shipment_count" : 6,
-              "value_of_goods" : 318534
-          },
-          {
-              "hs_code" : "8704",
-              "hscode_desc" : "(8704) Motor vehicles for the transport of goods",
-              "shipment_count" : 1,
-              "value_of_goods" : 306258
-          },
-          {
-              "hs_code" : "9503",
-              "hscode_desc" : "(9503) Other toys; reduced-size (scale) models and similar recreational models, working or not; puzzles of all kinds",
-              "shipment_count" : 8,
-              "value_of_goods" : 306242
-          },
-          {
-              "hs_code" : "8708",
-              "hscode_desc" : "(8708) Parts and accessories of the motor vehicles of heading 8701 to 8705",
-              "shipment_count" : 127,
-              "value_of_goods" : 299757
-          },
-          {
-              "hs_code" : "9403",
-              "hscode_desc" : "(9403) Other furniture and parts thereof",
-              "shipment_count" : 12,
-              "value_of_goods" : 275616
-          },
-          {
-              "hs_code" : "8529",
-              "hscode_desc" : "(8529) Parts suitable for use solely or principally with the apparatus of headings 8525 to 8528",
-              "shipment_count" : 11,
-              "value_of_goods" : 241016
-          },
-          {
-              "hs_code" : "3506",
-              "hscode_desc" : "(3506) Prepared glues and other prepared adhesives, not elsewhere specified or included; products suitable for use as glues or adhesives, put up for retail sale as glues or adhesives, not exceeding a net weight of 1 kg",
-              "shipment_count" : 9,
-              "value_of_goods" : 232530
-          },
-          {
-              "hs_code" : "5208",
-              "hscode_desc" : "(5208) Woven fabrics of cotton, containing 85 % or more by weight of cotton, weighing not more than 200 g/m2",
-              "shipment_count" : 7,
-              "value_of_goods" : 199772
-          },
-          {
-              "hs_code" : "57",
-              "hscode_desc" : "(57) CHAPTER 57CARPETS AND OTHER TEXTILE FLOOR COVERINGS",
-              "shipment_count" : 1,
-              "value_of_goods" : 189164
-          },
-          {
-              "hs_code" : "3907",
-              "hscode_desc" : "(3907) Polyacetals, other polyethers and epoxide resins, in primary forms; polycarbonates, alkyd resins, polyallyl esters and other polyesters, in primary forms",
-              "shipment_count" : 1,
-              "value_of_goods" : 176455
-          },
-          {
-              "hs_code" : "3212",
-              "hscode_desc" : "(3212) Pigments (including metallic powders and flakes) dispersed in non-aqueous media, in liquid or paste form, of a kind used in the manufacture of paints (including enamels); stamping foils; dyes and other colouring matter put up in forms or packings for retail sale",
-              "shipment_count" : 3,
-              "value_of_goods" : 170177
-          },
-          {
-              "hs_code" : "8537",
-              "hscode_desc" : "(8537) Boards, panels, consoles, desks, cabinets and other bases, equipped with two or more apparatus of heading 8535 or 8536, for electric control or the distribution of electricity, including those incorporating instruments or apparatus of Chapter 90, and numerical control apparatus, other than switching apparatus of heading 8517",
-              "shipment_count" : 3,
-              "value_of_goods" : 167651
-          },
-          {
-              "hs_code" : "8471",
-              "hscode_desc" : "(8471) Automatic data-processing machines and units thereof; magnetic or optical readers, machines for transcribing data onto data media in coded form and machines for processing such data, not elsewhere specified or included",
-              "shipment_count" : 12,
-              "value_of_goods" : 141992
-          },
-          {
-              "hs_code" : "7604",
-              "hscode_desc" : "(7604) Aluminium bars, rods and profiles",
-              "shipment_count" : 2,
-              "value_of_goods" : 140691
-          },
-          {
-              "hs_code" : "7007",
-              "hscode_desc" : "(7007) Safety glass, consisting of toughened (tempered) or laminated glass",
-              "shipment_count" : 1,
-              "value_of_goods" : 133529
-          },
-          {
-              "hs_code" : "8544",
-              "hscode_desc" : "(8544) Insulated (including enamelled or anodised) wire, cable (including coaxial cable) and other insulated electric conductors, whether or not fitted with connectors; optical fibre cables, made-up of individually sheathed fibres, whether or not assembled with electric conductors or fitted with connectors",
-              "shipment_count" : 4,
-              "value_of_goods" : 126557
-          },
-          {
-              "hs_code" : "8481",
-              "hscode_desc" : "(8481) Taps, cocks, valves and similar appliances for pipes, boiler shells, tanks, vats or the like, including pressure-reducing valves and thermostatically controlled valves",
-              "shipment_count" : 14,
-              "value_of_goods" : 124802
-          },
-          {
-              "hs_code" : "8707",
-              "hscode_desc" : "(8707) Bodies (including cabs), for the motor vehicles of headings 8701 to 8705",
-              "shipment_count" : 2,
-              "value_of_goods" : 118835
-          },
-          {
-              "hs_code" : "8428",
-              "hscode_desc" : "(8428) Other lifting, handling, loading or unloading machinery (for example, lifts, escalators, conveyors, teleferics)",
-              "shipment_count" : 1,
-              "value_of_goods" : 114379
-          },
-          {
-              "hs_code" : "6005",
-              "hscode_desc" : "(6005) Warp knit fabrics (including those made on galloon knitting machines), other than those of headings 6001 to 6004",
-              "shipment_count" : 2,
-              "value_of_goods" : 111724
-          },
-          {
-              "hs_code" : "3921",
-              "hscode_desc" : "(3921) Other plates, sheets, film, foil and strip, of plastics",
-              "shipment_count" : 3,
-              "value_of_goods" : 104203
-          },
-          {
-              "hs_code" : "8421",
-              "hscode_desc" : "(8421) Centrifuges, including centrifugal dryers; filtering or purifying machinery and apparatus, for liquids or gases",
-              "shipment_count" : 6,
-              "value_of_goods" : 86068
-          },
-          {
-              "hs_code" : "4202",
-              "hscode_desc" : "(4202) Trunks, suit-cases, vanity-cases, executive-cases, brief-cases, school satchels, spectacle cases, binocular cases, camera cases, musical instrument cases, gun cases, holsters and similar containers; travelling-bags, insulated food or beverage bags, toilet bags, rucksacks, handbags, shopping-bags, wallets, purses, map-cases, cigarette-cases, tobacco-pouches, tool bags, sports bags, bottle-cases, jewellery boxes, powder-boxes, cutlery cases and similar containers, of leather or of composition leather, of sheeting of plastics, of textile materials, of vulcanised fibre or of paperboard, or wholly or mainly covered with such materials or with paper",
-              "shipment_count" : 139,
-              "value_of_goods" : 24701000
-          },
-          {
-              "hs_code" : "3307",
-              "hscode_desc" : "(3307) Pre-shave, shaving or after-shave preparations, personal deodorants, bath preparations, depilatories and other perfumery, cosmetic or toilet preparations, not elsewhere specified or included; prepared room deodorisers, whether or not perfumed or having disinfectant properties",
-              "shipment_count" : 4,
-              "value_of_goods" : 62844
-          },
-          {
-              "hs_code" : "8483",
-              "hscode_desc" : "(8483) Transmission shafts (including cam shafts and crank shafts) and cranks; bearing housings and plain shaft bearings; gears and gearing; ball or roller screws; gear boxes and other speed changers, including torque converters; flywheels and pulleys, including pulley blocks; clutches and shaft couplings (including universal joints)",
-              "shipment_count" : 5,
-              "value_of_goods" : 58552
-          },
-          {
-              "hs_code" : "5209",
-              "hscode_desc" : "(5209) Woven fabrics of cotton, containing 85 % or more by weight of cotton, weighing more than 200 g/m2",
-              "shipment_count" : 1,
-              "value_of_goods" : 51428
-          },
-          {
-              "hs_code" : "8525",
-              "hscode_desc" : "(8525) Transmission apparatus for radio-telephony, radio-telegraphy, radio-broadcasting or television, whether or not incorporating reception apparatus or sound recording or reproducing apparatus; television cameras; still image video cameras and other video camera recorders; digital cameras",
-              "shipment_count" : 2,
-              "value_of_goods" : 51229
-          },
-          {
-              "hs_code" : "6208",
-              "hscode_desc" : "(6208) Women's or girls' singlets and other vests, slips, petticoats, briefs, panties, nightdresses, pyjamas, negligees, bathrobes, dressing gowns and similar articles",
-              "shipment_count" : 1,
-              "value_of_goods" : 47009
-          },
-          {
-              "hs_code" : "8414",
-              "hscode_desc" : "(8414) Air or vacuum pumps, air or other gas compressors and fans; ventilating or recycling hoods incorporating a fan, whether or not fitted with filters",
-              "shipment_count" : 10,
-              "value_of_goods" : 39145
-          },
-          {
-              "hs_code" : "7318",
-              "hscode_desc" : "(7318) Screws, bolts, nuts, coach screws, screw hooks, rivets, cotters, cotter-pins, washers (including spring washers) and similar articles, of iron or steel",
-              "shipment_count" : 11,
-              "value_of_goods" : 32712
-          },
-          {
-              "hs_code" : "5402",
-              "hscode_desc" : "(5402) Synthetic filament yarn (other than sewing thread), not put up for retail sale, including synthetic monofilament of less than 67 decitex",
-              "shipment_count" : 3,
-              "value_of_goods" : 31916
-          },
-          {
-              "hs_code" : "8543",
-              "hscode_desc" : "(8543) Electrical machines and apparatus, having individual functions, not specified or included elsewhere in this chapter",
-              "shipment_count" : 5,
-              "value_of_goods" : 30195
-          },
-          {
-              "hs_code" : "8423",
-              "hscode_desc" : "(8423) Weighing machinery (excluding balances of a sensitivity of 5 cg or better), including weight-operated counting or checking machines; weighing machine weights of all kinds",
-              "shipment_count" : 6,
-              "value_of_goods" : 24765
-          },
-          {
-              "hs_code" : "8413",
-              "hscode_desc" : "(8413) Pumps for liquids, whether or not fitted with a measuring device; liquid elevators",
-              "shipment_count" : 8,
-              "value_of_goods" : 24596
-          },
-          {
-              "hs_code" : "7308",
-              "hscode_desc" : "(7308) Structures (excluding prefabricated buildings of heading 9406) and parts of structures (for example, bridges and bridge-sections, lock-gates, towers, lattice masts, roofs, roofing frameworks, doors and windows and their frames and thresholds for doors, shutters, balustrades, pillars and columns), of iron or steel; plates, rods, angles, shapes, sections, tubes and the like, prepared for use in structures, of iron or steel",
-              "shipment_count" : 3,
-              "value_of_goods" : 22552
-          },
-          {
-              "hs_code" : "9026",
-              "hscode_desc" : "(9026) Instruments and apparatus for measuring or checking the flow, level, pressure or other variables of liquids or gases (for example, flow meters, level gauges, manometers, heat meters), excluding instruments and apparatus of heading 9014, 9015, 9028 or 9032",
-              "shipment_count" : 18,
-              "value_of_goods" : 21909
-          },
-          {
-              "hs_code" : "3925",
-              "hscode_desc" : "(3925) Builders' ware of plastics, not elsewhere specified or included",
-              "shipment_count" : 3,
-              "value_of_goods" : 21371
-          },
-          {
-              "hs_code" : "8512",
-              "hscode_desc" : "(8512) Electrical lighting or signalling equipment (excluding articles of heading 8539), windscreen wipers, defrosters and demisters, of a kind used for cycles or motor vehicles",
-              "shipment_count" : 21,
-              "value_of_goods" : 20381
-          },
-          {
-              "hs_code" : "9031",
-              "hscode_desc" : "(9031) Measuring or checking instruments, appliances and machines, not specified or included elsewhere in this chapter; profile projectors",
-              "shipment_count" : 5,
-              "value_of_goods" : 19125
-          },
-          {
-              "hs_code" : "8514",
-              "hscode_desc" : "(8514) Industrial or laboratory electric  furnaces and ovens (including those functioning by induction or dielectric loss); other industrial or laboratory equipment for the heat treatment of materials by induction or dielectric loss",
-              "shipment_count" : 1,
-              "value_of_goods" : 17067
-          },
-          {
-              "hs_code" : "8301",
-              "hscode_desc" : "(8301) Padlocks and locks (key, combination or electrically operated), of base metal; clasps and frames with clasps, incorporating locks, of base metal; keys for any of the foregoing articles, of base metal",
-              "shipment_count" : 6,
-              "value_of_goods" : 16915
-          },
-          {
-              "hs_code" : "7314",
-              "hscode_desc" : "(7314) Cloth (including endless bands), grill, netting and fencing, of iron or steel wire; expanded metal of iron or steel",
-              "shipment_count" : 6,
-              "value_of_goods" : 14333
-          },
-          {
-              "hs_code" : "8482",
-              "hscode_desc" : "(8482) Ball or roller bearings",
-              "shipment_count" : 12,
-              "value_of_goods" : 13694
-          },
-          {
-              "hs_code" : "4819",
-              "hscode_desc" : "(4819) Cartons, boxes, cases, bags and other packing containers, of paper, paperboard, cellulose wadding or webs of cellulose fibres; box files, letter trays, and similar articles, of paper or paperboard of a kind used in offices, shops or the like",
-              "shipment_count" : 5,
-              "value_of_goods" : 11972
-          },
-          {
-              "hs_code" : "8538",
-              "hscode_desc" : "(8538) Parts suitable for use solely or principally with the apparatus of heading 8535, 8536 or 8537",
-              "shipment_count" : 4,
-              "value_of_goods" : 10844
-          },
-          {
-              "hs_code" : "8511",
-              "hscode_desc" : "(8511) Electrical ignition or starting equipment of a kind used for spark-ignition or compression-ignition internal combustion engines (for example, ignition magnetos, magneto-dynamos, ignition coils, sparking plugs and glow plugs, starter motors); generators (for example, dynamos, alternators) and cut-outs of a kind used in conjunction with such engines",
-              "shipment_count" : 6,
-              "value_of_goods" : 10623
-          },
-          {
-              "hs_code" : "7117",
-              "hscode_desc" : "(7117) Imitation jewellery",
-              "shipment_count" : 7,
-              "value_of_goods" : 8297
-          },
-          {
-              "hs_code" : "4016",
-              "hscode_desc" : "(4016) Other articles of vulcanised rubber other than hard rubber",
-              "shipment_count" : 9,
-              "value_of_goods" : 7444
-          },
-          {
-              "hs_code" : "9607",
-              "hscode_desc" : "(9607) Slide fasteners and parts thereof",
-              "shipment_count" : 1,
-              "value_of_goods" : 7102
-          },
-          {
-              "hs_code" : "5603",
-              "hscode_desc" : "(5603) Non-wovens, whether or not impregnated, coated, covered or laminated",
-              "shipment_count" : 1,
-              "value_of_goods" : 6070
-          },
-          {
-              "hs_code" : "9025",
-              "hscode_desc" : "(9025) Hydrometers and similar floating instruments, thermometers, pyrometers, barometers, hygrometers and psychrometers, recording or not, and any combination of these instruments",
-              "shipment_count" : 8,
-              "value_of_goods" : 5320
-          },
-          {
-              "hs_code" : "7315",
-              "hscode_desc" : "(7315) Chain and parts thereof, of iron or steel",
-              "shipment_count" : 1,
-              "value_of_goods" : 5120
-          },
-          {
-              "hs_code" : "8501",
-              "hscode_desc" : "(8501) Electric motors and generators (excluding generating sets)",
-              "shipment_count" : 4,
-              "value_of_goods" : 4802
-          },
-          {
-              "hs_code" : "5602",
-              "hscode_desc" : "(5602) Felt, whether or not impregnated, coated, covered or laminated",
-              "shipment_count" : 1,
-              "value_of_goods" : 3786
-          },
-          {
-              "hs_code" : "8420",
-              "hscode_desc" : "(8420) Calendering or other rolling machines, other than for metals or glass, and cylinders therefor",
-              "shipment_count" : 1,
-              "value_of_goods" : 3645
-          },
-          {
-              "hs_code" : "8462",
-              "hscode_desc" : "(8462) Machine-tools (including presses) for working metal by forging, hammering or die-stamping; machine-tools (including presses) for working metal by bending, folding, straightening, flattening, shearing, punching or notching; presses for working metal or metal carbides, not specified above",
-              "shipment_count" : 1,
-              "value_of_goods" : 3408
-          },
-          {
-              "hs_code" : "8459",
-              "hscode_desc" : "(8459) Machine-tools (including way-type unit head machines) for drilling, boring, milling, threading or tapping by removing metal, other than lathes (including turning centres) of heading No 8458",
-              "shipment_count" : 2,
-              "value_of_goods" : 3341
-          },
-          {
-              "hs_code" : "8409",
-              "hscode_desc" : "(8409) Parts suitable for use solely or principally with the engines of heading No 8407 or 8408",
-              "shipment_count" : 13,
-              "value_of_goods" : 3201
-          },
-          {
-              "hs_code" : "8461",
-              "hscode_desc" : "(8461) Machine-tools for planing, shaping, slotting, broaching, gear cutting, gear grinding or gear finishing, sawing, cutting-off and other machine-tools working by removing metal or cermets, not elsewhere specified or included",
-              "shipment_count" : 1,
-              "value_of_goods" : 2784
-          },
-          {
-              "hs_code" : "8208",
-              "hscode_desc" : "(8208) Knives and cutting blades, for machines or for mechanical appliances",
-              "shipment_count" : 2,
-              "value_of_goods" : 1167
-          },
-          {
-              "hs_code" : "8465",
-              "hscode_desc" : "(8465) Machine-tools (including machines for nailing, stapling, glueing or otherwise assembling) for working wood, cork, bone, hard rubber, hard plastics or similar hard materials",
-              "shipment_count" : 1,
-              "value_of_goods" : 1114
-          },
-          {
-              "hs_code" : "8309",
-              "hscode_desc" : "(8309) Stoppers, caps and lids (including crown corks, screw caps and pouring stoppers), capsules for bottles, threaded bungs, bung covers, seals and other packing accessories, of base metal",
-              "shipment_count" : 5,
-              "value_of_goods" : 1030
-          },
-          {
-              "hs_code" : "4009",
-              "hscode_desc" : "(4009) Tubes, pipes and hoses, of vulcanised rubber other than hard rubber, with or without their fittings (for example, joints, elbows, flanges)",
-              "shipment_count" : 5,
-              "value_of_goods" : 951
-          },
-          {
-              "hs_code" : "9603",
-              "hscode_desc" : "(9603) Brooms, brushes (including brushes constituting parts of machines, appliances or vehicles), hand-operated mechanical floor sweepers, not motorised, mops and feather dusters; prepared knots and tufts for broom or brush making; paint pads and rollers; squeegees (other than roller squeegees)",
-              "shipment_count" : 2,
-              "value_of_goods" : 747
-          },
-          {
-              "hs_code" : "3919",
-              "hscode_desc" : "(3919) Self-adhesive plates, sheets, film, foil, tape, strip and other flat shapes, of plastics, whether or not in rolls",
-              "shipment_count" : 2,
-              "value_of_goods" : 535
-          },
-          {
-              "hs_code" : "7009",
-              "hscode_desc" : "(7009) Glass mirrors, whether or not framed, including rear-view mirrors",
-              "shipment_count" : 3,
-              "value_of_goods" : 461
-          },
-          {
-              "hs_code" : "9027",
-              "hscode_desc" : "(9027) Instruments and apparatus for physical or chemical analysis (for example, polarimeters, refractometers, spectrometers, gas or smoke analysis apparatus); instruments and apparatus for measuring or checking viscosity, porosity, expansion, surface tension or the like; instruments and apparatus for measuring or checking quantities of heat, sound or light (including exposure meters); microtomes",
-              "shipment_count" : 1,
-              "value_of_goods" : 457
-          },
-          {
-              "hs_code" : "7320",
-              "hscode_desc" : "(7320) Springs and leaves for springs, of iron or steel",
-              "shipment_count" : 4,
-              "value_of_goods" : 422
-          },
-          {
-              "hs_code" : "8484",
-              "hscode_desc" : "(8484) Gaskets and similar joints of metal sheeting combined with other material or of two or more layers of metal; sets or assortments of gaskets and similar joints, dissimilar in composition, put up in pouches, envelopes or similar packings; mechanical seals",
-              "shipment_count" : 5,
-              "value_of_goods" : 312
-          },
-          {
-              "hs_code" : "8467",
-              "hscode_desc" : "(8467) Tools for working in the hand, pneumatic, hydraulic or with self-contained electric or non-electric motor",
-              "shipment_count" : 1,
-              "value_of_goods" : 278
-          },
-          {
-              "hs_code" : "9029",
-              "hscode_desc" : "(9029) Revolution counters, production counters, taximeters, milometers, pedometers and the like; speed indicators and tachometers, other than those of heading 9014 or 9015; stroboscopes",
-              "shipment_count" : 1,
-              "value_of_goods" : 183
-          },
-          {
-              "hs_code" : "7326",
-              "hscode_desc" : "(7326) Other articles of iron or steel",
-              "shipment_count" : 1,
-              "value_of_goods" : 106
-          },
-          {
-              "hs_code" : "4010",
-              "hscode_desc" : "(4010) Conveyor or transmission belts or belting, of vulcanised rubber",
-              "shipment_count" : 1,
-              "value_of_goods" : 31
-          },
-          {
-              "hs_code" : "4811",
-              "hscode_desc" : "(4811) Paper, paperboard, cellulose wadding and webs of cellulose fibres, coated, impregnated, covered, surface-coloured, surface-decorated or printed, in rolls or rectangular (including square) sheets, of any size, other than goods of the kind described in heading 4803, 4809 or 4810",
-              "shipment_count" : 1,
-              "value_of_goods" : 0
-          },
-          {
-              "hs_code" : "9612",
-              "hscode_desc" : "(9612) Typewriter or similar ribbons, inked or otherwise prepared for giving impressions, whether or not on spools or in cartridges; ink-pads, whether or not inked, with or without boxes",
-              "shipment_count" : 1,
-              "value_of_goods" : 0
-          },
-          {
-              "hs_code" : "4818",
-              "hscode_desc" : "(4818) Toilet paper and similar paper, cellulose wadding or webs of cellulose fibres, of a kind used for household or sanitary purposes, in rolls of a width not exceeding 36 cm, or cut to size or shape; handkerchiefs, cleansing tissues, towels, tablecloths, serviettes, napkins for babies, tampons, bed sheets and similar household, sanitary or hospital articles, articles of apparel and clothing accessories, of paper pulp, paper, cellulose wadding or webs of cellulose fibres",
-              "shipment_count" : 1,
-              "value_of_goods" : 0
-          },
-          {
-              "hs_code" : "4410",
-              "hscode_desc" : "(4410) Particle board and similar board (for example, oriented strand board and waferboard) of wood or other ligneous materials, whether or not agglomerated with resins or other organic binding substances",
-              "shipment_count" : 1,
-              "value_of_goods" : 0
-          },
-          {
-              "hs_code" : "3215",
-              "hscode_desc" : "(3215) Printing ink, writing or drawing ink and other inks, whether or not concentrated or solid",
-              "shipment_count" : 1,
-              "value_of_goods" : 0
-          },
-          {
-              "hs_code" : "9608",
-              "hscode_desc" : "(9608) Ballpoint pens; felt-tipped and other porous-tipped pens and markers; fountain pens, stylograph pens and other pens; duplicating stylos; propelling or sliding pencils; pen-holders, pencil-holders and similar holders; parts (including caps and clips) of the foregoing articles, other than those of heading 9609",
-              "shipment_count" : 1,
-              "value_of_goods" : 0
-          },
-          {
-              "hs_code" : "9205",
-              "hscode_desc" : "(9205) Other wind musical instruments (for example, clarinets, trumpets, bagpipes)",
-              "shipment_count" : 1,
-              "value_of_goods" : 0
-          },
-          {
-              "hs_code" : "2202",
-              "hscode_desc" : "(2202) Waters, including mineral waters and aerated waters, containing added sugar or other sweetening matter or flavoured, and other non-alcoholic beverages, not including fruit or vegetable juices of heading No 2009",
-              "shipment_count" : 1,
-              "value_of_goods" : 0
-          },
-          {
-              "hs_code" : "9609",
-              "hscode_desc" : "(9609) Pencils (other than pencils of heading 9608), crayons, pencil leads, pastels, drawing charcoals, writing or drawing chalks and tailors' chalks",
-              "shipment_count" : 2,
-              "value_of_goods" : 0
-          },
-          {
-              "hs_code" : "7319",
-              "hscode_desc" : "(7319) Sewing needles, knitting needles, bodkins, crochet hooks, embroidery stilettos and similar articles, for use in the hand, of iron or steel; safety pins and other pins of iron or steel, not elsewhere specified or included",
-              "shipment_count" : 1,
-              "value_of_goods" : 0
-          },
-          {
-              "hs_code" : "6307",
-              "hscode_desc" : "(6307) Other made-up articles, including dress patterns",
-              "shipment_count" : 2,
-              "value_of_goods" : 0
-          },
-          {
-              "hs_code" : "4821",
-              "hscode_desc" : "(4821) Paper or paperboard labels of all kinds, whether or not printed",
-              "shipment_count" : 1,
-              "value_of_goods" : 0
-          },
-          {
-              "hs_code" : "9032",
-              "hscode_desc" : "(9032) Automatic regulating or controlling instruments and apparatus",
-              "shipment_count" : 1,
-              "value_of_goods" : 0
-          },
-          {
-              "hs_code" : "3401",
-              "hscode_desc" : "(3401) Soap; organic surface-active products and preparations for use as soap, in the form of bars, cakes, moulded pieces or shapes, whether or not containing soap; organic surface-active products and preparations for washing the skin, in the form of liquid or cream and put up for retail sale, whether or not containing soap; paper, wadding, felt and non-wovens, impregnated, coated or covered with soap or detergent",
-              "shipment_count" : 2,
-              "value_of_goods" : 0
-          },
-          {
-              "hs_code" : "8305",
-              "hscode_desc" : "(8305) Fittings for loose-leaf binders or files, letter clips, letter corners, paper clips, indexing tags and similar office articles, of base metal; staples in strips (for example, for offices, upholstery, packaging), of base metal",
-              "shipment_count" : 3,
-              "value_of_goods" : 0
-          },
-          {
-              "hs_code" : "7010",
-              "hscode_desc" : "(7010) Carboys, bottles, flasks, jars, pots, phials, ampoules and other containers, of glass, of a kind used for the conveyance or packing of goods; preserving jars of glass; stoppers, lids and other closures, of glass",
-              "shipment_count" : 3,
-              "value_of_goods" : 66129
-          }
+        {
+          hs_code: "6302",
+          hscode_desc:
+            "(6302) Bed linen, table linen, toilet linen and kitchen linen",
+          shipment_count: 139,
+          value_of_goods: 25162000
+        },
+        {
+          hs_code: "6403",
+          hscode_desc:
+            "(6403) Footwear with outer soles of rubber, plastics, leather or composition leather and uppers of leather",
+          shipment_count: 2,
+          value_of_goods: 0
+        },
+        {
+          hs_code: "61",
+          hscode_desc:
+            "(61) CHAPTER 61ARTICLES OF APPAREL AND CLOTHING ACCESSORIES, KNITTED OR CROCHETED",
+          shipment_count: 48,
+          value_of_goods: 15190000
+        },
+        {
+          hs_code: "6001",
+          hscode_desc:
+            "(6001) Pile fabrics, including long pile fabrics and terry fabrics, knitted or crocheted",
+          shipment_count: 321,
+          value_of_goods: 11592000
+        },
+        {
+          hs_code: "9404",
+          hscode_desc:
+            "(9404) Mattress supports; articles of bedding and similar furnishing (for example, mattresses, quilts, eiderdowns, cushions, pouffes and pillows) fitted with springs or stuffed or internally fitted with any material or of cellular rubber or plastics, whether or not covered",
+          shipment_count: 179,
+          value_of_goods: 10134000
+        },
+        {
+          hs_code: "3913",
+          hscode_desc:
+            "(3913) Natural polymers (for example, alginic acid) and modified natural polymers (for example, hardened proteins, chemical derivatives of natural rubber), not elsewhere specified or included, in primary forms",
+          shipment_count: 5,
+          value_of_goods: 9797000
+        },
+        {
+          hs_code: "6301",
+          hscode_desc: "(6301) Blankets and travelling rugs",
+          shipment_count: 33,
+          value_of_goods: 5943000
+        },
+        {
+          hs_code: "8705",
+          hscode_desc:
+            "(8705) Special purpose motor vehicles, other than those principally designed for the transport of persons or goods (for example, breakdown lorries, crane lorries, fire-fighting vehicles, concrete-mixer lorries, road sweeper lorries, spraying lorries, mobile workshops, mobile radiological units)",
+          shipment_count: 12,
+          value_of_goods: 5680000
+        },
+        {
+          hs_code: "6303",
+          hscode_desc:
+            "(6303) Curtains (including drapes) and interior blinds; curtain or bed valances",
+          shipment_count: 28,
+          value_of_goods: 5392000
+        },
+        {
+          hs_code: "8701",
+          hscode_desc: "(8701) Tractors (other than tractors of heading 8709)",
+          shipment_count: 6,
+          value_of_goods: 5290000
+        },
+        {
+          hs_code: "4823",
+          hscode_desc:
+            "(4823) Other paper, paperboard, cellulose wadding and webs of cellulose fibres, cut to size or shape; other articles of paper pulp, paper, paperboard, cellulose wadding or webs of cellulose fibres",
+          shipment_count: 15,
+          value_of_goods: 4269000
+        },
+        {
+          hs_code: "6304",
+          hscode_desc:
+            "(6304) Other furnishing articles, excluding those of heading 9404",
+          shipment_count: 6,
+          value_of_goods: 4026000
+        },
+        {
+          hs_code: "2919",
+          hscode_desc:
+            "(2919) Phosphoric esters and their salts, including lactophosphates; their halogenated, sulphonated, nitrated or nitrosated derivatives",
+          shipment_count: 10,
+          value_of_goods: 2901000
+        },
+        {
+          hs_code: "7228",
+          hscode_desc:
+            "(7228) Other bars and rods of other alloy steel; angles, shapes and sections, of other alloy steel; hollow drill bars and rods, of alloy or non-alloy steel",
+          shipment_count: 3,
+          value_of_goods: 2713000
+        },
+        {
+          hs_code: "8504",
+          hscode_desc:
+            "(8504) Electrical transformers, static converters (for example, rectifiers) and inductors",
+          shipment_count: 129,
+          value_of_goods: 2614000
+        },
+        {
+          hs_code: "64",
+          hscode_desc:
+            "(64) CHAPTER 64FOOTWEAR, GAITERS AND THE LIKE; PARTS OF SUCH ARTICLES",
+          shipment_count: 11,
+          value_of_goods: 2454000
+        },
+        {
+          hs_code: "2827",
+          hscode_desc:
+            "(2827) Chlorides, chloride oxides and chloride hydroxides; bromides and bromide oxides; iodides and iodide oxides",
+          shipment_count: 4,
+          value_of_goods: 2186000
+        },
+        {
+          hs_code: "8716",
+          hscode_desc:
+            "(8716) Trailers and semi-trailers; other vehicles, not mechanically propelled; parts thereof",
+          shipment_count: 7,
+          value_of_goods: 2172000
+        },
+        {
+          hs_code: "6404",
+          hscode_desc:
+            "(6404) Footwear with outer soles of rubber, plastics, leather or composition leather and uppers of textile materials",
+          shipment_count: 2,
+          value_of_goods: 2004000
+        },
+        {
+          hs_code: "4203",
+          hscode_desc:
+            "(4203) Articles of apparel and clothing accessories, of leather or of composition leather",
+          shipment_count: 11,
+          value_of_goods: 1946000
+        },
+        {
+          hs_code: "8528",
+          hscode_desc:
+            "(8528) Reception apparatus for television, whether or not incorporating radio-broadcast receivers or sound or video recording or reproducing apparatus; video monitors and video projectors",
+          shipment_count: 1,
+          value_of_goods: 1798000
+        },
+        {
+          hs_code: "73",
+          hscode_desc: "(73) CHAPTER 73ARTICLES OF IRON OR STEEL",
+          shipment_count: 4,
+          value_of_goods: 1734000
+        },
+        {
+          hs_code: "5407",
+          hscode_desc:
+            "(5407) Woven fabrics of synthetic filament yarn, including woven fabrics obtained from materials of heading 5404",
+          shipment_count: 67,
+          value_of_goods: 1665000
+        },
+        {
+          hs_code: "3926",
+          hscode_desc:
+            "(3926) Other articles of plastics and articles of other materials of headings 3901 to 3914",
+          shipment_count: 17,
+          value_of_goods: 1535000
+        },
+        {
+          hs_code: "8539",
+          hscode_desc:
+            "(8539) Electric filament or discharge lamps, including sealed-beam lamp units and ultraviolet or infrared lamps; arc-lamps",
+          shipment_count: 53,
+          value_of_goods: 1474000
+        },
+        {
+          hs_code: "6202",
+          hscode_desc:
+            "(6202) Women's or girls' overcoats, car-coats, capes, cloaks, anoraks (including ski-jackets), wind-cheaters, wind-jackets and similar articles, other than those of heading No 6204",
+          shipment_count: 4,
+          value_of_goods: 1387000
+        },
+        {
+          hs_code: "3923",
+          hscode_desc:
+            "(3923) Articles for the conveyance or packing of goods, of plastics; stoppers, lids, caps and other closures, of plastics",
+          shipment_count: 112,
+          value_of_goods: 1378000
+        },
+        {
+          hs_code: "9405",
+          hscode_desc:
+            "(9405) Lamps and lighting fittings including searchlights and spotlights and parts thereof, not elsewhere specified or included; illuminated signs, illuminated name-plates and the like, having a permanently fixed light source, and parts thereof not elsewhere specified or included",
+          shipment_count: 14,
+          value_of_goods: 1286000
+        },
+        {
+          hs_code: "3924",
+          hscode_desc:
+            "(3924) Tableware, kitchenware, other household articles and toilet articles, of plastics",
+          shipment_count: 9,
+          value_of_goods: 1234000
+        },
+        {
+          hs_code: "6201",
+          hscode_desc:
+            "(6201) Men's or boys' overcoats, car-coats, capes, cloaks, anoraks (including ski-jackets), wind-cheaters, wind-jackets and similar articles, other than those of heading No 6203",
+          shipment_count: 3,
+          value_of_goods: 867756
+        },
+        {
+          hs_code: "8712",
+          hscode_desc:
+            "(8712) Bicycles and other cycles (including delivery tricycles), not motorized",
+          shipment_count: 29,
+          value_of_goods: 737936
+        },
+        {
+          hs_code: "8714",
+          hscode_desc:
+            "(8714) Parts and accessories of vehicles of headings 8711 to 8713",
+          shipment_count: 137,
+          value_of_goods: 736541
+        },
+        {
+          hs_code: "5703",
+          hscode_desc:
+            "(5703) Carpets and other textile floor coverings, tufted, whether or not made-up",
+          shipment_count: 5,
+          value_of_goods: 723883
+        },
+        {
+          hs_code: "43",
+          hscode_desc:
+            "(43) CHAPTER 43FURSKINS AND ARTIFICIAL FUR; MANUFACTURES THEREOF",
+          shipment_count: 2,
+          value_of_goods: 708375
+        },
+        {
+          hs_code: "8473",
+          hscode_desc:
+            "(8473) Parts and accessories (other than covers, carrying cases and the like) suitable for use solely or principally with machines of headings 8469 to 8472",
+          shipment_count: 39,
+          value_of_goods: 700753
+        },
+        {
+          hs_code: "6204",
+          hscode_desc:
+            "(6204) Women's or girls' suits, ensembles, jackets, blazers, dresses, skirts, divided skirts, trousers, bib and brace overalls, breeches and shorts (other than swimwear)",
+          shipment_count: 3,
+          value_of_goods: 684905
+        },
+        {
+          hs_code: "6402",
+          hscode_desc:
+            "(6402) Other footwear with outer soles and uppers of rubber or plastics",
+          shipment_count: 2,
+          value_of_goods: 669848
+        },
+        {
+          hs_code: "7610",
+          hscode_desc:
+            "(7610) Aluminium structures (excluding prefabricated buildings of heading No 9406) and parts of structures (for example, bridges and bridge-sections, towers, lattice masts, roofs, roofing frameworks, doors and windows and their frames and thresholds for doors, balustrades, pillars and columns); aluminium plates, rods, profiles, tubes and the like, prepared for use in structures",
+          shipment_count: 14,
+          value_of_goods: 666683
+        },
+        {
+          hs_code: "2008",
+          hscode_desc:
+            "(2008) Fruit, nuts and other edible parts of plants, otherwise prepared or preserved, whether or not containing added sugar or other sweetening matter or spirit, not elsewhere specified or included",
+          shipment_count: 2,
+          value_of_goods: 663369
+        },
+        {
+          hs_code: "3818",
+          hscode_desc:
+            "(3818) Chemical elements doped for use in electronics, in the form of discs, wafers or similar forms; chemical compounds doped for use in electronics",
+          shipment_count: 1,
+          value_of_goods: 649551
+        },
+        {
+          hs_code: "8302",
+          hscode_desc:
+            "(8302) Base metal mountings, fittings and similar articles suitable for furniture, doors, staircases, windows, blinds, coachwork, saddlery, trunks, chests, caskets or the like; base metal hat-racks, hat-pegs, brackets and similar fixtures; castors with mountings of base metal; automatic door closers of base metal",
+          shipment_count: 1,
+          value_of_goods: 508506
+        },
+        {
+          hs_code: "5811",
+          hscode_desc:
+            "(5811) Quilted textile products in the piece, composed of one or more layers of textile materials assembled with padding by stitching or otherwise, other than embroidery of heading 5810",
+          shipment_count: 20,
+          value_of_goods: 418808
+        },
+        {
+          hs_code: "9401",
+          hscode_desc:
+            "(9401) Seats (other than those of heading 9402), whether or not convertible into beds, and parts thereof",
+          shipment_count: 19,
+          value_of_goods: 343429
+        },
+        {
+          hs_code: "8536",
+          hscode_desc:
+            "(8536) Electrical apparatus for switching or protecting electrical circuits, or for making connections to or in electrical circuits (for example, switches, relays, fuses, surge suppressors, plugs, sockets, lamp-holders, junction boxes), for a voltage not exceeding 1 000 V",
+          shipment_count: 53,
+          value_of_goods: 328802
+        },
+        {
+          hs_code: "84",
+          hscode_desc:
+            "(84) CHAPTER 84NUCLEAR REACTORS, BOILERS, MACHINERY AND MECHANICAL APPLIANCES; PARTS THEREOF",
+          shipment_count: 4,
+          value_of_goods: 324640
+        },
+        {
+          hs_code: "8425",
+          hscode_desc:
+            "(8425) Pulley tackle and hoists other than skip hoists; winches and capstans; jacks",
+          shipment_count: 6,
+          value_of_goods: 318534
+        },
+        {
+          hs_code: "8704",
+          hscode_desc: "(8704) Motor vehicles for the transport of goods",
+          shipment_count: 1,
+          value_of_goods: 306258
+        },
+        {
+          hs_code: "9503",
+          hscode_desc:
+            "(9503) Other toys; reduced-size (scale) models and similar recreational models, working or not; puzzles of all kinds",
+          shipment_count: 8,
+          value_of_goods: 306242
+        },
+        {
+          hs_code: "8708",
+          hscode_desc:
+            "(8708) Parts and accessories of the motor vehicles of heading 8701 to 8705",
+          shipment_count: 127,
+          value_of_goods: 299757
+        },
+        {
+          hs_code: "9403",
+          hscode_desc: "(9403) Other furniture and parts thereof",
+          shipment_count: 12,
+          value_of_goods: 275616
+        },
+        {
+          hs_code: "8529",
+          hscode_desc:
+            "(8529) Parts suitable for use solely or principally with the apparatus of headings 8525 to 8528",
+          shipment_count: 11,
+          value_of_goods: 241016
+        },
+        {
+          hs_code: "3506",
+          hscode_desc:
+            "(3506) Prepared glues and other prepared adhesives, not elsewhere specified or included; products suitable for use as glues or adhesives, put up for retail sale as glues or adhesives, not exceeding a net weight of 1 kg",
+          shipment_count: 9,
+          value_of_goods: 232530
+        },
+        {
+          hs_code: "5208",
+          hscode_desc:
+            "(5208) Woven fabrics of cotton, containing 85 % or more by weight of cotton, weighing not more than 200 g/m2",
+          shipment_count: 7,
+          value_of_goods: 199772
+        },
+        {
+          hs_code: "57",
+          hscode_desc:
+            "(57) CHAPTER 57CARPETS AND OTHER TEXTILE FLOOR COVERINGS",
+          shipment_count: 1,
+          value_of_goods: 189164
+        },
+        {
+          hs_code: "3907",
+          hscode_desc:
+            "(3907) Polyacetals, other polyethers and epoxide resins, in primary forms; polycarbonates, alkyd resins, polyallyl esters and other polyesters, in primary forms",
+          shipment_count: 1,
+          value_of_goods: 176455
+        },
+        {
+          hs_code: "3212",
+          hscode_desc:
+            "(3212) Pigments (including metallic powders and flakes) dispersed in non-aqueous media, in liquid or paste form, of a kind used in the manufacture of paints (including enamels); stamping foils; dyes and other colouring matter put up in forms or packings for retail sale",
+          shipment_count: 3,
+          value_of_goods: 170177
+        },
+        {
+          hs_code: "8537",
+          hscode_desc:
+            "(8537) Boards, panels, consoles, desks, cabinets and other bases, equipped with two or more apparatus of heading 8535 or 8536, for electric control or the distribution of electricity, including those incorporating instruments or apparatus of Chapter 90, and numerical control apparatus, other than switching apparatus of heading 8517",
+          shipment_count: 3,
+          value_of_goods: 167651
+        },
+        {
+          hs_code: "8471",
+          hscode_desc:
+            "(8471) Automatic data-processing machines and units thereof; magnetic or optical readers, machines for transcribing data onto data media in coded form and machines for processing such data, not elsewhere specified or included",
+          shipment_count: 12,
+          value_of_goods: 141992
+        },
+        {
+          hs_code: "7604",
+          hscode_desc: "(7604) Aluminium bars, rods and profiles",
+          shipment_count: 2,
+          value_of_goods: 140691
+        },
+        {
+          hs_code: "7007",
+          hscode_desc:
+            "(7007) Safety glass, consisting of toughened (tempered) or laminated glass",
+          shipment_count: 1,
+          value_of_goods: 133529
+        },
+        {
+          hs_code: "8544",
+          hscode_desc:
+            "(8544) Insulated (including enamelled or anodised) wire, cable (including coaxial cable) and other insulated electric conductors, whether or not fitted with connectors; optical fibre cables, made-up of individually sheathed fibres, whether or not assembled with electric conductors or fitted with connectors",
+          shipment_count: 4,
+          value_of_goods: 126557
+        },
+        {
+          hs_code: "8481",
+          hscode_desc:
+            "(8481) Taps, cocks, valves and similar appliances for pipes, boiler shells, tanks, vats or the like, including pressure-reducing valves and thermostatically controlled valves",
+          shipment_count: 14,
+          value_of_goods: 124802
+        },
+        {
+          hs_code: "8707",
+          hscode_desc:
+            "(8707) Bodies (including cabs), for the motor vehicles of headings 8701 to 8705",
+          shipment_count: 2,
+          value_of_goods: 118835
+        },
+        {
+          hs_code: "8428",
+          hscode_desc:
+            "(8428) Other lifting, handling, loading or unloading machinery (for example, lifts, escalators, conveyors, teleferics)",
+          shipment_count: 1,
+          value_of_goods: 114379
+        },
+        {
+          hs_code: "6005",
+          hscode_desc:
+            "(6005) Warp knit fabrics (including those made on galloon knitting machines), other than those of headings 6001 to 6004",
+          shipment_count: 2,
+          value_of_goods: 111724
+        },
+        {
+          hs_code: "3921",
+          hscode_desc:
+            "(3921) Other plates, sheets, film, foil and strip, of plastics",
+          shipment_count: 3,
+          value_of_goods: 104203
+        },
+        {
+          hs_code: "8421",
+          hscode_desc:
+            "(8421) Centrifuges, including centrifugal dryers; filtering or purifying machinery and apparatus, for liquids or gases",
+          shipment_count: 6,
+          value_of_goods: 86068
+        },
+        {
+          hs_code: "4202",
+          hscode_desc:
+            "(4202) Trunks, suit-cases, vanity-cases, executive-cases, brief-cases, school satchels, spectacle cases, binocular cases, camera cases, musical instrument cases, gun cases, holsters and similar containers; travelling-bags, insulated food or beverage bags, toilet bags, rucksacks, handbags, shopping-bags, wallets, purses, map-cases, cigarette-cases, tobacco-pouches, tool bags, sports bags, bottle-cases, jewellery boxes, powder-boxes, cutlery cases and similar containers, of leather or of composition leather, of sheeting of plastics, of textile materials, of vulcanised fibre or of paperboard, or wholly or mainly covered with such materials or with paper",
+          shipment_count: 139,
+          value_of_goods: 24701000
+        },
+        {
+          hs_code: "3307",
+          hscode_desc:
+            "(3307) Pre-shave, shaving or after-shave preparations, personal deodorants, bath preparations, depilatories and other perfumery, cosmetic or toilet preparations, not elsewhere specified or included; prepared room deodorisers, whether or not perfumed or having disinfectant properties",
+          shipment_count: 4,
+          value_of_goods: 62844
+        },
+        {
+          hs_code: "8483",
+          hscode_desc:
+            "(8483) Transmission shafts (including cam shafts and crank shafts) and cranks; bearing housings and plain shaft bearings; gears and gearing; ball or roller screws; gear boxes and other speed changers, including torque converters; flywheels and pulleys, including pulley blocks; clutches and shaft couplings (including universal joints)",
+          shipment_count: 5,
+          value_of_goods: 58552
+        },
+        {
+          hs_code: "5209",
+          hscode_desc:
+            "(5209) Woven fabrics of cotton, containing 85 % or more by weight of cotton, weighing more than 200 g/m2",
+          shipment_count: 1,
+          value_of_goods: 51428
+        },
+        {
+          hs_code: "8525",
+          hscode_desc:
+            "(8525) Transmission apparatus for radio-telephony, radio-telegraphy, radio-broadcasting or television, whether or not incorporating reception apparatus or sound recording or reproducing apparatus; television cameras; still image video cameras and other video camera recorders; digital cameras",
+          shipment_count: 2,
+          value_of_goods: 51229
+        },
+        {
+          hs_code: "6208",
+          hscode_desc:
+            "(6208) Women's or girls' singlets and other vests, slips, petticoats, briefs, panties, nightdresses, pyjamas, negligees, bathrobes, dressing gowns and similar articles",
+          shipment_count: 1,
+          value_of_goods: 47009
+        },
+        {
+          hs_code: "8414",
+          hscode_desc:
+            "(8414) Air or vacuum pumps, air or other gas compressors and fans; ventilating or recycling hoods incorporating a fan, whether or not fitted with filters",
+          shipment_count: 10,
+          value_of_goods: 39145
+        },
+        {
+          hs_code: "7318",
+          hscode_desc:
+            "(7318) Screws, bolts, nuts, coach screws, screw hooks, rivets, cotters, cotter-pins, washers (including spring washers) and similar articles, of iron or steel",
+          shipment_count: 11,
+          value_of_goods: 32712
+        },
+        {
+          hs_code: "5402",
+          hscode_desc:
+            "(5402) Synthetic filament yarn (other than sewing thread), not put up for retail sale, including synthetic monofilament of less than 67 decitex",
+          shipment_count: 3,
+          value_of_goods: 31916
+        },
+        {
+          hs_code: "8543",
+          hscode_desc:
+            "(8543) Electrical machines and apparatus, having individual functions, not specified or included elsewhere in this chapter",
+          shipment_count: 5,
+          value_of_goods: 30195
+        },
+        {
+          hs_code: "8423",
+          hscode_desc:
+            "(8423) Weighing machinery (excluding balances of a sensitivity of 5 cg or better), including weight-operated counting or checking machines; weighing machine weights of all kinds",
+          shipment_count: 6,
+          value_of_goods: 24765
+        },
+        {
+          hs_code: "8413",
+          hscode_desc:
+            "(8413) Pumps for liquids, whether or not fitted with a measuring device; liquid elevators",
+          shipment_count: 8,
+          value_of_goods: 24596
+        },
+        {
+          hs_code: "7308",
+          hscode_desc:
+            "(7308) Structures (excluding prefabricated buildings of heading 9406) and parts of structures (for example, bridges and bridge-sections, lock-gates, towers, lattice masts, roofs, roofing frameworks, doors and windows and their frames and thresholds for doors, shutters, balustrades, pillars and columns), of iron or steel; plates, rods, angles, shapes, sections, tubes and the like, prepared for use in structures, of iron or steel",
+          shipment_count: 3,
+          value_of_goods: 22552
+        },
+        {
+          hs_code: "9026",
+          hscode_desc:
+            "(9026) Instruments and apparatus for measuring or checking the flow, level, pressure or other variables of liquids or gases (for example, flow meters, level gauges, manometers, heat meters), excluding instruments and apparatus of heading 9014, 9015, 9028 or 9032",
+          shipment_count: 18,
+          value_of_goods: 21909
+        },
+        {
+          hs_code: "3925",
+          hscode_desc:
+            "(3925) Builders' ware of plastics, not elsewhere specified or included",
+          shipment_count: 3,
+          value_of_goods: 21371
+        },
+        {
+          hs_code: "8512",
+          hscode_desc:
+            "(8512) Electrical lighting or signalling equipment (excluding articles of heading 8539), windscreen wipers, defrosters and demisters, of a kind used for cycles or motor vehicles",
+          shipment_count: 21,
+          value_of_goods: 20381
+        },
+        {
+          hs_code: "9031",
+          hscode_desc:
+            "(9031) Measuring or checking instruments, appliances and machines, not specified or included elsewhere in this chapter; profile projectors",
+          shipment_count: 5,
+          value_of_goods: 19125
+        },
+        {
+          hs_code: "8514",
+          hscode_desc:
+            "(8514) Industrial or laboratory electric  furnaces and ovens (including those functioning by induction or dielectric loss); other industrial or laboratory equipment for the heat treatment of materials by induction or dielectric loss",
+          shipment_count: 1,
+          value_of_goods: 17067
+        },
+        {
+          hs_code: "8301",
+          hscode_desc:
+            "(8301) Padlocks and locks (key, combination or electrically operated), of base metal; clasps and frames with clasps, incorporating locks, of base metal; keys for any of the foregoing articles, of base metal",
+          shipment_count: 6,
+          value_of_goods: 16915
+        },
+        {
+          hs_code: "7314",
+          hscode_desc:
+            "(7314) Cloth (including endless bands), grill, netting and fencing, of iron or steel wire; expanded metal of iron or steel",
+          shipment_count: 6,
+          value_of_goods: 14333
+        },
+        {
+          hs_code: "8482",
+          hscode_desc: "(8482) Ball or roller bearings",
+          shipment_count: 12,
+          value_of_goods: 13694
+        },
+        {
+          hs_code: "4819",
+          hscode_desc:
+            "(4819) Cartons, boxes, cases, bags and other packing containers, of paper, paperboard, cellulose wadding or webs of cellulose fibres; box files, letter trays, and similar articles, of paper or paperboard of a kind used in offices, shops or the like",
+          shipment_count: 5,
+          value_of_goods: 11972
+        },
+        {
+          hs_code: "8538",
+          hscode_desc:
+            "(8538) Parts suitable for use solely or principally with the apparatus of heading 8535, 8536 or 8537",
+          shipment_count: 4,
+          value_of_goods: 10844
+        },
+        {
+          hs_code: "8511",
+          hscode_desc:
+            "(8511) Electrical ignition or starting equipment of a kind used for spark-ignition or compression-ignition internal combustion engines (for example, ignition magnetos, magneto-dynamos, ignition coils, sparking plugs and glow plugs, starter motors); generators (for example, dynamos, alternators) and cut-outs of a kind used in conjunction with such engines",
+          shipment_count: 6,
+          value_of_goods: 10623
+        },
+        {
+          hs_code: "7117",
+          hscode_desc: "(7117) Imitation jewellery",
+          shipment_count: 7,
+          value_of_goods: 8297
+        },
+        {
+          hs_code: "4016",
+          hscode_desc:
+            "(4016) Other articles of vulcanised rubber other than hard rubber",
+          shipment_count: 9,
+          value_of_goods: 7444
+        },
+        {
+          hs_code: "9607",
+          hscode_desc: "(9607) Slide fasteners and parts thereof",
+          shipment_count: 1,
+          value_of_goods: 7102
+        },
+        {
+          hs_code: "5603",
+          hscode_desc:
+            "(5603) Non-wovens, whether or not impregnated, coated, covered or laminated",
+          shipment_count: 1,
+          value_of_goods: 6070
+        },
+        {
+          hs_code: "9025",
+          hscode_desc:
+            "(9025) Hydrometers and similar floating instruments, thermometers, pyrometers, barometers, hygrometers and psychrometers, recording or not, and any combination of these instruments",
+          shipment_count: 8,
+          value_of_goods: 5320
+        },
+        {
+          hs_code: "7315",
+          hscode_desc: "(7315) Chain and parts thereof, of iron or steel",
+          shipment_count: 1,
+          value_of_goods: 5120
+        },
+        {
+          hs_code: "8501",
+          hscode_desc:
+            "(8501) Electric motors and generators (excluding generating sets)",
+          shipment_count: 4,
+          value_of_goods: 4802
+        },
+        {
+          hs_code: "5602",
+          hscode_desc:
+            "(5602) Felt, whether or not impregnated, coated, covered or laminated",
+          shipment_count: 1,
+          value_of_goods: 3786
+        },
+        {
+          hs_code: "8420",
+          hscode_desc:
+            "(8420) Calendering or other rolling machines, other than for metals or glass, and cylinders therefor",
+          shipment_count: 1,
+          value_of_goods: 3645
+        },
+        {
+          hs_code: "8462",
+          hscode_desc:
+            "(8462) Machine-tools (including presses) for working metal by forging, hammering or die-stamping; machine-tools (including presses) for working metal by bending, folding, straightening, flattening, shearing, punching or notching; presses for working metal or metal carbides, not specified above",
+          shipment_count: 1,
+          value_of_goods: 3408
+        },
+        {
+          hs_code: "8459",
+          hscode_desc:
+            "(8459) Machine-tools (including way-type unit head machines) for drilling, boring, milling, threading or tapping by removing metal, other than lathes (including turning centres) of heading No 8458",
+          shipment_count: 2,
+          value_of_goods: 3341
+        },
+        {
+          hs_code: "8409",
+          hscode_desc:
+            "(8409) Parts suitable for use solely or principally with the engines of heading No 8407 or 8408",
+          shipment_count: 13,
+          value_of_goods: 3201
+        },
+        {
+          hs_code: "8461",
+          hscode_desc:
+            "(8461) Machine-tools for planing, shaping, slotting, broaching, gear cutting, gear grinding or gear finishing, sawing, cutting-off and other machine-tools working by removing metal or cermets, not elsewhere specified or included",
+          shipment_count: 1,
+          value_of_goods: 2784
+        },
+        {
+          hs_code: "8208",
+          hscode_desc:
+            "(8208) Knives and cutting blades, for machines or for mechanical appliances",
+          shipment_count: 2,
+          value_of_goods: 1167
+        },
+        {
+          hs_code: "8465",
+          hscode_desc:
+            "(8465) Machine-tools (including machines for nailing, stapling, glueing or otherwise assembling) for working wood, cork, bone, hard rubber, hard plastics or similar hard materials",
+          shipment_count: 1,
+          value_of_goods: 1114
+        },
+        {
+          hs_code: "8309",
+          hscode_desc:
+            "(8309) Stoppers, caps and lids (including crown corks, screw caps and pouring stoppers), capsules for bottles, threaded bungs, bung covers, seals and other packing accessories, of base metal",
+          shipment_count: 5,
+          value_of_goods: 1030
+        },
+        {
+          hs_code: "4009",
+          hscode_desc:
+            "(4009) Tubes, pipes and hoses, of vulcanised rubber other than hard rubber, with or without their fittings (for example, joints, elbows, flanges)",
+          shipment_count: 5,
+          value_of_goods: 951
+        },
+        {
+          hs_code: "9603",
+          hscode_desc:
+            "(9603) Brooms, brushes (including brushes constituting parts of machines, appliances or vehicles), hand-operated mechanical floor sweepers, not motorised, mops and feather dusters; prepared knots and tufts for broom or brush making; paint pads and rollers; squeegees (other than roller squeegees)",
+          shipment_count: 2,
+          value_of_goods: 747
+        },
+        {
+          hs_code: "3919",
+          hscode_desc:
+            "(3919) Self-adhesive plates, sheets, film, foil, tape, strip and other flat shapes, of plastics, whether or not in rolls",
+          shipment_count: 2,
+          value_of_goods: 535
+        },
+        {
+          hs_code: "7009",
+          hscode_desc:
+            "(7009) Glass mirrors, whether or not framed, including rear-view mirrors",
+          shipment_count: 3,
+          value_of_goods: 461
+        },
+        {
+          hs_code: "9027",
+          hscode_desc:
+            "(9027) Instruments and apparatus for physical or chemical analysis (for example, polarimeters, refractometers, spectrometers, gas or smoke analysis apparatus); instruments and apparatus for measuring or checking viscosity, porosity, expansion, surface tension or the like; instruments and apparatus for measuring or checking quantities of heat, sound or light (including exposure meters); microtomes",
+          shipment_count: 1,
+          value_of_goods: 457
+        },
+        {
+          hs_code: "7320",
+          hscode_desc:
+            "(7320) Springs and leaves for springs, of iron or steel",
+          shipment_count: 4,
+          value_of_goods: 422
+        },
+        {
+          hs_code: "8484",
+          hscode_desc:
+            "(8484) Gaskets and similar joints of metal sheeting combined with other material or of two or more layers of metal; sets or assortments of gaskets and similar joints, dissimilar in composition, put up in pouches, envelopes or similar packings; mechanical seals",
+          shipment_count: 5,
+          value_of_goods: 312
+        },
+        {
+          hs_code: "8467",
+          hscode_desc:
+            "(8467) Tools for working in the hand, pneumatic, hydraulic or with self-contained electric or non-electric motor",
+          shipment_count: 1,
+          value_of_goods: 278
+        },
+        {
+          hs_code: "9029",
+          hscode_desc:
+            "(9029) Revolution counters, production counters, taximeters, milometers, pedometers and the like; speed indicators and tachometers, other than those of heading 9014 or 9015; stroboscopes",
+          shipment_count: 1,
+          value_of_goods: 183
+        },
+        {
+          hs_code: "7326",
+          hscode_desc: "(7326) Other articles of iron or steel",
+          shipment_count: 1,
+          value_of_goods: 106
+        },
+        {
+          hs_code: "4010",
+          hscode_desc:
+            "(4010) Conveyor or transmission belts or belting, of vulcanised rubber",
+          shipment_count: 1,
+          value_of_goods: 31
+        },
+        {
+          hs_code: "4811",
+          hscode_desc:
+            "(4811) Paper, paperboard, cellulose wadding and webs of cellulose fibres, coated, impregnated, covered, surface-coloured, surface-decorated or printed, in rolls or rectangular (including square) sheets, of any size, other than goods of the kind described in heading 4803, 4809 or 4810",
+          shipment_count: 1,
+          value_of_goods: 0
+        },
+        {
+          hs_code: "9612",
+          hscode_desc:
+            "(9612) Typewriter or similar ribbons, inked or otherwise prepared for giving impressions, whether or not on spools or in cartridges; ink-pads, whether or not inked, with or without boxes",
+          shipment_count: 1,
+          value_of_goods: 0
+        },
+        {
+          hs_code: "4818",
+          hscode_desc:
+            "(4818) Toilet paper and similar paper, cellulose wadding or webs of cellulose fibres, of a kind used for household or sanitary purposes, in rolls of a width not exceeding 36 cm, or cut to size or shape; handkerchiefs, cleansing tissues, towels, tablecloths, serviettes, napkins for babies, tampons, bed sheets and similar household, sanitary or hospital articles, articles of apparel and clothing accessories, of paper pulp, paper, cellulose wadding or webs of cellulose fibres",
+          shipment_count: 1,
+          value_of_goods: 0
+        },
+        {
+          hs_code: "4410",
+          hscode_desc:
+            "(4410) Particle board and similar board (for example, oriented strand board and waferboard) of wood or other ligneous materials, whether or not agglomerated with resins or other organic binding substances",
+          shipment_count: 1,
+          value_of_goods: 0
+        },
+        {
+          hs_code: "3215",
+          hscode_desc:
+            "(3215) Printing ink, writing or drawing ink and other inks, whether or not concentrated or solid",
+          shipment_count: 1,
+          value_of_goods: 0
+        },
+        {
+          hs_code: "9608",
+          hscode_desc:
+            "(9608) Ballpoint pens; felt-tipped and other porous-tipped pens and markers; fountain pens, stylograph pens and other pens; duplicating stylos; propelling or sliding pencils; pen-holders, pencil-holders and similar holders; parts (including caps and clips) of the foregoing articles, other than those of heading 9609",
+          shipment_count: 1,
+          value_of_goods: 0
+        },
+        {
+          hs_code: "9205",
+          hscode_desc:
+            "(9205) Other wind musical instruments (for example, clarinets, trumpets, bagpipes)",
+          shipment_count: 1,
+          value_of_goods: 0
+        },
+        {
+          hs_code: "2202",
+          hscode_desc:
+            "(2202) Waters, including mineral waters and aerated waters, containing added sugar or other sweetening matter or flavoured, and other non-alcoholic beverages, not including fruit or vegetable juices of heading No 2009",
+          shipment_count: 1,
+          value_of_goods: 0
+        },
+        {
+          hs_code: "9609",
+          hscode_desc:
+            "(9609) Pencils (other than pencils of heading 9608), crayons, pencil leads, pastels, drawing charcoals, writing or drawing chalks and tailors' chalks",
+          shipment_count: 2,
+          value_of_goods: 0
+        },
+        {
+          hs_code: "7319",
+          hscode_desc:
+            "(7319) Sewing needles, knitting needles, bodkins, crochet hooks, embroidery stilettos and similar articles, for use in the hand, of iron or steel; safety pins and other pins of iron or steel, not elsewhere specified or included",
+          shipment_count: 1,
+          value_of_goods: 0
+        },
+        {
+          hs_code: "6307",
+          hscode_desc:
+            "(6307) Other made-up articles, including dress patterns",
+          shipment_count: 2,
+          value_of_goods: 0
+        },
+        {
+          hs_code: "4821",
+          hscode_desc:
+            "(4821) Paper or paperboard labels of all kinds, whether or not printed",
+          shipment_count: 1,
+          value_of_goods: 0
+        },
+        {
+          hs_code: "9032",
+          hscode_desc:
+            "(9032) Automatic regulating or controlling instruments and apparatus",
+          shipment_count: 1,
+          value_of_goods: 0
+        },
+        {
+          hs_code: "3401",
+          hscode_desc:
+            "(3401) Soap; organic surface-active products and preparations for use as soap, in the form of bars, cakes, moulded pieces or shapes, whether or not containing soap; organic surface-active products and preparations for washing the skin, in the form of liquid or cream and put up for retail sale, whether or not containing soap; paper, wadding, felt and non-wovens, impregnated, coated or covered with soap or detergent",
+          shipment_count: 2,
+          value_of_goods: 0
+        },
+        {
+          hs_code: "8305",
+          hscode_desc:
+            "(8305) Fittings for loose-leaf binders or files, letter clips, letter corners, paper clips, indexing tags and similar office articles, of base metal; staples in strips (for example, for offices, upholstery, packaging), of base metal",
+          shipment_count: 3,
+          value_of_goods: 0
+        },
+        {
+          hs_code: "7010",
+          hscode_desc:
+            "(7010) Carboys, bottles, flasks, jars, pots, phials, ampoules and other containers, of glass, of a kind used for the conveyance or packing of goods; preserving jars of glass; stoppers, lids and other closures, of glass",
+          shipment_count: 3,
+          value_of_goods: 66129
+        }
       ],
       lastYear: [
-          {
-              "hs_code" : "7209",
-              "hscode_desc" : "(7209) Flat-rolled products of iron or non-alloy steel, of a width of 600 mm or more, cold-rolled (cold-reduced), not clad, plated or coated",
-              "shipment_count" : 1026,
-              "value_of_goods" : 226150000
-          },
-          {
-              "hs_code" : "6402",
-              "hscode_desc" : "(6402) Other footwear with outer soles and uppers of rubber or plastics",
-              "shipment_count" : 1,
-              "value_of_goods" : 0
-          },
-          {
-              "hs_code" : "9405",
-              "hscode_desc" : "(9405) Lamps and lighting fittings including searchlights and spotlights and parts thereof, not elsewhere specified or included; illuminated signs, illuminated name-plates and the like, having a permanently fixed light source, and parts thereof not elsewhere specified or included",
-              "shipment_count" : 58,
-              "value_of_goods" : 41488000
-          },
-          {
-              "hs_code" : "6302",
-              "hscode_desc" : "(6302) Bed linen, table linen, toilet linen and kitchen linen",
-              "shipment_count" : 504,
-              "value_of_goods" : 32018000
-          },
-          {
-              "hs_code" : "6304",
-              "hscode_desc" : "(6304) Other furnishing articles, excluding those of heading 9404",
-              "shipment_count" : 47,
-              "value_of_goods" : 27328000
-          },
-          {
-              "hs_code" : "61",
-              "hscode_desc" : "(61) CHAPTER 61ARTICLES OF APPAREL AND CLOTHING ACCESSORIES, KNITTED OR CROCHETED",
-              "shipment_count" : 111,
-              "value_of_goods" : 25121000
-          },
-          {
-              "hs_code" : "6001",
-              "hscode_desc" : "(6001) Pile fabrics, including long pile fabrics and terry fabrics, knitted or crocheted",
-              "shipment_count" : 534,
-              "value_of_goods" : 22827000
-          },
-          {
-              "hs_code" : "64",
-              "hscode_desc" : "(64) CHAPTER 64FOOTWEAR, GAITERS AND THE LIKE; PARTS OF SUCH ARTICLES",
-              "shipment_count" : 46,
-              "value_of_goods" : 22102000
-          },
-          {
-              "hs_code" : "9404",
-              "hscode_desc" : "(9404) Mattress supports; articles of bedding and similar furnishing (for example, mattresses, quilts, eiderdowns, cushions, pouffes and pillows) fitted with springs or stuffed or internally fitted with any material or of cellular rubber or plastics, whether or not covered",
-              "shipment_count" : 140,
-              "value_of_goods" : 16499000
-          },
-          {
-              "hs_code" : "7228",
-              "hscode_desc" : "(7228) Other bars and rods of other alloy steel; angles, shapes and sections, of other alloy steel; hollow drill bars and rods, of alloy or non-alloy steel",
-              "shipment_count" : 123,
-              "value_of_goods" : 15358000
-          },
-          {
-              "hs_code" : "6301",
-              "hscode_desc" : "(6301) Blankets and travelling rugs",
-              "shipment_count" : 49,
-              "value_of_goods" : 15290000
-          },
-          {
-              "hs_code" : "7210",
-              "hscode_desc" : "(7210) Flat-rolled products of iron or non-alloy steel, of a width of 600 mm or more, clad, plated or coated",
-              "shipment_count" : 3,
-              "value_of_goods" : 14854000
-          },
-          {
-              "hs_code" : "8701",
-              "hscode_desc" : "(8701) Tractors (other than tractors of heading 8709)",
-              "shipment_count" : 46,
-              "value_of_goods" : 14191000
-          },
-          {
-              "hs_code" : "87",
-              "hscode_desc" : "(87) CHAPTER 87VEHICLES OTHER THAN RAILWAY OR TRAMWAY ROLLING-STOCK, AND PARTS AND ACCESSORIES THEREOF",
-              "shipment_count" : 80,
-              "value_of_goods" : 11477000
-          },
-          {
-              "hs_code" : "4202",
-              "hscode_desc" : "(4202) Trunks, suit-cases, vanity-cases, executive-cases, brief-cases, school satchels, spectacle cases, binocular cases, camera cases, musical instrument cases, gun cases, holsters and similar containers; travelling-bags, insulated food or beverage bags, toilet bags, rucksacks, handbags, shopping-bags, wallets, purses, map-cases, cigarette-cases, tobacco-pouches, tool bags, sports bags, bottle-cases, jewellery boxes, powder-boxes, cutlery cases and similar containers, of leather or of composition leather, of sheeting of plastics, of textile materials, of vulcanised fibre or of paperboard, or wholly or mainly covered with such materials or with paper",
-              "shipment_count" : 100,
-              "value_of_goods" : 10952000
-          },
-          {
-              "hs_code" : "7015",
-              "hscode_desc" : "(7015) Clock or watch glasses and similar glasses, glasses for non-corrective or corrective spectacles, curved, bent, hollowed or the like, not optically worked; hollow glass spheres and their segments, for the manufacture of such glasses",
-              "shipment_count" : 2,
-              "value_of_goods" : 9593000
-          },
-          {
-              "hs_code" : "7018",
-              "hscode_desc" : "(7018) Glass beads, imitation pearls, imitation precious or semi-precious stones and similar glass smallwares, and articles thereof other than imitation jewellery; glass eyes other than prosthetic articles; statuettes and other ornaments of lamp-worked glass, other than imitation jewellery; glass microspheres not exceeding 1 mm in diameter",
-              "shipment_count" : 2,
-              "value_of_goods" : 9444000
-          },
-          {
-              "hs_code" : "7901",
-              "hscode_desc" : "(7901) Unwrought zinc",
-              "shipment_count" : 3,
-              "value_of_goods" : 8120000
-          },
-          {
-              "hs_code" : "73",
-              "hscode_desc" : "(73) CHAPTER 73ARTICLES OF IRON OR STEEL",
-              "shipment_count" : 10,
-              "value_of_goods" : 6734000
-          },
-          {
-              "hs_code" : "8504",
-              "hscode_desc" : "(8504) Electrical transformers, static converters (for example, rectifiers) and inductors",
-              "shipment_count" : 278,
-              "value_of_goods" : 6622000
-          },
-          {
-              "hs_code" : "6203",
-              "hscode_desc" : "(6203) Men's or boys' suits, ensembles, jackets, blazers, trousers, bib and brace overalls, breeches and shorts (other than swimwear)",
-              "shipment_count" : 6,
-              "value_of_goods" : 5245000
-          },
-          {
-              "hs_code" : "4203",
-              "hscode_desc" : "(4203) Articles of apparel and clothing accessories, of leather or of composition leather",
-              "shipment_count" : 26,
-              "value_of_goods" : 4658000
-          },
-          {
-              "hs_code" : "8705",
-              "hscode_desc" : "(8705) Special purpose motor vehicles, other than those principally designed for the transport of persons or goods (for example, breakdown lorries, crane lorries, fire-fighting vehicles, concrete-mixer lorries, road sweeper lorries, spraying lorries, mobile workshops, mobile radiological units)",
-              "shipment_count" : 14,
-              "value_of_goods" : 4605000
-          },
-          {
-              "hs_code" : "90",
-              "hscode_desc" : "(90) CHAPTER 90OPTICAL, PHOTOGRAPHIC, CINEMATOGRAPHIC, MEASURING, CHECKING, PRECISION, MEDICAL OR SURGICAL INSTRUMENTS AND APPARATUS; PARTS AND ACCESSORIES THEREOF",
-              "shipment_count" : 4,
-              "value_of_goods" : 4431000
-          },
-          {
-              "hs_code" : "6303",
-              "hscode_desc" : "(6303) Curtains (including drapes) and interior blinds; curtain or bed valances",
-              "shipment_count" : 41,
-              "value_of_goods" : 3847000
-          },
-          {
-              "hs_code" : "3923",
-              "hscode_desc" : "(3923) Articles for the conveyance or packing of goods, of plastics; stoppers, lids, caps and other closures, of plastics",
-              "shipment_count" : 155,
-              "value_of_goods" : 3602000
-          },
-          {
-              "hs_code" : "6210",
-              "hscode_desc" : "(6210) Garments, made-up of fabrics of heading 5602, 5603, 5903, 5906 or 5907",
-              "shipment_count" : 25,
-              "value_of_goods" : 3492000
-          },
-          {
-              "hs_code" : "2919",
-              "hscode_desc" : "(2919) Phosphoric esters and their salts, including lactophosphates; their halogenated, sulphonated, nitrated or nitrosated derivatives",
-              "shipment_count" : 20,
-              "value_of_goods" : 3057000
-          },
-          {
-              "hs_code" : "2827",
-              "hscode_desc" : "(2827) Chlorides, chloride oxides and chloride hydroxides; bromides and bromide oxides; iodides and iodide oxides",
-              "shipment_count" : 3,
-              "value_of_goods" : 2984000
-          },
-          {
-              "hs_code" : "9503",
-              "hscode_desc" : "(9503) Other toys; reduced-size (scale) models and similar recreational models, working or not; puzzles of all kinds",
-              "shipment_count" : 23,
-              "value_of_goods" : 2561000
-          },
-          {
-              "hs_code" : "5407",
-              "hscode_desc" : "(5407) Woven fabrics of synthetic filament yarn, including woven fabrics obtained from materials of heading 5404",
-              "shipment_count" : 140,
-              "value_of_goods" : 2495000
-          },
-          {
-              "hs_code" : "4823",
-              "hscode_desc" : "(4823) Other paper, paperboard, cellulose wadding and webs of cellulose fibres, cut to size or shape; other articles of paper pulp, paper, paperboard, cellulose wadding or webs of cellulose fibres",
-              "shipment_count" : 15,
-              "value_of_goods" : 2429000
-          },
-          {
-              "hs_code" : "8483",
-              "hscode_desc" : "(8483) Transmission shafts (including cam shafts and crank shafts) and cranks; bearing housings and plain shaft bearings; gears and gearing; ball or roller screws; gear boxes and other speed changers, including torque converters; flywheels and pulleys, including pulley blocks; clutches and shaft couplings (including universal joints)",
-              "shipment_count" : 34,
-              "value_of_goods" : 2284000
-          },
-          {
-              "hs_code" : "8509",
-              "hscode_desc" : "(8509) Electromechanical domestic appliances, with self-contained electric motor",
-              "shipment_count" : 17,
-              "value_of_goods" : 1973000
-          },
-          {
-              "hs_code" : "8425",
-              "hscode_desc" : "(8425) Pulley tackle and hoists other than skip hoists; winches and capstans; jacks",
-              "shipment_count" : 31,
-              "value_of_goods" : 1774000
-          },
-          {
-              "hs_code" : "39",
-              "hscode_desc" : "(39) CHAPTER 39PLASTICS AND ARTICLES THEREOF",
-              "shipment_count" : 7,
-              "value_of_goods" : 1660000
-          },
-          {
-              "hs_code" : "8473",
-              "hscode_desc" : "(8473) Parts and accessories (other than covers, carrying cases and the like) suitable for use solely or principally with machines of headings 8469 to 8472",
-              "shipment_count" : 126,
-              "value_of_goods" : 1655000
-          },
-          {
-              "hs_code" : "8479",
-              "hscode_desc" : "(8479) Machines and mechanical appliances having individual functions, not specified or included elsewhere in this chapter",
-              "shipment_count" : 12,
-              "value_of_goods" : 1633000
-          },
-          {
-              "hs_code" : "5811",
-              "hscode_desc" : "(5811) Quilted textile products in the piece, composed of one or more layers of textile materials assembled with padding by stitching or otherwise, other than embroidery of heading 5810",
-              "shipment_count" : 77,
-              "value_of_goods" : 1321000
-          },
-          {
-              "hs_code" : "8543",
-              "hscode_desc" : "(8543) Electrical machines and apparatus, having individual functions, not specified or included elsewhere in this chapter",
-              "shipment_count" : 8,
-              "value_of_goods" : 1289000
-          },
-          {
-              "hs_code" : "8516",
-              "hscode_desc" : "(8516) Electric instantaneous or storage water heaters and immersion heaters; electric space heating apparatus and soil heating apparatus; electrothermic hair-dressing apparatus (for example, hair dryers, hair curlers, curling tong heaters) and hand dryers; electric smoothing irons; other electrothermic appliances of a kind used for domestic purposes; electric heating resistors, other than those of heading 8545",
-              "shipment_count" : 13,
-              "value_of_goods" : 1282000
-          },
-          {
-              "hs_code" : "8518",
-              "hscode_desc" : "(8518) Microphones and stands therefor; loudspeakers, whether or not mounted in their enclosures; headphones and earphones, whether or not combined with a microphone, and sets consisting of a microphone and one or more loudspeakers; audio-frequency electric amplifiers; electric sound amplifier sets",
-              "shipment_count" : 2,
-              "value_of_goods" : 1248000
-          },
-          {
-              "hs_code" : "8702",
-              "hscode_desc" : "(8702) Motor vehicles for the transport of 10 or more persons, including the driver",
-              "shipment_count" : 2,
-              "value_of_goods" : 1225000
-          },
-          {
-              "hs_code" : "8716",
-              "hscode_desc" : "(8716) Trailers and semi-trailers; other vehicles, not mechanically propelled; parts thereof",
-              "shipment_count" : 5,
-              "value_of_goods" : 1169000
-          },
-          {
-              "hs_code" : "82",
-              "hscode_desc" : "(82) CHAPTER 82TOOLS, IMPLEMENTS, CUTLERY, SPOONS AND FORKS, OF BASE METAL; PARTS THEREOF OF BASE METAL",
-              "shipment_count" : 1,
-              "value_of_goods" : 1098000
-          },
-          {
-              "hs_code" : "7326",
-              "hscode_desc" : "(7326) Other articles of iron or steel",
-              "shipment_count" : 5,
-              "value_of_goods" : 1091000
-          },
-          {
-              "hs_code" : "6404",
-              "hscode_desc" : "(6404) Footwear with outer soles of rubber, plastics, leather or composition leather and uppers of textile materials",
-              "shipment_count" : 1,
-              "value_of_goods" : 1054000
-          },
-          {
-              "hs_code" : "6204",
-              "hscode_desc" : "(6204) Women's or girls' suits, ensembles, jackets, blazers, dresses, skirts, divided skirts, trousers, bib and brace overalls, breeches and shorts (other than swimwear)",
-              "shipment_count" : 6,
-              "value_of_goods" : 1040000
-          },
-          {
-              "hs_code" : "4818",
-              "hscode_desc" : "(4818) Toilet paper and similar paper, cellulose wadding or webs of cellulose fibres, of a kind used for household or sanitary purposes, in rolls of a width not exceeding 36 cm, or cut to size or shape; handkerchiefs, cleansing tissues, towels, tablecloths, serviettes, napkins for babies, tampons, bed sheets and similar household, sanitary or hospital articles, articles of apparel and clothing accessories, of paper pulp, paper, cellulose wadding or webs of cellulose fibres",
-              "shipment_count" : 14,
-              "value_of_goods" : 1023000
-          },
-          {
-              "hs_code" : "3919",
-              "hscode_desc" : "(3919) Self-adhesive plates, sheets, film, foil, tape, strip and other flat shapes, of plastics, whether or not in rolls",
-              "shipment_count" : 2,
-              "value_of_goods" : 995895
-          },
-          {
-              "hs_code" : "6105",
-              "hscode_desc" : "(6105) Men's or boys' shirts, knitted or crocheted",
-              "shipment_count" : 1,
-              "value_of_goods" : 985640
-          },
-          {
-              "hs_code" : "48",
-              "hscode_desc" : "(48) CHAPTER 48PAPER AND PAPERBOARD; ARTICLES OF PAPER PULP, OF PAPER OR OF PAPERBOARD",
-              "shipment_count" : 4,
-              "value_of_goods" : 886697
-          },
-          {
-              "hs_code" : "43",
-              "hscode_desc" : "(43) CHAPTER 43FURSKINS AND ARTIFICIAL FUR; MANUFACTURES THEREOF",
-              "shipment_count" : 2,
-              "value_of_goods" : 873360
-          },
-          {
-              "hs_code" : "8302",
-              "hscode_desc" : "(8302) Base metal mountings, fittings and similar articles suitable for furniture, doors, staircases, windows, blinds, coachwork, saddlery, trunks, chests, caskets or the like; base metal hat-racks, hat-pegs, brackets and similar fixtures; castors with mountings of base metal; automatic door closers of base metal",
-              "shipment_count" : 5,
-              "value_of_goods" : 841217
-          },
-          {
-              "hs_code" : "6206",
-              "hscode_desc" : "(6206) Women's or girls' blouses, shirts and shirt-blouses",
-              "shipment_count" : 3,
-              "value_of_goods" : 757108
-          },
-          {
-              "hs_code" : "8474",
-              "hscode_desc" : "(8474) Machinery for sorting, screening, separating, washing, crushing, grinding, mixing or kneading earth, stone, ores or other mineral substances, in solid (including powder or paste) form; machinery for agglomerating, shaping or moulding solid mineral fuels, ceramic paste, unhardened cements, plastering materials or other mineral products in powder or paste form; machines for forming foundry moulds of sand",
-              "shipment_count" : 4,
-              "value_of_goods" : 698649
-          },
-          {
-              "hs_code" : "2008",
-              "hscode_desc" : "(2008) Fruit, nuts and other edible parts of plants, otherwise prepared or preserved, whether or not containing added sugar or other sweetening matter or spirit, not elsewhere specified or included",
-              "shipment_count" : 5,
-              "value_of_goods" : 638522
-          },
-          {
-              "hs_code" : "4819",
-              "hscode_desc" : "(4819) Cartons, boxes, cases, bags and other packing containers, of paper, paperboard, cellulose wadding or webs of cellulose fibres; box files, letter trays, and similar articles, of paper or paperboard of a kind used in offices, shops or the like",
-              "shipment_count" : 7,
-              "value_of_goods" : 613593
-          },
-          {
-              "hs_code" : "9011",
-              "hscode_desc" : "(9011) Compound optical microscopes, including those for photomicrography, cinephotomicrography or microprojection",
-              "shipment_count" : 3,
-              "value_of_goods" : 590613
-          },
-          {
-              "hs_code" : "41",
-              "hscode_desc" : "(41) CHAPTER 41RAW HIDES AND SKINS (OTHER THAN FURSKINS) AND LEATHER",
-              "shipment_count" : 1,
-              "value_of_goods" : 583716
-          },
-          {
-              "hs_code" : "8433",
-              "hscode_desc" : "(8433) Harvesting or threshing machinery, including straw or fodder balers; grass or hay mowers; machines for cleaning, sorting or grading eggs, fruit or other agricultural produce, other than machinery of heading 8437",
-              "shipment_count" : 1,
-              "value_of_goods" : 545696
-          },
-          {
-              "hs_code" : "6201",
-              "hscode_desc" : "(6201) Men's or boys' overcoats, car-coats, capes, cloaks, anoraks (including ski-jackets), wind-cheaters, wind-jackets and similar articles, other than those of heading No 6203",
-              "shipment_count" : 2,
-              "value_of_goods" : 471938
-          },
-          {
-              "hs_code" : "9401",
-              "hscode_desc" : "(9401) Seats (other than those of heading 9402), whether or not convertible into beds, and parts thereof",
-              "shipment_count" : 14,
-              "value_of_goods" : 448163
-          },
-          {
-              "hs_code" : "5609",
-              "hscode_desc" : "(5609) Articles of yarn, strip or the like of heading 5404 or 5405, twine, cordage, rope or cables, not elsewhere specified or included",
-              "shipment_count" : 7,
-              "value_of_goods" : 443006
-          },
-          {
-              "hs_code" : "9608",
-              "hscode_desc" : "(9608) Ballpoint pens; felt-tipped and other porous-tipped pens and markers; fountain pens, stylograph pens and other pens; duplicating stylos; propelling or sliding pencils; pen-holders, pencil-holders and similar holders; parts (including caps and clips) of the foregoing articles, other than those of heading 9609",
-              "shipment_count" : 2,
-              "value_of_goods" : 442822
-          },
-          {
-              "hs_code" : "8537",
-              "hscode_desc" : "(8537) Boards, panels, consoles, desks, cabinets and other bases, equipped with two or more apparatus of heading 8535 or 8536, for electric control or the distribution of electricity, including those incorporating instruments or apparatus of Chapter 90, and numerical control apparatus, other than switching apparatus of heading 8517",
-              "shipment_count" : 17,
-              "value_of_goods" : 415142
-          },
-          {
-              "hs_code" : "2517",
-              "hscode_desc" : "(2517) Pebbles, gravel, broken or crushed stone, of a kind commonly used for concrete aggregates, for road metalling or for railway or other ballast, shingle and flint, whether or not heat-treated; macadam of slag, dross or similar industrial waste, whether or not incorporating the materials cited in the first part of the heading; tarred macadam; granules, chippings and powder, of stones of heading 2515 or 2516, whether or not heat-treated",
-              "shipment_count" : 13,
-              "value_of_goods" : 389399
-          },
-          {
-              "hs_code" : "3307",
-              "hscode_desc" : "(3307) Pre-shave, shaving or after-shave preparations, personal deodorants, bath preparations, depilatories and other perfumery, cosmetic or toilet preparations, not elsewhere specified or included; prepared room deodorisers, whether or not perfumed or having disinfectant properties",
-              "shipment_count" : 6,
-              "value_of_goods" : 385865
-          },
-          {
-              "hs_code" : "8714",
-              "hscode_desc" : "(8714) Parts and accessories of vehicles of headings 8711 to 8713",
-              "shipment_count" : 72,
-              "value_of_goods" : 377581
-          },
-          {
-              "hs_code" : "8544",
-              "hscode_desc" : "(8544) Insulated (including enamelled or anodised) wire, cable (including coaxial cable) and other insulated electric conductors, whether or not fitted with connectors; optical fibre cables, made-up of individually sheathed fibres, whether or not assembled with electric conductors or fitted with connectors",
-              "shipment_count" : 13,
-              "value_of_goods" : 367473
-          },
-          {
-              "hs_code" : "8450",
-              "hscode_desc" : "(8450) Household or laundry-type washing machines, including machines which both wash and dry",
-              "shipment_count" : 3,
-              "value_of_goods" : 363391
-          },
-          {
-              "hs_code" : "5208",
-              "hscode_desc" : "(5208) Woven fabrics of cotton, containing 85 % or more by weight of cotton, weighing not more than 200 g/m2",
-              "shipment_count" : 12,
-              "value_of_goods" : 337102
-          },
-          {
-              "hs_code" : "3926",
-              "hscode_desc" : "(3926) Other articles of plastics and articles of other materials of headings 3901 to 3914",
-              "shipment_count" : 57,
-              "value_of_goods" : 332968
-          },
-          {
-              "hs_code" : "3005",
-              "hscode_desc" : "(3005) Wadding, gauze, bandages and similar articles (for example, dressings, adhesive plasters, poultices), impregnated or coated with pharmaceutical substances or put up in forms or packings for retail sale for medical, surgical, dental or veterinary purposes",
-              "shipment_count" : 12,
-              "value_of_goods" : 308834
-          },
-          {
-              "hs_code" : "6005",
-              "hscode_desc" : "(6005) Warp knit fabrics (including those made on galloon knitting machines), other than those of headings 6001 to 6004",
-              "shipment_count" : 16,
-              "value_of_goods" : 294305
-          },
-          {
-              "hs_code" : "57",
-              "hscode_desc" : "(57) CHAPTER 57CARPETS AND OTHER TEXTILE FLOOR COVERINGS",
-              "shipment_count" : 1,
-              "value_of_goods" : 289330
-          },
-          {
-              "hs_code" : "8708",
-              "hscode_desc" : "(8708) Parts and accessories of the motor vehicles of heading 8701 to 8705",
-              "shipment_count" : 164,
-              "value_of_goods" : 271143
-          },
-          {
-              "hs_code" : "3918",
-              "hscode_desc" : "(3918) Floor coverings of plastics, whether or not self-adhesive, in rolls or in the form of tiles; wall or ceiling coverings of plastics, as defined in note 9 to this chapter",
-              "shipment_count" : 6,
-              "value_of_goods" : 267280
-          },
-          {
-              "hs_code" : "6306",
-              "hscode_desc" : "(6306) Tarpaulins, awnings and sunblinds; tents; sails for boats, sailboards or landcraft; camping goods",
-              "shipment_count" : 5,
-              "value_of_goods" : 264580
-          },
-          {
-              "hs_code" : "4304",
-              "hscode_desc" : "(4304) Artificial fur and articles thereof",
-              "shipment_count" : 3,
-              "value_of_goods" : 245644
-          },
-          {
-              "hs_code" : "6107",
-              "hscode_desc" : "(6107) Men's or boys' underpants, briefs, nightshirts, pyjamas, bathrobes, dressing gowns and similar articles, knitted or crocheted",
-              "shipment_count" : 13,
-              "value_of_goods" : 230700
-          },
-          {
-              "hs_code" : "8704",
-              "hscode_desc" : "(8704) Motor vehicles for the transport of goods",
-              "shipment_count" : 1,
-              "value_of_goods" : 227745
-          },
-          {
-              "hs_code" : "7013",
-              "hscode_desc" : "(7013) Glassware of a kind used for table, kitchen, toilet, office, indoor decoration or similar purposes (other than that of heading No 7010 or 7018)",
-              "shipment_count" : 1,
-              "value_of_goods" : 214657
-          },
-          {
-              "hs_code" : "3401",
-              "hscode_desc" : "(3401) Soap; organic surface-active products and preparations for use as soap, in the form of bars, cakes, moulded pieces or shapes, whether or not containing soap; organic surface-active products and preparations for washing the skin, in the form of liquid or cream and put up for retail sale, whether or not containing soap; paper, wadding, felt and non-wovens, impregnated, coated or covered with soap or detergent",
-              "shipment_count" : 2,
-              "value_of_goods" : 213685
-          },
-          {
-              "hs_code" : "9603",
-              "hscode_desc" : "(9603) Brooms, brushes (including brushes constituting parts of machines, appliances or vehicles), hand-operated mechanical floor sweepers, not motorised, mops and feather dusters; prepared knots and tufts for broom or brush making; paint pads and rollers; squeegees (other than roller squeegees)",
-              "shipment_count" : 23,
-              "value_of_goods" : 198633
-          },
-          {
-              "hs_code" : "7315",
-              "hscode_desc" : "(7315) Chain and parts thereof, of iron or steel",
-              "shipment_count" : 22,
-              "value_of_goods" : 197173
-          },
-          {
-              "hs_code" : "95",
-              "hscode_desc" : "(95) CHAPTER 95TOYS, GAMES AND SPORTS REQUISITES; PARTS AND ACCESSORIES THEREOF",
-              "shipment_count" : 1,
-              "value_of_goods" : 195188
-          },
-          {
-              "hs_code" : "8712",
-              "hscode_desc" : "(8712) Bicycles and other cycles (including delivery tricycles), not motorized",
-              "shipment_count" : 7,
-              "value_of_goods" : 191189
-          },
-          {
-              "hs_code" : "8527",
-              "hscode_desc" : "(8527) Reception apparatus for radio-telephony, radio-telegraphy or radio-broadcasting, whether or not combined, in the same housing, with sound recording or reproducing apparatus or a clock",
-              "shipment_count" : 2,
-              "value_of_goods" : 185537
-          },
-          {
-              "hs_code" : "8501",
-              "hscode_desc" : "(8501) Electric motors and generators (excluding generating sets)",
-              "shipment_count" : 20,
-              "value_of_goods" : 183097
-          },
-          {
-              "hs_code" : "4303",
-              "hscode_desc" : "(4303) Articles of apparel, clothing accessories and other articles of furskin",
-              "shipment_count" : 6,
-              "value_of_goods" : 177916
-          },
-          {
-              "hs_code" : "8707",
-              "hscode_desc" : "(8707) Bodies (including cabs), for the motor vehicles of headings 8701 to 8705",
-              "shipment_count" : 3,
-              "value_of_goods" : 167050
-          },
-          {
-              "hs_code" : "8421",
-              "hscode_desc" : "(8421) Centrifuges, including centrifugal dryers; filtering or purifying machinery and apparatus, for liquids or gases",
-              "shipment_count" : 19,
-              "value_of_goods" : 166571
-          },
-          {
-              "hs_code" : "8456",
-              "hscode_desc" : "(8456) Machine-tools for working any material by removal of material, by laser or other light or photon beam, ultrasonic, electrodischarge, electrochemical, electron beam, ionic-beam or plasma arc processes",
-              "shipment_count" : 4,
-              "value_of_goods" : 135322000
-          },
-          {
-              "hs_code" : "5703",
-              "hscode_desc" : "(5703) Carpets and other textile floor coverings, tufted, whether or not made-up",
-              "shipment_count" : 19,
-              "value_of_goods" : 157100
-          },
-          {
-              "hs_code" : "5515",
-              "hscode_desc" : "(5515) Other woven fabrics of synthetic staple fibres",
-              "shipment_count" : 1,
-              "value_of_goods" : 156941
-          },
-          {
-              "hs_code" : "8471",
-              "hscode_desc" : "(8471) Automatic data-processing machines and units thereof; magnetic or optical readers, machines for transcribing data onto data media in coded form and machines for processing such data, not elsewhere specified or included",
-              "shipment_count" : 14,
-              "value_of_goods" : 144933
-          },
-          {
-              "hs_code" : "3925",
-              "hscode_desc" : "(3925) Builders' ware of plastics, not elsewhere specified or included",
-              "shipment_count" : 3,
-              "value_of_goods" : 144494
-          },
-          {
-              "hs_code" : "7610",
-              "hscode_desc" : "(7610) Aluminium structures (excluding prefabricated buildings of heading No 9406) and parts of structures (for example, bridges and bridge-sections, towers, lattice masts, roofs, roofing frameworks, doors and windows and their frames and thresholds for doors, balustrades, pillars and columns); aluminium plates, rods, profiles, tubes and the like, prepared for use in structures",
-              "shipment_count" : 2,
-              "value_of_goods" : 142513
-          },
-          {
-              "hs_code" : "6208",
-              "hscode_desc" : "(6208) Women's or girls' singlets and other vests, slips, petticoats, briefs, panties, nightdresses, pyjamas, negligees, bathrobes, dressing gowns and similar articles",
-              "shipment_count" : 2,
-              "value_of_goods" : 140487
-          },
-          {
-              "hs_code" : "8419",
-              "hscode_desc" : "(8419) Machinery, plant or laboratory equipment, whether or not electrically heated (excluding furnaces, ovens, and other equipment of heading 8514), for the treatment of materials by a process involving a change of temperature such as heating, cooking, roasting, distilling, rectifying, sterilizing, pasteurizing, steaming, drying, evaporating, vapourizing, condensing or cooling, other than machinery or plant of a kind used for domestic purposes; instantaneous or storage water heaters, non-electric",
-              "shipment_count" : 5,
-              "value_of_goods" : 125384
-          },
-          {
-              "hs_code" : "3506",
-              "hscode_desc" : "(3506) Prepared glues and other prepared adhesives, not elsewhere specified or included; products suitable for use as glues or adhesives, put up for retail sale as glues or adhesives, not exceeding a net weight of 1 kg",
-              "shipment_count" : 5,
-              "value_of_goods" : 124619
-          },
-          {
-              "hs_code" : "6108",
-              "hscode_desc" : "(6108) Women's or girls' slips, petticoats, briefs, panties, nightdresses, pyjamas, negligees, bathrobes, dressing gowns and similar articles, knitted or crocheted",
-              "shipment_count" : 6,
-              "value_of_goods" : 99010
-          },
-          {
-              "hs_code" : "8536",
-              "hscode_desc" : "(8536) Electrical apparatus for switching or protecting electrical circuits, or for making connections to or in electrical circuits (for example, switches, relays, fuses, surge suppressors, plugs, sockets, lamp-holders, junction boxes), for a voltage not exceeding 1 000 V",
-              "shipment_count" : 39,
-              "value_of_goods" : 95394
-          },
-          {
-              "hs_code" : "8414",
-              "hscode_desc" : "(8414) Air or vacuum pumps, air or other gas compressors and fans; ventilating or recycling hoods incorporating a fan, whether or not fitted with filters",
-              "shipment_count" : 21,
-              "value_of_goods" : 86239
-          },
-          {
-              "hs_code" : "8481",
-              "hscode_desc" : "(8481) Taps, cocks, valves and similar appliances for pipes, boiler shells, tanks, vats or the like, including pressure-reducing valves and thermostatically controlled valves",
-              "shipment_count" : 15,
-              "value_of_goods" : 84120
-          },
-          {
-              "hs_code" : "7608",
-              "hscode_desc" : "(7608) Aluminium tubes and pipes",
-              "shipment_count" : 1,
-              "value_of_goods" : 77166
-          },
-          {
-              "hs_code" : "7010",
-              "hscode_desc" : "(7010) Carboys, bottles, flasks, jars, pots, phials, ampoules and other containers, of glass, of a kind used for the conveyance or packing of goods; preserving jars of glass; stoppers, lids and other closures, of glass",
-              "shipment_count" : 3,
-              "value_of_goods" : 63303
-          },
-          {
-              "hs_code" : "5408",
-              "hscode_desc" : "(5408) Woven fabrics of artificial filament yarn, including woven fabrics obtained from materials of heading 5405",
-              "shipment_count" : 4,
-              "value_of_goods" : 62661
-          },
-          {
-              "hs_code" : "8538",
-              "hscode_desc" : "(8538) Parts suitable for use solely or principally with the apparatus of heading 8535, 8536 or 8537",
-              "shipment_count" : 4,
-              "value_of_goods" : 54213
-          },
-          {
-              "hs_code" : "6307",
-              "hscode_desc" : "(6307) Other made-up articles, including dress patterns",
-              "shipment_count" : 4,
-              "value_of_goods" : 51638
-          },
-          {
-              "hs_code" : "9615",
-              "hscode_desc" : "(9615) Combs, hair-slides and the like; hairpins, curling pins, curling grips, hair-curlers and the like, other than those of heading 8516, and parts thereof",
-              "shipment_count" : 4,
-              "value_of_goods" : 51302
-          },
-          {
-              "hs_code" : "8408",
-              "hscode_desc" : "(8408) Compression-ignition internal combustion piston engines (diesel or semi-diesel engines)",
-              "shipment_count" : 1,
-              "value_of_goods" : 50254
-          },
-          {
-              "hs_code" : "5512",
-              "hscode_desc" : "(5512) Woven fabrics of synthetic staple fibres, containing 85 % or more by weight of synthetic staple fibres",
-              "shipment_count" : 3,
-              "value_of_goods" : 44510
-          },
-          {
-              "hs_code" : "8512",
-              "hscode_desc" : "(8512) Electrical lighting or signalling equipment (excluding articles of heading 8539), windscreen wipers, defrosters and demisters, of a kind used for cycles or motor vehicles",
-              "shipment_count" : 34,
-              "value_of_goods" : 39898
-          },
-          {
-              "hs_code" : "8420",
-              "hscode_desc" : "(8420) Calendering or other rolling machines, other than for metals or glass, and cylinders therefor",
-              "shipment_count" : 4,
-              "value_of_goods" : 37562
-          },
-          {
-              "hs_code" : "8214",
-              "hscode_desc" : "(8214) Other articles of cutlery (for example, hair clippers, butchers' or kitchen cleavers, choppers and mincing knives, paper knives); manicure or pedicure sets and instruments (including nail files)",
-              "shipment_count" : 3,
-              "value_of_goods" : 34399
-          },
-          {
-              "hs_code" : "8213",
-              "hscode_desc" : "(8213) Scissors, tailors' shears and similar shears, and blades therefor",
-              "shipment_count" : 1,
-              "value_of_goods" : 34163
-          },
-          {
-              "hs_code" : "6405",
-              "hscode_desc" : "(6405) Other footwear",
-              "shipment_count" : 1,
-              "value_of_goods" : 31448
-          },
-          {
-              "hs_code" : "2712",
-              "hscode_desc" : "(2712) Petroleum jelly; paraffin wax, microcrystalline petroleum wax, slack wax, ozokerite, lignite wax, peat wax, other mineral waxes, and similar products obtained by synthesis or by other processes, whether or not coloured",
-              "shipment_count" : 1,
-              "value_of_goods" : 31065
-          },
-          {
-              "hs_code" : "8203",
-              "hscode_desc" : "(8203) Files, rasps, pliers (including cutting pliers), pincers, tweezers, metal cutting shears, pipe-cutters, bolt croppers, perforating punches and similar hand tools",
-              "shipment_count" : 1,
-              "value_of_goods" : 27864
-          },
-          {
-              "hs_code" : "3824",
-              "hscode_desc" : "(3824) Prepared binders for foundry moulds or cores; chemical products and preparations of the chemical or allied industries (including those consisting of mixtures of natural products), not elsewhere specified or included",
-              "shipment_count" : 1,
-              "value_of_goods" : 26309
-          },
-          {
-              "hs_code" : "8525",
-              "hscode_desc" : "(8525) Transmission apparatus for radio-telephony, radio-telegraphy, radio-broadcasting or television, whether or not incorporating reception apparatus or sound recording or reproducing apparatus; television cameras; still image video cameras and other video camera recorders; digital cameras",
-              "shipment_count" : 1,
-              "value_of_goods" : 25468
-          },
-          {
-              "hs_code" : "9403",
-              "hscode_desc" : "(9403) Other furniture and parts thereof",
-              "shipment_count" : 6,
-              "value_of_goods" : 25108
-          },
-          {
-              "hs_code" : "5603",
-              "hscode_desc" : "(5603) Non-wovens, whether or not impregnated, coated, covered or laminated",
-              "shipment_count" : 4,
-              "value_of_goods" : 24711
-          },
-          {
-              "hs_code" : "6701",
-              "hscode_desc" : "(6701) Skins and other parts of birds with their feathers or down, feathers, parts of feathers, down and articles thereof (other than goods of heading No 0505 and worked quills and scapes)",
-              "shipment_count" : 3,
-              "value_of_goods" : 24099
-          },
-          {
-              "hs_code" : "4201",
-              "hscode_desc" : "(4201) Saddlery and harness for any animal (including traces, leads, knee pads, muzzles, saddle cloths, saddle bags, dog coats and the like), of any material",
-              "shipment_count" : 1,
-              "value_of_goods" : 23861
-          },
-          {
-              "hs_code" : "9023",
-              "hscode_desc" : "(9023) Instruments, apparatus and models, designed for demonstrational purposes (for example, in education or exhibitions), unsuitable for other uses",
-              "shipment_count" : 1,
-              "value_of_goods" : 22921
-          },
-          {
-              "hs_code" : "84",
-              "hscode_desc" : "(84) CHAPTER 84NUCLEAR REACTORS, BOILERS, MACHINERY AND MECHANICAL APPLIANCES; PARTS THEREOF",
-              "shipment_count" : 2,
-              "value_of_goods" : 20570
-          },
-          {
-              "hs_code" : "6506",
-              "hscode_desc" : "(6506) Other headgear, whether or not lined or trimmed",
-              "shipment_count" : 2,
-              "value_of_goods" : 19545
-          },
-          {
-              "hs_code" : "9032",
-              "hscode_desc" : "(9032) Automatic regulating or controlling instruments and apparatus",
-              "shipment_count" : 5,
-              "value_of_goods" : 19190
-          },
-          {
-              "hs_code" : "5402",
-              "hscode_desc" : "(5402) Synthetic filament yarn (other than sewing thread), not put up for retail sale, including synthetic monofilament of less than 67 decitex",
-              "shipment_count" : 1,
-              "value_of_goods" : 18563
-          },
-          {
-              "hs_code" : "9607",
-              "hscode_desc" : "(9607) Slide fasteners and parts thereof",
-              "shipment_count" : 6,
-              "value_of_goods" : 16192
-          },
-          {
-              "hs_code" : "9026",
-              "hscode_desc" : "(9026) Instruments and apparatus for measuring or checking the flow, level, pressure or other variables of liquids or gases (for example, flow meters, level gauges, manometers, heat meters), excluding instruments and apparatus of heading 9014, 9015, 9028 or 9032",
-              "shipment_count" : 21,
-              "value_of_goods" : 15471
-          },
-          {
-              "hs_code" : "4811",
-              "hscode_desc" : "(4811) Paper, paperboard, cellulose wadding and webs of cellulose fibres, coated, impregnated, covered, surface-coloured, surface-decorated or printed, in rolls or rectangular (including square) sheets, of any size, other than goods of the kind described in heading 4803, 4809 or 4810",
-              "shipment_count" : 2,
-              "value_of_goods" : 14372
-          },
-          {
-              "hs_code" : "8412",
-              "hscode_desc" : "(8412) Other engines and motors",
-              "shipment_count" : 1,
-              "value_of_goods" : 14077
-          },
-          {
-              "hs_code" : "8409",
-              "hscode_desc" : "(8409) Parts suitable for use solely or principally with the engines of heading No 8407 or 8408",
-              "shipment_count" : 19,
-              "value_of_goods" : 14058
-          },
-          {
-              "hs_code" : "8413",
-              "hscode_desc" : "(8413) Pumps for liquids, whether or not fitted with a measuring device; liquid elevators",
-              "shipment_count" : 14,
-              "value_of_goods" : 13545
-          },
-          {
-              "hs_code" : "4010",
-              "hscode_desc" : "(4010) Conveyor or transmission belts or belting, of vulcanised rubber",
-              "shipment_count" : 6,
-              "value_of_goods" : 12969
-          },
-          {
-              "hs_code" : "9506",
-              "hscode_desc" : "(9506) Articles and equipment for general physical exercise, gymnastics, athletics, other sports (including table-tennis) or outdoor games, not specified or included elsewhere in this chapter; swimming pools and paddling pools",
-              "shipment_count" : 1,
-              "value_of_goods" : 10904
-          },
-          {
-              "hs_code" : "5607",
-              "hscode_desc" : "(5607) Twine, cordage, ropes and cables, whether or not plaited or braided and whether or not impregnated, coated, covered or sheathed with rubber or plastics",
-              "shipment_count" : 2,
-              "value_of_goods" : 10710
-          },
-          {
-              "hs_code" : "9002",
-              "hscode_desc" : "(9002) Lenses, prisms, mirrors and other optical elements, of any material, mounted, being parts of or fittings for instruments or apparatus, other than such elements of glass not optically worked",
-              "shipment_count" : 1,
-              "value_of_goods" : 10478
-          },
-          {
-              "hs_code" : "7318",
-              "hscode_desc" : "(7318) Screws, bolts, nuts, coach screws, screw hooks, rivets, cotters, cotter-pins, washers (including spring washers) and similar articles, of iron or steel",
-              "shipment_count" : 21,
-              "value_of_goods" : 10035
-          },
-          {
-              "hs_code" : "7009",
-              "hscode_desc" : "(7009) Glass mirrors, whether or not framed, including rear-view mirrors",
-              "shipment_count" : 12,
-              "value_of_goods" : 8392
-          },
-          {
-              "hs_code" : "5503",
-              "hscode_desc" : "(5503) Synthetic staple fibres, not carded, combed or otherwise processed for spinning",
-              "shipment_count" : 2,
-              "value_of_goods" : 8103
-          },
-          {
-              "hs_code" : "3924",
-              "hscode_desc" : "(3924) Tableware, kitchenware, other household articles and toilet articles, of plastics",
-              "shipment_count" : 2,
-              "value_of_goods" : 7723
-          },
-          {
-              "hs_code" : "8511",
-              "hscode_desc" : "(8511) Electrical ignition or starting equipment of a kind used for spark-ignition or compression-ignition internal combustion engines (for example, ignition magnetos, magneto-dynamos, ignition coils, sparking plugs and glow plugs, starter motors); generators (for example, dynamos, alternators) and cut-outs of a kind used in conjunction with such engines",
-              "shipment_count" : 4,
-              "value_of_goods" : 7546
-          },
-          {
-              "hs_code" : "8301",
-              "hscode_desc" : "(8301) Padlocks and locks (key, combination or electrically operated), of base metal; clasps and frames with clasps, incorporating locks, of base metal; keys for any of the foregoing articles, of base metal",
-              "shipment_count" : 7,
-              "value_of_goods" : 6938
-          },
-          {
-              "hs_code" : "8415",
-              "hscode_desc" : "(8415) Air-conditioning machines, comprising a motor-driven fan and elements for changing the temperature and humidity, including those machines in which the humidity cannot be separately regulated",
-              "shipment_count" : 5,
-              "value_of_goods" : 5244
-          },
-          {
-              "hs_code" : "5702",
-              "hscode_desc" : "(5702) Carpets and other textile floor coverings, woven, not tufted or flocked, whether or not made-up, including Kelem, Schumacks, Karamanie and similar hand-woven rugs",
-              "shipment_count" : 1,
-              "value_of_goods" : 5198
-          },
-          {
-              "hs_code" : "9029",
-              "hscode_desc" : "(9029) Revolution counters, production counters, taximeters, milometers, pedometers and the like; speed indicators and tachometers, other than those of heading 9014 or 9015; stroboscopes",
-              "shipment_count" : 4,
-              "value_of_goods" : 4933
-          },
-          {
-              "hs_code" : "8482",
-              "hscode_desc" : "(8482) Ball or roller bearings",
-              "shipment_count" : 4,
-              "value_of_goods" : 3960
-          },
-          {
-              "hs_code" : "6812",
-              "hscode_desc" : "(6812) Fabricated asbestos fibres; mixtures with a basis of asbestos or with a basis of asbestos and magnesium carbonate; articles of such mixtures or of asbestos (for example, thread, woven fabric, clothing, headgear, footwear, gaskets), whether or not reinforced, other than goods of heading 6811 or 6813",
-              "shipment_count" : 1,
-              "value_of_goods" : 3778
-          },
-          {
-              "hs_code" : "8451",
-              "hscode_desc" : "(8451) Machinery (other than machines of heading 8450) for washing, cleaning, wringing, drying, ironing, pressing (including fusing presses), bleaching, dyeing, dressing, finishing, coating or impregnating textile yarns, fabrics or made-up textile articles and machines for applying the paste to the base fabric or other support used in the manufacture of floor coverings such as linoleum; machines for reeling, unreeling, folding, cutting or pinking textile fabrics",
-              "shipment_count" : 1,
-              "value_of_goods" : 3774
-          },
-          {
-              "hs_code" : "8309",
-              "hscode_desc" : "(8309) Stoppers, caps and lids (including crown corks, screw caps and pouring stoppers), capsules for bottles, threaded bungs, bung covers, seals and other packing accessories, of base metal",
-              "shipment_count" : 3,
-              "value_of_goods" : 3665
-          },
-          {
-              "hs_code" : "5808",
-              "hscode_desc" : "(5808) Braids in the piece; ornamental trimmings in the piece, without embroidery, other than knitted or crocheted; tassels, pompons and similar articles",
-              "shipment_count" : 1,
-              "value_of_goods" : 3426
-          },
-          {
-              "hs_code" : "7325",
-              "hscode_desc" : "(7325) Other cast articles of iron or steel",
-              "shipment_count" : 1,
-              "value_of_goods" : 3218
-          },
-          {
-              "hs_code" : "9012",
-              "hscode_desc" : "(9012) Microscopes other than optical microscopes; diffraction apparatus",
-              "shipment_count" : 1,
-              "value_of_goods" : 3191
-          },
-          {
-              "hs_code" : "7007",
-              "hscode_desc" : "(7007) Safety glass, consisting of toughened (tempered) or laminated glass",
-              "shipment_count" : 4,
-              "value_of_goods" : 3007
-          },
-          {
-              "hs_code" : "7320",
-              "hscode_desc" : "(7320) Springs and leaves for springs, of iron or steel",
-              "shipment_count" : 1,
-              "value_of_goods" : 2745
-          },
-          {
-              "hs_code" : "9027",
-              "hscode_desc" : "(9027) Instruments and apparatus for physical or chemical analysis (for example, polarimeters, refractometers, spectrometers, gas or smoke analysis apparatus); instruments and apparatus for measuring or checking viscosity, porosity, expansion, surface tension or the like; instruments and apparatus for measuring or checking quantities of heat, sound or light (including exposure meters); microtomes",
-              "shipment_count" : 1,
-              "value_of_goods" : 2638
-          },
-          {
-              "hs_code" : "9025",
-              "hscode_desc" : "(9025) Hydrometers and similar floating instruments, thermometers, pyrometers, barometers, hygrometers and psychrometers, recording or not, and any combination of these instruments",
-              "shipment_count" : 4,
-              "value_of_goods" : 2034
-          },
-          {
-              "hs_code" : "7323",
-              "hscode_desc" : "(7323) Table, kitchen or other household articles and parts thereof, of iron or steel; iron or steel wool; pot scourers and scouring or polishing pads, gloves and the like, of iron or steel",
-              "shipment_count" : 1,
-              "value_of_goods" : 1696
-          },
-          {
-              "hs_code" : "8539",
-              "hscode_desc" : "(8539) Electric filament or discharge lamps, including sealed-beam lamp units and ultraviolet or infrared lamps; arc-lamps",
-              "shipment_count" : 5,
-              "value_of_goods" : 1670
-          },
-          {
-              "hs_code" : "9031",
-              "hscode_desc" : "(9031) Measuring or checking instruments, appliances and machines, not specified or included elsewhere in this chapter; profile projectors",
-              "shipment_count" : 6,
-              "value_of_goods" : 1338
-          },
-          {
-              "hs_code" : "8542",
-              "hscode_desc" : "(8542) Electronic integrated circuits and microassemblies",
-              "shipment_count" : 6,
-              "value_of_goods" : 1018
-          },
-          {
-              "hs_code" : "8418",
-              "hscode_desc" : "(8418) Refrigerators, freezers and other refrigerating or freezing equipment, electric or other; heat pumps other than air-conditioning machines of heading No 8415",
-              "shipment_count" : 1,
-              "value_of_goods" : 831
-          },
-          {
-              "hs_code" : "7321",
-              "hscode_desc" : "(7321) Stoves, ranges, grates, cookers (including those with subsidiary boilers for central heating), barbecues, braziers, gas-rings, plate warmers and similar non-electric domestic appliances, and parts thereof, of iron or steel",
-              "shipment_count" : 1,
-              "value_of_goods" : 780
-          },
-          {
-              "hs_code" : "9017",
-              "hscode_desc" : "(9017) Drawing, marking-out or mathematical calculating instruments (for example, drafting machines, pantographs, protractors, drawing sets, slide rules, disc calculators); instruments for measuring length, for use in the hand (for example, measuring rods and tapes, micrometers, callipers), not specified or included elsewhere in this chapter",
-              "shipment_count" : 1,
-              "value_of_goods" : 737
-          },
-          {
-              "hs_code" : "8205",
-              "hscode_desc" : "(8205) Hand tools (including glaziers' diamonds), not elsewhere specified or included; blow-lamps; vices, clamps and the like, other than accessories for and parts of, machine tools; anvils; portable forges; hand or pedal-operated grinding wheels with frameworks",
-              "shipment_count" : 1,
-              "value_of_goods" : 722
-          },
-          {
-              "hs_code" : "8484",
-              "hscode_desc" : "(8484) Gaskets and similar joints of metal sheeting combined with other material or of two or more layers of metal; sets or assortments of gaskets and similar joints, dissimilar in composition, put up in pouches, envelopes or similar packings; mechanical seals",
-              "shipment_count" : 5,
-              "value_of_goods" : 699
-          },
-          {
-              "hs_code" : "7314",
-              "hscode_desc" : "(7314) Cloth (including endless bands), grill, netting and fencing, of iron or steel wire; expanded metal of iron or steel",
-              "shipment_count" : 1,
-              "value_of_goods" : 682
-          },
-          {
-              "hs_code" : "8202",
-              "hscode_desc" : "(8202) Hand saws; blades for saws of all kinds (including slitting, slotting or toothless saw blades)",
-              "shipment_count" : 1,
-              "value_of_goods" : 631
-          },
-          {
-              "hs_code" : "2710",
-              "hscode_desc" : "(2710) Petroleum oils and oils obtained from bituminous minerals, other than crude; preparations not elsewhere specified or included, containing by weight 70 % or more of petroleum oils or of oils obtained from bituminous minerals, these oils being the basic constituents of the preparations; waste oils",
-              "shipment_count" : 2,
-              "value_of_goods" : 625
-          },
-          {
-              "hs_code" : "8215",
-              "hscode_desc" : "(8215) Spoons, forks, ladles, skimmers, cake-servers, fish-knives, butter-knives, sugar tongs and similar kitchen or tableware",
-              "shipment_count" : 1,
-              "value_of_goods" : 537
-          },
-          {
-              "hs_code" : "8507",
-              "hscode_desc" : "(8507) Electric accumulators, including separators therefor, whether or not rectangular (including square)",
-              "shipment_count" : 3,
-              "value_of_goods" : 501
-          },
-          {
-              "hs_code" : "4602",
-              "hscode_desc" : "(4602) Basketwork, wickerwork and other articles, made directly to shape from plaiting materials or made-up from goods of heading No 4601; articles of loofah",
-              "shipment_count" : 13,
-              "value_of_goods" : 415
-          },
-          {
-              "hs_code" : "4009",
-              "hscode_desc" : "(4009) Tubes, pipes and hoses, of vulcanised rubber other than hard rubber, with or without their fittings (for example, joints, elbows, flanges)",
-              "shipment_count" : 2,
-              "value_of_goods" : 276
-          },
-          {
-              "hs_code" : "9001",
-              "hscode_desc" : "(9001) Optical fibres and optical fibre bundles; optical fibre cables other than those of heading No 8544; sheets and plates of polarising material; lenses (including contact lenses), prisms, mirrors and other optical elements, of any material, unmounted, other than such elements of glass not optically worked",
-              "shipment_count" : 1,
-              "value_of_goods" : 224
-          },
-          {
-              "hs_code" : "8532",
-              "hscode_desc" : "(8532) Electrical capacitors, fixed, variable or adjustable (pre-set)",
-              "shipment_count" : 3,
-              "value_of_goods" : 116
-          },
-          {
-              "hs_code" : "4911",
-              "hscode_desc" : "(4911) Other printed matter, including printed pictures and photographs",
-              "shipment_count" : 3,
-              "value_of_goods" : 111
-          },
-          {
-              "hs_code" : "4910",
-              "hscode_desc" : "(4910) Calendars of any kind, printed, including calendar blocks",
-              "shipment_count" : 1,
-              "value_of_goods" : 56
-          },
-          {
-              "hs_code" : "3917",
-              "hscode_desc" : "(3917) Tubes, pipes and hoses, and fittings therefor (for example, joints, elbows, flanges), of plastics",
-              "shipment_count" : 1,
-              "value_of_goods" : 1
-          },
-          {
-              "hs_code" : "8467",
-              "hscode_desc" : "(8467) Tools for working in the hand, pneumatic, hydraulic or with self-contained electric or non-electric motor",
-              "shipment_count" : 1,
-              "value_of_goods" : 0
-          },
-          {
-              "hs_code" : "8711",
-              "hscode_desc" : "(8711) Motor-cycles (including mopeds) and cycles fitted with an auxiliary motor, with or without side-cars; side-cars",
-              "shipment_count" : 1,
-              "value_of_goods" : 0
-          },
-          {
-              "hs_code" : "4016",
-              "hscode_desc" : "(4016) Other articles of vulcanised rubber other than hard rubber",
-              "shipment_count" : 11,
-              "value_of_goods" : 165960
-          }
+        {
+          hs_code: "7209",
+          hscode_desc:
+            "(7209) Flat-rolled products of iron or non-alloy steel, of a width of 600 mm or more, cold-rolled (cold-reduced), not clad, plated or coated",
+          shipment_count: 1026,
+          value_of_goods: 226150000
+        },
+        {
+          hs_code: "6402",
+          hscode_desc:
+            "(6402) Other footwear with outer soles and uppers of rubber or plastics",
+          shipment_count: 1,
+          value_of_goods: 0
+        },
+        {
+          hs_code: "9405",
+          hscode_desc:
+            "(9405) Lamps and lighting fittings including searchlights and spotlights and parts thereof, not elsewhere specified or included; illuminated signs, illuminated name-plates and the like, having a permanently fixed light source, and parts thereof not elsewhere specified or included",
+          shipment_count: 58,
+          value_of_goods: 41488000
+        },
+        {
+          hs_code: "6302",
+          hscode_desc:
+            "(6302) Bed linen, table linen, toilet linen and kitchen linen",
+          shipment_count: 504,
+          value_of_goods: 32018000
+        },
+        {
+          hs_code: "6304",
+          hscode_desc:
+            "(6304) Other furnishing articles, excluding those of heading 9404",
+          shipment_count: 47,
+          value_of_goods: 27328000
+        },
+        {
+          hs_code: "61",
+          hscode_desc:
+            "(61) CHAPTER 61ARTICLES OF APPAREL AND CLOTHING ACCESSORIES, KNITTED OR CROCHETED",
+          shipment_count: 111,
+          value_of_goods: 25121000
+        },
+        {
+          hs_code: "6001",
+          hscode_desc:
+            "(6001) Pile fabrics, including long pile fabrics and terry fabrics, knitted or crocheted",
+          shipment_count: 534,
+          value_of_goods: 22827000
+        },
+        {
+          hs_code: "64",
+          hscode_desc:
+            "(64) CHAPTER 64FOOTWEAR, GAITERS AND THE LIKE; PARTS OF SUCH ARTICLES",
+          shipment_count: 46,
+          value_of_goods: 22102000
+        },
+        {
+          hs_code: "9404",
+          hscode_desc:
+            "(9404) Mattress supports; articles of bedding and similar furnishing (for example, mattresses, quilts, eiderdowns, cushions, pouffes and pillows) fitted with springs or stuffed or internally fitted with any material or of cellular rubber or plastics, whether or not covered",
+          shipment_count: 140,
+          value_of_goods: 16499000
+        },
+        {
+          hs_code: "7228",
+          hscode_desc:
+            "(7228) Other bars and rods of other alloy steel; angles, shapes and sections, of other alloy steel; hollow drill bars and rods, of alloy or non-alloy steel",
+          shipment_count: 123,
+          value_of_goods: 15358000
+        },
+        {
+          hs_code: "6301",
+          hscode_desc: "(6301) Blankets and travelling rugs",
+          shipment_count: 49,
+          value_of_goods: 15290000
+        },
+        {
+          hs_code: "7210",
+          hscode_desc:
+            "(7210) Flat-rolled products of iron or non-alloy steel, of a width of 600 mm or more, clad, plated or coated",
+          shipment_count: 3,
+          value_of_goods: 14854000
+        },
+        {
+          hs_code: "8701",
+          hscode_desc: "(8701) Tractors (other than tractors of heading 8709)",
+          shipment_count: 46,
+          value_of_goods: 14191000
+        },
+        {
+          hs_code: "87",
+          hscode_desc:
+            "(87) CHAPTER 87VEHICLES OTHER THAN RAILWAY OR TRAMWAY ROLLING-STOCK, AND PARTS AND ACCESSORIES THEREOF",
+          shipment_count: 80,
+          value_of_goods: 11477000
+        },
+        {
+          hs_code: "4202",
+          hscode_desc:
+            "(4202) Trunks, suit-cases, vanity-cases, executive-cases, brief-cases, school satchels, spectacle cases, binocular cases, camera cases, musical instrument cases, gun cases, holsters and similar containers; travelling-bags, insulated food or beverage bags, toilet bags, rucksacks, handbags, shopping-bags, wallets, purses, map-cases, cigarette-cases, tobacco-pouches, tool bags, sports bags, bottle-cases, jewellery boxes, powder-boxes, cutlery cases and similar containers, of leather or of composition leather, of sheeting of plastics, of textile materials, of vulcanised fibre or of paperboard, or wholly or mainly covered with such materials or with paper",
+          shipment_count: 100,
+          value_of_goods: 10952000
+        },
+        {
+          hs_code: "7015",
+          hscode_desc:
+            "(7015) Clock or watch glasses and similar glasses, glasses for non-corrective or corrective spectacles, curved, bent, hollowed or the like, not optically worked; hollow glass spheres and their segments, for the manufacture of such glasses",
+          shipment_count: 2,
+          value_of_goods: 9593000
+        },
+        {
+          hs_code: "7018",
+          hscode_desc:
+            "(7018) Glass beads, imitation pearls, imitation precious or semi-precious stones and similar glass smallwares, and articles thereof other than imitation jewellery; glass eyes other than prosthetic articles; statuettes and other ornaments of lamp-worked glass, other than imitation jewellery; glass microspheres not exceeding 1 mm in diameter",
+          shipment_count: 2,
+          value_of_goods: 9444000
+        },
+        {
+          hs_code: "7901",
+          hscode_desc: "(7901) Unwrought zinc",
+          shipment_count: 3,
+          value_of_goods: 8120000
+        },
+        {
+          hs_code: "73",
+          hscode_desc: "(73) CHAPTER 73ARTICLES OF IRON OR STEEL",
+          shipment_count: 10,
+          value_of_goods: 6734000
+        },
+        {
+          hs_code: "8504",
+          hscode_desc:
+            "(8504) Electrical transformers, static converters (for example, rectifiers) and inductors",
+          shipment_count: 278,
+          value_of_goods: 6622000
+        },
+        {
+          hs_code: "6203",
+          hscode_desc:
+            "(6203) Men's or boys' suits, ensembles, jackets, blazers, trousers, bib and brace overalls, breeches and shorts (other than swimwear)",
+          shipment_count: 6,
+          value_of_goods: 5245000
+        },
+        {
+          hs_code: "4203",
+          hscode_desc:
+            "(4203) Articles of apparel and clothing accessories, of leather or of composition leather",
+          shipment_count: 26,
+          value_of_goods: 4658000
+        },
+        {
+          hs_code: "8705",
+          hscode_desc:
+            "(8705) Special purpose motor vehicles, other than those principally designed for the transport of persons or goods (for example, breakdown lorries, crane lorries, fire-fighting vehicles, concrete-mixer lorries, road sweeper lorries, spraying lorries, mobile workshops, mobile radiological units)",
+          shipment_count: 14,
+          value_of_goods: 4605000
+        },
+        {
+          hs_code: "90",
+          hscode_desc:
+            "(90) CHAPTER 90OPTICAL, PHOTOGRAPHIC, CINEMATOGRAPHIC, MEASURING, CHECKING, PRECISION, MEDICAL OR SURGICAL INSTRUMENTS AND APPARATUS; PARTS AND ACCESSORIES THEREOF",
+          shipment_count: 4,
+          value_of_goods: 4431000
+        },
+        {
+          hs_code: "6303",
+          hscode_desc:
+            "(6303) Curtains (including drapes) and interior blinds; curtain or bed valances",
+          shipment_count: 41,
+          value_of_goods: 3847000
+        },
+        {
+          hs_code: "3923",
+          hscode_desc:
+            "(3923) Articles for the conveyance or packing of goods, of plastics; stoppers, lids, caps and other closures, of plastics",
+          shipment_count: 155,
+          value_of_goods: 3602000
+        },
+        {
+          hs_code: "6210",
+          hscode_desc:
+            "(6210) Garments, made-up of fabrics of heading 5602, 5603, 5903, 5906 or 5907",
+          shipment_count: 25,
+          value_of_goods: 3492000
+        },
+        {
+          hs_code: "2919",
+          hscode_desc:
+            "(2919) Phosphoric esters and their salts, including lactophosphates; their halogenated, sulphonated, nitrated or nitrosated derivatives",
+          shipment_count: 20,
+          value_of_goods: 3057000
+        },
+        {
+          hs_code: "2827",
+          hscode_desc:
+            "(2827) Chlorides, chloride oxides and chloride hydroxides; bromides and bromide oxides; iodides and iodide oxides",
+          shipment_count: 3,
+          value_of_goods: 2984000
+        },
+        {
+          hs_code: "9503",
+          hscode_desc:
+            "(9503) Other toys; reduced-size (scale) models and similar recreational models, working or not; puzzles of all kinds",
+          shipment_count: 23,
+          value_of_goods: 2561000
+        },
+        {
+          hs_code: "5407",
+          hscode_desc:
+            "(5407) Woven fabrics of synthetic filament yarn, including woven fabrics obtained from materials of heading 5404",
+          shipment_count: 140,
+          value_of_goods: 2495000
+        },
+        {
+          hs_code: "4823",
+          hscode_desc:
+            "(4823) Other paper, paperboard, cellulose wadding and webs of cellulose fibres, cut to size or shape; other articles of paper pulp, paper, paperboard, cellulose wadding or webs of cellulose fibres",
+          shipment_count: 15,
+          value_of_goods: 2429000
+        },
+        {
+          hs_code: "8483",
+          hscode_desc:
+            "(8483) Transmission shafts (including cam shafts and crank shafts) and cranks; bearing housings and plain shaft bearings; gears and gearing; ball or roller screws; gear boxes and other speed changers, including torque converters; flywheels and pulleys, including pulley blocks; clutches and shaft couplings (including universal joints)",
+          shipment_count: 34,
+          value_of_goods: 2284000
+        },
+        {
+          hs_code: "8509",
+          hscode_desc:
+            "(8509) Electromechanical domestic appliances, with self-contained electric motor",
+          shipment_count: 17,
+          value_of_goods: 1973000
+        },
+        {
+          hs_code: "8425",
+          hscode_desc:
+            "(8425) Pulley tackle and hoists other than skip hoists; winches and capstans; jacks",
+          shipment_count: 31,
+          value_of_goods: 1774000
+        },
+        {
+          hs_code: "39",
+          hscode_desc: "(39) CHAPTER 39PLASTICS AND ARTICLES THEREOF",
+          shipment_count: 7,
+          value_of_goods: 1660000
+        },
+        {
+          hs_code: "8473",
+          hscode_desc:
+            "(8473) Parts and accessories (other than covers, carrying cases and the like) suitable for use solely or principally with machines of headings 8469 to 8472",
+          shipment_count: 126,
+          value_of_goods: 1655000
+        },
+        {
+          hs_code: "8479",
+          hscode_desc:
+            "(8479) Machines and mechanical appliances having individual functions, not specified or included elsewhere in this chapter",
+          shipment_count: 12,
+          value_of_goods: 1633000
+        },
+        {
+          hs_code: "5811",
+          hscode_desc:
+            "(5811) Quilted textile products in the piece, composed of one or more layers of textile materials assembled with padding by stitching or otherwise, other than embroidery of heading 5810",
+          shipment_count: 77,
+          value_of_goods: 1321000
+        },
+        {
+          hs_code: "8543",
+          hscode_desc:
+            "(8543) Electrical machines and apparatus, having individual functions, not specified or included elsewhere in this chapter",
+          shipment_count: 8,
+          value_of_goods: 1289000
+        },
+        {
+          hs_code: "8516",
+          hscode_desc:
+            "(8516) Electric instantaneous or storage water heaters and immersion heaters; electric space heating apparatus and soil heating apparatus; electrothermic hair-dressing apparatus (for example, hair dryers, hair curlers, curling tong heaters) and hand dryers; electric smoothing irons; other electrothermic appliances of a kind used for domestic purposes; electric heating resistors, other than those of heading 8545",
+          shipment_count: 13,
+          value_of_goods: 1282000
+        },
+        {
+          hs_code: "8518",
+          hscode_desc:
+            "(8518) Microphones and stands therefor; loudspeakers, whether or not mounted in their enclosures; headphones and earphones, whether or not combined with a microphone, and sets consisting of a microphone and one or more loudspeakers; audio-frequency electric amplifiers; electric sound amplifier sets",
+          shipment_count: 2,
+          value_of_goods: 1248000
+        },
+        {
+          hs_code: "8702",
+          hscode_desc:
+            "(8702) Motor vehicles for the transport of 10 or more persons, including the driver",
+          shipment_count: 2,
+          value_of_goods: 1225000
+        },
+        {
+          hs_code: "8716",
+          hscode_desc:
+            "(8716) Trailers and semi-trailers; other vehicles, not mechanically propelled; parts thereof",
+          shipment_count: 5,
+          value_of_goods: 1169000
+        },
+        {
+          hs_code: "82",
+          hscode_desc:
+            "(82) CHAPTER 82TOOLS, IMPLEMENTS, CUTLERY, SPOONS AND FORKS, OF BASE METAL; PARTS THEREOF OF BASE METAL",
+          shipment_count: 1,
+          value_of_goods: 1098000
+        },
+        {
+          hs_code: "7326",
+          hscode_desc: "(7326) Other articles of iron or steel",
+          shipment_count: 5,
+          value_of_goods: 1091000
+        },
+        {
+          hs_code: "6404",
+          hscode_desc:
+            "(6404) Footwear with outer soles of rubber, plastics, leather or composition leather and uppers of textile materials",
+          shipment_count: 1,
+          value_of_goods: 1054000
+        },
+        {
+          hs_code: "6204",
+          hscode_desc:
+            "(6204) Women's or girls' suits, ensembles, jackets, blazers, dresses, skirts, divided skirts, trousers, bib and brace overalls, breeches and shorts (other than swimwear)",
+          shipment_count: 6,
+          value_of_goods: 1040000
+        },
+        {
+          hs_code: "4818",
+          hscode_desc:
+            "(4818) Toilet paper and similar paper, cellulose wadding or webs of cellulose fibres, of a kind used for household or sanitary purposes, in rolls of a width not exceeding 36 cm, or cut to size or shape; handkerchiefs, cleansing tissues, towels, tablecloths, serviettes, napkins for babies, tampons, bed sheets and similar household, sanitary or hospital articles, articles of apparel and clothing accessories, of paper pulp, paper, cellulose wadding or webs of cellulose fibres",
+          shipment_count: 14,
+          value_of_goods: 1023000
+        },
+        {
+          hs_code: "3919",
+          hscode_desc:
+            "(3919) Self-adhesive plates, sheets, film, foil, tape, strip and other flat shapes, of plastics, whether or not in rolls",
+          shipment_count: 2,
+          value_of_goods: 995895
+        },
+        {
+          hs_code: "6105",
+          hscode_desc: "(6105) Men's or boys' shirts, knitted or crocheted",
+          shipment_count: 1,
+          value_of_goods: 985640
+        },
+        {
+          hs_code: "48",
+          hscode_desc:
+            "(48) CHAPTER 48PAPER AND PAPERBOARD; ARTICLES OF PAPER PULP, OF PAPER OR OF PAPERBOARD",
+          shipment_count: 4,
+          value_of_goods: 886697
+        },
+        {
+          hs_code: "43",
+          hscode_desc:
+            "(43) CHAPTER 43FURSKINS AND ARTIFICIAL FUR; MANUFACTURES THEREOF",
+          shipment_count: 2,
+          value_of_goods: 873360
+        },
+        {
+          hs_code: "8302",
+          hscode_desc:
+            "(8302) Base metal mountings, fittings and similar articles suitable for furniture, doors, staircases, windows, blinds, coachwork, saddlery, trunks, chests, caskets or the like; base metal hat-racks, hat-pegs, brackets and similar fixtures; castors with mountings of base metal; automatic door closers of base metal",
+          shipment_count: 5,
+          value_of_goods: 841217
+        },
+        {
+          hs_code: "6206",
+          hscode_desc:
+            "(6206) Women's or girls' blouses, shirts and shirt-blouses",
+          shipment_count: 3,
+          value_of_goods: 757108
+        },
+        {
+          hs_code: "8474",
+          hscode_desc:
+            "(8474) Machinery for sorting, screening, separating, washing, crushing, grinding, mixing or kneading earth, stone, ores or other mineral substances, in solid (including powder or paste) form; machinery for agglomerating, shaping or moulding solid mineral fuels, ceramic paste, unhardened cements, plastering materials or other mineral products in powder or paste form; machines for forming foundry moulds of sand",
+          shipment_count: 4,
+          value_of_goods: 698649
+        },
+        {
+          hs_code: "2008",
+          hscode_desc:
+            "(2008) Fruit, nuts and other edible parts of plants, otherwise prepared or preserved, whether or not containing added sugar or other sweetening matter or spirit, not elsewhere specified or included",
+          shipment_count: 5,
+          value_of_goods: 638522
+        },
+        {
+          hs_code: "4819",
+          hscode_desc:
+            "(4819) Cartons, boxes, cases, bags and other packing containers, of paper, paperboard, cellulose wadding or webs of cellulose fibres; box files, letter trays, and similar articles, of paper or paperboard of a kind used in offices, shops or the like",
+          shipment_count: 7,
+          value_of_goods: 613593
+        },
+        {
+          hs_code: "9011",
+          hscode_desc:
+            "(9011) Compound optical microscopes, including those for photomicrography, cinephotomicrography or microprojection",
+          shipment_count: 3,
+          value_of_goods: 590613
+        },
+        {
+          hs_code: "41",
+          hscode_desc:
+            "(41) CHAPTER 41RAW HIDES AND SKINS (OTHER THAN FURSKINS) AND LEATHER",
+          shipment_count: 1,
+          value_of_goods: 583716
+        },
+        {
+          hs_code: "8433",
+          hscode_desc:
+            "(8433) Harvesting or threshing machinery, including straw or fodder balers; grass or hay mowers; machines for cleaning, sorting or grading eggs, fruit or other agricultural produce, other than machinery of heading 8437",
+          shipment_count: 1,
+          value_of_goods: 545696
+        },
+        {
+          hs_code: "6201",
+          hscode_desc:
+            "(6201) Men's or boys' overcoats, car-coats, capes, cloaks, anoraks (including ski-jackets), wind-cheaters, wind-jackets and similar articles, other than those of heading No 6203",
+          shipment_count: 2,
+          value_of_goods: 471938
+        },
+        {
+          hs_code: "9401",
+          hscode_desc:
+            "(9401) Seats (other than those of heading 9402), whether or not convertible into beds, and parts thereof",
+          shipment_count: 14,
+          value_of_goods: 448163
+        },
+        {
+          hs_code: "5609",
+          hscode_desc:
+            "(5609) Articles of yarn, strip or the like of heading 5404 or 5405, twine, cordage, rope or cables, not elsewhere specified or included",
+          shipment_count: 7,
+          value_of_goods: 443006
+        },
+        {
+          hs_code: "9608",
+          hscode_desc:
+            "(9608) Ballpoint pens; felt-tipped and other porous-tipped pens and markers; fountain pens, stylograph pens and other pens; duplicating stylos; propelling or sliding pencils; pen-holders, pencil-holders and similar holders; parts (including caps and clips) of the foregoing articles, other than those of heading 9609",
+          shipment_count: 2,
+          value_of_goods: 442822
+        },
+        {
+          hs_code: "8537",
+          hscode_desc:
+            "(8537) Boards, panels, consoles, desks, cabinets and other bases, equipped with two or more apparatus of heading 8535 or 8536, for electric control or the distribution of electricity, including those incorporating instruments or apparatus of Chapter 90, and numerical control apparatus, other than switching apparatus of heading 8517",
+          shipment_count: 17,
+          value_of_goods: 415142
+        },
+        {
+          hs_code: "2517",
+          hscode_desc:
+            "(2517) Pebbles, gravel, broken or crushed stone, of a kind commonly used for concrete aggregates, for road metalling or for railway or other ballast, shingle and flint, whether or not heat-treated; macadam of slag, dross or similar industrial waste, whether or not incorporating the materials cited in the first part of the heading; tarred macadam; granules, chippings and powder, of stones of heading 2515 or 2516, whether or not heat-treated",
+          shipment_count: 13,
+          value_of_goods: 389399
+        },
+        {
+          hs_code: "3307",
+          hscode_desc:
+            "(3307) Pre-shave, shaving or after-shave preparations, personal deodorants, bath preparations, depilatories and other perfumery, cosmetic or toilet preparations, not elsewhere specified or included; prepared room deodorisers, whether or not perfumed or having disinfectant properties",
+          shipment_count: 6,
+          value_of_goods: 385865
+        },
+        {
+          hs_code: "8714",
+          hscode_desc:
+            "(8714) Parts and accessories of vehicles of headings 8711 to 8713",
+          shipment_count: 72,
+          value_of_goods: 377581
+        },
+        {
+          hs_code: "8544",
+          hscode_desc:
+            "(8544) Insulated (including enamelled or anodised) wire, cable (including coaxial cable) and other insulated electric conductors, whether or not fitted with connectors; optical fibre cables, made-up of individually sheathed fibres, whether or not assembled with electric conductors or fitted with connectors",
+          shipment_count: 13,
+          value_of_goods: 367473
+        },
+        {
+          hs_code: "8450",
+          hscode_desc:
+            "(8450) Household or laundry-type washing machines, including machines which both wash and dry",
+          shipment_count: 3,
+          value_of_goods: 363391
+        },
+        {
+          hs_code: "5208",
+          hscode_desc:
+            "(5208) Woven fabrics of cotton, containing 85 % or more by weight of cotton, weighing not more than 200 g/m2",
+          shipment_count: 12,
+          value_of_goods: 337102
+        },
+        {
+          hs_code: "3926",
+          hscode_desc:
+            "(3926) Other articles of plastics and articles of other materials of headings 3901 to 3914",
+          shipment_count: 57,
+          value_of_goods: 332968
+        },
+        {
+          hs_code: "3005",
+          hscode_desc:
+            "(3005) Wadding, gauze, bandages and similar articles (for example, dressings, adhesive plasters, poultices), impregnated or coated with pharmaceutical substances or put up in forms or packings for retail sale for medical, surgical, dental or veterinary purposes",
+          shipment_count: 12,
+          value_of_goods: 308834
+        },
+        {
+          hs_code: "6005",
+          hscode_desc:
+            "(6005) Warp knit fabrics (including those made on galloon knitting machines), other than those of headings 6001 to 6004",
+          shipment_count: 16,
+          value_of_goods: 294305
+        },
+        {
+          hs_code: "57",
+          hscode_desc:
+            "(57) CHAPTER 57CARPETS AND OTHER TEXTILE FLOOR COVERINGS",
+          shipment_count: 1,
+          value_of_goods: 289330
+        },
+        {
+          hs_code: "8708",
+          hscode_desc:
+            "(8708) Parts and accessories of the motor vehicles of heading 8701 to 8705",
+          shipment_count: 164,
+          value_of_goods: 271143
+        },
+        {
+          hs_code: "3918",
+          hscode_desc:
+            "(3918) Floor coverings of plastics, whether or not self-adhesive, in rolls or in the form of tiles; wall or ceiling coverings of plastics, as defined in note 9 to this chapter",
+          shipment_count: 6,
+          value_of_goods: 267280
+        },
+        {
+          hs_code: "6306",
+          hscode_desc:
+            "(6306) Tarpaulins, awnings and sunblinds; tents; sails for boats, sailboards or landcraft; camping goods",
+          shipment_count: 5,
+          value_of_goods: 264580
+        },
+        {
+          hs_code: "4304",
+          hscode_desc: "(4304) Artificial fur and articles thereof",
+          shipment_count: 3,
+          value_of_goods: 245644
+        },
+        {
+          hs_code: "6107",
+          hscode_desc:
+            "(6107) Men's or boys' underpants, briefs, nightshirts, pyjamas, bathrobes, dressing gowns and similar articles, knitted or crocheted",
+          shipment_count: 13,
+          value_of_goods: 230700
+        },
+        {
+          hs_code: "8704",
+          hscode_desc: "(8704) Motor vehicles for the transport of goods",
+          shipment_count: 1,
+          value_of_goods: 227745
+        },
+        {
+          hs_code: "7013",
+          hscode_desc:
+            "(7013) Glassware of a kind used for table, kitchen, toilet, office, indoor decoration or similar purposes (other than that of heading No 7010 or 7018)",
+          shipment_count: 1,
+          value_of_goods: 214657
+        },
+        {
+          hs_code: "3401",
+          hscode_desc:
+            "(3401) Soap; organic surface-active products and preparations for use as soap, in the form of bars, cakes, moulded pieces or shapes, whether or not containing soap; organic surface-active products and preparations for washing the skin, in the form of liquid or cream and put up for retail sale, whether or not containing soap; paper, wadding, felt and non-wovens, impregnated, coated or covered with soap or detergent",
+          shipment_count: 2,
+          value_of_goods: 213685
+        },
+        {
+          hs_code: "9603",
+          hscode_desc:
+            "(9603) Brooms, brushes (including brushes constituting parts of machines, appliances or vehicles), hand-operated mechanical floor sweepers, not motorised, mops and feather dusters; prepared knots and tufts for broom or brush making; paint pads and rollers; squeegees (other than roller squeegees)",
+          shipment_count: 23,
+          value_of_goods: 198633
+        },
+        {
+          hs_code: "7315",
+          hscode_desc: "(7315) Chain and parts thereof, of iron or steel",
+          shipment_count: 22,
+          value_of_goods: 197173
+        },
+        {
+          hs_code: "95",
+          hscode_desc:
+            "(95) CHAPTER 95TOYS, GAMES AND SPORTS REQUISITES; PARTS AND ACCESSORIES THEREOF",
+          shipment_count: 1,
+          value_of_goods: 195188
+        },
+        {
+          hs_code: "8712",
+          hscode_desc:
+            "(8712) Bicycles and other cycles (including delivery tricycles), not motorized",
+          shipment_count: 7,
+          value_of_goods: 191189
+        },
+        {
+          hs_code: "8527",
+          hscode_desc:
+            "(8527) Reception apparatus for radio-telephony, radio-telegraphy or radio-broadcasting, whether or not combined, in the same housing, with sound recording or reproducing apparatus or a clock",
+          shipment_count: 2,
+          value_of_goods: 185537
+        },
+        {
+          hs_code: "8501",
+          hscode_desc:
+            "(8501) Electric motors and generators (excluding generating sets)",
+          shipment_count: 20,
+          value_of_goods: 183097
+        },
+        {
+          hs_code: "4303",
+          hscode_desc:
+            "(4303) Articles of apparel, clothing accessories and other articles of furskin",
+          shipment_count: 6,
+          value_of_goods: 177916
+        },
+        {
+          hs_code: "8707",
+          hscode_desc:
+            "(8707) Bodies (including cabs), for the motor vehicles of headings 8701 to 8705",
+          shipment_count: 3,
+          value_of_goods: 167050
+        },
+        {
+          hs_code: "8421",
+          hscode_desc:
+            "(8421) Centrifuges, including centrifugal dryers; filtering or purifying machinery and apparatus, for liquids or gases",
+          shipment_count: 19,
+          value_of_goods: 166571
+        },
+        {
+          hs_code: "8456",
+          hscode_desc:
+            "(8456) Machine-tools for working any material by removal of material, by laser or other light or photon beam, ultrasonic, electrodischarge, electrochemical, electron beam, ionic-beam or plasma arc processes",
+          shipment_count: 4,
+          value_of_goods: 135322000
+        },
+        {
+          hs_code: "5703",
+          hscode_desc:
+            "(5703) Carpets and other textile floor coverings, tufted, whether or not made-up",
+          shipment_count: 19,
+          value_of_goods: 157100
+        },
+        {
+          hs_code: "5515",
+          hscode_desc: "(5515) Other woven fabrics of synthetic staple fibres",
+          shipment_count: 1,
+          value_of_goods: 156941
+        },
+        {
+          hs_code: "8471",
+          hscode_desc:
+            "(8471) Automatic data-processing machines and units thereof; magnetic or optical readers, machines for transcribing data onto data media in coded form and machines for processing such data, not elsewhere specified or included",
+          shipment_count: 14,
+          value_of_goods: 144933
+        },
+        {
+          hs_code: "3925",
+          hscode_desc:
+            "(3925) Builders' ware of plastics, not elsewhere specified or included",
+          shipment_count: 3,
+          value_of_goods: 144494
+        },
+        {
+          hs_code: "7610",
+          hscode_desc:
+            "(7610) Aluminium structures (excluding prefabricated buildings of heading No 9406) and parts of structures (for example, bridges and bridge-sections, towers, lattice masts, roofs, roofing frameworks, doors and windows and their frames and thresholds for doors, balustrades, pillars and columns); aluminium plates, rods, profiles, tubes and the like, prepared for use in structures",
+          shipment_count: 2,
+          value_of_goods: 142513
+        },
+        {
+          hs_code: "6208",
+          hscode_desc:
+            "(6208) Women's or girls' singlets and other vests, slips, petticoats, briefs, panties, nightdresses, pyjamas, negligees, bathrobes, dressing gowns and similar articles",
+          shipment_count: 2,
+          value_of_goods: 140487
+        },
+        {
+          hs_code: "8419",
+          hscode_desc:
+            "(8419) Machinery, plant or laboratory equipment, whether or not electrically heated (excluding furnaces, ovens, and other equipment of heading 8514), for the treatment of materials by a process involving a change of temperature such as heating, cooking, roasting, distilling, rectifying, sterilizing, pasteurizing, steaming, drying, evaporating, vapourizing, condensing or cooling, other than machinery or plant of a kind used for domestic purposes; instantaneous or storage water heaters, non-electric",
+          shipment_count: 5,
+          value_of_goods: 125384
+        },
+        {
+          hs_code: "3506",
+          hscode_desc:
+            "(3506) Prepared glues and other prepared adhesives, not elsewhere specified or included; products suitable for use as glues or adhesives, put up for retail sale as glues or adhesives, not exceeding a net weight of 1 kg",
+          shipment_count: 5,
+          value_of_goods: 124619
+        },
+        {
+          hs_code: "6108",
+          hscode_desc:
+            "(6108) Women's or girls' slips, petticoats, briefs, panties, nightdresses, pyjamas, negligees, bathrobes, dressing gowns and similar articles, knitted or crocheted",
+          shipment_count: 6,
+          value_of_goods: 99010
+        },
+        {
+          hs_code: "8536",
+          hscode_desc:
+            "(8536) Electrical apparatus for switching or protecting electrical circuits, or for making connections to or in electrical circuits (for example, switches, relays, fuses, surge suppressors, plugs, sockets, lamp-holders, junction boxes), for a voltage not exceeding 1 000 V",
+          shipment_count: 39,
+          value_of_goods: 95394
+        },
+        {
+          hs_code: "8414",
+          hscode_desc:
+            "(8414) Air or vacuum pumps, air or other gas compressors and fans; ventilating or recycling hoods incorporating a fan, whether or not fitted with filters",
+          shipment_count: 21,
+          value_of_goods: 86239
+        },
+        {
+          hs_code: "8481",
+          hscode_desc:
+            "(8481) Taps, cocks, valves and similar appliances for pipes, boiler shells, tanks, vats or the like, including pressure-reducing valves and thermostatically controlled valves",
+          shipment_count: 15,
+          value_of_goods: 84120
+        },
+        {
+          hs_code: "7608",
+          hscode_desc: "(7608) Aluminium tubes and pipes",
+          shipment_count: 1,
+          value_of_goods: 77166
+        },
+        {
+          hs_code: "7010",
+          hscode_desc:
+            "(7010) Carboys, bottles, flasks, jars, pots, phials, ampoules and other containers, of glass, of a kind used for the conveyance or packing of goods; preserving jars of glass; stoppers, lids and other closures, of glass",
+          shipment_count: 3,
+          value_of_goods: 63303
+        },
+        {
+          hs_code: "5408",
+          hscode_desc:
+            "(5408) Woven fabrics of artificial filament yarn, including woven fabrics obtained from materials of heading 5405",
+          shipment_count: 4,
+          value_of_goods: 62661
+        },
+        {
+          hs_code: "8538",
+          hscode_desc:
+            "(8538) Parts suitable for use solely or principally with the apparatus of heading 8535, 8536 or 8537",
+          shipment_count: 4,
+          value_of_goods: 54213
+        },
+        {
+          hs_code: "6307",
+          hscode_desc:
+            "(6307) Other made-up articles, including dress patterns",
+          shipment_count: 4,
+          value_of_goods: 51638
+        },
+        {
+          hs_code: "9615",
+          hscode_desc:
+            "(9615) Combs, hair-slides and the like; hairpins, curling pins, curling grips, hair-curlers and the like, other than those of heading 8516, and parts thereof",
+          shipment_count: 4,
+          value_of_goods: 51302
+        },
+        {
+          hs_code: "8408",
+          hscode_desc:
+            "(8408) Compression-ignition internal combustion piston engines (diesel or semi-diesel engines)",
+          shipment_count: 1,
+          value_of_goods: 50254
+        },
+        {
+          hs_code: "5512",
+          hscode_desc:
+            "(5512) Woven fabrics of synthetic staple fibres, containing 85 % or more by weight of synthetic staple fibres",
+          shipment_count: 3,
+          value_of_goods: 44510
+        },
+        {
+          hs_code: "8512",
+          hscode_desc:
+            "(8512) Electrical lighting or signalling equipment (excluding articles of heading 8539), windscreen wipers, defrosters and demisters, of a kind used for cycles or motor vehicles",
+          shipment_count: 34,
+          value_of_goods: 39898
+        },
+        {
+          hs_code: "8420",
+          hscode_desc:
+            "(8420) Calendering or other rolling machines, other than for metals or glass, and cylinders therefor",
+          shipment_count: 4,
+          value_of_goods: 37562
+        },
+        {
+          hs_code: "8214",
+          hscode_desc:
+            "(8214) Other articles of cutlery (for example, hair clippers, butchers' or kitchen cleavers, choppers and mincing knives, paper knives); manicure or pedicure sets and instruments (including nail files)",
+          shipment_count: 3,
+          value_of_goods: 34399
+        },
+        {
+          hs_code: "8213",
+          hscode_desc:
+            "(8213) Scissors, tailors' shears and similar shears, and blades therefor",
+          shipment_count: 1,
+          value_of_goods: 34163
+        },
+        {
+          hs_code: "6405",
+          hscode_desc: "(6405) Other footwear",
+          shipment_count: 1,
+          value_of_goods: 31448
+        },
+        {
+          hs_code: "2712",
+          hscode_desc:
+            "(2712) Petroleum jelly; paraffin wax, microcrystalline petroleum wax, slack wax, ozokerite, lignite wax, peat wax, other mineral waxes, and similar products obtained by synthesis or by other processes, whether or not coloured",
+          shipment_count: 1,
+          value_of_goods: 31065
+        },
+        {
+          hs_code: "8203",
+          hscode_desc:
+            "(8203) Files, rasps, pliers (including cutting pliers), pincers, tweezers, metal cutting shears, pipe-cutters, bolt croppers, perforating punches and similar hand tools",
+          shipment_count: 1,
+          value_of_goods: 27864
+        },
+        {
+          hs_code: "3824",
+          hscode_desc:
+            "(3824) Prepared binders for foundry moulds or cores; chemical products and preparations of the chemical or allied industries (including those consisting of mixtures of natural products), not elsewhere specified or included",
+          shipment_count: 1,
+          value_of_goods: 26309
+        },
+        {
+          hs_code: "8525",
+          hscode_desc:
+            "(8525) Transmission apparatus for radio-telephony, radio-telegraphy, radio-broadcasting or television, whether or not incorporating reception apparatus or sound recording or reproducing apparatus; television cameras; still image video cameras and other video camera recorders; digital cameras",
+          shipment_count: 1,
+          value_of_goods: 25468
+        },
+        {
+          hs_code: "9403",
+          hscode_desc: "(9403) Other furniture and parts thereof",
+          shipment_count: 6,
+          value_of_goods: 25108
+        },
+        {
+          hs_code: "5603",
+          hscode_desc:
+            "(5603) Non-wovens, whether or not impregnated, coated, covered or laminated",
+          shipment_count: 4,
+          value_of_goods: 24711
+        },
+        {
+          hs_code: "6701",
+          hscode_desc:
+            "(6701) Skins and other parts of birds with their feathers or down, feathers, parts of feathers, down and articles thereof (other than goods of heading No 0505 and worked quills and scapes)",
+          shipment_count: 3,
+          value_of_goods: 24099
+        },
+        {
+          hs_code: "4201",
+          hscode_desc:
+            "(4201) Saddlery and harness for any animal (including traces, leads, knee pads, muzzles, saddle cloths, saddle bags, dog coats and the like), of any material",
+          shipment_count: 1,
+          value_of_goods: 23861
+        },
+        {
+          hs_code: "9023",
+          hscode_desc:
+            "(9023) Instruments, apparatus and models, designed for demonstrational purposes (for example, in education or exhibitions), unsuitable for other uses",
+          shipment_count: 1,
+          value_of_goods: 22921
+        },
+        {
+          hs_code: "84",
+          hscode_desc:
+            "(84) CHAPTER 84NUCLEAR REACTORS, BOILERS, MACHINERY AND MECHANICAL APPLIANCES; PARTS THEREOF",
+          shipment_count: 2,
+          value_of_goods: 20570
+        },
+        {
+          hs_code: "6506",
+          hscode_desc: "(6506) Other headgear, whether or not lined or trimmed",
+          shipment_count: 2,
+          value_of_goods: 19545
+        },
+        {
+          hs_code: "9032",
+          hscode_desc:
+            "(9032) Automatic regulating or controlling instruments and apparatus",
+          shipment_count: 5,
+          value_of_goods: 19190
+        },
+        {
+          hs_code: "5402",
+          hscode_desc:
+            "(5402) Synthetic filament yarn (other than sewing thread), not put up for retail sale, including synthetic monofilament of less than 67 decitex",
+          shipment_count: 1,
+          value_of_goods: 18563
+        },
+        {
+          hs_code: "9607",
+          hscode_desc: "(9607) Slide fasteners and parts thereof",
+          shipment_count: 6,
+          value_of_goods: 16192
+        },
+        {
+          hs_code: "9026",
+          hscode_desc:
+            "(9026) Instruments and apparatus for measuring or checking the flow, level, pressure or other variables of liquids or gases (for example, flow meters, level gauges, manometers, heat meters), excluding instruments and apparatus of heading 9014, 9015, 9028 or 9032",
+          shipment_count: 21,
+          value_of_goods: 15471
+        },
+        {
+          hs_code: "4811",
+          hscode_desc:
+            "(4811) Paper, paperboard, cellulose wadding and webs of cellulose fibres, coated, impregnated, covered, surface-coloured, surface-decorated or printed, in rolls or rectangular (including square) sheets, of any size, other than goods of the kind described in heading 4803, 4809 or 4810",
+          shipment_count: 2,
+          value_of_goods: 14372
+        },
+        {
+          hs_code: "8412",
+          hscode_desc: "(8412) Other engines and motors",
+          shipment_count: 1,
+          value_of_goods: 14077
+        },
+        {
+          hs_code: "8409",
+          hscode_desc:
+            "(8409) Parts suitable for use solely or principally with the engines of heading No 8407 or 8408",
+          shipment_count: 19,
+          value_of_goods: 14058
+        },
+        {
+          hs_code: "8413",
+          hscode_desc:
+            "(8413) Pumps for liquids, whether or not fitted with a measuring device; liquid elevators",
+          shipment_count: 14,
+          value_of_goods: 13545
+        },
+        {
+          hs_code: "4010",
+          hscode_desc:
+            "(4010) Conveyor or transmission belts or belting, of vulcanised rubber",
+          shipment_count: 6,
+          value_of_goods: 12969
+        },
+        {
+          hs_code: "9506",
+          hscode_desc:
+            "(9506) Articles and equipment for general physical exercise, gymnastics, athletics, other sports (including table-tennis) or outdoor games, not specified or included elsewhere in this chapter; swimming pools and paddling pools",
+          shipment_count: 1,
+          value_of_goods: 10904
+        },
+        {
+          hs_code: "5607",
+          hscode_desc:
+            "(5607) Twine, cordage, ropes and cables, whether or not plaited or braided and whether or not impregnated, coated, covered or sheathed with rubber or plastics",
+          shipment_count: 2,
+          value_of_goods: 10710
+        },
+        {
+          hs_code: "9002",
+          hscode_desc:
+            "(9002) Lenses, prisms, mirrors and other optical elements, of any material, mounted, being parts of or fittings for instruments or apparatus, other than such elements of glass not optically worked",
+          shipment_count: 1,
+          value_of_goods: 10478
+        },
+        {
+          hs_code: "7318",
+          hscode_desc:
+            "(7318) Screws, bolts, nuts, coach screws, screw hooks, rivets, cotters, cotter-pins, washers (including spring washers) and similar articles, of iron or steel",
+          shipment_count: 21,
+          value_of_goods: 10035
+        },
+        {
+          hs_code: "7009",
+          hscode_desc:
+            "(7009) Glass mirrors, whether or not framed, including rear-view mirrors",
+          shipment_count: 12,
+          value_of_goods: 8392
+        },
+        {
+          hs_code: "5503",
+          hscode_desc:
+            "(5503) Synthetic staple fibres, not carded, combed or otherwise processed for spinning",
+          shipment_count: 2,
+          value_of_goods: 8103
+        },
+        {
+          hs_code: "3924",
+          hscode_desc:
+            "(3924) Tableware, kitchenware, other household articles and toilet articles, of plastics",
+          shipment_count: 2,
+          value_of_goods: 7723
+        },
+        {
+          hs_code: "8511",
+          hscode_desc:
+            "(8511) Electrical ignition or starting equipment of a kind used for spark-ignition or compression-ignition internal combustion engines (for example, ignition magnetos, magneto-dynamos, ignition coils, sparking plugs and glow plugs, starter motors); generators (for example, dynamos, alternators) and cut-outs of a kind used in conjunction with such engines",
+          shipment_count: 4,
+          value_of_goods: 7546
+        },
+        {
+          hs_code: "8301",
+          hscode_desc:
+            "(8301) Padlocks and locks (key, combination or electrically operated), of base metal; clasps and frames with clasps, incorporating locks, of base metal; keys for any of the foregoing articles, of base metal",
+          shipment_count: 7,
+          value_of_goods: 6938
+        },
+        {
+          hs_code: "8415",
+          hscode_desc:
+            "(8415) Air-conditioning machines, comprising a motor-driven fan and elements for changing the temperature and humidity, including those machines in which the humidity cannot be separately regulated",
+          shipment_count: 5,
+          value_of_goods: 5244
+        },
+        {
+          hs_code: "5702",
+          hscode_desc:
+            "(5702) Carpets and other textile floor coverings, woven, not tufted or flocked, whether or not made-up, including Kelem, Schumacks, Karamanie and similar hand-woven rugs",
+          shipment_count: 1,
+          value_of_goods: 5198
+        },
+        {
+          hs_code: "9029",
+          hscode_desc:
+            "(9029) Revolution counters, production counters, taximeters, milometers, pedometers and the like; speed indicators and tachometers, other than those of heading 9014 or 9015; stroboscopes",
+          shipment_count: 4,
+          value_of_goods: 4933
+        },
+        {
+          hs_code: "8482",
+          hscode_desc: "(8482) Ball or roller bearings",
+          shipment_count: 4,
+          value_of_goods: 3960
+        },
+        {
+          hs_code: "6812",
+          hscode_desc:
+            "(6812) Fabricated asbestos fibres; mixtures with a basis of asbestos or with a basis of asbestos and magnesium carbonate; articles of such mixtures or of asbestos (for example, thread, woven fabric, clothing, headgear, footwear, gaskets), whether or not reinforced, other than goods of heading 6811 or 6813",
+          shipment_count: 1,
+          value_of_goods: 3778
+        },
+        {
+          hs_code: "8451",
+          hscode_desc:
+            "(8451) Machinery (other than machines of heading 8450) for washing, cleaning, wringing, drying, ironing, pressing (including fusing presses), bleaching, dyeing, dressing, finishing, coating or impregnating textile yarns, fabrics or made-up textile articles and machines for applying the paste to the base fabric or other support used in the manufacture of floor coverings such as linoleum; machines for reeling, unreeling, folding, cutting or pinking textile fabrics",
+          shipment_count: 1,
+          value_of_goods: 3774
+        },
+        {
+          hs_code: "8309",
+          hscode_desc:
+            "(8309) Stoppers, caps and lids (including crown corks, screw caps and pouring stoppers), capsules for bottles, threaded bungs, bung covers, seals and other packing accessories, of base metal",
+          shipment_count: 3,
+          value_of_goods: 3665
+        },
+        {
+          hs_code: "5808",
+          hscode_desc:
+            "(5808) Braids in the piece; ornamental trimmings in the piece, without embroidery, other than knitted or crocheted; tassels, pompons and similar articles",
+          shipment_count: 1,
+          value_of_goods: 3426
+        },
+        {
+          hs_code: "7325",
+          hscode_desc: "(7325) Other cast articles of iron or steel",
+          shipment_count: 1,
+          value_of_goods: 3218
+        },
+        {
+          hs_code: "9012",
+          hscode_desc:
+            "(9012) Microscopes other than optical microscopes; diffraction apparatus",
+          shipment_count: 1,
+          value_of_goods: 3191
+        },
+        {
+          hs_code: "7007",
+          hscode_desc:
+            "(7007) Safety glass, consisting of toughened (tempered) or laminated glass",
+          shipment_count: 4,
+          value_of_goods: 3007
+        },
+        {
+          hs_code: "7320",
+          hscode_desc:
+            "(7320) Springs and leaves for springs, of iron or steel",
+          shipment_count: 1,
+          value_of_goods: 2745
+        },
+        {
+          hs_code: "9027",
+          hscode_desc:
+            "(9027) Instruments and apparatus for physical or chemical analysis (for example, polarimeters, refractometers, spectrometers, gas or smoke analysis apparatus); instruments and apparatus for measuring or checking viscosity, porosity, expansion, surface tension or the like; instruments and apparatus for measuring or checking quantities of heat, sound or light (including exposure meters); microtomes",
+          shipment_count: 1,
+          value_of_goods: 2638
+        },
+        {
+          hs_code: "9025",
+          hscode_desc:
+            "(9025) Hydrometers and similar floating instruments, thermometers, pyrometers, barometers, hygrometers and psychrometers, recording or not, and any combination of these instruments",
+          shipment_count: 4,
+          value_of_goods: 2034
+        },
+        {
+          hs_code: "7323",
+          hscode_desc:
+            "(7323) Table, kitchen or other household articles and parts thereof, of iron or steel; iron or steel wool; pot scourers and scouring or polishing pads, gloves and the like, of iron or steel",
+          shipment_count: 1,
+          value_of_goods: 1696
+        },
+        {
+          hs_code: "8539",
+          hscode_desc:
+            "(8539) Electric filament or discharge lamps, including sealed-beam lamp units and ultraviolet or infrared lamps; arc-lamps",
+          shipment_count: 5,
+          value_of_goods: 1670
+        },
+        {
+          hs_code: "9031",
+          hscode_desc:
+            "(9031) Measuring or checking instruments, appliances and machines, not specified or included elsewhere in this chapter; profile projectors",
+          shipment_count: 6,
+          value_of_goods: 1338
+        },
+        {
+          hs_code: "8542",
+          hscode_desc:
+            "(8542) Electronic integrated circuits and microassemblies",
+          shipment_count: 6,
+          value_of_goods: 1018
+        },
+        {
+          hs_code: "8418",
+          hscode_desc:
+            "(8418) Refrigerators, freezers and other refrigerating or freezing equipment, electric or other; heat pumps other than air-conditioning machines of heading No 8415",
+          shipment_count: 1,
+          value_of_goods: 831
+        },
+        {
+          hs_code: "7321",
+          hscode_desc:
+            "(7321) Stoves, ranges, grates, cookers (including those with subsidiary boilers for central heating), barbecues, braziers, gas-rings, plate warmers and similar non-electric domestic appliances, and parts thereof, of iron or steel",
+          shipment_count: 1,
+          value_of_goods: 780
+        },
+        {
+          hs_code: "9017",
+          hscode_desc:
+            "(9017) Drawing, marking-out or mathematical calculating instruments (for example, drafting machines, pantographs, protractors, drawing sets, slide rules, disc calculators); instruments for measuring length, for use in the hand (for example, measuring rods and tapes, micrometers, callipers), not specified or included elsewhere in this chapter",
+          shipment_count: 1,
+          value_of_goods: 737
+        },
+        {
+          hs_code: "8205",
+          hscode_desc:
+            "(8205) Hand tools (including glaziers' diamonds), not elsewhere specified or included; blow-lamps; vices, clamps and the like, other than accessories for and parts of, machine tools; anvils; portable forges; hand or pedal-operated grinding wheels with frameworks",
+          shipment_count: 1,
+          value_of_goods: 722
+        },
+        {
+          hs_code: "8484",
+          hscode_desc:
+            "(8484) Gaskets and similar joints of metal sheeting combined with other material or of two or more layers of metal; sets or assortments of gaskets and similar joints, dissimilar in composition, put up in pouches, envelopes or similar packings; mechanical seals",
+          shipment_count: 5,
+          value_of_goods: 699
+        },
+        {
+          hs_code: "7314",
+          hscode_desc:
+            "(7314) Cloth (including endless bands), grill, netting and fencing, of iron or steel wire; expanded metal of iron or steel",
+          shipment_count: 1,
+          value_of_goods: 682
+        },
+        {
+          hs_code: "8202",
+          hscode_desc:
+            "(8202) Hand saws; blades for saws of all kinds (including slitting, slotting or toothless saw blades)",
+          shipment_count: 1,
+          value_of_goods: 631
+        },
+        {
+          hs_code: "2710",
+          hscode_desc:
+            "(2710) Petroleum oils and oils obtained from bituminous minerals, other than crude; preparations not elsewhere specified or included, containing by weight 70 % or more of petroleum oils or of oils obtained from bituminous minerals, these oils being the basic constituents of the preparations; waste oils",
+          shipment_count: 2,
+          value_of_goods: 625
+        },
+        {
+          hs_code: "8215",
+          hscode_desc:
+            "(8215) Spoons, forks, ladles, skimmers, cake-servers, fish-knives, butter-knives, sugar tongs and similar kitchen or tableware",
+          shipment_count: 1,
+          value_of_goods: 537
+        },
+        {
+          hs_code: "8507",
+          hscode_desc:
+            "(8507) Electric accumulators, including separators therefor, whether or not rectangular (including square)",
+          shipment_count: 3,
+          value_of_goods: 501
+        },
+        {
+          hs_code: "4602",
+          hscode_desc:
+            "(4602) Basketwork, wickerwork and other articles, made directly to shape from plaiting materials or made-up from goods of heading No 4601; articles of loofah",
+          shipment_count: 13,
+          value_of_goods: 415
+        },
+        {
+          hs_code: "4009",
+          hscode_desc:
+            "(4009) Tubes, pipes and hoses, of vulcanised rubber other than hard rubber, with or without their fittings (for example, joints, elbows, flanges)",
+          shipment_count: 2,
+          value_of_goods: 276
+        },
+        {
+          hs_code: "9001",
+          hscode_desc:
+            "(9001) Optical fibres and optical fibre bundles; optical fibre cables other than those of heading No 8544; sheets and plates of polarising material; lenses (including contact lenses), prisms, mirrors and other optical elements, of any material, unmounted, other than such elements of glass not optically worked",
+          shipment_count: 1,
+          value_of_goods: 224
+        },
+        {
+          hs_code: "8532",
+          hscode_desc:
+            "(8532) Electrical capacitors, fixed, variable or adjustable (pre-set)",
+          shipment_count: 3,
+          value_of_goods: 116
+        },
+        {
+          hs_code: "4911",
+          hscode_desc:
+            "(4911) Other printed matter, including printed pictures and photographs",
+          shipment_count: 3,
+          value_of_goods: 111
+        },
+        {
+          hs_code: "4910",
+          hscode_desc:
+            "(4910) Calendars of any kind, printed, including calendar blocks",
+          shipment_count: 1,
+          value_of_goods: 56
+        },
+        {
+          hs_code: "3917",
+          hscode_desc:
+            "(3917) Tubes, pipes and hoses, and fittings therefor (for example, joints, elbows, flanges), of plastics",
+          shipment_count: 1,
+          value_of_goods: 1
+        },
+        {
+          hs_code: "8467",
+          hscode_desc:
+            "(8467) Tools for working in the hand, pneumatic, hydraulic or with self-contained electric or non-electric motor",
+          shipment_count: 1,
+          value_of_goods: 0
+        },
+        {
+          hs_code: "8711",
+          hscode_desc:
+            "(8711) Motor-cycles (including mopeds) and cycles fitted with an auxiliary motor, with or without side-cars; side-cars",
+          shipment_count: 1,
+          value_of_goods: 0
+        },
+        {
+          hs_code: "4016",
+          hscode_desc:
+            "(4016) Other articles of vulcanised rubber other than hard rubber",
+          shipment_count: 11,
+          value_of_goods: 165960
+        }
       ],
       last3Years: [
         {
@@ -5255,3019 +5556,2892 @@ const reportData = {
       { country: "Australia", shipment_count: "1", value_of_goods: 1576.44 }
     ],
     lastYear: [
-        {
-            "country" : "United States",
-            "shipment_count" : 2016,
-            "value_of_goods" : 30000000
-        },
-        {
-            "country" : "Vietnam",
-            "shipment_count" : 420,
-            "value_of_goods" : 6400000
-        },
-        {
-            "country" : "Russia",
-            "shipment_count" : 67,
-            "value_of_goods" : 2500000
-        },
-        {
-            "country" : "Mexico",
-            "shipment_count" : 15,
-            "value_of_goods" : 100000
-        },
-        {
-            "country" : "Columbia",
-            "shipment_count" : 4,
-            "value_of_goods" : 96000
-        },
-        {
-            "country" : "Argentina",
-            "shipment_count" : 5,
-            "value_of_goods" : 51000
-        },
-        {
-            "country" : "Panama",
-            "shipment_count" : 1,
-            "value_of_goods" : 22000
-        },
-        {
-            "country" : "Sri Lanka",
-            "shipment_count" : 11,
-            "value_of_goods" : 21000
-        },
-        {
-            "country" : "Peru",
-            "shipment_count" : 9,
-            "value_of_goods" : 17000
-        },
-        {
-            "country" : "India",
-            "shipment_count" : 1,
-            "value_of_goods" : 11000
-        },
-        {
-            "country" : "Ukraine",
-            "shipment_count" : 1,
-            "value_of_goods" : 1500
-        },
-        {
-            "country" : "Guatemala",
-            "shipment_count" : 257,
-            "value_of_goods" : 0
-        },
-        {
-            "country" : "unknown",
-            "shipment_count" : 11,
-            "value_of_goods" : 0
-        },
-        {
-            "country" : "Pakistan",
-            "shipment_count" : 16,
-            "value_of_goods" : 0
-        }
+      {
+        country: "United States",
+        shipment_count: 2016,
+        value_of_goods: 30000000
+      },
+      {
+        country: "Vietnam",
+        shipment_count: 420,
+        value_of_goods: 6400000
+      },
+      {
+        country: "Russia",
+        shipment_count: 67,
+        value_of_goods: 2500000
+      },
+      {
+        country: "Mexico",
+        shipment_count: 15,
+        value_of_goods: 100000
+      },
+      {
+        country: "Columbia",
+        shipment_count: 4,
+        value_of_goods: 96000
+      },
+      {
+        country: "Argentina",
+        shipment_count: 5,
+        value_of_goods: 51000
+      },
+      {
+        country: "Panama",
+        shipment_count: 1,
+        value_of_goods: 22000
+      },
+      {
+        country: "Sri Lanka",
+        shipment_count: 11,
+        value_of_goods: 21000
+      },
+      {
+        country: "Peru",
+        shipment_count: 9,
+        value_of_goods: 17000
+      },
+      {
+        country: "India",
+        shipment_count: 1,
+        value_of_goods: 11000
+      },
+      {
+        country: "Ukraine",
+        shipment_count: 1,
+        value_of_goods: 1500
+      },
+      {
+        country: "Guatemala",
+        shipment_count: 257,
+        value_of_goods: 0
+      },
+      {
+        country: "unknown",
+        shipment_count: 11,
+        value_of_goods: 0
+      },
+      {
+        country: "Pakistan",
+        shipment_count: 16,
+        value_of_goods: 0
+      }
     ]
-},
+  },
   shareholders: [
     { name: "Ma Haihua", percent: 30, associate: 1 },
     { name: "Wang Zhaoting", percent: 20, key: 2 },
     { name: "Wang Haihua", percent: 50, key: 3 }
   ],
   corporateMap: {
-      nodes : [
-          {
-              "id" : "128092587",
-              "labels" : [
-                  "Person"
-              ],
-              "properties" : {
-                  "englishName" : "Feng Lijiang",
-                  "hasImage" : false,
-                  "keyNo" : "pca1500d7069961110c1d98e24532c3d",
-                  "name" : "冯利江",
-                  "role" : "Supervisor"
-              }
-          },
-          {
-              "id" : "25222030",
-              "labels" : [
-                  "Company"
-              ],
-              "properties" : {
-                  "econKind" : "其他有限责任公司",
-                  "englishName" : "Longkou Zhonghai Aluminum Co., Ltd.",
-                  "hasImage" : false,
-                  "keyNo" : "6a790e857dc4d93dfe8658e5d6a2f3fa",
-                  "name" : "龙口中海铝业有限公司",
-                  "registCapi" : "25000.000",
-                  "status" : "working"
-              }
-          },
-          {
-              "id" : "24771439",
-              "labels" : [
-                  "Company"
-              ],
-              "properties" : {
-                  "econKind" : "其他有限责任公司",
-                  "englishName" : "Tak Ching Yi Kee Property Co., Ltd.",
-                  "hasImage" : false,
-                  "keyNo" : "68952eaee4740aa2380308890726b79f",
-                  "name" : "德正奕奇物产有限公司",
-                  "registCapi" : "10000.000",
-                  "status" : "working"
-              }
-          },
-          {
-              "id" : "93242263",
-              "labels" : [
-                  "Person"
-              ],
-              "properties" : {
-                  "englishName" : "Shen Zhihong",
-                  "hasImage" : false,
-                  "keyNo" : "p5cced299068a47750df1e3714e6ad48",
-                  "name" : "沈志宏",
-                  "role" : ""
-              }
-          },
-          {
-              "id" : "30648266",
-              "labels" : [
-                  "Company"
-              ],
-              "properties" : {
-                  "econKind" : "有限责任公司(国有独资)",
-                  "englishName" : "Jiangsu Overseas Enterprise Group Co., Ltd.",
-                  "hasImage" : false,
-                  "keyNo" : "80f4aec0b4068f721d9e9e36912d23de",
-                  "name" : "江苏省海外企业集团有限公司",
-                  "registCapi" : "50000.000",
-                  "status" : "working"
-              }
-          },
-          {
-              "id" : "133012980",
-              "labels" : [
-                  "Person"
-              ],
-              "properties" : {
-                  "englishName" : "Fan Binwen",
-                  "hasImage" : false,
-                  "keyNo" : "pd98b52d813e9f67f378e8725644f85b",
-                  "name" : "范斌文",
-                  "role" : "Staff Director"
-              }
-          },
-          {
-              "id" : "56302401",
-              "labels" : [
-                  "Company"
-              ],
-              "properties" : {
-                  "econKind" : "有限责任公司(自然人投资或控股)",
-                  "englishName" : "Chengdu JiamanRu Enterprise Management Consulting Co., Ltd.",
-                  "hasImage" : false,
-                  "keyNo" : "ebc9a2e414116631dd6595902cb7e72f",
-                  "name" : "成都佳满如企业管理咨询有限公司",
-                  "registCapi" : "10.000",
-                  "status" : "surviving"
-              }
-          },
-          {
-              "id" : "34142761",
-              "labels" : [
-                  "Company"
-              ],
-              "properties" : {
-                  "econKind" : "有限责任公司(自然人独资)",
-                  "englishName" : "Chengdu Baojingli Technology Co., Ltd.",
-                  "hasImage" : false,
-                  "keyNo" : "8f7f564b28df0caf18931080e06911dc",
-                  "name" : "成都宝晶利科技有限公司",
-                  "registCapi" : "10.000",
-                  "status" : "surviving"
-              }
-          },
-          {
-              "id" : "34606131",
-              "labels" : [
-                  "Company"
-              ],
-              "properties" : {
-                  "econKind" : "其他有限责任公司",
-                  "englishName" : "Xinjiang Xinjiang Xide-Zhong Cheng Property Co., Ltd.",
-                  "hasImage" : false,
-                  "keyNo" : "916d70f7e4563242ebf0a09c248da935",
-                  "name" : "新疆弈德众诚物产有限公司",
-                  "registCapi" : "5000.000",
-                  "status" : "working"
-              }
-          },
-          {
-              "id" : "46162667",
-              "labels" : [
-                  "Company"
-              ],
-              "properties" : {
-                  "econKind" : "股份有限公司(非上市、自然人投资或控股)",
-                  "englishName" : "Zhejiang Qiangcheng Petrochemical Co., Ltd.",
-                  "hasImage" : true,
-                  "keyNo" : "c18be05fdd0f427735f4c1f2d988cfdc",
-                  "name" : "浙江前程石化股份有限公司",
-                  "registCapi" : "21600.000",
-                  "status" : "surviving"
-              }
-          },
-          {
-              "id" : "40166986",
-              "labels" : [
-                  "Company"
-              ],
-              "properties" : {
-                  "econKind" : "有限合伙企业",
-                  "englishName" : "Horgos Spun Tenzhong Equity Investment Management Partnership (Limited Partnership)",
-                  "hasImage" : false,
-                  "keyNo" : "a893e0539dd1c3d8ec69b274a4c45283",
-                  "name" : "霍尔果斯普天众诚股权投资管理合伙企业(有限合伙)",
-                  "registCapi" : "0.000",
-                  "status" : "working"
-              }
-          },
-          {
-              "id" : "72442991",
-              "labels" : [
-                  "Person"
-              ],
-              "properties" : {
-                  "englishName" : "Tung Songtao",
-                  "hasImage" : false,
-                  "keyNo" : "p1bd2c12b9cdde3e3928c3291e5296af",
-                  "name" : "董松涛",
-                  "role" : "Director"
-              }
-          },
-          {
-              "id" : "54516604",
-              "labels" : [
-                  "Company"
-              ],
-              "properties" : {
-                  "econKind" : "其他有限责任公司",
-                  "englishName" : "Shanghai New Ding Data Technology Co., Ltd.",
-                  "hasImage" : true,
-                  "keyNo" : "e45f14317b3f9c463497c1ca53d3ff7d",
-                  "name" : "上海新增鼎数据科技有限公司",
-                  "registCapi" : "1666.670",
-                  "status" : "surviving"
-              }
-          },
-          {
-              "id" : "134660183",
-              "labels" : [
-                  "Person"
-              ],
-              "properties" : {
-                  "englishName" : "Zhang Xiaosong",
-                  "hasImage" : false,
-                  "keyNo" : "pdebabae7bb28630fb5abf65f8baad2e",
-                  "name" : "张小松",
-                  "role" : "Supervisor"
-              }
-          },
-          {
-              "id" : "67036074",
-              "labels" : [
-                  "Person"
-              ],
-              "properties" : {
-                  "englishName" : "Qian Gang",
-                  "hasImage" : false,
-                  "keyNo" : "p0af860ed1354f11e7edd668c8ae3786",
-                  "name" : "钱刚",
-                  "role" : "Director"
-              }
-          },
-          {
-              "id" : "36029553",
-              "labels" : [
-                  "Company"
-              ],
-              "properties" : {
-                  "econKind" : "有限责任公司(自然人投资或控股)",
-                  "englishName" : "Jiaxing Jiaye Mechanical and Electrical Development Co., Ltd.",
-                  "hasImage" : false,
-                  "keyNo" : "975b34de6d8defeb4a311b24ab5e9513",
-                  "name" : "嘉兴嘉冶机电发展有限公司",
-                  "registCapi" : "3000.000",
-                  "status" : "surviving"
-              }
-          },
-          {
-              "id" : "107220502",
-              "labels" : [
-                  "Person"
-              ],
-              "properties" : {
-                  "englishName" : "Wang Jian",
-                  "hasImage" : false,
-                  "keyNo" : "p88961668d0839fb2a44b8c8f3c6e1e5",
-                  "name" : "王坚",
-                  "role" : "Natural person shareholders"
-              }
-          },
-          {
-              "id" : "18389915",
-              "labels" : [
-                  "Company"
-              ],
-              "properties" : {
-                  "econKind" : "其他有限责任公司",
-                  "englishName" : "Shanghai Zhithong International Trade Co., Ltd.",
-                  "hasImage" : false,
-                  "keyNo" : "4d81e458baf1c61442cc7e0b15c8e7a2",
-                  "name" : "上海致同国际贸易有限公司",
-                  "registCapi" : "1000.000",
-                  "status" : "surviving"
-              }
-          },
-          {
-              "id" : "14602311",
-              "labels" : [
-                  "Company"
-              ],
-              "properties" : {
-                  "econKind" : "有限责任公司(自然人投资或控股)",
-                  "englishName" : "Sichuan Jingyuan Chemical Technology Co., Ltd.",
-                  "hasImage" : false,
-                  "keyNo" : "3d8c61802f84e76ffe8f9fd3fad292ec",
-                  "name" : "四川晶萃化工科技有限公司",
-                  "registCapi" : "100.000",
-                  "status" : "surviving"
-              }
-          },
-          {
-              "id" : "57243080",
-              "labels" : [
-                  "Company"
-              ],
-              "properties" : {
-                  "econKind" : "有限责任公司（自然人投资或控股的法人独资）",
-                  "englishName" : "Ningbo Toucheng Products Co., Ltd.",
-                  "hasImage" : false,
-                  "keyNo" : "efb4709a79e62e1b8a58bf492ba44087",
-                  "name" : "宁波前程物产有限公司",
-                  "registCapi" : "2000.000",
-                  "status" : "surviving"
-              }
-          },
-          {
-              "id" : "44484097",
-              "labels" : [
-                  "Company"
-              ],
-              "properties" : {
-                  "econKind" : "有限责任公司",
-                  "englishName" : "Jiangsu Textile Industry (Group) Import & Export Co., Ltd.",
-                  "hasImage" : false,
-                  "keyNo" : "ba8afb6ac0d54aa289218c2de3839394",
-                  "name" : "江苏省纺织工业(集团)进出口有限公司",
-                  "registCapi" : "127277.741",
-                  "status" : "working"
-              }
-          },
-          {
-              "id" : "97920367",
-              "labels" : [
-                  "Person"
-              ],
-              "properties" : {
-                  "englishName" : "Li Jun",
-                  "hasImage" : false,
-                  "keyNo" : "p6b767a793c2f6c66cb7fd80e37b0346",
-                  "name" : "李军",
-                  "role" : "Director"
-              }
-          },
-          {
-              "id" : "57581013",
-              "labels" : [
-                  "Company"
-              ],
-              "properties" : {
-                  "econKind" : "有限责任公司（法人独资）",
-                  "englishName" : "Jiangsu Sohao Supply Chain Management Co., Ltd.",
-                  "hasImage" : false,
-                  "keyNo" : "f11c853705b7e3dbd042647cbba9e9e2",
-                  "name" : "江苏苏豪供应链管理有限公司",
-                  "registCapi" : "10000.000",
-                  "status" : "working"
-              }
-          },
-          {
-              "id" : "110515288",
-              "labels" : [
-                  "Person"
-              ],
-              "properties" : {
-                  "englishName" : "Zhao Gang",
-                  "hasImage" : false,
-                  "keyNo" : "p92eacf799e3dec820ce526c8a25f1af",
-                  "name" : "赵刚",
-                  "role" : ""
-              }
-          },
-          {
-              "id" : "50469852",
-              "labels" : [
-                  "Company"
-              ],
-              "properties" : {
-                  "econKind" : "有限责任公司（非自然人投资或控股的法人独资）",
-                  "englishName" : "Promising Property Co., Ltd.",
-                  "hasImage" : false,
-                  "keyNo" : "d37c3246e1ce520376298a31155c817a",
-                  "name" : "前程物产有限公司",
-                  "registCapi" : "10000.000",
-                  "status" : "surviving"
-              }
-          },
-          {
-              "id" : "56062039",
-              "labels" : [
-                  "Company"
-              ],
-              "properties" : {
-                  "econKind" : "有限责任公司（自然人投资或控股的法人独资）",
-                  "englishName" : "Shanghai New Ding Industrial Technology Co., Ltd.",
-                  "hasImage" : false,
-                  "keyNo" : "eac9a77620beb74a544d75d97082bfe7",
-                  "name" : "上海新增鼎工业科技有限公司",
-                  "registCapi" : "100.000",
-                  "status" : "surviving"
-              }
-          },
-          {
-              "id" : "142076283",
-              "labels" : [
-                  "Person"
-              ],
-              "properties" : {
-                  "englishName" : "Wang Wenjie",
-                  "hasImage" : false,
-                  "keyNo" : "pf612030c32ebfe22c323c59bcea8454",
-                  "name" : "王文杰",
-                  "role" : "Director"
-              }
-          },
-          {
-              "id" : "23428715",
-              "labels" : [
-                  "Company"
-              ],
-              "properties" : {
-                  "econKind" : "有限责任公司（法人独资）",
-                  "englishName" : "Jiangsu Textile Group Co., Ltd.",
-                  "hasImage" : true,
-                  "keyNo" : "62eea0765d45f8be7b742aad0fd5f703",
-                  "name" : "江苏省纺织集团有限公司",
-                  "registCapi" : "30000.000",
-                  "status" : "working"
-              }
-          },
-          {
-              "id" : "35928893",
-              "labels" : [
-                  "Company"
-              ],
-              "properties" : {
-                  "econKind" : "其他有限责任公司",
-                  "englishName" : "Chengdu New Ding Chemical Technology Co., Ltd.",
-                  "hasImage" : false,
-                  "keyNo" : "96efacfcc678d14cfef2dda44ca28700",
-                  "name" : "成都新增鼎化工技术有限公司",
-                  "registCapi" : "1000.000",
-                  "status" : "surviving"
-              }
-          },
-          {
-              "id" : "22762107",
-              "labels" : [
-                  "Company"
-              ],
-              "properties" : {
-                  "econKind" : "有限合伙企业",
-                  "englishName" : "Shanghai Linyuan Corporate Management Partnership (Limited Partnership)",
-                  "hasImage" : false,
-                  "keyNo" : "601c1bf5d8ce6586545a2beea7601a3a",
-                  "name" : "上海霖珪企业管理合伙企业(有限合伙)",
-                  "registCapi" : "0.000",
-                  "status" : "surviving"
-              }
-          },
-          {
-              "id" : "49687512",
-              "labels" : [
-                  "Company"
-              ],
-              "properties" : {
-                  "econKind" : "有限责任公司（自然人投资或控股）",
-                  "englishName" : "Shanghai New Ding Network Technology Co., Ltd.",
-                  "hasImage" : false,
-                  "keyNo" : "d03a2dcff92917941ff2c0379c8533aa",
-                  "name" : "上海新增鼎网络技术有限公司",
-                  "registCapi" : "505.000",
-                  "status" : "surviving"
-              }
-          },
-          {
-              "id" : "114649571",
-              "labels" : [
-                  "Person"
-              ],
-              "properties" : {
-                  "englishName" : "Liu Xiaoqing",
-                  "hasImage" : false,
-                  "keyNo" : "p9fe1e56daf9b22199f01ef442814753",
-                  "name" : "刘晓庆",
-                  "role" : "Supervisor"
-              }
-          },
-          {
-              "id" : "130622709",
-              "labels" : [
-                  "Person"
-              ],
-              "properties" : {
-                  "englishName" : "Wu Yan",
-                  "hasImage" : false,
-                  "keyNo" : "pd20753b708f37a8166c4e9be866886f",
-                  "name" : "吴艳",
-                  "role" : "Supervisor"
-              }
-          },
-          {
-              "id" : "14634904",
-              "labels" : [
-                  "Company"
-              ],
-              "properties" : {
-                  "econKind" : "有限责任公司(自然人投资或控股)",
-                  "englishName" : "Bennaught Energy Chemical Co., Ltd.",
-                  "hasImage" : false,
-                  "keyNo" : "3dafdc2d1cbda614ad30fb5bfcdcb4f8",
-                  "name" : "奔诺能源化工有限公司",
-                  "registCapi" : "5000.000",
-                  "status" : "surviving"
-              }
-          },
-          {
-              "id" : "43081155",
-              "labels" : [
-                  "Company"
-              ],
-              "properties" : {
-                  "econKind" : "有限责任公司（中外合资）",
-                  "englishName" : "New Idor Information Technology (Shanghai) Co., Ltd.",
-                  "hasImage" : false,
-                  "keyNo" : "b4b52c6c825f376185f3a8e44530e042",
-                  "name" : "新熠物信息科技(上海)有限公司",
-                  "registCapi" : "500.000",
-                  "status" : "surviving"
-              }
-          },
-          {
-              "id" : "1644365",
-              "labels" : [
-                  "Company"
-              ],
-              "properties" : {
-                  "econKind" : "股份有限公司(非上市、自然人投资或控股)",
-                  "englishName" : "Zhejiang Qiangyuan Investment Co., Ltd.",
-                  "hasImage" : true,
-                  "keyNo" : "06fb53e527cd7085de74d8177c8a3e83",
-                  "name" : "浙江前程投资股份有限公司",
-                  "registCapi" : "25100.000",
-                  "status" : "surviving"
-              }
-          },
-          {
-              "id" : "18474062",
-              "labels" : [
-                  "Company"
-              ],
-              "properties" : {
-                  "econKind" : "有限责任公司（自然人投资或控股的法人独资）",
-                  "englishName" : "Zhejiang Jiaye Investment Group Co., Ltd.",
-                  "hasImage" : false,
-                  "keyNo" : "4ddcc1b76a7db6b3fc708c951058d9fe",
-                  "name" : "浙江嘉冶投资集团有限公司",
-                  "registCapi" : "5000.000",
-                  "status" : "surviving"
-              }
-          },
-          {
-              "id" : "77435391",
-              "labels" : [
-                  "Person"
-              ],
-              "properties" : {
-                  "englishName" : "Wang Yiben",
-                  "hasImage" : false,
-                  "keyNo" : "p2b693ca9fded7c0cd459deeae314dd6",
-                  "name" : "王祎本",
-                  "role" : "Natural person shareholders"
-              }
-          },
-          {
-              "id" : "69296452",
-              "labels" : [
-                  "Person"
-              ],
-              "properties" : {
-                  "englishName" : "Zhang Renle",
-                  "hasImage" : false,
-                  "keyNo" : "p1204ba89d8c720f8e49ab3d496f68c2",
-                  "name" : "张仁乐",
-                  "role" : "Chairman of the Supervisory Board"
-              }
-          },
-          {
-              "id" : "18862200",
-              "labels" : [
-                  "Company"
-              ],
-              "properties" : {
-                  "econKind" : "有限责任公司（非自然人投资或控股的法人独资）",
-                  "englishName" : "Ningbo Koku International Trade Co., Ltd.",
-                  "hasImage" : false,
-                  "keyNo" : "4f81650fcb84386ab1063de19f267faf",
-                  "name" : "宁波科固国际贸易有限公司",
-                  "registCapi" : "1000.000",
-                  "status" : "surviving"
-              }
-          },
-          {
-              "id" : "113253804",
-              "labels" : [
-                  "Person"
-              ],
-              "properties" : {
-                  "englishName" : "Zhao Li-Bin",
-                  "hasImage" : false,
-                  "keyNo" : "p9b80945acfca12f1cdc5e6ca11e4940",
-                  "name" : "赵力宾",
-                  "role" : "Director"
-              }
-          },
-          {
-              "id" : "16192923",
-              "labels" : [
-                  "Company"
-              ],
-              "properties" : {
-                  "econKind" : "有限责任公司（自然人投资或控股的法人独资）",
-                  "englishName" : "Ningbo Cheng Energy Co., Ltd.",
-                  "hasImage" : false,
-                  "keyNo" : "44403b62b3491803ac97e77dbbcee603",
-                  "name" : "宁波前程能源有限公司",
-                  "registCapi" : "6000.000",
-                  "status" : "surviving"
-              }
-          },
-          {
-              "id" : "4012368",
-              "labels" : [
-                  "Company"
-              ],
-              "properties" : {
-                  "econKind" : "其他有限责任公司",
-                  "englishName" : "Zhejiang Jinsheng Tang Chemical Co., Ltd.",
-                  "hasImage" : false,
-                  "keyNo" : "10e71f18661b0359e7b92966b1960706",
-                  "name" : "浙江金色盛唐化工有限公司",
-                  "registCapi" : "725.000",
-                  "status" : "surviving"
-              }
-          },
-          {
-              "id" : "64909995",
-              "labels" : [
-                  "Person"
-              ],
-              "properties" : {
-                  "englishName" : "Jian Dynasty",
-                  "hasImage" : false,
-                  "keyNo" : "p04551ded7fbe8308d3798f3dcf6877d",
-                  "name" : "王剑朝",
-                  "role" : "Director"
-              }
-          },
-          {
-              "id" : "137701706",
-              "labels" : [
-                  "Person"
-              ],
-              "properties" : {
-                  "englishName" : "Gu Kungen",
-                  "hasImage" : false,
-                  "keyNo" : "pe84c7530c49f49949f85ff070b6c5d6",
-                  "name" : "顾昆根",
-                  "role" : "Chairman of the Supervisory Board"
-              }
-          },
-          {
-              "id" : "56369887",
-              "labels" : [
-                  "Company"
-              ],
-              "properties" : {
-                  "econKind" : "其他有限责任公司",
-                  "englishName" : "Zhejiang Jiaye Asset Management Co., Ltd.",
-                  "hasImage" : false,
-                  "keyNo" : "ec1171099da9a2fdc8111d75dc1a5eaa",
-                  "name" : "浙江嘉冶资产管理有限公司",
-                  "registCapi" : "25000.000",
-                  "status" : "surviving"
-              }
-          },
-          {
-              "id" : "42796297",
-              "labels" : [
-                  "Company"
-              ],
-              "properties" : {
-                  "econKind" : "有限责任公司（自然人投资或控股的法人独资）",
-                  "englishName" : "Shanghai Shuoran International Trade Co., Ltd.",
-                  "hasImage" : false,
-                  "keyNo" : "b385ce0b7c5d7d6eb9be00ad0d7897d4",
-                  "name" : "上海硕冉国际贸易有限公司",
-                  "registCapi" : "100.000",
-                  "status" : "surviving"
-              }
-          },
-          {
-              "id" : "3219383",
-              "labels" : [
-                  "Company"
-              ],
-              "properties" : {
-                  "econKind" : "有限责任公司（自然人投资或控股）",
-                  "englishName" : "Shanghai New Ding Asset Management Co., Ltd.",
-                  "hasImage" : false,
-                  "keyNo" : "0d954d23c9877ae6b37b3e05c948537b",
-                  "name" : "上海新增鼎资产管理有限公司",
-                  "registCapi" : "17000.000",
-                  "status" : "surviving"
-              }
-          },
-          {
-              "id" : "30969439",
-              "labels" : [
-                  "Company"
-              ],
-              "properties" : {
-                  "econKind" : "其他股份有限公司(非上市)",
-                  "englishName" : "Zhejiang Daicang Information Technology Co., Ltd.",
-                  "hasImage" : true,
-                  "keyNo" : "82493a6f1a9bacf6f719dd4db086dcaa",
-                  "name" : "浙江大仓信息科技股份有限公司",
-                  "registCapi" : "3000.000",
-                  "status" : "surviving"
-              }
-          },
-          {
-              "id" : "45685555",
-              "labels" : [
-                  "Company"
-              ],
-              "properties" : {
-                  "econKind" : "有限责任公司（自然人投资或控股的法人独资）",
-                  "englishName" : "Ningbo Garu Information Technology Co., Ltd.",
-                  "hasImage" : false,
-                  "keyNo" : "bf8c3d9fcd94be965b2d85049cb68ba9",
-                  "name" : "宁波加麓信息科技有限公司",
-                  "registCapi" : "200.000",
-                  "status" : "surviving"
-              }
-          },
-          {
-              "id" : "59597831",
-              "labels" : [
-                  "Company"
-              ],
-              "properties" : {
-                  "econKind" : "有限责任公司（自然人投资或控股）",
-                  "englishName" : "Kiwi Resources Holdings Limited",
-                  "hasImage" : false,
-                  "keyNo" : "f9814356bbd838360e8eb5dbf77a6011",
-                  "name" : "弈慧资源控股有限公司",
-                  "registCapi" : "15000.000",
-                  "status" : "surviving"
-              }
-          },
-          {
-              "id" : "87600297",
-              "labels" : [
-                  "Person"
-              ],
-              "properties" : {
-                  "englishName" : "Fang Min",
-                  "hasImage" : false,
-                  "keyNo" : "p4b29ca0bb30cdb967d9ca3d8c356130",
-                  "name" : "方旻",
-                  "role" : "Director"
-              }
-          },
-          {
-              "id" : "30420552",
-              "labels" : [
-                  "Company"
-              ],
-              "properties" : {
-                  "econKind" : "有限责任公司（自然人投资或控股的法人独资）",
-                  "englishName" : "Ningbo and Mei Property Co., Ltd.",
-                  "hasImage" : false,
-                  "keyNo" : "8002c6b2d02146b2b552f71b85166a64",
-                  "name" : "宁波和美置业有限公司",
-                  "registCapi" : "30000.000",
-                  "status" : "surviving"
-              }
-          },
-          {
-              "id" : "95853610",
-              "labels" : [
-                  "Person"
-              ],
-              "properties" : {
-                  "englishName" : "Wang Lingyun",
-                  "hasImage" : false,
-                  "keyNo" : "p64fd9edef1c5850c85a9b78ddd759ef",
-                  "name" : "王凌云",
-                  "role" : "General Manager"
-              }
-          },
-          {
-              "id" : "60658751",
-              "labels" : [
-                  "Company"
-              ],
-              "properties" : {
-                  "econKind" : "有限责任公司(自然人投资或控股)",
-                  "englishName" : "Zhejiang Hemei Investment Co., Ltd.",
-                  "hasImage" : false,
-                  "keyNo" : "fdfc20944cb0c0b2726380f9b1a581ba",
-                  "name" : "浙江和美投资有限公司",
-                  "registCapi" : "2590.000",
-                  "status" : "surviving"
-              }
-          },
-          {
-              "id" : "42226467",
-              "labels" : [
-                  "Company"
-              ],
-              "properties" : {
-                  "econKind" : "有限责任公司（自然人投资或控股的法人独资）",
-                  "englishName" : "Ningbo Cimei International Trade Co., Ltd.",
-                  "hasImage" : false,
-                  "keyNo" : "b1240aae8a116a4449c9d89f9cfbffda",
-                  "name" : "宁波慈美国际贸易有限公司",
-                  "registCapi" : "3500.000",
-                  "status" : "surviving"
-              }
-          },
-          {
-              "id" : "874405",
-              "labels" : [
-                  "Company"
-              ],
-              "properties" : {
-                  "econKind" : "有限责任公司（法人独资）",
-                  "englishName" : "Jiangsu Sohao Hong Rui Import & Export Co., Ltd.",
-                  "hasImage" : false,
-                  "keyNo" : "03b50225985a79d9a37fb49517ff61bd",
-                  "name" : "江苏苏豪泓瑞进出口有限公司",
-                  "registCapi" : "2000.000",
-                  "status" : "working"
-              }
-          },
-          {
-              "id" : "138434036",
-              "labels" : [
-                  "Person"
-              ],
-              "properties" : {
-                  "englishName" : "King Boat",
-                  "hasImage" : false,
-                  "keyNo" : "pea9a946da6c4d4e5ef5bc4116fee992",
-                  "name" : "王艇",
-                  "role" : "Supervisor"
-              }
-          },
-          {
-              "id" : "130352752",
-              "labels" : [
-                  "Person"
-              ],
-              "properties" : {
-                  "englishName" : "Zhang Fa-song",
-                  "hasImage" : false,
-                  "keyNo" : "pd12deadee23044051c7894f1aa7a45c",
-                  "name" : "张发松",
-                  "role" : ""
-              }
-          },
-          {
-              "id" : "27736592",
-              "labels" : [
-                  "Company"
-              ],
-              "properties" : {
-                  "econKind" : "有限责任公司（自然人投资或控股）",
-                  "englishName" : "Shanghai Xinyun Investment Management Co., Ltd.",
-                  "hasImage" : false,
-                  "keyNo" : "74ea685ca5801934ad5eaea4074edd6a",
-                  "name" : "上海新蕴投资管理有限公司",
-                  "registCapi" : "1000.000",
-                  "status" : "surviving"
-              }
-          },
-          {
-              "id" : "17678515",
-              "labels" : [
-                  "Company"
-              ],
-              "properties" : {
-                  "econKind" : "有限责任公司(自然人投资或控股)",
-                  "englishName" : "Ningbo Hemei Chemical Research Institute Co., Ltd.",
-                  "hasImage" : false,
-                  "keyNo" : "4a7fff7ffef5f1cbe6875bf6a24a726e",
-                  "name" : "宁波和美化工研究院有限公司",
-                  "registCapi" : "1800.000",
-                  "status" : "surviving"
-              }
-          },
-          {
-              "id" : "58917442",
-              "labels" : [
-                  "Company"
-              ],
-              "properties" : {
-                  "econKind" : "有限责任公司(国有独资)",
-                  "englishName" : "Jiangsu Soho Holding Group Co., Ltd.",
-                  "hasImage" : true,
-                  "keyNo" : "f6ab5c74b600d5bc8e6643d0542e576d",
-                  "name" : "江苏省苏豪控股集团有限公司",
-                  "registCapi" : "200000.000",
-                  "status" : "working"
-              }
-          },
-          {
-              "id" : "92456538",
-              "labels" : [
-                  "Person"
-              ],
-              "properties" : {
-                  "englishName" : "Fan Xiaotao",
-                  "hasImage" : false,
-                  "keyNo" : "p5a595dbf422e0ccae92a887c4202ed7",
-                  "name" : "范晓涛",
-                  "role" : "Supervisor"
-              }
-          },
-          {
-              "id" : "9894729",
-              "labels" : [
-                  "Company"
-              ],
-              "properties" : {
-                  "econKind" : "有限责任公司(自然人投资或控股)",
-                  "englishName" : "Ningbo Zhihang Investment Consulting Co., Ltd.",
-                  "hasImage" : false,
-                  "keyNo" : "299dec32c7114f14fecc4b368acc6820",
-                  "name" : "宁波知行投资咨询有限公司",
-                  "registCapi" : "150.000",
-                  "status" : "surviving"
-              }
-          },
-          {
-              "id" : "151117034",
-              "labels" : [
-                  "Person"
-              ],
-              "properties" : {
-                  "englishName" : "Ma Hongwei",
-                  "hasImage" : false,
-                  "keyNo" : "pr51e55755d7cf27eeea8b90f6c91316",
-                  "name" : "马宏伟",
-                  "role" : "Director"
-              }
-          },
-          {
-              "id" : "105713087",
-              "labels" : [
-                  "Person"
-              ],
-              "properties" : {
-                  "englishName" : "Zhang Jianbo",
-                  "hasImage" : false,
-                  "keyNo" : "p83dcdc2f5bb6739f3d618587dd474ed",
-                  "name" : "张剑波",
-                  "role" : "Natural person shareholders"
-              }
-          }
-      ],
-      relationships : [
-          {
-              "endNode" : "1644365",
-              "id" : "88824139",
-              "properties" : {
-                  "role" : "Natural person shareholders",
-                  "shouldCapi" : 40,
-                  "stockPercent" : 0.159400
-              },
-              "startNode" : "107220502",
-              "type" : "INVEST"
-          },
-          {
-              "endNode" : "1644365",
-              "id" : "271270969",
-              "properties" : {
-                  "role" : "Manager"
-              },
-              "startNode" : "93242263",
-              "type" : "EMPLOY"
-          },
-          {
-              "endNode" : "874405",
-              "id" : "223237466",
-              "properties" : {
-                  "role" : "Chairman of the Board of Directors"
-              },
-              "startNode" : "151117034",
-              "type" : "EMPLOY"
-          },
-          {
-              "endNode" : "874405",
-              "id" : "223237464",
-              "properties" : {
-                  "role" : "Supervisor"
-              },
-              "startNode" : "69296452",
-              "type" : "EMPLOY"
-          },
-          {
-              "endNode" : "1644365",
-              "id" : "271270972",
-              "properties" : {
-                  "role" : "Director"
-              },
-              "startNode" : "64909995",
-              "type" : "EMPLOY"
-          },
-          {
-              "endNode" : "35928893",
-              "id" : "2206779",
-              "properties" : {
-                  "role" : "Corporate legal entity",
-                  "shouldCapi" : 650,
-                  "stockPercent" : 65
-              },
-              "startNode" : "56062039",
-              "type" : "INVEST"
-          },
-          {
-              "endNode" : "35928893",
-              "id" : "2206780",
-              "properties" : {
-                  "role" : "Corporate legal entity",
-                  "shouldCapi" : 350,
-                  "stockPercent" : 35
-              },
-              "startNode" : "14602311",
-              "type" : "INVEST"
-          },
-          {
-              "endNode" : "1644365",
-              "id" : "88824171",
-              "properties" : {
-                  "role" : "Natural person shareholders",
-                  "shouldCapi" : 30,
-                  "stockPercent" : 0.119500
-              },
-              "startNode" : "130622709",
-              "type" : "INVEST"
-          },
-          {
-              "endNode" : "45685555",
-              "id" : "254170887",
-              "properties" : {
-                  "role" : "Supervisor"
-              },
-              "startNode" : "72442991",
-              "type" : "EMPLOY"
-          },
-          {
-              "endNode" : "45685555",
-              "id" : "254170883",
-              "properties" : {
-                  "role" : "Executive Director and Managing Director"
-              },
-              "startNode" : "138434036",
-              "type" : "EMPLOY"
-          },
-          {
-              "endNode" : "4012368",
-              "id" : "5771391",
-              "properties" : {
-                  "role" : "Corporate legal entity",
-                  "shouldCapi" : 543.750000,
-                  "stockPercent" : 75
-              },
-              "startNode" : "46162667",
-              "type" : "INVEST"
-          },
-          {
-              "endNode" : "56062039",
-              "id" : "267185090",
-              "properties" : {
-                  "role" : "Supervisor"
-              },
-              "startNode" : "110515288",
-              "type" : "EMPLOY"
-          },
-          {
-              "endNode" : "56062039",
-              "id" : "267185091",
-              "properties" : {
-                  "role" : "Chairman and General Manager"
-              },
-              "startNode" : "113253804",
-              "type" : "EMPLOY"
-          },
-          {
-              "endNode" : "58917442",
-              "id" : "269786148",
-              "properties" : {
-                  "role" : "Employee Supervisor"
-              },
-              "startNode" : "137701706",
-              "type" : "EMPLOY"
-          },
-          {
-              "endNode" : "34606131",
-              "id" : "3594358",
-              "properties" : {
-                  "role" : "Corporate shareholders",
-                  "shouldCapi" : 2000,
-                  "stockPercent" : 40
-              },
-              "startNode" : "46162667",
-              "type" : "INVEST"
-          },
-          {
-              "endNode" : "1644365",
-              "id" : "88824074",
-              "properties" : {
-                  "role" : "Natural person shareholders",
-                  "shouldCapi" : 90,
-                  "stockPercent" : 0.358600
-              },
-              "startNode" : "128092587",
-              "type" : "INVEST"
-          },
-          {
-              "endNode" : "34606131",
-              "id" : "3594359",
-              "properties" : {
-                  "role" : "Corporate shareholders",
-                  "shouldCapi" : 1500,
-                  "stockPercent" : 30
-              },
-              "startNode" : "40166986",
-              "type" : "INVEST"
-          },
-          {
-              "endNode" : "45685555",
-              "id" : "140966948",
-              "properties" : {
-                  "role" : ""
-              },
-              "startNode" : "138434036",
-              "type" : "LEGAL"
-          },
-          {
-              "endNode" : "50469852",
-              "id" : "5710873",
-              "properties" : {
-                  "role" : "Corporate legal entity",
-                  "shouldCapi" : 10000,
-                  "stockPercent" : 100
-              },
-              "startNode" : "46162667",
-              "type" : "INVEST"
-          },
-          {
-              "endNode" : "34606131",
-              "id" : "3594360",
-              "properties" : {
-                  "role" : "Corporate shareholders",
-                  "shouldCapi" : 1500,
-                  "stockPercent" : 30
-              },
-              "startNode" : "24771439",
-              "type" : "INVEST"
-          },
-          {
-              "endNode" : "46162667",
-              "id" : "161598961",
-              "properties" : {
-                  "role" : "Chairman of the Board of Directors"
-              },
-              "startNode" : "113253804",
-              "type" : "EMPLOY"
-          },
-          {
-              "endNode" : "46162667",
-              "id" : "161598962",
-              "properties" : {
-                  "role" : "Director"
-              },
-              "startNode" : "142076283",
-              "type" : "EMPLOY"
-          },
-          {
-              "endNode" : "1644365",
-              "id" : "88824087",
-              "properties" : {
-                  "role" : "Natural person shareholders",
-                  "shouldCapi" : 80,
-                  "stockPercent" : 0.318700
-              },
-              "startNode" : "77435391",
-              "type" : "INVEST"
-          },
-          {
-              "endNode" : "30420552",
-              "id" : "101897806",
-              "properties" : {
-                  "role" : ""
-              },
-              "startNode" : "105713087",
-              "type" : "LEGAL"
-          },
-          {
-              "endNode" : "56302401",
-              "id" : "114965176",
-              "properties" : {
-                  "role" : ""
-              },
-              "startNode" : "110515288",
-              "type" : "LEGAL"
-          },
-          {
-              "endNode" : "44484097",
-              "id" : "104983075",
-              "properties" : {
-                  "role" : ""
-              },
-              "startNode" : "130352752",
-              "type" : "LEGAL"
-          },
-          {
-              "endNode" : "46162667",
-              "id" : "96259540",
-              "properties" : {
-                  "role" : ""
-              },
-              "startNode" : "113253804",
-              "type" : "LEGAL"
-          },
-          {
-              "endNode" : "1644365",
-              "id" : "271270979",
-              "properties" : {
-                  "role" : "Director"
-              },
-              "startNode" : "93242263",
-              "type" : "EMPLOY"
-          },
-          {
-              "endNode" : "1644365",
-              "id" : "271270978",
-              "properties" : {
-                  "role" : "Director"
-              },
-              "startNode" : "114649571",
-              "type" : "EMPLOY"
-          },
-          {
-              "endNode" : "1644365",
-              "id" : "271270977",
-              "properties" : {
-                  "role" : "Director"
-              },
-              "startNode" : "97920367",
-              "type" : "EMPLOY"
-          },
-          {
-              "endNode" : "17678515",
-              "id" : "3941457",
-              "properties" : {
-                  "role" : "Corporate legal entity",
-                  "shouldCapi" : 1538.390000,
-                  "stockPercent" : 85.470000
-              },
-              "startNode" : "1644365",
-              "type" : "INVEST"
-          },
-          {
-              "endNode" : "1644365",
-              "id" : "271270981",
-              "properties" : {
-                  "role" : "Chairman of the Board of Directors"
-              },
-              "startNode" : "113253804",
-              "type" : "EMPLOY"
-          },
-          {
-              "endNode" : "1644365",
-              "id" : "271270980",
-              "properties" : {
-                  "role" : "Supervisor"
-              },
-              "startNode" : "92456538",
-              "type" : "EMPLOY"
-          },
-          {
-              "endNode" : "22762107",
-              "id" : "5167153",
-              "properties" : {
-                  "role" : "Corporate legal entity",
-                  "shouldCapi" : 0,
-                  "stockPercent" : 0
-              },
-              "startNode" : "59597831",
-              "type" : "INVEST"
-          },
-          {
-              "endNode" : "18389915",
-              "id" : "211383323",
-              "properties" : {
-                  "role" : "Executive Director"
-              },
-              "startNode" : "87600297",
-              "type" : "EMPLOY"
-          },
-          {
-              "endNode" : "59597831",
-              "id" : "221894070",
-              "properties" : {
-                  "role" : "Executive Director"
-              },
-              "startNode" : "64909995",
-              "type" : "EMPLOY"
-          },
-          {
-              "endNode" : "60658751",
-              "id" : "221143477",
-              "properties" : {
-                  "role" : "Director"
-              },
-              "startNode" : "142076283",
-              "type" : "EMPLOY"
-          },
-          {
-              "endNode" : "60658751",
-              "id" : "221143472",
-              "properties" : {
-                  "role" : "Supervisor"
-              },
-              "startNode" : "95853610",
-              "type" : "EMPLOY"
-          },
-          {
-              "endNode" : "60658751",
-              "id" : "221143473",
-              "properties" : {
-                  "role" : "Director"
-              },
-              "startNode" : "87600297",
-              "type" : "EMPLOY"
-          },
-          {
-              "endNode" : "874405",
-              "id" : "126040871",
-              "properties" : {
-                  "role" : ""
-              },
-              "startNode" : "151117034",
-              "type" : "LEGAL"
-          },
-          {
-              "endNode" : "34142761",
-              "id" : "137191556",
-              "properties" : {
-                  "role" : ""
-              },
-              "startNode" : "113253804",
-              "type" : "LEGAL"
-          },
-          {
-              "endNode" : "25222030",
-              "id" : "1540269",
-              "properties" : {
-                  "role" : "Corporate legal entity",
-                  "shouldCapi" : 11250,
-                  "stockPercent" : 45
-              },
-              "startNode" : "46162667",
-              "type" : "INVEST"
-          },
-          {
-              "endNode" : "34142761",
-              "id" : "71941249",
-              "properties" : {
-                  "role" : "Natural person shareholders",
-                  "shouldCapi" : 10,
-                  "stockPercent" : 100
-              },
-              "startNode" : "113253804",
-              "type" : "INVEST"
-          },
-          {
-              "endNode" : "4012368",
-              "id" : "5771392",
-              "properties" : {
-                  "role" : "Corporate legal entity",
-                  "shouldCapi" : 181.250000,
-                  "stockPercent" : 25
-              },
-              "startNode" : "18862200",
-              "type" : "INVEST"
-          },
-          {
-              "endNode" : "18862200",
-              "id" : "266018561",
-              "properties" : {
-                  "role" : "Supervisor"
-              },
-              "startNode" : "72442991",
-              "type" : "EMPLOY"
-          },
-          {
-              "endNode" : "18862200",
-              "id" : "266018560",
-              "properties" : {
-                  "role" : "Executive Director"
-              },
-              "startNode" : "128092587",
-              "type" : "EMPLOY"
-          },
-          {
-              "endNode" : "14634904",
-              "id" : "98716988",
-              "properties" : {
-                  "role" : ""
-              },
-              "startNode" : "95853610",
-              "type" : "LEGAL"
-          },
-          {
-              "endNode" : "1644365",
-              "id" : "88824251",
-              "properties" : {
-                  "role" : "Natural person shareholders",
-                  "shouldCapi" : 20,
-                  "stockPercent" : 0.079700
-              },
-              "startNode" : "95853610",
-              "type" : "INVEST"
-          },
-          {
-              "endNode" : "16192923",
-              "id" : "110231138",
-              "properties" : {
-                  "role" : ""
-              },
-              "startNode" : "93242263",
-              "type" : "LEGAL"
-          },
-          {
-              "endNode" : "18474062",
-              "id" : "114463701",
-              "properties" : {
-                  "role" : ""
-              },
-              "startNode" : "93242263",
-              "type" : "LEGAL"
-          },
-          {
-              "endNode" : "57243080",
-              "id" : "141740409",
-              "properties" : {
-                  "role" : ""
-              },
-              "startNode" : "93242263",
-              "type" : "LEGAL"
-          },
-          {
-              "endNode" : "874405",
-              "id" : "4148523",
-              "properties" : {
-                  "role" : "Corporate legal entity",
-                  "shouldCapi" : 2000,
-                  "stockPercent" : 100
-              },
-              "startNode" : "44484097",
-              "type" : "INVEST"
-          },
-          {
-              "endNode" : "18389915",
-              "id" : "120320574",
-              "properties" : {
-                  "role" : ""
-              },
-              "startNode" : "87600297",
-              "type" : "LEGAL"
-          },
-          {
-              "endNode" : "49687512",
-              "id" : "100734746",
-              "properties" : {
-                  "role" : ""
-              },
-              "startNode" : "113253804",
-              "type" : "LEGAL"
-          },
-          {
-              "endNode" : "23428715",
-              "id" : "97122519",
-              "properties" : {
-                  "role" : ""
-              },
-              "startNode" : "130352752",
-              "type" : "LEGAL"
-          },
-          {
-              "endNode" : "30969439",
-              "id" : "172384103",
-              "properties" : {
-                  "role" : "Supervisor"
-              },
-              "startNode" : "130622709",
-              "type" : "EMPLOY"
-          },
-          {
-              "endNode" : "18862200",
-              "id" : "266018559",
-              "properties" : {
-                  "role" : "General Manager"
-              },
-              "startNode" : "128092587",
-              "type" : "EMPLOY"
-          },
-          {
-              "endNode" : "1644365",
-              "id" : "149218755",
-              "properties" : {
-                  "role" : ""
-              },
-              "startNode" : "113253804",
-              "type" : "LEGAL"
-          },
-          {
-              "endNode" : "46162667",
-              "id" : "622909",
-              "properties" : {
-                  "role" : "Corporate legal entity",
-                  "shouldCapi" : 11845.160000,
-                  "stockPercent" : 54.840000
-              },
-              "startNode" : "1644365",
-              "type" : "INVEST"
-          },
-          {
-              "endNode" : "46162667",
-              "id" : "622911",
-              "properties" : {
-                  "role" : "Corporate legal entity",
-                  "shouldCapi" : 1836.950000,
-                  "stockPercent" : 8.500000
-              },
-              "startNode" : "9894729",
-              "type" : "INVEST"
-          },
-          {
-              "endNode" : "46162667",
-              "id" : "622910",
-              "properties" : {
-                  "role" : "Corporate legal entity",
-                  "shouldCapi" : 7917.890000,
-                  "stockPercent" : 36.660000
-              },
-              "startNode" : "60658751",
-              "type" : "INVEST"
-          },
-          {
-              "endNode" : "18389915",
-              "id" : "3472648",
-              "properties" : {
-                  "role" : "Corporate legal entity",
-                  "shouldCapi" : 900,
-                  "stockPercent" : 90
-              },
-              "startNode" : "50469852",
-              "type" : "INVEST"
-          },
-          {
-              "endNode" : "18389915",
-              "id" : "3472649",
-              "properties" : {
-                  "role" : "Corporate legal entity",
-                  "shouldCapi" : 100,
-                  "stockPercent" : 10
-              },
-              "startNode" : "18862200",
-              "type" : "INVEST"
-          },
-          {
-              "endNode" : "56302401",
-              "id" : "40725294",
-              "properties" : {
-                  "role" : "Natural person shareholders",
-                  "shouldCapi" : 2.500000,
-                  "stockPercent" : 25
-              },
-              "startNode" : "110515288",
-              "type" : "INVEST"
-          },
-          {
-              "endNode" : "23428715",
-              "id" : "163388665",
-              "properties" : {
-                  "role" : "Chairman of the Supervisory Board"
-              },
-              "startNode" : "137701706",
-              "type" : "EMPLOY"
-          },
-          {
-              "endNode" : "23428715",
-              "id" : "163388659",
-              "properties" : {
-                  "role" : "Chairman of the Board of Directors"
-              },
-              "startNode" : "130352752",
-              "type" : "EMPLOY"
-          },
-          {
-              "endNode" : "54516604",
-              "id" : "5910796",
-              "properties" : {
-                  "role" : "Corporate legal entity",
-                  "shouldCapi" : 1216.670000,
-                  "stockPercent" : 73
-              },
-              "startNode" : "49687512",
-              "type" : "INVEST"
-          },
-          {
-              "endNode" : "54516604",
-              "id" : "5910797",
-              "properties" : {
-                  "role" : "Corporate legal entity",
-                  "shouldCapi" : 450,
-                  "stockPercent" : 27
-              },
-              "startNode" : "56302401",
-              "type" : "INVEST"
-          },
-          {
-              "endNode" : "30969439",
-              "id" : "172384036",
-              "properties" : {
-                  "role" : "Director"
-              },
-              "startNode" : "93242263",
-              "type" : "EMPLOY"
-          },
-          {
-              "endNode" : "30969439",
-              "id" : "172384035",
-              "properties" : {
-                  "role" : "Director"
-              },
-              "startNode" : "92456538",
-              "type" : "EMPLOY"
-          },
-          {
-              "endNode" : "35928893",
-              "id" : "109621236",
-              "properties" : {
-                  "role" : ""
-              },
-              "startNode" : "110515288",
-              "type" : "LEGAL"
-          },
-          {
-              "endNode" : "57581013",
-              "id" : "6064604",
-              "properties" : {
-                  "role" : "State-owned enterprises",
-                  "shouldCapi" : 10000,
-                  "stockPercent" : 100
-              },
-              "startNode" : "58917442",
-              "type" : "INVEST"
-          },
-          {
-              "endNode" : "36029553",
-              "id" : "160788501",
-              "properties" : {
-                  "role" : "General Manager"
-              },
-              "startNode" : "105713087",
-              "type" : "EMPLOY"
-          },
-          {
-              "endNode" : "36029553",
-              "id" : "160788497",
-              "properties" : {
-                  "role" : "Chairman of the Supervisory Board"
-              },
-              "startNode" : "134660183",
-              "type" : "EMPLOY"
-          },
-          {
-              "endNode" : "36029553",
-              "id" : "160788499",
-              "properties" : {
-                  "role" : "Chairman of the Board of Directors"
-              },
-              "startNode" : "93242263",
-              "type" : "EMPLOY"
-          },
-          {
-              "endNode" : "36029553",
-              "id" : "160788505",
-              "properties" : {
-                  "role" : "Director"
-              },
-              "startNode" : "87600297",
-              "type" : "EMPLOY"
-          },
-          {
-              "endNode" : "36029553",
-              "id" : "160788485",
-              "properties" : {
-                  "role" : "Director"
-              },
-              "startNode" : "105713087",
-              "type" : "EMPLOY"
-          },
-          {
-              "endNode" : "1644365",
-              "id" : "88824026",
-              "properties" : {
-                  "role" : "Natural person shareholders",
-                  "shouldCapi" : 190,
-                  "stockPercent" : 0.757000
-              },
-              "startNode" : "87600297",
-              "type" : "INVEST"
-          },
-          {
-              "endNode" : "36029553",
-              "id" : "160788484",
-              "properties" : {
-                  "role" : "Supervisor"
-              },
-              "startNode" : "92456538",
-              "type" : "EMPLOY"
-          },
-          {
-              "endNode" : "42226467",
-              "id" : "6037963",
-              "properties" : {
-                  "role" : "Corporate legal entity",
-                  "shouldCapi" : 3500,
-                  "stockPercent" : 100
-              },
-              "startNode" : "1644365",
-              "type" : "INVEST"
-          },
-          {
-              "endNode" : "1644365",
-              "id" : "88824018",
-              "properties" : {
-                  "role" : "Natural person shareholders",
-                  "shouldCapi" : 240,
-                  "stockPercent" : 0.956200
-              },
-              "startNode" : "67036074",
-              "type" : "INVEST"
-          },
-          {
-              "endNode" : "9894729",
-              "id" : "112725799",
-              "properties" : {
-                  "role" : ""
-              },
-              "startNode" : "142076283",
-              "type" : "LEGAL"
-          },
-          {
-              "endNode" : "874405",
-              "id" : "223237366",
-              "properties" : {
-                  "role" : "Director and Managing Director"
-              },
-              "startNode" : "133012980",
-              "type" : "EMPLOY"
-          },
-          {
-              "endNode" : "36029553",
-              "id" : "576968",
-              "properties" : {
-                  "role" : "Corporate legal entity",
-                  "shouldCapi" : 1650,
-                  "stockPercent" : 55
-              },
-              "startNode" : "18474062",
-              "type" : "INVEST"
-          },
-          {
-              "endNode" : "57581013",
-              "id" : "142190013",
-              "properties" : {
-                  "role" : ""
-              },
-              "startNode" : "130352752",
-              "type" : "LEGAL"
-          },
-          {
-              "endNode" : "42796297",
-              "id" : "182655781",
-              "properties" : {
-                  "role" : "Executive Director and Managing Director"
-              },
-              "startNode" : "110515288",
-              "type" : "EMPLOY"
-          },
-          {
-              "endNode" : "3219383",
-              "id" : "3983857",
-              "properties" : {
-                  "role" : "Corporate legal entity",
-                  "shouldCapi" : 765,
-                  "stockPercent" : 4.500000
-              },
-              "startNode" : "56302401",
-              "type" : "INVEST"
-          },
-          {
-              "endNode" : "3219383",
-              "id" : "3983855",
-              "properties" : {
-                  "role" : "Corporate legal entity",
-                  "shouldCapi" : 3317,
-                  "stockPercent" : 19.510000
-              },
-              "startNode" : "34142761",
-              "type" : "INVEST"
-          },
-          {
-              "endNode" : "34606131",
-              "id" : "213517660",
-              "properties" : {
-                  "role" : "Chairman of the Board of Directors"
-              },
-              "startNode" : "67036074",
-              "type" : "EMPLOY"
-          },
-          {
-              "endNode" : "27736592",
-              "id" : "6398345",
-              "properties" : {
-                  "role" : "Corporate legal entity",
-                  "shouldCapi" : 550,
-                  "stockPercent" : 55
-              },
-              "startNode" : "42796297",
-              "type" : "INVEST"
-          },
-          {
-              "endNode" : "27736592",
-              "id" : "6398346",
-              "properties" : {
-                  "role" : "Corporate legal entity",
-                  "shouldCapi" : 450,
-                  "stockPercent" : 45
-              },
-              "startNode" : "3219383",
-              "type" : "INVEST"
-          },
-          {
-              "endNode" : "4012368",
-              "id" : "139710910",
-              "properties" : {
-                  "role" : ""
-              },
-              "startNode" : "107220502",
-              "type" : "LEGAL"
-          },
-          {
-              "endNode" : "1644365",
-              "id" : "88823996",
-              "properties" : {
-                  "role" : "Natural person shareholders",
-                  "shouldCapi" : 420,
-                  "stockPercent" : 1.673300
-              },
-              "startNode" : "105713087",
-              "type" : "INVEST"
-          },
-          {
-              "endNode" : "43081155",
-              "id" : "143982956",
-              "properties" : {
-                  "role" : ""
-              },
-              "startNode" : "110515288",
-              "type" : "LEGAL"
-          },
-          {
-              "endNode" : "1644365",
-              "id" : "88823986",
-              "properties" : {
-                  "role" : "Natural person shareholders",
-                  "shouldCapi" : 1710,
-                  "stockPercent" : 6.812700
-              },
-              "startNode" : "142076283",
-              "type" : "INVEST"
-          },
-          {
-              "endNode" : "34606131",
-              "id" : "213517639",
-              "properties" : {
-                  "role" : "Director"
-              },
-              "startNode" : "64909995",
-              "type" : "EMPLOY"
-          },
-          {
-              "endNode" : "60658751",
-              "id" : "54842694",
-              "properties" : {
-                  "role" : "Natural person shareholders",
-                  "shouldCapi" : 30,
-                  "stockPercent" : 1.160000
-              },
-              "startNode" : "107220502",
-              "type" : "INVEST"
-          },
-          {
-              "endNode" : "54516604",
-              "id" : "140892768",
-              "properties" : {
-                  "role" : ""
-              },
-              "startNode" : "110515288",
-              "type" : "LEGAL"
-          },
-          {
-              "endNode" : "24771439",
-              "id" : "379403",
-              "properties" : {
-                  "role" : "Corporate shareholders",
-                  "shouldCapi" : 5000,
-                  "stockPercent" : 50
-              },
-              "startNode" : "22762107",
-              "type" : "INVEST"
-          },
-          {
-              "endNode" : "60658751",
-              "id" : "54842707",
-              "properties" : {
-                  "role" : "Natural person shareholders",
-                  "shouldCapi" : 0,
-                  "stockPercent" : 0.190000
-              },
-              "startNode" : "134660183",
-              "type" : "INVEST"
-          },
-          {
-              "endNode" : "3219383",
-              "id" : "220354360",
-              "properties" : {
-                  "role" : "Chairman and General Manager"
-              },
-              "startNode" : "113253804",
-              "type" : "EMPLOY"
-          },
-          {
-              "endNode" : "60658751",
-              "id" : "4028940",
-              "properties" : {
-                  "role" : "Corporate legal entity",
-                  "shouldCapi" : 650,
-                  "stockPercent" : 25.100000
-              },
-              "startNode" : "1644365",
-              "type" : "INVEST"
-          },
-          {
-              "endNode" : "36029553",
-              "id" : "95869826",
-              "properties" : {
-                  "role" : ""
-              },
-              "startNode" : "93242263",
-              "type" : "LEGAL"
-          },
-          {
-              "endNode" : "60658751",
-              "id" : "4028939",
-              "properties" : {
-                  "role" : "Corporate legal entity",
-                  "shouldCapi" : 1082.500000,
-                  "stockPercent" : 41.800000
-              },
-              "startNode" : "9894729",
-              "type" : "INVEST"
-          },
-          {
-              "endNode" : "17678515",
-              "id" : "219598638",
-              "properties" : {
-                  "role" : "Supervisor"
-              },
-              "startNode" : "134660183",
-              "type" : "EMPLOY"
-          },
-          {
-              "endNode" : "17678515",
-              "id" : "219598639",
-              "properties" : {
-                  "role" : "Director"
-              },
-              "startNode" : "130622709",
-              "type" : "EMPLOY"
-          },
-          {
-              "endNode" : "17678515",
-              "id" : "219598636",
-              "properties" : {
-                  "role" : "Chairman and General Manager"
-              },
-              "startNode" : "105713087",
-              "type" : "EMPLOY"
-          },
-          {
-              "endNode" : "17678515",
-              "id" : "219598637",
-              "properties" : {
-                  "role" : "Director"
-              },
-              "startNode" : "77435391",
-              "type" : "EMPLOY"
-          },
-          {
-              "endNode" : "49687512",
-              "id" : "1153617",
-              "properties" : {
-                  "role" : "Corporate legal entity",
-                  "shouldCapi" : 200,
-                  "stockPercent" : 39.600000
-              },
-              "startNode" : "3219383",
-              "type" : "INVEST"
-          },
-          {
-              "endNode" : "49687512",
-              "id" : "1153618",
-              "properties" : {
-                  "role" : "Corporate legal entity",
-                  "shouldCapi" : 110,
-                  "stockPercent" : 21.780000
-              },
-              "startNode" : "34142761",
-              "type" : "INVEST"
-          },
-          {
-              "endNode" : "49687512",
-              "id" : "1153620",
-              "properties" : {
-                  "role" : "Corporate legal entity",
-                  "shouldCapi" : 50,
-                  "stockPercent" : 9.900000
-              },
-              "startNode" : "56302401",
-              "type" : "INVEST"
-          },
-          {
-              "endNode" : "57243080",
-              "id" : "6011420",
-              "properties" : {
-                  "role" : "Corporate legal entity",
-                  "shouldCapi" : 2000,
-                  "stockPercent" : 100
-              },
-              "startNode" : "1644365",
-              "type" : "INVEST"
-          },
-          {
-              "endNode" : "18474062",
-              "id" : "2780768",
-              "properties" : {
-                  "role" : "Corporate legal entity",
-                  "shouldCapi" : 5000,
-                  "stockPercent" : 100
-              },
-              "startNode" : "1644365",
-              "type" : "INVEST"
-          },
-          {
-              "endNode" : "50469852",
-              "id" : "250523812",
-              "properties" : {
-                  "role" : "Manager"
-              },
-              "startNode" : "87600297",
-              "type" : "EMPLOY"
-          },
-          {
-              "endNode" : "22762107",
-              "id" : "68328030",
-              "properties" : {
-                  "role" : "Natural person shareholders",
-                  "shouldCapi" : 0,
-                  "stockPercent" : 0
-              },
-              "startNode" : "64909995",
-              "type" : "INVEST"
-          },
-          {
-              "endNode" : "50469852",
-              "id" : "250523811",
-              "properties" : {
-                  "role" : "Supervisor"
-              },
-              "startNode" : "67036074",
-              "type" : "EMPLOY"
-          },
-          {
-              "endNode" : "34606131",
-              "id" : "121346413",
-              "properties" : {
-                  "role" : ""
-              },
-              "startNode" : "67036074",
-              "type" : "LEGAL"
-          },
-          {
-              "endNode" : "42796297",
-              "id" : "1829453",
-              "properties" : {
-                  "role" : "Corporate legal entity",
-                  "shouldCapi" : 100,
-                  "stockPercent" : 100
-              },
-              "startNode" : "49687512",
-              "type" : "INVEST"
-          },
-          {
-              "endNode" : "57243080",
-              "id" : "255768916",
-              "properties" : {
-                  "role" : "Supervisor"
-              },
-              "startNode" : "77435391",
-              "type" : "EMPLOY"
-          },
-          {
-              "endNode" : "57243080",
-              "id" : "255768917",
-              "properties" : {
-                  "role" : "Executive Director"
-              },
-              "startNode" : "93242263",
-              "type" : "EMPLOY"
-          },
-          {
-              "endNode" : "23428715",
-              "id" : "725607",
-              "properties" : {
-                  "role" : "State-owned enterprises",
-                  "shouldCapi" : 30000,
-                  "stockPercent" : 100
-              },
-              "startNode" : "58917442",
-              "type" : "INVEST"
-          },
-          {
-              "endNode" : "57243080",
-              "id" : "255768915",
-              "properties" : {
-                  "role" : "Manager"
-              },
-              "startNode" : "93242263",
-              "type" : "EMPLOY"
-          },
-          {
-              "endNode" : "60658751",
-              "id" : "54842676",
-              "properties" : {
-                  "role" : "Natural person shareholders",
-                  "shouldCapi" : 175,
-                  "stockPercent" : 6.760000
-              },
-              "startNode" : "67036074",
-              "type" : "INVEST"
-          },
-          {
-              "endNode" : "50469852",
-              "id" : "250523806",
-              "properties" : {
-                  "role" : "Chairman of the Board of Directors"
-              },
-              "startNode" : "87600297",
-              "type" : "EMPLOY"
-          },
-          {
-              "endNode" : "56369887",
-              "id" : "271660608",
-              "properties" : {
-                  "role" : "Director"
-              },
-              "startNode" : "142076283",
-              "type" : "EMPLOY"
-          },
-          {
-              "endNode" : "60658751",
-              "id" : "54842678",
-              "properties" : {
-                  "role" : "Natural person shareholders",
-                  "shouldCapi" : 105,
-                  "stockPercent" : 4.050000
-              },
-              "startNode" : "128092587",
-              "type" : "INVEST"
-          },
-          {
-              "endNode" : "50469852",
-              "id" : "250523804",
-              "properties" : {
-                  "role" : "Director"
-              },
-              "startNode" : "72442991",
-              "type" : "EMPLOY"
-          },
-          {
-              "endNode" : "60658751",
-              "id" : "54842679",
-              "properties" : {
-                  "role" : "Natural person shareholders",
-                  "shouldCapi" : 95,
-                  "stockPercent" : 3.670000
-              },
-              "startNode" : "87600297",
-              "type" : "INVEST"
-          },
-          {
-              "endNode" : "56369887",
-              "id" : "271660616",
-              "properties" : {
-                  "role" : "Director"
-              },
-              "startNode" : "93242263",
-              "type" : "EMPLOY"
-          },
-          {
-              "endNode" : "56369887",
-              "id" : "271660619",
-              "properties" : {
-                  "role" : "Director"
-              },
-              "startNode" : "105713087",
-              "type" : "EMPLOY"
-          },
-          {
-              "endNode" : "54516604",
-              "id" : "254017956",
-              "properties" : {
-                  "role" : "Chairman of the Board of Directors"
-              },
-              "startNode" : "110515288",
-              "type" : "EMPLOY"
-          },
-          {
-              "endNode" : "14602311",
-              "id" : "51766668",
-              "properties" : {
-                  "role" : "Natural person shareholders",
-                  "shouldCapi" : 95,
-                  "stockPercent" : 95
-              },
-              "startNode" : "97920367",
-              "type" : "INVEST"
-          },
-          {
-              "endNode" : "14634904",
-              "id" : "166686542",
-              "properties" : {
-                  "role" : "Executive Director"
-              },
-              "startNode" : "64909995",
-              "type" : "EMPLOY"
-          },
-          {
-              "endNode" : "17678515",
-              "id" : "124281280",
-              "properties" : {
-                  "role" : ""
-              },
-              "startNode" : "105713087",
-              "type" : "LEGAL"
-          },
-          {
-              "endNode" : "35928893",
-              "id" : "189255149",
-              "properties" : {
-                  "role" : "Chairman and General Manager"
-              },
-              "startNode" : "110515288",
-              "type" : "EMPLOY"
-          },
-          {
-              "endNode" : "27736592",
-              "id" : "262558989",
-              "properties" : {
-                  "role" : "Executive Director"
-              },
-              "startNode" : "110515288",
-              "type" : "EMPLOY"
-          },
-          {
-              "endNode" : "56062039",
-              "id" : "6662857",
-              "properties" : {
-                  "role" : "Corporate legal entity",
-                  "shouldCapi" : 100,
-                  "stockPercent" : 100
-              },
-              "startNode" : "3219383",
-              "type" : "INVEST"
-          },
-          {
-              "endNode" : "56302401",
-              "id" : "200314186",
-              "properties" : {
-                  "role" : "Executive Director and Managing Director"
-              },
-              "startNode" : "110515288",
-              "type" : "EMPLOY"
-          },
-          {
-              "endNode" : "35928893",
-              "id" : "189255161",
-              "properties" : {
-                  "role" : "Director"
-              },
-              "startNode" : "97920367",
-              "type" : "EMPLOY"
-          },
-          {
-              "endNode" : "14634904",
-              "id" : "166686544",
-              "properties" : {
-                  "role" : "Manager"
-              },
-              "startNode" : "95853610",
-              "type" : "EMPLOY"
-          },
-          {
-              "endNode" : "56369887",
-              "id" : "6918827",
-              "properties" : {
-                  "role" : "Corporate legal entity",
-                  "shouldCapi" : 100,
-                  "stockPercent" : 0.400000
-              },
-              "startNode" : "1644365",
-              "type" : "INVEST"
-          },
-          {
-              "endNode" : "56369887",
-              "id" : "6918826",
-              "properties" : {
-                  "role" : "Corporate legal entity",
-                  "shouldCapi" : 24900,
-                  "stockPercent" : 99.600000
-              },
-              "startNode" : "18474062",
-              "type" : "INVEST"
-          },
-          {
-              "endNode" : "42226467",
-              "id" : "141962917",
-              "properties" : {
-                  "role" : ""
-              },
-              "startNode" : "113253804",
-              "type" : "LEGAL"
-          },
-          {
-              "endNode" : "49687512",
-              "id" : "170859771",
-              "properties" : {
-                  "role" : "Chairman of the Board of Directors"
-              },
-              "startNode" : "113253804",
-              "type" : "EMPLOY"
-          },
-          {
-              "endNode" : "56062039",
-              "id" : "147251730",
-              "properties" : {
-                  "role" : ""
-              },
-              "startNode" : "113253804",
-              "type" : "LEGAL"
-          },
-          {
-              "endNode" : "49687512",
-              "id" : "170859770",
-              "properties" : {
-                  "role" : "Director and Managing Director"
-              },
-              "startNode" : "110515288",
-              "type" : "EMPLOY"
-          },
-          {
-              "endNode" : "42796297",
-              "id" : "106433705",
-              "properties" : {
-                  "role" : ""
-              },
-              "startNode" : "110515288",
-              "type" : "LEGAL"
-          },
-          {
-              "endNode" : "43081155",
-              "id" : "6275752",
-              "properties" : {
-                  "role" : "Corporate legal entity",
-                  "shouldCapi" : 245,
-                  "stockPercent" : 49
-              },
-              "startNode" : "54516604",
-              "type" : "INVEST"
-          },
-          {
-              "endNode" : "27736592",
-              "id" : "145022556",
-              "properties" : {
-                  "role" : ""
-              },
-              "startNode" : "110515288",
-              "type" : "LEGAL"
-          },
-          {
-              "endNode" : "50469852",
-              "id" : "139203250",
-              "properties" : {
-                  "role" : ""
-              },
-              "startNode" : "87600297",
-              "type" : "LEGAL"
-          },
-          {
-              "endNode" : "57581013",
-              "id" : "256694345",
-              "properties" : {
-                  "role" : "Chairman and General Manager"
-              },
-              "startNode" : "130352752",
-              "type" : "EMPLOY"
-          },
-          {
-              "endNode" : "57581013",
-              "id" : "256694347",
-              "properties" : {
-                  "role" : "Supervisor"
-              },
-              "startNode" : "137701706",
-              "type" : "EMPLOY"
-          },
-          {
-              "endNode" : "46162667",
-              "id" : "161599145",
-              "properties" : {
-                  "role" : "Director"
-              },
-              "startNode" : "64909995",
-              "type" : "EMPLOY"
-          },
-          {
-              "endNode" : "46162667",
-              "id" : "161599150",
-              "properties" : {
-                  "role" : "Supervisor"
-              },
-              "startNode" : "138434036",
-              "type" : "EMPLOY"
-          },
-          {
-              "endNode" : "46162667",
-              "id" : "161599153",
-              "properties" : {
-                  "role" : "Director"
-              },
-              "startNode" : "67036074",
-              "type" : "EMPLOY"
-          },
-          {
-              "endNode" : "46162667",
-              "id" : "161599155",
-              "properties" : {
-                  "role" : "Manager"
-              },
-              "startNode" : "67036074",
-              "type" : "EMPLOY"
-          },
-          {
-              "endNode" : "44484097",
-              "id" : "179670435",
-              "properties" : {
-                  "role" : "Chairman of the Supervisory Board"
-              },
-              "startNode" : "137701706",
-              "type" : "EMPLOY"
-          },
-          {
-              "endNode" : "46162667",
-              "id" : "161599158",
-              "properties" : {
-                  "role" : "Supervisor"
-              },
-              "startNode" : "110515288",
-              "type" : "EMPLOY"
-          },
-          {
-              "endNode" : "46162667",
-              "id" : "161599161",
-              "properties" : {
-                  "role" : "Director"
-              },
-              "startNode" : "93242263",
-              "type" : "EMPLOY"
-          },
-          {
-              "endNode" : "46162667",
-              "id" : "161599165",
-              "properties" : {
-                  "role" : "Director"
-              },
-              "startNode" : "97920367",
-              "type" : "EMPLOY"
-          },
-          {
-              "endNode" : "46162667",
-              "id" : "161599164",
-              "properties" : {
-                  "role" : "Supervisor"
-              },
-              "startNode" : "114649571",
-              "type" : "EMPLOY"
-          },
-          {
-              "endNode" : "44484097",
-              "id" : "179670440",
-              "properties" : {
-                  "role" : "Employee Supervisor"
-              },
-              "startNode" : "69296452",
-              "type" : "EMPLOY"
-          },
-          {
-              "endNode" : "44484097",
-              "id" : "179670420",
-              "properties" : {
-                  "role" : "Director and Managing Director"
-              },
-              "startNode" : "151117034",
-              "type" : "EMPLOY"
-          },
-          {
-              "endNode" : "44484097",
-              "id" : "1657659",
-              "properties" : {
-                  "role" : "State-owned enterprises",
-                  "shouldCapi" : 429.690300,
-                  "stockPercent" : 0.340000
-              },
-              "startNode" : "30648266",
-              "type" : "INVEST"
-          },
-          {
-              "endNode" : "30420552",
-              "id" : "173270391",
-              "properties" : {
-                  "role" : "Chairman of the Board of Directors"
-              },
-              "startNode" : "105713087",
-              "type" : "EMPLOY"
-          },
-          {
-              "endNode" : "44484097",
-              "id" : "179670418",
-              "properties" : {
-                  "role" : "Chairman of the Board of Directors"
-              },
-              "startNode" : "130352752",
-              "type" : "EMPLOY"
-          },
-          {
-              "endNode" : "44484097",
-              "id" : "1657649",
-              "properties" : {
-                  "role" : "Corporate legal entity",
-                  "shouldCapi" : 11925.383000,
-                  "stockPercent" : 9.370000
-              },
-              "startNode" : "57581013",
-              "type" : "INVEST"
-          },
-          {
-              "endNode" : "30420552",
-              "id" : "173270393",
-              "properties" : {
-                  "role" : "Director"
-              },
-              "startNode" : "93242263",
-              "type" : "EMPLOY"
-          },
-          {
-              "endNode" : "44484097",
-              "id" : "179670426",
-              "properties" : {
-                  "role" : "Staff Director"
-              },
-              "startNode" : "133012980",
-              "type" : "EMPLOY"
-          },
-          {
-              "endNode" : "43081155",
-              "id" : "260410549",
-              "properties" : {
-                  "role" : "Supervisor"
-              },
-              "startNode" : "113253804",
-              "type" : "EMPLOY"
-          },
-          {
-              "endNode" : "44484097",
-              "id" : "1657647",
-              "properties" : {
-                  "role" : "Corporate legal entity",
-                  "shouldCapi" : 20263.223000,
-                  "stockPercent" : 15.920000
-              },
-              "startNode" : "23428715",
-              "type" : "INVEST"
-          },
-          {
-              "endNode" : "44484097",
-              "id" : "1657646",
-              "properties" : {
-                  "role" : "Corporate legal entity",
-                  "shouldCapi" : 52111.460000,
-                  "stockPercent" : 40.940000
-              },
-              "startNode" : "58917442",
-              "type" : "INVEST"
-          },
-          {
-              "endNode" : "43081155",
-              "id" : "260410557",
-              "properties" : {
-                  "role" : "Director and Managing Director"
-              },
-              "startNode" : "110515288",
-              "type" : "EMPLOY"
-          },
-          {
-              "endNode" : "9894729",
-              "id" : "37574011",
-              "properties" : {
-                  "role" : "Natural person shareholders",
-                  "shouldCapi" : 90,
-                  "stockPercent" : 60
-              },
-              "startNode" : "142076283",
-              "type" : "INVEST"
-          },
-          {
-              "endNode" : "42226467",
-              "id" : "256226333",
-              "properties" : {
-                  "role" : "Executive Director"
-              },
-              "startNode" : "113253804",
-              "type" : "EMPLOY"
-          },
-          {
-              "endNode" : "44484097",
-              "id" : "1657666",
-              "properties" : {
-                  "role" : "Corporate legal entity",
-                  "shouldCapi" : 177.660400,
-                  "stockPercent" : 0.140000
-              },
-              "startNode" : "16192923",
-              "type" : "INVEST"
-          },
-          {
-              "endNode" : "42226467",
-              "id" : "256226329",
-              "properties" : {
-                  "role" : "Manager"
-              },
-              "startNode" : "113253804",
-              "type" : "EMPLOY"
-          },
-          {
-              "endNode" : "44484097",
-              "id" : "1657671",
-              "properties" : {
-                  "role" : "Corporate legal entity",
-                  "shouldCapi" : 46.465600,
-                  "stockPercent" : 0.040000
-              },
-              "startNode" : "46162667",
-              "type" : "INVEST"
-          },
-          {
-              "endNode" : "59597831",
-              "id" : "55356435",
-              "properties" : {
-                  "role" : "Natural person shareholders",
-                  "shouldCapi" : 750,
-                  "stockPercent" : 5
-              },
-              "startNode" : "64909995",
-              "type" : "INVEST"
-          },
-          {
-              "endNode" : "4012368",
-              "id" : "251573662",
-              "properties" : {
-                  "role" : "Manager"
-              },
-              "startNode" : "107220502",
-              "type" : "EMPLOY"
-          },
-          {
-              "endNode" : "4012368",
-              "id" : "251573663",
-              "properties" : {
-                  "role" : "Executive Director"
-              },
-              "startNode" : "107220502",
-              "type" : "EMPLOY"
-          },
-          {
-              "endNode" : "4012368",
-              "id" : "251573661",
-              "properties" : {
-                  "role" : "Supervisor"
-              },
-              "startNode" : "72442991",
-              "type" : "EMPLOY"
-          },
-          {
-              "endNode" : "42226467",
-              "id" : "256226336",
-              "properties" : {
-                  "role" : "Supervisor"
-              },
-              "startNode" : "92456538",
-              "type" : "EMPLOY"
-          },
-          {
-              "endNode" : "14634904",
-              "id" : "915304",
-              "properties" : {
-                  "role" : "Corporate legal entity",
-                  "shouldCapi" : 1000,
-                  "stockPercent" : 20
-              },
-              "startNode" : "59597831",
-              "type" : "INVEST"
-          },
-          {
-              "endNode" : "18474062",
-              "id" : "199282826",
-              "properties" : {
-                  "role" : "General Manager"
-              },
-              "startNode" : "105713087",
-              "type" : "EMPLOY"
-          },
-          {
-              "endNode" : "14634904",
-              "id" : "915302",
-              "properties" : {
-                  "role" : "Corporate legal entity",
-                  "shouldCapi" : 2550,
-                  "stockPercent" : 51
-              },
-              "startNode" : "1644365",
-              "type" : "INVEST"
-          },
-          {
-              "endNode" : "18474062",
-              "id" : "199282828",
-              "properties" : {
-                  "role" : "Supervisor"
-              },
-              "startNode" : "92456538",
-              "type" : "EMPLOY"
-          },
-          {
-              "endNode" : "18474062",
-              "id" : "199282830",
-              "properties" : {
-                  "role" : "Director"
-              },
-              "startNode" : "134660183",
-              "type" : "EMPLOY"
-          },
-          {
-              "endNode" : "18474062",
-              "id" : "199282831",
-              "properties" : {
-                  "role" : "Director"
-              },
-              "startNode" : "105713087",
-              "type" : "EMPLOY"
-          },
-          {
-              "endNode" : "18474062",
-              "id" : "199282832",
-              "properties" : {
-                  "role" : "Director"
-              },
-              "startNode" : "64909995",
-              "type" : "EMPLOY"
-          },
-          {
-              "endNode" : "18474062",
-              "id" : "199282834",
-              "properties" : {
-                  "role" : "Chairman of the Board of Directors"
-              },
-              "startNode" : "93242263",
-              "type" : "EMPLOY"
-          },
-          {
-              "endNode" : "18474062",
-              "id" : "199282837",
-              "properties" : {
-                  "role" : "Director"
-              },
-              "startNode" : "87600297",
-              "type" : "EMPLOY"
-          },
-          {
-              "endNode" : "16192923",
-              "id" : "2279332",
-              "properties" : {
-                  "role" : "Corporate legal entity",
-                  "shouldCapi" : 6000,
-                  "stockPercent" : 100
-              },
-              "startNode" : "1644365",
-              "type" : "INVEST"
-          },
-          {
-              "endNode" : "18862200",
-              "id" : "6596585",
-              "properties" : {
-                  "role" : "Corporate legal entity",
-                  "shouldCapi" : 1000,
-                  "stockPercent" : 100
-              },
-              "startNode" : "46162667",
-              "type" : "INVEST"
-          },
-          {
-              "endNode" : "16192923",
-              "id" : "190519547",
-              "properties" : {
-                  "role" : "Supervisor"
-              },
-              "startNode" : "87600297",
-              "type" : "EMPLOY"
-          },
-          {
-              "endNode" : "16192923",
-              "id" : "190519546",
-              "properties" : {
-                  "role" : "Director"
-              },
-              "startNode" : "142076283",
-              "type" : "EMPLOY"
-          },
-          {
-              "endNode" : "16192923",
-              "id" : "190519545",
-              "properties" : {
-                  "role" : "General Manager"
-              },
-              "startNode" : "93242263",
-              "type" : "EMPLOY"
-          },
-          {
-              "endNode" : "16192923",
-              "id" : "190519548",
-              "properties" : {
-                  "role" : "Chairman of the Board of Directors"
-              },
-              "startNode" : "93242263",
-              "type" : "EMPLOY"
-          },
-          {
-              "endNode" : "3219383",
-              "id" : "124642499",
-              "properties" : {
-                  "role" : ""
-              },
-              "startNode" : "113253804",
-              "type" : "LEGAL"
-          },
-          {
-              "endNode" : "59597831",
-              "id" : "125389000",
-              "properties" : {
-                  "role" : ""
-              },
-              "startNode" : "64909995",
-              "type" : "LEGAL"
-          },
-          {
-              "endNode" : "36029553",
-              "id" : "13900647",
-              "properties" : {
-                  "role" : "Natural person shareholders",
-                  "shouldCapi" : 450,
-                  "stockPercent" : 15
-              },
-              "startNode" : "105713087",
-              "type" : "INVEST"
-          },
-          {
-              "endNode" : "18862200",
-              "id" : "146688894",
-              "properties" : {
-                  "role" : ""
-              },
-              "startNode" : "128092587",
-              "type" : "LEGAL"
-          },
-          {
-              "endNode" : "30420552",
-              "id" : "1291229",
-              "properties" : {
-                  "role" : "Corporate legal entity",
-                  "shouldCapi" : 30000,
-                  "stockPercent" : 100
-              },
-              "startNode" : "1644365",
-              "type" : "INVEST"
-          },
-          {
-              "endNode" : "34142761",
-              "id" : "246368607",
-              "properties" : {
-                  "role" : "Executive Director and Managing Director"
-              },
-              "startNode" : "113253804",
-              "type" : "EMPLOY"
-          },
-          {
-              "endNode" : "9894729",
-              "id" : "195684435",
-              "properties" : {
-                  "role" : "Executive Director"
-              },
-              "startNode" : "142076283",
-              "type" : "EMPLOY"
-          }
-      ]
+    nodes: [
+      {
+        id: "128092587",
+        labels: ["Person"],
+        properties: {
+          englishName: "Feng Lijiang",
+          hasImage: false,
+          keyNo: "pca1500d7069961110c1d98e24532c3d",
+          name: "冯利江",
+          role: "Supervisor"
+        }
+      },
+      {
+        id: "25222030",
+        labels: ["Company"],
+        properties: {
+          econKind: "其他有限责任公司",
+          englishName: "Longkou Zhonghai Aluminum Co., Ltd.",
+          hasImage: false,
+          keyNo: "6a790e857dc4d93dfe8658e5d6a2f3fa",
+          name: "龙口中海铝业有限公司",
+          registCapi: "25000.000",
+          status: "working"
+        }
+      },
+      {
+        id: "24771439",
+        labels: ["Company"],
+        properties: {
+          econKind: "其他有限责任公司",
+          englishName: "Tak Ching Yi Kee Property Co., Ltd.",
+          hasImage: false,
+          keyNo: "68952eaee4740aa2380308890726b79f",
+          name: "德正奕奇物产有限公司",
+          registCapi: "10000.000",
+          status: "working"
+        }
+      },
+      {
+        id: "93242263",
+        labels: ["Person"],
+        properties: {
+          englishName: "Shen Zhihong",
+          hasImage: false,
+          keyNo: "p5cced299068a47750df1e3714e6ad48",
+          name: "沈志宏",
+          role: ""
+        }
+      },
+      {
+        id: "30648266",
+        labels: ["Company"],
+        properties: {
+          econKind: "有限责任公司(国有独资)",
+          englishName: "Jiangsu Overseas Enterprise Group Co., Ltd.",
+          hasImage: false,
+          keyNo: "80f4aec0b4068f721d9e9e36912d23de",
+          name: "江苏省海外企业集团有限公司",
+          registCapi: "50000.000",
+          status: "working"
+        }
+      },
+      {
+        id: "133012980",
+        labels: ["Person"],
+        properties: {
+          englishName: "Fan Binwen",
+          hasImage: false,
+          keyNo: "pd98b52d813e9f67f378e8725644f85b",
+          name: "范斌文",
+          role: "Staff Director"
+        }
+      },
+      {
+        id: "56302401",
+        labels: ["Company"],
+        properties: {
+          econKind: "有限责任公司(自然人投资或控股)",
+          englishName:
+            "Chengdu JiamanRu Enterprise Management Consulting Co., Ltd.",
+          hasImage: false,
+          keyNo: "ebc9a2e414116631dd6595902cb7e72f",
+          name: "成都佳满如企业管理咨询有限公司",
+          registCapi: "10.000",
+          status: "surviving"
+        }
+      },
+      {
+        id: "34142761",
+        labels: ["Company"],
+        properties: {
+          econKind: "有限责任公司(自然人独资)",
+          englishName: "Chengdu Baojingli Technology Co., Ltd.",
+          hasImage: false,
+          keyNo: "8f7f564b28df0caf18931080e06911dc",
+          name: "成都宝晶利科技有限公司",
+          registCapi: "10.000",
+          status: "surviving"
+        }
+      },
+      {
+        id: "34606131",
+        labels: ["Company"],
+        properties: {
+          econKind: "其他有限责任公司",
+          englishName: "Xinjiang Xinjiang Xide-Zhong Cheng Property Co., Ltd.",
+          hasImage: false,
+          keyNo: "916d70f7e4563242ebf0a09c248da935",
+          name: "新疆弈德众诚物产有限公司",
+          registCapi: "5000.000",
+          status: "working"
+        }
+      },
+      {
+        id: "46162667",
+        labels: ["Company"],
+        properties: {
+          econKind: "股份有限公司(非上市、自然人投资或控股)",
+          englishName: "Zhejiang Qiangcheng Petrochemical Co., Ltd.",
+          hasImage: true,
+          keyNo: "c18be05fdd0f427735f4c1f2d988cfdc",
+          name: "浙江前程石化股份有限公司",
+          registCapi: "21600.000",
+          status: "surviving"
+        }
+      },
+      {
+        id: "40166986",
+        labels: ["Company"],
+        properties: {
+          econKind: "有限合伙企业",
+          englishName:
+            "Horgos Spun Tenzhong Equity Investment Management Partnership (Limited Partnership)",
+          hasImage: false,
+          keyNo: "a893e0539dd1c3d8ec69b274a4c45283",
+          name: "霍尔果斯普天众诚股权投资管理合伙企业(有限合伙)",
+          registCapi: "0.000",
+          status: "working"
+        }
+      },
+      {
+        id: "72442991",
+        labels: ["Person"],
+        properties: {
+          englishName: "Tung Songtao",
+          hasImage: false,
+          keyNo: "p1bd2c12b9cdde3e3928c3291e5296af",
+          name: "董松涛",
+          role: "Director"
+        }
+      },
+      {
+        id: "54516604",
+        labels: ["Company"],
+        properties: {
+          econKind: "其他有限责任公司",
+          englishName: "Shanghai New Ding Data Technology Co., Ltd.",
+          hasImage: true,
+          keyNo: "e45f14317b3f9c463497c1ca53d3ff7d",
+          name: "上海新增鼎数据科技有限公司",
+          registCapi: "1666.670",
+          status: "surviving"
+        }
+      },
+      {
+        id: "134660183",
+        labels: ["Person"],
+        properties: {
+          englishName: "Zhang Xiaosong",
+          hasImage: false,
+          keyNo: "pdebabae7bb28630fb5abf65f8baad2e",
+          name: "张小松",
+          role: "Supervisor"
+        }
+      },
+      {
+        id: "67036074",
+        labels: ["Person"],
+        properties: {
+          englishName: "Qian Gang",
+          hasImage: false,
+          keyNo: "p0af860ed1354f11e7edd668c8ae3786",
+          name: "钱刚",
+          role: "Director"
+        }
+      },
+      {
+        id: "36029553",
+        labels: ["Company"],
+        properties: {
+          econKind: "有限责任公司(自然人投资或控股)",
+          englishName:
+            "Jiaxing Jiaye Mechanical and Electrical Development Co., Ltd.",
+          hasImage: false,
+          keyNo: "975b34de6d8defeb4a311b24ab5e9513",
+          name: "嘉兴嘉冶机电发展有限公司",
+          registCapi: "3000.000",
+          status: "surviving"
+        }
+      },
+      {
+        id: "107220502",
+        labels: ["Person"],
+        properties: {
+          englishName: "Wang Jian",
+          hasImage: false,
+          keyNo: "p88961668d0839fb2a44b8c8f3c6e1e5",
+          name: "王坚",
+          role: "Natural person shareholders"
+        }
+      },
+      {
+        id: "18389915",
+        labels: ["Company"],
+        properties: {
+          econKind: "其他有限责任公司",
+          englishName: "Shanghai Zhithong International Trade Co., Ltd.",
+          hasImage: false,
+          keyNo: "4d81e458baf1c61442cc7e0b15c8e7a2",
+          name: "上海致同国际贸易有限公司",
+          registCapi: "1000.000",
+          status: "surviving"
+        }
+      },
+      {
+        id: "14602311",
+        labels: ["Company"],
+        properties: {
+          econKind: "有限责任公司(自然人投资或控股)",
+          englishName: "Sichuan Jingyuan Chemical Technology Co., Ltd.",
+          hasImage: false,
+          keyNo: "3d8c61802f84e76ffe8f9fd3fad292ec",
+          name: "四川晶萃化工科技有限公司",
+          registCapi: "100.000",
+          status: "surviving"
+        }
+      },
+      {
+        id: "57243080",
+        labels: ["Company"],
+        properties: {
+          econKind: "有限责任公司（自然人投资或控股的法人独资）",
+          englishName: "Ningbo Toucheng Products Co., Ltd.",
+          hasImage: false,
+          keyNo: "efb4709a79e62e1b8a58bf492ba44087",
+          name: "宁波前程物产有限公司",
+          registCapi: "2000.000",
+          status: "surviving"
+        }
+      },
+      {
+        id: "44484097",
+        labels: ["Company"],
+        properties: {
+          econKind: "有限责任公司",
+          englishName:
+            "Jiangsu Textile Industry (Group) Import & Export Co., Ltd.",
+          hasImage: false,
+          keyNo: "ba8afb6ac0d54aa289218c2de3839394",
+          name: "江苏省纺织工业(集团)进出口有限公司",
+          registCapi: "127277.741",
+          status: "working"
+        }
+      },
+      {
+        id: "97920367",
+        labels: ["Person"],
+        properties: {
+          englishName: "Li Jun",
+          hasImage: false,
+          keyNo: "p6b767a793c2f6c66cb7fd80e37b0346",
+          name: "李军",
+          role: "Director"
+        }
+      },
+      {
+        id: "57581013",
+        labels: ["Company"],
+        properties: {
+          econKind: "有限责任公司（法人独资）",
+          englishName: "Jiangsu Sohao Supply Chain Management Co., Ltd.",
+          hasImage: false,
+          keyNo: "f11c853705b7e3dbd042647cbba9e9e2",
+          name: "江苏苏豪供应链管理有限公司",
+          registCapi: "10000.000",
+          status: "working"
+        }
+      },
+      {
+        id: "110515288",
+        labels: ["Person"],
+        properties: {
+          englishName: "Zhao Gang",
+          hasImage: false,
+          keyNo: "p92eacf799e3dec820ce526c8a25f1af",
+          name: "赵刚",
+          role: ""
+        }
+      },
+      {
+        id: "50469852",
+        labels: ["Company"],
+        properties: {
+          econKind: "有限责任公司（非自然人投资或控股的法人独资）",
+          englishName: "Promising Property Co., Ltd.",
+          hasImage: false,
+          keyNo: "d37c3246e1ce520376298a31155c817a",
+          name: "前程物产有限公司",
+          registCapi: "10000.000",
+          status: "surviving"
+        }
+      },
+      {
+        id: "56062039",
+        labels: ["Company"],
+        properties: {
+          econKind: "有限责任公司（自然人投资或控股的法人独资）",
+          englishName: "Shanghai New Ding Industrial Technology Co., Ltd.",
+          hasImage: false,
+          keyNo: "eac9a77620beb74a544d75d97082bfe7",
+          name: "上海新增鼎工业科技有限公司",
+          registCapi: "100.000",
+          status: "surviving"
+        }
+      },
+      {
+        id: "142076283",
+        labels: ["Person"],
+        properties: {
+          englishName: "Wang Wenjie",
+          hasImage: false,
+          keyNo: "pf612030c32ebfe22c323c59bcea8454",
+          name: "王文杰",
+          role: "Director"
+        }
+      },
+      {
+        id: "23428715",
+        labels: ["Company"],
+        properties: {
+          econKind: "有限责任公司（法人独资）",
+          englishName: "Jiangsu Textile Group Co., Ltd.",
+          hasImage: true,
+          keyNo: "62eea0765d45f8be7b742aad0fd5f703",
+          name: "江苏省纺织集团有限公司",
+          registCapi: "30000.000",
+          status: "working"
+        }
+      },
+      {
+        id: "35928893",
+        labels: ["Company"],
+        properties: {
+          econKind: "其他有限责任公司",
+          englishName: "Chengdu New Ding Chemical Technology Co., Ltd.",
+          hasImage: false,
+          keyNo: "96efacfcc678d14cfef2dda44ca28700",
+          name: "成都新增鼎化工技术有限公司",
+          registCapi: "1000.000",
+          status: "surviving"
+        }
+      },
+      {
+        id: "22762107",
+        labels: ["Company"],
+        properties: {
+          econKind: "有限合伙企业",
+          englishName:
+            "Shanghai Linyuan Corporate Management Partnership (Limited Partnership)",
+          hasImage: false,
+          keyNo: "601c1bf5d8ce6586545a2beea7601a3a",
+          name: "上海霖珪企业管理合伙企业(有限合伙)",
+          registCapi: "0.000",
+          status: "surviving"
+        }
+      },
+      {
+        id: "49687512",
+        labels: ["Company"],
+        properties: {
+          econKind: "有限责任公司（自然人投资或控股）",
+          englishName: "Shanghai New Ding Network Technology Co., Ltd.",
+          hasImage: false,
+          keyNo: "d03a2dcff92917941ff2c0379c8533aa",
+          name: "上海新增鼎网络技术有限公司",
+          registCapi: "505.000",
+          status: "surviving"
+        }
+      },
+      {
+        id: "114649571",
+        labels: ["Person"],
+        properties: {
+          englishName: "Liu Xiaoqing",
+          hasImage: false,
+          keyNo: "p9fe1e56daf9b22199f01ef442814753",
+          name: "刘晓庆",
+          role: "Supervisor"
+        }
+      },
+      {
+        id: "130622709",
+        labels: ["Person"],
+        properties: {
+          englishName: "Wu Yan",
+          hasImage: false,
+          keyNo: "pd20753b708f37a8166c4e9be866886f",
+          name: "吴艳",
+          role: "Supervisor"
+        }
+      },
+      {
+        id: "14634904",
+        labels: ["Company"],
+        properties: {
+          econKind: "有限责任公司(自然人投资或控股)",
+          englishName: "Bennaught Energy Chemical Co., Ltd.",
+          hasImage: false,
+          keyNo: "3dafdc2d1cbda614ad30fb5bfcdcb4f8",
+          name: "奔诺能源化工有限公司",
+          registCapi: "5000.000",
+          status: "surviving"
+        }
+      },
+      {
+        id: "43081155",
+        labels: ["Company"],
+        properties: {
+          econKind: "有限责任公司（中外合资）",
+          englishName: "New Idor Information Technology (Shanghai) Co., Ltd.",
+          hasImage: false,
+          keyNo: "b4b52c6c825f376185f3a8e44530e042",
+          name: "新熠物信息科技(上海)有限公司",
+          registCapi: "500.000",
+          status: "surviving"
+        }
+      },
+      {
+        id: "1644365",
+        labels: ["Company"],
+        properties: {
+          econKind: "股份有限公司(非上市、自然人投资或控股)",
+          englishName: "Zhejiang Qiangyuan Investment Co., Ltd.",
+          hasImage: true,
+          keyNo: "06fb53e527cd7085de74d8177c8a3e83",
+          name: "浙江前程投资股份有限公司",
+          registCapi: "25100.000",
+          status: "surviving"
+        }
+      },
+      {
+        id: "18474062",
+        labels: ["Company"],
+        properties: {
+          econKind: "有限责任公司（自然人投资或控股的法人独资）",
+          englishName: "Zhejiang Jiaye Investment Group Co., Ltd.",
+          hasImage: false,
+          keyNo: "4ddcc1b76a7db6b3fc708c951058d9fe",
+          name: "浙江嘉冶投资集团有限公司",
+          registCapi: "5000.000",
+          status: "surviving"
+        }
+      },
+      {
+        id: "77435391",
+        labels: ["Person"],
+        properties: {
+          englishName: "Wang Yiben",
+          hasImage: false,
+          keyNo: "p2b693ca9fded7c0cd459deeae314dd6",
+          name: "王祎本",
+          role: "Natural person shareholders"
+        }
+      },
+      {
+        id: "69296452",
+        labels: ["Person"],
+        properties: {
+          englishName: "Zhang Renle",
+          hasImage: false,
+          keyNo: "p1204ba89d8c720f8e49ab3d496f68c2",
+          name: "张仁乐",
+          role: "Chairman of the Supervisory Board"
+        }
+      },
+      {
+        id: "18862200",
+        labels: ["Company"],
+        properties: {
+          econKind: "有限责任公司（非自然人投资或控股的法人独资）",
+          englishName: "Ningbo Koku International Trade Co., Ltd.",
+          hasImage: false,
+          keyNo: "4f81650fcb84386ab1063de19f267faf",
+          name: "宁波科固国际贸易有限公司",
+          registCapi: "1000.000",
+          status: "surviving"
+        }
+      },
+      {
+        id: "113253804",
+        labels: ["Person"],
+        properties: {
+          englishName: "Zhao Li-Bin",
+          hasImage: false,
+          keyNo: "p9b80945acfca12f1cdc5e6ca11e4940",
+          name: "赵力宾",
+          role: "Director"
+        }
+      },
+      {
+        id: "16192923",
+        labels: ["Company"],
+        properties: {
+          econKind: "有限责任公司（自然人投资或控股的法人独资）",
+          englishName: "Ningbo Cheng Energy Co., Ltd.",
+          hasImage: false,
+          keyNo: "44403b62b3491803ac97e77dbbcee603",
+          name: "宁波前程能源有限公司",
+          registCapi: "6000.000",
+          status: "surviving"
+        }
+      },
+      {
+        id: "4012368",
+        labels: ["Company"],
+        properties: {
+          econKind: "其他有限责任公司",
+          englishName: "Zhejiang Jinsheng Tang Chemical Co., Ltd.",
+          hasImage: false,
+          keyNo: "10e71f18661b0359e7b92966b1960706",
+          name: "浙江金色盛唐化工有限公司",
+          registCapi: "725.000",
+          status: "surviving"
+        }
+      },
+      {
+        id: "64909995",
+        labels: ["Person"],
+        properties: {
+          englishName: "Jian Dynasty",
+          hasImage: false,
+          keyNo: "p04551ded7fbe8308d3798f3dcf6877d",
+          name: "王剑朝",
+          role: "Director"
+        }
+      },
+      {
+        id: "137701706",
+        labels: ["Person"],
+        properties: {
+          englishName: "Gu Kungen",
+          hasImage: false,
+          keyNo: "pe84c7530c49f49949f85ff070b6c5d6",
+          name: "顾昆根",
+          role: "Chairman of the Supervisory Board"
+        }
+      },
+      {
+        id: "56369887",
+        labels: ["Company"],
+        properties: {
+          econKind: "其他有限责任公司",
+          englishName: "Zhejiang Jiaye Asset Management Co., Ltd.",
+          hasImage: false,
+          keyNo: "ec1171099da9a2fdc8111d75dc1a5eaa",
+          name: "浙江嘉冶资产管理有限公司",
+          registCapi: "25000.000",
+          status: "surviving"
+        }
+      },
+      {
+        id: "42796297",
+        labels: ["Company"],
+        properties: {
+          econKind: "有限责任公司（自然人投资或控股的法人独资）",
+          englishName: "Shanghai Shuoran International Trade Co., Ltd.",
+          hasImage: false,
+          keyNo: "b385ce0b7c5d7d6eb9be00ad0d7897d4",
+          name: "上海硕冉国际贸易有限公司",
+          registCapi: "100.000",
+          status: "surviving"
+        }
+      },
+      {
+        id: "3219383",
+        labels: ["Company"],
+        properties: {
+          econKind: "有限责任公司（自然人投资或控股）",
+          englishName: "Shanghai New Ding Asset Management Co., Ltd.",
+          hasImage: false,
+          keyNo: "0d954d23c9877ae6b37b3e05c948537b",
+          name: "上海新增鼎资产管理有限公司",
+          registCapi: "17000.000",
+          status: "surviving"
+        }
+      },
+      {
+        id: "30969439",
+        labels: ["Company"],
+        properties: {
+          econKind: "其他股份有限公司(非上市)",
+          englishName: "Zhejiang Daicang Information Technology Co., Ltd.",
+          hasImage: true,
+          keyNo: "82493a6f1a9bacf6f719dd4db086dcaa",
+          name: "浙江大仓信息科技股份有限公司",
+          registCapi: "3000.000",
+          status: "surviving"
+        }
+      },
+      {
+        id: "45685555",
+        labels: ["Company"],
+        properties: {
+          econKind: "有限责任公司（自然人投资或控股的法人独资）",
+          englishName: "Ningbo Garu Information Technology Co., Ltd.",
+          hasImage: false,
+          keyNo: "bf8c3d9fcd94be965b2d85049cb68ba9",
+          name: "宁波加麓信息科技有限公司",
+          registCapi: "200.000",
+          status: "surviving"
+        }
+      },
+      {
+        id: "59597831",
+        labels: ["Company"],
+        properties: {
+          econKind: "有限责任公司（自然人投资或控股）",
+          englishName: "Kiwi Resources Holdings Limited",
+          hasImage: false,
+          keyNo: "f9814356bbd838360e8eb5dbf77a6011",
+          name: "弈慧资源控股有限公司",
+          registCapi: "15000.000",
+          status: "surviving"
+        }
+      },
+      {
+        id: "87600297",
+        labels: ["Person"],
+        properties: {
+          englishName: "Fang Min",
+          hasImage: false,
+          keyNo: "p4b29ca0bb30cdb967d9ca3d8c356130",
+          name: "方旻",
+          role: "Director"
+        }
+      },
+      {
+        id: "30420552",
+        labels: ["Company"],
+        properties: {
+          econKind: "有限责任公司（自然人投资或控股的法人独资）",
+          englishName: "Ningbo and Mei Property Co., Ltd.",
+          hasImage: false,
+          keyNo: "8002c6b2d02146b2b552f71b85166a64",
+          name: "宁波和美置业有限公司",
+          registCapi: "30000.000",
+          status: "surviving"
+        }
+      },
+      {
+        id: "95853610",
+        labels: ["Person"],
+        properties: {
+          englishName: "Wang Lingyun",
+          hasImage: false,
+          keyNo: "p64fd9edef1c5850c85a9b78ddd759ef",
+          name: "王凌云",
+          role: "General Manager"
+        }
+      },
+      {
+        id: "60658751",
+        labels: ["Company"],
+        properties: {
+          econKind: "有限责任公司(自然人投资或控股)",
+          englishName: "Zhejiang Hemei Investment Co., Ltd.",
+          hasImage: false,
+          keyNo: "fdfc20944cb0c0b2726380f9b1a581ba",
+          name: "浙江和美投资有限公司",
+          registCapi: "2590.000",
+          status: "surviving"
+        }
+      },
+      {
+        id: "42226467",
+        labels: ["Company"],
+        properties: {
+          econKind: "有限责任公司（自然人投资或控股的法人独资）",
+          englishName: "Ningbo Cimei International Trade Co., Ltd.",
+          hasImage: false,
+          keyNo: "b1240aae8a116a4449c9d89f9cfbffda",
+          name: "宁波慈美国际贸易有限公司",
+          registCapi: "3500.000",
+          status: "surviving"
+        }
+      },
+      {
+        id: "874405",
+        labels: ["Company"],
+        properties: {
+          econKind: "有限责任公司（法人独资）",
+          englishName: "Jiangsu Sohao Hong Rui Import & Export Co., Ltd.",
+          hasImage: false,
+          keyNo: "03b50225985a79d9a37fb49517ff61bd",
+          name: "江苏苏豪泓瑞进出口有限公司",
+          registCapi: "2000.000",
+          status: "working"
+        }
+      },
+      {
+        id: "138434036",
+        labels: ["Person"],
+        properties: {
+          englishName: "King Boat",
+          hasImage: false,
+          keyNo: "pea9a946da6c4d4e5ef5bc4116fee992",
+          name: "王艇",
+          role: "Supervisor"
+        }
+      },
+      {
+        id: "130352752",
+        labels: ["Person"],
+        properties: {
+          englishName: "Zhang Fa-song",
+          hasImage: false,
+          keyNo: "pd12deadee23044051c7894f1aa7a45c",
+          name: "张发松",
+          role: ""
+        }
+      },
+      {
+        id: "27736592",
+        labels: ["Company"],
+        properties: {
+          econKind: "有限责任公司（自然人投资或控股）",
+          englishName: "Shanghai Xinyun Investment Management Co., Ltd.",
+          hasImage: false,
+          keyNo: "74ea685ca5801934ad5eaea4074edd6a",
+          name: "上海新蕴投资管理有限公司",
+          registCapi: "1000.000",
+          status: "surviving"
+        }
+      },
+      {
+        id: "17678515",
+        labels: ["Company"],
+        properties: {
+          econKind: "有限责任公司(自然人投资或控股)",
+          englishName: "Ningbo Hemei Chemical Research Institute Co., Ltd.",
+          hasImage: false,
+          keyNo: "4a7fff7ffef5f1cbe6875bf6a24a726e",
+          name: "宁波和美化工研究院有限公司",
+          registCapi: "1800.000",
+          status: "surviving"
+        }
+      },
+      {
+        id: "58917442",
+        labels: ["Company"],
+        properties: {
+          econKind: "有限责任公司(国有独资)",
+          englishName: "Jiangsu Soho Holding Group Co., Ltd.",
+          hasImage: true,
+          keyNo: "f6ab5c74b600d5bc8e6643d0542e576d",
+          name: "江苏省苏豪控股集团有限公司",
+          registCapi: "200000.000",
+          status: "working"
+        }
+      },
+      {
+        id: "92456538",
+        labels: ["Person"],
+        properties: {
+          englishName: "Fan Xiaotao",
+          hasImage: false,
+          keyNo: "p5a595dbf422e0ccae92a887c4202ed7",
+          name: "范晓涛",
+          role: "Supervisor"
+        }
+      },
+      {
+        id: "9894729",
+        labels: ["Company"],
+        properties: {
+          econKind: "有限责任公司(自然人投资或控股)",
+          englishName: "Ningbo Zhihang Investment Consulting Co., Ltd.",
+          hasImage: false,
+          keyNo: "299dec32c7114f14fecc4b368acc6820",
+          name: "宁波知行投资咨询有限公司",
+          registCapi: "150.000",
+          status: "surviving"
+        }
+      },
+      {
+        id: "151117034",
+        labels: ["Person"],
+        properties: {
+          englishName: "Ma Hongwei",
+          hasImage: false,
+          keyNo: "pr51e55755d7cf27eeea8b90f6c91316",
+          name: "马宏伟",
+          role: "Director"
+        }
+      },
+      {
+        id: "105713087",
+        labels: ["Person"],
+        properties: {
+          englishName: "Zhang Jianbo",
+          hasImage: false,
+          keyNo: "p83dcdc2f5bb6739f3d618587dd474ed",
+          name: "张剑波",
+          role: "Natural person shareholders"
+        }
+      }
+    ],
+    relationships: [
+      {
+        endNode: "1644365",
+        id: "88824139",
+        properties: {
+          role: "Natural person shareholders",
+          shouldCapi: 40,
+          stockPercent: 0.1594
+        },
+        startNode: "107220502",
+        type: "INVEST"
+      },
+      {
+        endNode: "1644365",
+        id: "271270969",
+        properties: {
+          role: "Manager"
+        },
+        startNode: "93242263",
+        type: "EMPLOY"
+      },
+      {
+        endNode: "874405",
+        id: "223237466",
+        properties: {
+          role: "Chairman of the Board of Directors"
+        },
+        startNode: "151117034",
+        type: "EMPLOY"
+      },
+      {
+        endNode: "874405",
+        id: "223237464",
+        properties: {
+          role: "Supervisor"
+        },
+        startNode: "69296452",
+        type: "EMPLOY"
+      },
+      {
+        endNode: "1644365",
+        id: "271270972",
+        properties: {
+          role: "Director"
+        },
+        startNode: "64909995",
+        type: "EMPLOY"
+      },
+      {
+        endNode: "35928893",
+        id: "2206779",
+        properties: {
+          role: "Corporate legal entity",
+          shouldCapi: 650,
+          stockPercent: 65
+        },
+        startNode: "56062039",
+        type: "INVEST"
+      },
+      {
+        endNode: "35928893",
+        id: "2206780",
+        properties: {
+          role: "Corporate legal entity",
+          shouldCapi: 350,
+          stockPercent: 35
+        },
+        startNode: "14602311",
+        type: "INVEST"
+      },
+      {
+        endNode: "1644365",
+        id: "88824171",
+        properties: {
+          role: "Natural person shareholders",
+          shouldCapi: 30,
+          stockPercent: 0.1195
+        },
+        startNode: "130622709",
+        type: "INVEST"
+      },
+      {
+        endNode: "45685555",
+        id: "254170887",
+        properties: {
+          role: "Supervisor"
+        },
+        startNode: "72442991",
+        type: "EMPLOY"
+      },
+      {
+        endNode: "45685555",
+        id: "254170883",
+        properties: {
+          role: "Executive Director and Managing Director"
+        },
+        startNode: "138434036",
+        type: "EMPLOY"
+      },
+      {
+        endNode: "4012368",
+        id: "5771391",
+        properties: {
+          role: "Corporate legal entity",
+          shouldCapi: 543.75,
+          stockPercent: 75
+        },
+        startNode: "46162667",
+        type: "INVEST"
+      },
+      {
+        endNode: "56062039",
+        id: "267185090",
+        properties: {
+          role: "Supervisor"
+        },
+        startNode: "110515288",
+        type: "EMPLOY"
+      },
+      {
+        endNode: "56062039",
+        id: "267185091",
+        properties: {
+          role: "Chairman and General Manager"
+        },
+        startNode: "113253804",
+        type: "EMPLOY"
+      },
+      {
+        endNode: "58917442",
+        id: "269786148",
+        properties: {
+          role: "Employee Supervisor"
+        },
+        startNode: "137701706",
+        type: "EMPLOY"
+      },
+      {
+        endNode: "34606131",
+        id: "3594358",
+        properties: {
+          role: "Corporate shareholders",
+          shouldCapi: 2000,
+          stockPercent: 40
+        },
+        startNode: "46162667",
+        type: "INVEST"
+      },
+      {
+        endNode: "1644365",
+        id: "88824074",
+        properties: {
+          role: "Natural person shareholders",
+          shouldCapi: 90,
+          stockPercent: 0.3586
+        },
+        startNode: "128092587",
+        type: "INVEST"
+      },
+      {
+        endNode: "34606131",
+        id: "3594359",
+        properties: {
+          role: "Corporate shareholders",
+          shouldCapi: 1500,
+          stockPercent: 30
+        },
+        startNode: "40166986",
+        type: "INVEST"
+      },
+      {
+        endNode: "45685555",
+        id: "140966948",
+        properties: {
+          role: ""
+        },
+        startNode: "138434036",
+        type: "LEGAL"
+      },
+      {
+        endNode: "50469852",
+        id: "5710873",
+        properties: {
+          role: "Corporate legal entity",
+          shouldCapi: 10000,
+          stockPercent: 100
+        },
+        startNode: "46162667",
+        type: "INVEST"
+      },
+      {
+        endNode: "34606131",
+        id: "3594360",
+        properties: {
+          role: "Corporate shareholders",
+          shouldCapi: 1500,
+          stockPercent: 30
+        },
+        startNode: "24771439",
+        type: "INVEST"
+      },
+      {
+        endNode: "46162667",
+        id: "161598961",
+        properties: {
+          role: "Chairman of the Board of Directors"
+        },
+        startNode: "113253804",
+        type: "EMPLOY"
+      },
+      {
+        endNode: "46162667",
+        id: "161598962",
+        properties: {
+          role: "Director"
+        },
+        startNode: "142076283",
+        type: "EMPLOY"
+      },
+      {
+        endNode: "1644365",
+        id: "88824087",
+        properties: {
+          role: "Natural person shareholders",
+          shouldCapi: 80,
+          stockPercent: 0.3187
+        },
+        startNode: "77435391",
+        type: "INVEST"
+      },
+      {
+        endNode: "30420552",
+        id: "101897806",
+        properties: {
+          role: ""
+        },
+        startNode: "105713087",
+        type: "LEGAL"
+      },
+      {
+        endNode: "56302401",
+        id: "114965176",
+        properties: {
+          role: ""
+        },
+        startNode: "110515288",
+        type: "LEGAL"
+      },
+      {
+        endNode: "44484097",
+        id: "104983075",
+        properties: {
+          role: ""
+        },
+        startNode: "130352752",
+        type: "LEGAL"
+      },
+      {
+        endNode: "46162667",
+        id: "96259540",
+        properties: {
+          role: ""
+        },
+        startNode: "113253804",
+        type: "LEGAL"
+      },
+      {
+        endNode: "1644365",
+        id: "271270979",
+        properties: {
+          role: "Director"
+        },
+        startNode: "93242263",
+        type: "EMPLOY"
+      },
+      {
+        endNode: "1644365",
+        id: "271270978",
+        properties: {
+          role: "Director"
+        },
+        startNode: "114649571",
+        type: "EMPLOY"
+      },
+      {
+        endNode: "1644365",
+        id: "271270977",
+        properties: {
+          role: "Director"
+        },
+        startNode: "97920367",
+        type: "EMPLOY"
+      },
+      {
+        endNode: "17678515",
+        id: "3941457",
+        properties: {
+          role: "Corporate legal entity",
+          shouldCapi: 1538.39,
+          stockPercent: 85.47
+        },
+        startNode: "1644365",
+        type: "INVEST"
+      },
+      {
+        endNode: "1644365",
+        id: "271270981",
+        properties: {
+          role: "Chairman of the Board of Directors"
+        },
+        startNode: "113253804",
+        type: "EMPLOY"
+      },
+      {
+        endNode: "1644365",
+        id: "271270980",
+        properties: {
+          role: "Supervisor"
+        },
+        startNode: "92456538",
+        type: "EMPLOY"
+      },
+      {
+        endNode: "22762107",
+        id: "5167153",
+        properties: {
+          role: "Corporate legal entity",
+          shouldCapi: 0,
+          stockPercent: 0
+        },
+        startNode: "59597831",
+        type: "INVEST"
+      },
+      {
+        endNode: "18389915",
+        id: "211383323",
+        properties: {
+          role: "Executive Director"
+        },
+        startNode: "87600297",
+        type: "EMPLOY"
+      },
+      {
+        endNode: "59597831",
+        id: "221894070",
+        properties: {
+          role: "Executive Director"
+        },
+        startNode: "64909995",
+        type: "EMPLOY"
+      },
+      {
+        endNode: "60658751",
+        id: "221143477",
+        properties: {
+          role: "Director"
+        },
+        startNode: "142076283",
+        type: "EMPLOY"
+      },
+      {
+        endNode: "60658751",
+        id: "221143472",
+        properties: {
+          role: "Supervisor"
+        },
+        startNode: "95853610",
+        type: "EMPLOY"
+      },
+      {
+        endNode: "60658751",
+        id: "221143473",
+        properties: {
+          role: "Director"
+        },
+        startNode: "87600297",
+        type: "EMPLOY"
+      },
+      {
+        endNode: "874405",
+        id: "126040871",
+        properties: {
+          role: ""
+        },
+        startNode: "151117034",
+        type: "LEGAL"
+      },
+      {
+        endNode: "34142761",
+        id: "137191556",
+        properties: {
+          role: ""
+        },
+        startNode: "113253804",
+        type: "LEGAL"
+      },
+      {
+        endNode: "25222030",
+        id: "1540269",
+        properties: {
+          role: "Corporate legal entity",
+          shouldCapi: 11250,
+          stockPercent: 45
+        },
+        startNode: "46162667",
+        type: "INVEST"
+      },
+      {
+        endNode: "34142761",
+        id: "71941249",
+        properties: {
+          role: "Natural person shareholders",
+          shouldCapi: 10,
+          stockPercent: 100
+        },
+        startNode: "113253804",
+        type: "INVEST"
+      },
+      {
+        endNode: "4012368",
+        id: "5771392",
+        properties: {
+          role: "Corporate legal entity",
+          shouldCapi: 181.25,
+          stockPercent: 25
+        },
+        startNode: "18862200",
+        type: "INVEST"
+      },
+      {
+        endNode: "18862200",
+        id: "266018561",
+        properties: {
+          role: "Supervisor"
+        },
+        startNode: "72442991",
+        type: "EMPLOY"
+      },
+      {
+        endNode: "18862200",
+        id: "266018560",
+        properties: {
+          role: "Executive Director"
+        },
+        startNode: "128092587",
+        type: "EMPLOY"
+      },
+      {
+        endNode: "14634904",
+        id: "98716988",
+        properties: {
+          role: ""
+        },
+        startNode: "95853610",
+        type: "LEGAL"
+      },
+      {
+        endNode: "1644365",
+        id: "88824251",
+        properties: {
+          role: "Natural person shareholders",
+          shouldCapi: 20,
+          stockPercent: 0.0797
+        },
+        startNode: "95853610",
+        type: "INVEST"
+      },
+      {
+        endNode: "16192923",
+        id: "110231138",
+        properties: {
+          role: ""
+        },
+        startNode: "93242263",
+        type: "LEGAL"
+      },
+      {
+        endNode: "18474062",
+        id: "114463701",
+        properties: {
+          role: ""
+        },
+        startNode: "93242263",
+        type: "LEGAL"
+      },
+      {
+        endNode: "57243080",
+        id: "141740409",
+        properties: {
+          role: ""
+        },
+        startNode: "93242263",
+        type: "LEGAL"
+      },
+      {
+        endNode: "874405",
+        id: "4148523",
+        properties: {
+          role: "Corporate legal entity",
+          shouldCapi: 2000,
+          stockPercent: 100
+        },
+        startNode: "44484097",
+        type: "INVEST"
+      },
+      {
+        endNode: "18389915",
+        id: "120320574",
+        properties: {
+          role: ""
+        },
+        startNode: "87600297",
+        type: "LEGAL"
+      },
+      {
+        endNode: "49687512",
+        id: "100734746",
+        properties: {
+          role: ""
+        },
+        startNode: "113253804",
+        type: "LEGAL"
+      },
+      {
+        endNode: "23428715",
+        id: "97122519",
+        properties: {
+          role: ""
+        },
+        startNode: "130352752",
+        type: "LEGAL"
+      },
+      {
+        endNode: "30969439",
+        id: "172384103",
+        properties: {
+          role: "Supervisor"
+        },
+        startNode: "130622709",
+        type: "EMPLOY"
+      },
+      {
+        endNode: "18862200",
+        id: "266018559",
+        properties: {
+          role: "General Manager"
+        },
+        startNode: "128092587",
+        type: "EMPLOY"
+      },
+      {
+        endNode: "1644365",
+        id: "149218755",
+        properties: {
+          role: ""
+        },
+        startNode: "113253804",
+        type: "LEGAL"
+      },
+      {
+        endNode: "46162667",
+        id: "622909",
+        properties: {
+          role: "Corporate legal entity",
+          shouldCapi: 11845.16,
+          stockPercent: 54.84
+        },
+        startNode: "1644365",
+        type: "INVEST"
+      },
+      {
+        endNode: "46162667",
+        id: "622911",
+        properties: {
+          role: "Corporate legal entity",
+          shouldCapi: 1836.95,
+          stockPercent: 8.5
+        },
+        startNode: "9894729",
+        type: "INVEST"
+      },
+      {
+        endNode: "46162667",
+        id: "622910",
+        properties: {
+          role: "Corporate legal entity",
+          shouldCapi: 7917.89,
+          stockPercent: 36.66
+        },
+        startNode: "60658751",
+        type: "INVEST"
+      },
+      {
+        endNode: "18389915",
+        id: "3472648",
+        properties: {
+          role: "Corporate legal entity",
+          shouldCapi: 900,
+          stockPercent: 90
+        },
+        startNode: "50469852",
+        type: "INVEST"
+      },
+      {
+        endNode: "18389915",
+        id: "3472649",
+        properties: {
+          role: "Corporate legal entity",
+          shouldCapi: 100,
+          stockPercent: 10
+        },
+        startNode: "18862200",
+        type: "INVEST"
+      },
+      {
+        endNode: "56302401",
+        id: "40725294",
+        properties: {
+          role: "Natural person shareholders",
+          shouldCapi: 2.5,
+          stockPercent: 25
+        },
+        startNode: "110515288",
+        type: "INVEST"
+      },
+      {
+        endNode: "23428715",
+        id: "163388665",
+        properties: {
+          role: "Chairman of the Supervisory Board"
+        },
+        startNode: "137701706",
+        type: "EMPLOY"
+      },
+      {
+        endNode: "23428715",
+        id: "163388659",
+        properties: {
+          role: "Chairman of the Board of Directors"
+        },
+        startNode: "130352752",
+        type: "EMPLOY"
+      },
+      {
+        endNode: "54516604",
+        id: "5910796",
+        properties: {
+          role: "Corporate legal entity",
+          shouldCapi: 1216.67,
+          stockPercent: 73
+        },
+        startNode: "49687512",
+        type: "INVEST"
+      },
+      {
+        endNode: "54516604",
+        id: "5910797",
+        properties: {
+          role: "Corporate legal entity",
+          shouldCapi: 450,
+          stockPercent: 27
+        },
+        startNode: "56302401",
+        type: "INVEST"
+      },
+      {
+        endNode: "30969439",
+        id: "172384036",
+        properties: {
+          role: "Director"
+        },
+        startNode: "93242263",
+        type: "EMPLOY"
+      },
+      {
+        endNode: "30969439",
+        id: "172384035",
+        properties: {
+          role: "Director"
+        },
+        startNode: "92456538",
+        type: "EMPLOY"
+      },
+      {
+        endNode: "35928893",
+        id: "109621236",
+        properties: {
+          role: ""
+        },
+        startNode: "110515288",
+        type: "LEGAL"
+      },
+      {
+        endNode: "57581013",
+        id: "6064604",
+        properties: {
+          role: "State-owned enterprises",
+          shouldCapi: 10000,
+          stockPercent: 100
+        },
+        startNode: "58917442",
+        type: "INVEST"
+      },
+      {
+        endNode: "36029553",
+        id: "160788501",
+        properties: {
+          role: "General Manager"
+        },
+        startNode: "105713087",
+        type: "EMPLOY"
+      },
+      {
+        endNode: "36029553",
+        id: "160788497",
+        properties: {
+          role: "Chairman of the Supervisory Board"
+        },
+        startNode: "134660183",
+        type: "EMPLOY"
+      },
+      {
+        endNode: "36029553",
+        id: "160788499",
+        properties: {
+          role: "Chairman of the Board of Directors"
+        },
+        startNode: "93242263",
+        type: "EMPLOY"
+      },
+      {
+        endNode: "36029553",
+        id: "160788505",
+        properties: {
+          role: "Director"
+        },
+        startNode: "87600297",
+        type: "EMPLOY"
+      },
+      {
+        endNode: "36029553",
+        id: "160788485",
+        properties: {
+          role: "Director"
+        },
+        startNode: "105713087",
+        type: "EMPLOY"
+      },
+      {
+        endNode: "1644365",
+        id: "88824026",
+        properties: {
+          role: "Natural person shareholders",
+          shouldCapi: 190,
+          stockPercent: 0.757
+        },
+        startNode: "87600297",
+        type: "INVEST"
+      },
+      {
+        endNode: "36029553",
+        id: "160788484",
+        properties: {
+          role: "Supervisor"
+        },
+        startNode: "92456538",
+        type: "EMPLOY"
+      },
+      {
+        endNode: "42226467",
+        id: "6037963",
+        properties: {
+          role: "Corporate legal entity",
+          shouldCapi: 3500,
+          stockPercent: 100
+        },
+        startNode: "1644365",
+        type: "INVEST"
+      },
+      {
+        endNode: "1644365",
+        id: "88824018",
+        properties: {
+          role: "Natural person shareholders",
+          shouldCapi: 240,
+          stockPercent: 0.9562
+        },
+        startNode: "67036074",
+        type: "INVEST"
+      },
+      {
+        endNode: "9894729",
+        id: "112725799",
+        properties: {
+          role: ""
+        },
+        startNode: "142076283",
+        type: "LEGAL"
+      },
+      {
+        endNode: "874405",
+        id: "223237366",
+        properties: {
+          role: "Director and Managing Director"
+        },
+        startNode: "133012980",
+        type: "EMPLOY"
+      },
+      {
+        endNode: "36029553",
+        id: "576968",
+        properties: {
+          role: "Corporate legal entity",
+          shouldCapi: 1650,
+          stockPercent: 55
+        },
+        startNode: "18474062",
+        type: "INVEST"
+      },
+      {
+        endNode: "57581013",
+        id: "142190013",
+        properties: {
+          role: ""
+        },
+        startNode: "130352752",
+        type: "LEGAL"
+      },
+      {
+        endNode: "42796297",
+        id: "182655781",
+        properties: {
+          role: "Executive Director and Managing Director"
+        },
+        startNode: "110515288",
+        type: "EMPLOY"
+      },
+      {
+        endNode: "3219383",
+        id: "3983857",
+        properties: {
+          role: "Corporate legal entity",
+          shouldCapi: 765,
+          stockPercent: 4.5
+        },
+        startNode: "56302401",
+        type: "INVEST"
+      },
+      {
+        endNode: "3219383",
+        id: "3983855",
+        properties: {
+          role: "Corporate legal entity",
+          shouldCapi: 3317,
+          stockPercent: 19.51
+        },
+        startNode: "34142761",
+        type: "INVEST"
+      },
+      {
+        endNode: "34606131",
+        id: "213517660",
+        properties: {
+          role: "Chairman of the Board of Directors"
+        },
+        startNode: "67036074",
+        type: "EMPLOY"
+      },
+      {
+        endNode: "27736592",
+        id: "6398345",
+        properties: {
+          role: "Corporate legal entity",
+          shouldCapi: 550,
+          stockPercent: 55
+        },
+        startNode: "42796297",
+        type: "INVEST"
+      },
+      {
+        endNode: "27736592",
+        id: "6398346",
+        properties: {
+          role: "Corporate legal entity",
+          shouldCapi: 450,
+          stockPercent: 45
+        },
+        startNode: "3219383",
+        type: "INVEST"
+      },
+      {
+        endNode: "4012368",
+        id: "139710910",
+        properties: {
+          role: ""
+        },
+        startNode: "107220502",
+        type: "LEGAL"
+      },
+      {
+        endNode: "1644365",
+        id: "88823996",
+        properties: {
+          role: "Natural person shareholders",
+          shouldCapi: 420,
+          stockPercent: 1.6733
+        },
+        startNode: "105713087",
+        type: "INVEST"
+      },
+      {
+        endNode: "43081155",
+        id: "143982956",
+        properties: {
+          role: ""
+        },
+        startNode: "110515288",
+        type: "LEGAL"
+      },
+      {
+        endNode: "1644365",
+        id: "88823986",
+        properties: {
+          role: "Natural person shareholders",
+          shouldCapi: 1710,
+          stockPercent: 6.8127
+        },
+        startNode: "142076283",
+        type: "INVEST"
+      },
+      {
+        endNode: "34606131",
+        id: "213517639",
+        properties: {
+          role: "Director"
+        },
+        startNode: "64909995",
+        type: "EMPLOY"
+      },
+      {
+        endNode: "60658751",
+        id: "54842694",
+        properties: {
+          role: "Natural person shareholders",
+          shouldCapi: 30,
+          stockPercent: 1.16
+        },
+        startNode: "107220502",
+        type: "INVEST"
+      },
+      {
+        endNode: "54516604",
+        id: "140892768",
+        properties: {
+          role: ""
+        },
+        startNode: "110515288",
+        type: "LEGAL"
+      },
+      {
+        endNode: "24771439",
+        id: "379403",
+        properties: {
+          role: "Corporate shareholders",
+          shouldCapi: 5000,
+          stockPercent: 50
+        },
+        startNode: "22762107",
+        type: "INVEST"
+      },
+      {
+        endNode: "60658751",
+        id: "54842707",
+        properties: {
+          role: "Natural person shareholders",
+          shouldCapi: 0,
+          stockPercent: 0.19
+        },
+        startNode: "134660183",
+        type: "INVEST"
+      },
+      {
+        endNode: "3219383",
+        id: "220354360",
+        properties: {
+          role: "Chairman and General Manager"
+        },
+        startNode: "113253804",
+        type: "EMPLOY"
+      },
+      {
+        endNode: "60658751",
+        id: "4028940",
+        properties: {
+          role: "Corporate legal entity",
+          shouldCapi: 650,
+          stockPercent: 25.1
+        },
+        startNode: "1644365",
+        type: "INVEST"
+      },
+      {
+        endNode: "36029553",
+        id: "95869826",
+        properties: {
+          role: ""
+        },
+        startNode: "93242263",
+        type: "LEGAL"
+      },
+      {
+        endNode: "60658751",
+        id: "4028939",
+        properties: {
+          role: "Corporate legal entity",
+          shouldCapi: 1082.5,
+          stockPercent: 41.8
+        },
+        startNode: "9894729",
+        type: "INVEST"
+      },
+      {
+        endNode: "17678515",
+        id: "219598638",
+        properties: {
+          role: "Supervisor"
+        },
+        startNode: "134660183",
+        type: "EMPLOY"
+      },
+      {
+        endNode: "17678515",
+        id: "219598639",
+        properties: {
+          role: "Director"
+        },
+        startNode: "130622709",
+        type: "EMPLOY"
+      },
+      {
+        endNode: "17678515",
+        id: "219598636",
+        properties: {
+          role: "Chairman and General Manager"
+        },
+        startNode: "105713087",
+        type: "EMPLOY"
+      },
+      {
+        endNode: "17678515",
+        id: "219598637",
+        properties: {
+          role: "Director"
+        },
+        startNode: "77435391",
+        type: "EMPLOY"
+      },
+      {
+        endNode: "49687512",
+        id: "1153617",
+        properties: {
+          role: "Corporate legal entity",
+          shouldCapi: 200,
+          stockPercent: 39.6
+        },
+        startNode: "3219383",
+        type: "INVEST"
+      },
+      {
+        endNode: "49687512",
+        id: "1153618",
+        properties: {
+          role: "Corporate legal entity",
+          shouldCapi: 110,
+          stockPercent: 21.78
+        },
+        startNode: "34142761",
+        type: "INVEST"
+      },
+      {
+        endNode: "49687512",
+        id: "1153620",
+        properties: {
+          role: "Corporate legal entity",
+          shouldCapi: 50,
+          stockPercent: 9.9
+        },
+        startNode: "56302401",
+        type: "INVEST"
+      },
+      {
+        endNode: "57243080",
+        id: "6011420",
+        properties: {
+          role: "Corporate legal entity",
+          shouldCapi: 2000,
+          stockPercent: 100
+        },
+        startNode: "1644365",
+        type: "INVEST"
+      },
+      {
+        endNode: "18474062",
+        id: "2780768",
+        properties: {
+          role: "Corporate legal entity",
+          shouldCapi: 5000,
+          stockPercent: 100
+        },
+        startNode: "1644365",
+        type: "INVEST"
+      },
+      {
+        endNode: "50469852",
+        id: "250523812",
+        properties: {
+          role: "Manager"
+        },
+        startNode: "87600297",
+        type: "EMPLOY"
+      },
+      {
+        endNode: "22762107",
+        id: "68328030",
+        properties: {
+          role: "Natural person shareholders",
+          shouldCapi: 0,
+          stockPercent: 0
+        },
+        startNode: "64909995",
+        type: "INVEST"
+      },
+      {
+        endNode: "50469852",
+        id: "250523811",
+        properties: {
+          role: "Supervisor"
+        },
+        startNode: "67036074",
+        type: "EMPLOY"
+      },
+      {
+        endNode: "34606131",
+        id: "121346413",
+        properties: {
+          role: ""
+        },
+        startNode: "67036074",
+        type: "LEGAL"
+      },
+      {
+        endNode: "42796297",
+        id: "1829453",
+        properties: {
+          role: "Corporate legal entity",
+          shouldCapi: 100,
+          stockPercent: 100
+        },
+        startNode: "49687512",
+        type: "INVEST"
+      },
+      {
+        endNode: "57243080",
+        id: "255768916",
+        properties: {
+          role: "Supervisor"
+        },
+        startNode: "77435391",
+        type: "EMPLOY"
+      },
+      {
+        endNode: "57243080",
+        id: "255768917",
+        properties: {
+          role: "Executive Director"
+        },
+        startNode: "93242263",
+        type: "EMPLOY"
+      },
+      {
+        endNode: "23428715",
+        id: "725607",
+        properties: {
+          role: "State-owned enterprises",
+          shouldCapi: 30000,
+          stockPercent: 100
+        },
+        startNode: "58917442",
+        type: "INVEST"
+      },
+      {
+        endNode: "57243080",
+        id: "255768915",
+        properties: {
+          role: "Manager"
+        },
+        startNode: "93242263",
+        type: "EMPLOY"
+      },
+      {
+        endNode: "60658751",
+        id: "54842676",
+        properties: {
+          role: "Natural person shareholders",
+          shouldCapi: 175,
+          stockPercent: 6.76
+        },
+        startNode: "67036074",
+        type: "INVEST"
+      },
+      {
+        endNode: "50469852",
+        id: "250523806",
+        properties: {
+          role: "Chairman of the Board of Directors"
+        },
+        startNode: "87600297",
+        type: "EMPLOY"
+      },
+      {
+        endNode: "56369887",
+        id: "271660608",
+        properties: {
+          role: "Director"
+        },
+        startNode: "142076283",
+        type: "EMPLOY"
+      },
+      {
+        endNode: "60658751",
+        id: "54842678",
+        properties: {
+          role: "Natural person shareholders",
+          shouldCapi: 105,
+          stockPercent: 4.05
+        },
+        startNode: "128092587",
+        type: "INVEST"
+      },
+      {
+        endNode: "50469852",
+        id: "250523804",
+        properties: {
+          role: "Director"
+        },
+        startNode: "72442991",
+        type: "EMPLOY"
+      },
+      {
+        endNode: "60658751",
+        id: "54842679",
+        properties: {
+          role: "Natural person shareholders",
+          shouldCapi: 95,
+          stockPercent: 3.67
+        },
+        startNode: "87600297",
+        type: "INVEST"
+      },
+      {
+        endNode: "56369887",
+        id: "271660616",
+        properties: {
+          role: "Director"
+        },
+        startNode: "93242263",
+        type: "EMPLOY"
+      },
+      {
+        endNode: "56369887",
+        id: "271660619",
+        properties: {
+          role: "Director"
+        },
+        startNode: "105713087",
+        type: "EMPLOY"
+      },
+      {
+        endNode: "54516604",
+        id: "254017956",
+        properties: {
+          role: "Chairman of the Board of Directors"
+        },
+        startNode: "110515288",
+        type: "EMPLOY"
+      },
+      {
+        endNode: "14602311",
+        id: "51766668",
+        properties: {
+          role: "Natural person shareholders",
+          shouldCapi: 95,
+          stockPercent: 95
+        },
+        startNode: "97920367",
+        type: "INVEST"
+      },
+      {
+        endNode: "14634904",
+        id: "166686542",
+        properties: {
+          role: "Executive Director"
+        },
+        startNode: "64909995",
+        type: "EMPLOY"
+      },
+      {
+        endNode: "17678515",
+        id: "124281280",
+        properties: {
+          role: ""
+        },
+        startNode: "105713087",
+        type: "LEGAL"
+      },
+      {
+        endNode: "35928893",
+        id: "189255149",
+        properties: {
+          role: "Chairman and General Manager"
+        },
+        startNode: "110515288",
+        type: "EMPLOY"
+      },
+      {
+        endNode: "27736592",
+        id: "262558989",
+        properties: {
+          role: "Executive Director"
+        },
+        startNode: "110515288",
+        type: "EMPLOY"
+      },
+      {
+        endNode: "56062039",
+        id: "6662857",
+        properties: {
+          role: "Corporate legal entity",
+          shouldCapi: 100,
+          stockPercent: 100
+        },
+        startNode: "3219383",
+        type: "INVEST"
+      },
+      {
+        endNode: "56302401",
+        id: "200314186",
+        properties: {
+          role: "Executive Director and Managing Director"
+        },
+        startNode: "110515288",
+        type: "EMPLOY"
+      },
+      {
+        endNode: "35928893",
+        id: "189255161",
+        properties: {
+          role: "Director"
+        },
+        startNode: "97920367",
+        type: "EMPLOY"
+      },
+      {
+        endNode: "14634904",
+        id: "166686544",
+        properties: {
+          role: "Manager"
+        },
+        startNode: "95853610",
+        type: "EMPLOY"
+      },
+      {
+        endNode: "56369887",
+        id: "6918827",
+        properties: {
+          role: "Corporate legal entity",
+          shouldCapi: 100,
+          stockPercent: 0.4
+        },
+        startNode: "1644365",
+        type: "INVEST"
+      },
+      {
+        endNode: "56369887",
+        id: "6918826",
+        properties: {
+          role: "Corporate legal entity",
+          shouldCapi: 24900,
+          stockPercent: 99.6
+        },
+        startNode: "18474062",
+        type: "INVEST"
+      },
+      {
+        endNode: "42226467",
+        id: "141962917",
+        properties: {
+          role: ""
+        },
+        startNode: "113253804",
+        type: "LEGAL"
+      },
+      {
+        endNode: "49687512",
+        id: "170859771",
+        properties: {
+          role: "Chairman of the Board of Directors"
+        },
+        startNode: "113253804",
+        type: "EMPLOY"
+      },
+      {
+        endNode: "56062039",
+        id: "147251730",
+        properties: {
+          role: ""
+        },
+        startNode: "113253804",
+        type: "LEGAL"
+      },
+      {
+        endNode: "49687512",
+        id: "170859770",
+        properties: {
+          role: "Director and Managing Director"
+        },
+        startNode: "110515288",
+        type: "EMPLOY"
+      },
+      {
+        endNode: "42796297",
+        id: "106433705",
+        properties: {
+          role: ""
+        },
+        startNode: "110515288",
+        type: "LEGAL"
+      },
+      {
+        endNode: "43081155",
+        id: "6275752",
+        properties: {
+          role: "Corporate legal entity",
+          shouldCapi: 245,
+          stockPercent: 49
+        },
+        startNode: "54516604",
+        type: "INVEST"
+      },
+      {
+        endNode: "27736592",
+        id: "145022556",
+        properties: {
+          role: ""
+        },
+        startNode: "110515288",
+        type: "LEGAL"
+      },
+      {
+        endNode: "50469852",
+        id: "139203250",
+        properties: {
+          role: ""
+        },
+        startNode: "87600297",
+        type: "LEGAL"
+      },
+      {
+        endNode: "57581013",
+        id: "256694345",
+        properties: {
+          role: "Chairman and General Manager"
+        },
+        startNode: "130352752",
+        type: "EMPLOY"
+      },
+      {
+        endNode: "57581013",
+        id: "256694347",
+        properties: {
+          role: "Supervisor"
+        },
+        startNode: "137701706",
+        type: "EMPLOY"
+      },
+      {
+        endNode: "46162667",
+        id: "161599145",
+        properties: {
+          role: "Director"
+        },
+        startNode: "64909995",
+        type: "EMPLOY"
+      },
+      {
+        endNode: "46162667",
+        id: "161599150",
+        properties: {
+          role: "Supervisor"
+        },
+        startNode: "138434036",
+        type: "EMPLOY"
+      },
+      {
+        endNode: "46162667",
+        id: "161599153",
+        properties: {
+          role: "Director"
+        },
+        startNode: "67036074",
+        type: "EMPLOY"
+      },
+      {
+        endNode: "46162667",
+        id: "161599155",
+        properties: {
+          role: "Manager"
+        },
+        startNode: "67036074",
+        type: "EMPLOY"
+      },
+      {
+        endNode: "44484097",
+        id: "179670435",
+        properties: {
+          role: "Chairman of the Supervisory Board"
+        },
+        startNode: "137701706",
+        type: "EMPLOY"
+      },
+      {
+        endNode: "46162667",
+        id: "161599158",
+        properties: {
+          role: "Supervisor"
+        },
+        startNode: "110515288",
+        type: "EMPLOY"
+      },
+      {
+        endNode: "46162667",
+        id: "161599161",
+        properties: {
+          role: "Director"
+        },
+        startNode: "93242263",
+        type: "EMPLOY"
+      },
+      {
+        endNode: "46162667",
+        id: "161599165",
+        properties: {
+          role: "Director"
+        },
+        startNode: "97920367",
+        type: "EMPLOY"
+      },
+      {
+        endNode: "46162667",
+        id: "161599164",
+        properties: {
+          role: "Supervisor"
+        },
+        startNode: "114649571",
+        type: "EMPLOY"
+      },
+      {
+        endNode: "44484097",
+        id: "179670440",
+        properties: {
+          role: "Employee Supervisor"
+        },
+        startNode: "69296452",
+        type: "EMPLOY"
+      },
+      {
+        endNode: "44484097",
+        id: "179670420",
+        properties: {
+          role: "Director and Managing Director"
+        },
+        startNode: "151117034",
+        type: "EMPLOY"
+      },
+      {
+        endNode: "44484097",
+        id: "1657659",
+        properties: {
+          role: "State-owned enterprises",
+          shouldCapi: 429.6903,
+          stockPercent: 0.34
+        },
+        startNode: "30648266",
+        type: "INVEST"
+      },
+      {
+        endNode: "30420552",
+        id: "173270391",
+        properties: {
+          role: "Chairman of the Board of Directors"
+        },
+        startNode: "105713087",
+        type: "EMPLOY"
+      },
+      {
+        endNode: "44484097",
+        id: "179670418",
+        properties: {
+          role: "Chairman of the Board of Directors"
+        },
+        startNode: "130352752",
+        type: "EMPLOY"
+      },
+      {
+        endNode: "44484097",
+        id: "1657649",
+        properties: {
+          role: "Corporate legal entity",
+          shouldCapi: 11925.383,
+          stockPercent: 9.37
+        },
+        startNode: "57581013",
+        type: "INVEST"
+      },
+      {
+        endNode: "30420552",
+        id: "173270393",
+        properties: {
+          role: "Director"
+        },
+        startNode: "93242263",
+        type: "EMPLOY"
+      },
+      {
+        endNode: "44484097",
+        id: "179670426",
+        properties: {
+          role: "Staff Director"
+        },
+        startNode: "133012980",
+        type: "EMPLOY"
+      },
+      {
+        endNode: "43081155",
+        id: "260410549",
+        properties: {
+          role: "Supervisor"
+        },
+        startNode: "113253804",
+        type: "EMPLOY"
+      },
+      {
+        endNode: "44484097",
+        id: "1657647",
+        properties: {
+          role: "Corporate legal entity",
+          shouldCapi: 20263.223,
+          stockPercent: 15.92
+        },
+        startNode: "23428715",
+        type: "INVEST"
+      },
+      {
+        endNode: "44484097",
+        id: "1657646",
+        properties: {
+          role: "Corporate legal entity",
+          shouldCapi: 52111.46,
+          stockPercent: 40.94
+        },
+        startNode: "58917442",
+        type: "INVEST"
+      },
+      {
+        endNode: "43081155",
+        id: "260410557",
+        properties: {
+          role: "Director and Managing Director"
+        },
+        startNode: "110515288",
+        type: "EMPLOY"
+      },
+      {
+        endNode: "9894729",
+        id: "37574011",
+        properties: {
+          role: "Natural person shareholders",
+          shouldCapi: 90,
+          stockPercent: 60
+        },
+        startNode: "142076283",
+        type: "INVEST"
+      },
+      {
+        endNode: "42226467",
+        id: "256226333",
+        properties: {
+          role: "Executive Director"
+        },
+        startNode: "113253804",
+        type: "EMPLOY"
+      },
+      {
+        endNode: "44484097",
+        id: "1657666",
+        properties: {
+          role: "Corporate legal entity",
+          shouldCapi: 177.6604,
+          stockPercent: 0.14
+        },
+        startNode: "16192923",
+        type: "INVEST"
+      },
+      {
+        endNode: "42226467",
+        id: "256226329",
+        properties: {
+          role: "Manager"
+        },
+        startNode: "113253804",
+        type: "EMPLOY"
+      },
+      {
+        endNode: "44484097",
+        id: "1657671",
+        properties: {
+          role: "Corporate legal entity",
+          shouldCapi: 46.4656,
+          stockPercent: 0.04
+        },
+        startNode: "46162667",
+        type: "INVEST"
+      },
+      {
+        endNode: "59597831",
+        id: "55356435",
+        properties: {
+          role: "Natural person shareholders",
+          shouldCapi: 750,
+          stockPercent: 5
+        },
+        startNode: "64909995",
+        type: "INVEST"
+      },
+      {
+        endNode: "4012368",
+        id: "251573662",
+        properties: {
+          role: "Manager"
+        },
+        startNode: "107220502",
+        type: "EMPLOY"
+      },
+      {
+        endNode: "4012368",
+        id: "251573663",
+        properties: {
+          role: "Executive Director"
+        },
+        startNode: "107220502",
+        type: "EMPLOY"
+      },
+      {
+        endNode: "4012368",
+        id: "251573661",
+        properties: {
+          role: "Supervisor"
+        },
+        startNode: "72442991",
+        type: "EMPLOY"
+      },
+      {
+        endNode: "42226467",
+        id: "256226336",
+        properties: {
+          role: "Supervisor"
+        },
+        startNode: "92456538",
+        type: "EMPLOY"
+      },
+      {
+        endNode: "14634904",
+        id: "915304",
+        properties: {
+          role: "Corporate legal entity",
+          shouldCapi: 1000,
+          stockPercent: 20
+        },
+        startNode: "59597831",
+        type: "INVEST"
+      },
+      {
+        endNode: "18474062",
+        id: "199282826",
+        properties: {
+          role: "General Manager"
+        },
+        startNode: "105713087",
+        type: "EMPLOY"
+      },
+      {
+        endNode: "14634904",
+        id: "915302",
+        properties: {
+          role: "Corporate legal entity",
+          shouldCapi: 2550,
+          stockPercent: 51
+        },
+        startNode: "1644365",
+        type: "INVEST"
+      },
+      {
+        endNode: "18474062",
+        id: "199282828",
+        properties: {
+          role: "Supervisor"
+        },
+        startNode: "92456538",
+        type: "EMPLOY"
+      },
+      {
+        endNode: "18474062",
+        id: "199282830",
+        properties: {
+          role: "Director"
+        },
+        startNode: "134660183",
+        type: "EMPLOY"
+      },
+      {
+        endNode: "18474062",
+        id: "199282831",
+        properties: {
+          role: "Director"
+        },
+        startNode: "105713087",
+        type: "EMPLOY"
+      },
+      {
+        endNode: "18474062",
+        id: "199282832",
+        properties: {
+          role: "Director"
+        },
+        startNode: "64909995",
+        type: "EMPLOY"
+      },
+      {
+        endNode: "18474062",
+        id: "199282834",
+        properties: {
+          role: "Chairman of the Board of Directors"
+        },
+        startNode: "93242263",
+        type: "EMPLOY"
+      },
+      {
+        endNode: "18474062",
+        id: "199282837",
+        properties: {
+          role: "Director"
+        },
+        startNode: "87600297",
+        type: "EMPLOY"
+      },
+      {
+        endNode: "16192923",
+        id: "2279332",
+        properties: {
+          role: "Corporate legal entity",
+          shouldCapi: 6000,
+          stockPercent: 100
+        },
+        startNode: "1644365",
+        type: "INVEST"
+      },
+      {
+        endNode: "18862200",
+        id: "6596585",
+        properties: {
+          role: "Corporate legal entity",
+          shouldCapi: 1000,
+          stockPercent: 100
+        },
+        startNode: "46162667",
+        type: "INVEST"
+      },
+      {
+        endNode: "16192923",
+        id: "190519547",
+        properties: {
+          role: "Supervisor"
+        },
+        startNode: "87600297",
+        type: "EMPLOY"
+      },
+      {
+        endNode: "16192923",
+        id: "190519546",
+        properties: {
+          role: "Director"
+        },
+        startNode: "142076283",
+        type: "EMPLOY"
+      },
+      {
+        endNode: "16192923",
+        id: "190519545",
+        properties: {
+          role: "General Manager"
+        },
+        startNode: "93242263",
+        type: "EMPLOY"
+      },
+      {
+        endNode: "16192923",
+        id: "190519548",
+        properties: {
+          role: "Chairman of the Board of Directors"
+        },
+        startNode: "93242263",
+        type: "EMPLOY"
+      },
+      {
+        endNode: "3219383",
+        id: "124642499",
+        properties: {
+          role: ""
+        },
+        startNode: "113253804",
+        type: "LEGAL"
+      },
+      {
+        endNode: "59597831",
+        id: "125389000",
+        properties: {
+          role: ""
+        },
+        startNode: "64909995",
+        type: "LEGAL"
+      },
+      {
+        endNode: "36029553",
+        id: "13900647",
+        properties: {
+          role: "Natural person shareholders",
+          shouldCapi: 450,
+          stockPercent: 15
+        },
+        startNode: "105713087",
+        type: "INVEST"
+      },
+      {
+        endNode: "18862200",
+        id: "146688894",
+        properties: {
+          role: ""
+        },
+        startNode: "128092587",
+        type: "LEGAL"
+      },
+      {
+        endNode: "30420552",
+        id: "1291229",
+        properties: {
+          role: "Corporate legal entity",
+          shouldCapi: 30000,
+          stockPercent: 100
+        },
+        startNode: "1644365",
+        type: "INVEST"
+      },
+      {
+        endNode: "34142761",
+        id: "246368607",
+        properties: {
+          role: "Executive Director and Managing Director"
+        },
+        startNode: "113253804",
+        type: "EMPLOY"
+      },
+      {
+        endNode: "9894729",
+        id: "195684435",
+        properties: {
+          role: "Executive Director"
+        },
+        startNode: "142076283",
+        type: "EMPLOY"
+      }
+    ]
   }
 };
 

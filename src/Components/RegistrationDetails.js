@@ -113,6 +113,22 @@ class RegistrationDetails extends Component {
             </ListItem>
             <ListItem>
               <ListItemIcon className={classes.icon}>
+                <img alt="number" src={require("./images/Number.png")} />
+              </ListItemIcon>
+              <ListItemText
+                style={{ marginLeft: -25 }}
+                primary={
+                  <Typography className={"fontStyle7"}>Credit Code</Typography>
+                }
+              />
+              <ListItemSecondaryAction
+                className={classNames(classes.listItemSecondary, "fontStyle10")}
+              >
+                {this.state.report.registrationCreditCode}
+              </ListItemSecondaryAction>
+            </ListItem>
+            <ListItem>
+              <ListItemIcon className={classes.icon}>
                 <img
                   alt="registration date"
                   src={require("./images/Calender.svg")}
@@ -152,19 +168,6 @@ class RegistrationDetails extends Component {
                 {this.state.report.registrationStatus}
               </ListItemSecondaryAction>
             </ListItem>
-            {/*<ListItem>*/}
-            {/*{this.state.report.registrationIcon !== undefined ? (*/}
-            {/*<ListItemIcon className={classes.icon}>*/}
-            {/*<img alt="msg" src={Utils.getIcon("")} />*/}
-            {/*</ListItemIcon>*/}
-            {/*) : (*/}
-            {/*""*/}
-            {/*)}*/}
-            {/*<ListItemText*/}
-            {/*style={{ marginLeft: -35 }}*/}
-            {/*primary={<Typography className={"fontStyle11"} />}*/}
-            {/*/>*/}
-            {/*</ListItem>*/}
           </List>
         </div>
       </BigBoxLayout>
