@@ -86,11 +86,24 @@ class CompanyChanges extends Component {
   }
 
   isSpecialChange(change) {
-    return change.toLowerCase().includes("[new]") ||
-      change.toLowerCase().includes("[quit]") ||
-      change.toLowerCase().includes("[quits]") ||
-      change.toLowerCase().includes("[exit]") ||
-      change.toLowerCase().includes("[withdrew]");
+    const lowerCaseChange = change.toLowerCase();
+    return (
+      lowerCaseChange.includes("[new]") ||
+      lowerCaseChange.includes("[quit]") ||
+      lowerCaseChange.includes("[quits]") ||
+      lowerCaseChange.includes("[exit]") ||
+      lowerCaseChange.includes("[added]") ||
+      lowerCaseChange.includes("[withdrew]")
+    );
+  }
+
+  isSeperatedChange(changeItem) {
+    const lowerCaseChangeItem = changeItem.toLowerCase();
+    return (
+      lowerCaseChangeItem.includes("scope of business") ||
+      lowerCaseChangeItem.includes("shareholder") ||
+      lowerCaseChangeItem.includes("legal representative")
+    );
   }
 
   render() {
@@ -284,43 +297,63 @@ class CompanyChanges extends Component {
                               <Typography className={classes.typoTitle}>
                                 {"\u2022"} Before Change:
                               </Typography>
-                              <div>
-                                {change.before
-                                  .split(/,|;|\./)
-                                  .map((change, idx) => (
-                                    <Typography
-                                      key={idx}
-                                      style={{ marginLeft: 7 }}
-                                      className={
-                                        this.isSpecialChange(change)
-                                          ? "fontStyle30"
-                                          : "fontStyle11"
-                                      }
-                                    >
-                                      {change}
-                                    </Typography>
-                                  ))}
-                              </div>
+                              {this.isSeperatedChange(change.changeItem) ? (
+                                <div>
+                                  {change.before
+                                    .split(/,|;|\./)
+                                    .map((change, idx) => (
+                                      <Typography
+                                        key={idx}
+                                        style={{ marginLeft: 7 }}
+                                        className={
+                                          this.isSpecialChange(change)
+                                            ? "fontStyle30"
+                                            : "fontStyle11"
+                                        }
+                                      >
+                                        {change}
+                                      </Typography>
+                                    ))}
+                                </div>
+                              ) : (
+                                <Typography
+                                  key={idx}
+                                  style={{ marginLeft: 7 }}
+                                  className={"fontStyle11"}
+                                >
+                                  {change.before}
+                                </Typography>
+                              )}
                               <Typography className={classes.typoTitle}>
                                 {"\u2022"} After Change:
                               </Typography>
-                              <div>
-                                {change.after
-                                  .split(/,|;|\./)
-                                  .map((change, idx) => (
-                                    <Typography
-                                      key={idx}
-                                      style={{ marginLeft: 7 }}
-                                      className={
-                                        this.isSpecialChange(change)
-                                          ? "fontStyle30"
-                                          : "fontStyle11"
-                                      }
-                                    >
-                                      {change}
-                                    </Typography>
-                                  ))}
-                              </div>
+                              {this.isSeperatedChange(change.changeItem) ? (
+                                <div>
+                                  {change.after
+                                    .split(/,|;|\./)
+                                    .map((change, idx) => (
+                                      <Typography
+                                        key={idx}
+                                        style={{ marginLeft: 7 }}
+                                        className={
+                                          this.isSpecialChange(change)
+                                            ? "fontStyle30"
+                                            : "fontStyle11"
+                                        }
+                                      >
+                                        {change}
+                                      </Typography>
+                                    ))}
+                                </div>
+                              ) : (
+                                <Typography
+                                  key={idx}
+                                  style={{ marginLeft: 7 }}
+                                  className={"fontStyle11"}
+                                >
+                                  {change.after}
+                                </Typography>
+                              )}
                             </div>
                           </StyledExpansionPanelDetails>
                         </StyledExpansionPanel>
