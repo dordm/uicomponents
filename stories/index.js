@@ -16,9 +16,9 @@ import InfoCard from "../src/Components/InfoCard";
 import TwoInfoCard from "../src/Components/TwoInfoCard";
 import PublicFinancial from "../src/Components/PublicFinancial";
 import PublicFinancialRatio from "../src/Components/PublicFinancialRatio";
-import MoreDataBranchesInvestments from "../src/Components/MoreDataBranchesInvestments";
+import MoreDataCourtCases from "../src/Components/MoreDataCourtCases";
 import MoreDataEmployees from "../src/Components/MoreDataEmployees";
-import MoreDataLawEnforcement from '../src/Components/MoreDataLawEnforcement';
+import MoreDataLawEnforcement from "../src/Components/MoreDataLawEnforcement";
 import reportData from "./MockData/reportData";
 import "../src/Components/css/fonts.css";
 import "../src/Components/css/tooltip.css";
@@ -175,6 +175,9 @@ storiesOf("Components", module)
       content2Lbl={reportData.lawCases.content2Lbl}
       bottomIcon={Utils.getIconByNumber(reportData.lawCases.bottomIcon)}
       bottomMsg={reportData.lawCases.bottomMsg}
+      moreBtn={true}
+      moreTitle={"Court Cases"}
+      moreData={<MoreDataCourtCases moreData={reportData.courtCases} />}
     />
   ))
   .add("Two Info Card with single value", () => (
@@ -226,19 +229,13 @@ storiesOf("Components", module)
       name={"law enforcement"}
       date={""}
       infoText={"The company subsidiaries and branches"}
-      content1={
-        reportData.lawEnforcement.length
-      }
+      content1={reportData.lawEnforcement.length}
       content1Lbl={"law enforcement"}
       content2Lbl={""}
       bottomIcon={Utils.getIconByNumber(4)}
       bottomMsg={"some text message"}
       moreBtn={true}
       moreTitle={"Enforcement List"}
-      moreData={
-          <MoreDataLawEnforcement
-              moreData={reportData.lawEnforcement}
-          />
-      }
+      moreData={<MoreDataLawEnforcement moreData={reportData.lawEnforcement} />}
     />
   ));

@@ -5,6 +5,7 @@ import Typography from "@material-ui/core/Typography";
 import ListItemIcon from "@material-ui/core/ListItemIcon";
 import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
 import { withStyles } from "@material-ui/core/styles/index";
+import classNames from 'classnames';
 import PropTypes from "prop-types";
 import Utils from "./js/Utils";
 import {
@@ -18,16 +19,49 @@ import {
 const styles = {
   expansionSummaryInner: {
     margin: "0px !important"
+  },
+  listItemTitle: {
+    background: "#f0f1f5",
+    paddingTop: "10px !important",
+    paddingBottom: "10px !important",
+    justifyContent: "center",
+    display: "flex"
   }
+};
+
+const casesTypes = {
+  ms: "Civil",
+  xs: "Criminal",
+  xz: "Administrative",
+  zscq: "IP",
+  pc: "Compensation",
+  zx: "Execution",
+  other: "Other"
 };
 
 function MoreDataCourtCases(props) {
   const { classes } = props;
+  const data =
+    props.moreData && props.moreData[0].CASE_NAME
+      ? props.moreData.sort(function(a, b) {
+          return ("" + a.CASE_TYPE).localeCompare(b.CASE_TYPE);
+        })
+      : props.moreData;
   return (
     <List>
-      {props.moreData.map((item, idx) => {
+      {data.map((item, idx) => {
         return (
           <div key={idx}>
+            {idx === 0 || data[idx - 1].CASE_TYPE !== item.CASE_TYPE ? (
+              <StyledListItem
+                className={classNames(classes.listItemTitle, "fontStyle27")}
+                style={{ marginTop: idx !== 0 ? 20 : 0 }}
+              >
+                {casesTypes[item.CASE_TYPE]}
+              </StyledListItem>
+            ) : (
+              ""
+            )}
             <StyledListItem>
               <StyledExpansionPanel style={{ width: "100%" }}>
                 <StyledExpansionSummary

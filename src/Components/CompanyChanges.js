@@ -303,7 +303,7 @@ class CompanyChanges extends Component {
                                     .split(/;/)
                                     .map((change, idx) => (
                                       <Typography
-                                        key={idx}
+                                        key={"before" + idx}
                                         style={{ marginLeft: 7 }}
                                         className={
                                           this.isSpecialChange(change)
@@ -317,7 +317,7 @@ class CompanyChanges extends Component {
                                 </div>
                               ) : (
                                 <Typography
-                                  key={idx}
+                                  key={"before" + idx}
                                   style={{ marginLeft: 7 }}
                                   className={"fontStyle11"}
                                 >
@@ -333,7 +333,7 @@ class CompanyChanges extends Component {
                                     .split(/;/)
                                     .map((change, idx) => (
                                       <Typography
-                                        key={idx}
+                                        key={"after" + idx}
                                         style={{ marginLeft: 7 }}
                                         className={
                                           this.isSpecialChange(change)
@@ -347,7 +347,7 @@ class CompanyChanges extends Component {
                                 </div>
                               ) : (
                                 <Typography
-                                  key={idx}
+                                  key={"after" + idx}
                                   style={{ marginLeft: 7 }}
                                   className={"fontStyle11"}
                                 >
