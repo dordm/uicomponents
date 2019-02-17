@@ -159,7 +159,7 @@ class CompanyChanges extends Component {
                   .slice(0, 5)
                   .map((change, idx) => {
                     return (
-                      <ListItem key={idx}>
+                      <ListItem key={"change" + idx}>
                         <ListItemIcon className={classes.icon}>
                           <ChangeIcon
                             style={{ color: "#4c84ff" }}
@@ -254,7 +254,7 @@ class CompanyChanges extends Component {
                 .filter(change => change.changeItem !== "")
                 .map((change, idx) => {
                   return (
-                    <div key={idx}>
+                    <div key={"changeDialog" + idx}>
                       <StyledListItem>
                         <StyledExpansionPanel style={{ width: "100%" }}>
                           <StyledExpansionSummary
@@ -301,9 +301,9 @@ class CompanyChanges extends Component {
                                 <div>
                                   {change.before
                                     .split(/;/)
-                                    .map((change, idx) => (
+                                    .map((change, index) => (
                                       <Typography
-                                        key={"before" + idx}
+                                        key={"before" + idx + " " + index}
                                         style={{ marginLeft: 7 }}
                                         className={
                                           this.isSpecialChange(change)
@@ -331,9 +331,9 @@ class CompanyChanges extends Component {
                                 <div>
                                   {change.after
                                     .split(/;/)
-                                    .map((change, idx) => (
+                                    .map((change, index) => (
                                       <Typography
-                                        key={"after" + idx}
+                                        key={"after" + idx + " " + index}
                                         style={{ marginLeft: 7 }}
                                         className={
                                           this.isSpecialChange(change)
