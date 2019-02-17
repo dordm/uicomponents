@@ -300,7 +300,7 @@ class CompanyChanges extends Component {
                               {this.isSeperatedChange(change.changeItem) ? (
                                 <div>
                                   {change.before
-                                    .split(/,|;|\./)
+                                    .split(/;/)
                                     .map((change, idx) => (
                                       <Typography
                                         key={idx}
@@ -330,7 +330,7 @@ class CompanyChanges extends Component {
                               {this.isSeperatedChange(change.changeItem) ? (
                                 <div>
                                   {change.after
-                                    .split(/,|;|\./)
+                                    .split(/;/)
                                     .map((change, idx) => (
                                       <Typography
                                         key={idx}
