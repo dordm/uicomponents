@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="deedca82-8ad4-4e62-ac9a-df5681d3be65" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/Components/CompanyChanges.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/CompanyChanges.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Certifications.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Certifications.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/TotalExports.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/TotalExports.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -28,8 +30,8 @@
       <file leaf-file-name="CompanyChanges.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Components/CompanyChanges.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="330" column="37" lean-forward="true" selection-end-line="379" />
+            <state relative-caret-position="5134">
+              <caret line="330" column="37" selection-end-line="379" />
             </state>
           </provider>
         </entry>
@@ -37,7 +39,7 @@
       <file leaf-file-name="MoreDataCourtCases.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Components/MoreDataCourtCases.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
+            <state relative-caret-position="680">
               <caret line="56" column="73" selection-start-line="56" selection-start-column="73" selection-end-line="56" selection-end-column="73" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
@@ -49,8 +51,8 @@
       <file leaf-file-name="TopProducts.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Components/TopProducts.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="573">
-              <caret line="274" column="64" lean-forward="true" selection-start-line="274" selection-start-column="29" selection-end-line="274" selection-end-column="64" />
+            <state relative-caret-position="355">
+              <caret line="192" column="8" selection-start-line="192" selection-start-column="8" selection-end-line="200" selection-end-column="17" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -61,8 +63,8 @@
       <file leaf-file-name="Certifications.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Components/Certifications.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1920">
-              <caret line="113" column="23" selection-start-line="113" selection-start-column="23" selection-end-line="113" selection-end-column="23" />
+            <state relative-caret-position="729">
+              <caret line="310" column="30" lean-forward="true" selection-start-line="310" selection-start-column="30" selection-end-line="310" selection-end-column="30" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -70,14 +72,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MoreDataTrademarks.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Components/MoreDataTrademarks.js">
+      <file leaf-file-name="TotalExports.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Components/TotalExports.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1173">
-              <caret line="87" column="37" selection-start-line="87" selection-start-column="37" selection-end-line="87" selection-end-column="37" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="261">
+              <caret line="40" column="19" lean-forward="true" selection-start-line="40" selection-start-column="19" selection-end-line="40" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -103,7 +102,7 @@
       <file leaf-file-name="fonts.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Components/css/fonts.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="261">
+            <state relative-caret-position="3536">
               <caret line="208" column="12" selection-start-line="208" selection-start-column="1" selection-end-line="208" selection-end-column="12" />
             </state>
           </provider>
@@ -112,7 +111,7 @@
       <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/stories/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="211">
+            <state relative-caret-position="2414">
               <caret line="169" column="7" lean-forward="true" selection-start-line="169" selection-start-column="7" selection-end-line="169" selection-end-column="7" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
@@ -134,8 +133,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>entry.</find>
-      <find>CustomLeg</find>
       <find>entry.value.re</find>
       <find>shipmentBy</find>
       <find>getCountries</find>
@@ -164,6 +161,8 @@
       <find>18px</find>
       <find>props.moreData</find>
       <find>key=</find>
+      <find>selectMonths</find>
+      <find>value_of_</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -207,7 +206,6 @@
         <option value="$PROJECT_DIR$/src/Components/PublicFinancial.js" />
         <option value="$PROJECT_DIR$/src/Components/LowLevelComponents/FirstTimeExpTooltip.js" />
         <option value="$PROJECT_DIR$/src/Components/MoreDataDishonest.js" />
-        <option value="$PROJECT_DIR$/src/Components/TotalExports.js" />
         <option value="$PROJECT_DIR$/src/Components/js/Utils.js" />
         <option value="$PROJECT_DIR$/src/Components/TopProducts.js" />
         <option value="$PROJECT_DIR$/src/Components/LowLevelComponents/PieChart.js" />
@@ -216,13 +214,14 @@
         <option value="$PROJECT_DIR$/src/Components/css/fonts.css" />
         <option value="$PROJECT_DIR$/src/Components/MoreDataTrademarks.js" />
         <option value="$PROJECT_DIR$/src/Components/MoreDataPatents.js" />
-        <option value="$PROJECT_DIR$/src/Components/Certifications.js" />
         <option value="$PROJECT_DIR$/src/Components/RegistrationDetails.js" />
         <option value="$PROJECT_DIR$/stories/MockData/reportData.js" />
         <option value="$PROJECT_DIR$/stories/index.js" />
         <option value="$PROJECT_DIR$/src/Components/MoreDataCourtCases.js" />
-        <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/src/Components/CompanyChanges.js" />
+        <option value="$PROJECT_DIR$/src/Components/Certifications.js" />
+        <option value="$PROJECT_DIR$/src/Components/TotalExports.js" />
+        <option value="$PROJECT_DIR$/package.json" />
       </list>
     </option>
   </component>
@@ -506,26 +505,28 @@
       <workItem from="1550136281815" duration="553000" />
       <workItem from="1550141195029" duration="451000" />
       <workItem from="1550152626147" duration="5662000" />
-      <workItem from="1550391801567" duration="5792000" />
+      <workItem from="1550391801567" duration="6059000" />
+      <workItem from="1550415884392" duration="2194000" />
+      <workItem from="1550476502312" duration="1765000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="450351000" />
+    <option name="totallyTimeSpent" value="454577000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4982699" visible="true" weight="0.14330874" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4982699" visible="true" weight="0.14330874" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50052685" side_tool="true" weight="0.39069265" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32900432" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info id="npm" order="3" sideWeight="0.5017301" side_tool="true" weight="0.14805058" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32900432" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.49947312" visible="true" weight="0.28463203" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49947312" visible="true" weight="0.28463203" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -534,6 +535,7 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32900432" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -742,13 +744,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/TotalExports.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1972">
-          <caret line="129" column="22" selection-start-line="129" selection-start-column="22" selection-end-line="129" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/PieChartWrapper.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3098">
@@ -774,9 +769,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="16" column="32" selection-end-line="341" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -791,9 +783,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2448">
           <caret line="165" column="57" selection-start-line="165" selection-start-column="57" selection-end-line="165" selection-end-column="57" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -843,9 +832,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="884">
           <caret line="67" column="26" selection-start-line="67" selection-start-column="26" selection-end-line="67" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -866,16 +852,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/TopProducts.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="573">
-          <caret line="274" column="64" lean-forward="true" selection-start-line="274" selection-start-column="29" selection-end-line="274" selection-end-column="64" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/stories/MockData/reportData.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="25738">
@@ -885,7 +861,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/stories/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
+        <state relative-caret-position="2414">
           <caret line="169" column="7" lean-forward="true" selection-start-line="169" selection-start-column="7" selection-end-line="169" selection-end-column="7" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
@@ -893,26 +869,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/Certifications.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1920">
-          <caret line="113" column="23" selection-start-line="113" selection-start-column="23" selection-end-line="113" selection-end-column="23" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/css/fonts.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
+        <state relative-caret-position="3536">
           <caret line="208" column="12" selection-start-line="208" selection-start-column="1" selection-end-line="208" selection-end-column="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/MoreDataCourtCases.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
+        <state relative-caret-position="680">
           <caret line="56" column="73" selection-start-line="56" selection-start-column="73" selection-end-line="56" selection-end-column="73" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
@@ -922,8 +888,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/CompanyChanges.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="330" column="37" lean-forward="true" selection-end-line="379" />
+        <state relative-caret-position="5134">
+          <caret line="330" column="37" selection-end-line="379" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/Certifications.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="729">
+          <caret line="310" column="30" lean-forward="true" selection-start-line="310" selection-start-column="30" selection-end-line="310" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/TopProducts.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="355">
+          <caret line="192" column="8" selection-start-line="192" selection-start-column="8" selection-end-line="200" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/TotalExports.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="40" column="19" lean-forward="true" selection-start-line="40" selection-start-column="19" selection-end-line="40" selection-end-column="19" />
         </state>
       </provider>
     </entry>

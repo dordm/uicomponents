@@ -34,7 +34,7 @@ class TotalExports extends Component {
     super(props);
     this.state = {
       report: this.props.report,
-      selectMonths: 36
+      selectValue: "value_of_goods"
     };
   }
 
@@ -67,8 +67,8 @@ class TotalExports extends Component {
               supplier[i].month +
               "-Y" +
               supplier[i].year.toString().substr(2),
-            supplier: supplier[i].value_of_goods,
-            industry: currIndustry.value_of_goods
+            supplier: supplier[i][this.state.selectValue],
+            industry: currIndustry[this.state.selectValue]
           });
       } catch (e) {}
     }
@@ -81,7 +81,7 @@ class TotalExports extends Component {
               supplier[i].month +
               "-Y" +
               supplier[i].year.toString().substr(2),
-            supplier: supplier[i].value_of_goods
+            supplier: supplier[i][this.state.selectValue]
           });
         } catch (e) {}
       }
@@ -128,6 +128,14 @@ class TotalExports extends Component {
             </span>
           </ReactTooltip>
         </StyledTitle>
+          <select
+              onChange={e => this.setState({ selectValue: e.target.value })}
+              className={classNames(classes.select, "fontStyle16")}
+              defaultValue={this.state.selectValue}
+          >
+              <option value={"value_of_goods"}>By Value</option>
+              <option value={"shipment_count"}>By Count</option>
+          </select>
         <br />
         <br />
         {exportData.length > 1 ? (
@@ -151,7 +159,7 @@ class TotalExports extends Component {
               dataKey={"supplier"}
               legend={true}
               unit={true}
-              tooltipUnit={"$"}
+              tooltipUnit={this.state.selectValue === 'value_of_goods' ? "$" : ''}
               width={this.props.width}
             />
           // )

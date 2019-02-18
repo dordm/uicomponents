@@ -333,6 +333,20 @@ class Certifications extends Component {
                                 {"\u2022"} Certificate Number:{" "}
                                 {certificate.certNo}
                               </Typography>
+                              {certificate.office ? (
+                                <Typography className={"fontStyle11"}>
+                                  {"\u2022"} Office: {certificate.office}
+                                </Typography>
+                              ) : (
+                                ""
+                              )}
+                              {certificate.content ? (
+                                <Typography className={"fontStyle11"}>
+                                  {"\u2022"} Content: {certificate.content}
+                                </Typography>
+                              ) : (
+                                ""
+                              )}
                             </div>
                           </StyledExpansionPanelDetails>
                         </StyledExpansionPanel>
