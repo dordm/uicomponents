@@ -28,6 +28,9 @@ import MoreDataDishonest from "./Components/MoreDataDishonest";
 import MoreDataLawEnforcement from "./Components/MoreDataLawEnforcement";
 import MoreDataTaxCredit from "./Components/MoreDataTaxCredit";
 import CorporationMap from "./Components/CorporationMap";
+import MoreDataPenaltyBusinessExceptions from "./Components/MoreDataPenaltyBusinessExceptions";
+import MoreDataMortgagePledge from "./Components/MoreDataMortgagePledge";
+import MoreDataAdministrativePunishment from "./Components/MoreDataAdministrativePunishment";
 import {
   StyledCloseIcon,
   SearchInputWrapper,
@@ -67,6 +70,9 @@ import WebsiteDetails from "./Components/WebsiteDetails";
 import WebsiteChanges from "./Components/WebsiteChanges";
 
 export {
+  MoreDataPenaltyBusinessExceptions,
+  MoreDataMortgagePledge,
+  MoreDataAdministrativePunishment,
   CompanyScore,
   Utils,
   MySuppliersUtils,
