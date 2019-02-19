@@ -48,6 +48,85 @@ const styles = {
   }
 };
 
+function MoreDataQianzhan(props) {
+  const item = props.item;
+  return (
+    <div>
+      <Typography className={"fontStyle7"}>
+        {"\u2022"} Registration Number: {item.regNo}
+      </Typography>
+      <Typography className={"fontStyle7"}>
+        {"\u2022"} Date of Application: {item.applicationDate}
+      </Typography>
+      <Typography className={"fontStyle7"}>
+        {"\u2022"} Trademark Status:{" "}
+        {item.brandProcess !== "" ? item.brandProcess : "Approved"}
+      </Typography>
+      <Typography className={"fontStyle7"}>
+        {"\u2022"} Application Name: {item.name !== "" ? item.name : "Unknown"}
+      </Typography>
+      <Typography className={"fontStyle7"}>
+        {"\u2022"} Applicant Name: {item.proposer}
+      </Typography>
+      <Typography className={"fontStyle7"}>
+        {"\u2022"} Applicant Address: {item.proposerAddr}
+      </Typography>
+      <Typography className={"fontStyle7"}>
+        {"\u2022"} Trademark Attorney Name: {item.brandAgent}
+      </Typography>
+      {item.serviceList !== "();" ? (
+        <div>
+          <Typography className={"fontStyle7"}>
+            {"\u2022"} Service Items:{" "}
+          </Typography>
+          <div>
+            {item.serviceList
+              .replace("();", "")
+              .split(";")
+              .map((service, idx) => (
+                <Typography
+                  key={idx}
+                  style={{ marginLeft: 7 }}
+                  className={"fontStyle7"}
+                >
+                  {service}
+                </Typography>
+              ))}
+          </div>
+        </div>
+      ) : (
+        ""
+      )}
+    </div>
+  );
+}
+
+function MoreDataQichacha(props) {
+  const item = props.item;
+  return (
+    <div>
+      <Typography className={"fontStyle7"}>
+        {"\u2022"} Registration Number: {item.regNo}
+      </Typography>
+      <Typography className={"fontStyle7"}>
+        {"\u2022"} Date of Application:{" "}
+        {item.applicationDate
+          ? new Date(item.applicationDate).toISOString().substr(0, 10)
+          : "Unknown"}
+      </Typography>
+      <Typography className={"fontStyle7"}>
+        {"\u2022"} Trademark Status: {item.brandProcess}
+      </Typography>
+      <Typography className={"fontStyle7"}>
+        {"\u2022"} Agent: {item.brandAgent}
+      </Typography>
+      <Typography className={"fontStyle7"}>
+        {"\u2022"} Applicant Name: {item.proposer}
+      </Typography>
+    </div>
+  );
+}
+
 function MoreDataTrademarks(props) {
   const { classes } = props;
   return (
@@ -105,56 +184,11 @@ function MoreDataTrademarks(props) {
                   />
                 </StyledExpansionSummary>
                 <StyledExpansionPanelDetails>
-                  <div>
-                    <Typography className={"fontStyle7"}>
-                      {"\u2022"} Registration Number: {item.regNo}
-                    </Typography>
-                    <Typography className={"fontStyle7"}>
-                      {"\u2022"} Date of Application: {item.applicationDate}
-                    </Typography>
-                    <Typography className={"fontStyle7"}>
-                      {"\u2022"} Trademark Status:{" "}
-                      {item.brandProcess !== ""
-                        ? item.brandProcess
-                        : "Approved"}
-                    </Typography>
-                    <Typography className={"fontStyle7"}>
-                      {"\u2022"} Application Name:{" "}
-                      {item.name !== "" ? item.name : "Unknown"}
-                    </Typography>
-                    <Typography className={"fontStyle7"}>
-                      {"\u2022"} Applicant Name: {item.proposer}
-                    </Typography>
-                    <Typography className={"fontStyle7"}>
-                      {"\u2022"} Applicant Address: {item.proposerAddr}
-                    </Typography>
-                    <Typography className={"fontStyle7"}>
-                      {"\u2022"} Trademark Attorney Name: {item.brandAgent}
-                    </Typography>
-                    {item.serviceList !== "();" ? (
-                      <div>
-                        <Typography className={"fontStyle7"}>
-                          {"\u2022"} Service Items:{" "}
-                        </Typography>
-                        <div>
-                          {item.serviceList
-                            .replace("();", "")
-                            .split(";")
-                            .map((service, idx) => (
-                              <Typography
-                                key={idx}
-                                style={{ marginLeft: 7 }}
-                                className={"fontStyle7"}
-                              >
-                                {service}
-                              </Typography>
-                            ))}
-                        </div>
-                      </div>
-                    ) : (
-                      ""
-                    )}
-                  </div>
+                  {item.intCls !== undefined ? (
+                    <MoreDataQichacha item={item} />
+                  ) : (
+                    <MoreDataQianzhan item={item} />
+                  )}
                 </StyledExpansionPanelDetails>
               </StyledExpansionPanel>
             </StyledListItem>

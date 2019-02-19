@@ -102,7 +102,8 @@ class CompanyChanges extends Component {
     return (
       lowerCaseChangeItem.includes("scope of business") ||
       lowerCaseChangeItem.includes("shareholder") ||
-      lowerCaseChangeItem.includes("legal representative")
+      lowerCaseChangeItem.includes("legal representative") ||
+      lowerCaseChangeItem.includes("director")
     );
   }
 

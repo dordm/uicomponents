@@ -21,8 +21,166 @@ const styles = {
   }
 };
 
+function MoreDataQianzhan(props) {
+  const item = props.item;
+  return (
+    <div>
+      <Typography className={"fontStyle11"}>
+        {"\u2022"} Patent Number: {item.patentNo}
+      </Typography>
+      <Typography className={"fontStyle11"}>
+        {"\u2022"} Patent Request Date: {item.patentDate}
+      </Typography>
+      <Typography className={"fontStyle11"}>
+        {"\u2022"} Patent Type: {item.patentType}
+      </Typography>
+      <Typography className={"fontStyle11"}>
+        {"\u2022"} Classification Number: {item.patentClass}
+      </Typography>
+      <Typography className={"fontStyle11"}>
+        {"\u2022"} Patent Status: {item.patentLegalStatus}
+      </Typography>
+      <Typography className={"fontStyle11"}>
+        {"\u2022"} Patent Publish Date: {item.patentOpenDate}
+      </Typography>
+      <Typography className={"fontStyle11"}>
+        {"\u2022"} Patent Address: {item.patentAddr}
+      </Typography>
+      <Typography className={"fontStyle11"}>
+        {"\u2022"} Patent City: {item.patentCity}
+      </Typography>
+      {item.patentInventor !== "" ? (
+        <div>
+          <Typography className={"fontStyle11"}>
+            {"\u2022"} Patent Inventors:{" "}
+          </Typography>
+          <div>
+            {item.patentInventor.split(";").map((inventor, idx) => (
+              <Typography
+                key={idx}
+                style={{ marginLeft: 7 }}
+                className={"fontStyle11"}
+              >
+                {inventor}
+              </Typography>
+            ))}
+          </div>
+        </div>
+      ) : (
+        ""
+      )}
+      <Typography className={"fontStyle11"}>
+        {"\u2022"} Patent Applicant: {item.patentApplicant}
+      </Typography>
+      <Typography className={"fontStyle11"}>
+        {"\u2022"} Patent Agency: {item.patentAgency}
+      </Typography>
+      <Typography className={"fontStyle11"}>
+        {"\u2022"} Patent Agent: {item.patentAgent}
+      </Typography>
+      <Typography className={"fontStyle11"}>
+        {"\u2022"} Patent Summary: {item.patentAbstract}
+      </Typography>
+    </div>
+  );
+}
+
+function MoreDataQichacha(props) {
+  const item = props.item;
+  return (
+    <div>
+      <Typography className={"fontStyle11"}>
+        {"\u2022"} Request Date:{" "}
+        {item.appDate
+          ? new Date(item.appDate).toISOString().substr(0, 10)
+          : "Unknown"}
+      </Typography>
+      <Typography className={"fontStyle11"}>
+        {"\u2022"} Patent Number: {item.appNumber}
+      </Typography>
+      <Typography className={"fontStyle11"}>
+        {"\u2022"} Patent Type: {item.kindCode}
+      </Typography>
+      <Typography className={"fontStyle11"}>
+        {"\u2022"} Status: {item.legalStatus}
+      </Typography>
+      <Typography className={"fontStyle11"}>
+        {"\u2022"} Publish Date:{" "}
+        {item.publicDate
+          ? new Date(item.publicDate).toISOString().substr(0, 10)
+          : "Unknown"}
+      </Typography>
+      <Typography className={"fontStyle11"}>
+        {"\u2022"} Publish Number: {item.publicNum}
+      </Typography>
+      {item.agency && item.agency.length > 0 ? (
+        <div>
+          <Typography className={"fontStyle11"}>{"\u2022"} Agency: </Typography>
+          <div>
+            {item.agency.map((agen, idx) => (
+              <Typography
+                key={idx}
+                style={{ marginLeft: 7 }}
+                className={"fontStyle11"}
+              >
+                {agen}
+              </Typography>
+            ))}
+          </div>
+        </div>
+      ) : (
+        ""
+      )}
+      {item.inventorList && item.inventorList.length > 0 ? (
+        <div>
+          <Typography className={"fontStyle11"}>
+            {"\u2022"} Inventors:{" "}
+          </Typography>
+          <div>
+            {item.inventorList.map((inventor, idx) => (
+              <Typography
+                key={idx}
+                style={{ marginLeft: 7 }}
+                className={"fontStyle11"}
+              >
+                {inventor}
+              </Typography>
+            ))}
+          </div>
+        </div>
+      ) : (
+        ""
+      )}
+      {item.ipcList &&
+      item.ipcList.length > 0 &&
+      item.ipcDesc &&
+      item.ipcDesc.length === item.ipcList.length ? (
+        <div>
+          <Typography className={"fontStyle11"}>
+            {"\u2022"} Patent Details:{" "}
+          </Typography>
+          <div>
+            {item.ipcList.map((ipc, idx) => (
+              <Typography
+                key={idx}
+                style={{ marginLeft: 7 }}
+                className={"fontStyle11"}
+              >
+                {ipc + " - " + item.ipcDesc[idx]}
+              </Typography>
+            ))}
+          </div>
+        </div>
+      ) : (
+        ""
+      )}
+    </div>
+  );
+}
+
 function MoreDataPatents(props) {
   const { classes } = props;
+  console.log(props.moreData);
   return (
     <List>
       {props.moreData.map((item, idx) => {
@@ -71,66 +229,11 @@ function MoreDataPatents(props) {
                   />
                 </StyledExpansionSummary>
                 <StyledExpansionPanelDetails>
-                  <div>
-                    <Typography className={"fontStyle7"}>
-                      {"\u2022"} Patent Number: {item.patentNo}
-                    </Typography>
-                    <Typography className={"fontStyle7"}>
-                      {"\u2022"} Patent Request Date: {item.patentDate}
-                    </Typography>
-                    <Typography className={"fontStyle7"}>
-                      {"\u2022"} Patent Type: {item.patentType}
-                    </Typography>
-                    <Typography className={"fontStyle7"}>
-                      {"\u2022"} Classification Number: {item.patentClass}
-                    </Typography>
-                    <Typography className={"fontStyle7"}>
-                      {"\u2022"} Patent Status: {item.patentLegalStatus}
-                    </Typography>
-                    <Typography className={"fontStyle7"}>
-                      {"\u2022"} Patent Publish Date: {item.patentOpenDate}
-                    </Typography>
-                    <Typography className={"fontStyle7"}>
-                      {"\u2022"} Patent Address: {item.patentAddr}
-                    </Typography>
-                    <Typography className={"fontStyle7"}>
-                      {"\u2022"} Patent City: {item.patentCity}
-                    </Typography>
-                    {item.patentInventor !== "" ? (
-                      <div>
-                        <Typography className={"fontStyle7"}>
-                          {"\u2022"} Patent Inventors:{" "}
-                        </Typography>
-                        <div>
-                          {item.patentInventor
-                            .split(";")
-                            .map((inventor, idx) => (
-                              <Typography
-                                key={idx}
-                                style={{ marginLeft: 7 }}
-                                className={"fontStyle7"}
-                              >
-                                {inventor}
-                              </Typography>
-                            ))}
-                        </div>
-                      </div>
-                    ) : (
-                      ""
-                    )}
-                    <Typography className={"fontStyle7"}>
-                      {"\u2022"} Patent Applicant: {item.patentApplicant}
-                    </Typography>
-                    <Typography className={"fontStyle7"}>
-                      {"\u2022"} Patent Agency: {item.patentAgency}
-                    </Typography>
-                    <Typography className={"fontStyle7"}>
-                      {"\u2022"} Patent Agent: {item.patentAgent}
-                    </Typography>
-                    <Typography className={"fontStyle7"}>
-                      {"\u2022"} Patent Summary: {item.patentAbstract}
-                    </Typography>
-                  </div>
+                  {item.legalStatus ? (
+                    <MoreDataQichacha item={item} />
+                  ) : (
+                    <MoreDataQianzhan item={item} />
+                  )}
                 </StyledExpansionPanelDetails>
               </StyledExpansionPanel>
             </StyledListItem>

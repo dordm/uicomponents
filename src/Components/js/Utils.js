@@ -1090,7 +1090,9 @@ class Utils {
   }
 
   static shipmentsCountString(totalShipments) {
-    if (!totalShipments) {
+    if (totalShipments === 0) {
+      return 0;
+    } else if (!totalShipments) {
       return "Unknown";
     } else if (totalShipments < 5) {
       return "Below 5";

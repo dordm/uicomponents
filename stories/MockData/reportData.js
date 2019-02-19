@@ -13,6 +13,98 @@ const reportData = {
   industry: "Electric Mechinary; export and import; ",
   foreignInvestment: 2,
   numberOfBranches: 3,
+  patents: [
+    {
+      agency: ["Jinan Shunyuan Patent Office Co., Ltd. 37205"],
+      appDate: "2011-08-29T13:00:00.000Z",
+      appNumber: "CN201110252463.3",
+      assigneeList: [
+        "Agricultural Products Research Institute of Shandong Academy of Agricultural Sciences"
+      ],
+      inventorList: [
+        "Du Fangling",
+        "Sun Xin",
+        "Chen Lei",
+        "Qiu Jiying",
+        "Liu Xiaoyong"
+      ],
+      ipcDesc: [
+        "Food or foodstuffs not included in other classes; and their handling"
+      ],
+      ipcList: ["A23"],
+      kindCode: "Publication of inventions",
+      legalStatus: "Termination of patent rights",
+      publicDate: "2011-12-27T14:00:00.000Z",
+      publicNum: "CN102293366A",
+      patentName:
+        "A Method for Making Millet Powder Noodles by Fermented Millet",
+      valid: false
+    }
+  ],
+  mortgage: [
+    {
+      amount: "4,089,800",
+      office: "Shanghai Jinshan District Market Supervision Administration",
+      publishDate: "",
+      regDate: "2016-03-30",
+      regNo: "Jinshi Jing [2016] Nos. 29",
+      status: null
+    },
+    {
+      amount: "4,089,800",
+      office: "Jinshan District Market Regulatory Authority",
+      publishDate: "2016-03-30",
+      regDate: "2016-03-30",
+      regNo: "2800132016029",
+      status: "Effective"
+    }
+  ],
+  pledge: [
+    {
+      amount: "295,000,000",
+      pledgee: "Commercial Bank Co., Ltd. Shenzhen Branch",
+      pledgeeNo: "914403006875902375       ",
+      pledgor: "Xi'an Maike Metal International Group Co., Ltd.",
+      pledgorNo: "非公示项",
+      publishDate: "2018-10-12",
+      regDate: "2018-10-12",
+      registNo: "2820180078          ",
+      status: "Effective"
+    },
+    {
+      amount: "295,000,000",
+      pledgee: "Commercial Bank Co., Ltd. Shenzhen Branch",
+      pledgeeNo: "914403006875902375       ",
+      pledgor: "Xi'an Maike Metal International Group Co., Ltd.",
+      pledgorNo: null,
+      publishDate: "2017-09-27",
+      regDate: "2017-09-27",
+      registNo: "2820170047          ",
+      status: "Invalid"
+    },
+    {
+      amount: "295,000,000",
+      pledgee: "Commercial Bank Co., Ltd. Shenzhen Branch",
+      pledgeeNo: "914403006875902375       ",
+      pledgor: "Xi'an Maike Metal International Group Co., Ltd.",
+      pledgorNo: null,
+      publishDate: "2016-09-28",
+      regDate: "2016-09-28",
+      registNo: "2820160062          ",
+      status: "Invalid"
+    },
+    {
+      amount: "295,000,000",
+      pledgee: "Commercial Bank Co., Ltd. Shenzhen Branch",
+      pledgeeNo: "",
+      pledgor: "Xi'an Maike Metal International Group Co., Ltd.",
+      pledgorNo: "非公示项",
+      publishDate: "2015-08-20",
+      regDate: "2015-08-20",
+      registNo: "2820160001          ",
+      status: "Invalid"
+    }
+  ],
   websiteArchive: {
     latestChanges: [
       [
@@ -1412,106 +1504,237 @@ const reportData = {
     }
   },
   courtCases: [
-      {
-          "CASE_NAME" : "AnHui Technology Import & Export Co., Ltd., Baoding Zhijhao Fur Products Co., Ltd., Yuan Yunfang",
-          "CASE_NO" : "(2016) 0104 Minchu No.2811",
-          "CASE_TYPE" : "ms",
-          "COURT" : "Hefei Shushan District People's Court",
-          "IS_DEFENDANT" : 0,
-          "IS_PROSECUTOR" : 1,
-          "SUBMIT_DATE" : "2018-11-01T22:00:00.000Z",
-          "UPDATE_DATE" : "2017-01-05T22:00:00.000Z"
-      },
-      {
-          "CASE_NAME" : "AnHui Technology Import & Export Co., Ltd., Baoding Xianshi Leather Sales Co., Ltd.",
-          "CASE_NO" : "(2017) 0104 stunted No. 4635",
-          "CASE_TYPE" : "zx",
-          "COURT" : "Hefei Shushan District People's Court",
-          "IS_DEFENDANT" : 0,
-          "IS_PROSECUTOR" : 0,
-          "SUBMIT_DATE" : "2018-10-17T21:00:00.000Z",
-          "UPDATE_DATE" : "2018-05-02T21:00:00.000Z"
-      },
-      {
-          "CASE_NAME" : "Shandong Jia-Jia International Freight Co., Ltd. Lianyungang Branch, Shandong Jia-Jia International Freight Co., Ltd.",
-          "CASE_NO" : "(2015) Shanghai Fahai Baoword No. 77",
-          "CASE_TYPE" : "ms",
-          "COURT" : "Shanghai Maritime Court",
-          "IS_DEFENDANT" : 0,
-          "IS_PROSECUTOR" : 0,
-          "SUBMIT_DATE" : "2018-09-28T21:00:00.000Z",
-          "UPDATE_DATE" : "2015-03-15T22:00:00.000Z"
-      },
-      {
-          "CASE_NAME" : "Dongguan Meikao Tank Co., Ltd. and AnHui Technology Import & Export Co., Ltd.",
-          "CASE_NO" : "(2016) Yue 1971 Minchu No.18089",
-          "CASE_TYPE" : "ms",
-          "COURT" : "Dongguan First People's Court",
-          "IS_DEFENDANT" : 1,
-          "IS_PROSECUTOR" : 0,
-          "SUBMIT_DATE" : "2018-08-08T21:00:00.000Z",
-          "UPDATE_DATE" : "2017-11-22T22:00:00.000Z"
-      },
-      {
-          "CASE_NAME" : "AnHui Technology Import & Export Co., Ltd., Guangdong Lizhao Electronic Technology Co., Ltd.",
-          "CASE_NO" : "(2017) 0104 hold No. 2154",
-          "CASE_TYPE" : "zx",
-          "COURT" : "Hefei Shushan District People's Court",
-          "IS_DEFENDANT" : 0,
-          "IS_PROSECUTOR" : 0,
-          "SUBMIT_DATE" : "2018-06-12T21:00:00.000Z",
-          "UPDATE_DATE" : "2017-07-05T21:00:00.000Z"
-      },
-      {
-          "CASE_NAME" : "AnHui Technology Import & Export Co., Ltd., Guangdong Lizhao Electronic Technology Co., Ltd.",
-          "CASE_NO" : "(2017) One of the No. 2154, 0104",
-          "CASE_TYPE" : "zx",
-          "COURT" : "Hefei Shushan District People's Court",
-          "IS_DEFENDANT" : 0,
-          "IS_PROSECUTOR" : 0,
-          "SUBMIT_DATE" : "2018-06-12T21:00:00.000Z",
-          "UPDATE_DATE" : "2017-09-03T21:00:00.000Z"
-      },
-      {
-          "CASE_NAME" : "AnHui Technology Import & Export Co., Ltd. and Xu Yuhong, Huainan Yuhong Clothing Co., Ltd.",
-          "CASE_NO" : "(2018) 0104 Minchu No.1846",
-          "CASE_TYPE" : "ms",
-          "COURT" : "Hefei Shushan District People's Court",
-          "IS_DEFENDANT" : 0,
-          "IS_PROSECUTOR" : 1,
-          "SUBMIT_DATE" : "2018-04-26T21:00:00.000Z",
-          "UPDATE_DATE" : "2018-03-29T22:00:00.000Z"
-      },
-      {
-          "CASE_NAME" : "AnHui Technology Import & Export Co., Ltd., and Yulong Garment Co., Ltd.",
-          "CASE_NO" : "(2017) 0104 Min Chu No. 2697",
-          "CASE_TYPE" : "ms",
-          "COURT" : "Hefei Shushan District People's Court",
-          "IS_DEFENDANT" : 0,
-          "IS_PROSECUTOR" : 1,
-          "SUBMIT_DATE" : "2018-04-18T21:00:00.000Z",
-          "UPDATE_DATE" : "2017-05-15T21:00:00.000Z"
-      },
-      {
-          "CASE_NAME" : "Anhui Technology Import & Export Co., Ltd., Guangsha Construction Group Co., Ltd., Anhui Branch of Guangsha Construction Group Co., Ltd.",
-          "CASE_NO" : "(2016) 0104 Minchu No.5303",
-          "CASE_TYPE" : "ms",
-          "COURT" : "Hefei Shushan District People's Court",
-          "IS_DEFENDANT" : 0,
-          "IS_PROSECUTOR" : 1,
-          "SUBMIT_DATE" : "2017-06-14T21:00:00.000Z",
-          "UPDATE_DATE" : "2016-07-10T21:00:00.000Z"
-      },
-      {
-          "CASE_NAME" : "Anhui Technology Import & Export Co., Ltd., Taicang Ponqiao Town Linyuan Wood Processing Plant, Wu Jintable, etc.",
-          "CASE_NO" : "(2016) 0104 Minchu No.124",
-          "CASE_TYPE" : "ms",
-          "COURT" : "Hefei Shushan District People's Court",
-          "IS_DEFENDANT" : 0,
-          "IS_PROSECUTOR" : 1,
-          "SUBMIT_DATE" : "2016-10-13T05:00:00.000Z",
-          "UPDATE_DATE" : "2016-07-11T05:00:00.000Z"
-      }
+    {
+      CASE_NAME:
+        "AnHui Technology Import & Export Co., Ltd., Baoding Zhijhao Fur Products Co., Ltd., Yuan Yunfang",
+      CASE_NO: "(2016) 0104 Minchu No.2811",
+      CASE_TYPE: "ms",
+      COURT: "Hefei Shushan District People's Court",
+      IS_DEFENDANT: 0,
+      IS_PROSECUTOR: 1,
+      SUBMIT_DATE: "2018-11-01T22:00:00.000Z",
+      UPDATE_DATE: "2017-01-05T22:00:00.000Z",
+      active: false
+    },
+    {
+      CASE_NAME:
+        "AnHui Technology Import & Export Co., Ltd., Baoding Xianshi Leather Sales Co., Ltd.",
+      CASE_NO: "(2017) 0104 stunted No. 4635",
+      CASE_TYPE: "zx",
+      COURT: "Hefei Shushan District People's Court",
+      IS_DEFENDANT: 0,
+      IS_PROSECUTOR: 0,
+      SUBMIT_DATE: "2018-10-17T21:00:00.000Z",
+      UPDATE_DATE: "2018-05-02T21:00:00.000Z",
+      active: false
+    },
+    {
+      CASE_NAME:
+        "Shandong Jia-Jia International Freight Co., Ltd. Lianyungang Branch, Shandong Jia-Jia International Freight Co., Ltd.",
+      CASE_NO: "(2015) Shanghai Fahai Baoword No. 77",
+      CASE_TYPE: "ms",
+      COURT: "Shanghai Maritime Court",
+      IS_DEFENDANT: 0,
+      IS_PROSECUTOR: 0,
+      SUBMIT_DATE: "2018-09-28T21:00:00.000Z",
+      UPDATE_DATE: "2015-03-15T22:00:00.000Z",
+      active: false
+    },
+    {
+      CASE_NAME:
+        "Dongguan Meikao Tank Co., Ltd. and AnHui Technology Import & Export Co., Ltd.",
+      CASE_NO: "(2016) Yue 1971 Minchu No.18089",
+      CASE_TYPE: "ms",
+      COURT: "Dongguan First People's Court",
+      IS_DEFENDANT: 1,
+      IS_PROSECUTOR: 0,
+      SUBMIT_DATE: "2018-08-08T21:00:00.000Z",
+      UPDATE_DATE: "2017-11-22T22:00:00.000Z",
+      active: false
+    },
+    {
+      CASE_NAME:
+        "AnHui Technology Import & Export Co., Ltd., Guangdong Lizhao Electronic Technology Co., Ltd.",
+      CASE_NO: "(2017) One of the No. 2154, 0104",
+      CASE_TYPE: "zx",
+      COURT: "Hefei Shushan District People's Court",
+      IS_DEFENDANT: 0,
+      IS_PROSECUTOR: 0,
+      SUBMIT_DATE: "2018-06-12T21:00:00.000Z",
+      UPDATE_DATE: "2017-09-03T21:00:00.000Z",
+      active: false
+    },
+    {
+      CASE_NAME:
+        "AnHui Technology Import & Export Co., Ltd., Guangdong Lizhao Electronic Technology Co., Ltd.",
+      CASE_NO: "(2017) 0104 hold No. 2154",
+      CASE_TYPE: "zx",
+      COURT: "Hefei Shushan District People's Court",
+      IS_DEFENDANT: 0,
+      IS_PROSECUTOR: 0,
+      SUBMIT_DATE: "2018-06-12T21:00:00.000Z",
+      UPDATE_DATE: "2017-07-05T21:00:00.000Z",
+      active: false
+    },
+    {
+      CASE_NAME:
+        "AnHui Technology Import & Export Co., Ltd. and Xu Yuhong, Huainan Yuhong Clothing Co., Ltd.",
+      CASE_NO: "(2018) 0104 Minchu No.1846",
+      CASE_TYPE: "ms",
+      COURT: "Hefei Shushan District People's Court",
+      IS_DEFENDANT: 0,
+      IS_PROSECUTOR: 1,
+      SUBMIT_DATE: "2018-04-26T21:00:00.000Z",
+      UPDATE_DATE: "2018-03-29T22:00:00.000Z",
+      active: false
+    },
+    {
+      CASE_NAME:
+        "AnHui Technology Import & Export Co., Ltd., and Yulong Garment Co., Ltd.",
+      CASE_NO: "(2017) 0104 Min Chu No. 2697",
+      CASE_TYPE: "ms",
+      COURT: "Hefei Shushan District People's Court",
+      IS_DEFENDANT: 0,
+      IS_PROSECUTOR: 1,
+      SUBMIT_DATE: "2018-04-18T21:00:00.000Z",
+      UPDATE_DATE: "2017-05-15T21:00:00.000Z",
+      active: false
+    },
+    {
+      CASE_NAME: "Contract of carriage disputes",
+      CASE_NO: "(2017) Shanghai 0112 Minchu 23287",
+      DEFENDANT: "Beijing Xiaoqiao Technology Co., Ltd.",
+      EXECUTE_GOV: "Minhang",
+      PROSECUTOR: "Lin Yun-chang",
+      SUBMIT_DATE: "2017-10-09T07:45:00.000Z",
+      active: true
+    },
+    {
+      CASE_NAME:
+        "Disputes concerning the right to life, health, physical rights",
+      CASE_NO: "(2017) Shanghai 0115 Minchu 15113",
+      DEFENDANT:
+        "Du Chaojie Beijing Orange Technology Co., Ltd. Shanghai Fog Bo Information Technology Co., Ltd. China Ping An Property Insurance Co., Ltd. Shanghai Branch",
+      EXECUTE_GOV: "Pudong",
+      PROSECUTOR: "Yoo Cheng-ho",
+      SUBMIT_DATE: "2017-07-25T07:40:00.000Z",
+      active: true
+    },
+    {
+      CASE_NAME: "Disputes concerning liability for motor vehicle accidents",
+      CASE_NO: "(2017) Shanghai 0112 Minchu 18563",
+      DEFENDANT:
+        "Ma Xiaoxiang Shanghai Shenzhou Huadong Car Rental Co., Ltd. China Land Property Insurance Co., Ltd. Shanghai Branch Beijing Orange Technology Co., Ltd.",
+      EXECUTE_GOV: "Minhang",
+      PROSECUTOR: "Cai Guolin Jiali",
+      SUBMIT_DATE: "2017-07-24T02:45:00.000Z",
+      active: true
+    },
+    {
+      CASE_NAME:
+        "Disputes concerning the right to life, health, physical rights",
+      CASE_NO: "(2016) Zhe 0702 Minchu No.14535",
+      DEFENDANT: "Tong Jingui Beijing Orange Technology Co., Ltd.",
+      EXECUTE_GOV: "Wucheng District People's Court, Jinhua City",
+      PROSECUTOR: "Wang Meijun",
+      SUBMIT_DATE: "2017-06-22T03:30:00.000Z",
+      active: true
+    },
+    {
+      CASE_NAME:
+        "Anhui Technology Import & Export Co., Ltd., Guangsha Construction Group Co., Ltd., Anhui Branch of Guangsha Construction Group Co., Ltd.",
+      CASE_NO: "(2016) 0104 Minchu No.5303",
+      CASE_TYPE: "ms",
+      COURT: "Hefei Shushan District People's Court",
+      IS_DEFENDANT: 0,
+      IS_PROSECUTOR: 1,
+      SUBMIT_DATE: "2017-06-14T21:00:00.000Z",
+      UPDATE_DATE: "2016-07-10T21:00:00.000Z",
+      active: false
+    },
+    {
+      CASE_NAME: "Disputes concerning liability for motor vehicle accidents",
+      CASE_NO: "(2017) Yue 03 Minching 7473",
+      DEFENDANT:
+        "Shanghai Qiyang Information Technology Co., Ltd. China Pacific Property Insurance Co., Ltd. Shenzhen Branch Beijing Xiaoban Technology Co., Ltd. Li Ziqing Shenzhen Weng Jinfeng",
+      EXECUTE_GOV: "Shenzhen Intermediate People's Court",
+      PROSECUTOR: "Lam Yulan Choi Ri-quan",
+      SUBMIT_DATE: "2017-05-26T10:10:00.000Z",
+      active: true
+    },
+    {
+      CASE_NAME: "Disputes concerning liability for motor vehicle accidents",
+      CASE_NO: "(2017) Yue 03 Mincheng No.7468",
+      DEFENDANT:
+        "Shanghai Qiyang Information Technology Co., Ltd. China Pacific Property Insurance Co., Ltd. Shenzhen Branch Beijing Xiaoban Technology Co., Ltd. Li Ziqing Shenzhen Weng Jinfeng",
+      EXECUTE_GOV: "Shenzhen Intermediate People's Court",
+      PROSECUTOR: "Ye Ho Ping",
+      SUBMIT_DATE: "2017-05-24T05:00:00.000Z",
+      active: true
+    },
+    {
+      CASE_NAME: "Disputes concerning compensation for property damage",
+      CASE_NO: "(2017) Shanghai 0104 Minchu 5567",
+      DEFENDANT:
+        "Volkswagen Transportation (Group) Co., Ltd. Beijing Orange Technology Co., Ltd.",
+      EXECUTE_GOV: "Xu Hui",
+      PROSECUTOR: "Kai-jun",
+      SUBMIT_DATE: "2017-05-18T08:00:00.000Z",
+      active: true
+    },
+    {
+      CASE_NAME: "Contract of carriage disputes",
+      CASE_NO: "(2017) Chongqing 0101 Minchu 4156",
+      DEFENDANT:
+        "Chongqing Dazhi Xinyuan Industrial Co., Ltd. Beijing Xiaoranges Technology Co., Ltd. Zhang Chong",
+      EXECUTE_GOV: "Chongqing Wanzhou District People's Court",
+      PROSECUTOR: "Chow Shengtian",
+      SUBMIT_DATE: "2017-05-11T08:30:00.000Z",
+      active: true
+    },
+    {
+      CASE_NAME: "Disputes concerning liability for motor vehicle accidents",
+      CASE_NO: "(2017) Zhe 07 Minching 1315",
+      DEFENDANT:
+        "CAO Hong-mei XU Zheng Ying Hong Beijing Xiao-orange Technology Co., Ltd.",
+      EXECUTE_GOV: "Jinhua Intermediate People's Court",
+      PROSECUTOR: "China People's Property Insurance Co., Ltd. Jinhua Branch",
+      SUBMIT_DATE: "2017-04-26T02:40:00.000Z",
+      active: true
+    },
+    {
+      CASE_NAME: "Contract of carriage disputes",
+      CASE_NO: "(2017) Shanghai 0109 Minchu 1841",
+      DEFENDANT: "Beijing Xiaoqiao Technology Co., Ltd.",
+      EXECUTE_GOV: "Hongkou",
+      PROSECUTOR: "Zhen Jun",
+      SUBMIT_DATE: "2017-04-21T03:00:00.000Z",
+      active: true
+    },
+    {
+      CASE_NAME:
+        "Anhui Technology Import & Export Co., Ltd., Taicang Ponqiao Town Linyuan Wood Processing Plant, Wu Jintable, etc.",
+      CASE_NO: "(2016) 0104 Minchu No.124",
+      CASE_TYPE: "ms",
+      COURT: "Hefei Shushan District People's Court",
+      IS_DEFENDANT: 0,
+      IS_PROSECUTOR: 1,
+      SUBMIT_DATE: "2016-10-13T05:00:00.000Z",
+      UPDATE_DATE: "2016-07-11T05:00:00.000Z",
+      active: false
+    }
+  ],
+  administrativePunishment: [
+    {
+      caseNo: "2520160027",
+      date: "2016-12-19",
+      name:
+        "SAIC General Motors Sales Co., Ltd. reached and implemented monopoly agreement on the lowest price for resale goods to third parties",
+      ownerName: "SAIC GM Sales Co., Ltd.",
+      province: "SH",
+      reason:
+        "Concluded and implemented a monopoly agreement with distributors in Shanghai"
+    }
   ],
   lawEnforcement: [
     {
@@ -1574,38 +1797,126 @@ const reportData = {
   ],
   branchesData: {
     branches: [
-      { name: "branch1 (a)" },
-      { name: "branch2 (a)" },
-      { name: "branch3 (a)" }
+      {
+        chineseName: "安徽省技术进出口股份有限公司经营部",
+        name: "AnHui Technology Import & Export Co., Ltd."
+      },
+      {
+        chineseName: "安徽省技术进出口股份有限公司外国企业服务分公司",
+        name:
+          "Foreign Enterprise Service Branch, AnHui Technology Import & Export Co., Ltd."
+      },
+      {
+        chineseName: "安徽省技术进出口股份有限公司安泰电子工程分公司",
+        name:
+          "AnHui Technology Import & Export Co., Ltd. Antai Electronic Engineering Branch"
+      },
+      {
+        chineseName: "安徽省技术进出口股份有限公司工会委员会",
+        name:
+          "Trade Union Committee of Anhui Technology Import & Export Co., Ltd."
+      }
     ]
   },
+  trademarks: [
+    {
+      applicationDate: "2014-02-13T20:00:00.000Z",
+      brandAgent:
+        "Changzhou Huike Intellectual Property Agency Service Co., Ltd.",
+      brandProcess: "Completion of application for trademark registration",
+      flowStatus: "102",
+      hasImage: 1,
+      imgUrl:
+        "http://tm-image.qichacha.com/7c9d96a01231fc5fc4f474a54eea6ead.jpg@100h_160w_1l_50q",
+      intCls: 9,
+      branType: "Langelized LD",
+      proposer: "Changzhou Langmotion Automation Technology Co., Ltd.",
+      proposerEN: "",
+      regNo: "14025538",
+      status: 3,
+      valid: true
+    }
+  ],
+  businessExceptions: [
+    {
+      endDate: "2016-09-30",
+      endOffice: "Nanjing Yuhuatai District Market Supervision Administration",
+      endReason:
+        "Annual reports for outstanding years have been updated and published",
+      office: "Nanjing Yuhuatai District Market Supervision Administration",
+      reason:
+        "By June 30, 2016, the 2015 annual report was not submitted in accordance with the provisions of Article 6 of the Provisional Measures for the Administration of the Unusual Business List of Enterprises",
+      startDate: "2016-07-08"
+    }
+  ],
+  penalty: [
+    {
+      content:
+        "ordered the parties to immediately cease the illegal acts and impose a penalty of $5043901492.97 per cent of the relevant sales of $201756059.72 in the amount of $201756059.72",
+      date: "2016-12-19",
+      docNo: "2520160027",
+      office: "Shanghai Pricing Bureau",
+      publishDate: "2016-12-19",
+      remark: "",
+      type: "Recognition of the qualification of the price assessment agency"
+    }
+  ],
   foreignInvestmentList: [
-    { name: "investment1 (a)" },
-    { name: "investment2 (a)" }
+    {
+      capital: 5000000,
+      companyName: "Shanghai Zhi Pi Network Technology Co., Ltd.",
+      companyNameChinese: "上海知彼网络科技有限公司",
+      creditCode: "91310105MA1FW0XD3D",
+      econKind:
+        "Limited Liability Company (sole proprietorship of a natural person invested or held by a legal person)",
+      name: "Shanghai Zhi Pi Network Technology Co., Ltd.",
+      no: "",
+      openName: "Chen Deqiang",
+      ratio: "100%",
+      startDate: "2015-12-09T22:00:00.000Z",
+      status: "surviving"
+    },
+    {
+      capital: 5000000,
+      companyName: "Shanghai Yonggui Information Technology Co., Ltd.",
+      companyNameChinese: "上海涌数信息科技有限公司",
+      creditCode: "91310114MA1GTWU85H",
+      econKind:
+        "Limited Liability Company (Investment or Holding of Natural Persons)",
+      name: "Shanghai Yonggui Information Technology Co., Ltd.",
+      no: "",
+      openName: "Gu Lei",
+      ratio: "35.00%",
+      startDate: "2017-02-21T22:00:00.000Z",
+      status: "surviving"
+    },
+    {
+      capital: 5000000,
+      companyName:
+        "Suzhou ZhongHui Polymerization Information Technology Co., Ltd.",
+      companyNameChinese: "苏州众汇聚合信息科技有限公司",
+      creditCode: "91320594MA1N02C1XE",
+      econKind: "Limited Liability Company",
+      name: "Suzhou ZhongHui Polymerization Information Technology Co., Ltd.",
+      no: "",
+      openName: "Zuo Lei",
+      ratio: "10.0%",
+      startDate: "2016-11-15T22:00:00.000Z",
+      status: "working"
+    }
   ],
   jobsList: [
     {
-      address: "青山装备制造产业园区",
-      area: "",
-      city: "包头",
-      count: 1,
+      area: "Suzhou",
+      count: "A number of people",
       des:
-        "岗位职责：1、利用丰富的自身资源和销售经验，挖掘客户需求，指导辖区开发自有项目型客户，维护公司大中型客户的友好合作关系；2、协调统筹公司的各类资源，为客户提供专业化物流配送、运输解决方案服务；3、根据市场竞争状态和客户反馈信息，进行市场调研和市场开发计划，做好市场分析和竞品应对；任职资格：1、大专及以上学历，物流管理、市场营销等相关专业优先；2、具备3年及以上物流行业销售及管理工作经验；3、具有第三方物流销售、城市配送行业经验者优先；4、具有城市配送行业相关资源者优先；5、诚实守信，有强烈的责任心，有良好的沟通协调能力和团队合作意识。工作地址：青山装备制造产业园区查看职位地图",
-      duty: "",
-      eduReq: "本科",
-      jobTitle: "配送经理",
-      keys: "",
-      phone: "",
-      publicDate: "2018-08-15",
-      salaryRange: "面议",
-      searchCity: "",
-      searchClass: "物流/仓储",
-      type: "物流经理/主管",
-      updateTime: "2018-08-15",
-      welfare:
-        "包住,五险一金,餐补,带薪年假,节日福利,员工旅游,绩效奖金,每年多次调薪",
-      workingProperty: "全职",
-      yearsReq: "3-5年"
+        "Responsibilities: Responsible for the company's back-office O & M virtualization environment deployment and management; architect and optimize O & M monitoring and automation environment; complete Alibaba cloud service deployment, Alibaba cloud service maintenance. Job requirements: Bachelor degree or above, 3 years of operation and maintenance and related experience;...",
+      eduReq: "Bachelor",
+      jobTitle: "O & M Engineer (Lang Moving)",
+      publicDate: "2016-11-23",
+      salaryRange: "8000-16000",
+      source: "BOSS Direct Employment",
+      yearsReq: "3-5 years"
     },
     {
       address: "山东省烟台市莱山区莱山镇天虹彩印",
@@ -3080,27 +3391,65 @@ const reportData = {
   },
   certificates: [
     {
+      certNo: "Anwang Commercial Office Review Letter [2016] No. 200",
+      content: "",
+      expiration: "Dec 2099",
+      expiredDate: "2099-12-31",
       name:
-        "China Occupational Health and Safety Management System Certification",
-      validity: 1,
-      expiration: "Jan 2020"
+        "Letter from the Department of Commerce of AnHui Province on the Application of Foreign Aid Material Project by AnHui Technology Import & Export Co., Ltd.",
+      office: "Department of Commerce of Anhui Province",
+      startDate: "2016-03-22",
+      validity: 1
     },
     {
-      name: "Environmental Management System Certification (ISO 14001:2015)",
-      validity: 1,
-      expiration: "Jan 2020"
+      certNo: "3400910003",
+      expiration: "Jan 2030",
+      expiredDate: "2030-01-31",
+      name: "Import and export consignor",
+      regGov: "Guanguan District",
+      startDate: "2002-05-21",
+      validity: 1
     },
     {
+      certNo: "00118Q38397R7M/3400",
+      expiration: "Dec 2021",
+      expiredDate: "2021-12-18",
       name: "Quality Management System Certification (ISO9000)",
-      validity: 0,
-      expiration: "Jan 2020"
+      startDate: "2018-08-10",
+      validity: 1
     },
     {
-      name: "CCC / low voltage electrical appliances",
-      validity: 1,
-      expiration: "Jan 2020"
+      certNo: "18.HCN.48282",
+      expiration: "Sep 2019",
+      expiredDate: "2019-09-29",
+      name: "Other voluntary industrial product certification",
+      startDate: "2018-09-13",
+      validity: 1
     },
-    { name: "Export license", validity: 1, expiration: "Jan 2020" }
+    {
+      certNo: "00115Q212702R6M/3400",
+      expiration: "Dec 2018",
+      expiredDate: "2018-12-18",
+      name: "Quality Management System Certification (ISO9000)",
+      startDate: "2017-12-11",
+      validity: 0
+    },
+    {
+      certNo: "00112Q213595R5M/3400",
+      expiration: "Dec 2015",
+      expiredDate: "2015-12-18",
+      name: "Quality Management System Certification (ISO9000)",
+      startDate: "2012-12-19",
+      validity: 0
+    },
+    {
+      certNo: "3400200000022",
+      expiration: "",
+      expiredDate: null,
+      name: "Foreign contracted project business qualification permit",
+      startDate: null,
+      validity: 0
+    }
   ],
   shipmentByProduct: {
     supplier: {
@@ -4033,1394 +4382,45 @@ const reportData = {
           value_of_goods: 66129
         }
       ],
-      lastYear: [
-        {
-          hs_code: "7209",
-          hscode_desc:
-            "(7209) Flat-rolled products of iron or non-alloy steel, of a width of 600 mm or more, cold-rolled (cold-reduced), not clad, plated or coated",
-          shipment_count: 1026,
-          value_of_goods: 226150000
-        },
-        {
-          hs_code: "6402",
-          hscode_desc:
-            "(6402) Other footwear with outer soles and uppers of rubber or plastics",
-          shipment_count: 1,
-          value_of_goods: 0
-        },
-        {
-          hs_code: "9405",
-          hscode_desc:
-            "(9405) Lamps and lighting fittings including searchlights and spotlights and parts thereof, not elsewhere specified or included; illuminated signs, illuminated name-plates and the like, having a permanently fixed light source, and parts thereof not elsewhere specified or included",
-          shipment_count: 58,
-          value_of_goods: 41488000
-        },
-        {
-          hs_code: "6302",
-          hscode_desc:
-            "(6302) Bed linen, table linen, toilet linen and kitchen linen",
-          shipment_count: 504,
-          value_of_goods: 32018000
-        },
-        {
-          hs_code: "6304",
-          hscode_desc:
-            "(6304) Other furnishing articles, excluding those of heading 9404",
-          shipment_count: 47,
-          value_of_goods: 27328000
-        },
-        {
-          hs_code: "61",
-          hscode_desc:
-            "(61) CHAPTER 61ARTICLES OF APPAREL AND CLOTHING ACCESSORIES, KNITTED OR CROCHETED",
-          shipment_count: 111,
-          value_of_goods: 25121000
-        },
-        {
-          hs_code: "6001",
-          hscode_desc:
-            "(6001) Pile fabrics, including long pile fabrics and terry fabrics, knitted or crocheted",
-          shipment_count: 534,
-          value_of_goods: 22827000
-        },
-        {
-          hs_code: "64",
-          hscode_desc:
-            "(64) CHAPTER 64FOOTWEAR, GAITERS AND THE LIKE; PARTS OF SUCH ARTICLES",
-          shipment_count: 46,
-          value_of_goods: 22102000
-        },
-        {
-          hs_code: "9404",
-          hscode_desc:
-            "(9404) Mattress supports; articles of bedding and similar furnishing (for example, mattresses, quilts, eiderdowns, cushions, pouffes and pillows) fitted with springs or stuffed or internally fitted with any material or of cellular rubber or plastics, whether or not covered",
-          shipment_count: 140,
-          value_of_goods: 16499000
-        },
-        {
-          hs_code: "7228",
-          hscode_desc:
-            "(7228) Other bars and rods of other alloy steel; angles, shapes and sections, of other alloy steel; hollow drill bars and rods, of alloy or non-alloy steel",
-          shipment_count: 123,
-          value_of_goods: 15358000
-        },
-        {
-          hs_code: "6301",
-          hscode_desc: "(6301) Blankets and travelling rugs",
-          shipment_count: 49,
-          value_of_goods: 15290000
-        },
-        {
-          hs_code: "7210",
-          hscode_desc:
-            "(7210) Flat-rolled products of iron or non-alloy steel, of a width of 600 mm or more, clad, plated or coated",
-          shipment_count: 3,
-          value_of_goods: 14854000
-        },
-        {
-          hs_code: "8701",
-          hscode_desc: "(8701) Tractors (other than tractors of heading 8709)",
-          shipment_count: 46,
-          value_of_goods: 14191000
-        },
-        {
-          hs_code: "87",
-          hscode_desc:
-            "(87) CHAPTER 87VEHICLES OTHER THAN RAILWAY OR TRAMWAY ROLLING-STOCK, AND PARTS AND ACCESSORIES THEREOF",
-          shipment_count: 80,
-          value_of_goods: 11477000
-        },
-        {
-          hs_code: "4202",
-          hscode_desc:
-            "(4202) Trunks, suit-cases, vanity-cases, executive-cases, brief-cases, school satchels, spectacle cases, binocular cases, camera cases, musical instrument cases, gun cases, holsters and similar containers; travelling-bags, insulated food or beverage bags, toilet bags, rucksacks, handbags, shopping-bags, wallets, purses, map-cases, cigarette-cases, tobacco-pouches, tool bags, sports bags, bottle-cases, jewellery boxes, powder-boxes, cutlery cases and similar containers, of leather or of composition leather, of sheeting of plastics, of textile materials, of vulcanised fibre or of paperboard, or wholly or mainly covered with such materials or with paper",
-          shipment_count: 100,
-          value_of_goods: 10952000
-        },
-        {
-          hs_code: "7015",
-          hscode_desc:
-            "(7015) Clock or watch glasses and similar glasses, glasses for non-corrective or corrective spectacles, curved, bent, hollowed or the like, not optically worked; hollow glass spheres and their segments, for the manufacture of such glasses",
-          shipment_count: 2,
-          value_of_goods: 9593000
-        },
-        {
-          hs_code: "7018",
-          hscode_desc:
-            "(7018) Glass beads, imitation pearls, imitation precious or semi-precious stones and similar glass smallwares, and articles thereof other than imitation jewellery; glass eyes other than prosthetic articles; statuettes and other ornaments of lamp-worked glass, other than imitation jewellery; glass microspheres not exceeding 1 mm in diameter",
-          shipment_count: 2,
-          value_of_goods: 9444000
-        },
-        {
-          hs_code: "7901",
-          hscode_desc: "(7901) Unwrought zinc",
-          shipment_count: 3,
-          value_of_goods: 8120000
-        },
-        {
-          hs_code: "73",
-          hscode_desc: "(73) CHAPTER 73ARTICLES OF IRON OR STEEL",
-          shipment_count: 10,
-          value_of_goods: 6734000
-        },
-        {
-          hs_code: "8504",
-          hscode_desc:
-            "(8504) Electrical transformers, static converters (for example, rectifiers) and inductors",
-          shipment_count: 278,
-          value_of_goods: 6622000
-        },
-        {
-          hs_code: "6203",
-          hscode_desc:
-            "(6203) Men's or boys' suits, ensembles, jackets, blazers, trousers, bib and brace overalls, breeches and shorts (other than swimwear)",
-          shipment_count: 6,
-          value_of_goods: 5245000
-        },
-        {
-          hs_code: "4203",
-          hscode_desc:
-            "(4203) Articles of apparel and clothing accessories, of leather or of composition leather",
-          shipment_count: 26,
-          value_of_goods: 4658000
-        },
-        {
-          hs_code: "8705",
-          hscode_desc:
-            "(8705) Special purpose motor vehicles, other than those principally designed for the transport of persons or goods (for example, breakdown lorries, crane lorries, fire-fighting vehicles, concrete-mixer lorries, road sweeper lorries, spraying lorries, mobile workshops, mobile radiological units)",
-          shipment_count: 14,
-          value_of_goods: 4605000
-        },
-        {
-          hs_code: "90",
-          hscode_desc:
-            "(90) CHAPTER 90OPTICAL, PHOTOGRAPHIC, CINEMATOGRAPHIC, MEASURING, CHECKING, PRECISION, MEDICAL OR SURGICAL INSTRUMENTS AND APPARATUS; PARTS AND ACCESSORIES THEREOF",
-          shipment_count: 4,
-          value_of_goods: 4431000
-        },
-        {
-          hs_code: "6303",
-          hscode_desc:
-            "(6303) Curtains (including drapes) and interior blinds; curtain or bed valances",
-          shipment_count: 41,
-          value_of_goods: 3847000
-        },
-        {
-          hs_code: "3923",
-          hscode_desc:
-            "(3923) Articles for the conveyance or packing of goods, of plastics; stoppers, lids, caps and other closures, of plastics",
-          shipment_count: 155,
-          value_of_goods: 3602000
-        },
-        {
-          hs_code: "6210",
-          hscode_desc:
-            "(6210) Garments, made-up of fabrics of heading 5602, 5603, 5903, 5906 or 5907",
-          shipment_count: 25,
-          value_of_goods: 3492000
-        },
-        {
-          hs_code: "2919",
-          hscode_desc:
-            "(2919) Phosphoric esters and their salts, including lactophosphates; their halogenated, sulphonated, nitrated or nitrosated derivatives",
-          shipment_count: 20,
-          value_of_goods: 3057000
-        },
-        {
-          hs_code: "2827",
-          hscode_desc:
-            "(2827) Chlorides, chloride oxides and chloride hydroxides; bromides and bromide oxides; iodides and iodide oxides",
-          shipment_count: 3,
-          value_of_goods: 2984000
-        },
-        {
-          hs_code: "9503",
-          hscode_desc:
-            "(9503) Other toys; reduced-size (scale) models and similar recreational models, working or not; puzzles of all kinds",
-          shipment_count: 23,
-          value_of_goods: 2561000
-        },
-        {
-          hs_code: "5407",
-          hscode_desc:
-            "(5407) Woven fabrics of synthetic filament yarn, including woven fabrics obtained from materials of heading 5404",
-          shipment_count: 140,
-          value_of_goods: 2495000
-        },
-        {
-          hs_code: "4823",
-          hscode_desc:
-            "(4823) Other paper, paperboard, cellulose wadding and webs of cellulose fibres, cut to size or shape; other articles of paper pulp, paper, paperboard, cellulose wadding or webs of cellulose fibres",
-          shipment_count: 15,
-          value_of_goods: 2429000
-        },
-        {
-          hs_code: "8483",
-          hscode_desc:
-            "(8483) Transmission shafts (including cam shafts and crank shafts) and cranks; bearing housings and plain shaft bearings; gears and gearing; ball or roller screws; gear boxes and other speed changers, including torque converters; flywheels and pulleys, including pulley blocks; clutches and shaft couplings (including universal joints)",
-          shipment_count: 34,
-          value_of_goods: 2284000
-        },
-        {
-          hs_code: "8509",
-          hscode_desc:
-            "(8509) Electromechanical domestic appliances, with self-contained electric motor",
-          shipment_count: 17,
-          value_of_goods: 1973000
-        },
-        {
-          hs_code: "8425",
-          hscode_desc:
-            "(8425) Pulley tackle and hoists other than skip hoists; winches and capstans; jacks",
-          shipment_count: 31,
-          value_of_goods: 1774000
-        },
-        {
-          hs_code: "39",
-          hscode_desc: "(39) CHAPTER 39PLASTICS AND ARTICLES THEREOF",
-          shipment_count: 7,
-          value_of_goods: 1660000
-        },
-        {
-          hs_code: "8473",
-          hscode_desc:
-            "(8473) Parts and accessories (other than covers, carrying cases and the like) suitable for use solely or principally with machines of headings 8469 to 8472",
-          shipment_count: 126,
-          value_of_goods: 1655000
-        },
-        {
-          hs_code: "8479",
-          hscode_desc:
-            "(8479) Machines and mechanical appliances having individual functions, not specified or included elsewhere in this chapter",
-          shipment_count: 12,
-          value_of_goods: 1633000
-        },
-        {
-          hs_code: "5811",
-          hscode_desc:
-            "(5811) Quilted textile products in the piece, composed of one or more layers of textile materials assembled with padding by stitching or otherwise, other than embroidery of heading 5810",
-          shipment_count: 77,
-          value_of_goods: 1321000
-        },
-        {
-          hs_code: "8543",
-          hscode_desc:
-            "(8543) Electrical machines and apparatus, having individual functions, not specified or included elsewhere in this chapter",
-          shipment_count: 8,
-          value_of_goods: 1289000
-        },
-        {
-          hs_code: "8516",
-          hscode_desc:
-            "(8516) Electric instantaneous or storage water heaters and immersion heaters; electric space heating apparatus and soil heating apparatus; electrothermic hair-dressing apparatus (for example, hair dryers, hair curlers, curling tong heaters) and hand dryers; electric smoothing irons; other electrothermic appliances of a kind used for domestic purposes; electric heating resistors, other than those of heading 8545",
-          shipment_count: 13,
-          value_of_goods: 1282000
-        },
-        {
-          hs_code: "8518",
-          hscode_desc:
-            "(8518) Microphones and stands therefor; loudspeakers, whether or not mounted in their enclosures; headphones and earphones, whether or not combined with a microphone, and sets consisting of a microphone and one or more loudspeakers; audio-frequency electric amplifiers; electric sound amplifier sets",
-          shipment_count: 2,
-          value_of_goods: 1248000
-        },
-        {
-          hs_code: "8702",
-          hscode_desc:
-            "(8702) Motor vehicles for the transport of 10 or more persons, including the driver",
-          shipment_count: 2,
-          value_of_goods: 1225000
-        },
-        {
-          hs_code: "8716",
-          hscode_desc:
-            "(8716) Trailers and semi-trailers; other vehicles, not mechanically propelled; parts thereof",
-          shipment_count: 5,
-          value_of_goods: 1169000
-        },
-        {
-          hs_code: "82",
-          hscode_desc:
-            "(82) CHAPTER 82TOOLS, IMPLEMENTS, CUTLERY, SPOONS AND FORKS, OF BASE METAL; PARTS THEREOF OF BASE METAL",
-          shipment_count: 1,
-          value_of_goods: 1098000
-        },
+      lastYear: [],
+      last3Years: [
         {
           hs_code: "7326",
           hscode_desc: "(7326) Other articles of iron or steel",
-          shipment_count: 5,
-          value_of_goods: 1091000
-        },
-        {
-          hs_code: "6404",
-          hscode_desc:
-            "(6404) Footwear with outer soles of rubber, plastics, leather or composition leather and uppers of textile materials",
-          shipment_count: 1,
-          value_of_goods: 1054000
-        },
-        {
-          hs_code: "6204",
-          hscode_desc:
-            "(6204) Women's or girls' suits, ensembles, jackets, blazers, dresses, skirts, divided skirts, trousers, bib and brace overalls, breeches and shorts (other than swimwear)",
-          shipment_count: 6,
-          value_of_goods: 1040000
-        },
-        {
-          hs_code: "4818",
-          hscode_desc:
-            "(4818) Toilet paper and similar paper, cellulose wadding or webs of cellulose fibres, of a kind used for household or sanitary purposes, in rolls of a width not exceeding 36 cm, or cut to size or shape; handkerchiefs, cleansing tissues, towels, tablecloths, serviettes, napkins for babies, tampons, bed sheets and similar household, sanitary or hospital articles, articles of apparel and clothing accessories, of paper pulp, paper, cellulose wadding or webs of cellulose fibres",
           shipment_count: 14,
-          value_of_goods: 1023000
-        },
-        {
-          hs_code: "3919",
-          hscode_desc:
-            "(3919) Self-adhesive plates, sheets, film, foil, tape, strip and other flat shapes, of plastics, whether or not in rolls",
-          shipment_count: 2,
-          value_of_goods: 995895
-        },
-        {
-          hs_code: "6105",
-          hscode_desc: "(6105) Men's or boys' shirts, knitted or crocheted",
-          shipment_count: 1,
-          value_of_goods: 985640
-        },
-        {
-          hs_code: "48",
-          hscode_desc:
-            "(48) CHAPTER 48PAPER AND PAPERBOARD; ARTICLES OF PAPER PULP, OF PAPER OR OF PAPERBOARD",
-          shipment_count: 4,
-          value_of_goods: 886697
-        },
-        {
-          hs_code: "43",
-          hscode_desc:
-            "(43) CHAPTER 43FURSKINS AND ARTIFICIAL FUR; MANUFACTURES THEREOF",
-          shipment_count: 2,
-          value_of_goods: 873360
-        },
-        {
-          hs_code: "8302",
-          hscode_desc:
-            "(8302) Base metal mountings, fittings and similar articles suitable for furniture, doors, staircases, windows, blinds, coachwork, saddlery, trunks, chests, caskets or the like; base metal hat-racks, hat-pegs, brackets and similar fixtures; castors with mountings of base metal; automatic door closers of base metal",
-          shipment_count: 5,
-          value_of_goods: 841217
-        },
-        {
-          hs_code: "6206",
-          hscode_desc:
-            "(6206) Women's or girls' blouses, shirts and shirt-blouses",
-          shipment_count: 3,
-          value_of_goods: 757108
-        },
-        {
-          hs_code: "8474",
-          hscode_desc:
-            "(8474) Machinery for sorting, screening, separating, washing, crushing, grinding, mixing or kneading earth, stone, ores or other mineral substances, in solid (including powder or paste) form; machinery for agglomerating, shaping or moulding solid mineral fuels, ceramic paste, unhardened cements, plastering materials or other mineral products in powder or paste form; machines for forming foundry moulds of sand",
-          shipment_count: 4,
-          value_of_goods: 698649
-        },
-        {
-          hs_code: "2008",
-          hscode_desc:
-            "(2008) Fruit, nuts and other edible parts of plants, otherwise prepared or preserved, whether or not containing added sugar or other sweetening matter or spirit, not elsewhere specified or included",
-          shipment_count: 5,
-          value_of_goods: 638522
-        },
-        {
-          hs_code: "4819",
-          hscode_desc:
-            "(4819) Cartons, boxes, cases, bags and other packing containers, of paper, paperboard, cellulose wadding or webs of cellulose fibres; box files, letter trays, and similar articles, of paper or paperboard of a kind used in offices, shops or the like",
-          shipment_count: 7,
-          value_of_goods: 613593
-        },
-        {
-          hs_code: "9011",
-          hscode_desc:
-            "(9011) Compound optical microscopes, including those for photomicrography, cinephotomicrography or microprojection",
-          shipment_count: 3,
-          value_of_goods: 590613
-        },
-        {
-          hs_code: "41",
-          hscode_desc:
-            "(41) CHAPTER 41RAW HIDES AND SKINS (OTHER THAN FURSKINS) AND LEATHER",
-          shipment_count: 1,
-          value_of_goods: 583716
-        },
-        {
-          hs_code: "8433",
-          hscode_desc:
-            "(8433) Harvesting or threshing machinery, including straw or fodder balers; grass or hay mowers; machines for cleaning, sorting or grading eggs, fruit or other agricultural produce, other than machinery of heading 8437",
-          shipment_count: 1,
-          value_of_goods: 545696
-        },
-        {
-          hs_code: "6201",
-          hscode_desc:
-            "(6201) Men's or boys' overcoats, car-coats, capes, cloaks, anoraks (including ski-jackets), wind-cheaters, wind-jackets and similar articles, other than those of heading No 6203",
-          shipment_count: 2,
-          value_of_goods: 471938
-        },
-        {
-          hs_code: "9401",
-          hscode_desc:
-            "(9401) Seats (other than those of heading 9402), whether or not convertible into beds, and parts thereof",
-          shipment_count: 14,
-          value_of_goods: 448163
-        },
-        {
-          hs_code: "5609",
-          hscode_desc:
-            "(5609) Articles of yarn, strip or the like of heading 5404 or 5405, twine, cordage, rope or cables, not elsewhere specified or included",
-          shipment_count: 7,
-          value_of_goods: 443006
-        },
-        {
-          hs_code: "9608",
-          hscode_desc:
-            "(9608) Ballpoint pens; felt-tipped and other porous-tipped pens and markers; fountain pens, stylograph pens and other pens; duplicating stylos; propelling or sliding pencils; pen-holders, pencil-holders and similar holders; parts (including caps and clips) of the foregoing articles, other than those of heading 9609",
-          shipment_count: 2,
-          value_of_goods: 442822
-        },
-        {
-          hs_code: "8537",
-          hscode_desc:
-            "(8537) Boards, panels, consoles, desks, cabinets and other bases, equipped with two or more apparatus of heading 8535 or 8536, for electric control or the distribution of electricity, including those incorporating instruments or apparatus of Chapter 90, and numerical control apparatus, other than switching apparatus of heading 8517",
-          shipment_count: 17,
-          value_of_goods: 415142
-        },
-        {
-          hs_code: "2517",
-          hscode_desc:
-            "(2517) Pebbles, gravel, broken or crushed stone, of a kind commonly used for concrete aggregates, for road metalling or for railway or other ballast, shingle and flint, whether or not heat-treated; macadam of slag, dross or similar industrial waste, whether or not incorporating the materials cited in the first part of the heading; tarred macadam; granules, chippings and powder, of stones of heading 2515 or 2516, whether or not heat-treated",
-          shipment_count: 13,
-          value_of_goods: 389399
-        },
-        {
-          hs_code: "3307",
-          hscode_desc:
-            "(3307) Pre-shave, shaving or after-shave preparations, personal deodorants, bath preparations, depilatories and other perfumery, cosmetic or toilet preparations, not elsewhere specified or included; prepared room deodorisers, whether or not perfumed or having disinfectant properties",
-          shipment_count: 6,
-          value_of_goods: 385865
-        },
-        {
-          hs_code: "8714",
-          hscode_desc:
-            "(8714) Parts and accessories of vehicles of headings 8711 to 8713",
-          shipment_count: 72,
-          value_of_goods: 377581
-        },
-        {
-          hs_code: "8544",
-          hscode_desc:
-            "(8544) Insulated (including enamelled or anodised) wire, cable (including coaxial cable) and other insulated electric conductors, whether or not fitted with connectors; optical fibre cables, made-up of individually sheathed fibres, whether or not assembled with electric conductors or fitted with connectors",
-          shipment_count: 13,
-          value_of_goods: 367473
-        },
-        {
-          hs_code: "8450",
-          hscode_desc:
-            "(8450) Household or laundry-type washing machines, including machines which both wash and dry",
-          shipment_count: 3,
-          value_of_goods: 363391
-        },
-        {
-          hs_code: "5208",
-          hscode_desc:
-            "(5208) Woven fabrics of cotton, containing 85 % or more by weight of cotton, weighing not more than 200 g/m2",
-          shipment_count: 12,
-          value_of_goods: 337102
-        },
-        {
-          hs_code: "3926",
-          hscode_desc:
-            "(3926) Other articles of plastics and articles of other materials of headings 3901 to 3914",
-          shipment_count: 57,
-          value_of_goods: 332968
-        },
-        {
-          hs_code: "3005",
-          hscode_desc:
-            "(3005) Wadding, gauze, bandages and similar articles (for example, dressings, adhesive plasters, poultices), impregnated or coated with pharmaceutical substances or put up in forms or packings for retail sale for medical, surgical, dental or veterinary purposes",
-          shipment_count: 12,
-          value_of_goods: 308834
-        },
-        {
-          hs_code: "6005",
-          hscode_desc:
-            "(6005) Warp knit fabrics (including those made on galloon knitting machines), other than those of headings 6001 to 6004",
-          shipment_count: 16,
-          value_of_goods: 294305
-        },
-        {
-          hs_code: "57",
-          hscode_desc:
-            "(57) CHAPTER 57CARPETS AND OTHER TEXTILE FLOOR COVERINGS",
-          shipment_count: 1,
-          value_of_goods: 289330
-        },
-        {
-          hs_code: "8708",
-          hscode_desc:
-            "(8708) Parts and accessories of the motor vehicles of heading 8701 to 8705",
-          shipment_count: 164,
-          value_of_goods: 271143
-        },
-        {
-          hs_code: "3918",
-          hscode_desc:
-            "(3918) Floor coverings of plastics, whether or not self-adhesive, in rolls or in the form of tiles; wall or ceiling coverings of plastics, as defined in note 9 to this chapter",
-          shipment_count: 6,
-          value_of_goods: 267280
-        },
-        {
-          hs_code: "6306",
-          hscode_desc:
-            "(6306) Tarpaulins, awnings and sunblinds; tents; sails for boats, sailboards or landcraft; camping goods",
-          shipment_count: 5,
-          value_of_goods: 264580
-        },
-        {
-          hs_code: "4304",
-          hscode_desc: "(4304) Artificial fur and articles thereof",
-          shipment_count: 3,
-          value_of_goods: 245644
-        },
-        {
-          hs_code: "6107",
-          hscode_desc:
-            "(6107) Men's or boys' underpants, briefs, nightshirts, pyjamas, bathrobes, dressing gowns and similar articles, knitted or crocheted",
-          shipment_count: 13,
-          value_of_goods: 230700
-        },
-        {
-          hs_code: "8704",
-          hscode_desc: "(8704) Motor vehicles for the transport of goods",
-          shipment_count: 1,
-          value_of_goods: 227745
-        },
-        {
-          hs_code: "7013",
-          hscode_desc:
-            "(7013) Glassware of a kind used for table, kitchen, toilet, office, indoor decoration or similar purposes (other than that of heading No 7010 or 7018)",
-          shipment_count: 1,
-          value_of_goods: 214657
-        },
-        {
-          hs_code: "3401",
-          hscode_desc:
-            "(3401) Soap; organic surface-active products and preparations for use as soap, in the form of bars, cakes, moulded pieces or shapes, whether or not containing soap; organic surface-active products and preparations for washing the skin, in the form of liquid or cream and put up for retail sale, whether or not containing soap; paper, wadding, felt and non-wovens, impregnated, coated or covered with soap or detergent",
-          shipment_count: 2,
-          value_of_goods: 213685
-        },
-        {
-          hs_code: "9603",
-          hscode_desc:
-            "(9603) Brooms, brushes (including brushes constituting parts of machines, appliances or vehicles), hand-operated mechanical floor sweepers, not motorised, mops and feather dusters; prepared knots and tufts for broom or brush making; paint pads and rollers; squeegees (other than roller squeegees)",
-          shipment_count: 23,
-          value_of_goods: 198633
-        },
-        {
-          hs_code: "7315",
-          hscode_desc: "(7315) Chain and parts thereof, of iron or steel",
-          shipment_count: 22,
-          value_of_goods: 197173
-        },
-        {
-          hs_code: "95",
-          hscode_desc:
-            "(95) CHAPTER 95TOYS, GAMES AND SPORTS REQUISITES; PARTS AND ACCESSORIES THEREOF",
-          shipment_count: 1,
-          value_of_goods: 195188
-        },
-        {
-          hs_code: "8712",
-          hscode_desc:
-            "(8712) Bicycles and other cycles (including delivery tricycles), not motorized",
-          shipment_count: 7,
-          value_of_goods: 191189
-        },
-        {
-          hs_code: "8527",
-          hscode_desc:
-            "(8527) Reception apparatus for radio-telephony, radio-telegraphy or radio-broadcasting, whether or not combined, in the same housing, with sound recording or reproducing apparatus or a clock",
-          shipment_count: 2,
-          value_of_goods: 185537
-        },
-        {
-          hs_code: "8501",
-          hscode_desc:
-            "(8501) Electric motors and generators (excluding generating sets)",
-          shipment_count: 20,
-          value_of_goods: 183097
-        },
-        {
-          hs_code: "4303",
-          hscode_desc:
-            "(4303) Articles of apparel, clothing accessories and other articles of furskin",
-          shipment_count: 6,
-          value_of_goods: 177916
-        },
-        {
-          hs_code: "8707",
-          hscode_desc:
-            "(8707) Bodies (including cabs), for the motor vehicles of headings 8701 to 8705",
-          shipment_count: 3,
-          value_of_goods: 167050
-        },
-        {
-          hs_code: "8421",
-          hscode_desc:
-            "(8421) Centrifuges, including centrifugal dryers; filtering or purifying machinery and apparatus, for liquids or gases",
-          shipment_count: 19,
-          value_of_goods: 166571
-        },
-        {
-          hs_code: "8456",
-          hscode_desc:
-            "(8456) Machine-tools for working any material by removal of material, by laser or other light or photon beam, ultrasonic, electrodischarge, electrochemical, electron beam, ionic-beam or plasma arc processes",
-          shipment_count: 4,
-          value_of_goods: 135322000
-        },
-        {
-          hs_code: "5703",
-          hscode_desc:
-            "(5703) Carpets and other textile floor coverings, tufted, whether or not made-up",
-          shipment_count: 19,
-          value_of_goods: 157100
-        },
-        {
-          hs_code: "5515",
-          hscode_desc: "(5515) Other woven fabrics of synthetic staple fibres",
-          shipment_count: 1,
-          value_of_goods: 156941
-        },
-        {
-          hs_code: "8471",
-          hscode_desc:
-            "(8471) Automatic data-processing machines and units thereof; magnetic or optical readers, machines for transcribing data onto data media in coded form and machines for processing such data, not elsewhere specified or included",
-          shipment_count: 14,
-          value_of_goods: 144933
-        },
-        {
-          hs_code: "3925",
-          hscode_desc:
-            "(3925) Builders' ware of plastics, not elsewhere specified or included",
-          shipment_count: 3,
-          value_of_goods: 144494
-        },
-        {
-          hs_code: "7610",
-          hscode_desc:
-            "(7610) Aluminium structures (excluding prefabricated buildings of heading No 9406) and parts of structures (for example, bridges and bridge-sections, towers, lattice masts, roofs, roofing frameworks, doors and windows and their frames and thresholds for doors, balustrades, pillars and columns); aluminium plates, rods, profiles, tubes and the like, prepared for use in structures",
-          shipment_count: 2,
-          value_of_goods: 142513
-        },
-        {
-          hs_code: "6208",
-          hscode_desc:
-            "(6208) Women's or girls' singlets and other vests, slips, petticoats, briefs, panties, nightdresses, pyjamas, negligees, bathrobes, dressing gowns and similar articles",
-          shipment_count: 2,
-          value_of_goods: 140487
-        },
-        {
-          hs_code: "8419",
-          hscode_desc:
-            "(8419) Machinery, plant or laboratory equipment, whether or not electrically heated (excluding furnaces, ovens, and other equipment of heading 8514), for the treatment of materials by a process involving a change of temperature such as heating, cooking, roasting, distilling, rectifying, sterilizing, pasteurizing, steaming, drying, evaporating, vapourizing, condensing or cooling, other than machinery or plant of a kind used for domestic purposes; instantaneous or storage water heaters, non-electric",
-          shipment_count: 5,
-          value_of_goods: 125384
-        },
-        {
-          hs_code: "3506",
-          hscode_desc:
-            "(3506) Prepared glues and other prepared adhesives, not elsewhere specified or included; products suitable for use as glues or adhesives, put up for retail sale as glues or adhesives, not exceeding a net weight of 1 kg",
-          shipment_count: 5,
-          value_of_goods: 124619
-        },
-        {
-          hs_code: "6108",
-          hscode_desc:
-            "(6108) Women's or girls' slips, petticoats, briefs, panties, nightdresses, pyjamas, negligees, bathrobes, dressing gowns and similar articles, knitted or crocheted",
-          shipment_count: 6,
-          value_of_goods: 99010
-        },
-        {
-          hs_code: "8536",
-          hscode_desc:
-            "(8536) Electrical apparatus for switching or protecting electrical circuits, or for making connections to or in electrical circuits (for example, switches, relays, fuses, surge suppressors, plugs, sockets, lamp-holders, junction boxes), for a voltage not exceeding 1 000 V",
-          shipment_count: 39,
-          value_of_goods: 95394
-        },
-        {
-          hs_code: "8414",
-          hscode_desc:
-            "(8414) Air or vacuum pumps, air or other gas compressors and fans; ventilating or recycling hoods incorporating a fan, whether or not fitted with filters",
-          shipment_count: 21,
-          value_of_goods: 86239
-        },
-        {
-          hs_code: "8481",
-          hscode_desc:
-            "(8481) Taps, cocks, valves and similar appliances for pipes, boiler shells, tanks, vats or the like, including pressure-reducing valves and thermostatically controlled valves",
-          shipment_count: 15,
-          value_of_goods: 84120
-        },
-        {
-          hs_code: "7608",
-          hscode_desc: "(7608) Aluminium tubes and pipes",
-          shipment_count: 1,
-          value_of_goods: 77166
-        },
-        {
-          hs_code: "7010",
-          hscode_desc:
-            "(7010) Carboys, bottles, flasks, jars, pots, phials, ampoules and other containers, of glass, of a kind used for the conveyance or packing of goods; preserving jars of glass; stoppers, lids and other closures, of glass",
-          shipment_count: 3,
-          value_of_goods: 63303
-        },
-        {
-          hs_code: "5408",
-          hscode_desc:
-            "(5408) Woven fabrics of artificial filament yarn, including woven fabrics obtained from materials of heading 5405",
-          shipment_count: 4,
-          value_of_goods: 62661
-        },
-        {
-          hs_code: "8538",
-          hscode_desc:
-            "(8538) Parts suitable for use solely or principally with the apparatus of heading 8535, 8536 or 8537",
-          shipment_count: 4,
-          value_of_goods: 54213
-        },
-        {
-          hs_code: "6307",
-          hscode_desc:
-            "(6307) Other made-up articles, including dress patterns",
-          shipment_count: 4,
-          value_of_goods: 51638
-        },
-        {
-          hs_code: "9615",
-          hscode_desc:
-            "(9615) Combs, hair-slides and the like; hairpins, curling pins, curling grips, hair-curlers and the like, other than those of heading 8516, and parts thereof",
-          shipment_count: 4,
-          value_of_goods: 51302
-        },
-        {
-          hs_code: "8408",
-          hscode_desc:
-            "(8408) Compression-ignition internal combustion piston engines (diesel or semi-diesel engines)",
-          shipment_count: 1,
-          value_of_goods: 50254
-        },
-        {
-          hs_code: "5512",
-          hscode_desc:
-            "(5512) Woven fabrics of synthetic staple fibres, containing 85 % or more by weight of synthetic staple fibres",
-          shipment_count: 3,
-          value_of_goods: 44510
-        },
-        {
-          hs_code: "8512",
-          hscode_desc:
-            "(8512) Electrical lighting or signalling equipment (excluding articles of heading 8539), windscreen wipers, defrosters and demisters, of a kind used for cycles or motor vehicles",
-          shipment_count: 34,
-          value_of_goods: 39898
-        },
-        {
-          hs_code: "8420",
-          hscode_desc:
-            "(8420) Calendering or other rolling machines, other than for metals or glass, and cylinders therefor",
-          shipment_count: 4,
-          value_of_goods: 37562
-        },
-        {
-          hs_code: "8214",
-          hscode_desc:
-            "(8214) Other articles of cutlery (for example, hair clippers, butchers' or kitchen cleavers, choppers and mincing knives, paper knives); manicure or pedicure sets and instruments (including nail files)",
-          shipment_count: 3,
-          value_of_goods: 34399
-        },
-        {
-          hs_code: "8213",
-          hscode_desc:
-            "(8213) Scissors, tailors' shears and similar shears, and blades therefor",
-          shipment_count: 1,
-          value_of_goods: 34163
-        },
-        {
-          hs_code: "6405",
-          hscode_desc: "(6405) Other footwear",
-          shipment_count: 1,
-          value_of_goods: 31448
-        },
-        {
-          hs_code: "2712",
-          hscode_desc:
-            "(2712) Petroleum jelly; paraffin wax, microcrystalline petroleum wax, slack wax, ozokerite, lignite wax, peat wax, other mineral waxes, and similar products obtained by synthesis or by other processes, whether or not coloured",
-          shipment_count: 1,
-          value_of_goods: 31065
-        },
-        {
-          hs_code: "8203",
-          hscode_desc:
-            "(8203) Files, rasps, pliers (including cutting pliers), pincers, tweezers, metal cutting shears, pipe-cutters, bolt croppers, perforating punches and similar hand tools",
-          shipment_count: 1,
-          value_of_goods: 27864
-        },
-        {
-          hs_code: "3824",
-          hscode_desc:
-            "(3824) Prepared binders for foundry moulds or cores; chemical products and preparations of the chemical or allied industries (including those consisting of mixtures of natural products), not elsewhere specified or included",
-          shipment_count: 1,
-          value_of_goods: 26309
-        },
-        {
-          hs_code: "8525",
-          hscode_desc:
-            "(8525) Transmission apparatus for radio-telephony, radio-telegraphy, radio-broadcasting or television, whether or not incorporating reception apparatus or sound recording or reproducing apparatus; television cameras; still image video cameras and other video camera recorders; digital cameras",
-          shipment_count: 1,
-          value_of_goods: 25468
-        },
-        {
-          hs_code: "9403",
-          hscode_desc: "(9403) Other furniture and parts thereof",
-          shipment_count: 6,
-          value_of_goods: 25108
-        },
-        {
-          hs_code: "5603",
-          hscode_desc:
-            "(5603) Non-wovens, whether or not impregnated, coated, covered or laminated",
-          shipment_count: 4,
-          value_of_goods: 24711
-        },
-        {
-          hs_code: "6701",
-          hscode_desc:
-            "(6701) Skins and other parts of birds with their feathers or down, feathers, parts of feathers, down and articles thereof (other than goods of heading No 0505 and worked quills and scapes)",
-          shipment_count: 3,
-          value_of_goods: 24099
-        },
-        {
-          hs_code: "4201",
-          hscode_desc:
-            "(4201) Saddlery and harness for any animal (including traces, leads, knee pads, muzzles, saddle cloths, saddle bags, dog coats and the like), of any material",
-          shipment_count: 1,
-          value_of_goods: 23861
-        },
-        {
-          hs_code: "9023",
-          hscode_desc:
-            "(9023) Instruments, apparatus and models, designed for demonstrational purposes (for example, in education or exhibitions), unsuitable for other uses",
-          shipment_count: 1,
-          value_of_goods: 22921
-        },
-        {
-          hs_code: "84",
-          hscode_desc:
-            "(84) CHAPTER 84NUCLEAR REACTORS, BOILERS, MACHINERY AND MECHANICAL APPLIANCES; PARTS THEREOF",
-          shipment_count: 2,
-          value_of_goods: 20570
-        },
-        {
-          hs_code: "6506",
-          hscode_desc: "(6506) Other headgear, whether or not lined or trimmed",
-          shipment_count: 2,
-          value_of_goods: 19545
-        },
-        {
-          hs_code: "9032",
-          hscode_desc:
-            "(9032) Automatic regulating or controlling instruments and apparatus",
-          shipment_count: 5,
-          value_of_goods: 19190
-        },
-        {
-          hs_code: "5402",
-          hscode_desc:
-            "(5402) Synthetic filament yarn (other than sewing thread), not put up for retail sale, including synthetic monofilament of less than 67 decitex",
-          shipment_count: 1,
-          value_of_goods: 18563
-        },
-        {
-          hs_code: "9607",
-          hscode_desc: "(9607) Slide fasteners and parts thereof",
-          shipment_count: 6,
-          value_of_goods: 16192
-        },
-        {
-          hs_code: "9026",
-          hscode_desc:
-            "(9026) Instruments and apparatus for measuring or checking the flow, level, pressure or other variables of liquids or gases (for example, flow meters, level gauges, manometers, heat meters), excluding instruments and apparatus of heading 9014, 9015, 9028 or 9032",
-          shipment_count: 21,
-          value_of_goods: 15471
-        },
-        {
-          hs_code: "4811",
-          hscode_desc:
-            "(4811) Paper, paperboard, cellulose wadding and webs of cellulose fibres, coated, impregnated, covered, surface-coloured, surface-decorated or printed, in rolls or rectangular (including square) sheets, of any size, other than goods of the kind described in heading 4803, 4809 or 4810",
-          shipment_count: 2,
-          value_of_goods: 14372
-        },
-        {
-          hs_code: "8412",
-          hscode_desc: "(8412) Other engines and motors",
-          shipment_count: 1,
-          value_of_goods: 14077
-        },
-        {
-          hs_code: "8409",
-          hscode_desc:
-            "(8409) Parts suitable for use solely or principally with the engines of heading No 8407 or 8408",
-          shipment_count: 19,
-          value_of_goods: 14058
+          total_kg: 180000,
+          value_of_goods: 8500
         },
         {
           hs_code: "8413",
           hscode_desc:
             "(8413) Pumps for liquids, whether or not fitted with a measuring device; liquid elevators",
-          shipment_count: 14,
-          value_of_goods: 13545
+          shipment_count: 29,
+          total_kg: 620000,
+          value_of_goods: 3900
         },
         {
-          hs_code: "4010",
-          hscode_desc:
-            "(4010) Conveyor or transmission belts or belting, of vulcanised rubber",
-          shipment_count: 6,
-          value_of_goods: 12969
-        },
-        {
-          hs_code: "9506",
-          hscode_desc:
-            "(9506) Articles and equipment for general physical exercise, gymnastics, athletics, other sports (including table-tennis) or outdoor games, not specified or included elsewhere in this chapter; swimming pools and paddling pools",
-          shipment_count: 1,
-          value_of_goods: 10904
-        },
-        {
-          hs_code: "5607",
-          hscode_desc:
-            "(5607) Twine, cordage, ropes and cables, whether or not plaited or braided and whether or not impregnated, coated, covered or sheathed with rubber or plastics",
+          hs_code: "7419",
+          hscode_desc: "(7419) Other articles of copper",
           shipment_count: 2,
-          value_of_goods: 10710
+          total_kg: 3800,
+          value_of_goods: 1100
         },
         {
-          hs_code: "9002",
+          hs_code: "8483",
           hscode_desc:
-            "(9002) Lenses, prisms, mirrors and other optical elements, of any material, mounted, being parts of or fittings for instruments or apparatus, other than such elements of glass not optically worked",
+            "(8483) Transmission shafts (including cam shafts and crank shafts) and cranks; bearing housings and plain shaft bearings; gears and gearing; ball or roller screws; gear boxes and other speed changers, including torque converters; flywheels and pulleys, including pulley blocks; clutches and shaft couplings (including universal joints)",
           shipment_count: 1,
-          value_of_goods: 10478
+          total_kg: 2800,
+          value_of_goods: 240
         },
         {
-          hs_code: "7318",
+          hs_code: "7219",
           hscode_desc:
-            "(7318) Screws, bolts, nuts, coach screws, screw hooks, rivets, cotters, cotter-pins, washers (including spring washers) and similar articles, of iron or steel",
-          shipment_count: 21,
-          value_of_goods: 10035
-        },
-        {
-          hs_code: "7009",
-          hscode_desc:
-            "(7009) Glass mirrors, whether or not framed, including rear-view mirrors",
-          shipment_count: 12,
-          value_of_goods: 8392
-        },
-        {
-          hs_code: "5503",
-          hscode_desc:
-            "(5503) Synthetic staple fibres, not carded, combed or otherwise processed for spinning",
-          shipment_count: 2,
-          value_of_goods: 8103
-        },
-        {
-          hs_code: "3924",
-          hscode_desc:
-            "(3924) Tableware, kitchenware, other household articles and toilet articles, of plastics",
-          shipment_count: 2,
-          value_of_goods: 7723
-        },
-        {
-          hs_code: "8511",
-          hscode_desc:
-            "(8511) Electrical ignition or starting equipment of a kind used for spark-ignition or compression-ignition internal combustion engines (for example, ignition magnetos, magneto-dynamos, ignition coils, sparking plugs and glow plugs, starter motors); generators (for example, dynamos, alternators) and cut-outs of a kind used in conjunction with such engines",
-          shipment_count: 4,
-          value_of_goods: 7546
-        },
-        {
-          hs_code: "8301",
-          hscode_desc:
-            "(8301) Padlocks and locks (key, combination or electrically operated), of base metal; clasps and frames with clasps, incorporating locks, of base metal; keys for any of the foregoing articles, of base metal",
-          shipment_count: 7,
-          value_of_goods: 6938
-        },
-        {
-          hs_code: "8415",
-          hscode_desc:
-            "(8415) Air-conditioning machines, comprising a motor-driven fan and elements for changing the temperature and humidity, including those machines in which the humidity cannot be separately regulated",
-          shipment_count: 5,
-          value_of_goods: 5244
-        },
-        {
-          hs_code: "5702",
-          hscode_desc:
-            "(5702) Carpets and other textile floor coverings, woven, not tufted or flocked, whether or not made-up, including Kelem, Schumacks, Karamanie and similar hand-woven rugs",
+            "(7219) Flat-rolled products of stainless steel, of a width of 600 mm or more",
           shipment_count: 1,
-          value_of_goods: 5198
-        },
-        {
-          hs_code: "9029",
-          hscode_desc:
-            "(9029) Revolution counters, production counters, taximeters, milometers, pedometers and the like; speed indicators and tachometers, other than those of heading 9014 or 9015; stroboscopes",
-          shipment_count: 4,
-          value_of_goods: 4933
-        },
-        {
-          hs_code: "8482",
-          hscode_desc: "(8482) Ball or roller bearings",
-          shipment_count: 4,
-          value_of_goods: 3960
-        },
-        {
-          hs_code: "6812",
-          hscode_desc:
-            "(6812) Fabricated asbestos fibres; mixtures with a basis of asbestos or with a basis of asbestos and magnesium carbonate; articles of such mixtures or of asbestos (for example, thread, woven fabric, clothing, headgear, footwear, gaskets), whether or not reinforced, other than goods of heading 6811 or 6813",
-          shipment_count: 1,
-          value_of_goods: 3778
-        },
-        {
-          hs_code: "8451",
-          hscode_desc:
-            "(8451) Machinery (other than machines of heading 8450) for washing, cleaning, wringing, drying, ironing, pressing (including fusing presses), bleaching, dyeing, dressing, finishing, coating or impregnating textile yarns, fabrics or made-up textile articles and machines for applying the paste to the base fabric or other support used in the manufacture of floor coverings such as linoleum; machines for reeling, unreeling, folding, cutting or pinking textile fabrics",
-          shipment_count: 1,
-          value_of_goods: 3774
-        },
-        {
-          hs_code: "8309",
-          hscode_desc:
-            "(8309) Stoppers, caps and lids (including crown corks, screw caps and pouring stoppers), capsules for bottles, threaded bungs, bung covers, seals and other packing accessories, of base metal",
-          shipment_count: 3,
-          value_of_goods: 3665
-        },
-        {
-          hs_code: "5808",
-          hscode_desc:
-            "(5808) Braids in the piece; ornamental trimmings in the piece, without embroidery, other than knitted or crocheted; tassels, pompons and similar articles",
-          shipment_count: 1,
-          value_of_goods: 3426
-        },
-        {
-          hs_code: "7325",
-          hscode_desc: "(7325) Other cast articles of iron or steel",
-          shipment_count: 1,
-          value_of_goods: 3218
-        },
-        {
-          hs_code: "9012",
-          hscode_desc:
-            "(9012) Microscopes other than optical microscopes; diffraction apparatus",
-          shipment_count: 1,
-          value_of_goods: 3191
-        },
-        {
-          hs_code: "7007",
-          hscode_desc:
-            "(7007) Safety glass, consisting of toughened (tempered) or laminated glass",
-          shipment_count: 4,
-          value_of_goods: 3007
-        },
-        {
-          hs_code: "7320",
-          hscode_desc:
-            "(7320) Springs and leaves for springs, of iron or steel",
-          shipment_count: 1,
-          value_of_goods: 2745
-        },
-        {
-          hs_code: "9027",
-          hscode_desc:
-            "(9027) Instruments and apparatus for physical or chemical analysis (for example, polarimeters, refractometers, spectrometers, gas or smoke analysis apparatus); instruments and apparatus for measuring or checking viscosity, porosity, expansion, surface tension or the like; instruments and apparatus for measuring or checking quantities of heat, sound or light (including exposure meters); microtomes",
-          shipment_count: 1,
-          value_of_goods: 2638
-        },
-        {
-          hs_code: "9025",
-          hscode_desc:
-            "(9025) Hydrometers and similar floating instruments, thermometers, pyrometers, barometers, hygrometers and psychrometers, recording or not, and any combination of these instruments",
-          shipment_count: 4,
-          value_of_goods: 2034
-        },
-        {
-          hs_code: "7323",
-          hscode_desc:
-            "(7323) Table, kitchen or other household articles and parts thereof, of iron or steel; iron or steel wool; pot scourers and scouring or polishing pads, gloves and the like, of iron or steel",
-          shipment_count: 1,
-          value_of_goods: 1696
-        },
-        {
-          hs_code: "8539",
-          hscode_desc:
-            "(8539) Electric filament or discharge lamps, including sealed-beam lamp units and ultraviolet or infrared lamps; arc-lamps",
-          shipment_count: 5,
-          value_of_goods: 1670
-        },
-        {
-          hs_code: "9031",
-          hscode_desc:
-            "(9031) Measuring or checking instruments, appliances and machines, not specified or included elsewhere in this chapter; profile projectors",
-          shipment_count: 6,
-          value_of_goods: 1338
-        },
-        {
-          hs_code: "8542",
-          hscode_desc:
-            "(8542) Electronic integrated circuits and microassemblies",
-          shipment_count: 6,
-          value_of_goods: 1018
-        },
-        {
-          hs_code: "8418",
-          hscode_desc:
-            "(8418) Refrigerators, freezers and other refrigerating or freezing equipment, electric or other; heat pumps other than air-conditioning machines of heading No 8415",
-          shipment_count: 1,
-          value_of_goods: 831
-        },
-        {
-          hs_code: "7321",
-          hscode_desc:
-            "(7321) Stoves, ranges, grates, cookers (including those with subsidiary boilers for central heating), barbecues, braziers, gas-rings, plate warmers and similar non-electric domestic appliances, and parts thereof, of iron or steel",
-          shipment_count: 1,
-          value_of_goods: 780
-        },
-        {
-          hs_code: "9017",
-          hscode_desc:
-            "(9017) Drawing, marking-out or mathematical calculating instruments (for example, drafting machines, pantographs, protractors, drawing sets, slide rules, disc calculators); instruments for measuring length, for use in the hand (for example, measuring rods and tapes, micrometers, callipers), not specified or included elsewhere in this chapter",
-          shipment_count: 1,
-          value_of_goods: 737
-        },
-        {
-          hs_code: "8205",
-          hscode_desc:
-            "(8205) Hand tools (including glaziers' diamonds), not elsewhere specified or included; blow-lamps; vices, clamps and the like, other than accessories for and parts of, machine tools; anvils; portable forges; hand or pedal-operated grinding wheels with frameworks",
-          shipment_count: 1,
-          value_of_goods: 722
-        },
-        {
-          hs_code: "8484",
-          hscode_desc:
-            "(8484) Gaskets and similar joints of metal sheeting combined with other material or of two or more layers of metal; sets or assortments of gaskets and similar joints, dissimilar in composition, put up in pouches, envelopes or similar packings; mechanical seals",
-          shipment_count: 5,
-          value_of_goods: 699
-        },
-        {
-          hs_code: "7314",
-          hscode_desc:
-            "(7314) Cloth (including endless bands), grill, netting and fencing, of iron or steel wire; expanded metal of iron or steel",
-          shipment_count: 1,
-          value_of_goods: 682
-        },
-        {
-          hs_code: "8202",
-          hscode_desc:
-            "(8202) Hand saws; blades for saws of all kinds (including slitting, slotting or toothless saw blades)",
-          shipment_count: 1,
-          value_of_goods: 631
-        },
-        {
-          hs_code: "2710",
-          hscode_desc:
-            "(2710) Petroleum oils and oils obtained from bituminous minerals, other than crude; preparations not elsewhere specified or included, containing by weight 70 % or more of petroleum oils or of oils obtained from bituminous minerals, these oils being the basic constituents of the preparations; waste oils",
-          shipment_count: 2,
-          value_of_goods: 625
-        },
-        {
-          hs_code: "8215",
-          hscode_desc:
-            "(8215) Spoons, forks, ladles, skimmers, cake-servers, fish-knives, butter-knives, sugar tongs and similar kitchen or tableware",
-          shipment_count: 1,
-          value_of_goods: 537
-        },
-        {
-          hs_code: "8507",
-          hscode_desc:
-            "(8507) Electric accumulators, including separators therefor, whether or not rectangular (including square)",
-          shipment_count: 3,
-          value_of_goods: 501
-        },
-        {
-          hs_code: "4602",
-          hscode_desc:
-            "(4602) Basketwork, wickerwork and other articles, made directly to shape from plaiting materials or made-up from goods of heading No 4601; articles of loofah",
-          shipment_count: 13,
-          value_of_goods: 415
-        },
-        {
-          hs_code: "4009",
-          hscode_desc:
-            "(4009) Tubes, pipes and hoses, of vulcanised rubber other than hard rubber, with or without their fittings (for example, joints, elbows, flanges)",
-          shipment_count: 2,
-          value_of_goods: 276
-        },
-        {
-          hs_code: "9001",
-          hscode_desc:
-            "(9001) Optical fibres and optical fibre bundles; optical fibre cables other than those of heading No 8544; sheets and plates of polarising material; lenses (including contact lenses), prisms, mirrors and other optical elements, of any material, unmounted, other than such elements of glass not optically worked",
-          shipment_count: 1,
-          value_of_goods: 224
-        },
-        {
-          hs_code: "8532",
-          hscode_desc:
-            "(8532) Electrical capacitors, fixed, variable or adjustable (pre-set)",
-          shipment_count: 3,
-          value_of_goods: 116
-        },
-        {
-          hs_code: "4911",
-          hscode_desc:
-            "(4911) Other printed matter, including printed pictures and photographs",
-          shipment_count: 3,
-          value_of_goods: 111
-        },
-        {
-          hs_code: "4910",
-          hscode_desc:
-            "(4910) Calendars of any kind, printed, including calendar blocks",
-          shipment_count: 1,
-          value_of_goods: 56
-        },
-        {
-          hs_code: "3917",
-          hscode_desc:
-            "(3917) Tubes, pipes and hoses, and fittings therefor (for example, joints, elbows, flanges), of plastics",
-          shipment_count: 1,
-          value_of_goods: 1
-        },
-        {
-          hs_code: "8467",
-          hscode_desc:
-            "(8467) Tools for working in the hand, pneumatic, hydraulic or with self-contained electric or non-electric motor",
-          shipment_count: 1,
-          value_of_goods: 0
-        },
-        {
-          hs_code: "8711",
-          hscode_desc:
-            "(8711) Motor-cycles (including mopeds) and cycles fitted with an auxiliary motor, with or without side-cars; side-cars",
-          shipment_count: 1,
-          value_of_goods: 0
-        },
-        {
-          hs_code: "4016",
-          hscode_desc:
-            "(4016) Other articles of vulcanised rubber other than hard rubber",
-          shipment_count: 11,
-          value_of_goods: 165960
-        }
-      ],
-      last3Years: [
-        {
-          hs_code: "3926",
-          hscode_desc:
-            "(3926) Other articles of plastics and articles of other materials of headings 3901 to 3914",
-          shipment_count: "2",
-          value_of_goods: 230
-        },
-        {
-          hs_code: "8536",
-          hscode_desc:
-            "(8536) Electrical apparatus for switching or protecting electrical circuits, or for making connections to or in electrical circuits (for example, switches, relays, fuses, surge suppressors, plugs, sockets, lamp-holders, junction boxes), for a voltage not exceeding 1 000 V",
-          shipment_count: "878",
-          value_of_goods: 17590791.13
-        },
-        {
-          hs_code: "7415",
-          hscode_desc:
-            "(7415) Nails, tacks, drawing pins, staples (other than those of heading 8305) and similar articles, of copper or of iron or steel with heads of copper; screws, bolts, nuts, screw hooks, rivets, cotters, cotter-pins, washers (including spring washers) and similar articles, of copper",
-          shipment_count: "1",
-          value_of_goods: 455
-        },
-        {
-          hs_code: "4911",
-          hscode_desc:
-            "(4911) Other printed matter, including printed pictures and photographs",
-          shipment_count: "1",
-          value_of_goods: 20
-        },
-        {
-          hs_code: "8537",
-          hscode_desc:
-            "(8537) Boards, panels, consoles, desks, cabinets and other bases, equipped with two or more apparatus of heading 8535 or 8536, for electric control or the distribution of electricity, including those incorporating instruments or apparatus of Chapter 90, and numerical control apparatus, other than switching apparatus of heading 8517",
-          shipment_count: "32",
-          value_of_goods: 376877.17
-        },
-        {
-          hs_code: "8504",
-          hscode_desc:
-            "(8504) Electrical transformers, static converters (for example, rectifiers) and inductors",
-          shipment_count: "30",
-          value_of_goods: 84197
-        },
-        {
-          hs_code: "4819",
-          hscode_desc:
-            "(4819) Cartons, boxes, cases, bags and other packing containers, of paper, paperboard, cellulose wadding or webs of cellulose fibres; box files, letter trays, and similar articles, of paper or paperboard of a kind used in offices, shops or the like",
-          shipment_count: "4",
-          value_of_goods: 382
-        },
-        {
-          hs_code: "4901",
-          hscode_desc:
-            "(4901) Printed books, brochures, leaflets and similar printed matter, whether or not in single sheets",
-          shipment_count: "1",
-          value_of_goods: 24
-        },
-        {
-          hs_code: "8538",
-          hscode_desc:
-            "(8538) Parts suitable for use solely or principally with the apparatus of heading 8535, 8536 or 8537",
-          shipment_count: "68",
-          value_of_goods: 171007.66
-        },
-        {
-          hs_code: "9107",
-          hscode_desc:
-            "(9107) Time switches, with clock or watch movement or with synchronous motor",
-          shipment_count: "49",
-          value_of_goods: 153218
-        },
-        {
-          hs_code: "8531",
-          hscode_desc:
-            "(8531) Electric sound or visual signalling apparatus (for example, bells, sirens, indicator panels, burglar or fire alarms), other than those of heading 8512 or 8530",
-          shipment_count: "62",
-          value_of_goods: 90524.75
-        },
-        {
-          hs_code: "7326",
-          hscode_desc: "(7326) Other articles of iron or steel",
-          shipment_count: "2",
-          value_of_goods: 8674
-        },
-        {
-          hs_code: "8511",
-          hscode_desc:
-            "(8511) Electrical ignition or starting equipment of a kind used for spark-ignition or compression-ignition internal combustion engines (for example, ignition magnetos, magneto-dynamos, ignition coils, sparking plugs and glow plugs, starter motors); generators (for example, dynamos, alternators) and cut-outs of a kind used in conjunction with such engines",
-          shipment_count: "1",
-          value_of_goods: 4685
-        },
-        {
-          hs_code: "8414",
-          hscode_desc:
-            "(8414) Air or vacuum pumps, air or other gas compressors and fans; ventilating or recycling hoods incorporating a fan, whether or not fitted with filters",
-          shipment_count: "1",
-          value_of_goods: 1778
-        },
-        {
-          hs_code: "7505",
-          hscode_desc: "(7505) Nickel bars, rods, profiles and wire",
-          shipment_count: "1",
-          value_of_goods: 3000
+          total_kg: 61000,
+          value_of_goods: 15
         }
       ]
     },
@@ -5524,28 +4524,15 @@ const reportData = {
   },
   medias: [
     {
+      description:
+        "Chairman: Director Song has just briefed everyone on the management work and made requests for future work. Let us once again express our thanks to Song for his statement. Angle...",
       headline:
-        "The Top 5 Trade Fairs in China — Dates, Products, Location, and Tour Suggestions | China Highlights, 28 June 2018"
-    },
-    {
-      headline:
-        "The Top 5 Trade Fairs in China — Dates, Products, Location, and Tour Suggestions | China Highlights, 28 June 2018"
-    },
-    {
-      headline:
-        "The Top 5 Trade Fairs in China — Dates, Products, Location, and Tour Suggestions | China Highlights, 28 June 2018"
-    },
-    {
-      headline:
-        "The Top 5 Trade Fairs in China — Dates, Products, Location, and Tour Suggestions | China Highlights, 28 June 2018"
-    },
-    {
-      headline:
-        "The Top 5 Trade Fairs in China — Dates, Products, Location, and Tour Suggestions | China Highlights, 28 June 2018"
-    },
-    {
-      headline:
-        "The Top 5 Trade Fairs in China — Dates, Products, Location, and Tour Suggestions | China Highlights, 28 June 2018"
+        "International Game Business Congress Xiaomi Technology Vice President Shang Jin Speech",
+      imageUrl:
+        "http://p1.qhimg.com/dmfd/144_90_/t010436e82d76079d91.jpg?size=550x335",
+      publishTime: "2016-04-18T12:11:00.000Z",
+      source: "91 mobile games",
+      url: "http://game.91.com/chanye/news/21935574.html"
     }
   ],
   insights: [

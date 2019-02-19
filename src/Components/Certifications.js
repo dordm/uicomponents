@@ -347,6 +347,13 @@ class Certifications extends Component {
                               ) : (
                                 ""
                               )}
+                              {certificate.regGov ? (
+                                <Typography className={"fontStyle11"}>
+                                  {"\u2022"} Government: {certificate.regGov}
+                                </Typography>
+                              ) : (
+                                ""
+                              )}
                             </div>
                           </StyledExpansionPanelDetails>
                         </StyledExpansionPanel>

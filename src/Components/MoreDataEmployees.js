@@ -90,14 +90,27 @@ function MoreData2(props) {
                       {"\u2022"} Publish Date:{" "}
                       {item.publicDate !== "" ? item.publicDate : "Unknown"}
                     </Typography>
-                    <Typography className={"fontStyle11"}>
-                      {"\u2022"} Address:{" "}
-                      {item.address !== "" ? item.address : ""}
-                    </Typography>
-                    <Typography className={"fontStyle11"}>
-                      {"\u2022"} Functional Category:{" "}
-                      {item.type !== "" ? item.type : "Not Set"}
-                    </Typography>
+                    {item.address ? (
+                      <Typography className={"fontStyle11"}>
+                        {"\u2022"} Address: {item.address}
+                      </Typography>
+                    ) : (
+                      ""
+                    )}
+                    {item.area ? (
+                      <Typography className={"fontStyle11"}>
+                        {"\u2022"} Area: {item.area}
+                      </Typography>
+                    ) : (
+                      ""
+                    )}
+                    {item.type ? (
+                      <Typography className={"fontStyle11"}>
+                        {"\u2022"} Functional Category: {item.type}
+                      </Typography>
+                    ) : (
+                      ""
+                    )}
                     <Typography className={"fontStyle11"}>
                       {"\u2022"} Years Requirements:{" "}
                       {item.yearsReq !== "" ? item.yearsReq : "Not Set"}
@@ -114,16 +127,27 @@ function MoreData2(props) {
                       {"\u2022"} Number of Recruits:{" "}
                       {item.count !== "" ? item.count : "Not Set"}
                     </Typography>
-                    <Typography className={"fontStyle11"}>
-                      {"\u2022"} Nature of Work:{" "}
-                      {item.workingProperty !== ""
-                        ? item.workingProperty
-                        : "Not Set"}
-                    </Typography>
-                    <Typography className={"fontStyle11"}>
-                      {"\u2022"} Welfare:{" "}
-                      {item.welfare !== "" ? item.welfare : "Not Set"}
-                    </Typography>
+                    {item.workingProperty ? (
+                      <Typography className={"fontStyle11"}>
+                        {"\u2022"} Nature of Work: {item.workingProperty}
+                      </Typography>
+                    ) : (
+                      ""
+                    )}
+                    {item.welfare ? (
+                      <Typography className={"fontStyle11"}>
+                        {"\u2022"} Welfare: {item.welfare}
+                      </Typography>
+                    ) : (
+                      ""
+                    )}
+                    {item.source ? (
+                      <Typography className={"fontStyle11"}>
+                        {"\u2022"} Require Source: {item.source}
+                      </Typography>
+                    ) : (
+                      ""
+                    )}
                     <Typography className={"fontStyle11"}>
                       {"\u2022"} Job Description:{" "}
                       {item.des !== "" ? item.des : "Not Set"}

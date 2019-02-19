@@ -9,12 +9,19 @@ import Dialog from "@material-ui/core/Dialog";
 import DialogTitle from "@material-ui/core/DialogTitle";
 import classNames from "classnames";
 import Utils from "./js/Utils";
+import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
+import ListItemIcon from "@material-ui/core/ListItemIcon";
 import ReactTooltip from "react-tooltip";
 import {
   StyledTitle,
   BigBoxLayout,
   StyledCloseIcon,
-  StyledDialogContent
+  StyledDialogContent,
+  StyledExpansionPanel,
+  StyledListItem,
+  StyledListItemText,
+  StyledExpansionSummary,
+  StyledExpansionPanelDetails
 } from "./LowLevelComponents/StyledComponents";
 import NoDataImg from "./LowLevelComponents/NoDataImg";
 
@@ -62,6 +69,14 @@ const styles = {
   },
   dialog: {
     margin: 16
+  },
+  expansionSummaryInner: {
+    margin: "0px !important"
+  },
+  aStyle: {
+    textDecoration: "none",
+    color: "#4c84ff",
+    wordBreak: "break-word"
   }
 };
 
@@ -69,13 +84,12 @@ class Media extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      report: this.props.report,
       allMediaOpen: false
     };
   }
 
   render() {
-    const { classes } = this.props;
+    const { classes, report } = this.props;
     return (
       <BigBoxLayout container={true} justify={"flex-start"}>
         <StyledTitle
@@ -102,8 +116,7 @@ class Media extends Component {
             <span>The supplier on the online media</span>
           </ReactTooltip>
         </StyledTitle>
-        {this.state.report.medias !== undefined &&
-        this.state.report.medias.length > 0 ? (
+        {report.medias !== undefined && report.medias.length > 0 ? (
           <div
             className={classNames(classes.divViewAll, "fontStyle6")}
             onClick={() => this.setState({ allMediaOpen: true })}
@@ -119,10 +132,9 @@ class Media extends Component {
         ) : (
           ""
         )}
-        {this.state.report.medias !== undefined &&
-        this.state.report.medias.length > 0 ? (
+        {report.medias && report.medias.length > 0 ? (
           <div data-cy="divMedia" className={classes.divMedia}>
-            {this.state.report.medias.slice(0, 4).map((media, idx) => {
+            {report.medias.slice(0, 4).map((media, idx) => {
               return (
                 <div key={idx}>
                   <div className={classes.innerDivMedia}>
@@ -133,11 +145,15 @@ class Media extends Component {
                       src={require("./images/Media.svg")}
                       className={classes.icons}
                     />
-                    <Typography
-                      className={classNames(classes.typo, "fontStyle5")}
-                    >
-                      {media.headline}
-                      {"\n"}
+                    <Typography className={classes.typo}>
+                      <a
+                        className={"fontStyle5"}
+                        style={{ textDecoration: "none" }}
+                        target={"blank"}
+                        href={media.url}
+                      >
+                        {media.headline}
+                      </a>
                     </Typography>
                   </div>
                   <Divider />
@@ -173,34 +189,72 @@ class Media extends Component {
           </DialogTitle>
           <StyledDialogContent>
             <List>
-              {this.state.report.medias !== undefined &&
-              this.state.report.medias.length > 0
-                ? this.state.report.medias.map((media, idx) => {
+              {report.medias && report.medias.length > 0
+                ? report.medias.map((media, idx) => {
                     return (
                       <div key={idx}>
-                        <ListItem>
-                          <img
-                            height={24}
-                            width={24}
-                            alt={"media"}
-                            src={require("./images/Media.svg")}
-                          />
-                          <Typography
-                            className={classNames(
-                              classes.typoAllMedia,
-                              "fontStyle5"
-                            )}
-                          >
-                            {media.headline}
-                            {"\n"}
-                          </Typography>
-                        </ListItem>
-                        {this.state.report.medias.indexOf(media) <
-                        this.state.report.medias.length - 1 ? (
-                          <Divider />
-                        ) : (
-                          ""
-                        )}
+                        <StyledListItem>
+                          <StyledExpansionPanel style={{ width: "100%" }}>
+                            <StyledExpansionSummary
+                              IconButtonProps={{
+                                style: {
+                                  padding: 0
+                                }
+                              }}
+                              classes={{
+                                content: classes.expansionSummaryInner,
+                                expanded: classes.expansionSummaryInner
+                              }}
+                              expandIcon={<ExpandMoreIcon />}
+                            >
+                              <ListItemIcon>
+                                <img
+                                  style={{ alignSelf: "center" }}
+                                  height={24}
+                                  width={24}
+                                  alt={"media"}
+                                  src={require("./images/Media.svg")}
+                                />
+                              </ListItemIcon>
+                              <StyledListItemText
+                                primary={
+                                  <Typography className={"fontStyle5"}>
+                                    {media.headline}
+                                  </Typography>
+                                }
+                                secondary={
+                                  <Typography className={"fontStyle11"}>
+                                    {media.publishTime
+                                      ? "\u2022 Publish Date: " +
+                                        media.publishTime.substr(0, 10)
+                                      : ""}
+                                  </Typography>
+                                }
+                              />
+                            </StyledExpansionSummary>
+                            <StyledExpansionPanelDetails>
+                              <div>
+                                <Typography className={"fontStyle11"}>
+                                  {"\u2022"} Source: {media.source}
+                                </Typography>
+                                <Typography className={"fontStyle11"}>
+                                  {"\u2022"} Source Url:{" "}
+                                  <a
+                                    className={classes.aStyle}
+                                    href={media.url}
+                                    target={"blank"}
+                                  >
+                                    {media.url}
+                                  </a>
+                                </Typography>
+                                <Typography className={"fontStyle11"}>
+                                  {"\u2022"} Description: {media.description}
+                                </Typography>
+                              </div>
+                            </StyledExpansionPanelDetails>
+                          </StyledExpansionPanel>
+                        </StyledListItem>
+                        {idx < report.medias.length - 1 ? <Divider /> : ""}
                       </div>
                     );
                   })
