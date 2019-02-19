@@ -173,14 +173,20 @@ class CorporationMap extends Component {
       if (branches && branches.branches && this.state.showBranches) {
         for (let i = 0; i < branches.branches.length; i++) {
           try {
-            const englishName = branches.branches[i].name.substr(
-              0,
-              branches.branches[i].name.lastIndexOf("(") - 1
-            );
-            let chineseName = branches.branches[i].name.substr(
-              branches.branches[i].name.lastIndexOf("(")
-            );
-            chineseName = chineseName.substr(1, chineseName.length - 2);
+            let englishName, chineseName;
+            if (branches.branches[i].chineseName) {
+              englishName = branches.branches[i].name;
+              chineseName = branches.branches[i].chineseName;
+            } else {
+              englishName = branches.branches[i].name.substr(
+                0,
+                branches.branches[i].name.lastIndexOf("(") - 1
+              );
+              chineseName = branches.branches[i].name.substr(
+                branches.branches[i].name.lastIndexOf("(")
+              );
+              chineseName = chineseName.substr(1, chineseName.length - 2);
+            }
             finalNodes.push(
               this.deepClone({
                 id: i,
@@ -206,14 +212,20 @@ class CorporationMap extends Component {
       if (subsidiaries && this.state.showSubsidiaries) {
         for (let i = 0; i < subsidiaries.length; i++) {
           try {
-            const englishName = subsidiaries[i].name.substr(
-              0,
-              subsidiaries[i].name.lastIndexOf("(") - 1
-            );
-            let chineseName = subsidiaries[i].name.substr(
-              subsidiaries[i].name.lastIndexOf("(")
-            );
-            chineseName = chineseName.substr(1, chineseName.length - 2);
+            let englishName, chineseName;
+            if (subsidiaries[i].companyNameChinese) {
+              englishName = subsidiaries[i].name;
+              chineseName = subsidiaries[i].companyNameChinese;
+            } else {
+              englishName = subsidiaries[i].name.substr(
+                0,
+                subsidiaries[i].name.lastIndexOf("(") - 1
+              );
+              chineseName = subsidiaries[i].name.substr(
+                subsidiaries[i].name.lastIndexOf("(")
+              );
+              chineseName = chineseName.substr(1, chineseName.length - 2);
+            }
             finalNodes.push(
               this.deepClone({
                 id: i + 100,

@@ -212,7 +212,7 @@ class MoreDataMortgagePledge extends Component {
             root: classes.tabTextColor
           }}
           onChange={(event, value) => this.setState({ selectedTab: value })}
-          fullWidth
+          variant={"fullWidth"}
         >
           <Tab
             data-cy={"tab1"}
