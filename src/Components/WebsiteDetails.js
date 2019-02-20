@@ -75,7 +75,8 @@ class WebsiteDetails extends Component {
           </ReactTooltip>
         </div>
         {this.props.websiteWhoIs &&
-        this.props.websiteWhoIs.dataError !== "MISSING_WHOIS_DATA" ? (
+        this.props.websiteWhoIs.dataError !== "MISSING_WHOIS_DATA" &&
+        this.props.websiteWhoIs.dataError !== "INCOMPLETE_DATA" ? (
           <div className={classes.listDiv}>
             <List>
               <ListItem>

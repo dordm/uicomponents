@@ -29,6 +29,7 @@ import "../src/Components/css/tooltip.css";
 import Utils from "../src/Components/js/Utils";
 import CompanyChanges from "../src/Components/CompanyChanges";
 import WebsiteChanges from "../src/Components/WebsiteChanges";
+import WebsiteDetails from '../src/Components/WebsiteDetails';
 import CorporationMap from "../src/Components/CorporationMap";
 import MoreDataPenaltyBusinessExceptions from "../src/Components/MoreDataPenaltyBusinessExceptions";
 import MoreDataTrademarks from "../src/Components/MoreDataTrademarks";
