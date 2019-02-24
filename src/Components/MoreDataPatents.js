@@ -113,48 +113,57 @@ function MoreDataQichacha(props) {
       <Typography className={"fontStyle11"}>
         {"\u2022"} Publish Number: {item.publicNum}
       </Typography>
-      {item.agency && item.agency.length > 0 ? (
+      {item.agency ? (
         <div>
           <Typography className={"fontStyle11"}>{"\u2022"} Agency: </Typography>
           <div>
-            {item.agency.map((agen, idx) => (
-              <Typography
-                key={idx}
-                style={{ marginLeft: 7 }}
-                className={"fontStyle11"}
-              >
-                {agen}
+            {typeof item.agency === "string" ? (
+              <Typography style={{ marginLeft: 7 }} className={"fontStyle11"}>
+                {item.agency}
               </Typography>
-            ))}
+            ) : (
+              item.agency.map((agen, idx) => (
+                <Typography
+                  key={idx}
+                  style={{ marginLeft: 7 }}
+                  className={"fontStyle11"}
+                >
+                  {agen}
+                </Typography>
+              ))
+            )}
           </div>
         </div>
       ) : (
         ""
       )}
-      {item.inventorList && item.inventorList.length > 0 ? (
+      {item.inventorList ? (
         <div>
           <Typography className={"fontStyle11"}>
             {"\u2022"} Inventors:{" "}
           </Typography>
           <div>
-            {item.inventorList.map((inventor, idx) => (
-              <Typography
-                key={idx}
-                style={{ marginLeft: 7 }}
-                className={"fontStyle11"}
-              >
-                {inventor}
+            {typeof item.inventorList === "string" ? (
+              <Typography style={{ marginLeft: 7 }} className={"fontStyle11"}>
+                {item.inventorList}
               </Typography>
-            ))}
+            ) : (
+              item.inventorList.map((inventor, idx) => (
+                <Typography
+                  key={idx}
+                  style={{ marginLeft: 7 }}
+                  className={"fontStyle11"}
+                >
+                  {inventor}
+                </Typography>
+              ))
+            )}
           </div>
         </div>
       ) : (
         ""
       )}
-      {item.ipcList &&
-      item.ipcList.length > 0 &&
-      item.ipcDesc &&
-      item.ipcDesc.length === item.ipcList.length ? (
+      {item.ipcList && item.ipcList.length > 0 && item.ipcDesc ? (
         <div>
           <Typography className={"fontStyle11"}>
             {"\u2022"} Patent Details:{" "}
@@ -166,7 +175,11 @@ function MoreDataQichacha(props) {
                 style={{ marginLeft: 7 }}
                 className={"fontStyle11"}
               >
-                {ipc + " - " + item.ipcDesc[idx]}
+                {ipc +
+                  " - " +
+                  (typeof item.ipcDesc === "string"
+                    ? item.ipcDesc
+                    : item.ipcDesc[idx])}
               </Typography>
             ))}
           </div>
