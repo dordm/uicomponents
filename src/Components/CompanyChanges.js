@@ -86,7 +86,7 @@ class CompanyChanges extends Component {
   }
 
   isSpecialChange(change) {
-    const lowerCaseChange = change.toLowerCase();
+    const lowerCaseChange = change ? change.toLowerCase() : "";
     return (
       lowerCaseChange.includes("[new]") ||
       lowerCaseChange.includes("[quit]") ||
@@ -98,7 +98,7 @@ class CompanyChanges extends Component {
   }
 
   isSeperatedChange(changeItem) {
-    const lowerCaseChangeItem = changeItem.toLowerCase();
+    const lowerCaseChangeItem = changeItem ? changeItem.toLowerCase() : "";
     return (
       lowerCaseChangeItem.includes("scope of business") ||
       lowerCaseChangeItem.includes("shareholder") ||
