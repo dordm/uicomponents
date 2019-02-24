@@ -101,8 +101,20 @@ class LineTwoCharts extends Component {
           ) : (
             ""
           )}
-          <Line dataKey={this.state.dataKey1} stroke="#4C84FF" />
-          <Line dataKey={this.state.dataKey2} stroke="#FF3B77" />
+          <Line
+            isAnimationActive={
+              !window.location.pathname.includes("/direct/supplierPdf")
+            }
+            dataKey={this.state.dataKey1}
+            stroke="#4C84FF"
+          />
+          <Line
+            isAnimationActive={
+              !window.location.pathname.includes("/direct/supplierPdf")
+            }
+            dataKey={this.state.dataKey2}
+            stroke="#FF3B77"
+          />
         </LineChart>
       </ResponsiveContainer>
     );

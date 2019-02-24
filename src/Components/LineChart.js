@@ -100,7 +100,13 @@ class MyLineChart extends Component {
           ) : (
             ""
           )}
-          <Line dataKey={this.state.dataKey} stroke="#4C84FF" />
+          <Line
+            isAnimationActive={
+              !window.location.pathname.includes("/direct/supplierPdf")
+            }
+            dataKey={this.state.dataKey}
+            stroke="#4C84FF"
+          />
         </LineChart>
       </ResponsiveContainer>
     );
