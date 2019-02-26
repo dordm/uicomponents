@@ -16,7 +16,6 @@ import DefaultTooltipContent from "recharts/lib/component/DefaultTooltipContent"
 const CustomTooltip = props => {
   const { classes } = props;
   if (props.payload[0] != null) {
-    console.log('in custom');
     return (
       <div className={classes.customTooltip}>
         <div align="center" style={{ fontWeight: "bold", marginBottom: 5 }}>
@@ -31,7 +30,6 @@ const CustomTooltip = props => {
       </div>
     );
   }
-  console.log(props)
   return <DefaultTooltipContent {...props} />;
 };
 

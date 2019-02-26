@@ -4,7 +4,6 @@
     <list default="true" id="deedca82-8ad4-4e62-ac9a-df5681d3be65" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/LineChart.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/LineChart.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/js/MySuppliersUtils.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/js/MySuppliersUtils.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -48,8 +47,8 @@
       <file leaf-file-name="LineChart.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Components/LineChart.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="33" column="20" lean-forward="true" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="20" />
+            <state relative-caret-position="340">
+              <caret line="32" selection-start-line="32" selection-end-line="32" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -154,9 +153,9 @@
       <find>toLower</find>
       <find>getShi</find>
       <find>styles</find>
-      <find>CustomTooltip</find>
       <find>exportData</find>
       <find>this.state.</find>
+      <find>CustomTooltip</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -514,12 +513,12 @@
       <workItem from="1551016254298" duration="848000" />
       <workItem from="1551018193247" duration="502000" />
       <workItem from="1551024574087" duration="1500000" />
-      <workItem from="1551176661122" duration="4440000" />
+      <workItem from="1551176661122" duration="5342000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="494444000" />
+    <option name="totallyTimeSpent" value="495346000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
@@ -899,8 +898,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/LineChart.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="33" column="20" lean-forward="true" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="20" />
+        <state relative-caret-position="340">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
