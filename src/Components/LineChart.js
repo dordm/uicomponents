@@ -103,7 +103,7 @@ class MyLineChart extends Component {
           <Tooltip
             content={
               <CustomTooltip
-                name={"name"}
+                name={this.props.keyX}
                 value={this.props.dataKey}
                 classes={this.props.classes}
                 payloadText={this.props.payloadText ? this.props.payloadText : this.props.dataKey}
