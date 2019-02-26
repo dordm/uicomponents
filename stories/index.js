@@ -129,6 +129,7 @@ storiesOf("Components", module)
       width={window.innerWidth}
       data={reportData.publicFinancial}
       date={"Jan 2017 - Dec 2017"}
+      listedData={reportData.listedData}
     />
   ))
   .add("Public Financial Ratio", () => (
