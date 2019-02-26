@@ -80,6 +80,7 @@ class CorporationMap extends Component {
       showEdgesRelation: true,
       displayByLevel: true,
       showSubsidiaries: true,
+      corpMapImg: null,
       showBranches: true,
       selectedNode: "",
       events: !isIE
@@ -134,6 +135,26 @@ class CorporationMap extends Component {
     };
 
     this.levelsArr = [];
+  }
+
+  componentDidMount() {
+    if (!this.state.corpMapImg) this.createCorpMapAsImage();
+  }
+
+  componentDidUpdate() {
+    if (!this.state.corpMapImg) this.createCorpMapAsImage();
+  }
+
+  createCorpMapAsImage() {
+    if (window.location.pathname.includes("/direct/supplierPdf/")) {
+      const canvas = document.getElementsByTagName("canvas");
+      if (canvas.length > 0) {
+        setTimeout(() => {
+          const img = canvas[0].toDataURL("image/png");
+          this.setState({ corpMapImg: img });
+        }, 2000);
+      }
+    }
   }
 
   changeTooltip(node, event, display) {
@@ -481,6 +502,7 @@ class CorporationMap extends Component {
 
   render() {
     const { classes } = this.props;
+    const { corpMapImg } = this.state;
     const graph = this.getGraph();
     const currentNode =
       graph && graph.nodes.find(node => node.id === this.state.selectedNode);
@@ -769,12 +791,23 @@ class CorporationMap extends Component {
           ""
         )}
         {graph && graph.nodes.length > 0 ? (
-          <Graph
-            style={{ width: "100%", height: "100%" }}
-            graph={graph}
-            options={this.state.options}
-            events={this.state.events}
-          />
+          <div style={{ height: "100%" }}>
+            <Graph
+              style={{
+                width: "100%",
+                height: "100%",
+                display: window.location.pathname.includes(
+                  "/direct/supplierPdf/"
+                )
+                  ? "none"
+                  : ""
+              }}
+              graph={graph}
+              options={this.state.options}
+              events={this.state.events}
+            />
+            {corpMapImg ? <img src={props.corpMapImg} alt={"corpMap"} /> : ""}
+          </div>
         ) : (
           <NoDataImg />
         )}

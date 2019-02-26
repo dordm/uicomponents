@@ -22,7 +22,7 @@ import DialogTitle from "@material-ui/core/DialogTitle";
 
 const StyledTitle = styled.div`
   display: flex;
-  width: ${props => (props.width > 600 ? "45%" : "35%")};
+  width: ${props => (props.width > 600 ? "55%" : "35%")};
 `;
 
 const styles = {
