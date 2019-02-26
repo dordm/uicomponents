@@ -806,7 +806,7 @@ class CorporationMap extends Component {
               options={this.state.options}
               events={this.state.events}
             />
-            {corpMapImg ? <img src={props.corpMapImg} alt={"corpMap"} /> : ""}
+            {corpMapImg ? <img src={corpMapImg} alt={"corpMap"} /> : ""}
           </div>
         ) : (
           <NoDataImg />
