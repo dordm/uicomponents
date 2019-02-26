@@ -17,12 +17,12 @@ class MySuppliersUtils {
       for (var i = 0; i < shipments.length; i++) {
         if (shipments[i] !== undefined && shipments[i] !== null) {
           var item = {
-            period:
+            name:
               "Y" +
               shipments[i].year.toString().substr(2) +
               "-Q" +
               shipments[i].month,
-            Supplier: shipments[i].value_of_goods
+            supplier: shipments[i].value_of_goods
           };
           data.push(item);
         }
