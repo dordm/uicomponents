@@ -10,6 +10,41 @@ import {
   ResponsiveContainer
 } from "recharts";
 import PropTypes from "prop-types";
+import { withStyles } from "@material-ui/core/styles/index";
+import DefaultTooltipContent from "recharts/lib/component/DefaultTooltipContent";
+
+const CustomTooltip = props => {
+  const { classes } = props;
+  if (props.payload[0] != null) {
+    return (
+      <div className={classes.customTooltip}>
+        <div align="center" style={{fontWeight:'bold', marginBottom:5}}>
+            {props.payload[0].payload[props.name]}
+        </div>
+        {props.payloadText}
+        {": "}
+        {(props.tooltipUnit ? props.tooltipUnit : "") +
+          new Intl.NumberFormat("en").format(
+            props.payload[0].payload[props.value]
+          )}
+      </div>
+    );
+  }
+  return <DefaultTooltipContent {...props} />;
+};
+
+const styles = {
+  customTooltip: {
+    background: "#182D5A",
+    padding: 12,
+    color: "#ffffff",
+    fontFamily: "Roboto",
+    fontSize: 12,
+    textAlign: "left",
+    maxWidth: 250,
+    fontWeight: 400
+  }
+};
 
 class MyLineChart extends Component {
   constructor(props) {
@@ -66,21 +101,15 @@ class MyLineChart extends Component {
           />
           <CartesianGrid vertical={false} />
           <Tooltip
-            formatter={value =>
-              (this.props.tooltipUnit !== undefined
-                ? this.props.tooltipUnit
-                : "") + new Intl.NumberFormat("en").format(value)
+            content={
+              <CustomTooltip
+                name={"name"}
+                value={this.props.dataKey}
+                classes={this.props.classes}
+                payloadText={this.props.payloadText ? this.props.payloadText : this.props.dataKey}
+                tooltipUnit={this.props.tooltipUnit}
+              />
             }
-            itemStyle={{
-              fontFamily: "Roboto",
-              fontWeight: 400,
-              fontSize: 12
-            }}
-            labelStyle={{
-              fontFamily: "Roboto",
-              fontWeight: 400,
-              fontSize: 12
-            }}
           />
           {this.props.legend ? (
             <Legend
@@ -124,4 +153,4 @@ MyLineChart.propTypes = {
   width: PropTypes.number.isRequired
 };
 
-export default MyLineChart;
+export default withStyles(styles)(MyLineChart);

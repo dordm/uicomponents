@@ -105,8 +105,8 @@ class TotalExports extends Component {
         >
           <Typography className={classNames("fontStyle1")}>
             {this.props.type === "import"
-              ? "Total Imports in USD"
-              : "Total Exports in USD"}
+              ? "Total Imports Trend"
+              : "Total Exports Trend"}
           </Typography>
           <div data-tip data-for={"tipExports"}>
             <img
@@ -157,8 +157,9 @@ class TotalExports extends Component {
               data={exportData}
               keyX={"name"}
               dataKey={"supplier"}
-              legend={true}
-              unit={true}
+              legend={false}
+              payloadText={this.state.selectValue === 'value_of_goods' ? 'Total Exports' : 'Shipments Count'}
+              unit={this.state.selectValue === 'value_of_goods'}
               tooltipUnit={this.state.selectValue === 'value_of_goods' ? "$" : ''}
               width={this.props.width}
             />
