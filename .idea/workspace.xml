@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="deedca82-8ad4-4e62-ac9a-df5681d3be65" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/CorporationMap.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/CorporationMap.js" afterDir="false" />
     </list>
@@ -29,8 +30,11 @@
       <file leaf-file-name="CorporationMap.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Components/CorporationMap.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="146">
-              <caret line="788" column="30" lean-forward="true" selection-start-line="788" selection-start-column="30" selection-end-line="788" selection-end-column="30" />
+            <state relative-caret-position="1326">
+              <caret line="807" column="16" lean-forward="true" selection-start-line="807" selection-start-column="16" selection-end-line="807" selection-end-column="16" />
+              <folding>
+                <element signature="e#0#36#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -519,12 +523,12 @@
       <workItem from="1551016254298" duration="848000" />
       <workItem from="1551018193247" duration="502000" />
       <workItem from="1551024574087" duration="1500000" />
-      <workItem from="1551176661122" duration="12017000" />
+      <workItem from="1551176661122" duration="13132000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="502021000" />
+    <option name="totallyTimeSpent" value="503136000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
@@ -916,8 +920,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/CorporationMap.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="788" column="30" lean-forward="true" selection-start-line="788" selection-start-column="30" selection-end-line="788" selection-end-column="30" />
+        <state relative-caret-position="1326">
+          <caret line="807" column="16" lean-forward="true" selection-start-line="807" selection-start-column="16" selection-end-line="807" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#36#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

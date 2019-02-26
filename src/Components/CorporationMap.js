@@ -24,6 +24,14 @@ const StyledDivTooltip = styled.div`
   overflow-y: auto;
 `;
 
+const StyledCorpMapImg = styled.img`
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  height: 430px;
+  width: 100%;
+`;
+
 const styles = {
   title: {
     marginTop: 19,
@@ -81,7 +89,6 @@ class CorporationMap extends Component {
       displayByLevel: true,
       showSubsidiaries: true,
       corpMapImg: null,
-      displayCanvas: true,
       showBranches: true,
       selectedNode: "",
       events: !isIE
@@ -152,7 +159,8 @@ class CorporationMap extends Component {
       if (canvas.length > 0) {
         setTimeout(() => {
           const img = canvas[0].toDataURL("image/png");
-          this.setState({ corpMapImg: img, displayCanvas: false });
+          canvas[0].style.display = "none";
+          this.setState({ corpMapImg: img });
         }, 2000);
       }
     }
@@ -503,7 +511,7 @@ class CorporationMap extends Component {
 
   render() {
     const { classes } = this.props;
-    const { corpMapImg, displayCanvas } = this.state;
+    const { corpMapImg } = this.state;
     const graph = this.getGraph();
     const currentNode =
       graph && graph.nodes.find(node => node.id === this.state.selectedNode);
@@ -792,18 +800,21 @@ class CorporationMap extends Component {
           ""
         )}
         {graph && graph.nodes.length > 0 ? (
-          <div style={{ height: "100%" }}>
+          <div style={{ height: "100%", position: "relative" }}>
             <Graph
               style={{
                 width: "100%",
-                height: "100%",
-                display: displayCanvas ? "" : "none"
+                height: 430
               }}
               graph={graph}
               options={this.state.options}
               events={this.state.events}
             />
-            {corpMapImg ? <img src={corpMapImg} alt={"corpMap"} /> : ""}
+            {corpMapImg !== null ? (
+              <StyledCorpMapImg src={corpMapImg} alt={"corpMap"} />
+            ) : (
+              ""
+            )}
           </div>
         ) : (
           <NoDataImg />
