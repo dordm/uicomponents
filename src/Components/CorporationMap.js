@@ -81,6 +81,7 @@ class CorporationMap extends Component {
       displayByLevel: true,
       showSubsidiaries: true,
       corpMapImg: null,
+      displayCanvas: true,
       showBranches: true,
       selectedNode: "",
       events: !isIE
@@ -151,7 +152,7 @@ class CorporationMap extends Component {
       if (canvas.length > 0) {
         setTimeout(() => {
           const img = canvas[0].toDataURL("image/png");
-          this.setState({ corpMapImg: img });
+          this.setState({ corpMapImg: img, displayCanvas: false });
         }, 2000);
       }
     }
@@ -502,7 +503,7 @@ class CorporationMap extends Component {
 
   render() {
     const { classes } = this.props;
-    const { corpMapImg } = this.state;
+    const { corpMapImg, displayCanvas } = this.state;
     const graph = this.getGraph();
     const currentNode =
       graph && graph.nodes.find(node => node.id === this.state.selectedNode);
@@ -796,11 +797,7 @@ class CorporationMap extends Component {
               style={{
                 width: "100%",
                 height: "100%",
-                display: window.location.pathname.includes(
-                  "/direct/supplierPdf/"
-                )
-                  ? "none"
-                  : ""
+                display: displayCanvas ? "" : "none"
               }}
               graph={graph}
               options={this.state.options}
