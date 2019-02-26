@@ -18,8 +18,8 @@ const CustomTooltip = props => {
   if (props.payload[0] != null) {
     return (
       <div className={classes.customTooltip}>
-        <div align="center" style={{fontWeight:'bold', marginBottom:5}}>
-            {props.payload[0].payload[props.name]}
+        <div align="center" style={{ fontWeight: "bold", marginBottom: 5 }}>
+          {props.payload[0].payload[props.name]}
         </div>
         {props.payloadText}
         {": "}
@@ -50,8 +50,7 @@ class MyLineChart extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      data: this.props.data,
-      dataKey: this.props.dataKey
+      data: this.props.data
     };
   }
 
@@ -106,7 +105,11 @@ class MyLineChart extends Component {
                 name={this.props.keyX}
                 value={this.props.dataKey}
                 classes={this.props.classes}
-                payloadText={this.props.payloadText ? this.props.payloadText : this.props.dataKey}
+                payloadText={
+                  this.props.payloadText
+                    ? this.props.payloadText
+                    : this.props.dataKey
+                }
                 tooltipUnit={this.props.tooltipUnit}
               />
             }
@@ -133,7 +136,7 @@ class MyLineChart extends Component {
             isAnimationActive={
               !window.location.pathname.includes("/direct/supplierPdf")
             }
-            dataKey={this.state.dataKey}
+            dataKey={this.props.dataKey}
             stroke="#4C84FF"
           />
         </LineChart>
