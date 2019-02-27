@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="deedca82-8ad4-4e62-ac9a-df5681d3be65" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/CorporationMap.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/CorporationMap.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -28,8 +28,8 @@
       <file leaf-file-name="CorporationMap.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Components/CorporationMap.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="567" column="66" lean-forward="true" selection-start-line="567" selection-start-column="66" selection-end-line="567" selection-end-column="66" />
+            <state relative-caret-position="238">
+              <caret line="14" column="57" lean-forward="true" selection-start-line="14" selection-start-column="57" selection-end-line="14" selection-end-column="57" />
               <folding>
                 <element signature="e#0#36#0" expanded="true" />
               </folding>
@@ -523,12 +523,12 @@
       <workItem from="1551024574087" duration="1500000" />
       <workItem from="1551176661122" duration="13197000" />
       <workItem from="1551257122715" duration="886000" />
-      <workItem from="1551258639335" duration="545000" />
+      <workItem from="1551258639335" duration="1281000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="504632000" />
+    <option name="totallyTimeSpent" value="505368000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
@@ -542,7 +542,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info id="npm" order="3" sideWeight="0.5017301" side_tool="true" weight="0.14805058" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.49947312" visible="true" weight="0.19372295" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49947312" weight="0.19372295" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -917,8 +917,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/CorporationMap.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="567" column="66" lean-forward="true" selection-start-line="567" selection-start-column="66" selection-end-line="567" selection-end-column="66" />
+        <state relative-caret-position="238">
+          <caret line="14" column="57" lean-forward="true" selection-start-line="14" selection-start-column="57" selection-end-line="14" selection-end-column="57" />
           <folding>
             <element signature="e#0#36#0" expanded="true" />
           </folding>

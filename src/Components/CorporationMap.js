@@ -28,12 +28,12 @@ const StyledCorpMapImg = styled.img`
   position: absolute;
   left: 0px;
   top: 0px;
-  height: ${props => (props.isPdfMap === "true" ? "550" : "430")}px;
+  height: 430px;
   width: 100%;
 `;
 
 const StyledDivWrapper = styled.div`
-  height: ${props => (props.isPdfMap === "true" ? "670" : "550")}px;
+  height: 550px;
   overflow: hidden;
   width: 100%;
   background: white;
@@ -513,7 +513,7 @@ class CorporationMap extends Component {
 
   render() {
     const { classes } = this.props;
-    const { corpMapImg, isPdfMap } = this.state;
+    const { corpMapImg } = this.state;
     const graph = this.getGraph();
     const currentNode =
       graph && graph.nodes.find(node => node.id === this.state.selectedNode);
@@ -575,7 +575,7 @@ class CorporationMap extends Component {
     };
 
     return (
-      <StyledDivWrapper isPdfMap={isPdfMap ? "true" : "false"}>
+      <StyledDivWrapper>
         {!isIE ? (
           <StyledDivTooltip
             onMouseEnter={() => this.setState({ isOnTooltip: true })}
@@ -802,22 +802,18 @@ class CorporationMap extends Component {
           ""
         )}
         {graph && graph.nodes.length > 0 ? (
-          <div style={{ height: isPdfMap ? 550 : 430, position: "relative" }}>
+          <div style={{ height: 430, position: "relative" }}>
             <Graph
               style={{
                 width: "100%",
-                height: 430
+                height: "100%"
               }}
               graph={graph}
               options={this.state.options}
               events={this.state.events}
             />
             {corpMapImg !== null ? (
-              <StyledCorpMapImg
-                isPdfMap={isPdfMap ? "true" : "false"}
-                src={corpMapImg}
-                alt={"corpMap"}
-              />
+              <StyledCorpMapImg src={corpMapImg} alt={"corpMap"} />
             ) : (
               ""
             )}
