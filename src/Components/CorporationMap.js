@@ -800,11 +800,11 @@ class CorporationMap extends Component {
           ""
         )}
         {graph && graph.nodes.length > 0 ? (
-          <div style={{ height: "100%", position: "relative" }}>
+          <div style={{ height: 430, position: "relative" }}>
             <Graph
               style={{
                 width: "100%",
-                height: 430
+                height: '100%'
               }}
               graph={graph}
               options={this.state.options}
