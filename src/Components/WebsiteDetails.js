@@ -129,7 +129,8 @@ class WebsiteDetails extends Component {
                     "fontStyle10"
                   )}
                 >
-                  {this.props.websiteWhoIs.registryData
+                  {this.props.websiteWhoIs.registryData &&
+                  this.props.websiteWhoIs.registryData.createdDate
                     ? this.props.websiteWhoIs.registryData.createdDate.substr(
                         0,
                         10
@@ -158,7 +159,8 @@ class WebsiteDetails extends Component {
                     "fontStyle10"
                   )}
                 >
-                  {this.props.websiteWhoIs.registryData
+                  {this.props.websiteWhoIs.registryData &&
+                  this.props.websiteWhoIs.registryData.expiresDate
                     ? this.props.websiteWhoIs.registryData.expiresDate.substr(
                         0,
                         10
