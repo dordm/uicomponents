@@ -68,6 +68,9 @@ import TotalExports from "./Components/TotalExports";
 import TwoInfoCard from "./Components/TwoInfoCard";
 import WebsiteDetails from "./Components/WebsiteDetails";
 import WebsiteChanges from "./Components/WebsiteChanges";
+import BalanceSheet from "./Components/BalanceSheet";
+import IncomeStatement from "./Components/IncomeStatement";
+import CashFlow from "./Components/CashFlow";
 
 export {
   MoreDataPenaltyBusinessExceptions,
@@ -132,5 +135,8 @@ export {
   WebsiteDetails,
   WebsiteUtils,
   CorporationMap,
-  MoreDataTaxCredit
+  MoreDataTaxCredit,
+  CashFlow,
+  BalanceSheet,
+  IncomeStatement
 };

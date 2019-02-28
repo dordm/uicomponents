@@ -11,18 +11,12 @@ import classNames from "classnames";
 import Utils from "./js/Utils";
 import ReactTooltip from "react-tooltip";
 import styled from "styled-components";
-import {
-  BigBoxLayout,
-  StyledDialogContent,
-  StyledCloseIcon
-} from "./LowLevelComponents/StyledComponents";
+import { BigBoxLayout } from "./LowLevelComponents/StyledComponents";
 import NoDataImg from "./LowLevelComponents/NoDataImg";
-import Dialog from "@material-ui/core/Dialog";
-import DialogTitle from "@material-ui/core/DialogTitle";
 
 const StyledTitle = styled.div`
   display: flex;
-  width: ${props => (props.width > 600 ? "55%" : "35%")};
+  width: ${props => (props.width > 600 ? "70%" : "60%")};
 `;
 
 const styles = {
@@ -56,33 +50,10 @@ const styles = {
   },
   date: {
     marginTop: 4
-  },
-  moreBtn: {
-    textAlign: "right",
-    cursor: "pointer",
-    marginLeft: 30
-  },
-  bottomIcon: {
-    position: "absolute",
-    marginTop: -4
-  },
-  dialog: {
-    margin: 16
   }
 };
 
 class PublicFinancial extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      moreOpen: false
-    };
-  }
-
-  moreDataFinancial() {
-    return <div>data</div>;
-  }
-
   render() {
     const { classes } = this.props;
     return (
@@ -115,22 +86,6 @@ class PublicFinancial extends Component {
             <Typography className={classNames(classes.date, "fontStyle12")}>
               {this.props.date}
             </Typography>
-          ) : (
-            ""
-          )}
-          {this.props.listedData ? (
-            <div
-              onClick={() => this.setState({ moreOpen: true })}
-              className={classNames(classes.moreBtn, "fontStyle6")}
-              data-cy="divMore"
-            >
-              More
-              <img
-                alt="view all"
-                src={require("./images/Back.png")}
-                className={classes.bottomIcon}
-              />
-            </div>
           ) : (
             ""
           )}
@@ -253,30 +208,6 @@ class PublicFinancial extends Component {
         ) : (
           <NoDataImg />
         )}
-        <Dialog
-          PaperProps={{
-            classes: {
-              root: classes.dialog
-            }
-          }}
-          open={this.state.moreOpen}
-          onClose={() => this.setState({ moreOpen: false })}
-          aria-labelledby="scroll-dialog-title"
-        >
-          <StyledCloseIcon
-            data-cy={"btnCloseDialog"}
-            onClick={() => this.setState({ moreOpen: false })}
-          >
-            <img alt="Close" src={require("./images/Close.png")} />
-          </StyledCloseIcon>
-          <DialogTitle
-            className={"fontStyle3"}
-            style={{ textAlign: "center", marginTop: 24 }}
-          >
-            Financial Data
-          </DialogTitle>
-          <StyledDialogContent>{this.moreDataFinancial()}</StyledDialogContent>
-        </Dialog>
       </BigBoxLayout>
     );
   }
@@ -286,8 +217,7 @@ PublicFinancial.propTypes = {
   classes: PropTypes.object.isRequired,
   width: PropTypes.number.isRequired,
   data: PropTypes.object,
-  date: PropTypes.string,
-  listedData: PropTypes.object
+  date: PropTypes.string
 };
 
 export default withStyles(styles)(PublicFinancial);

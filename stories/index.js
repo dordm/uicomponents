@@ -30,6 +30,9 @@ import Utils from "../src/Components/js/Utils";
 import CompanyChanges from "../src/Components/CompanyChanges";
 import WebsiteChanges from "../src/Components/WebsiteChanges";
 import WebsiteDetails from '../src/Components/WebsiteDetails';
+import BalanceSheet from '../src/Components/BalanceSheet';
+import CashFlow from '../src/Components/CashFlow';
+import IncomeStatement from '../src/Components/IncomeStatement';
 import CorporationMap from "../src/Components/CorporationMap";
 import MoreDataPenaltyBusinessExceptions from "../src/Components/MoreDataPenaltyBusinessExceptions";
 import MoreDataTrademarks from "../src/Components/MoreDataTrademarks";
@@ -65,6 +68,27 @@ storiesOf("Components", module)
       data={reportData.insights}
     />
   ))
+    .add("Balance Sheet", () => (
+        <BalanceSheet
+            width={window.innerWidth}
+            date={"Jan 2017 - Dec 2017"}
+            listedData={reportData.listedData}
+        />
+    ))
+    .add("Cash Flow", () => (
+        <CashFlow
+            width={window.innerWidth}
+            date={"Jan 2017 - Dec 2017"}
+            listedData={reportData.listedData}
+        />
+    ))
+    .add("Income Statement", () => (
+        <IncomeStatement
+            width={window.innerWidth}
+            date={"Jan 2017 - Dec 2017"}
+            listedData={reportData.listedData}
+        />
+    ))
   .add("Corporation Graph", () => (
     <CorporationMap
       width={window.innerWidth}
