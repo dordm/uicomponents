@@ -1,6 +1,6 @@
 {
   "name": "@tiidan/uicomponents",
-  "version": "0.3.82gi",
+  "version": "0.3.82",
   "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
   "main": "dist/index.js",
   "scripts": {
