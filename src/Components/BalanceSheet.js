@@ -28,7 +28,7 @@ const StyledTitle = styled.div`
 const StyledDivMore = styled.div`
   text-align: right;
   cursor: pointer;
-  margin-left: ${props => (props.width > 600 ? "30px" : "15px")};
+  margin-left: ${props => (props.width > 600 ? "30px" : "5px")};
 `;
 
 const styles = {
