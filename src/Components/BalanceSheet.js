@@ -270,6 +270,7 @@ class BalanceSheet extends Component {
               onClick={() => this.setState({ moreOpen: true })}
               className={"fontStyle6"}
               data-cy="divMore"
+              width={this.props.width}
             >
               More
               <img
