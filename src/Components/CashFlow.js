@@ -22,7 +22,13 @@ import DialogTitle from "@material-ui/core/DialogTitle";
 
 const StyledTitle = styled.div`
   display: flex;
-  width: ${props => (props.width > 600 ? "55%" : "40%")};
+  width: ${props => (props.width > 600 ? "65%" : "45%")};
+`;
+
+const StyledDivMore = styled.div`
+  text-align: right;
+  cursor: pointer;
+  margin-left: ${props => (props.width > 600 ? "30px" : "15px")};
 `;
 
 const styles = {
@@ -56,11 +62,6 @@ const styles = {
   },
   date: {
     marginTop: 4
-  },
-  moreBtn: {
-    textAlign: "right",
-    cursor: "pointer",
-    marginLeft: 30
   },
   bottomIcon: {
     position: "absolute",
@@ -238,10 +239,7 @@ class CashFlow extends Component {
         <ListItemText
           style={{ marginLeft: -25 }}
           primary={
-            <Typography
-              style={{ maxWidth: "50%" }}
-              className={"fontStyle7"}
-            >
+            <Typography style={{ maxWidth: "50%" }} className={"fontStyle7"}>
               {label}
             </Typography>
           }
@@ -296,9 +294,9 @@ class CashFlow extends Component {
             ""
           )}
           {data ? (
-            <div
+            <StyledDivMore
               onClick={() => this.setState({ moreOpen: true })}
-              className={classNames(classes.moreBtn, "fontStyle6")}
+              className={"fontStyle6"}
               data-cy="divMore"
             >
               More
@@ -307,7 +305,7 @@ class CashFlow extends Component {
                 src={require("./images/Back.png")}
                 className={classes.bottomIcon}
               />
-            </div>
+            </StyledDivMore>
           ) : (
             ""
           )}
