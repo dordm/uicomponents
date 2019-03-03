@@ -1505,222 +1505,645 @@ const reportData = {
   },
   courtCases: [
     {
+      CASE_NAME: "",
+      CASE_NO: "(2018) Chuan 0107 Minchou 11865",
+      DEFENDANT: "Liu Tao-bo",
+      EXECUTE_GOV: "Wuhou District People's Court",
+      PROSECUTOR: "Guizhou Qian Tire Sales Co., Ltd.",
+      SUBMIT_DATE: "2019-03-20T09:30:00.000Z",
+      active: true
+    },
+    {
       CASE_NAME:
-        "AnHui Technology Import & Export Co., Ltd., Baoding Zhijhao Fur Products Co., Ltd., Yuan Yunfang",
-      CASE_NO: "(2016) 0104 Minchu No.2811",
+        "The applicant Guizhou Tire Co., Ltd. and the executee Qingdao Di Endi Machinery Equipment Co., Ltd.",
+      CASE_NO: "(2018) Lu 0212 held No. 654",
+      CASE_TYPE: "other",
+      COURT: "Qingdao Laoshan District People's Court",
+      IS_DEFENDANT: 0,
+      IS_PROSECUTOR: 0,
+      SUBMIT_DATE: "2019-02-27T00:00:00.000Z",
+      UPDATE_DATE: "2018-12-25T00:00:00.000Z",
+      active: false
+    },
+    {
+      CASE_NAME:
+        "Shanghai Pudong Development Bank Co., Ltd. Guiyang Branch, Guizhou Huitong Tire Sales Co., Ltd., Guiyang Hao Museum Trading Co., Ltd.",
+      CASE_NO: "(2017) 01 Min Chu No.166",
+      CASE_TYPE: "other",
+      COURT: "Guiyang Intermediate People's Court of Guizhou Province",
+      IS_DEFENDANT: 0,
+      IS_PROSECUTOR: 0,
+      SUBMIT_DATE: "2019-02-11T00:00:00.000Z",
+      UPDATE_DATE: "2017-09-15T00:00:00.000Z",
+      active: false
+    },
+    {
+      CASE_NAME:
+        "Shanghai Pudong Development Bank Co., Ltd. Guiyang Branch, Guizhou Qiantai Tire Co., Ltd., Guiyang Xing United Tire Co., Ltd.",
+      CASE_NO: "(2017) 01 Minchu No.168",
+      CASE_TYPE: "other",
+      COURT: "Guiyang Intermediate People's Court of Guizhou Province",
+      IS_DEFENDANT: 0,
+      IS_PROSECUTOR: 0,
+      SUBMIT_DATE: "2019-02-11T00:00:00.000Z",
+      UPDATE_DATE: "2017-09-15T00:00:00.000Z",
+      active: false
+    },
+    {
+      CASE_NAME: "Guizhou Tire Co., Ltd., Hangzhou Qingtai Tire Co., Ltd.",
+      CASE_NO: "(2018) Zhe 0191 Qing Shen No.2",
       CASE_TYPE: "ms",
-      COURT: "Hefei Shushan District People's Court",
+      COURT:
+        "Hangzhou Economic and Technological Development Zone People's Court",
+      IS_DEFENDANT: 0,
+      IS_PROSECUTOR: 0,
+      SUBMIT_DATE: "2018-12-30T00:00:00.000Z",
+      UPDATE_DATE: "2018-07-03T00:00:00.000Z",
+      active: false
+    },
+    {
+      CASE_NAME:
+        "Shanghai Pudong Development Bank Co., Ltd. Guiyang Branch applied for the enforcement of Guizhou Wanlong Tire Co., Ltd., Guiyang Xing United Tire Co., Ltd., Guizhou Xin Pentao Trading Co., Ltd., Guizhou Qiantai Tire Co., Ltd., Liu Longjun, Li He Financial Borrowing Contract",
+      CASE_NO: "(2017) One of the No.890",
+      CASE_TYPE: "zx",
+      COURT: "Guiyang Intermediate People's Court of Guizhou Province",
+      IS_DEFENDANT: 0,
+      IS_PROSECUTOR: 0,
+      SUBMIT_DATE: "2018-12-29T00:00:00.000Z",
+      UPDATE_DATE: "2018-12-27T00:00:00.000Z",
+      active: false
+    },
+    {
+      CASE_NAME:
+        "Guiyang Rural Commercial Bank Co., Ltd. Baba Au Branch and Guizhou New Special Tire Co., Ltd., Guizhou Fanjingshan Industrial Co., Ltd.",
+      CASE_NO: "(2018) 0113 Minchu No.5387",
+      CASE_TYPE: "ms",
+      COURT: "Guiyang Baiyun District People's Court",
+      IS_DEFENDANT: 0,
+      IS_PROSECUTOR: 0,
+      SUBMIT_DATE: "2018-12-28T00:00:00.000Z",
+      UPDATE_DATE: "2018-11-16T00:00:00.000Z",
+      active: false
+    },
+    {
+      CASE_NAME:
+        "Guizhou Tire Co., Ltd. and Guizhou Heavy Industries (Luoyang) Construction Machinery Co., Ltd.",
+      CASE_NO: "(2018) Yu 0303 Minchu 4193",
+      CASE_TYPE: "ms",
+      COURT: "Luoyang City West Gong District People's Court",
       IS_DEFENDANT: 0,
       IS_PROSECUTOR: 1,
-      SUBMIT_DATE: "2018-11-01T22:00:00.000Z",
-      UPDATE_DATE: "2017-01-05T22:00:00.000Z",
+      SUBMIT_DATE: "2018-12-27T00:00:00.000Z",
+      UPDATE_DATE: "2018-11-12T00:00:00.000Z",
       active: false
     },
     {
       CASE_NAME:
-        "AnHui Technology Import & Export Co., Ltd., Baoding Xianshi Leather Sales Co., Ltd.",
-      CASE_NO: "(2017) 0104 stunted No. 4635",
+        "Triangle Tire Co., Ltd., Guizhou Kovo Economic and Trade Co., Ltd., Yang Dakang, Dai Zheng.",
+      CASE_NO: "(2018) Lu 1002 held No. 2316 third",
       CASE_TYPE: "zx",
-      COURT: "Hefei Shushan District People's Court",
+      COURT: "Weihai Huancui District People's Court",
       IS_DEFENDANT: 0,
       IS_PROSECUTOR: 0,
-      SUBMIT_DATE: "2018-10-17T21:00:00.000Z",
-      UPDATE_DATE: "2018-05-02T21:00:00.000Z",
+      SUBMIT_DATE: "2018-12-26T00:00:00.000Z",
+      UPDATE_DATE: "2018-12-17T00:00:00.000Z",
       active: false
     },
     {
       CASE_NAME:
-        "Shandong Jia-Jia International Freight Co., Ltd. Lianyungang Branch, Shandong Jia-Jia International Freight Co., Ltd.",
-      CASE_NO: "(2015) Shanghai Fahai Baoword No. 77",
+        "Guiyang Rural Commercial Bank Co., Ltd. Mining Branch and Guizhou Wanlong Tire Co., Ltd., Guiyang Fuhai Tire Sales Co., Ltd.",
+      CASE_NO: "(2017) 0111 Minchu No. 2757",
       CASE_TYPE: "ms",
-      COURT: "Shanghai Maritime Court",
+      COURT: "People's Court of Huaxi District, Guiyang City",
       IS_DEFENDANT: 0,
       IS_PROSECUTOR: 0,
-      SUBMIT_DATE: "2018-09-28T21:00:00.000Z",
-      UPDATE_DATE: "2015-03-15T22:00:00.000Z",
+      SUBMIT_DATE: "2018-12-01T00:00:00.000Z",
+      UPDATE_DATE: "2017-11-07T00:00:00.000Z",
       active: false
     },
     {
       CASE_NAME:
-        "Dongguan Meikao Tank Co., Ltd. and AnHui Technology Import & Export Co., Ltd.",
-      CASE_NO: "(2016) Yue 1971 Minchu No.18089",
+        "Guizhou Tire Co., Ltd. and Agricultural Bank of China Co., Ltd. Qian'an Branch Bank of China Co., Ltd.",
+      CASE_NO: "(2018) Ji 0283 Minchou No. 3878",
       CASE_TYPE: "ms",
-      COURT: "Dongguan First People's Court",
+      COURT: "Qian'an Municipal People's Court",
+      IS_DEFENDANT: 0,
+      IS_PROSECUTOR: 1,
+      SUBMIT_DATE: "2018-11-26T00:00:00.000Z",
+      UPDATE_DATE: "2018-10-18T00:00:00.000Z",
+      active: false
+    },
+    {
+      CASE_NAME:
+        "No.580 Shanghai Pudong Development Bank Co., Ltd. Guiyang Branch Application for Enforcement of Disputes with Guiyang Jinsai Wheel Tire Co., Ltd., Guiyang Xingyuan Material Co., Ltd., Guizhou Hao Museum Trading Co., Ltd., Guizhou Huitong Tire Sales Co., Ltd., Longsword Financial Borrowing Contract",
+      CASE_NO: "(2018) 01 Sheng No. 580",
+      CASE_TYPE: "zx",
+      COURT: "Guiyang Intermediate People's Court of Guizhou Province",
+      IS_DEFENDANT: 0,
+      IS_PROSECUTOR: 0,
+      SUBMIT_DATE: "2018-11-09T00:00:00.000Z",
+      UPDATE_DATE: "2018-09-30T00:00:00.000Z",
+      active: false
+    },
+    {
+      CASE_NAME:
+        "Guizhou Tire Co., Ltd. and Yunnan Knife Meilan Cultural Industry Co., Ltd.",
+      CASE_NO: "(2017) 0103 held No. 2703",
+      CASE_TYPE: "zx",
+      COURT: "Guiyang Yunyan District People's Court",
+      IS_DEFENDANT: 0,
+      IS_PROSECUTOR: 0,
+      SUBMIT_DATE: "2018-11-03T00:00:00.000Z",
+      UPDATE_DATE: "2017-12-18T00:00:00.000Z",
+      active: false
+    },
+    {
+      CASE_NAME:
+        "Guyingli and Guizhou Tire Co., Ltd. First Instance Civil Ruling on Labor Dispute",
+      CASE_NO: "(2018) 0103 Minchu No.5348",
+      CASE_TYPE: "ms",
+      COURT: "Guiyang Yunyan District People's Court",
       IS_DEFENDANT: 1,
       IS_PROSECUTOR: 0,
-      SUBMIT_DATE: "2018-08-08T21:00:00.000Z",
-      UPDATE_DATE: "2017-11-22T22:00:00.000Z",
+      SUBMIT_DATE: "2018-11-02T00:00:00.000Z",
+      UPDATE_DATE: "2018-08-27T00:00:00.000Z",
       active: false
     },
     {
       CASE_NAME:
-        "AnHui Technology Import & Export Co., Ltd., Guangdong Lizhao Electronic Technology Co., Ltd.",
-      CASE_NO: "(2017) One of the No. 2154, 0104",
+        "Guiyang Branch of Shanghai Pudong Development Bank Co., Ltd. Guiyang Branch Applied for Execution of the Contract Dispute of Guiyang Hao Museum Trading Co., Ltd., Guiyang Jinsaiun Tire Co., Ltd., Guizhou Huitong Tire Sales Co., Ltd., Yang Dakang and Wang Shu Financial Borrowing Contract",
+      CASE_NO: "(2018) One of the No.197",
       CASE_TYPE: "zx",
-      COURT: "Hefei Shushan District People's Court",
+      COURT: "Guiyang Intermediate People's Court of Guizhou Province",
       IS_DEFENDANT: 0,
       IS_PROSECUTOR: 0,
-      SUBMIT_DATE: "2018-06-12T21:00:00.000Z",
-      UPDATE_DATE: "2017-09-03T21:00:00.000Z",
+      SUBMIT_DATE: "2018-10-31T00:00:00.000Z",
+      UPDATE_DATE: "2018-09-29T00:00:00.000Z",
       active: false
     },
     {
       CASE_NAME:
-        "AnHui Technology Import & Export Co., Ltd., Guangdong Lizhao Electronic Technology Co., Ltd.",
-      CASE_NO: "(2017) 0104 hold No. 2154",
+        "Guiyang Rural Commercial Bank Co., Ltd. Baiyun Branch Application for Execution of the Financial Borrowing Contract Dispute Case of Guizhou New Special Tire Co., Ltd., Mak Kwan, Yang Shuzhen, Yin Dejun, Yang Xiufa, Guizhou Fanjingshan Industrial Co., Ltd.",
+      CASE_NO: "(2017) One of the No.648",
       CASE_TYPE: "zx",
-      COURT: "Hefei Shushan District People's Court",
+      COURT: "Guiyang Intermediate People's Court of Guizhou Province",
       IS_DEFENDANT: 0,
       IS_PROSECUTOR: 0,
-      SUBMIT_DATE: "2018-06-12T21:00:00.000Z",
-      UPDATE_DATE: "2017-07-05T21:00:00.000Z",
+      SUBMIT_DATE: "2018-10-31T00:00:00.000Z",
+      UPDATE_DATE: "2018-09-05T00:00:00.000Z",
       active: false
     },
     {
       CASE_NAME:
-        "AnHui Technology Import & Export Co., Ltd. and Xu Yuhong, Huainan Yuhong Clothing Co., Ltd.",
-      CASE_NO: "(2018) 0104 Minchu No.1846",
-      CASE_TYPE: "ms",
-      COURT: "Hefei Shushan District People's Court",
+        "Guiyang Branch of Shanghai Pudong Development Bank Co., Ltd., Guiyang Branch of Guizhou Qiantai Tire Co., Ltd., Guizhou Xinpentao Trading Co., Ltd., Guizhou Xing United Tire Co., Ltd., Guizhou Wanlong Tire Co., Ltd., Chen Yanlin, Liu Xiaoyan, Zou Shengzhi",
+      CASE_NO: "(2018) One of the No.194",
+      CASE_TYPE: "zx",
+      COURT: "Guiyang Intermediate People's Court of Guizhou Province",
       IS_DEFENDANT: 0,
-      IS_PROSECUTOR: 1,
-      SUBMIT_DATE: "2018-04-26T21:00:00.000Z",
-      UPDATE_DATE: "2018-03-29T22:00:00.000Z",
+      IS_PROSECUTOR: 0,
+      SUBMIT_DATE: "2018-10-31T00:00:00.000Z",
+      UPDATE_DATE: "2018-09-29T00:00:00.000Z",
       active: false
     },
     {
       CASE_NAME:
-        "AnHui Technology Import & Export Co., Ltd., and Yulong Garment Co., Ltd.",
-      CASE_NO: "(2017) 0104 Min Chu No. 2697",
-      CASE_TYPE: "ms",
-      COURT: "Hefei Shushan District People's Court",
+        "Shanghai Pudong Development Bank Co., Ltd. Guiyang Branch applied for enforcement of Guizhou Xing United Tire Co., Ltd., Guizhou Yue Fa Trading Co., Ltd., Guizhou Wanlong Tire Co., Ltd., Guizhou Qiantai Tire Co., Ltd., Yuan Zhongpei, Longjian and Longchun financial borrowing contract dispute",
+      CASE_NO: "(2018) One of the No.196",
+      CASE_TYPE: "zx",
+      COURT: "Guiyang Intermediate People's Court of Guizhou Province",
       IS_DEFENDANT: 0,
-      IS_PROSECUTOR: 1,
-      SUBMIT_DATE: "2018-04-18T21:00:00.000Z",
-      UPDATE_DATE: "2017-05-15T21:00:00.000Z",
+      IS_PROSECUTOR: 0,
+      SUBMIT_DATE: "2018-10-31T00:00:00.000Z",
+      UPDATE_DATE: "2018-09-29T00:00:00.000Z",
       active: false
     },
     {
-      CASE_NAME: "Contract of carriage disputes",
-      CASE_NO: "(2017) Shanghai 0112 Minchu 23287",
-      DEFENDANT: "Beijing Xiaoqiao Technology Co., Ltd.",
-      EXECUTE_GOV: "Minhang",
-      PROSECUTOR: "Lin Yun-chang",
-      SUBMIT_DATE: "2017-10-09T07:45:00.000Z",
-      active: true
-    },
-    {
       CASE_NAME:
-        "Disputes concerning the right to life, health, physical rights",
-      CASE_NO: "(2017) Shanghai 0115 Minchu 15113",
-      DEFENDANT:
-        "Du Chaojie Beijing Orange Technology Co., Ltd. Shanghai Fog Bo Information Technology Co., Ltd. China Ping An Property Insurance Co., Ltd. Shanghai Branch",
-      EXECUTE_GOV: "Pudong",
-      PROSECUTOR: "Yoo Cheng-ho",
-      SUBMIT_DATE: "2017-07-25T07:40:00.000Z",
-      active: true
-    },
-    {
-      CASE_NAME: "Disputes concerning liability for motor vehicle accidents",
-      CASE_NO: "(2017) Shanghai 0112 Minchu 18563",
-      DEFENDANT:
-        "Ma Xiaoxiang Shanghai Shenzhou Huadong Car Rental Co., Ltd. China Land Property Insurance Co., Ltd. Shanghai Branch Beijing Orange Technology Co., Ltd.",
-      EXECUTE_GOV: "Minhang",
-      PROSECUTOR: "Cai Guolin Jiali",
-      SUBMIT_DATE: "2017-07-24T02:45:00.000Z",
-      active: true
-    },
-    {
-      CASE_NAME:
-        "Disputes concerning the right to life, health, physical rights",
-      CASE_NO: "(2016) Zhe 0702 Minchu No.14535",
-      DEFENDANT: "Tong Jingui Beijing Orange Technology Co., Ltd.",
-      EXECUTE_GOV: "Wucheng District People's Court, Jinhua City",
-      PROSECUTOR: "Wang Meijun",
-      SUBMIT_DATE: "2017-06-22T03:30:00.000Z",
-      active: true
-    },
-    {
-      CASE_NAME:
-        "Anhui Technology Import & Export Co., Ltd., Guangsha Construction Group Co., Ltd., Anhui Branch of Guangsha Construction Group Co., Ltd.",
-      CASE_NO: "(2016) 0104 Minchu No.5303",
-      CASE_TYPE: "ms",
-      COURT: "Hefei Shushan District People's Court",
+        "Shanghai Pudong Development Bank Co., Ltd. Guiyang Branch Applied for the Enforcement of the Contract Dispute of Guizhou Xinpentao Trading Co., Ltd., Guizhou Xing United Tire Co., Ltd., Guizhou Wanlong Tire Co., Ltd., Guizhou Qiantai Tire Co., Ltd., Yuan Liwei, Yuan Zhengyong",
+      CASE_NO: "(2018) One of the No.195",
+      CASE_TYPE: "zx",
+      COURT: "Guiyang Intermediate People's Court of Guizhou Province",
       IS_DEFENDANT: 0,
-      IS_PROSECUTOR: 1,
-      SUBMIT_DATE: "2017-06-14T21:00:00.000Z",
-      UPDATE_DATE: "2016-07-10T21:00:00.000Z",
+      IS_PROSECUTOR: 0,
+      SUBMIT_DATE: "2018-10-31T00:00:00.000Z",
+      UPDATE_DATE: "2018-09-29T00:00:00.000Z",
       active: false
     },
     {
-      CASE_NAME: "Disputes concerning liability for motor vehicle accidents",
-      CASE_NO: "(2017) Yue 03 Minching 7473",
-      DEFENDANT:
-        "Shanghai Qiyang Information Technology Co., Ltd. China Pacific Property Insurance Co., Ltd. Shenzhen Branch Beijing Xiaoban Technology Co., Ltd. Li Ziqing Shenzhen Weng Jinfeng",
-      EXECUTE_GOV: "Shenzhen Intermediate People's Court",
-      PROSECUTOR: "Lam Yulan Choi Ri-quan",
-      SUBMIT_DATE: "2017-05-26T10:10:00.000Z",
-      active: true
-    },
-    {
-      CASE_NAME: "Disputes concerning liability for motor vehicle accidents",
-      CASE_NO: "(2017) Yue 03 Mincheng No.7468",
-      DEFENDANT:
-        "Shanghai Qiyang Information Technology Co., Ltd. China Pacific Property Insurance Co., Ltd. Shenzhen Branch Beijing Xiaoban Technology Co., Ltd. Li Ziqing Shenzhen Weng Jinfeng",
-      EXECUTE_GOV: "Shenzhen Intermediate People's Court",
-      PROSECUTOR: "Ye Ho Ping",
-      SUBMIT_DATE: "2017-05-24T05:00:00.000Z",
-      active: true
-    },
-    {
-      CASE_NAME: "Disputes concerning compensation for property damage",
-      CASE_NO: "(2017) Shanghai 0104 Minchu 5567",
-      DEFENDANT:
-        "Volkswagen Transportation (Group) Co., Ltd. Beijing Orange Technology Co., Ltd.",
-      EXECUTE_GOV: "Xu Hui",
-      PROSECUTOR: "Kai-jun",
-      SUBMIT_DATE: "2017-05-18T08:00:00.000Z",
-      active: true
-    },
-    {
-      CASE_NAME: "Contract of carriage disputes",
-      CASE_NO: "(2017) Chongqing 0101 Minchu 4156",
-      DEFENDANT:
-        "Chongqing Dazhi Xinyuan Industrial Co., Ltd. Beijing Xiaoranges Technology Co., Ltd. Zhang Chong",
-      EXECUTE_GOV: "Chongqing Wanzhou District People's Court",
-      PROSECUTOR: "Chow Shengtian",
-      SUBMIT_DATE: "2017-05-11T08:30:00.000Z",
-      active: true
-    },
-    {
-      CASE_NAME: "Disputes concerning liability for motor vehicle accidents",
-      CASE_NO: "(2017) Zhe 07 Minching 1315",
-      DEFENDANT:
-        "CAO Hong-mei XU Zheng Ying Hong Beijing Xiao-orange Technology Co., Ltd.",
-      EXECUTE_GOV: "Jinhua Intermediate People's Court",
-      PROSECUTOR: "China People's Property Insurance Co., Ltd. Jinhua Branch",
-      SUBMIT_DATE: "2017-04-26T02:40:00.000Z",
-      active: true
-    },
-    {
-      CASE_NAME: "Contract of carriage disputes",
-      CASE_NO: "(2017) Shanghai 0109 Minchu 1841",
-      DEFENDANT: "Beijing Xiaoqiao Technology Co., Ltd.",
-      EXECUTE_GOV: "Hongkou",
-      PROSECUTOR: "Zhen Jun",
-      SUBMIT_DATE: "2017-04-21T03:00:00.000Z",
+      CASE_NAME: "Disputes concerning the right to request payment of bills",
+      CASE_NO: "",
+      DEFENDANT: "Agricultural Bank of China Co., Ltd. Qian'an Shougang Branch",
+      EXECUTE_GOV: "Qian'an Municipal People's Court",
+      PROSECUTOR: "Guizhou Tire Co., Ltd.",
+      SUBMIT_DATE: "2018-10-17T09:00:00.000Z",
       active: true
     },
     {
       CASE_NAME:
-        "Anhui Technology Import & Export Co., Ltd., Taicang Ponqiao Town Linyuan Wood Processing Plant, Wu Jintable, etc.",
-      CASE_NO: "(2016) 0104 Minchu No.124",
+        "Guizhou Steel Rope Co., Ltd. and China Chemical Rubber Guilin Tire Co., Ltd., Guilin Bieli Tire Co., Ltd.",
+      CASE_NO: "(2017) Gui 0326 Minchu No.754",
       CASE_TYPE: "ms",
-      COURT: "Hefei Shushan District People's Court",
+      COURT: "Yongfu County People's Court",
+      IS_DEFENDANT: 0,
+      IS_PROSECUTOR: 0,
+      SUBMIT_DATE: "2018-10-17T00:00:00.000Z",
+      UPDATE_DATE: "2017-11-21T00:00:00.000Z",
+      active: false
+    },
+    {
+      CASE_NAME: "Guilin Belli Tire Co., Ltd., Guizhou Steel Rope Co., Ltd.",
+      CASE_NO: "(2018) Gui 03 Minching No. 808",
+      CASE_TYPE: "ms",
+      COURT:
+        "Guilin Intermediate People's Court of Guangxi Zhuang Autonomous Region",
+      IS_DEFENDANT: 0,
+      IS_PROSECUTOR: 0,
+      SUBMIT_DATE: "2018-10-17T00:00:00.000Z",
+      UPDATE_DATE: "2018-04-12T00:00:00.000Z",
+      active: false
+    },
+    {
+      CASE_NAME:
+        "Guiyang Rural Commercial Bank Co., Ltd. Baiyun Branch Applied to Execute the Financial Borrowing Contract Dispute Case of Guizhou Litong Tire Co., Ltd., Yang Shuzhen, Yin Dejun, Liang Qiyan, Yang Linquan, Guizhou Fanjingshan Industrial Co., Ltd.",
+      CASE_NO: "(2017) 01 Hang No. 649",
+      CASE_TYPE: "zx",
+      COURT: "Guiyang Intermediate People's Court of Guizhou Province",
+      IS_DEFENDANT: 0,
+      IS_PROSECUTOR: 0,
+      SUBMIT_DATE: "2018-10-13T00:00:00.000Z",
+      UPDATE_DATE: "2018-09-05T00:00:00.000Z",
+      active: false
+    },
+    {
+      CASE_NAME:
+        "Shanghai Pudong Development Bank Co., Ltd. Guiyang Branch applied for the enforcement of Guizhou Huitong Tire Sales Co., Ltd., Guiyang Xingyuan Material Co., Ltd., Guiyang Jinsailun Tire Co., Ltd., Zhou Dehua, Liu Youqiang Financial Borrowing Contract Dispute",
+      CASE_NO: "(2018) 01 Sheng No. 198",
+      CASE_TYPE: "zx",
+      COURT: "Guiyang Intermediate People's Court of Guizhou Province",
+      IS_DEFENDANT: 0,
+      IS_PROSECUTOR: 0,
+      SUBMIT_DATE: "2018-10-13T00:00:00.000Z",
+      UPDATE_DATE: "2018-09-25T00:00:00.000Z",
+      active: false
+    },
+    {
+      CASE_NAME:
+        "Shanghai Pudong Development Bank Co., Ltd. Guiyang Branch applied for the enforcement of the dispute over the loan contract between Guiyang Xing United Tire Co., Ltd., Guizhou Xin Pengtao Trading Co., Ltd., Guizhou Wanlong Tire Co., Ltd., Chang Yakang and Lin Shuifu Financial",
+      CASE_NO: "(2017) One of the No.889",
+      CASE_TYPE: "zx",
+      COURT: "Guiyang Intermediate People's Court of Guizhou Province",
+      IS_DEFENDANT: 0,
+      IS_PROSECUTOR: 0,
+      SUBMIT_DATE: "2018-10-13T00:00:00.000Z",
+      UPDATE_DATE: "2018-07-27T00:00:00.000Z",
+      active: false
+    },
+    {
+      CASE_NAME:
+        "Shanghai Pudong Development Bank Co., Ltd. Guiyang Branch Applied for the Enforcement of the Dispute over Financial Borrowing Contract of Guizhou Xingyuan Material Co., Ltd., Guiyang Jinsailun Tire Co., Ltd., Guizhou Huitong Tire Sales Co., Ltd., Chen Yanlin, Liu Xiaoyan",
+      CASE_NO: "(2018) 01 Sheng No. 199",
+      CASE_TYPE: "zx",
+      COURT: "Guiyang Intermediate People's Court of Guizhou Province",
+      IS_DEFENDANT: 0,
+      IS_PROSECUTOR: 0,
+      SUBMIT_DATE: "2018-10-13T00:00:00.000Z",
+      UPDATE_DATE: "2018-09-25T00:00:00.000Z",
+      active: false
+    },
+    {
+      CASE_NAME:
+        "Guizhou Qingzhen Rural Commercial Bank Co., Ltd. applied for enforcement of Guizhou Qianxiang Tire Sales Co., Ltd., Guizhou Qianyu Tire Sales Co., Ltd., Zhou Dehua, Liu Youqiang, Zhou Xiong, Liu Xinwei, Zhou Yinghong, Zhang Ling Financial Borrowing Contract Dispute",
+      CASE_NO: "(2018) One of the No.687",
+      CASE_TYPE: "zx",
+      COURT: "Guiyang Intermediate People's Court of Guizhou Province",
+      IS_DEFENDANT: 0,
+      IS_PROSECUTOR: 0,
+      SUBMIT_DATE: "2018-10-13T00:00:00.000Z",
+      UPDATE_DATE: "2018-09-06T00:00:00.000Z",
+      active: false
+    },
+    {
+      CASE_NAME:
+        "Application for Executor Guizhou Tire Co., Ltd. Application for Execution of the Executed Contract Dispute Execution of Fuzhou Qingtai Tire Co., Ltd., Gao Kai",
+      CASE_NO: "(2016) 0103 held No. 39",
+      CASE_TYPE: "zx",
+      COURT: "Guiyang Yunyan District People's Court",
+      IS_DEFENDANT: 0,
+      IS_PROSECUTOR: 0,
+      SUBMIT_DATE: "2018-10-10T00:00:00.000Z",
+      UPDATE_DATE: "2017-03-31T00:00:00.000Z",
+      active: false
+    },
+    {
+      CASE_NAME:
+        "Guizhou Tire Co., Ltd. Application for Execution of Jiangsu Cilobo Trade Industrial Co., Ltd., Anfeng Guo Purchase and Purchase Contract Dispute Enforcement Decision",
+      CASE_NO: "(2016) 0103 held No. 37",
+      CASE_TYPE: "zx",
+      COURT: "Guiyang Yunyan District People's Court",
+      IS_DEFENDANT: 0,
+      IS_PROSECUTOR: 0,
+      SUBMIT_DATE: "2018-10-10T00:00:00.000Z",
+      UPDATE_DATE: "2016-11-25T00:00:00.000Z",
+      active: false
+    },
+    {
+      CASE_NAME:
+        "Guizhou Tire Co., Ltd. and Guizhou Houcheng Technology Co., Ltd.",
+      CASE_NO: "(2018) 0111 Minchu No.5219",
+      CASE_TYPE: "ms",
+      COURT: "People's Court of Huaxi District, Guiyang City",
       IS_DEFENDANT: 0,
       IS_PROSECUTOR: 1,
-      SUBMIT_DATE: "2016-10-13T05:00:00.000Z",
-      UPDATE_DATE: "2016-07-11T05:00:00.000Z",
+      SUBMIT_DATE: "2018-09-26T00:00:00.000Z",
+      UPDATE_DATE: "2018-08-21T00:00:00.000Z",
+      active: false
+    },
+    {
+      CASE_NAME:
+        "Guiyang Rural Commercial Bank Co., Ltd., Qiantong Tire Sales Co., Ltd., Guizhou Huitong Tire Sales Co., Ltd., Guiyang Qianyu Tire Sales Co., Ltd.",
+      CASE_NO: "(2018) 0102 Minchu No.7803",
+      CASE_TYPE: "ms",
+      COURT: "Guiyang Nanming District People's Court",
+      IS_DEFENDANT: 0,
+      IS_PROSECUTOR: 0,
+      SUBMIT_DATE: "2018-09-25T00:00:00.000Z",
+      UPDATE_DATE: "2018-09-10T00:00:00.000Z",
+      active: false
+    },
+    {
+      CASE_NAME: "Arbitral Execution Award for Guizhou Tire Co., Ltd.",
+      CASE_NO: "(2018) Jing 01 Sheng No. 686",
+      CASE_TYPE: "zx",
+      COURT: "Beijing First Intermediate People's Court",
+      IS_DEFENDANT: 0,
+      IS_PROSECUTOR: 0,
+      SUBMIT_DATE: "2018-09-03T00:00:00.000Z",
+      UPDATE_DATE: "2018-07-26T00:00:00.000Z",
+      active: false
+    },
+    {
+      CASE_NAME:
+        "Guizhou Tire Co., Ltd., Zhejiang Tilong Commercial Bank Co., Ltd. Hangzhou Xiaoshan Branch Bank Interest Return Claims Dispute; First Instance Civil Ruling",
+      CASE_NO: "(2018) Zhe 0109 Minchu No.11731",
+      CASE_TYPE: "ms",
+      COURT: "Hangzhou Xiaoshan District People's Court",
+      IS_DEFENDANT: 0,
+      IS_PROSECUTOR: 1,
+      SUBMIT_DATE: "2018-08-22T00:00:00.000Z",
+      UPDATE_DATE: "2018-08-03T00:00:00.000Z",
+      active: false
+    },
+    {
+      CASE_NAME:
+        "Guizhou Steel Rope Co., Ltd., China Chemical Rubber Guilin Tire Co., Ltd.",
+      CASE_NO: "(2018) Gui 0326 held No. 232",
+      CASE_TYPE: "zx",
+      COURT: "Yongfu County People's Court",
+      IS_DEFENDANT: 0,
+      IS_PROSECUTOR: 0,
+      SUBMIT_DATE: "2018-08-09T00:00:00.000Z",
+      UPDATE_DATE: "2018-06-29T00:00:00.000Z",
+      active: false
+    },
+    {
+      CASE_NAME: "Guizhou Tire Co., Ltd. v. Panzhihua Renhe Material Co., Ltd.",
+      CASE_NO: "(2016) No.4 Zi Hui 01",
+      CASE_TYPE: "zx",
+      COURT: "Guiyang Intermediate People's Court of Guizhou Province",
+      IS_DEFENDANT: 0,
+      IS_PROSECUTOR: 0,
+      SUBMIT_DATE: "2018-08-04T00:00:00.000Z",
+      UPDATE_DATE: "2016-11-28T00:00:00.000Z",
+      active: false
+    },
+    {
+      CASE_NAME: "Disputes concerning the right to request payment of bills",
+      CASE_NO: "(2018) ZH0109 Minchu No.11731",
+      DEFENDANT:
+        "Zhejiang Tilong Commercial Bank Co., Ltd. Hangzhou Xiaoshan Branch",
+      EXECUTE_GOV: "Hangzhou Xiaoshan District People's Court",
+      PROSECUTOR: "Guizhou Tire Co., Ltd.",
+      SUBMIT_DATE: "2018-07-26T15:00:00.000Z",
+      active: true
+    },
+    {
+      CASE_NAME: "Claims of Recourse to Instrument",
+      CASE_NO: "(2018) Zhejiang 0304 Minchu 3654",
+      DEFENDANT: "Wenzhou Dongjiang Wheel Industry Co., Ltd.",
+      EXECUTE_GOV: "Ouhai District People's Court of Wenzhou City",
+      PROSECUTOR: "Guizhou Tire Co., Ltd.",
+      SUBMIT_DATE: "2018-07-16T14:30:00.000Z",
+      active: true
+    },
+    {
+      CASE_NAME:
+        "Guiyang Rural Commercial Bank Co., Ltd., Wu-Branch, Guizhou Huitong Tire Sales Co., Ltd. Other Civil Ruling on Property Protection Liability Dispute",
+      CASE_NO: "(2018) 0102 Cai Bao No.85",
+      CASE_TYPE: "ms",
+      COURT: "Guiyang Nanming District People's Court",
+      IS_DEFENDANT: 0,
+      IS_PROSECUTOR: 0,
+      SUBMIT_DATE: "2018-06-29T00:00:00.000Z",
+      UPDATE_DATE: "2018-06-05T00:00:00.000Z",
+      active: false
+    },
+    {
+      CASE_NAME: "Application for liquidation of the company",
+      CASE_NO: "(2018) Zhe 0191 Qing Shen 2",
+      DEFENDANT: "Hangzhou Qingtai Tire Co., Ltd.",
+      EXECUTE_GOV:
+        "Hangzhou Economic and Technological Development Zone People's Court",
+      PROSECUTOR: "Guizhou Tire Co., Ltd.",
+      SUBMIT_DATE: "2018-06-25T15:30:00.000Z",
+      active: true
+    },
+    {
+      CASE_NAME:
+        "Dispute between Guizhou Tire Co., Ltd. Chengdu Branch and Shi Weidong",
+      CASE_NO: "(2017) Chuan 0108 Zhiwei No. 113",
+      CASE_TYPE: "zx",
+      COURT: "Chengdu People's Court, Chengdu, China",
+      IS_DEFENDANT: 0,
+      IS_PROSECUTOR: 0,
+      SUBMIT_DATE: "2018-06-13T00:00:00.000Z",
+      UPDATE_DATE: "2017-12-27T00:00:00.000Z",
+      active: false
+    },
+    {
+      CASE_NAME:
+        "Guizhou Qingzhen Rural Commercial Bank Co., Ltd., Guiyang Shunda Tire Trading Co., Ltd., Xiao Anmin Financial Borrowing Contract",
+      CASE_NO: "(2017) 0181 Min Chu No.1817",
+      CASE_TYPE: "ms",
+      COURT: "Qingzhen Municipal People's Court",
+      IS_DEFENDANT: 0,
+      IS_PROSECUTOR: 0,
+      SUBMIT_DATE: "2018-05-25T00:00:00.000Z",
+      UPDATE_DATE: "2017-12-20T00:00:00.000Z",
+      active: false
+    },
+    {
+      CASE_NAME: "Guizhou Tire Co., Ltd., Hangzhou Qingtai Tire Co., Ltd.",
+      CASE_NO: "(2017) Zhe 0191 Qing Shen No.1",
+      CASE_TYPE: "ms",
+      COURT:
+        "Hangzhou Economic and Technological Development Zone People's Court",
+      IS_DEFENDANT: 0,
+      IS_PROSECUTOR: 0,
+      SUBMIT_DATE: "2018-05-23T00:00:00.000Z",
+      UPDATE_DATE: "2017-12-18T00:00:00.000Z",
+      active: false
+    },
+    {
+      CASE_NAME:
+        "Guizhou Tire Co., Ltd. Applied for a contract of sale and sale of Hongxing tire operation department of Huaihua City",
+      CASE_NO: "(2018) Xiang 1202 Enforcement No.87",
+      CASE_TYPE: "zx",
+      COURT: "He-cheng District People's Court of Huaihua City",
+      IS_DEFENDANT: 0,
+      IS_PROSECUTOR: 0,
+      SUBMIT_DATE: "2018-03-07T08:00:00.000Z",
+      UPDATE_DATE: "2018-02-23T08:00:00.000Z",
+      active: false
+    },
+    {
+      CASE_NAME:
+        "Application for Executor Guizhou Tire Co., Ltd. Chengdu Branch Office and Executee Shi Weidong Purchase Contract Enforcement Decision",
+      CASE_NO: "(2017) Chuan 0108 Zhiwei No. 113",
+      CASE_TYPE: "zx",
+      COURT: "Chengdu People's Court, Chengdu, China",
+      IS_DEFENDANT: 0,
+      IS_PROSECUTOR: 0,
+      SUBMIT_DATE: "2018-01-31T08:00:00.000Z",
+      UPDATE_DATE: "2017-12-15T08:00:00.000Z",
+      active: false
+    },
+    {
+      CASE_NAME: "Zheng Chuanwen and Guizhou Tire Co., Ltd.",
+      CASE_NO: "(2017) 0103 Minchu No.4068",
+      CASE_TYPE: "ms",
+      COURT: "Guiyang Yunyan District People's Court",
+      IS_DEFENDANT: 1,
+      IS_PROSECUTOR: 0,
+      SUBMIT_DATE: "2017-12-30T08:00:00.000Z",
+      UPDATE_DATE: "2017-11-27T08:00:00.000Z",
+      active: false
+    },
+    {
+      CASE_NAME:
+        "Yang Huai and Guizhou Tire Co., Ltd. First Instance Civil Judgement on Labor Dispute",
+      CASE_NO: "(2017) 0103 Minchu No.5285",
+      CASE_TYPE: "ms",
+      COURT: "Guiyang Yunyan District People's Court",
+      IS_DEFENDANT: 1,
+      IS_PROSECUTOR: 0,
+      SUBMIT_DATE: "2017-12-30T08:00:00.000Z",
+      UPDATE_DATE: "2017-08-21T08:00:00.000Z",
+      active: false
+    },
+    {
+      CASE_NAME:
+        "Guizhou Tire Co., Ltd., He-Cheng District, Huaihua City, Hongxing Tire Management Department, Li Huai",
+      CASE_NO: "(2016) 0103 Min Chu No. 3976",
+      CASE_TYPE: "ms",
+      COURT: "Guiyang Yunyan District People's Court",
+      IS_DEFENDANT: 0,
+      IS_PROSECUTOR: 1,
+      SUBMIT_DATE: "2017-12-30T08:00:00.000Z",
+      UPDATE_DATE: "2016-12-28T08:00:00.000Z",
+      active: false
+    },
+    {
+      CASE_NAME:
+        "Lv Jian and Guizhou Tire Co., Ltd. Civil judgment of first instance labor dispute",
+      CASE_NO: "(2017) 0103 Minchu No.213",
+      CASE_TYPE: "ms",
+      COURT: "Guiyang Yunyan District People's Court",
+      IS_DEFENDANT: 1,
+      IS_PROSECUTOR: 0,
+      SUBMIT_DATE: "2017-12-30T08:00:00.000Z",
+      UPDATE_DATE: "2017-05-02T08:00:00.000Z",
+      active: false
+    },
+    {
+      CASE_NAME:
+        "Guizhou Tire Co., Ltd. and Beijing Bfangtong Auto Parts Co., Ltd. First Instance Civil Ruling",
+      CASE_NO: "(2017) 0103 Minchu No.4060",
+      CASE_TYPE: "ms",
+      COURT: "Guiyang Yunyan District People's Court",
+      IS_DEFENDANT: 0,
+      IS_PROSECUTOR: 1,
+      SUBMIT_DATE: "2017-12-30T08:00:00.000Z",
+      UPDATE_DATE: "2017-07-31T08:00:00.000Z",
+      active: false
+    },
+    {
+      CASE_NAME: "Guizhou Tire Co., Ltd. Civil Litigation Protection Award",
+      CASE_NO: "(2017) Su 0411 Cai Bao No.35",
+      CASE_TYPE: "ms",
+      COURT: "Changzhou Xinbei District People's Court",
+      IS_DEFENDANT: 0,
+      IS_PROSECUTOR: 0,
+      SUBMIT_DATE: "2017-12-29T00:00:00.000Z",
+      UPDATE_DATE: "2017-11-16T00:00:00.000Z",
+      active: false
+    },
+    {
+      CASE_NAME:
+        "Application for Executor Guizhou Tire Co., Ltd. Application for Execution of Executed Executors Wang Fengyun and Wang Xiaoyun Property",
+      CASE_NO: "(2017) Chuan 1502 Zhiwei No.2",
+      CASE_TYPE: "zx",
+      COURT: "Yibin City, Cuiping District People's Court",
+      IS_DEFENDANT: 0,
+      IS_PROSECUTOR: 0,
+      SUBMIT_DATE: "2017-12-22T00:00:00.000Z",
+      UPDATE_DATE: "2017-05-27T00:00:00.000Z",
+      active: false
+    },
+    {
+      CASE_NAME:
+        "Yang Huai, Guizhou Tire Co., Ltd. Civil judgment on labor dispute in the second instance",
+      CASE_NO: "(2017) No.5862",
+      CASE_TYPE: "ms",
+      COURT: "Guiyang Intermediate People's Court of Guizhou Province",
+      IS_DEFENDANT: 1,
+      IS_PROSECUTOR: 0,
+      SUBMIT_DATE: "2017-12-11T08:00:00.000Z",
+      UPDATE_DATE: "2017-11-30T08:00:00.000Z",
+      active: false
+    },
+    {
+      CASE_NAME:
+        "Guizhou Tire Co., Ltd. Applied for Li Hui and other sales contract dispute",
+      CASE_NO: "(2017) Xiang 1202 encoded No. 631",
+      CASE_TYPE: "zx",
+      COURT: "He-cheng District People's Court of Huaihua City",
+      IS_DEFENDANT: 0,
+      IS_PROSECUTOR: 0,
+      SUBMIT_DATE: "2017-12-04T08:00:00.000Z",
+      UPDATE_DATE: "2017-11-13T08:00:00.000Z",
+      active: false
+    },
+    {
+      CASE_NAME: "Guizhou Tire Co., Ltd. Announcement of Civil Judgement",
+      CASE_NO: "(2015) Emao Arrow People's Urging No.00054",
+      CASE_TYPE: "ms",
+      COURT: "Shiyan City Maojian District People's Court",
+      IS_DEFENDANT: 0,
+      IS_PROSECUTOR: 0,
+      SUBMIT_DATE: "2017-11-16T08:00:00.000Z",
+      UPDATE_DATE: "2016-03-14T08:00:00.000Z",
+      active: false
+    },
+    {
+      CASE_NAME:
+        "Guizhou Tire Co., Ltd. and Gansu Bank Co., Ltd. Lanzhou New District Branch Bank of China",
+      CASE_NO: "(2017) Gan 0191 Minchu 715",
+      CASE_TYPE: "ms",
+      COURT: "Lanzhou New District People's Court",
+      IS_DEFENDANT: 0,
+      IS_PROSECUTOR: 1,
+      SUBMIT_DATE: "2017-10-12T08:00:00.000Z",
+      UPDATE_DATE: "2017-08-15T08:00:00.000Z",
       active: false
     }
   ],
@@ -3380,7 +3803,7 @@ const reportData = {
   ],
   listedData: {
     balanceSheet: {
-      date:'Jan 2017 - Dec 2017',
+      date: "Jan 2017 - Dec 2017",
       accountsPayable: null,
       accountsReceivable: 2100000000,
       accumulatedDepreciation: null,
@@ -3403,7 +3826,7 @@ const reportData = {
       totalStockHoldersEquity: 3400000000
     },
     incomeStatement: {
-        date:'Jan 2017 - Dec 2017',
+      date: "Jan 2017 - Dec 2017",
       financialExpenses: 98740000,
       impairmentLossesAssets: 41560000,
       incomeTax: 55880000,
@@ -3417,7 +3840,7 @@ const reportData = {
       totalProfit: 100000000
     },
     cashFlow: {
-        date:'Jan 2017 - Dec 2018',
+      date: "Jan 2017 - Dec 2018",
       absorptionInvestmentCashReceived: null,
       assetsCashPaid: 500000000,
       assetsNetCashPaid: 1060000,

@@ -42,7 +42,8 @@ const styles = {
     fontFamily: "Roboto",
     fontStyle: "normal",
     fontWeight: "normal",
-    minWidth: 50
+    minWidth: 50,
+    width: "50%"
   },
   tabLabel: {
     fontSize: "14px"
@@ -163,7 +164,9 @@ function MoreDataClose(props) {
                   <StyledListItemText
                     primary={
                       <Typography className={"fontStyle5"}>
-                        {item.CASE_NAME ? item.CASE_NAME : item.title}
+                        {item.CASE_NAME !== undefined
+                          ? item.CASE_NAME
+                          : item.title}
                       </Typography>
                     }
                     secondary={
@@ -179,7 +182,7 @@ function MoreDataClose(props) {
                   />
                 </StyledExpansionSummary>
                 <StyledExpansionPanelDetails>
-                  {item.CASE_NAME ? (
+                  {item.CASE_NAME !== undefined ? (
                     <QichachaClosedData item={item} />
                   ) : (
                     <QianzhanData item={item} />
@@ -265,7 +268,7 @@ class MoreDataCourtCases extends Component {
     const { classes, moreData } = this.props;
     const { selectedTab } = this.state;
     const closeCases =
-      moreData && moreData[0].CASE_NAME
+      moreData && moreData[0].CASE_NAME !== undefined
         ? moreData
             .filter(item => item.active !== true)
             .sort(function(a, b) {
@@ -273,7 +276,7 @@ class MoreDataCourtCases extends Component {
             })
         : moreData;
     const openCases =
-      moreData && moreData[0].CASE_NAME
+      moreData && moreData[0].CASE_NAME !== undefined
         ? moreData.filter(item => item.active === true)
         : [];
     return openCases.length === 0 ? (
