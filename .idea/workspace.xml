@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="deedca82-8ad4-4e62-ac9a-df5681d3be65" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/js/WebsiteUtils.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/js/WebsiteUtils.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -21,6 +22,24 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="34">
               <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WebsiteDetails.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Components/WebsiteDetails.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="35" column="25" lean-forward="true" selection-start-line="35" selection-start-column="25" selection-end-line="35" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WebsiteUtils.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Components/js/WebsiteUtils.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-493">
+              <caret line="92" column="25" selection-start-line="92" selection-start-column="9" selection-end-line="92" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -55,15 +74,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="reportData.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/stories/MockData/reportData.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="35" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/index.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -83,18 +93,6 @@
               <caret line="24" column="44" selection-start-line="24" selection-start-column="42" selection-end-line="24" selection-end-column="44" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/stories/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
-              <caret line="69" column="4" selection-start-line="69" selection-start-column="4" selection-end-line="69" selection-end-column="4" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -137,8 +135,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>websiteD</find>
-      <find>t</find>
       <find>sort</find>
       <find>toLower</find>
       <find>getShi</find>
@@ -167,6 +163,8 @@
       <find>StyledDivMore</find>
       <find>tax</find>
       <find>Income Tax</find>
+      <find>registryData</find>
+      <find>getWebsiteStatus</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -175,7 +173,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Components/AreaTwoCharts.js" />
         <option value="$PROJECT_DIR$/src/Components/CompanyScore.js" />
         <option value="$PROJECT_DIR$/src/Components/PublicFinancialRatio.js" />
         <option value="$PROJECT_DIR$/src/Components/RecommendCredit.js" />
@@ -225,6 +222,7 @@
         <option value="$PROJECT_DIR$/src/Components/BalanceSheet.js" />
         <option value="$PROJECT_DIR$/src/Components/IncomeStatement.js" />
         <option value="$PROJECT_DIR$/src/Components/CashFlow.js" />
+        <option value="$PROJECT_DIR$/src/Components/js/WebsiteUtils.js" />
         <option value="$PROJECT_DIR$/package.json" />
       </list>
     </option>
@@ -281,6 +279,13 @@
               <item name="uicomponents" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="uicomponents" type="b2602c69:ProjectViewProjectNode" />
+              <item name="uicomponents" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Components" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="uicomponents" type="b2602c69:ProjectViewProjectNode" />
@@ -512,26 +517,27 @@
       <workItem from="1551354482820" duration="5847000" />
       <workItem from="1551365285975" duration="683000" />
       <workItem from="1551366619958" duration="74000" />
-      <workItem from="1551599054503" duration="2842000" />
+      <workItem from="1551599054503" duration="4360000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="517227000" />
+    <option name="totallyTimeSpent" value="518745000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4982699" visible="true" weight="0.19441517" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4982699" visible="true" weight="0.19441517" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50052685" side_tool="true" weight="0.39069265" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32900432" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32900432" />
       <window_info id="npm" order="3" sideWeight="0.5017301" side_tool="true" weight="0.14805058" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32900432" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.49947312" visible="true" weight="0.19372295" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49947312" visible="true" weight="0.19372295" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -540,7 +546,6 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32900432" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -595,9 +600,6 @@
     <entry file="file://$PROJECT_DIR$/src/MoreDataJobs.js" />
     <entry file="file://$PROJECT_DIR$/src/Components/MoreDataJobs.js" />
     <entry file="file://$PROJECT_DIR$/src/Components/MoreDataEmps.js" />
-    <entry file="file://$PROJECT_DIR$/src/Components/js/WebsiteUtils.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/LowLevelComponents/FirstTimeExpTooltip.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1513">
@@ -832,13 +834,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/WebsiteDetails.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2482">
-          <caret line="161" column="58" selection-start-line="161" selection-start-column="58" selection-end-line="161" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/ShareholdersExpansion.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
@@ -924,6 +919,20 @@
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/js/WebsiteUtils.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-493">
+          <caret line="92" column="25" selection-start-line="92" selection-start-column="9" selection-end-line="92" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/WebsiteDetails.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="35" column="25" lean-forward="true" selection-start-line="35" selection-start-column="25" selection-end-line="35" selection-end-column="25" />
         </state>
       </provider>
     </entry>

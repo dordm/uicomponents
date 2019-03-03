@@ -28,63 +28,67 @@ class WebsiteUtils {
   }
 
   static getWebsiteStatuses(websiteWhoIs) {
-    const status = websiteWhoIs.WhoisRecord.registryData.status;
-    if (status) {
-      const statuses = status
-        .split(" ")
-        .filter(
-          item =>
-            item !== "serverDeleteProhibited" &&
-            item !== "serverRenewProhibited" &&
-            item !== "serverTransferProhibited" &&
-            item !== "serverUpdateProhibited" &&
-            item !== "clientDeleteProhibited" &&
-            item !== "clientRenewProhibited" &&
-            item !== "clientTransferProhibited" &&
-            item !== "clientUpdateProhibited" &&
-            item !== "addPeriod" &&
-            item !== "autoRenewPeriod" &&
-            item !== "renewPeriod" &&
-            item !== "transferPeriod" &&
-            item !== "pendingUpdate" &&
-            item !== "pendingTransfer"
-        );
-      let res = "";
-      if (statuses.length === 0) return "ok";
-      for (let i = 0; i < statuses.length; i++) {
-        switch (statuses[i]) {
-          case "inactive":
-            res += "inactive, ";
-            break;
-          case "ok":
-            res += "ok, ";
-            break;
-          case "pendingCreate":
-            res += "pendingCreate, ";
-            break;
-          case "pendingDelete":
-            res += "pendingDelete, ";
-            break;
-          case "pendingRenew":
-            res += "pendingRenew, ";
-            break;
-          case "pendingRestore":
-            res += "pendingRestore, ";
-            break;
-          case "redemptionPeriod":
-            res += "redemptionPeriod, ";
-            break;
-          case "serverHold":
-            res += "serverHold, ";
-            break;
-          case "clientHold":
-            res += "clientHold, ";
-            break;
+    try {
+      const status = websiteWhoIs.WhoisRecord.registryData.status;
+      if (status) {
+        const statuses = status
+          .split(" ")
+          .filter(
+            item =>
+              item !== "serverDeleteProhibited" &&
+              item !== "serverRenewProhibited" &&
+              item !== "serverTransferProhibited" &&
+              item !== "serverUpdateProhibited" &&
+              item !== "clientDeleteProhibited" &&
+              item !== "clientRenewProhibited" &&
+              item !== "clientTransferProhibited" &&
+              item !== "clientUpdateProhibited" &&
+              item !== "addPeriod" &&
+              item !== "autoRenewPeriod" &&
+              item !== "renewPeriod" &&
+              item !== "transferPeriod" &&
+              item !== "pendingUpdate" &&
+              item !== "pendingTransfer"
+          );
+        let res = "";
+        if (statuses.length === 0) return "ok";
+        for (let i = 0; i < statuses.length; i++) {
+          switch (statuses[i]) {
+            case "inactive":
+              res += "inactive, ";
+              break;
+            case "ok":
+              res += "ok, ";
+              break;
+            case "pendingCreate":
+              res += "pendingCreate, ";
+              break;
+            case "pendingDelete":
+              res += "pendingDelete, ";
+              break;
+            case "pendingRenew":
+              res += "pendingRenew, ";
+              break;
+            case "pendingRestore":
+              res += "pendingRestore, ";
+              break;
+            case "redemptionPeriod":
+              res += "redemptionPeriod, ";
+              break;
+            case "serverHold":
+              res += "serverHold, ";
+              break;
+            case "clientHold":
+              res += "clientHold, ";
+              break;
+          }
         }
-      }
-      if (res.length > 0) return res.substr(0, res.length - 2);
-      else return "";
-    } else return "";
+        if (res.length > 0) return res.substr(0, res.length - 2);
+        else return "";
+      } else return "";
+    } catch (e) {
+      return "";
+    }
   }
   static getWebsiteStatus(websiteStatuses) {
     const statuses = websiteStatuses.split(", ");
