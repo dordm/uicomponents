@@ -103,7 +103,7 @@ function QichachaClosedData(props) {
         <Typography className={"fontStyle11"}>
           {"\u2022"} Case Content: {item.CASE_CONTENT}
         </Typography>
-      ) : props.getCaseContent && item.Id && item.chineseName ? (
+      ) : props.getCaseContent && item.id && item.chineseName ? (
         <StyledChip
           style={{ marginTop: 5 }}
           type={"info"}
