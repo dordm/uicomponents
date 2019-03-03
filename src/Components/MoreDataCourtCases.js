@@ -303,7 +303,11 @@ class MoreDataCourtCases extends Component {
         ? moreData.filter(item => item.active === true)
         : [];
     return openCases.length === 0 ? (
-      <MoreDataClose classes={classes} data={closeCases} />
+      <MoreDataClose
+        getCaseContent={this.props.getCaseContent}
+        classes={classes}
+        data={closeCases}
+      />
     ) : (
       <div>
         <Tabs
