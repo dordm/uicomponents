@@ -152,7 +152,7 @@ function QichachaRenderWithDetails(props) {
           style={{ marginTop: 5 }}
           type={"info"}
           onClick={() => {
-            props.getCaseContent(item.CHINESE_NAME, item.ID);
+            props.getCaseContent(item.CHINESE_NAME, item.ID, "dishonest");
           }}
           icon={<EyeIcon style={{ color: "#4C84FF" }} />}
           variant={"outlined"}

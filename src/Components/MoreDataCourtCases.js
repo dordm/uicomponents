@@ -108,7 +108,7 @@ function QichachaClosedData(props) {
           style={{ marginTop: 5 }}
           type={"info"}
           onClick={() => {
-            props.getCaseContent(item.chineseName, item.id);
+            props.getCaseContent(item.chineseName, item.id, "close case");
           }}
           icon={<EyeIcon style={{ color: "#4C84FF" }} />}
           variant={"outlined"}
