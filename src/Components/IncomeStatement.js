@@ -101,9 +101,9 @@ class IncomeStatement extends Component {
             {this.renderListItem(
               "Impairment Losses Assets",
               data.impairmentLossesAssets,
-              "revenue.svg"
+              "assets.svg"
             )}
-            {this.renderListItem("Income Tax", data.incomeTax, "revenue.svg")}
+            {this.renderListItem("Income Tax", data.incomeTax, "tax.svg")}
             {this.renderListItem(
               "Investment Income",
               data.investmentIncome,
@@ -127,18 +127,18 @@ class IncomeStatement extends Component {
             {this.renderListItem(
               "Operating Profit",
               data.operatingProfit,
-              "revenue.svg"
+              "netProfit.svg"
             )}
             {this.renderListItem(
               "Parent Company Net Profit",
               data.parentCompanyNetProfit,
-              "revenue.svg"
+              "netProfit.svg"
             )}
             {this.renderListItem("Sales Cost", data.salesCost, "revenue.svg")}
             {this.renderListItem(
               "Total Profit",
               data.totalProfit,
-              "revenue.svg"
+              "netProfit.svg"
             )}
           </List>
         ) : (
@@ -240,9 +240,9 @@ class IncomeStatement extends Component {
               {this.renderListItem(
                 "Total Profit",
                 data.totalProfit,
-                "revenue.svg"
+                "netProfit.svg"
               )}
-              {this.renderListItem("Income Tax", data.incomeTax, "revenue.svg")}
+              {this.renderListItem("Income Tax", data.incomeTax, "tax.svg")}
               {this.renderListItem(
                 "Operating Income",
                 data.operatingIncome,

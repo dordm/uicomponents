@@ -121,12 +121,12 @@ class BalanceSheet extends Component {
             {this.renderListItem(
               "Fixed Assets",
               data.fixedAssets,
-              "revenue.svg"
+              "assets.svg"
             )}
             {this.renderListItem(
               "Intangible Assets",
               data.intangibleAssets,
-              "revenue.svg"
+              "assets.svg"
             )}
             {this.renderListItem(
               "Falling Price",
@@ -162,27 +162,27 @@ class BalanceSheet extends Component {
             {this.renderListItem(
               "Total Assets",
               data.totalAssets,
-              "revenue.svg"
+              "assets.svg"
             )}
             {this.renderListItem(
               "Current Assets",
               data.totalCurrentAssets,
-              "revenue.svg"
+              "assets.svg"
             )}
             {this.renderListItem(
               "Current Liabilities",
               data.totalCurrentLiabilities,
-              "revenue.svg"
+              "liabilities.svg"
             )}
             {this.renderListItem(
               "Total Liabilities",
               data.totalLiabilities,
-              "revenue.svg"
+              "liabilities.svg"
             )}
             {this.renderListItem(
               "Long Term Liabilities",
               data.totalLongTermLiabilities,
-              "revenue.svg"
+              "liabilities.svg"
             )}
             {this.renderListItem(
               "Stock Holders Equity",
@@ -299,12 +299,12 @@ class BalanceSheet extends Component {
               {this.renderListItem(
                 "Total Assets",
                 data.totalAssets,
-                "revenue.svg"
+                "assets.svg"
               )}
               {this.renderListItem(
                 "Total Liabilities",
                 data.totalLiabilities,
-                "revenue.svg"
+                "liabilities.svg"
               )}
               {this.renderListItem("Stocks", data.stock, "revenue.svg")}
             </List>

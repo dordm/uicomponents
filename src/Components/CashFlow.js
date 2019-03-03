@@ -101,17 +101,17 @@ class CashFlow extends Component {
             {this.renderListItem(
               "Assets Cash Paid",
               data.assetsCashPaid,
-              "revenue.svg"
+              "assets.svg"
             )}
             {this.renderListItem(
               "Assets Net Cash Paid",
               data.assetsNetCashPaid,
-              "revenue.svg"
+              "assets.svg"
             )}
             {this.renderListItem(
               "Assets Net Cash Received",
               data.assetsNetCashReceived,
-              "revenue.svg"
+              "assets.svg"
             )}
             {this.renderListItem(
               "Borrowings Cash Received",
@@ -213,9 +213,9 @@ class CashFlow extends Component {
             {this.renderListItem(
               "Tax Refund Received",
               data.taxRefundReceived,
-              "revenue.svg"
+              "tax.svg"
             )}
-            {this.renderListItem("Taxes Paid", data.taxesPaid, "revenue.svg")}
+            {this.renderListItem("Taxes Paid", data.taxesPaid, "tax.svg")}
           </List>
         ) : (
           ""
@@ -325,7 +325,7 @@ class CashFlow extends Component {
                 data.employeesCashPaid,
                 "revenue.svg"
               )}
-              {this.renderListItem("Taxes Paid", data.taxesPaid, "revenue.svg")}
+              {this.renderListItem("Taxes Paid", data.taxesPaid, "tax.svg")}
               {this.renderListItem(
                 "Current Ratio",
                 data.currentRatio,
