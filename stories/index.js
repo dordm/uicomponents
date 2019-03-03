@@ -22,6 +22,7 @@ import MoreDataLawEnforcement from "../src/Components/MoreDataLawEnforcement";
 import MoreDataAdministrativePunishment from "../src/Components/MoreDataAdministrativePunishment";
 import MoreDataBranchesInvestments from "../src/Components/MoreDataBranchesInvestments";
 import MoreDataMortgagePledge from "../src/Components/MoreDataMortgagePledge";
+import MoreDataDishonest from "../src/Components/MoreDataDishonest";
 import MoreDataPatents from "../src/Components/MoreDataPatents";
 import reportData from "./MockData/reportData";
 import "../src/Components/css/fonts.css";
@@ -29,10 +30,10 @@ import "../src/Components/css/tooltip.css";
 import Utils from "../src/Components/js/Utils";
 import CompanyChanges from "../src/Components/CompanyChanges";
 import WebsiteChanges from "../src/Components/WebsiteChanges";
-import WebsiteDetails from '../src/Components/WebsiteDetails';
-import BalanceSheet from '../src/Components/BalanceSheet';
-import CashFlow from '../src/Components/CashFlow';
-import IncomeStatement from '../src/Components/IncomeStatement';
+import WebsiteDetails from "../src/Components/WebsiteDetails";
+import BalanceSheet from "../src/Components/BalanceSheet";
+import CashFlow from "../src/Components/CashFlow";
+import IncomeStatement from "../src/Components/IncomeStatement";
 import CorporationMap from "../src/Components/CorporationMap";
 import MoreDataPenaltyBusinessExceptions from "../src/Components/MoreDataPenaltyBusinessExceptions";
 import MoreDataTrademarks from "../src/Components/MoreDataTrademarks";
@@ -68,27 +69,27 @@ storiesOf("Components", module)
       data={reportData.insights}
     />
   ))
-    .add("Balance Sheet", () => (
-        <BalanceSheet
-            width={window.innerWidth}
-            date={"Jan 2017 - Dec 2017"}
-            listedData={reportData.listedData}
-        />
-    ))
-    .add("Cash Flow", () => (
-        <CashFlow
-            width={window.innerWidth}
-            date={"Jan 2017 - Dec 2017"}
-            listedData={reportData.listedData}
-        />
-    ))
-    .add("Income Statement", () => (
-        <IncomeStatement
-            width={window.innerWidth}
-            date={"Jan 2017 - Dec 2017"}
-            listedData={reportData.listedData}
-        />
-    ))
+  .add("Balance Sheet", () => (
+    <BalanceSheet
+      width={window.innerWidth}
+      date={"Jan 2017 - Dec 2017"}
+      listedData={reportData.listedData}
+    />
+  ))
+  .add("Cash Flow", () => (
+    <CashFlow
+      width={window.innerWidth}
+      date={"Jan 2017 - Dec 2017"}
+      listedData={reportData.listedData}
+    />
+  ))
+  .add("Income Statement", () => (
+    <IncomeStatement
+      width={window.innerWidth}
+      date={"Jan 2017 - Dec 2017"}
+      listedData={reportData.listedData}
+    />
+  ))
   .add("Corporation Graph", () => (
     <CorporationMap
       width={window.innerWidth}
@@ -379,6 +380,22 @@ storiesOf("Components", module)
       moreBtn={true}
       moreTitle={"Trademarks List"}
       moreData={<MoreDataTrademarks moreData={reportData.trademarks} />}
+    />
+  ))
+  .add("Dishonest", () => (
+    <TwoInfoCard
+      width={window.innerWidth}
+      name={"Dishonest"}
+      infoText={"The company subsidiaries and branches"}
+      content1={reportData.dishonest.length}
+      content1Lbl={"Dishonest"}
+      content2={""}
+      content2Lbl={""}
+      bottomIcon={null}
+      bottomMsg={""}
+      moreBtn={true}
+      moreTitle={"Dishonest List"}
+      moreData={<MoreDataDishonest moreData={reportData.dishonest} />}
     />
   ))
   .add("Law Enforcement example", () => (

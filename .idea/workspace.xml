@@ -4,7 +4,9 @@
     <list default="true" id="deedca82-8ad4-4e62-ac9a-df5681d3be65" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/MoreDataCourtCases.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/MoreDataCourtCases.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/MoreDataDishonest.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/MoreDataDishonest.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/stories/MockData/reportData.js" beforeDir="false" afterPath="$PROJECT_DIR$/stories/MockData/reportData.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stories/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/stories/index.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -48,8 +50,8 @@
       <file leaf-file-name="reportData.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/stories/MockData/reportData.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="1505" column="15" lean-forward="true" selection-start-line="1505" selection-start-column="15" selection-end-line="1505" selection-end-column="15" />
+            <state relative-caret-position="388">
+              <caret line="1615" column="21" lean-forward="true" selection-start-line="1615" selection-start-column="21" selection-end-line="1615" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -57,8 +59,11 @@
       <file leaf-file-name="MoreDataCourtCases.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Components/MoreDataCourtCases.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="39" column="26" lean-forward="true" selection-end-line="324" />
+            <state relative-caret-position="185">
+              <caret line="99" column="75" lean-forward="true" selection-start-line="99" selection-start-column="75" selection-end-line="99" selection-end-column="75" />
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -66,19 +71,19 @@
       <file leaf-file-name="MoreDataDishonest.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Components/MoreDataDishonest.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+            <state relative-caret-position="289">
+              <caret line="17" selection-start-line="17" selection-end-line="17" selection-end-column="54" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PublicFinancial.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Components/PublicFinancial.js">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/stories/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="126" column="43" selection-start-line="126" selection-start-column="43" selection-end-line="126" selection-end-column="56" />
+            <state relative-caret-position="132">
+              <caret line="377" column="23" lean-forward="true" selection-start-line="377" selection-start-column="23" selection-end-line="377" selection-end-column="23" />
               <folding>
-                <element signature="e#0#41#0" expanded="true" />
+                <element signature="e#0#26#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -133,11 +138,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>styles</find>
-      <find>exportData</find>
-      <find>this.state.</find>
-      <find>CustomTooltip</find>
-      <find>More</find>
       <find>bottomIcon</find>
       <find>/supplier</find>
       <find>isPdfMap</find>
@@ -162,7 +162,12 @@
       <find>getWebsiteStatus</find>
       <find>courtCases</find>
       <find>item.CASE_NAME ?</find>
+      <find>disho</find>
+      <find>Dishonest</find>
+      <find>StyledChip</find>
       <find>Tabs</find>
+      <find>MoreDataClose</find>
+      <find>props.getCaseContent</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -186,7 +191,6 @@
         <option value="$PROJECT_DIR$/src/Components/MoreDataJobs.js" />
         <option value="$PROJECT_DIR$/src/Components/MoreDataTaxCredit.js" />
         <option value="$PROJECT_DIR$/src/Components/LowLevelComponents/FirstTimeExpTooltip.js" />
-        <option value="$PROJECT_DIR$/src/Components/MoreDataDishonest.js" />
         <option value="$PROJECT_DIR$/src/Components/TopCountries.js" />
         <option value="$PROJECT_DIR$/src/Components/MoreDataLawEnforcement.js" />
         <option value="$PROJECT_DIR$/src/Components/css/fonts.css" />
@@ -213,13 +217,14 @@
         <option value="$PROJECT_DIR$/src/Components/CorporationMap.js" />
         <option value="$PROJECT_DIR$/src/Components/WebsiteDetails.js" />
         <option value="$PROJECT_DIR$/src/Components/PublicFinancial.js" />
-        <option value="$PROJECT_DIR$/stories/index.js" />
         <option value="$PROJECT_DIR$/src/index.js" />
         <option value="$PROJECT_DIR$/src/Components/BalanceSheet.js" />
         <option value="$PROJECT_DIR$/src/Components/IncomeStatement.js" />
         <option value="$PROJECT_DIR$/src/Components/CashFlow.js" />
         <option value="$PROJECT_DIR$/src/Components/js/WebsiteUtils.js" />
         <option value="$PROJECT_DIR$/stories/MockData/reportData.js" />
+        <option value="$PROJECT_DIR$/stories/index.js" />
+        <option value="$PROJECT_DIR$/src/Components/MoreDataDishonest.js" />
         <option value="$PROJECT_DIR$/src/Components/MoreDataCourtCases.js" />
         <option value="$PROJECT_DIR$/package.json" />
       </list>
@@ -515,12 +520,12 @@
       <workItem from="1551354482820" duration="5847000" />
       <workItem from="1551365285975" duration="683000" />
       <workItem from="1551366619958" duration="74000" />
-      <workItem from="1551599054503" duration="5752000" />
+      <workItem from="1551599054503" duration="10736000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="520137000" />
+    <option name="totallyTimeSpent" value="525121000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
@@ -839,16 +844,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/stories/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="69" column="4" selection-start-line="69" selection-start-column="4" selection-end-line="69" selection-end-column="4" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="629">
@@ -866,13 +861,6 @@
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/MoreDataDishonest.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
         </state>
       </provider>
     </entry>
@@ -920,17 +908,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/stories/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="377" column="23" lean-forward="true" selection-start-line="377" selection-start-column="23" selection-end-line="377" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/stories/MockData/reportData.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="1505" column="15" lean-forward="true" selection-start-line="1505" selection-start-column="15" selection-end-line="1505" selection-end-column="15" />
+        <state relative-caret-position="388">
+          <caret line="1615" column="21" lean-forward="true" selection-start-line="1615" selection-start-column="21" selection-end-line="1615" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/MoreDataDishonest.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" selection-start-line="17" selection-end-line="17" selection-end-column="54" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/MoreDataCourtCases.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="39" column="26" lean-forward="true" selection-end-line="324" />
+        <state relative-caret-position="185">
+          <caret line="99" column="75" lean-forward="true" selection-start-line="99" selection-start-column="75" selection-end-line="99" selection-end-column="75" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

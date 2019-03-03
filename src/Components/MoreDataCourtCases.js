@@ -13,10 +13,12 @@ import {
   StyledListItem,
   StyledListItemText,
   StyledExpansionSummary,
-  StyledExpansionPanelDetails
+  StyledExpansionPanelDetails,
+  StyledChip
 } from "./LowLevelComponents/StyledComponents";
 import Tabs from "@material-ui/core/Tabs";
 import Tab from "@material-ui/core/Tab";
+import EyeIcon from "@material-ui/icons/RemoveRedEye";
 
 const styles = {
   expansionSummaryInner: {
@@ -97,6 +99,24 @@ function QichachaClosedData(props) {
         {"\u2022"} Update Date:{" "}
         {item.UPDATE_DATE ? item.UPDATE_DATE.toString().substr(0, 10) : ""}
       </Typography>
+      {item.CASE_CONTENT ? (
+        <Typography className={"fontStyle11"}>
+          {"\u2022"} Case Content: {item.CASE_CONTENT}
+        </Typography>
+      ) : props.getCaseContent && item.Id && item.chineseName ? (
+        <StyledChip
+          style={{ marginTop: 5 }}
+          type={"info"}
+          onClick={() => {
+            props.getCaseContent(item.chineseName, item.id);
+          }}
+          icon={<EyeIcon style={{ color: "#4C84FF" }} />}
+          variant={"outlined"}
+          label={"Show Case Content"}
+        />
+      ) : (
+        ""
+      )}
     </div>
   );
 }
@@ -183,7 +203,10 @@ function MoreDataClose(props) {
                 </StyledExpansionSummary>
                 <StyledExpansionPanelDetails>
                   {item.CASE_NAME !== undefined ? (
-                    <QichachaClosedData item={item} />
+                    <QichachaClosedData
+                      getCaseContent={props.getCaseContent}
+                      item={item}
+                    />
                   ) : (
                     <QianzhanData item={item} />
                   )}
@@ -309,7 +332,11 @@ class MoreDataCourtCases extends Component {
         {this.state.selectedTab === "active" ? (
           <MoreDataOpen classes={classes} data={openCases} />
         ) : (
-          <MoreDataClose classes={classes} data={closeCases} />
+          <MoreDataClose
+            getCaseContent={this.props.getCaseContent}
+            classes={classes}
+            data={closeCases}
+          />
         )}
       </div>
     );
@@ -318,7 +345,8 @@ class MoreDataCourtCases extends Component {
 
 MoreDataCourtCases.propTypes = {
   classes: PropTypes.object.isRequired,
-  moreData: PropTypes.array.isRequired
+  moreData: PropTypes.array.isRequired,
+  getCaseContent: PropTypes.func
 };
 
 export default withStyles(styles)(MoreDataCourtCases);
