@@ -107,7 +107,7 @@ function QichachaClosedData(props) {
         {"\u2022"} Update Date:{" "}
         {item.UPDATE_DATE ? item.UPDATE_DATE.toString().substr(0, 10) : ""}
       </Typography>
-      {props.getCaseContent && item.id && item.chineseName ? (
+      {props.getCaseContentRef && item.id && item.chineseName ? (
         <StyledChip
           style={{ marginTop: 5 }}
           type={"info"}
@@ -209,6 +209,7 @@ function MoreDataClose(props) {
                   {item.CASE_NAME !== undefined ? (
                     <QichachaClosedData
                       getCaseContent={props.getCaseContent}
+                      getCaseContentRef={props.getCaseContentRef}
                       item={item}
                     />
                   ) : (
@@ -365,6 +366,7 @@ class MoreDataCourtCases extends Component {
       <div>
         <MoreDataClose
           getCaseContent={this.getCaseContent.bind(this)}
+          getCaseContentRef={this.props.getCaseContent}
           classes={classes}
           data={closeCases}
         />
@@ -403,6 +405,7 @@ class MoreDataCourtCases extends Component {
         ) : (
           <MoreDataClose
             getCaseContent={this.getCaseContent.bind(this)}
+            getCaseContentRef={this.props.getCaseContent}
             classes={classes}
             data={closeCases}
           />
