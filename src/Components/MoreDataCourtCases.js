@@ -16,6 +16,7 @@ import {
   StyledExpansionPanelDetails,
   StyledChip
 } from "./LowLevelComponents/StyledComponents";
+import Loader from "./LowLevelComponents/Loader";
 import Tabs from "@material-ui/core/Tabs";
 import Tab from "@material-ui/core/Tab";
 import EyeIcon from "@material-ui/icons/RemoveRedEye";
@@ -287,12 +288,26 @@ class MoreDataCourtCases extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      selectedTab: "active"
+      selectedTab: "active",
+      loading: false,
+      showCaseContent: false,
+      caseContent: null
     };
   }
+
+  async getCaseContent(chineseName, id, type) {
+    this.setState({ loading: true });
+    const content = await this.props.getCaseContent(chineseName, id, type);
+    if (content) {
+      this.setState({ showCaseContent: true, caseContent: content });
+      console.log(content);
+    }
+    this.setState({ loading: false });
+  }
+
   render() {
     const { classes, moreData } = this.props;
-    const { selectedTab } = this.state;
+    const { selectedTab, loading } = this.state;
     const closeCases =
       moreData && moreData[0].CASE_NAME !== undefined
         ? moreData
@@ -306,13 +321,17 @@ class MoreDataCourtCases extends Component {
         ? moreData.filter(item => item.active === true)
         : [];
     return openCases.length === 0 ? (
-      <MoreDataClose
-        getCaseContent={this.props.getCaseContent}
-        classes={classes}
-        data={closeCases}
-      />
+      <div>
+        <MoreDataClose
+          getCaseContent={this.getCaseContent.bind(this)}
+          classes={classes}
+          data={closeCases}
+        />
+        <Loader size={50} open={loading} />
+      </div>
     ) : (
       <div>
+        <Loader size={50} open={loading} />
         <Tabs
           value={selectedTab}
           id={"tabs"}
@@ -340,7 +359,7 @@ class MoreDataCourtCases extends Component {
           <MoreDataOpen classes={classes} data={openCases} />
         ) : (
           <MoreDataClose
-            getCaseContent={this.props.getCaseContent}
+            getCaseContent={this.getCaseContent.bind(this)}
             classes={classes}
             data={closeCases}
           />
