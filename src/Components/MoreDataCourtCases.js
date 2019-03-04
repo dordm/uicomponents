@@ -14,14 +14,21 @@ import {
   StyledListItemText,
   StyledExpansionSummary,
   StyledExpansionPanelDetails,
-  StyledChip
+  StyledChip,
+  StyledCloseIcon,
+  StyledDialogContent
 } from "./LowLevelComponents/StyledComponents";
 import Loader from "./LowLevelComponents/Loader";
 import Tabs from "@material-ui/core/Tabs";
 import Tab from "@material-ui/core/Tab";
 import EyeIcon from "@material-ui/icons/RemoveRedEye";
+import Dialog from "@material-ui/core/Dialog";
+import DialogTitle from "@material-ui/core/DialogTitle";
 
 const styles = {
+  dialog: {
+    margin: 16
+  },
   expansionSummaryInner: {
     margin: "0px !important"
   },
@@ -112,7 +119,7 @@ function QichachaClosedData(props) {
           style={{ marginTop: 5 }}
           type={"info"}
           onClick={() => {
-            props.getCaseContent(item.chineseName, item.id, "close case");
+            props.getCaseContent(item.chineseName, item.id);
           }}
           icon={<EyeIcon style={{ color: "#4C84FF" }} />}
           variant={"outlined"}
@@ -291,18 +298,52 @@ class MoreDataCourtCases extends Component {
       selectedTab: "active",
       loading: false,
       showCaseContent: false,
-      caseContent: null
+      caseContent: null,
+      caseTitle: ""
     };
   }
 
-  async getCaseContent(chineseName, id, type) {
+  async getCaseContent(chineseName, id) {
     this.setState({ loading: true });
-    const content = await this.props.getCaseContent(chineseName, id, type);
+    const content = await this.props.getCaseContent(chineseName, id);
     if (content) {
-      this.setState({ showCaseContent: true, caseContent: content });
-      console.log(content);
+      this.setState({
+        showCaseContent: true,
+        caseContent: content,
+        caseTitle: this.props.moreData.find(item => item.id === id).CASE_NAME
+      });
     }
     this.setState({ loading: false });
+  }
+
+  renderDialogContent() {
+    const { classes } = this.props;
+    return (
+      <Dialog
+        PaperProps={{
+          classes: {
+            root: classes.dialog
+          }
+        }}
+        open={this.state.showCaseContent}
+        onClose={() => this.setState({ showCaseContent: false })}
+        aria-labelledby="scroll-dialog-title"
+      >
+        <StyledCloseIcon
+          data-cy={"btnCloseDialog"}
+          onClick={() => this.setState({ showCaseContent: false })}
+        >
+          <img alt="Close" src={require("./images/Close.png")} />
+        </StyledCloseIcon>
+        <DialogTitle
+          className={"fontStyle3"}
+          style={{ textAlign: "center", marginTop: 24 }}
+        >
+          {this.props.moreTitle}
+        </DialogTitle>
+        <StyledDialogContent>{this.props.moreData}</StyledDialogContent>
+      </Dialog>
+    );
   }
 
   render() {

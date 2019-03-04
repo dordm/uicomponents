@@ -12,10 +12,8 @@ import {
   StyledListItem,
   StyledListItemText,
   StyledExpansionSummary,
-  StyledExpansionPanelDetails,
-  StyledChip
+  StyledExpansionPanelDetails
 } from "./LowLevelComponents/StyledComponents";
-import EyeIcon from "@material-ui/icons/RemoveRedEye";
 
 const styles = {
   expansionSummaryInner: {
@@ -143,21 +141,10 @@ function QichachaRenderWithDetails(props) {
       <Typography className={"fontStyle11"}>
         {"\u2022"} Province: {item.PROVINCE}
       </Typography>
-      {item.CASE_CONTENT ? (
+      {item.YIWU ? (
         <Typography className={"fontStyle11"}>
-          {"\u2022"} Case Content: {item.CASE_CONTENT}
+          {"\u2022"} Case Content: {item.YIWU}
         </Typography>
-      ) : props.getCaseContent ? (
-        <StyledChip
-          style={{ marginTop: 5 }}
-          type={"info"}
-          onClick={() => {
-            props.getCaseContent(item.CHINESE_NAME, item.ID, "dishonest");
-          }}
-          icon={<EyeIcon style={{ color: "#4C84FF" }} />}
-          variant={"outlined"}
-          label={"Show Case Content"}
-        />
       ) : (
         ""
       )}
@@ -223,10 +210,7 @@ function MoreDataDishonest(props) {
                 </StyledExpansionSummary>
                 <StyledExpansionPanelDetails>
                   {item.ACTION_REMARK !== undefined ? (
-                    <QichachaRenderWithDetails
-                      getCaseContent={props.getCaseContent}
-                      item={item}
-                    />
+                    <QichachaRenderWithDetails item={item} />
                   ) : item.Name ? (
                     <QichachaRender item={item} />
                   ) : (
@@ -245,8 +229,7 @@ function MoreDataDishonest(props) {
 
 MoreDataDishonest.propTypes = {
   classes: PropTypes.object.isRequired,
-  moreData: PropTypes.array.isRequired,
-  getCaseContent: PropTypes.func
+  moreData: PropTypes.array.isRequired
 };
 
 export default withStyles(styles)(MoreDataDishonest);

@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="deedca82-8ad4-4e62-ac9a-df5681d3be65" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/src/Components/MoreDataCourtCases.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/MoreDataCourtCases.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/MoreDataDishonest.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/MoreDataDishonest.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -16,7 +17,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="true">
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="34">
@@ -61,11 +62,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MoreDataCourtCases.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="MoreDataCourtCases.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Components/MoreDataCourtCases.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-173">
-              <caret line="303" column="5" lean-forward="true" selection-start-line="303" selection-start-column="5" selection-end-line="303" selection-end-column="5" />
+            <state relative-caret-position="221">
+              <caret line="307" column="67" selection-start-line="307" selection-start-column="67" selection-end-line="307" selection-end-column="67" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -73,11 +74,20 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="TwoInfoCard.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Components/TwoInfoCard.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="13" column="17" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="MoreDataDishonest.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Components/MoreDataDishonest.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="660">
-              <caret line="149" column="34" selection-start-line="149" selection-start-column="34" selection-end-line="149" selection-end-column="34" />
+            <state relative-caret-position="98">
+              <caret line="190" column="37" lean-forward="true" selection-start-line="190" selection-start-column="37" selection-end-line="190" selection-end-column="37" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -92,18 +102,6 @@
               <caret line="377" column="23" selection-start-line="377" selection-start-column="23" selection-end-line="377" selection-end-column="23" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IncomeStatement.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Components/IncomeStatement.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="24" column="44" selection-start-line="24" selection-start-column="44" selection-end-line="24" selection-end-column="44" />
-              <folding>
-                <element signature="e#0#41#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -134,11 +132,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>isPdfMap</find>
-      <find>classes.divWr</find>
-      <find>substr</find>
-      <find>moreData</find>
-      <find>accounts</find>
       <find>renderListItem</find>
       <find>console.log</find>
       <find>Not Pu</find>
@@ -164,6 +157,11 @@
       <find>get</find>
       <find>MoreDataClose</find>
       <find>QichachaClosedData</find>
+      <find>getCase</find>
+      <find>moreOpen</find>
+      <find>classes.dial</find>
+      <find>StyledCloseIcon</find>
+      <find>getCaseContent</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -220,9 +218,9 @@
         <option value="$PROJECT_DIR$/src/Components/js/WebsiteUtils.js" />
         <option value="$PROJECT_DIR$/stories/MockData/reportData.js" />
         <option value="$PROJECT_DIR$/stories/index.js" />
+        <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/src/Components/MoreDataDishonest.js" />
         <option value="$PROJECT_DIR$/src/Components/MoreDataCourtCases.js" />
-        <option value="$PROJECT_DIR$/package.json" />
       </list>
     </option>
   </component>
@@ -314,7 +312,7 @@
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/Users/Dor Damry/Desktop/Tiidan/projects/uicomponents/src/Components/LowLevelComponents/NumberFormatCustom.js" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../generate-report" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
@@ -526,12 +524,12 @@
       <workItem from="1551599054503" duration="11737000" />
       <workItem from="1551623842298" duration="644000" />
       <workItem from="1551687565287" duration="10000" />
-      <workItem from="1551694325649" duration="2186000" />
+      <workItem from="1551694325649" duration="3096000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="528962000" />
+    <option name="totallyTimeSpent" value="529872000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
@@ -808,13 +806,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/TwoInfoCard.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="748">
-          <caret line="60" column="2" selection-start-line="60" selection-start-column="2" selection-end-line="62" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/CorporationMap.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="13362">
@@ -925,30 +916,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/MoreDataDishonest.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="149" column="34" selection-start-line="149" selection-start-column="34" selection-end-line="149" selection-end-column="34" />
+        <state relative-caret-position="98">
+          <caret line="190" column="37" lean-forward="true" selection-start-line="190" selection-start-column="37" selection-end-line="190" selection-end-column="37" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/MoreDataCourtCases.js">
+    <entry file="file://$PROJECT_DIR$/src/Components/TwoInfoCard.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-173">
-          <caret line="303" column="5" lean-forward="true" selection-start-line="303" selection-start-column="5" selection-end-line="303" selection-end-column="5" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="221">
+          <caret line="13" column="17" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
+    <entry file="file://$PROJECT_DIR$/src/Components/MoreDataCourtCases.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+        <state relative-caret-position="221">
+          <caret line="307" column="67" selection-start-line="307" selection-start-column="67" selection-end-line="307" selection-end-column="67" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
