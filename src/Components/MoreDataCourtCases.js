@@ -100,9 +100,12 @@ function QichachaClosedData(props) {
         {item.UPDATE_DATE ? item.UPDATE_DATE.toString().substr(0, 10) : ""}
       </Typography>
       {item.CASE_CONTENT ? (
-        <Typography className={"fontStyle11"}>
-          {"\u2022"} Case Content: {item.CASE_CONTENT}
-        </Typography>
+        <Typography
+          className={"fontStyle11"}
+          dangerouslySetInnerHTML={{
+            __html: "\u2022 " + "Case Content: " + item.CASE_CONTENT
+          }}
+        />
       ) : props.getCaseContent && item.id && item.chineseName ? (
         <StyledChip
           style={{ marginTop: 5 }}
