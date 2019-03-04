@@ -107,14 +107,7 @@ function QichachaClosedData(props) {
         {"\u2022"} Update Date:{" "}
         {item.UPDATE_DATE ? item.UPDATE_DATE.toString().substr(0, 10) : ""}
       </Typography>
-      {item.CASE_CONTENT ? (
-        <Typography
-          className={"fontStyle11"}
-          dangerouslySetInnerHTML={{
-            __html: "\u2022 " + "Case Content: " + item.CASE_CONTENT
-          }}
-        />
-      ) : props.getCaseContent && item.id && item.chineseName ? (
+      {props.getCaseContent && item.id && item.chineseName ? (
         <StyledChip
           style={{ marginTop: 5 }}
           type={"info"}
@@ -339,9 +332,16 @@ class MoreDataCourtCases extends Component {
           className={"fontStyle3"}
           style={{ textAlign: "center", marginTop: 24 }}
         >
-          {this.props.moreTitle}
+          {this.state.caseTitle}
         </DialogTitle>
-        <StyledDialogContent>{this.props.moreData}</StyledDialogContent>
+        <StyledDialogContent>
+          <Typography
+            className={"fontStyle11"}
+            dangerouslySetInnerHTML={{
+              __html: this.state.caseContent
+            }}
+          />
+        </StyledDialogContent>
       </Dialog>
     );
   }
