@@ -238,21 +238,16 @@ class IncomeStatement extends Component {
           <div className={classes.listDiv}>
             <List>
               {this.renderListItem(
-                "Total Profit",
-                data.totalProfit,
-                "netProfit.svg"
-              )}
-              {this.renderListItem("Income Tax", data.incomeTax, "tax.svg")}
-              {this.renderListItem(
                 "Operating Income",
                 data.operatingIncome,
                 "revenue.svg"
               )}
               {this.renderListItem("Sales Cost", data.salesCost, "revenue.svg")}
+              {this.renderListItem("Income Tax", data.incomeTax, "tax.svg")}
               {this.renderListItem(
-                "Management Fee",
-                data.managementFee,
-                "revenue.svg"
+                "Total Profit",
+                data.totalProfit,
+                "netProfit.svg"
               )}
             </List>
           </div>
