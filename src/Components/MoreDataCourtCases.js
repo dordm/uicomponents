@@ -369,10 +369,12 @@ class MoreDataCourtCases extends Component {
           data={closeCases}
         />
         <Loader size={50} open={loading} />
+        {this.renderDialogContent()}
       </div>
     ) : (
       <div>
         <Loader size={50} open={loading} />
+        {this.renderDialogContent()}
         <Tabs
           value={selectedTab}
           id={"tabs"}
