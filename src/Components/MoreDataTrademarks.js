@@ -18,14 +18,6 @@ import {
 import ValidIcon from "@material-ui/icons/CheckCircleOutline";
 import InvalidIcon from "@material-ui/icons/HighlightOff";
 
-const StyledValidIcon = styled(ValidIcon)`
-  color: #2fd565;
-`;
-
-const StyledInvalidIcon = styled(InvalidIcon)`
-  color: #ff0000;
-`;
-
 const StyledAvatar = styled(Avatar)`
   height: 46px !important;
   width: 46px !important;
