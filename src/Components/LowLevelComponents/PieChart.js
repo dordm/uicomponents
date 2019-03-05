@@ -137,7 +137,7 @@ const CustomLegend = props => {
               topTitle={title}
               width={width}
               data-tip
-              data-for={`item-${index}`}
+              data-for={`${title}-${index}`}
             >
               <span>{entry.value.substr(0, entry.value.indexOf("###"))}</span>
               <br />
@@ -148,7 +148,7 @@ const CustomLegend = props => {
               topTitle={title}
               width={width}
               data-tip
-              data-for={`item-${index}`}
+              data-for={`${title}-${index}`}
               drillDown={entry.value === "Others" ? "true" : "false"}
             >
               <span onClick={() => props.otherClick(true)}>

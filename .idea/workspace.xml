@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="deedca82-8ad4-4e62-ac9a-df5681d3be65" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/LowLevelComponents/PieChart.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/LowLevelComponents/PieChart.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -97,8 +98,8 @@
       <file leaf-file-name="PieChart.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Components/LowLevelComponents/PieChart.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="165" column="31" lean-forward="true" selection-start-line="165" selection-start-column="31" selection-end-line="165" selection-end-column="31" />
+            <state relative-caret-position="493">
+              <caret line="138" column="22" lean-forward="true" selection-start-line="138" selection-start-column="22" selection-end-line="138" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -529,18 +530,18 @@
       <workItem from="1551700951915" duration="144000" />
       <workItem from="1551708943965" duration="972000" />
       <workItem from="1551709968005" duration="5859000" />
-      <workItem from="1551774262766" duration="2655000" />
+      <workItem from="1551774262766" duration="2838000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="540447000" />
+    <option name="totallyTimeSpent" value="540630000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4982699" visible="true" weight="0.28855327" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4982699" visible="true" weight="0.28855327" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50052685" side_tool="true" weight="0.39069265" />
@@ -548,7 +549,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32900432" />
       <window_info id="npm" order="3" sideWeight="0.5017301" side_tool="true" weight="0.14805058" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49947312" visible="true" weight="0.31681415" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49947312" weight="0.31681415" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -933,8 +934,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/LowLevelComponents/PieChart.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="165" column="31" lean-forward="true" selection-start-line="165" selection-start-column="31" selection-end-line="165" selection-end-column="31" />
+        <state relative-caret-position="493">
+          <caret line="138" column="22" lean-forward="true" selection-start-line="138" selection-start-column="22" selection-end-line="138" selection-end-column="22" />
         </state>
       </provider>
     </entry>
