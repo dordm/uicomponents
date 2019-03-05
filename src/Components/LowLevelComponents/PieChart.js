@@ -167,7 +167,7 @@ const CustomLegend = props => {
           )}
           <ReactTooltip
             className={classNames("tooltip", "fontStyle14")}
-            id={`item-${index}`}
+            id={`${title}-${index}`}
             place="bottom"
             type="info"
             effect="solid"
