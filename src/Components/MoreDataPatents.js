@@ -49,7 +49,7 @@ function MoreDataQianzhan(props) {
       <Typography className={"fontStyle11"}>
         {"\u2022"} Patent City: {item.patentCity}
       </Typography>
-      {item.patentInventor !== "" ? (
+      {item.patentInventor ? (
         <div>
           <Typography className={"fontStyle11"}>
             {"\u2022"} Patent Inventors:{" "}
@@ -242,7 +242,7 @@ function MoreDataPatents(props) {
                   />
                 </StyledExpansionSummary>
                 <StyledExpansionPanelDetails>
-                  {item.legalStatus ? (
+                  {item.legalStatus !== undefined ? (
                     <MoreDataQichacha item={item} />
                   ) : (
                     <MoreDataQianzhan item={item} />

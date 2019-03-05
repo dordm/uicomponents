@@ -24,6 +24,7 @@ import Tab from "@material-ui/core/Tab";
 import EyeIcon from "@material-ui/icons/RemoveRedEye";
 import Dialog from "@material-ui/core/Dialog";
 import DialogTitle from "@material-ui/core/DialogTitle";
+import regeneratorRuntime from 'regenerator-runtime';
 
 const styles = {
   dialog: {
