@@ -5801,7 +5801,7 @@ const reportData = {
       },
       {
         id: "1644365",
-        labels: ["Company"],
+        labels: ["Person"],
         properties: {
           econKind: "股份有限公司(非上市、自然人投资或控股)",
           englishName: "Zhejiang Qiangyuan Investment Co., Ltd.",

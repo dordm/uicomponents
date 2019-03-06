@@ -113,15 +113,15 @@ class CorporationMap extends Component {
       yPos: 0,
       displayTooltip: "none",
       isOnTooltip: false,
-      showTopEmps: true,
+      showTopEmps: false,
       selectedLevel: 0,
       isPdfMap: isPdfMap,
       showEdgesRelation: true,
       displayMode: isPdfMap ? "1" : "barnesHut",
       hierarchicalMode: isPdfMap,
-      showSubsidiaries: true,
+      showSubsidiaries: false,
       corpMapImg: null,
-      showBranches: true,
+      showBranches: false,
       selectedNode: "",
       events: !isIE
         ? {
@@ -266,10 +266,8 @@ class CorporationMap extends Component {
   }
 
   displayModeChanged(val) {
-    console.log("val", val);
     const hierarchicalMode = val === "1" || val === "2";
     if (!hierarchicalMode) {
-      console.log("! hirerchail");
       let newOptions = this.deepClone(this.state.options2);
       newOptions.physics.solver =
         val !== "1" && val !== "2" ? val : "barnesHut";
@@ -279,7 +277,6 @@ class CorporationMap extends Component {
         hierarchicalMode
       });
     } else {
-      console.log("hirerchail");
       this.setState({ displayMode: val, hierarchicalMode });
     }
   }
@@ -397,6 +394,8 @@ class CorporationMap extends Component {
         const shareholder = theNodes.find(
           item => item.id === shareholdersRelations[i].from
         );
+        if (shareholdersRelations[i].type === "INVEST")
+          shareholder.type = "INVEST";
         const associateRelations = graphRelations.filter(
           item => item.from === shareholder.id
         );
@@ -414,7 +413,8 @@ class CorporationMap extends Component {
           labels: shareholder.labels,
           properties: shareholder.properties,
           associate,
-          level: 2
+          level: 2,
+          type: shareholder.type
         });
 
         numLevels = 2;
@@ -596,9 +596,13 @@ class CorporationMap extends Component {
           : undefined,
         image:
           item.labels[0] === "Person"
-            ? require("./images/person.svg")
+            ? item.type === "INVEST"
+              ? require("./images/personRed.svg")
+              : require("./images/person.svg")
             : item.id === supplier.id
             ? require("./images/businessGreen.svg")
+            : item.type === "INVEST"
+            ? require("./images/businessRed.svg")
             : require("./images/businessGrey.svg")
       }));
 
@@ -757,16 +761,44 @@ class CorporationMap extends Component {
           >
             <span>Shareholders corporation graph.</span>
           </ReactTooltip>
+          {this.props.width < 600 ? (
+            <div style={{marginLeft:10}}>
+              <img
+                src={require("./images/businessGreen.svg")}
+                className={classes.legend}
+                style={{ marginTop: 3, position: "absolute" }}
+              />
+              <label style={{ marginLeft: 22 }} className={"fontStyle8"}>
+                This Supplier
+              </label>
+            </div>
+          ) : (
+            ""
+          )}
         </div>
         <div
           style={{ marginLeft: this.props.width > 600 ? 22 : 14 }}
           className={classNames(classes.divDictionary, "fontStyle8")}
         >
+          {this.props.width >= 600 ? (
+            <img
+              src={require("./images/businessGreen.svg")}
+              className={classes.legend}
+            />
+          ) : (
+            ""
+          )}
+          {this.props.width >= 600 ? "This Supplier" : ""}
           <img
-            src={require("./images/businessGreen.svg")}
+            src={require("./images/businessRed.svg")}
             className={classes.legend}
           />
-          This Supplier
+          <img
+            style={{ marginLeft: 0 }}
+            src={require("./images/personRed.svg")}
+            className={classes.legend}
+          />
+          Shareholders
           <img
             src={require("./images/businessGrey.svg")}
             className={classes.legend}
