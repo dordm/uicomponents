@@ -76,9 +76,38 @@ const styles = {
   }
 };
 
+function CorpMapChart(props) {
+  return (
+    <Graph
+      style={{
+        width: "100%",
+        height: 430
+      }}
+      graph={props.graph}
+      options={props.options}
+      events={props.events}
+    />
+  );
+}
+
+function CorpMapChartHirerchial(props) {
+  return (
+    <Graph
+      style={{
+        width: "100%",
+        height: 430
+      }}
+      graph={props.graph}
+      options={props.options}
+      events={props.events}
+    />
+  );
+}
+
 class CorporationMap extends Component {
   constructor(props) {
     super(props);
+    const isPdfMap = window.location.pathname.includes("/direct/supplierPdf/");
     this.state = {
       xPos: 0,
       yPos: 0,
@@ -86,9 +115,10 @@ class CorporationMap extends Component {
       isOnTooltip: false,
       showTopEmps: true,
       selectedLevel: 0,
-      isPdfMap: window.location.pathname.includes("/direct/supplierPdf/"),
+      isPdfMap: isPdfMap,
       showEdgesRelation: true,
-      displayByLevel: true,
+      displayMode: isPdfMap ? "1" : "barnesHut",
+      hierarchicalMode: isPdfMap,
       showSubsidiaries: true,
       corpMapImg: null,
       showBranches: true,
@@ -141,6 +171,55 @@ class CorporationMap extends Component {
         edges: {
           arrows: "to"
         }
+      },
+      options2: {
+        layout: {
+          hierarchical: {
+            enabled: false
+          }
+        },
+        nodes: {
+          shape: "image",
+          widthConstraint: 150
+        },
+        interaction: {
+          hover: true,
+          tooltipDelay: 0,
+          hoverConnectedEdges: false
+        },
+        physics: {
+          enabled: true,
+          solver: "barnesHut",
+          stabilization: false,
+          barnesHut: {
+            gravitationalConstant: -10000,
+            centralGravity: 0.3,
+            springLength: 200,
+            springConstant: 0.01,
+            damping: 1,
+            avoidOverlap: 1
+          },
+          hierarchicalRepulsion: {
+            centralGravity: 1,
+            springLength: 200,
+            springConstant: 0.01,
+            nodeDistance: 200,
+            damping: 1
+          },
+          repulsion: {
+            centralGravity: 1,
+            springLength: 200,
+            springConstant: 0.05,
+            nodeDistance: 200,
+            damping: 1
+          }
+        },
+        groups: {
+          myGroup: { size: 50 }
+        },
+        edges: {
+          arrows: "to"
+        }
       }
     };
 
@@ -151,7 +230,7 @@ class CorporationMap extends Component {
     if (!this.state.corpMapImg) this.createCorpMapAsImage();
   }
 
-  componentDidUpdate() {
+  componentDidUpdate(prevProps, prevState) {
     if (!this.state.corpMapImg) this.createCorpMapAsImage();
   }
 
@@ -184,6 +263,25 @@ class CorporationMap extends Component {
 
   deepClone(item) {
     return JSON.parse(JSON.stringify(item));
+  }
+
+  displayModeChanged(val) {
+    console.log("val", val);
+    const hierarchicalMode = val === "1" || val === "2";
+    if (!hierarchicalMode) {
+      console.log("! hirerchail");
+      let newOptions = this.deepClone(this.state.options2);
+      newOptions.physics.solver =
+        val !== "1" && val !== "2" ? val : "barnesHut";
+      this.setState({
+        displayMode: val,
+        options2: newOptions,
+        hierarchicalMode
+      });
+    } else {
+      console.log("hirerchail");
+      this.setState({ displayMode: val, hierarchicalMode });
+    }
   }
 
   getGraph() {
@@ -439,7 +537,7 @@ class CorporationMap extends Component {
 
       const graphNodes = finalNodes.map(item => ({
         id: item.id,
-        level: this.state.displayByLevel ? item.level : undefined,
+        level: this.state.displayMode === "1" ? item.level : undefined,
         associate: item.associate,
         label: item.properties.englishName,
         nodeType: item.labels[0],
@@ -532,7 +630,7 @@ class CorporationMap extends Component {
           <select
             onChange={e =>
               this.setState({
-                showBranches: e.target.value === "0" ? false : true
+                showBranches: e.target.value !== "0"
               })
             }
             style={{ width: 75 }}
@@ -560,7 +658,7 @@ class CorporationMap extends Component {
           <select
             onChange={e =>
               this.setState({
-                showSubsidiaries: e.target.value === "0" ? false : true
+                showSubsidiaries: e.target.value !== "0"
               })
             }
             style={{ width: 75 }}
@@ -728,7 +826,7 @@ class CorporationMap extends Component {
             <select
               onChange={e =>
                 this.setState({
-                  showTopEmps: e.target.value === "0" ? false : true
+                  showTopEmps: e.target.value !== "0"
                 })
               }
               style={{ width: this.props.width > 600 ? 75 : 60 }}
@@ -752,7 +850,7 @@ class CorporationMap extends Component {
             <select
               onChange={e =>
                 this.setState({
-                  showEdgesRelation: e.target.value === "0" ? false : true
+                  showEdgesRelation: e.target.value !== "0"
                 })
               }
               style={{ width: this.props.width > 600 ? 75 : 50 }}
@@ -774,17 +872,18 @@ class CorporationMap extends Component {
               Display Mode
             </Typography>
             <select
-              onChange={e =>
-                this.setState({
-                  displayByLevel: e.target.value === "0" ? false : true
-                })
-              }
+              onChange={e => this.displayModeChanged(e.target.value)}
               style={{ width: 75 }}
               className={classNames(classes.select, "fontStyle16")}
-              defaultValue={this.state.displayByLevel ? "1" : "0"}
+              defaultValue={this.state.displayMode}
             >
-              <option value={"0"}>Hierarchical</option>
               <option value={"1"}>By Level</option>
+              <option value={"2"}>Hierarchical</option>
+              <option value={"barnesHut"}>Barnes Hut</option>
+              <option value={"repulsion"}>Repulsion</option>
+              <option value={"hierarchicalRepulsion"}>
+                Hierarchical Repulsion
+              </option>
             </select>
           </div>
           {this.props.width > 600 ? <SubsidiariesSelect /> : ""}
@@ -803,15 +902,19 @@ class CorporationMap extends Component {
         )}
         {graph && graph.nodes.length > 0 ? (
           <div style={{ height: isPdfMap ? 600 : 430, position: "relative" }}>
-            <Graph
-              style={{
-                width: "100%",
-                height: 430
-              }}
-              graph={graph}
-              options={this.state.options}
-              events={this.state.events}
-            />
+            {this.state.hierarchicalMode ? (
+              <CorpMapChartHirerchial
+                graph={graph}
+                options={this.state.options}
+                events={this.state.events}
+              />
+            ) : (
+              <CorpMapChart
+                graph={graph}
+                options={this.state.options2}
+                events={this.state.events}
+              />
+            )}
             {corpMapImg !== null ? (
               <StyledCorpMapImg
                 isPdfMap={isPdfMap ? "true" : "false"}

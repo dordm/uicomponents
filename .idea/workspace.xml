@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="deedca82-8ad4-4e62-ac9a-df5681d3be65" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.cache/325c8f456729b912b0d2134054eb7448-dfeeb2271cc2857eb0a45a5003c8bbee" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/325c8f456729b912b0d2134054eb7448-dfeeb2271cc2857eb0a45a5003c8bbee" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/MoreDataCourtCases.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/MoreDataCourtCases.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/MoreDataPatents.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/MoreDataPatents.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/CorporationMap.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/CorporationMap.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -42,22 +39,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MoreDataAdministrativePunishment.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Components/MoreDataAdministrativePunishment.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1105">
-              <caret line="65" column="34" selection-start-line="65" selection-start-column="34" selection-end-line="65" selection-end-column="34" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="TopProducts.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Components/TopProducts.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2057">
+            <state relative-caret-position="1700">
               <caret line="121" column="46" selection-start-line="121" selection-start-column="46" selection-end-line="121" selection-end-column="46" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
@@ -69,7 +54,7 @@
       <file leaf-file-name="TopCountries.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Components/TopCountries.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3060">
+            <state relative-caret-position="2703">
               <caret line="180" column="60" selection-start-line="180" selection-start-column="11" selection-end-line="180" selection-end-column="60" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
@@ -81,7 +66,7 @@
       <file leaf-file-name="MoreDataPatents.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Components/MoreDataPatents.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
+            <state relative-caret-position="3927">
               <caret line="246" column="23" selection-start-line="246" selection-start-column="23" selection-end-line="246" selection-end-column="23" />
             </state>
           </provider>
@@ -105,11 +90,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="manager.62992db821d45a5d1382.bundle.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/storybook-static/static/manager.62992db821d45a5d1382.bundle.js">
+      <file leaf-file-name="CorporationMap.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Components/CorporationMap.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="9690">
-              <caret line="84" column="8875" selection-start-line="84" selection-start-column="8875" selection-end-line="84" selection-end-column="8875" />
+            <state relative-caret-position="-734">
+              <caret line="831" column="65" lean-forward="true" selection-start-line="831" selection-start-column="65" selection-end-line="831" selection-end-column="65" />
+              <folding>
+                <element signature="e#0#36#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -136,13 +124,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>disho</find>
-      <find>Dishonest</find>
-      <find>StyledChip</find>
-      <find>Tabs</find>
-      <find>props.getCaseContent</find>
-      <find>get</find>
-      <find>getCase</find>
       <find>moreOpen</find>
       <find>classes.dial</find>
       <find>StyledCloseIcon</find>
@@ -166,6 +147,13 @@
       <find>StyledInvalidIcon</find>
       <find>regeneratorRuntime</find>
       <find>QichachaClosedData</find>
+      <find>Display Mode</find>
+      <find>displayByLevel</find>
+      <find>barnesHut</find>
+      <find>Barn</find>
+      <find>displayMode</find>
+      <find>displayModeChanged</find>
+      <find>this.setState</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -208,7 +196,6 @@
         <option value="$PROJECT_DIR$/src/Components/TotalExports.js" />
         <option value="$PROJECT_DIR$/src/Components/js/MySuppliersUtils.js" />
         <option value="$PROJECT_DIR$/src/Components/LineChart.js" />
-        <option value="$PROJECT_DIR$/src/Components/CorporationMap.js" />
         <option value="$PROJECT_DIR$/src/Components/WebsiteDetails.js" />
         <option value="$PROJECT_DIR$/src/Components/PublicFinancial.js" />
         <option value="$PROJECT_DIR$/src/index.js" />
@@ -224,6 +211,7 @@
         <option value="$PROJECT_DIR$/src/Components/MoreDataTrademarks.js" />
         <option value="$PROJECT_DIR$/src/Components/MoreDataPatents.js" />
         <option value="$PROJECT_DIR$/src/Components/MoreDataCourtCases.js" />
+        <option value="$PROJECT_DIR$/src/Components/CorporationMap.js" />
         <option value="$PROJECT_DIR$/package.json" />
       </list>
     </option>
@@ -258,6 +246,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -317,7 +306,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -542,12 +530,13 @@
       <workItem from="1551709968005" duration="5859000" />
       <workItem from="1551774262766" duration="12659000" />
       <workItem from="1551794321184" duration="436000" />
-      <workItem from="1551794778603" duration="700000" />
+      <workItem from="1551794778603" duration="9616000" />
+      <workItem from="1551858585023" duration="2407000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="551587000" />
+    <option name="totallyTimeSpent" value="562910000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
@@ -557,8 +546,8 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50052685" side_tool="true" weight="0.39069265" />
-      <window_info id="npm" order="3" sideWeight="0.5017301" side_tool="true" weight="0.14805058" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32900432" />
+      <window_info id="npm" order="3" sideWeight="0.5017301" side_tool="true" weight="0.14805058" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32900432" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49947312" visible="true" weight="0.19372295" />
@@ -577,19 +566,19 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info id="npm" order="3" sideWeight="0.5017301" side_tool="true" weight="0.14805058" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32900432" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4982699" visible="true" weight="0.19441517" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32900432" />
+      <window_info anchor="bottom" id="Version Control" order="10" weight="0.32900432" />
+      <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.49947312" visible="true" weight="0.19372295" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50052685" side_tool="true" weight="0.39069265" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Version Control" order="10" weight="0.32900432" />
-      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32900432" />
       <window_info id="Favorites" order="2" side_tool="true" />
     </layout-to-restore>
   </component>
@@ -773,13 +762,6 @@
     <entry file="file://$PROJECT_DIR$/src/Components/AreaTwoCharts.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/CorporationMap.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="34" selection-start-line="34" selection-end-line="41" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/TopInsights.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -889,15 +871,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1105">
           <caret line="65" column="34" selection-start-line="65" selection-start-column="34" selection-end-line="65" selection-end-column="34" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/TopProducts.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2057">
+        <state relative-caret-position="1700">
           <caret line="121" column="46" selection-start-line="121" selection-start-column="46" selection-end-line="121" selection-end-column="46" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
@@ -907,7 +886,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/TopCountries.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3060">
+        <state relative-caret-position="2703">
           <caret line="180" column="60" selection-start-line="180" selection-start-column="11" selection-end-line="180" selection-end-column="60" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
@@ -945,7 +924,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/MoreDataPatents.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
+        <state relative-caret-position="3927">
           <caret line="246" column="23" selection-start-line="246" selection-start-column="23" selection-end-line="246" selection-end-column="23" />
         </state>
       </provider>
@@ -956,6 +935,16 @@
           <caret line="26" column="53" selection-start-line="26" selection-start-column="53" selection-end-line="26" selection-end-column="53" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/CorporationMap.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-734">
+          <caret line="831" column="65" lean-forward="true" selection-start-line="831" selection-start-column="65" selection-end-line="831" selection-end-column="65" />
+          <folding>
+            <element signature="e#0#36#0" expanded="true" />
           </folding>
         </state>
       </provider>
