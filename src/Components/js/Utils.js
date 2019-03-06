@@ -392,6 +392,22 @@ class Utils {
 
   static getCountry(countryName) {
     switch (countryName) {
+      case "Zimbabwe":
+        return require("../images/countries/ZW.svg");
+      case "Namibia":
+        return require("../images/countries/NA.svg");
+      case "Fiji":
+        return require("../images/countries/FJ.svg");
+      case "Trinidad and Tobago":
+        return require("../images/countries/TT.svg");
+      case "Congo, the Democratic Republic of the":
+        return require("../images/countries/CD.svg");
+      case "Haiti":
+        return require("../images/countries/HT.svg");
+      case "Lithuania":
+        return require("../images/countries/LT.svg");
+      case "Estonia":
+        return require("../images/countries/EE.svg");
       case "Israel":
         return require("../images/countries/IL.svg");
       case "Mozambique":

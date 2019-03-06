@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="deedca82-8ad4-4e62-ac9a-df5681d3be65" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/BalanceSheet.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/BalanceSheet.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/CashFlow.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/CashFlow.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/IncomeStatement.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/IncomeStatement.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/js/Utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/js/Utils.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -24,6 +22,15 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="34">
               <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Utils.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Components/js/Utils.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="311">
+              <caret line="394" column="22" lean-forward="true" selection-start-line="394" selection-start-column="22" selection-end-line="394" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -100,11 +107,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="person.svg" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Components/images/person.svg">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
       <file leaf-file-name="fonts.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Components/css/fonts.css">
           <provider selected="true" editor-type-id="text-editor">
@@ -127,9 +129,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>casesTypes</find>
-      <find>QichachaRenderWithDetails</find>
-      <find>QichachaRender</find>
       <find>MoreDataPenalty</find>
       <find>ProductIcon</find>
       <find>countryImg</find>
@@ -157,6 +156,9 @@
       <find>content</find>
       <find>above</find>
       <find>12px</find>
+      <find>zimbabwe</find>
+      <find>zimb</find>
+      <find>Congo</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -190,7 +192,6 @@
         <option value="$PROJECT_DIR$/src/Components/MoreDataMortgagePledge.js" />
         <option value="$PROJECT_DIR$/src/Components/TopProducts.js" />
         <option value="$PROJECT_DIR$/src/Components/MoreDataBranchesInvestments.js" />
-        <option value="$PROJECT_DIR$/src/Components/js/Utils.js" />
         <option value="$PROJECT_DIR$/src/Components/ShareholdersExpansion.js" />
         <option value="$PROJECT_DIR$/src/Components/css/print.css" />
         <option value="$PROJECT_DIR$/src/Components/LineTwoCharts.js" />
@@ -215,6 +216,7 @@
         <option value="$PROJECT_DIR$/src/Components/IncomeStatement.js" />
         <option value="$PROJECT_DIR$/src/Components/BalanceSheet.js" />
         <option value="$PROJECT_DIR$/src/Components/CashFlow.js" />
+        <option value="$PROJECT_DIR$/src/Components/js/Utils.js" />
         <option value="$PROJECT_DIR$/package.json" />
       </list>
     </option>
@@ -271,6 +273,13 @@
               <item name="uicomponents" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="uicomponents" type="b2602c69:ProjectViewProjectNode" />
+              <item name="uicomponents" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Components" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="uicomponents" type="b2602c69:ProjectViewProjectNode" />
@@ -509,12 +518,12 @@
       <workItem from="1551794778603" duration="9616000" />
       <workItem from="1551858585023" duration="3476000" />
       <workItem from="1551868090206" duration="2208000" />
-      <workItem from="1551871455562" duration="2483000" />
+      <workItem from="1551871455562" duration="3833000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="568670000" />
+    <option name="totallyTimeSpent" value="570020000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
@@ -638,13 +647,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4811">
           <caret line="294" column="22" selection-start-line="294" selection-start-column="22" selection-end-line="294" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/js/Utils.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="761">
-          <caret line="1124" column="25" selection-start-line="1124" selection-start-column="25" selection-end-line="1124" selection-end-column="25" />
         </state>
       </provider>
     </entry>
@@ -925,6 +927,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1337">
           <caret line="251" column="18" selection-start-line="251" selection-start-column="18" selection-end-line="251" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/js/Utils.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="311">
+          <caret line="394" column="22" lean-forward="true" selection-start-line="394" selection-start-column="22" selection-end-line="394" selection-end-column="22" />
         </state>
       </provider>
     </entry>
