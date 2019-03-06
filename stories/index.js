@@ -291,9 +291,9 @@ storiesOf("Components", module)
       infoText={
         "A lawsuit which the company involved as plaintiff or defendant."
       }
-      content1={reportData.mortgage.length}
+      content1={50}
       content1Lbl={"Mortgage"}
-      content2={reportData.pledge.length}
+      content2={50}
       content2Lbl={"Pledge"}
       bottomIcon={null}
       bottomMsg={""}
@@ -371,7 +371,7 @@ storiesOf("Components", module)
       width={window.innerWidth}
       name={"Trademarks"}
       infoText={"The company subsidiaries and branches"}
-      content1={reportData.trademarks.length}
+      content1={50}
       content1Lbl={"Trademarks"}
       content2={""}
       content2Lbl={""}

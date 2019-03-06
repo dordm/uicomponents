@@ -65,6 +65,11 @@ const styles = {
     display: "inline-flex",
     width: "100%",
     marginTop: 20
+  },
+  divAbove: {
+    position: "absolute",
+    marginLeft: 24,
+    marginTop: -5
   }
 };
 
@@ -159,6 +164,13 @@ class TwoInfoCard extends Component {
                 }}
                 data-cy="divContent1"
               >
+                {this.state.content1 == "50" ? (
+                  <div className={classNames(classes.divAbove, "fontStyle19")}>
+                    Above
+                  </div>
+                ) : (
+                  ""
+                )}
                 <Typography
                   className={classNames(classes.content, "fontStyle17")}
                 >
@@ -179,6 +191,13 @@ class TwoInfoCard extends Component {
                 data-cy="divContent2"
                 style={{ paddingRight: 10, width: "50%" }}
               >
+                {this.state.content2 == "50" ? (
+                  <div className={classNames(classes.divAbove, "fontStyle19")}>
+                    Above
+                  </div>
+                ) : (
+                  ""
+                )}
                 <Typography
                   className={classNames(classes.content, "fontStyle18")}
                 >
