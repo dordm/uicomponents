@@ -249,7 +249,7 @@ class CashFlow extends Component {
         >
           {value
             ? formatVal
-              ? "$" + new Intl.NumberFormat("en").format(value)
+              ? "¥" + new Intl.NumberFormat("en").format(value)
               : value
             : "Not Set"}
         </ListItemSecondaryAction>

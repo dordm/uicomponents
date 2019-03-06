@@ -223,7 +223,7 @@ class BalanceSheet extends Component {
         <ListItemSecondaryAction
           className={classNames(classes.listItemSecondary, "fontStyle10")}
         >
-          {value ? "$" + new Intl.NumberFormat("en").format(value) : "Not Set"}
+          {value ? "¥" + new Intl.NumberFormat("en").format(value) : "Not Set"}
         </ListItemSecondaryAction>
       </ListItem>
     );
