@@ -392,6 +392,90 @@ class Utils {
 
   static getCountry(countryName) {
     switch (countryName) {
+        case "Saint Vincent and the Grenadines":
+            return require("../images/countries/VC.svg");
+        case "Moldova, Republic of":
+            return require("../images/countries/MD.svg");
+        case "Kyrgyzstan":
+            return require("../images/countries/KG.svg");
+        case "French Polynesia":
+            return require("../images/countries/PF.svg");
+        case "Congo":
+            return require("../images/countries/CD.svg");
+        case "Botswana":
+            return require("../images/countries/BW.svg");
+        case "Belarus":
+            return require("../images/countries/BY.svg");
+        case "Armenia":
+            return require("../images/countries/AM.svg");
+        case "Afghanistan":
+            return require("../images/countries/AF.svg");
+        case "Sudan":
+            return require("../images/countries/SD.svg");
+        case "Saint Martin":
+            return require("../images/countries/FR.svg");
+        case "Djibouti":
+            return require("../images/countries/DJ.svg");
+        case "Cote d'Ivoire":
+            return require("../images/countries/CI.svg");
+        case "Albania":
+            return require("../images/countries/AL.svg");
+        case "Uganda":
+            return require("../images/countries/UG.svg");
+        case "Togo":
+            return require("../images/countries/TG.svg");
+        case "Macau":
+            return require("../images/countries/MO.svg");
+        case "Gabon":
+            return require("../images/countries/GA.svg");
+        case "Benin":
+            return require("../images/countries/BJ.svg");
+        case "East Timor":
+            return require("../images/countries/TL.svg");
+        case "Solomon Islands":
+            return require("../images/countries/SB.svg");
+        case "Slovakia":
+            return require("../images/countries/SK.svg");
+        case "New Caledonia":
+            return require("../images/countries/FR.svg");
+        case "Guinea":
+            return require("../images/countries/GN.svg");
+        case "Vanuatu":
+            return require("../images/countries/VU.svg");
+        case "Jamaica":
+            return require("../images/countries/JM.svg");
+        case "Turkmenistan":
+            return require("../images/countries/TM.svg");
+        case "Palestine":
+            return require("../images/countries/JO.svg");
+        case "Libya":
+            return require("../images/countries/LY.svg");
+        case "Burundi":
+            return require("../images/countries/BI.svg");
+        case "Nicaragua":
+            return require("../images/countries/NI.svg");
+        case "Azerbaijan":
+            return require("../images/countries/AZ.svg");
+        case "Senegal":
+            return require("../images/countries/SN.svg");
+        case "Tajikistan":
+            return require("../images/countries/TJ.svg");
+        case "Georgia":
+            return require("../images/countries/GE.svg");
+        case "Tunisia":
+            return require("../images/countries/TN.svg");
+        case "North Korea":
+            return require("../images/countries/KP.svg");
+        case "Mongolia":
+            return require("../images/countries/MN.svg");
+        case "Cuba":
+            return require("../images/countries/CU.svg");
+        case "Rwanda":
+            return require("../images/countries/RW.svg");
+        case "Croatia":
+            return require("../images/countries/HR.svg");
+        case "Uzbekistan":
+            return require("../images/countries/UZ.svg");
       case "Zimbabwe":
         return require("../images/countries/ZW.svg");
       case "Namibia":
