@@ -94,39 +94,128 @@ class CashFlow extends Component {
         {data ? (
           <List>
             {this.renderListItem(
-              "Absorption Investment Cash Received",
-              data.absorptionInvestmentCashReceived,
+              "Cash Received from Goods and Services",
+              data.cashReceived,
               "revenue.svg"
             )}
             {this.renderListItem(
-              "Assets Cash Paid",
-              data.assetsCashPaid,
-              "assets.svg"
+              "Tax Refund",
+              data.taxRefundReceived,
+              "tax.svg"
             )}
             {this.renderListItem(
-              "Assets Net Cash Paid",
-              data.assetsNetCashPaid,
-              "assets.svg"
+              "Cash Received from Other Business Activities",
+              data.otherCashReceived,
+              "revenue.svg"
             )}
             {this.renderListItem(
-              "Assets Net Cash Received",
+              "Cash Inflow from Operating Activities",
+              data.cashInFlows,
+              "revenue.svg"
+            )}
+            {this.renderListItem(
+              "Cash Paid for Goods and Services",
+              data.cashPaid,
+              "revenue.svg"
+            )}
+            {this.renderListItem(
+              "Cash Paid to Employees",
+              data.employeesCashPaid,
+              "revenue.svg"
+            )}
+            {this.renderListItem(
+              "Various Taxes Paid",
+              data.taxesPaid,
+              "tax.svg"
+            )}
+            {this.renderListItem(
+              "Cash Paid for Other Operating Activities",
+              data.otherCashPaid,
+              "revenue.svg"
+            )}
+            {this.renderListItem(
+              "Cash Outflow from Operating Activities",
+              data.operatingCashOutFlow,
+              "revenue.svg"
+            )}
+            {this.renderListItem(
+              "Net Cash Flow from Operating Activities",
+              data.netCashFlows,
+              "revenue.svg"
+            )}
+            {this.renderListItem(
+              "Cash Received from Return on Investment",
+              data.investmentCashReceived,
+              "revenue.svg"
+            )}
+            {this.renderListItem(
+              "Net Cash Recovered from Disposal of Assets",
               data.assetsNetCashReceived,
               "assets.svg"
             )}
             {this.renderListItem(
-              "Borrowings Cash Received",
+              "Cash Inflows from Investment Activities",
+              data.investmentCashInFlow,
+              "revenue.svg"
+            )}
+            {this.renderListItem(
+              "Cash Paid for Acquisition of Assets",
+              data.assetsCashPaid,
+              "assets.svg"
+            )}
+            {this.renderListItem(
+              "Net Cash Paid from Disposal of Assets",
+              data.assetsNetCashPaid,
+              "assets.svg"
+            )}
+            {this.renderListItem(
+              "Cash Paid for Acquisition of Investments",
+              data.investmentCashPaid,
+              "revenue.svg"
+            )}
+            {this.renderListItem(
+              "Cash Outflows from Investment Activities",
+              data.investmentCashOutFlow,
+              "revenue.svg"
+            )}
+            {this.renderListItem(
+              "Net Cash Flows from Investing Activities",
+              data.investingNetCashFlow,
+              "revenue.svg"
+            )}
+            {this.renderListItem(
+              "Cash Received from Investors",
+              data.absorptionInvestmentCashReceived,
+              "revenue.svg"
+            )}
+            {this.renderListItem(
+              "Cash Received from Borrowings",
               data.borrowingsCashReceived,
               "revenue.svg"
             )}
             {this.renderListItem(
-              "Cash In Flows",
-              data.cashInFlows,
+              "Cash Inflows from Financing Activities",
+              data.financingCashInFlow,
               "revenue.svg"
             )}
-            {this.renderListItem("Cash Paid", data.cashPaid, "revenue.svg")}
             {this.renderListItem(
-              "Cash Received",
-              data.cashReceived,
+              "Cash Repayments of Borrowings",
+              data.debtCashPaid,
+              "revenue.svg"
+            )}
+            {this.renderListItem(
+              "Cash Paid for Dividends or Profits Distribution",
+              data.distributionCashPaid,
+              "revenue.svg"
+            )}
+            {this.renderListItem(
+              "Cash Outflows from Financing Activities",
+              data.financingCashOutFlow,
+              "revenue.svg"
+            )}
+            {this.renderListItem(
+              "Net Cash Flow from Financing Activities",
+              data.financingNetCashFlows,
               "revenue.svg"
             )}
             {this.renderListItem(
@@ -135,87 +224,6 @@ class CashFlow extends Component {
               "revenue.svg",
               false
             )}
-            {this.renderListItem(
-              "Debt Cash Paid",
-              data.debtCashPaid,
-              "revenue.svg"
-            )}
-            {this.renderListItem(
-              "Distribution Cash Paid",
-              data.distributionCashPaid,
-              "revenue.svg"
-            )}
-            {this.renderListItem(
-              "Employees Cash Paid",
-              data.employeesCashPaid,
-              "revenue.svg"
-            )}
-            {this.renderListItem(
-              "Financing Cash In Flow",
-              data.financingCashInFlow,
-              "revenue.svg"
-            )}
-            {this.renderListItem(
-              "Financing Cash Out Flow",
-              data.financingCashOutFlow,
-              "revenue.svg"
-            )}
-            {this.renderListItem(
-              "Financing Net Cash Flows",
-              data.financingNetCashFlows,
-              "revenue.svg"
-            )}
-            {this.renderListItem(
-              "Investing Net Cash Flow",
-              data.investingNetCashFlow,
-              "revenue.svg"
-            )}
-            {this.renderListItem(
-              "Investment Cash In Flow",
-              data.investmentCashInFlow,
-              "revenue.svg"
-            )}
-            {this.renderListItem(
-              "Investment Cash Out Flow",
-              data.investmentCashOutFlow,
-              "revenue.svg"
-            )}
-            {this.renderListItem(
-              "Investment Cash Paid",
-              data.investmentCashPaid,
-              "revenue.svg"
-            )}
-            {this.renderListItem(
-              "Investment Cash Received",
-              data.investmentCashReceived,
-              "revenue.svg"
-            )}
-            {this.renderListItem(
-              "Net Cash Flows",
-              data.netCashFlows,
-              "revenue.svg"
-            )}
-            {this.renderListItem(
-              "Operating Cash Out Flow",
-              data.operatingCashOutFlow,
-              "revenue.svg"
-            )}
-            {this.renderListItem(
-              "Other Cash Paid",
-              data.otherCashPaid,
-              "revenue.svg"
-            )}
-            {this.renderListItem(
-              "Other Cash Received",
-              data.otherCashReceived,
-              "revenue.svg"
-            )}
-            {this.renderListItem(
-              "Tax Refund Received",
-              data.taxRefundReceived,
-              "tax.svg"
-            )}
-            {this.renderListItem("Taxes Paid", data.taxesPaid, "tax.svg")}
           </List>
         ) : (
           ""
@@ -314,18 +322,26 @@ class CashFlow extends Component {
         {data ? (
           <div className={classes.listDiv}>
             <List>
-              {this.renderListItem("Cash Paid", data.cashPaid, "revenue.svg")}
               {this.renderListItem(
-                "Cash Received",
-                data.cashReceived,
+                "Cash Inflow from Operating Activities",
+                data.cashInFlows,
                 "revenue.svg"
               )}
               {this.renderListItem(
-                "Employees Cash Paid",
-                data.employeesCashPaid,
+                "Cash Outflow from Operating Activities",
+                data.operatingCashOutFlow,
                 "revenue.svg"
               )}
-              {this.renderListItem("Taxes Paid", data.taxesPaid, "tax.svg")}
+              {this.renderListItem(
+                "Cash Inflows from Investment Activities",
+                data.investmentCashInFlow,
+                "revenue.svg"
+              )}
+              {this.renderListItem(
+                "Cash Inflows from Financing Activities",
+                data.financingCashInFlow,
+                "revenue.svg"
+              )}
               {this.renderListItem(
                 "Current Ratio",
                 data.currentRatio,

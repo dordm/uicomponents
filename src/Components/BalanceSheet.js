@@ -94,8 +94,8 @@ class BalanceSheet extends Component {
         {data ? (
           <List>
             {this.renderListItem(
-              "Accounts Payable",
-              data.accountsPayable,
+              "Cash and Cash Equivalents",
+              data.monetaryFond,
               "revenue.svg"
             )}
             {this.renderListItem(
@@ -104,18 +104,24 @@ class BalanceSheet extends Component {
               "revenue.svg"
             )}
             {this.renderListItem(
+              "Other Receivables",
+              data.otherReceivables,
+              "revenue.svg"
+            )}
+            {this.renderListItem("Inventory", data.stock, "revenue.svg")}
+            {this.renderListItem(
+              "Total Current Assets",
+              data.totalCurrentAssets,
+              "assets.svg"
+            )}
+            {this.renderListItem(
+              "Long Term Equity Investment",
+              data.longEquityInvestment,
+              "revenue.svg"
+            )}
+            {this.renderListItem(
               "Accumulated Depreciation",
               data.accumulatedDepreciation,
-              "revenue.svg"
-            )}
-            {this.renderListItem(
-              "Capital Accumulation Fund",
-              data.capitalAccumulationFund,
-              "revenue.svg"
-            )}
-            {this.renderListItem(
-              "Paid Capital",
-              data.capitalPaid,
               "revenue.svg"
             )}
             {this.renderListItem(
@@ -129,49 +135,33 @@ class BalanceSheet extends Component {
               "assets.svg"
             )}
             {this.renderListItem(
-              "Falling Price",
-              data.inventoryFallingPriceReserves,
-              "revenue.svg"
-            )}
-            {this.renderListItem(
-              "Long Equity Investment",
-              data.longEquityInvestment,
-              "revenue.svg"
-            )}
-            {this.renderListItem(
-              "Monetary Fund",
-              data.monetaryFond,
-              "revenue.svg"
-            )}
-            {this.renderListItem(
-              "Other Receivables",
-              data.otherReceivables,
-              "revenue.svg"
-            )}
-            {this.renderListItem(
-              "Qu Accounts Receivable",
-              data.quAccountsReceivable,
-              "revenue.svg"
-            )}
-            {this.renderListItem("Stocks", data.stock, "revenue.svg")}
-            {this.renderListItem(
-              "Provident Fund",
-              data.surplusProvidentFund,
-              "revenue.svg"
-            )}
-            {this.renderListItem(
               "Total Assets",
               data.totalAssets,
               "assets.svg"
             )}
             {this.renderListItem(
-              "Current Assets",
-              data.totalCurrentAssets,
-              "assets.svg"
+              "Accounts Payable",
+              data.accountsPayable,
+              "revenue.svg"
             )}
             {this.renderListItem(
-              "Current Liabilities",
+              "Advances from Customers",
+              data.quAccountsReceivable,
+              "revenue.svg"
+            )}
+            {this.renderListItem(
+              "Inventory Falling Price Reserves",
+              data.inventoryFallingPriceReserves,
+              "revenue.svg"
+            )}
+            {this.renderListItem(
+              "Total Current Liabilities",
               data.totalCurrentLiabilities,
+              "liabilities.svg"
+            )}
+            {this.renderListItem(
+              "Long Term Loans / Borrows",
+              data.totalLongTermLiabilities,
               "liabilities.svg"
             )}
             {this.renderListItem(
@@ -180,12 +170,22 @@ class BalanceSheet extends Component {
               "liabilities.svg"
             )}
             {this.renderListItem(
-              "Long Term Liabilities",
-              data.totalLongTermLiabilities,
-              "liabilities.svg"
+              "Paid-In Capital",
+              data.capitalPaid,
+              "revenue.svg"
             )}
             {this.renderListItem(
-              "Stock Holders Equity",
+              "Additional Paid-In Capital",
+              data.capitalAccumulationFund,
+              "revenue.svg"
+            )}
+            {this.renderListItem(
+              "Surplus Reserves",
+              data.surplusProvidentFund,
+              "revenue.svg"
+            )}
+            {this.renderListItem(
+              "Total Shareholders Equity",
               data.totalStockHoldersEquity,
               "revenue.svg"
             )}
@@ -287,14 +287,9 @@ class BalanceSheet extends Component {
           <div className={classes.listDiv}>
             <List>
               {this.renderListItem(
-                "Paid Capital",
-                data.capitalPaid,
-                "revenue.svg"
-              )}
-              {this.renderListItem(
-                "Accounts Receivable",
-                data.accountsReceivable,
-                "revenue.svg"
+                "Total Current Assets",
+                data.totalCurrentAssets,
+                "assets.svg"
               )}
               {this.renderListItem(
                 "Total Assets",
@@ -302,11 +297,20 @@ class BalanceSheet extends Component {
                 "assets.svg"
               )}
               {this.renderListItem(
+                "Total Current Liabilities",
+                data.totalCurrentLiabilities,
+                "liabilities.svg"
+              )}
+              {this.renderListItem(
                 "Total Liabilities",
                 data.totalLiabilities,
                 "liabilities.svg"
               )}
-              {this.renderListItem("Stocks", data.stock, "revenue.svg")}
+              {this.renderListItem(
+                "Total Shareholders Equity",
+                data.totalStockHoldersEquity,
+                "revenue.svg"
+              )}
             </List>
           </div>
         ) : (

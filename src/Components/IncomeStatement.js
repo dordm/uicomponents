@@ -94,50 +94,58 @@ class IncomeStatement extends Component {
         {data ? (
           <List>
             {this.renderListItem(
+              "Total Operating Income",
+              data.operatingIncome,
+              "revenue.svg"
+            )}
+            {this.renderListItem(
+              "Total Expenses",
+              data.operatingCost,
+              "revenue.svg"
+            )}
+            {this.renderListItem(
+              "Sales Expenses",
+              data.salesCost,
+              "revenue.svg"
+            )}
+            {this.renderListItem(
               "Financial Expenses",
               data.financialExpenses,
               "revenue.svg"
             )}
             {this.renderListItem(
-              "Impairment Losses Assets",
+              "Management Expenses",
+              data.managementFee,
+              "revenue.svg"
+            )}
+            {this.renderListItem(
+              "Asset Impairment Loss",
               data.impairmentLossesAssets,
               "assets.svg"
             )}
-            {this.renderListItem("Income Tax", data.incomeTax, "tax.svg")}
             {this.renderListItem(
               "Investment Income",
               data.investmentIncome,
               "revenue.svg"
             )}
             {this.renderListItem(
-              "Management Fee",
-              data.managementFee,
-              "revenue.svg"
-            )}
-            {this.renderListItem(
-              "Operating Cost",
-              data.operatingCost,
-              "revenue.svg"
-            )}
-            {this.renderListItem(
-              "Operating Income",
-              data.operatingIncome,
-              "revenue.svg"
-            )}
-            {this.renderListItem(
-              "Operating Profit",
+              "Profit/Loss Before Tax",
               data.operatingProfit,
               "netProfit.svg"
             )}
             {this.renderListItem(
-              "Parent Company Net Profit",
-              data.parentCompanyNetProfit,
-              "netProfit.svg"
-            )}
-            {this.renderListItem("Sales Cost", data.salesCost, "revenue.svg")}
-            {this.renderListItem(
               "Total Profit",
               data.totalProfit,
+              "netProfit.svg"
+            )}
+            {this.renderListItem(
+              "Income Tax Expenses",
+              data.incomeTax,
+              "tax.svg"
+            )}
+            {this.renderListItem(
+              "Net Profit/Loss Attributable to Parent",
+              data.parentCompanyNetProfit,
               "netProfit.svg"
             )}
           </List>
@@ -238,15 +246,28 @@ class IncomeStatement extends Component {
           <div className={classes.listDiv}>
             <List>
               {this.renderListItem(
-                "Operating Income",
+                "Total Operating Income",
                 data.operatingIncome,
                 "revenue.svg"
               )}
-              {this.renderListItem("Sales Cost", data.salesCost, "revenue.svg")}
-              {this.renderListItem("Income Tax", data.incomeTax, "tax.svg")}
+              {this.renderListItem(
+                "Total Expenses",
+                data.operatingCost,
+                "revenue.svg"
+              )}
               {this.renderListItem(
                 "Total Profit",
                 data.totalProfit,
+                "netProfit.svg"
+              )}
+              {this.renderListItem(
+                "Profit/Loss Before Tax",
+                data.operatingProfit,
+                "netProfit.svg"
+              )}
+              {this.renderListItem(
+                "Net Profit/Loss Attributable to Parent",
+                data.parentCompanyNetProfit,
                 "netProfit.svg"
               )}
             </List>
