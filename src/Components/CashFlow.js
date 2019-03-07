@@ -333,11 +333,6 @@ class CashFlow extends Component {
                 "revenue.svg"
               )}
               {this.renderListItem(
-                "Cash Inflows from Investment Activities",
-                data.investmentCashInFlow,
-                "revenue.svg"
-              )}
-              {this.renderListItem(
                 "Cash Inflows from Financing Activities",
                 data.financingCashInFlow,
                 "revenue.svg"

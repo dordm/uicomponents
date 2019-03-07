@@ -297,11 +297,6 @@ class BalanceSheet extends Component {
                 "assets.svg"
               )}
               {this.renderListItem(
-                "Total Current Liabilities",
-                data.totalCurrentLiabilities,
-                "liabilities.svg"
-              )}
-              {this.renderListItem(
                 "Total Liabilities",
                 data.totalLiabilities,
                 "liabilities.svg"

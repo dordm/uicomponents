@@ -172,7 +172,7 @@ class IncomeStatement extends Component {
           style={{ marginLeft: -25 }}
           primary={
             <Typography
-              style={{ maxWidth: width < 650 ? "50%" : "" }}
+              style={{ maxWidth: "50%" }}
               className={"fontStyle7"}
             >
               {label}
@@ -263,11 +263,6 @@ class IncomeStatement extends Component {
               {this.renderListItem(
                 "Profit/Loss Before Tax",
                 data.operatingProfit,
-                "netProfit.svg"
-              )}
-              {this.renderListItem(
-                "Net Profit/Loss Attributable to Parent",
-                data.parentCompanyNetProfit,
                 "netProfit.svg"
               )}
             </List>
