@@ -242,7 +242,7 @@ class CorporationMap extends Component {
           const img = canvas[0].toDataURL("image/png");
           canvas[0].style.display = "none";
           this.setState({ corpMapImg: img });
-        }, 2000);
+        }, 4000);
       }
     }
   }
