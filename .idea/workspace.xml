@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="deedca82-8ad4-4e62-ac9a-df5681d3be65" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/js/Utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/js/Utils.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -116,8 +117,8 @@
       <file leaf-file-name="Utils.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Components/js/Utils.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-257">
-              <caret line="390" column="3" lean-forward="true" selection-start-line="390" selection-start-column="3" selection-end-line="390" selection-end-column="3" />
+            <state relative-caret-position="174">
+              <caret line="389" column="6" lean-forward="true" selection-start-line="389" selection-start-column="6" selection-end-line="389" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -135,24 +136,8 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>Barn</find>
-      <find>displayMode</find>
-      <find>displayModeChanged</find>
-      <find>this.setState</find>
-      <find>aStyle</find>
-      <find>console.lo</find>
-      <find>green</find>
-      <find>corporate</find>
-      <find>INVEST</find>
-      <find>ZHEJ</find>
-      <find>legend</find>
-      <find>divContent</find>
-      <find>content</find>
-      <find>above</find>
-      <find>12px</find>
       <find>zimbabwe</find>
       <find>zimb</find>
-      <find>Congo</find>
       <find>Afghanistan</find>
       <find>currentR</find>
       <find>ratio</find>
@@ -165,6 +150,22 @@
       <find>date</find>
       <find>createCorpMapAsImage</find>
       <find>corpMapImg</find>
+      <find>united</find>
+      <find>MEXICO</find>
+      <find>Slovakia</find>
+      <find>Croatia</find>
+      <find>Lao</find>
+      <find>Sudan</find>
+      <find>Syrian</find>
+      <find>Czech</find>
+      <find>United Arab Emirates</find>
+      <find>Uzbekistan</find>
+      <find>Uzbekstan</find>
+      <find>Korea</find>
+      <find>Congo</find>
+      <find>Moldova</find>
+      <find>BARBADOS</find>
+      <find>BAHAMAS</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -525,18 +526,21 @@
       <workItem from="1552822551896" duration="3303000" />
       <workItem from="1552828114241" duration="1470000" />
       <workItem from="1552914569955" duration="236000" />
-      <workItem from="1552988002350" duration="519000" />
+      <workItem from="1552988002350" duration="570000" />
+      <workItem from="1552995332073" duration="58000" />
+      <workItem from="1552995502508" duration="8000" />
+      <workItem from="1552996753149" duration="3600000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="592709000" />
+    <option name="totallyTimeSpent" value="596426000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4982699" visible="true" weight="0.2209857" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4982699" visible="true" weight="0.2209857" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50052685" side_tool="true" weight="0.39069265" />
@@ -544,7 +548,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32900432" />
       <window_info id="npm" order="2" sideWeight="0.5017301" side_tool="true" weight="0.14805058" />
       <window_info id="Structure" order="3" side_tool="true" weight="0.24973656" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49947312" weight="0.31504425" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.49947312" visible="true" weight="0.31504425" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="1" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -560,19 +564,19 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info id="npm" order="3" sideWeight="0.5017301" side_tool="true" weight="0.14805058" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32900432" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4982699" visible="true" weight="0.19441517" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32900432" />
+      <window_info anchor="bottom" id="Version Control" order="10" weight="0.32900432" />
+      <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.49947312" visible="true" weight="0.19372295" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50052685" side_tool="true" weight="0.39069265" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Version Control" order="10" weight="0.32900432" />
-      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32900432" />
       <window_info id="Favorites" order="2" side_tool="true" />
     </layout-to-restore>
   </component>
@@ -834,8 +838,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/js/Utils.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-257">
-          <caret line="390" column="3" lean-forward="true" selection-start-line="390" selection-start-column="3" selection-end-line="390" selection-end-column="3" />
+        <state relative-caret-position="174">
+          <caret line="389" column="6" lean-forward="true" selection-start-line="389" selection-start-column="6" selection-end-line="389" selection-end-column="6" />
         </state>
       </provider>
     </entry>

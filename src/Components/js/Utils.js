@@ -392,6 +392,10 @@ class Utils {
 
   static getCountry(countryName) {
     switch (countryName) {
+      case "Bahamas":
+        return require("../images/countries/BS.svg");
+      case "Barbados":
+        return require("../images/countries/BB.svg");
       case "Papua New Guinea":
         return require("../images/countries/PG.svg");
       case "Guyana":
