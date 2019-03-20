@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="deedca82-8ad4-4e62-ac9a-df5681d3be65" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/js/Utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/js/Utils.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -50,7 +49,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="34">
@@ -105,11 +104,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Utils.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Utils.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Components/js/Utils.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="394" column="22" selection-start-line="394" selection-start-column="12" selection-end-line="394" selection-end-column="22" />
+            <state relative-caret-position="179">
+              <caret line="386" column="19" lean-forward="true" selection-start-line="386" selection-start-column="19" selection-end-line="386" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -226,8 +225,8 @@
         <option value="$PROJECT_DIR$/src/Components/IncomeStatement.js" />
         <option value="$PROJECT_DIR$/src/Components/BalanceSheet.js" />
         <option value="$PROJECT_DIR$/src/Components/CorporationMap.js" />
-        <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/src/Components/js/Utils.js" />
+        <option value="$PROJECT_DIR$/package.json" />
       </list>
     </option>
   </component>
@@ -542,12 +541,12 @@
       <workItem from="1552996753149" duration="3660000" />
       <workItem from="1553002946131" duration="2281000" />
       <workItem from="1553010652005" duration="24000" />
-      <workItem from="1553089995778" duration="2003000" />
+      <workItem from="1553089995778" duration="2037000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="600794000" />
+    <option name="totallyTimeSpent" value="600828000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
@@ -561,7 +560,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32900432" />
       <window_info id="npm" order="2" sideWeight="0.5017301" side_tool="true" weight="0.14805058" />
       <window_info id="Structure" order="3" side_tool="true" weight="0.24973656" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49947312" weight="0.31504425" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49947312" visible="true" weight="0.31493506" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="1" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -835,13 +834,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/TopProducts.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -864,8 +856,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/js/Utils.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="394" column="22" selection-start-line="394" selection-start-column="12" selection-end-line="394" selection-end-column="22" />
+        <state relative-caret-position="179">
+          <caret line="386" column="19" lean-forward="true" selection-start-line="386" selection-start-column="19" selection-end-line="386" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
         </state>
       </provider>
     </entry>
