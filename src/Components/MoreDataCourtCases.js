@@ -24,7 +24,7 @@ import Tab from "@material-ui/core/Tab";
 import EyeIcon from "@material-ui/icons/RemoveRedEye";
 import Dialog from "@material-ui/core/Dialog";
 import DialogTitle from "@material-ui/core/DialogTitle";
-import regeneratorRuntime from 'regenerator-runtime';
+import regeneratorRuntime from "regenerator-runtime";
 
 const styles = {
   dialog: {
@@ -104,6 +104,20 @@ function QichachaClosedData(props) {
       <Typography className={"fontStyle11"}>
         {"\u2022"} Is Defendant: {item.IS_DEFENDANT ? "Yes" : "No"}
       </Typography>
+      {item.CASE_LEVEL ? (
+        <Typography className={"fontStyle11"}>
+          {"\u2022"} Case Level: {item.CASE_LEVEL}
+        </Typography>
+      ) : (
+        ""
+      )}
+      {item.CASE_REASON ? (
+        <Typography className={"fontStyle11"}>
+          {"\u2022"} Case Reason: {item.CASE_REASON}
+        </Typography>
+      ) : (
+        ""
+      )}
       <Typography className={"fontStyle11"}>
         {"\u2022"} Update Date:{" "}
         {item.UPDATE_DATE ? item.UPDATE_DATE.toString().substr(0, 10) : ""}
