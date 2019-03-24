@@ -81,3 +81,5 @@ const ScoreAvatarSmall = function(props) {
 ScoreAvatarSmall.propTypes = {
   score: PropTypes.number
 };
+
+export default ScoreAvatarSmall;
