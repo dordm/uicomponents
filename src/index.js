@@ -16,7 +16,6 @@ import MyTooltip from "./Components/LowLevelComponents/MyTooltip";
 import NoDataImg from "./Components/LowLevelComponents/NoDataImg";
 import PieChart from "./Components/LowLevelComponents/PieChart";
 import ScoreAvatar from "./Components/LowLevelComponents/ScoreAvatar";
-import ScoreAvatarSmall from "./Components/LowLevelComponents/ScoreAvatarSmall";
 import NumberFormatCustom from "./Components/LowLevelComponents/NumberFormatCustom";
 import GoogleMap from "./Components/LowLevelComponents/GoogleMap";
 import MoreDataBranchesInvestments from "./Components/MoreDataBranchesInvestments";
@@ -139,6 +138,5 @@ export {
   MoreDataTaxCredit,
   CashFlow,
   BalanceSheet,
-  IncomeStatement,
-  ScoreAvatarSmall
+  IncomeStatement
 };
