@@ -4,7 +4,8 @@
     <list default="true" id="deedca82-8ad4-4e62-ac9a-df5681d3be65" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/LowLevelComponents/ScoreAvatarSmall.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/LowLevelComponents/ScoreAvatarSmall.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/WebsiteChanges.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/WebsiteChanges.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/js/WebsiteUtils.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/js/WebsiteUtils.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -27,11 +28,68 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MoreDataCourtCases.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Components/MoreDataCourtCases.js">
+      <file leaf-file-name="MoreDataBranchesInvestments.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Components/MoreDataBranchesInvestments.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1292">
-              <caret line="102" column="19" selection-start-line="102" selection-start-column="19" selection-end-line="102" selection-end-column="19" />
+            <state relative-caret-position="4165">
+              <caret line="265" column="35" selection-start-line="265" selection-start-column="35" selection-end-line="265" selection-end-column="35" />
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="fonts.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Components/css/fonts.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1360">
+              <caret line="80" column="12" selection-start-line="80" selection-start-column="1" selection-end-line="80" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TopInsights.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Components/TopInsights.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="349">
+              <caret line="153" column="12" selection-start-line="153" selection-start-column="12" selection-end-line="157" selection-end-column="14" />
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WebsiteChanges.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Components/WebsiteChanges.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="430">
+              <caret line="111" column="18" lean-forward="true" selection-start-line="111" selection-start-column="18" selection-end-line="111" selection-end-column="18" />
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WebsiteUtils.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Components/js/WebsiteUtils.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="17" lean-forward="true" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TopProducts.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Components/TopProducts.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1258">
+              <caret line="95" column="31" selection-start-line="95" selection-start-column="31" selection-end-line="95" selection-end-column="31" />
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -39,8 +97,8 @@
       <file leaf-file-name="ScoreAvatar.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Components/LowLevelComponents/ScoreAvatar.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1275">
-              <caret line="75" column="53" lean-forward="true" selection-start-line="75" selection-start-column="53" selection-end-line="75" selection-end-column="53" />
+            <state relative-caret-position="1224">
+              <caret line="75" column="53" selection-start-line="75" selection-start-column="53" selection-end-line="75" selection-end-column="53" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -51,7 +109,7 @@
       <file leaf-file-name="ScoreAvatarSmall.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Components/LowLevelComponents/ScoreAvatarSmall.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="497">
+            <state relative-caret-position="1377">
               <caret line="84" column="32" selection-start-line="84" selection-start-column="32" selection-end-line="84" selection-end-column="32" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
@@ -60,69 +118,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TopProducts.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Components/TopProducts.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1751">
-              <caret line="103" column="16" selection-start-line="103" selection-start-column="16" selection-end-line="103" selection-end-column="16" />
-              <folding>
-                <element signature="e#0#41#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CorporationMap.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Components/CorporationMap.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="16082">
-              <caret line="946" column="42" selection-start-line="946" selection-start-column="42" selection-end-line="946" selection-end-column="42" />
-              <folding>
-                <element signature="e#0#36#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2091">
-              <caret line="123" column="14" lean-forward="true" selection-start-line="123" selection-start-column="14" selection-end-line="123" selection-end-column="14" />
+            <state relative-caret-position="850">
+              <caret line="123" column="14" selection-start-line="123" selection-start-column="14" selection-end-line="123" selection-end-column="14" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SocialMedia.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Components/SocialMedia.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <element signature="e#0#41#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Utils.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Components/js/Utils.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="6562">
-              <caret line="386" column="19" selection-start-line="386" selection-start-column="19" selection-end-line="386" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GoogleMap.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Components/LowLevelComponents/GoogleMap.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="30" column="11" selection-start-line="30" selection-start-column="11" selection-end-line="30" selection-end-column="11" />
-              <folding>
-                <element signature="e#0#41#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -141,11 +143,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>InvestmentCashReceived</find>
-      <find>CashPaid</find>
-      <find>InvestingNetcashFlow</find>
-      <find>AbsorptionInvestmentCashReceived</find>
-      <find>date</find>
       <find>createCorpMapAsImage</find>
       <find>corpMapImg</find>
       <find>united</find>
@@ -171,6 +168,11 @@
       <find>luxem</find>
       <find>QichachaClosedData</find>
       <find>ScoreAvatar</find>
+      <find>moreicon</find>
+      <find>divViewAll</find>
+      <find>filter</find>
+      <find>getLastYearChanges</find>
+      <find>getBtmMsgChanges</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -182,7 +184,6 @@
         <option value="$PROJECT_DIR$/src/Components/RecommendCredit.js" />
         <option value="$PROJECT_DIR$/src/Components/SocialMedia.js" />
         <option value="$PROJECT_DIR$/src/Components/TopInsights.js" />
-        <option value="$PROJECT_DIR$/src/Components/WebsiteChanges.js" />
         <option value="$PROJECT_DIR$/src/Components/Industry.js" />
         <option value="$PROJECT_DIR$/src/Components/InfoCard.js" />
         <option value="$PROJECT_DIR$/src/Components/PieChartWrapper.js" />
@@ -200,7 +201,6 @@
         <option value="$PROJECT_DIR$/src/Components/MoreDataEmployees.js" />
         <option value="$PROJECT_DIR$/src/Components/Media.js" />
         <option value="$PROJECT_DIR$/src/Components/MoreDataMortgagePledge.js" />
-        <option value="$PROJECT_DIR$/src/Components/TopProducts.js" />
         <option value="$PROJECT_DIR$/src/Components/MoreDataBranchesInvestments.js" />
         <option value="$PROJECT_DIR$/src/Components/ShareholdersExpansion.js" />
         <option value="$PROJECT_DIR$/src/Components/css/print.css" />
@@ -211,7 +211,6 @@
         <option value="$PROJECT_DIR$/src/Components/LineChart.js" />
         <option value="$PROJECT_DIR$/src/Components/WebsiteDetails.js" />
         <option value="$PROJECT_DIR$/src/Components/PublicFinancial.js" />
-        <option value="$PROJECT_DIR$/src/Components/js/WebsiteUtils.js" />
         <option value="$PROJECT_DIR$/src/Components/MoreDataDishonest.js" />
         <option value="$PROJECT_DIR$/src/Components/LowLevelComponents/PieChart.js" />
         <option value="$PROJECT_DIR$/src/Components/Certifications.js" />
@@ -229,6 +228,9 @@
         <option value="$PROJECT_DIR$/src/Components/LowLevelComponents/ScoreAvatar.js" />
         <option value="$PROJECT_DIR$/src/index.js" />
         <option value="$PROJECT_DIR$/src/Components/LowLevelComponents/ScoreAvatarSmall.js" />
+        <option value="$PROJECT_DIR$/src/Components/TopProducts.js" />
+        <option value="$PROJECT_DIR$/src/Components/js/WebsiteUtils.js" />
+        <option value="$PROJECT_DIR$/src/Components/WebsiteChanges.js" />
         <option value="$PROJECT_DIR$/package.json" />
       </list>
     </option>
@@ -287,14 +289,14 @@
               <item name="uicomponents" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Components" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="uicomponents" type="b2602c69:ProjectViewProjectNode" />
               <item name="uicomponents" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Components" type="462c0819:PsiDirectoryNode" />
-              <item name="LowLevelComponents" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -305,7 +307,7 @@
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/Users/Dor Damry/Desktop/Tiidan/projects/uicomponents/src/Components/LowLevelComponents/NumberFormatCustom.js" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../manage" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
@@ -548,18 +550,24 @@
       <workItem from="1553156616153" duration="163000" />
       <workItem from="1553157045439" duration="41000" />
       <workItem from="1553434377637" duration="376000" />
-      <workItem from="1553434994198" duration="16000" />
+      <workItem from="1553434994198" duration="1216000" />
+      <workItem from="1553505045471" duration="630000" />
+      <workItem from="1553524418500" duration="96000" />
+      <workItem from="1553524627390" duration="16000" />
+      <workItem from="1553682559475" duration="625000" />
+      <workItem from="1553783768595" duration="653000" />
+      <workItem from="1554017747211" duration="396000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="601453000" />
+    <option name="totallyTimeSpent" value="605069000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4982699" visible="true" weight="0.14646997" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4982699" visible="true" weight="0.14646997" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50052685" side_tool="true" weight="0.39069265" />
@@ -567,7 +575,7 @@
       <window_info id="npm" order="2" sideWeight="0.5017301" side_tool="true" weight="0.14805058" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32900432" />
       <window_info id="Structure" order="3" side_tool="true" weight="0.24973656" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.49947312" visible="true" weight="0.31493506" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49947312" weight="0.31060606" />
       <window_info id="Favorites" order="1" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -621,37 +629,10 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Components/IncomeStatement.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4182">
-          <caret line="266" column="16" selection-start-line="266" selection-start-column="16" selection-end-line="266" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/BalanceSheet.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4641">
-          <caret line="293" column="35" selection-start-line="293" selection-start-column="35" selection-end-line="293" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/LowLevelComponents/StyledComponents.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-68">
-          <caret line="145" column="19" lean-forward="true" selection-start-line="145" selection-start-column="19" selection-end-line="145" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/manifest.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/images/InsightIP.svg">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/images/InsightLegal.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/images/InsightTrade.svg">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/images/InsightIndustry.svg">
@@ -736,13 +717,6 @@
     <entry file="file://$PROJECT_DIR$/src/Components/MoreDataAdministrativePunishment.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/css/fonts.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1360">
-          <caret line="80" column="12" selection-start-line="80" selection-start-column="1" selection-end-line="80" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/Certifications.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1955">
@@ -785,41 +759,19 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/SocialMedia.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/CorporationMap.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="16082">
+        <state relative-caret-position="15895">
           <caret line="946" column="42" selection-start-line="946" selection-start-column="42" selection-end-line="946" selection-end-column="42" />
-          <folding>
-            <element signature="e#0#36#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/TopProducts.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1751">
-          <caret line="103" column="16" selection-start-line="103" selection-start-column="16" selection-end-line="103" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/LowLevelComponents/GoogleMap.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
+        <state relative-caret-position="374">
           <caret line="30" column="11" selection-start-line="30" selection-start-column="11" selection-end-line="30" selection-end-column="11" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -839,8 +791,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2091">
-          <caret line="123" column="14" lean-forward="true" selection-start-line="123" selection-start-column="14" selection-end-line="123" selection-end-column="14" />
+        <state relative-caret-position="850">
+          <caret line="123" column="14" selection-start-line="123" selection-start-column="14" selection-end-line="123" selection-end-column="14" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
@@ -849,8 +801,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/LowLevelComponents/ScoreAvatar.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1275">
-          <caret line="75" column="53" lean-forward="true" selection-start-line="75" selection-start-column="53" selection-end-line="75" selection-end-column="53" />
+        <state relative-caret-position="1224">
+          <caret line="75" column="53" selection-start-line="75" selection-start-column="53" selection-end-line="75" selection-end-column="53" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
@@ -859,10 +811,67 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/LowLevelComponents/ScoreAvatarSmall.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="497">
+        <state relative-caret-position="1377">
           <caret line="84" column="32" selection-start-line="84" selection-start-column="32" selection-end-line="84" selection-end-column="32" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/images/InsightTrade.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/MoreDataBranchesInvestments.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4165">
+          <caret line="265" column="35" selection-start-line="265" selection-start-column="35" selection-end-line="265" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/css/fonts.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1360">
+          <caret line="80" column="12" selection-start-line="80" selection-start-column="1" selection-end-line="80" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/TopProducts.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1258">
+          <caret line="95" column="31" selection-start-line="95" selection-start-column="31" selection-end-line="95" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/TopInsights.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="349">
+          <caret line="153" column="12" selection-start-line="153" selection-start-column="12" selection-end-line="157" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/js/WebsiteUtils.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="17" lean-forward="true" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/WebsiteChanges.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="430">
+          <caret line="111" column="18" lean-forward="true" selection-start-line="111" selection-start-column="18" selection-end-line="111" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -2,12 +2,16 @@ import Utils from "./Utils";
 
 class WebsiteUtils {
   static getLastYearChanges(websiteArchive) {
-    return (
-      websiteArchive.latestChanges &&
-      websiteArchive.latestChanges.filter(
-        change => change[1].substr(0, 4) == new Date().getFullYear() - 1
-      ).length
-    );
+    try {
+      return (
+        websiteArchive.latestChanges &&
+        websiteArchive.latestChanges.filter(
+          change => change[1].substr(0, 4) == new Date().getFullYear() - 1
+        ).length
+      );
+    } catch (e) {
+      return null;
+    }
   }
   static getBtmMsgChanges(lastYearChanges) {
     return lastYearChanges === 0

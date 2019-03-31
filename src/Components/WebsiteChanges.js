@@ -114,7 +114,9 @@ class WebsiteChanges extends Component {
             </span>
           </ReactTooltip>
         </div>
-        {this.props.websiteChanges && this.props.websiteChanges.length > 0 ? (
+        {this.props.websiteChanges &&
+        Array.isArray(this.props.websiteChanges) &&
+        this.props.websiteChanges.length > 0 ? (
           <div style={{ width: "100%" }}>
             <BarChart
               height={"88%"}
