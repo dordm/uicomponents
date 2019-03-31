@@ -392,6 +392,8 @@ class Utils {
 
   static getCountry(countryName) {
     switch (countryName) {
+      case "Montenegro":
+        return require("../images/countries/ME.svg");
       case "Luxembourg":
         return require("../images/countries/LU.svg");
       case "Bosnia and Herzegovina":
@@ -681,6 +683,7 @@ class Utils {
       case "Cameroon":
         return require("../images/countries/CM.svg");
       case "Syrian Arab Republic":
+      case "Syria":
         return require("../images/countries/SY.svg");
       case "Bangladesh":
         return require("../images/countries/BD.svg");
