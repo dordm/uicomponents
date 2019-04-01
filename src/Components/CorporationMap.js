@@ -30,7 +30,7 @@ const StyledCorpMapImg = styled.img`
   top: 0px;
   height: ${props => (props.isPdfMap === "true" ? "600" : "430")}px;
   width: 100%;
-  margin-top:-10px;
+  margin-top: -10px;
 `;
 
 const StyledDivWrapper = styled.div`
@@ -96,7 +96,7 @@ function CorpMapChartHirerchial(props) {
     <Graph
       style={{
         width: "100%",
-        height: 430
+        height: props.isPdfMap === "true" ? 600 : 430
       }}
       graph={props.graph}
       options={props.options}
@@ -763,7 +763,7 @@ class CorporationMap extends Component {
             <span>Shareholders corporation graph.</span>
           </ReactTooltip>
           {this.props.width < 600 ? (
-            <div style={{marginLeft:10}}>
+            <div style={{ marginLeft: 10 }}>
               <img
                 src={require("./images/businessGreen.svg")}
                 className={classes.legend}
@@ -938,6 +938,7 @@ class CorporationMap extends Component {
             {this.state.hierarchicalMode ? (
               <CorpMapChartHirerchial
                 graph={graph}
+                isPdfMap={isPdfMap ? "true" : "false"}
                 options={this.state.options}
                 events={this.state.events}
               />
