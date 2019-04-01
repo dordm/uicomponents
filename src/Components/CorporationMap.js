@@ -28,7 +28,7 @@ const StyledCorpMapImg = styled.img`
   position: absolute;
   left: 0px;
   top: 0px;
-  height: ${props => (props.isPdfMap === "true" ? "600" : "430")}px;
+  height: ${props => (props.isPdfMap === "true" ? "500" : "430")}px;
   width: 100%;
 `;
 
