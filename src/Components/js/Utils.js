@@ -83,7 +83,7 @@ class Utils {
     }
   }
 
-  static getEmployeeMsg(val) {
+  static getEmployeeMsg(val, mainStaffSize) {
     try {
       let minVal;
       let newVal = val
@@ -97,9 +97,14 @@ class Utils {
       if (minVal >= 1 && minVal <= 100)
         return "Small company compared to other";
       else if (minVal >= 101) return "Large company compared to other";
-      else return "";
+      else
+        return mainStaffSize
+          ? `The company main staff contains ${mainStaffSize} people`
+          : "";
     } catch (e) {
-      return "";
+      return mainStaffSize
+        ? `The company main staff contains ${mainStaffSize} people`
+        : "";
     }
   }
 

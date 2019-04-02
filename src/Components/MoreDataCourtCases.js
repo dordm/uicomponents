@@ -304,7 +304,7 @@ class MoreDataCourtCases extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      selectedTab: "active",
+      selectedTab: "close",
       loading: false,
       showCaseContent: false,
       caseContent: null,
@@ -403,16 +403,16 @@ class MoreDataCourtCases extends Component {
           variant={"fullWidth"}
         >
           <Tab
-            data-cy={"tab1"}
-            className={classes.tab}
-            value={"active"}
-            label={<span className={classes.tabLabel}>Active Cases</span>}
-          />
-          <Tab
             data-cy={"tab2"}
             className={classes.tab}
             value={"close"}
             label={<span className={classes.tabLabel}>Close Cases</span>}
+          />
+          <Tab
+            data-cy={"tab1"}
+            className={classes.tab}
+            value={"active"}
+            label={<span className={classes.tabLabel}>Active Cases</span>}
           />
         </Tabs>
         {this.state.selectedTab === "active" ? (
