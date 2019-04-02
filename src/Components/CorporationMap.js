@@ -114,7 +114,7 @@ class CorporationMap extends Component {
       yPos: 0,
       displayTooltip: "none",
       isOnTooltip: false,
-      showTopEmps: false,
+      showTopEmps: 0,
       selectedLevel: 0,
       isPdfMap: isPdfMap,
       showEdgesRelation: true,
@@ -536,6 +536,15 @@ class CorporationMap extends Component {
             : this.defaultLevel + 1)
       );
 
+      if(!this.state.selectedLevel)
+        this.state.selectedLevel = this.defaultLevel;
+
+      if(this.state.showTopEmps === 0 && this.defaultLevel === numLevels - 1 && lengthLevel4 <= 10)
+      {
+        this.state.showTopEmps = true;
+        return this.getGraph();
+      }
+
       const graphNodes = finalNodes.map(item => ({
         id: item.id,
         level: this.state.displayMode === "1" ? item.level : undefined,
@@ -864,7 +873,7 @@ class CorporationMap extends Component {
               }
               style={{ width: this.props.width > 600 ? 75 : 60 }}
               className={classNames(classes.select, "fontStyle16")}
-              defaultValue={this.state.showTopEmps ? "1" : "0"}
+              defaultValue={this.state.showTopEmps != '0' ? "1" : "0"}
             >
               <option value={"0"}>No</option>
               <option value={"1"}>Yes</option>
