@@ -536,14 +536,17 @@ class CorporationMap extends Component {
             : this.defaultLevel + 1)
       );
 
-      if(!this.state.selectedLevel)
-        this.state.selectedLevel = this.defaultLevel;
-
-      if(this.state.showTopEmps === 0 && this.defaultLevel === numLevels - 1 && lengthLevel4 <= 10)
-      {
+      if (
+        this.state.showTopEmps === 0 &&
+        this.defaultLevel === numLevels - 1 &&
+        lengthLevel4 <= 10
+      ) {
         this.state.showTopEmps = true;
         return this.getGraph();
       }
+
+      if (!this.state.selectedLevel)
+        this.state.selectedLevel = this.defaultLevel;
 
       const graphNodes = finalNodes.map(item => ({
         id: item.id,
@@ -873,7 +876,7 @@ class CorporationMap extends Component {
               }
               style={{ width: this.props.width > 600 ? 75 : 60 }}
               className={classNames(classes.select, "fontStyle16")}
-              defaultValue={this.state.showTopEmps != '0' ? "1" : "0"}
+              defaultValue={this.state.showTopEmps != "0" ? "1" : "0"}
             >
               <option value={"0"}>No</option>
               <option value={"1"}>Yes</option>
