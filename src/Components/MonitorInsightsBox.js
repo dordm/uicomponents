@@ -111,7 +111,7 @@ class MonitorInsightsBox extends Component {
         {monitorData.length > 0 ? (
           <div
             className={classNames(classes.divViewAll, "fontStyle6")}
-            onClick={() => this.setState({ allChangesOpen: true })}
+            onClick={() => this.setState({ allMonitorOpen: true })}
             data-cy="divViewAll"
           >
             View All
@@ -128,7 +128,7 @@ class MonitorInsightsBox extends Component {
           <div className={classes.listDiv}>
             <div className={classes.listDiv}>
               <List disablePadding={true} dense={true}>
-                {monitorData.changesList.slice(0, 5).map((change, idx) => {
+                {monitorData.slice(0, 5).map((change, idx) => {
                   return (
                     <ListItem key={"monitor" + idx}>
                       <ListItemIcon className={classes.icon}>
