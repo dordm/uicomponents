@@ -4,9 +4,9 @@ import Typography from "@material-ui/core/Typography";
 import { DivChange } from "./StyledComponents";
 
 function RegistrationStatus(props) {
-  const { data, width } = props;
+  const { data, width, boxlayout } = props;
   return (
-    <DivChange width={width}>
+    <DivChange boxlayout={boxlayout} width={width}>
       <Typography className={"fontStyle23"}>
         Old Status: {data.CHANGE_DATA.before}
       </Typography>
@@ -19,7 +19,8 @@ function RegistrationStatus(props) {
 
 RegistrationStatus.propTypes = {
   data: PropTypes.object.isRequired,
-  width: PropTypes.number.isRequired
+  width: PropTypes.number.isRequired,
+  boxlayout: PropTypes.string
 };
 
 export default RegistrationStatus;

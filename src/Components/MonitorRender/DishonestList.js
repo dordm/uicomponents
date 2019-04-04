@@ -4,9 +4,9 @@ import Typography from "@material-ui/core/Typography";
 import { DivChange } from "./StyledComponents";
 
 function DishonestList(props) {
-  const { data, width } = props;
+  const { data, width, boxlayout } = props;
   return (
-    <DivChange width={width}>
+    <DivChange boxlayout={boxlayout} width={width}>
       {data.CHANGE_DATA.change.map((item, idx) => {
         return (
           <Typography key={idx} className={"fontStyle25"}>{`${
@@ -20,7 +20,8 @@ function DishonestList(props) {
 
 DishonestList.propTypes = {
   data: PropTypes.object.isRequired,
-  width: PropTypes.number.isRequired
+  width: PropTypes.number.isRequired,
+  boxlayout: PropTypes.string
 };
 
 export default DishonestList;

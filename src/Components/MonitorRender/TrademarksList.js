@@ -22,9 +22,13 @@ const StyledTypo = styled(Typography)`
 `;
 
 function TrademarksList(props) {
-  const { data, width } = props;
+  const { data, width, boxlayout } = props;
   return (
-    <DivChange style={{ display: "flex", flexFlow: "wrap" }} width={width}>
+    <DivChange
+      boxlayout={boxlayout}
+      style={{ display: "flex", flexFlow: "wrap" }}
+      width={width}
+    >
       {data.CHANGE_DATA.change.map((item, idx) => {
         return (
           <DivWrapper key={idx}>
@@ -52,7 +56,8 @@ function TrademarksList(props) {
 
 TrademarksList.propTypes = {
   data: PropTypes.object.isRequired,
-  width: PropTypes.number.isRequired
+  width: PropTypes.number.isRequired,
+  boxlayout: PropTypes.string
 };
 
 export default TrademarksList;

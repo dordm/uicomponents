@@ -5,9 +5,9 @@ import { StyledChip, Utils } from "@tiidan/uicomponents";
 import Avatar from "@material-ui/core/Avatar";
 
 function CountriesList(props) {
-  const { data, width } = props;
+  const { data, width, boxlayout } = props;
   return (
-    <DivChange width={width}>
+    <DivChange boxlayout={boxlayout} width={width}>
       {data.CHANGE_DATA.change.map((item, idx) => {
         return (
           <StyledChip
@@ -31,7 +31,8 @@ function CountriesList(props) {
 
 CountriesList.propTypes = {
   data: PropTypes.object.isRequired,
-  width: PropTypes.number.isRequired
+  width: PropTypes.number.isRequired,
+  boxlayout: PropTypes.string
 };
 
 export default CountriesList;

@@ -4,9 +4,9 @@ import Typography from "@material-ui/core/Typography";
 import { DivChange } from "./StyledComponents";
 
 function ShareholdersList(props) {
-  const { data, width } = props;
+  const { data, width, boxlayout } = props;
   return (
-    <DivChange width={width}>
+    <DivChange boxlayout={boxlayout} width={width}>
       {data.CHANGE_DATA.change.map((item, idx) => {
         return (
           <Typography
@@ -23,7 +23,8 @@ function ShareholdersList(props) {
 
 ShareholdersList.propTypes = {
   data: PropTypes.object.isRequired,
-  width: PropTypes.number.isRequired
+  width: PropTypes.number.isRequired,
+  boxlayout: PropTypes.string
 };
 
 export default ShareholdersList;

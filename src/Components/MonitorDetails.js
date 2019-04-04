@@ -28,62 +28,62 @@ import Industry from "./MonitorRender/Industry";
 
 class MonitorDetails extends Component {
   render() {
-    const { data, width } = this.props;
+    const { data, width, boxlayout } = this.props;
     switch (data.CHANGE_FIELD) {
       case "INDUSTRY":
-        return <Industry data={data} width={width} />;
+        return <Industry boxlayout={boxlayout} data={data} width={width} />;
       case "SCORE":
-        return <Score data={data} width={width} />;
+        return <Score boxlayout={boxlayout} data={data} width={width} />;
       case "LEGAL_REPRESENTATIVE":
-        return <LegalRepresentative data={data} width={width} />;
+        return <LegalRepresentative boxlayout={boxlayout} data={data} width={width} />;
       case "REGISTRATION_STATUS":
-        return <RegistrationStatus data={data} width={width} />;
+        return <RegistrationStatus boxlayout={boxlayout} data={data} width={width} />;
       case "ADDRESS":
-        return <Address data={data} width={width} />;
+        return <Address boxlayout={boxlayout} data={data} width={width} />;
       case "CAPITAL":
-        return <Capital data={data} width={width} />;
+        return <Capital boxlayout={boxlayout} data={data} width={width} />;
       case "EMPLOYEES_LIST":
-        return <EmployeesList width={width} data={data} />;
+        return <EmployeesList boxlayout={boxlayout} width={width} data={data} />;
       case "SHAREHOLDERS_LIST":
-        return <ShareholdersList width={width} data={data} />;
+        return <ShareholdersList boxlayout={boxlayout} width={width} data={data} />;
       case "BRANCHES_NEW":
       case "BRANCHES_CLOSE":
-        return <BranchesList width={width} data={data} />;
+        return <BranchesList boxlayout={boxlayout} width={width} data={data} />;
       case "MISSING_FOREIGN_INVESTMENT":
       case "NEW_FOREIGN_INVESTMENT":
-        return <InvestmentsList width={width} data={data} />;
+        return <InvestmentsList boxlayout={boxlayout} width={width} data={data} />;
       case "ADMINISTRATIVE_PUNISHMENT_LIST":
-        return <AdministrativePunishmentsList width={width} data={data} />;
+        return <AdministrativePunishmentsList boxlayout={boxlayout} width={width} data={data} />;
       case "BUSINESS_EXCEPTIONS_LIST":
-        return <BusinessExceptionsList width={width} data={data} />;
+        return <BusinessExceptionsList boxlayout={boxlayout} width={width} data={data} />;
       case "NEW_ADMINISTRATIVE_LICENSE":
       case "EXPIRED_ADMINISTRATIVE_LICENSE":
-        return <AdministrativeLicensesList width={width} data={data} />;
+        return <AdministrativeLicensesList boxlayout={boxlayout} width={width} data={data} />;
       case "EXPIRED_CERTIFICATES_LIST":
       case "NEW_CERTIFICATES_LIST":
-        return <CertificatesList width={width} data={data} />;
+        return <CertificatesList boxlayout={boxlayout} width={width} data={data} />;
       case "IMPORT_EXPORT_LICENSE":
-        return <ImportExportList width={width} data={data} />;
+        return <ImportExportList boxlayout={boxlayout} width={width} data={data} />;
       case "LAW_ENFORCEMENT_LIST":
-        return <LawEnforcementList width={width} data={data} />;
+        return <LawEnforcementList boxlayout={boxlayout} width={width} data={data} />;
       case "COURT_CASES_LIST":
-        return <CourtCasesList width={width} data={data} />;
+        return <CourtCasesList boxlayout={boxlayout} width={width} data={data} />;
       case "TRADEMARKS_LIST":
-        return <TrademarksList width={width} data={data} />;
+        return <TrademarksList boxlayout={boxlayout} width={width} data={data} />;
       case "DISHONEST_LIST":
-        return <DishonestList width={width} data={data} />;
+        return <DishonestList boxlayout={boxlayout} width={width} data={data} />;
       case "MORTGAGE_LIST":
-        return <MortgageList width={width} data={data} />;
+        return <MortgageList boxlayout={boxlayout} width={width} data={data} />;
       case "PENALTY_LIST":
-        return <PenaltiesList width={width} data={data} />;
+        return <PenaltiesList boxlayout={boxlayout} width={width} data={data} />;
       case "PATENTS_LIST":
-        return <PatentsList width={width} data={data} />;
+        return <PatentsList boxlayout={boxlayout} width={width} data={data} />;
       case "PLEDGE_LIST":
-        return <PledgeList width={width} data={data} />;
+        return <PledgeList boxlayout={boxlayout} width={width} data={data} />;
       case "COUNTRIES_LIST":
-        return <CountriesList width={width} data={data} />;
+        return <CountriesList boxlayout={boxlayout} width={width} data={data} />;
       case "PRODUCTS_LIST":
-        return <ProductsList width={width} data={data} />;
+        return <ProductsList boxlayout={boxlayout} width={width} data={data} />;
       default:
         return <div />;
     }
@@ -92,7 +92,8 @@ class MonitorDetails extends Component {
 
 MonitorDetails.propTypes = {
   data: PropTypes.object.isRequired,
-  width: PropTypes.number.isRequired
+  width: PropTypes.number.isRequired,
+  boxlayout: PropTypes.string
 };
 
 export default MonitorDetails;

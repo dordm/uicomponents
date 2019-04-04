@@ -138,7 +138,6 @@ class MonitorInsightsBox extends Component {
                           }
                           width={change.CHANGE_ICON === "revenue.svg" ? 16 : 24}
                           style={{
-                            marginTop: -4,
                             padding:
                               change.CHANGE_ICON === "revenue.svg" ? 4 : ""
                           }}
@@ -244,7 +243,6 @@ class MonitorInsightsBox extends Component {
                                 change.CHANGE_ICON === "revenue.svg" ? 16 : 24
                               }
                               style={{
-                                marginTop: -4,
                                 padding:
                                   change.CHANGE_ICON === "revenue.svg" ? 4 : ""
                               }}
@@ -267,7 +265,7 @@ class MonitorInsightsBox extends Component {
                         </StyledExpansionSummary>
                         <StyledExpansionPanelDetails>
                           <div>
-                            <MonitorDetails data={change} width={width} />
+                            <MonitorDetails boxlayout={"true"} data={change} width={width} />
                           </div>
                         </StyledExpansionPanelDetails>
                       </StyledExpansionPanel>
