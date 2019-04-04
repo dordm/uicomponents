@@ -188,6 +188,20 @@ export const PackagesLayout = styled.div`
   }
 `;
 
+export const HomeLayout = styled.div`
+  width: 70%;
+  margin-top: 118px;
+  margin-left: 15%;
+  @media (max-width: 1650px) and (min-width: 1250px) {
+    width: 90%;
+    margin-left: 5%;
+  }
+  @media (max-width: 1250px) {
+    width: 96%;
+    margin-left: 2%;
+  }
+`;
+
 export const DefaultLayout = styled.div`
   width: 60%;
   @media (max-width: 1650px) and (min-width: 1250px) {
