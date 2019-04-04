@@ -2,10 +2,35 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="deedca82-8ad4-4e62-ac9a-df5681d3be65" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Components/MonitorDetails.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/MonitorRender/Address.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/MonitorRender/AdministrativeLicensesList.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/MonitorRender/AdministrativePunishmentsList.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/MonitorRender/BranchesList.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/MonitorRender/BusinessExceptionsList.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/MonitorRender/Capital.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/MonitorRender/CertificatesList.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/MonitorRender/CountriesList.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/MonitorRender/CourtCasesList.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/MonitorRender/DishonestList.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/MonitorRender/EmployeesList.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/MonitorRender/ImportExportList.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/MonitorRender/Industry.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/MonitorRender/InvestmentsList.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/MonitorRender/LawEnforcementList.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/MonitorRender/LegalRepresentative.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/MonitorRender/MortgageList.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/MonitorRender/PatentsList.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/MonitorRender/PenaltiesList.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/MonitorRender/PledgeList.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/MonitorRender/ProductsList.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/MonitorRender/RegistrationStatus.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/MonitorRender/Score.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/MonitorRender/ShareholdersList.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/MonitorRender/StyledComponents.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/MonitorRender/TrademarksList.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/MoreDataCourtCases.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/MoreDataCourtCases.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/js/Utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/js/Utils.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -31,8 +56,11 @@
       <file leaf-file-name="CorporationMap.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Components/CorporationMap.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="433">
-              <caret line="547" selection-start-line="547" selection-end-line="547" />
+            <state relative-caret-position="10659">
+              <caret line="638" column="10" selection-start-line="638" selection-start-column="10" selection-end-line="645" selection-end-column="23" />
+              <folding>
+                <element signature="e#0#36#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -40,8 +68,8 @@
       <file leaf-file-name="MoreDataCourtCases.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Components/MoreDataCourtCases.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="397">
-              <caret line="408" column="73" lean-forward="true" selection-start-line="408" selection-start-column="73" selection-end-line="408" selection-end-column="73" />
+            <state relative-caret-position="4352">
+              <caret line="282" column="29" selection-start-line="282" selection-start-column="29" selection-end-line="282" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -67,56 +95,46 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WebsiteChanges.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Components/WebsiteChanges.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1445">
-              <caret line="94" column="39" selection-start-line="94" selection-start-column="39" selection-end-line="94" selection-end-column="39" />
-              <folding>
-                <element signature="e#0#41#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WebsiteUtils.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Components/js/WebsiteUtils.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="ScoreAvatar.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Components/LowLevelComponents/ScoreAvatar.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1224">
-              <caret line="75" column="53" selection-start-line="75" selection-start-column="53" selection-end-line="75" selection-end-column="53" />
+            <state relative-caret-position="1173">
+              <caret line="72" column="6" selection-start-line="72" selection-start-column="6" selection-end-line="72" selection-end-column="6" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="fonts.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Components/css/fonts.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="177" column="35" selection-start-line="177" selection-start-column="35" selection-end-line="177" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MonitorDetails.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Components/MonitorDetails.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="19" column="58" lean-forward="true" selection-start-line="19" selection-start-column="58" selection-end-line="19" selection-end-column="58" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Address.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Components/MonitorRender/Address.js">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file leaf-file-name="Utils.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Components/js/Utils.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="245">
-              <caret line="94" column="29" lean-forward="true" selection-start-line="94" selection-start-column="29" selection-end-line="94" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="612">
-              <caret line="108" column="17" selection-start-line="108" selection-start-column="17" selection-end-line="108" selection-end-column="17" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="357">
+              <caret line="21" column="47" selection-start-line="21" selection-start-column="47" selection-end-line="21" selection-end-column="47" />
             </state>
           </provider>
         </entry>
@@ -134,7 +152,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>Moldova</find>
       <find>BARBADOS</find>
       <find>BAHAMAS</find>
       <find>andorra</find>
@@ -164,6 +181,7 @@
       <find>corporate</find>
       <find>getEmployeeMsg</find>
       <find>emplo</find>
+      <find>select</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -172,7 +190,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Components/RecommendCredit.js" />
         <option value="$PROJECT_DIR$/src/Components/SocialMedia.js" />
         <option value="$PROJECT_DIR$/src/Components/TopInsights.js" />
         <option value="$PROJECT_DIR$/src/Components/Industry.js" />
@@ -222,6 +239,7 @@
         <option value="$PROJECT_DIR$/stories/MockData/reportData.js" />
         <option value="$PROJECT_DIR$/src/Components/MoreDataCourtCases.js" />
         <option value="$PROJECT_DIR$/src/Components/js/Utils.js" />
+        <option value="$PROJECT_DIR$/src/Components/MonitorDetails.js" />
         <option value="$PROJECT_DIR$/package.json" />
       </list>
     </option>
@@ -246,16 +264,17 @@
     <dismissed value="$PROJECT_DIR$/package.json" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1912" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="x" value="-11" />
+    <option name="y" value="-11" />
+    <option name="width" value="1943" />
+    <option name="height" value="1043" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -279,14 +298,7 @@
               <item name="uicomponents" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Components" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="uicomponents" type="b2602c69:ProjectViewProjectNode" />
-              <item name="uicomponents" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Components" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="MonitorRender" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="uicomponents" type="b2602c69:ProjectViewProjectNode" />
@@ -303,7 +315,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -323,16 +334,16 @@
     <property name="prettierjs.PrettierConfiguration.Package" value="C:\Users\Dor Damry\Desktop\Tiidan\projects\uicomponents\node_modules\prettier" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Dor Damry\Desktop\Tiidan\projects\uicomponents\src\Components\images" />
-      <recent name="C:\Users\Dor Damry\Desktop\Tiidan\projects\uicomponents\src\Components\NetrowkChart" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Dor Damry\Desktop\Tiidan\projects\uicomponents\src\Components\MonitorRender" />
       <recent name="C:\Users\Dor Damry\Desktop\Tiidan\projects\uicomponents\src\Components\images" />
       <recent name="C:\Users\Dor Damry\Desktop\Tiidan\projects\uicomponents\src\Components\css" />
       <recent name="C:\Users\Dor Damry\Desktop\Tiidan\projects\uicomponents\src\Components\LowLevelComponents" />
       <recent name="C:\Users\Dor Damry\Desktop\Tiidan\projects\uicomponents\src\Components" />
-      <recent name="C:\Users\Dor Damry\Desktop\Tiidan\projects\uicomponents\src\Components\js" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Dor Damry\Desktop\Tiidan\projects\uicomponents\src\Components\images" />
+      <recent name="C:\Users\Dor Damry\Desktop\Tiidan\projects\uicomponents\src\Components\NetrowkChart" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -567,27 +578,31 @@
       <workItem from="1554190132724" duration="1531000" />
       <workItem from="1554192257329" duration="89000" />
       <workItem from="1554192939076" duration="1898000" />
-      <workItem from="1554196402648" duration="924000" />
+      <workItem from="1554196402648" duration="992000" />
+      <workItem from="1554197836161" duration="607000" />
+      <workItem from="1554209206285" duration="35000" />
+      <workItem from="1554277935342" duration="853000" />
+      <workItem from="1554283009644" duration="3093000" />
+      <workItem from="1554369564675" duration="725000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="614356000" />
+    <option name="totallyTimeSpent" value="619737000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4982699" visible="true" weight="0.14646997" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4982699" visible="true" weight="0.2209857" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50052685" side_tool="true" weight="0.39069265" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32900432" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32900432" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32900432" />
       <window_info id="npm" order="2" sideWeight="0.5017301" side_tool="true" weight="0.14805058" />
       <window_info id="Structure" order="3" side_tool="true" weight="0.24973656" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.49947312" visible="true" weight="0.31060606" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49947312" weight="0.5079646" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="1" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -596,25 +611,26 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32900432" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info id="npm" order="3" sideWeight="0.5017301" side_tool="true" weight="0.14805058" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32900432" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4982699" visible="true" weight="0.19441517" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="10" weight="0.32900432" />
-      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32900432" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.49947312" visible="true" weight="0.19372295" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50052685" side_tool="true" weight="0.39069265" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32900432" />
+      <window_info anchor="bottom" id="Version Control" order="10" weight="0.32900432" />
+      <window_info anchor="bottom" id="Message" order="0" />
       <window_info id="Favorites" order="2" side_tool="true" />
     </layout-to-restore>
   </component>
@@ -640,12 +656,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Components/images/InsightLegal.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/images/InsightIndustry.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/images/InProccess.svg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -779,13 +789,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/css/fonts.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1360">
-          <caret line="80" column="12" selection-start-line="80" selection-start-column="1" selection-end-line="80" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/TopProducts.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1258">
@@ -797,9 +800,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2295">
           <caret line="153" column="12" selection-start-line="153" selection-start-column="12" selection-end-line="157" selection-end-column="14" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -816,16 +816,6 @@
           <caret line="94" column="39" selection-start-line="94" selection-start-column="39" selection-end-line="94" selection-end-column="39" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/LowLevelComponents/ScoreAvatar.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1224">
-          <caret line="75" column="53" selection-start-line="75" selection-start-column="53" selection-end-line="75" selection-end-column="53" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -858,24 +848,54 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/CorporationMap.js">
+    <entry file="file://$PROJECT_DIR$/src/Components/js/Utils.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="433">
-          <caret line="547" selection-start-line="547" selection-end-line="547" />
+        <state relative-caret-position="357">
+          <caret line="21" column="47" selection-start-line="21" selection-start-column="47" selection-end-line="21" selection-end-column="47" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/js/Utils.js">
+    <entry file="file://$PROJECT_DIR$/src/Components/CorporationMap.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="94" column="29" lean-forward="true" selection-start-line="94" selection-start-column="29" selection-end-line="94" selection-end-column="29" />
+        <state relative-caret-position="10659">
+          <caret line="638" column="10" selection-start-line="638" selection-start-column="10" selection-end-line="645" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#36#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/LowLevelComponents/ScoreAvatar.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1173">
+          <caret line="72" column="6" selection-start-line="72" selection-start-column="6" selection-end-line="72" selection-end-column="6" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/MoreDataCourtCases.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="397">
-          <caret line="408" column="73" lean-forward="true" selection-start-line="408" selection-start-column="73" selection-end-line="408" selection-end-column="73" />
+        <state relative-caret-position="4352">
+          <caret line="282" column="29" selection-start-line="282" selection-start-column="29" selection-end-line="282" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/css/fonts.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="177" column="35" selection-start-line="177" selection-start-column="35" selection-end-line="177" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/MonitorRender/Address.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/MonitorDetails.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="19" column="58" lean-forward="true" selection-start-line="19" selection-start-column="58" selection-end-line="19" selection-end-column="58" />
         </state>
       </provider>
     </entry>
