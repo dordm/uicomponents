@@ -31,6 +31,7 @@ import CorporationMap from "./Components/CorporationMap";
 import MoreDataPenaltyBusinessExceptions from "./Components/MoreDataPenaltyBusinessExceptions";
 import MoreDataMortgagePledge from "./Components/MoreDataMortgagePledge";
 import MoreDataAdministrativePunishment from "./Components/MoreDataAdministrativePunishment";
+import MonitorDetails from "./Components/MonitorDetails";
 import {
   StyledCloseIcon,
   SearchInputWrapper,
@@ -73,6 +74,7 @@ import IncomeStatement from "./Components/IncomeStatement";
 import CashFlow from "./Components/CashFlow";
 
 export {
+  MonitorDetails,
   MoreDataPenaltyBusinessExceptions,
   MoreDataMortgagePledge,
   MoreDataAdministrativePunishment,
