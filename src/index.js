@@ -72,8 +72,10 @@ import WebsiteChanges from "./Components/WebsiteChanges";
 import BalanceSheet from "./Components/BalanceSheet";
 import IncomeStatement from "./Components/IncomeStatement";
 import CashFlow from "./Components/CashFlow";
+import MonitorInsightsBox from './Components/MonitorInsightsBox';
 
 export {
+  MonitorInsightsBox,
   MonitorDetails,
   MoreDataPenaltyBusinessExceptions,
   MoreDataMortgagePledge,
