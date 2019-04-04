@@ -1,7 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 import { DivChange, StyledArrowRight } from "./StyledComponents";
-import { ScoreAvatar } from "../LowLevelComponents/ScoreAvatar";
+import ScoreAvatar  from "../LowLevelComponents/ScoreAvatar";
 
 function Score(props) {
   const { data, width, boxlayout } = props;

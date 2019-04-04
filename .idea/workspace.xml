@@ -3,34 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="deedca82-8ad4-4e62-ac9a-df5681d3be65" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/MonitorDetails.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/MonitorDetails.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/MonitorInsightsBox.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/MonitorInsightsBox.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/MonitorRender/Address.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/MonitorRender/Address.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/MonitorRender/AdministrativeLicensesList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/MonitorRender/AdministrativeLicensesList.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/MonitorRender/AdministrativePunishmentsList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/MonitorRender/AdministrativePunishmentsList.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/MonitorRender/BranchesList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/MonitorRender/BranchesList.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/MonitorRender/BusinessExceptionsList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/MonitorRender/BusinessExceptionsList.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/MonitorRender/Capital.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/MonitorRender/Capital.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/MonitorRender/CertificatesList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/MonitorRender/CertificatesList.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/MonitorRender/CountriesList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/MonitorRender/CountriesList.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/MonitorRender/CourtCasesList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/MonitorRender/CourtCasesList.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/MonitorRender/DishonestList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/MonitorRender/DishonestList.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/MonitorRender/EmployeesList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/MonitorRender/EmployeesList.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/MonitorRender/ImportExportList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/MonitorRender/ImportExportList.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/MonitorRender/Industry.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/MonitorRender/Industry.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/MonitorRender/InvestmentsList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/MonitorRender/InvestmentsList.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/MonitorRender/LawEnforcementList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/MonitorRender/LawEnforcementList.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/MonitorRender/LegalRepresentative.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/MonitorRender/LegalRepresentative.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/MonitorRender/MortgageList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/MonitorRender/MortgageList.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/MonitorRender/PatentsList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/MonitorRender/PatentsList.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/MonitorRender/PenaltiesList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/MonitorRender/PenaltiesList.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/MonitorRender/PledgeList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/MonitorRender/PledgeList.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/MonitorRender/ProductsList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/MonitorRender/ProductsList.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/MonitorRender/RegistrationStatus.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/MonitorRender/RegistrationStatus.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/MonitorRender/Score.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/MonitorRender/Score.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/MonitorRender/ShareholdersList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/MonitorRender/ShareholdersList.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/MonitorRender/StyledComponents.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/MonitorRender/StyledComponents.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/MonitorRender/TrademarksList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/MonitorRender/TrademarksList.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -53,49 +26,37 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MortgageList.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Components/MonitorRender/MortgageList.js">
+      <file leaf-file-name="MonitorDetails.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Components/MonitorDetails.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" column="29" selection-end-line="27" />
+            <state relative-caret-position="533">
+              <caret line="85" column="50" selection-start-line="85" selection-start-column="50" selection-end-line="85" selection-end-column="50" />
               <folding>
-                <element signature="e#0#26#0" expanded="true" />
+                <element signature="e#0#41#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PatentsList.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Components/MonitorRender/PatentsList.js">
+      <file leaf-file-name="MonitorInsightsBox.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Components/MonitorInsightsBox.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" column="29" selection-end-line="27" />
+            <state relative-caret-position="293">
+              <caret line="258" column="39" lean-forward="true" selection-start-line="258" selection-start-column="39" selection-end-line="258" selection-end-column="39" />
               <folding>
-                <element signature="e#0#26#0" expanded="true" />
+                <element signature="e#0#41#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PenaltiesList.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Components/MonitorRender/PenaltiesList.js">
+      <file leaf-file-name="StyledComponents.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Components/MonitorRender/StyledComponents.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" column="29" selection-end-line="27" />
+            <state relative-caret-position="17">
+              <caret line="1" column="57" lean-forward="true" selection-start-line="1" selection-start-column="57" selection-end-line="1" selection-end-column="57" />
               <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PledgeList.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Components/MonitorRender/PledgeList.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" column="29" selection-end-line="27" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
+                <element signature="e#0#39#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -106,6 +67,18 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="408">
               <caret line="24" column="29" selection-end-line="28" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ScoreAvatar.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Components/LowLevelComponents/ScoreAvatar.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="26" lean-forward="true" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -128,8 +101,8 @@
       <file leaf-file-name="Score.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Components/MonitorRender/Score.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+            <state relative-caret-position="102">
+              <caret line="6" column="43" lean-forward="true" selection-start-line="6" selection-start-column="43" selection-end-line="6" selection-end-column="43" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -259,9 +232,9 @@
         <option value="$PROJECT_DIR$/src/Components/MonitorRender/PledgeList.js" />
         <option value="$PROJECT_DIR$/src/Components/MonitorRender/ProductsList.js" />
         <option value="$PROJECT_DIR$/src/Components/MonitorRender/RegistrationStatus.js" />
-        <option value="$PROJECT_DIR$/src/Components/MonitorRender/Score.js" />
         <option value="$PROJECT_DIR$/src/Components/MonitorRender/ShareholdersList.js" />
         <option value="$PROJECT_DIR$/src/Components/MonitorRender/TrademarksList.js" />
+        <option value="$PROJECT_DIR$/src/Components/MonitorRender/Score.js" />
         <option value="$PROJECT_DIR$/package.json" />
       </list>
     </option>
@@ -314,6 +287,13 @@
               <item name="uicomponents" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="uicomponents" type="b2602c69:ProjectViewProjectNode" />
+              <item name="uicomponents" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Components" type="462c0819:PsiDirectoryNode" />
+              <item name="LowLevelComponents" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="uicomponents" type="b2602c69:ProjectViewProjectNode" />
@@ -605,12 +585,12 @@
       <workItem from="1554209206285" duration="35000" />
       <workItem from="1554277935342" duration="853000" />
       <workItem from="1554283009644" duration="3093000" />
-      <workItem from="1554369564675" duration="3387000" />
+      <workItem from="1554369564675" duration="3795000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="622399000" />
+    <option name="totallyTimeSpent" value="622807000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
@@ -788,16 +768,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/LowLevelComponents/ScoreAvatar.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1173">
-          <caret line="72" column="6" selection-start-line="72" selection-start-column="6" selection-end-line="72" selection-end-column="6" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/MoreDataCourtCases.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4352">
@@ -825,36 +795,6 @@
           <caret line="77" column="20" selection-start-line="77" selection-start-column="2" selection-end-line="77" selection-end-column="20" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/MonitorInsightsBox.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="689">
-          <caret line="267" column="53" selection-start-line="267" selection-start-column="44" selection-end-line="267" selection-end-column="53" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/MonitorDetails.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="805">
-          <caret line="85" column="50" selection-start-line="85" selection-start-column="50" selection-end-line="85" selection-end-column="50" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/MonitorRender/StyledComponents.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="45" selection-start-line="4" selection-start-column="45" selection-end-line="4" selection-end-column="45" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1076,16 +1016,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/MonitorRender/Score.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/MonitorRender/ShareholdersList.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
@@ -1100,6 +1030,56 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="227">
           <caret line="30" column="5" lean-forward="true" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/MonitorDetails.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="533">
+          <caret line="85" column="50" selection-start-line="85" selection-start-column="50" selection-end-line="85" selection-end-column="50" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/MonitorInsightsBox.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="258" column="39" lean-forward="true" selection-start-line="258" selection-start-column="39" selection-end-line="258" selection-end-column="39" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/MonitorRender/StyledComponents.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="57" lean-forward="true" selection-start-line="1" selection-start-column="57" selection-end-line="1" selection-end-column="57" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/LowLevelComponents/ScoreAvatar.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="26" lean-forward="true" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/MonitorRender/Score.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="43" lean-forward="true" selection-start-line="6" selection-start-column="43" selection-end-line="6" selection-end-column="43" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
