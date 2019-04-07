@@ -11,6 +11,7 @@ function ProductsList(props) {
         return (
           <Typography
             key={idx}
+            style={{whiteSpace:'nowrap', overflow:'hidden', textOverflow:'ellipsis'}}
             className={"fontStyle25"}
           >{`${item} - NEW`}</Typography>
         );

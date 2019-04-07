@@ -8,7 +8,7 @@ function CountriesList(props) {
   const { data, width, boxlayout } = props;
   return (
     <DivChange boxlayout={boxlayout} width={width}>
-      {data.CHANGE_DATA.change.map((item, idx) => {
+      {data.CHANGE_DATA.change.slice(0,10).map((item, idx) => {
         return (
           <StyledChip
             style={{ marginRight: 10, marginBottom: 10 }}
