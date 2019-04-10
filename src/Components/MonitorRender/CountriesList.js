@@ -1,7 +1,8 @@
 import React from "react";
 import PropTypes from "prop-types";
 import { DivChange } from "./StyledComponents";
-import { StyledChip, Utils } from "@tiidan/uicomponents";
+import {Utils} from '../js/Utils';
+import {StyledChip} from '../LowLevelComponents/StyledComponents';
 import Avatar from "@material-ui/core/Avatar";
 
 function CountriesList(props) {

@@ -27,6 +27,7 @@ import Utils from "./js/Utils";
 import NoDataImg from "./LowLevelComponents/NoDataImg";
 import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
 import ChangeIcon from "@material-ui/icons/Cached";
+import MonitorDetails from "./MonitorDetails";
 
 const styles = {
   expansionSummaryInner: {
@@ -80,7 +81,6 @@ class CompanyChanges extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      report: this.props.report,
       allChangesOpen: false
     };
   }
@@ -107,15 +107,42 @@ class CompanyChanges extends Component {
     );
   }
 
+  getData() {
+    const data = [];
+    const changes = this.props.report.changesList || [];
+    const monitoring = this.props.report.monitoringData || [];
+    let posChanges = 0,
+      posMonitoring = 0;
+    while (posChanges < changes.length || posMonitoring < monitoring.length) {
+      if (posChanges < changes.length && posMonitoring < monitoring.length) {
+        if (
+          new Date(changes[posChanges].date) >
+          new Date(monitoring[posMonitoring].creation_date)
+        ) {
+          data.push(changes[posChanges]);
+          posChanges++;
+        } else {
+          data.push(monitoring[posMonitoring]);
+          posMonitoring++;
+        }
+      } else if (posChanges < changes.length) {
+        data.push(changes[posChanges]);
+        posChanges++;
+      } else {
+        data.push(monitoring[posMonitoring]);
+        posMonitoring++;
+      }
+    }
+
+    return data;
+  }
+
   render() {
-    const { classes } = this.props;
+    const { classes, report, width } = this.props;
+    const data = this.getData();
     return (
       <BigBoxLayout container={true} justify={"flex-start"}>
-        <StyledTitle
-          width={this.props.width}
-          mobileWidth={"65%"}
-          otherWidth={"75%"}
-        >
+        <StyledTitle width={width} mobileWidth={"65%"} otherWidth={"75%"}>
           <Typography className={classNames("fontStyle1")}>
             Changes in the Company
           </Typography>
@@ -135,7 +162,7 @@ class CompanyChanges extends Component {
             <span>The supplier’s changes during the years</span>
           </ReactTooltip>
         </StyledTitle>
-        {this.state.report.changesList.length > 0 ? (
+        {data.length > 0 ? (
           <div
             className={classNames(classes.divViewAll, "fontStyle6")}
             onClick={() => this.setState({ allChangesOpen: true })}
@@ -151,21 +178,38 @@ class CompanyChanges extends Component {
         ) : (
           ""
         )}
-        {this.state.report.changesList.length > 0 ? (
+        {data.length > 0 ? (
           <div className={classes.listDiv}>
             <div className={classes.listDiv}>
               <List disablePadding={true} dense={true}>
-                {this.state.report.changesList
+                {data
                   .filter(change => change.changeItem !== "")
                   .slice(0, 5)
                   .map((change, idx) => {
                     return (
                       <ListItem key={"change" + idx}>
                         <ListItemIcon className={classes.icon}>
-                          <ChangeIcon
-                            style={{ color: "#4c84ff" }}
-                            className={classes.imgChange}
-                          />
+                          {change.changeItem ? (
+                            <ChangeIcon
+                              style={{ color: "#4c84ff" }}
+                              className={classes.imgChange}
+                            />
+                          ) : (
+                            <img
+                              height={
+                                change.CHANGE_ICON === "revenue.svg" ? 16 : 24
+                              }
+                              width={
+                                change.CHANGE_ICON === "revenue.svg" ? 16 : 24
+                              }
+                              style={{
+                                padding:
+                                  change.CHANGE_ICON === "revenue.svg" ? 4 : ""
+                              }}
+                              alt={change.CHANGE_ICON}
+                              src={Utils.getImage(change.CHANGE_ICON)}
+                            />
+                          )}
                         </ListItemIcon>
                         <ListItemText
                           style={{ marginLeft: -25, maxWidth: "68%" }}
@@ -178,7 +222,7 @@ class CompanyChanges extends Component {
                                     classes.listItem
                                   )}
                                 >
-                                  {change.changeItem}
+                                  {change.changeItem || change.CHANGE_MSG}
                                 </Typography>
                               </div>
                               <ReactTooltip
@@ -192,20 +236,30 @@ class CompanyChanges extends Component {
                                     <span style={{ fontWeight: "bold" }}>
                                       Change:{" "}
                                     </span>
-                                    <span>{change.changeItem}</span>
-                                  </div>
-                                  <div>
-                                    <span style={{ fontWeight: "bold" }}>
-                                      Before Change:{" "}
+                                    <span>
+                                      {change.changeItem || change.CHANGE_MSG}
                                     </span>
-                                    <span>{change.before}</span>
                                   </div>
-                                  <div>
-                                    <span style={{ fontWeight: "bold" }}>
-                                      After Change:{" "}
-                                    </span>
-                                    <span>{change.after}</span>
-                                  </div>
+                                  {change.before ? (
+                                    <div>
+                                      <span style={{ fontWeight: "bold" }}>
+                                        Before Change:{" "}
+                                      </span>
+                                      <span>{change.before}</span>
+                                    </div>
+                                  ) : (
+                                    ""
+                                  )}
+                                  {change.after ? (
+                                    <div>
+                                      <span style={{ fontWeight: "bold" }}>
+                                        After Change:{" "}
+                                      </span>
+                                      <span>{change.after}</span>
+                                    </div>
+                                  ) : (
+                                    ""
+                                  )}
                                 </div>
                               </ReactTooltip>
                             </div>
@@ -217,7 +271,7 @@ class CompanyChanges extends Component {
                             "fontStyle10"
                           )}
                         >
-                          {change.date}
+                          {change.creation_date || change.date}
                         </ListItemSecondaryAction>
                       </ListItem>
                     );
@@ -251,7 +305,7 @@ class CompanyChanges extends Component {
           </DialogTitle>
           <StyledDialogContent>
             <List>
-              {this.state.report.changesList
+              {data
                 .filter(change => change.changeItem !== "")
                 .map((change, idx) => {
                   return (
@@ -271,91 +325,125 @@ class CompanyChanges extends Component {
                             expandIcon={<ExpandMoreIcon />}
                           >
                             <ListItemIcon>
-                              <ChangeIcon
-                                style={{
-                                  height: 20,
-                                  width: 20,
-                                  marginTop: 2,
-                                  color: "#4c84ff"
-                                }}
-                              />
+                              {change.changeItem ? (
+                                <ChangeIcon
+                                  style={{
+                                    height: 20,
+                                    width: 20,
+                                    marginTop: 2,
+                                    color: "#4c84ff"
+                                  }}
+                                />
+                              ) : (
+                                <img
+                                  height={
+                                    change.CHANGE_ICON === "revenue.svg"
+                                      ? 16
+                                      : 24
+                                  }
+                                  width={
+                                    change.CHANGE_ICON === "revenue.svg"
+                                      ? 16
+                                      : 24
+                                  }
+                                  style={{
+                                    padding:
+                                      change.CHANGE_ICON === "revenue.svg"
+                                        ? 4
+                                        : ""
+                                  }}
+                                  alt={change.icon}
+                                  src={Utils.getImage(change.CHANGE_ICON)}
+                                />
+                              )}
                             </ListItemIcon>
                             <StyledListItemText
                               primary={
                                 <Typography className={"fontStyle5"}>
-                                  {change.changeItem}
+                                  {change.changeItem || change.CHANGE_MSG}
                                 </Typography>
                               }
                               secondary={
                                 <Typography className={"fontStyle11"}>
-                                  {"\u2022 Change Date: " + change.date}
+                                  {"\u2022 Change Date: " +
+                                    (change.creation_date || change.date)}
                                 </Typography>
                               }
                             />
                           </StyledExpansionSummary>
                           <StyledExpansionPanelDetails>
-                            <div>
-                              <Typography className={classes.typoTitle}>
-                                {"\u2022"} Before Change:
-                              </Typography>
-                              {this.isSeperatedChange(change.changeItem) ? (
-                                <div>
-                                  {change.before
-                                    .split(/;/)
-                                    .map((change, index) => (
-                                      <Typography
-                                        key={"before" + idx + " " + index}
-                                        style={{ marginLeft: 7 }}
-                                        className={
-                                          this.isSpecialChange(change)
-                                            ? "fontStyle30"
-                                            : "fontStyle11"
-                                        }
-                                      >
-                                        {change}
-                                      </Typography>
-                                    ))}
-                                </div>
-                              ) : (
-                                <Typography
-                                  key={"before" + idx}
-                                  style={{ marginLeft: 7 }}
-                                  className={"fontStyle11"}
-                                >
-                                  {change.before}
+                            {change.changeItem ? (
+                              <div>
+                                <Typography className={classes.typoTitle}>
+                                  {"\u2022"} Before Change:
                                 </Typography>
-                              )}
-                              <Typography className={classes.typoTitle}>
-                                {"\u2022"} After Change:
-                              </Typography>
-                              {this.isSeperatedChange(change.changeItem) ? (
-                                <div>
-                                  {change.after
-                                    .split(/;/)
-                                    .map((change, index) => (
-                                      <Typography
-                                        key={"after" + idx + " " + index}
-                                        style={{ marginLeft: 7 }}
-                                        className={
-                                          this.isSpecialChange(change)
-                                            ? "fontStyle30"
-                                            : "fontStyle11"
-                                        }
-                                      >
-                                        {change}
-                                      </Typography>
-                                    ))}
-                                </div>
-                              ) : (
-                                <Typography
-                                  key={"after" + idx}
-                                  style={{ marginLeft: 7 }}
-                                  className={"fontStyle11"}
-                                >
-                                  {change.after}
+                                {this.isSeperatedChange(change.changeItem) ? (
+                                  <div>
+                                    {change.before
+                                      .split(/;/)
+                                      .map((change, index) => (
+                                        <Typography
+                                          key={"before" + idx + " " + index}
+                                          style={{ marginLeft: 7 }}
+                                          className={
+                                            this.isSpecialChange(change)
+                                              ? "fontStyle30"
+                                              : "fontStyle11"
+                                          }
+                                        >
+                                          {change}
+                                        </Typography>
+                                      ))}
+                                  </div>
+                                ) : (
+                                  <Typography
+                                    key={"before" + idx}
+                                    style={{ marginLeft: 7 }}
+                                    className={"fontStyle11"}
+                                  >
+                                    {change.before}
+                                  </Typography>
+                                )}
+                                <Typography className={classes.typoTitle}>
+                                  {"\u2022"} After Change:
                                 </Typography>
-                              )}
-                            </div>
+                                {this.isSeperatedChange(change.changeItem) ? (
+                                  <div>
+                                    {change.after
+                                      .split(/;/)
+                                      .map((change, index) => (
+                                        <Typography
+                                          key={"after" + idx + " " + index}
+                                          style={{ marginLeft: 7 }}
+                                          className={
+                                            this.isSpecialChange(change)
+                                              ? "fontStyle30"
+                                              : "fontStyle11"
+                                          }
+                                        >
+                                          {change}
+                                        </Typography>
+                                      ))}
+                                  </div>
+                                ) : (
+                                  <Typography
+                                    key={"after" + idx}
+                                    style={{ marginLeft: 7 }}
+                                    className={"fontStyle11"}
+                                  >
+                                    {change.after}
+                                  </Typography>
+                                )}
+                              </div>
+                            ) : (
+                              <div>
+                                <MonitorDetails
+                                  boxlayout={"true"}
+                                  data={change}
+                                  width={width}
+                                />
+                              </div>
+                            )}
                           </StyledExpansionPanelDetails>
                         </StyledExpansionPanel>
                       </StyledListItem>

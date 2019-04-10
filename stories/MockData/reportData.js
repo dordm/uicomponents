@@ -5356,6 +5356,44 @@ const reportData = {
       }
     ]
   },
+  monitoringData: [
+    {
+      CHANGE_FIELD: "TRADE_DATA",
+      CHANGE_DATA: {
+        after: "Total export in 2018: 634,000,000",
+        before: "Total export in 2017: 860,000,000",
+        change: null
+      },
+      CHANGE_MSG: "Total export in 2018 was 36% more than 2017",
+      CHANGE_TYPE: 4,
+      creation_date: "2019-04-08",
+      CHANGE_CAT: "Trade Insight",
+      CHANGE_ICON: "InsightTrade.svg"
+    },
+    {
+      CHANGE_FIELD: "ADDRESS",
+      CHANGE_DATA: {
+        after: "中国(上海)自由贸易试验区耀华路251号一幢一层",
+        before: "福建省福州市鼓楼区学园路56号3号楼301室",
+        change: null
+      },
+      CHANGE_MSG:
+        "The company address has changed from Room 301, Building 3, No.56, Xueyuan Road, Gulou District, Fuzhou City, Fujian Province, China to 1/F, Building 251 Yaohua Road, China (Shanghai) Pilot Free Trade Zone",
+      CHANGE_TYPE: 0,
+      creation_date: "2019-03-18",
+      CHANGE_CAT: "General Insight",
+      CHANGE_ICON: "Status.png"
+    },
+    {
+      CHANGE_FIELD: "SCORE",
+      CHANGE_DATA: { after: 45, before: 60, change: null },
+      CHANGE_MSG: "The company score has decreased from 60 to 45",
+      CHANGE_TYPE: 3,
+      creation_date: "2019-03-28",
+      CHANGE_CAT: "General Insight",
+      CHANGE_ICON: "Status.png"
+    }
+  ],
   shareholders: [
     { name: "Ma Haihua", percent: 30, associate: 1 },
     { name: "Wang Zhaoting", percent: 20, key: 2 },
