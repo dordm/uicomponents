@@ -436,7 +436,7 @@ class CompanyChanges extends Component {
                                 )}
                               </div>
                             ) : (
-                              <div>
+                              <div style={{ width: "100%" }}>
                                 <MonitorDetails
                                   boxlayout={"true"}
                                   data={change}
