@@ -205,7 +205,7 @@ class Utils {
       "Congo, the Democratic Republic of the",
       "Cook Islands",
       "Costa Rica",
-      "Cote d'Ivoire",
+      "Cote dIvoire",
       "Croatia (Hrvatska)",
       "Cuba",
       "Cyprus",
@@ -464,6 +464,8 @@ class Utils {
       case "Djibouti":
         return require("../images/countries/DJ.svg");
       case "Cote d'Ivoire":
+        return require("../images/countries/CI.svg");
+      case "Cote dIvoire":
         return require("../images/countries/CI.svg");
       case "Albania":
         return require("../images/countries/AL.svg");
