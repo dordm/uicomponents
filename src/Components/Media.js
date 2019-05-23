@@ -234,9 +234,13 @@ class Media extends Component {
                             </StyledExpansionSummary>
                             <StyledExpansionPanelDetails>
                               <div>
-                                <Typography className={"fontStyle11"}>
-                                  {"\u2022"} Source: {media.source}
-                                </Typography>
+                                {media.source ? (
+                                  <Typography className={"fontStyle11"}>
+                                    {"\u2022"} Source: {media.source}
+                                  </Typography>
+                                ) : (
+                                  ""
+                                )}
                                 <Typography className={"fontStyle11"}>
                                   {"\u2022"} Source Url:{" "}
                                   <a
@@ -247,9 +251,13 @@ class Media extends Component {
                                     {media.url}
                                   </a>
                                 </Typography>
-                                <Typography className={"fontStyle11"}>
-                                  {"\u2022"} Description: {media.description}
-                                </Typography>
+                                {media.description ? (
+                                  <Typography className={"fontStyle11"}>
+                                    {"\u2022"} Description: {media.description}
+                                  </Typography>
+                                ) : (
+                                  ""
+                                )}
                               </div>
                             </StyledExpansionPanelDetails>
                           </StyledExpansionPanel>
