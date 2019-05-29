@@ -1,5 +1,5 @@
 {
-  "name": "@tiidan/uicomponents",
+  "name": "@dordm/uicomponents",
   "version": "2.0.40",
   "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
   "main": "dist/index.js",
@@ -52,9 +52,8 @@
     "recompose": "^0.30.0",
     "styled-components": "^3.4.5"
   },
-  "repository": "https://bitbucket.org/tiidan/uicomponents#readme",
+  "repository": "https://github.com/dordm/uicomponents",
   "keywords": [],
   "author": "dordm",
-  "license": "MIT",
-  "homepage": "https://bitbucket.org/tiidan/uicomponents#readme"
+  "license": "MIT"
 }
